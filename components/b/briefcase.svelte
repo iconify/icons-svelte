@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/a/avylcuyds.css';
+import '../../css/g/gdiha9p_o.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><rect class="avylcuyds"/><path class="gdiha9p_o"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="feather:briefcase" {...props}></Icon>
