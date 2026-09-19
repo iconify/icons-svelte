@@ -1,0 +1,647 @@
+{
+  "name": "@iconify-svelte/academicons",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/academicons/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "OFL-1.1",
+  "exports": {
+    "./academia": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/academia.svelte"
+    },
+    "./academia-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/academia-square.svelte"
+    },
+    "./acclaim": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acclaim.svelte"
+    },
+    "./acclaim-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acclaim-square.svelte"
+    },
+    "./acm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acm.svelte"
+    },
+    "./acm-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acm-square.svelte"
+    },
+    "./acmdl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acmdl.svelte"
+    },
+    "./acmdl-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acmdl-square.svelte"
+    },
+    "./ads": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ads.svelte"
+    },
+    "./ads-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ads-square.svelte"
+    },
+    "./africarxiv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/africarxiv.svelte"
+    },
+    "./africarxiv-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/africarxiv-square.svelte"
+    },
+    "./archive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive.svelte"
+    },
+    "./archive-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-square.svelte"
+    },
+    "./arxiv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arxiv.svelte"
+    },
+    "./arxiv-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arxiv-square.svelte"
+    },
+    "./biorxiv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/biorxiv.svelte"
+    },
+    "./biorxiv-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/biorxiv-square.svelte"
+    },
+    "./ceur": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/ceur.svelte"
+    },
+    "./ceur-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/ceur-square.svelte"
+    },
+    "./ciencia-vitae": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/ciencia-vitae.svelte"
+    },
+    "./ciencia-vitae-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/ciencia-vitae-square.svelte"
+    },
+    "./clarivate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clarivate.svelte"
+    },
+    "./clarivate-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clarivate-square.svelte"
+    },
+    "./closed-access": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/closed-access.svelte"
+    },
+    "./closed-access-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/closed-access-square.svelte"
+    },
+    "./conversation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/conversation.svelte"
+    },
+    "./conversation-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/conversation-square.svelte"
+    },
+    "./coursera": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coursera.svelte"
+    },
+    "./coursera-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coursera-square.svelte"
+    },
+    "./crossref": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crossref.svelte"
+    },
+    "./crossref-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crossref-square.svelte"
+    },
+    "./cv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cv.svelte"
+    },
+    "./cv-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cv-square.svelte"
+    },
+    "./datacite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datacite.svelte"
+    },
+    "./datacite-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datacite-square.svelte"
+    },
+    "./dataverse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dataverse.svelte"
+    },
+    "./dataverse-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dataverse-square.svelte"
+    },
+    "./dblp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dblp.svelte"
+    },
+    "./dblp-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dblp-square.svelte"
+    },
+    "./depsy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/depsy.svelte"
+    },
+    "./depsy-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/depsy-square.svelte"
+    },
+    "./doi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/doi.svelte"
+    },
+    "./doi-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/doi-square.svelte"
+    },
+    "./dryad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dryad.svelte"
+    },
+    "./dryad-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dryad-square.svelte"
+    },
+    "./elsevier": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elsevier.svelte"
+    },
+    "./elsevier-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elsevier-square.svelte"
+    },
+    "./figshare": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figshare.svelte"
+    },
+    "./figshare-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figshare-square.svelte"
+    },
+    "./google-scholar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-scholar.svelte"
+    },
+    "./google-scholar-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-scholar-square.svelte"
+    },
+    "./hal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hal.svelte"
+    },
+    "./hal-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hal-square.svelte"
+    },
+    "./hypothesis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hypothesis.svelte"
+    },
+    "./hypothesis-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hypothesis-square.svelte"
+    },
+    "./ideas-repec": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ideas-repec.svelte"
+    },
+    "./ideas-repec-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ideas-repec-square.svelte"
+    },
+    "./ieee": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ieee.svelte"
+    },
+    "./ieee-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ieee-square.svelte"
+    },
+    "./impactstory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/impactstory.svelte"
+    },
+    "./impactstory-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/impactstory-square.svelte"
+    },
+    "./inaturalist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inaturalist.svelte"
+    },
+    "./inaturalist-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inaturalist-square.svelte"
+    },
+    "./inpn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inpn.svelte"
+    },
+    "./inpn-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inpn-square.svelte"
+    },
+    "./inspire": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inspire.svelte"
+    },
+    "./inspire-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inspire-square.svelte"
+    },
+    "./isidore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/isidore.svelte"
+    },
+    "./isidore-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/isidore-square.svelte"
+    },
+    "./isni": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/isni.svelte"
+    },
+    "./isni-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/isni-square.svelte"
+    },
+    "./jstor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jstor.svelte"
+    },
+    "./jstor-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jstor-square.svelte"
+    },
+    "./lattes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lattes.svelte"
+    },
+    "./lattes-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lattes-square.svelte"
+    },
+    "./mathoverflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mathoverflow.svelte"
+    },
+    "./mathoverflow-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mathoverflow-square.svelte"
+    },
+    "./mendeley": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mendeley.svelte"
+    },
+    "./mendeley-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mendeley-square.svelte"
+    },
+    "./moodle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moodle.svelte"
+    },
+    "./moodle-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moodle-square.svelte"
+    },
+    "./mtmt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mtmt.svelte"
+    },
+    "./mtmt-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mtmt-square.svelte"
+    },
+    "./nakala": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nakala.svelte"
+    },
+    "./nakala-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nakala-square.svelte"
+    },
+    "./obp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/obp.svelte"
+    },
+    "./obp-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/obp-square.svelte"
+    },
+    "./open-access": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-access.svelte"
+    },
+    "./open-access-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-access-square.svelte"
+    },
+    "./open-data": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-data.svelte"
+    },
+    "./open-data-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-data-square.svelte"
+    },
+    "./open-materials": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-materials.svelte"
+    },
+    "./open-materials-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-materials-square.svelte"
+    },
+    "./openedition": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openedition.svelte"
+    },
+    "./openedition-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openedition-square.svelte"
+    },
+    "./orcid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orcid.svelte"
+    },
+    "./orcid-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orcid-square.svelte"
+    },
+    "./osf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/osf.svelte"
+    },
+    "./osf-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/osf-square.svelte"
+    },
+    "./overleaf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overleaf.svelte"
+    },
+    "./overleaf-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overleaf-square.svelte"
+    },
+    "./philpapers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/philpapers.svelte"
+    },
+    "./philpapers-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/philpapers-square.svelte"
+    },
+    "./piazza": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/piazza.svelte"
+    },
+    "./piazza-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/piazza-square.svelte"
+    },
+    "./preregistered": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered.svelte"
+    },
+    "./preregistered-de": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de.svelte"
+    },
+    "./preregistered-de-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de-plus.svelte"
+    },
+    "./preregistered-de-plus-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de-plus-square.svelte"
+    },
+    "./preregistered-de-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de-square.svelte"
+    },
+    "./preregistered-de-tc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de-tc.svelte"
+    },
+    "./preregistered-de-tc-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de-tc-plus.svelte"
+    },
+    "./preregistered-de-tc-plus-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de-tc-plus-square.svelte"
+    },
+    "./preregistered-de-tc-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-de-tc-square.svelte"
+    },
+    "./preregistered-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-square.svelte"
+    },
+    "./preregistered-tc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-tc.svelte"
+    },
+    "./preregistered-tc-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-tc-plus.svelte"
+    },
+    "./preregistered-tc-plus-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-tc-plus-square.svelte"
+    },
+    "./preregistered-tc-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preregistered-tc-square.svelte"
+    },
+    "./protocols": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protocols.svelte"
+    },
+    "./protocols-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protocols-square.svelte"
+    },
+    "./psyarxiv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/psyarxiv.svelte"
+    },
+    "./psyarxiv-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/psyarxiv-square.svelte"
+    },
+    "./publons": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/publons.svelte"
+    },
+    "./publons-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/publons-square.svelte"
+    },
+    "./pubmed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pubmed.svelte"
+    },
+    "./pubmed-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pubmed-square.svelte"
+    },
+    "./pubpeer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pubpeer.svelte"
+    },
+    "./pubpeer-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pubpeer-square.svelte"
+    },
+    "./researcherid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/researcherid.svelte"
+    },
+    "./researcherid-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/researcherid-square.svelte"
+    },
+    "./researchgate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/researchgate.svelte"
+    },
+    "./researchgate-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/researchgate-square.svelte"
+    },
+    "./ror": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ror.svelte"
+    },
+    "./ror-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ror-square.svelte"
+    },
+    "./sci-hub": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sci-hub.svelte"
+    },
+    "./sci-hub-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sci-hub-square.svelte"
+    },
+    "./scirate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scirate.svelte"
+    },
+    "./scirate-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scirate-square.svelte"
+    },
+    "./scopus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scopus.svelte"
+    },
+    "./scopus-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scopus-square.svelte"
+    },
+    "./semantic-scholar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/semantic-scholar.svelte"
+    },
+    "./semantic-scholar-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/semantic-scholar-square.svelte"
+    },
+    "./springer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/springer.svelte"
+    },
+    "./springer-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/springer-square.svelte"
+    },
+    "./ssrn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/ssrn.svelte"
+    },
+    "./ssrn-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/ssrn-square.svelte"
+    },
+    "./stackoverflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackoverflow.svelte"
+    },
+    "./stackoverflow-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackoverflow-square.svelte"
+    },
+    "./viaf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viaf.svelte"
+    },
+    "./viaf-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viaf-square.svelte"
+    },
+    "./wiley": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wiley.svelte"
+    },
+    "./wiley-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wiley-square.svelte"
+    },
+    "./zenodo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zenodo.svelte"
+    },
+    "./zenodo-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zenodo-square.svelte"
+    },
+    "./zotero": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zotero.svelte"
+    },
+    "./zotero-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zotero-square.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#academicons"
+}
