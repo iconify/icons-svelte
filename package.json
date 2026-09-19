@@ -1,0 +1,871 @@
+{
+  "name": "@iconify-svelte/gcp",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/gcp/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "Apache-2.0",
+  "exports": {
+    "./access-context-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/access-context-manager.svelte"
+    },
+    "./administration": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/administration.svelte"
+    },
+    "./advanced-agent-modeling": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/advanced-agent-modeling.svelte"
+    },
+    "./advanced-solutions-lab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/advanced-solutions-lab.svelte"
+    },
+    "./agent-assist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agent-assist.svelte"
+    },
+    "./ai-hub": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-hub.svelte"
+    },
+    "./ai-platform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-platform.svelte"
+    },
+    "./ai-platform-unified": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-platform-unified.svelte"
+    },
+    "./analytics-hub": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analytics-hub.svelte"
+    },
+    "./anthos": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anthos.svelte"
+    },
+    "./anthos-config-management": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anthos-config-management.svelte"
+    },
+    "./anthos-service-mesh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anthos-service-mesh.svelte"
+    },
+    "./api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/api.svelte"
+    },
+    "./api-analytics": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/api-analytics.svelte"
+    },
+    "./api-monetization": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/api-monetization.svelte"
+    },
+    "./apigee-api-platform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apigee-api-platform.svelte"
+    },
+    "./apigee-sense": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apigee-sense.svelte"
+    },
+    "./app-engine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-engine.svelte"
+    },
+    "./artifact-registry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/artifact-registry.svelte"
+    },
+    "./asset-inventory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/asset-inventory.svelte"
+    },
+    "./assured-workloads": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/assured-workloads.svelte"
+    },
+    "./automl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automl.svelte"
+    },
+    "./automl-natural-language": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automl-natural-language.svelte"
+    },
+    "./automl-tables": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automl-tables.svelte"
+    },
+    "./automl-translation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automl-translation.svelte"
+    },
+    "./automl-video-intelligence": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automl-video-intelligence.svelte"
+    },
+    "./automl-vision": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automl-vision.svelte"
+    },
+    "./bare-metal-solutions": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bare-metal-solutions.svelte"
+    },
+    "./batch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/batch.svelte"
+    },
+    "./beyondcorp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beyondcorp.svelte"
+    },
+    "./bigquery": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bigquery.svelte"
+    },
+    "./bigtable": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bigtable.svelte"
+    },
+    "./billing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/billing.svelte"
+    },
+    "./binary-authorization": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binary-authorization.svelte"
+    },
+    "./catalog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/catalog.svelte"
+    },
+    "./certificate-authority-service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-authority-service.svelte"
+    },
+    "./certificate-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-manager.svelte"
+    },
+    "./cloud-api-gateway": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-api-gateway.svelte"
+    },
+    "./cloud-apis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-apis.svelte"
+    },
+    "./cloud-armor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-armor.svelte"
+    },
+    "./cloud-asset-inventory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-asset-inventory.svelte"
+    },
+    "./cloud-audit-logs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-audit-logs.svelte"
+    },
+    "./cloud-build": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-build.svelte"
+    },
+    "./cloud-cdn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-cdn.svelte"
+    },
+    "./cloud-code": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-code.svelte"
+    },
+    "./cloud-composer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-composer.svelte"
+    },
+    "./cloud-data-fusion": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-data-fusion.svelte"
+    },
+    "./cloud-deploy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-deploy.svelte"
+    },
+    "./cloud-deployment-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-deployment-manager.svelte"
+    },
+    "./cloud-dns": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-dns.svelte"
+    },
+    "./cloud-domains": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-domains.svelte"
+    },
+    "./cloud-ekm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-ekm.svelte"
+    },
+    "./cloud-endpoints": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-endpoints.svelte"
+    },
+    "./cloud-external-ip-addresses": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-external-ip-addresses.svelte"
+    },
+    "./cloud-firewall-rules": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-firewall-rules.svelte"
+    },
+    "./cloud-for-marketing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-for-marketing.svelte"
+    },
+    "./cloud-functions": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-functions.svelte"
+    },
+    "./cloud-generic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-generic.svelte"
+    },
+    "./cloud-gpu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-gpu.svelte"
+    },
+    "./cloud-healthcare-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-healthcare-api.svelte"
+    },
+    "./cloud-healthcare-marketplace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-healthcare-marketplace.svelte"
+    },
+    "./cloud-hsm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-hsm.svelte"
+    },
+    "./cloud-ids": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-ids.svelte"
+    },
+    "./cloud-inference-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-inference-api.svelte"
+    },
+    "./cloud-interconnect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-interconnect.svelte"
+    },
+    "./cloud-jobs-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-jobs-api.svelte"
+    },
+    "./cloud-load-balancing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-load-balancing.svelte"
+    },
+    "./cloud-logging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-logging.svelte"
+    },
+    "./cloud-media-edge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-media-edge.svelte"
+    },
+    "./cloud-monitoring": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-monitoring.svelte"
+    },
+    "./cloud-nat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-nat.svelte"
+    },
+    "./cloud-natural-language-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-natural-language-api.svelte"
+    },
+    "./cloud-network": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-network.svelte"
+    },
+    "./cloud-ops": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-ops.svelte"
+    },
+    "./cloud-optimization-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-optimization-ai.svelte"
+    },
+    "./cloud-optimization-ai-fleet-routing-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-optimization-ai-fleet-routing-api.svelte"
+    },
+    "./cloud-router": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-router.svelte"
+    },
+    "./cloud-routes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-routes.svelte"
+    },
+    "./cloud-run": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-run.svelte"
+    },
+    "./cloud-run-for-anthos": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-run-for-anthos.svelte"
+    },
+    "./cloud-scheduler": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-scheduler.svelte"
+    },
+    "./cloud-security-scanner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-security-scanner.svelte"
+    },
+    "./cloud-shell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-shell.svelte"
+    },
+    "./cloud-spanner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-spanner.svelte"
+    },
+    "./cloud-sql": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-sql.svelte"
+    },
+    "./cloud-storage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-storage.svelte"
+    },
+    "./cloud-tasks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-tasks.svelte"
+    },
+    "./cloud-test-lab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-test-lab.svelte"
+    },
+    "./cloud-tpu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-tpu.svelte"
+    },
+    "./cloud-translation-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-translation-api.svelte"
+    },
+    "./cloud-vision-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-vision-api.svelte"
+    },
+    "./cloud-vpn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-vpn.svelte"
+    },
+    "./compute-engine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compute-engine.svelte"
+    },
+    "./configuration-management": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/configuration-management.svelte"
+    },
+    "./connectivity-test": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/connectivity-test.svelte"
+    },
+    "./connectors": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/connectors.svelte"
+    },
+    "./contact-center-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contact-center-ai.svelte"
+    },
+    "./container-optimized-os": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-optimized-os.svelte"
+    },
+    "./container-registry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-registry.svelte"
+    },
+    "./data-catalog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-catalog.svelte"
+    },
+    "./data-labeling": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-labeling.svelte"
+    },
+    "./data-layers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-layers.svelte"
+    },
+    "./data-loss-prevention-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-loss-prevention-api.svelte"
+    },
+    "./data-qna": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-qna.svelte"
+    },
+    "./data-studio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-studio.svelte"
+    },
+    "./data-transfer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-transfer.svelte"
+    },
+    "./database-migration-service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-migration-service.svelte"
+    },
+    "./dataflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dataflow.svelte"
+    },
+    "./datalab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datalab.svelte"
+    },
+    "./dataplex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dataplex.svelte"
+    },
+    "./datapol": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datapol.svelte"
+    },
+    "./dataprep": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dataprep.svelte"
+    },
+    "./dataproc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dataproc.svelte"
+    },
+    "./dataproc-metastore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dataproc-metastore.svelte"
+    },
+    "./datashare": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datashare.svelte"
+    },
+    "./datastore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datastore.svelte"
+    },
+    "./datastream": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datastream.svelte"
+    },
+    "./debugger": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/debugger.svelte"
+    },
+    "./developer-portal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/developer-portal.svelte"
+    },
+    "./dialogflow-cx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dialogflow-cx.svelte"
+    },
+    "./dialogflow-insights": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dialogflow-insights.svelte"
+    },
+    "./document-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-ai.svelte"
+    },
+    "./early-access-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/early-access-center.svelte"
+    },
+    "./error-reporting": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-reporting.svelte"
+    },
+    "./eventarc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eventarc.svelte"
+    },
+    "./filestore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filestore.svelte"
+    },
+    "./financial-services-marketplace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/financial-services-marketplace.svelte"
+    },
+    "./firestore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firestore.svelte"
+    },
+    "./fleet-engine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fleet-engine.svelte"
+    },
+    "./free-trial": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/free-trial.svelte"
+    },
+    "./game-servers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/game-servers.svelte"
+    },
+    "./gce-systems-management": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gce-systems-management.svelte"
+    },
+    "./genomics": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/genomics.svelte"
+    },
+    "./gke-on-prem": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gke-on-prem.svelte"
+    },
+    "./google-cloud-marketplace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-cloud-marketplace.svelte"
+    },
+    "./google-kubernetes-engine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-kubernetes-engine.svelte"
+    },
+    "./google-maps-platform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-maps-platform.svelte"
+    },
+    "./healthcare-nlp-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/healthcare-nlp-api.svelte"
+    },
+    "./home": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home.svelte"
+    },
+    "./identity-and-access-management": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/identity-and-access-management.svelte"
+    },
+    "./identity-aware-proxy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/identity-aware-proxy.svelte"
+    },
+    "./identity-platform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/identity-platform.svelte"
+    },
+    "./iot-core": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iot-core.svelte"
+    },
+    "./iot-edge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iot-edge.svelte"
+    },
+    "./key-access-justifications": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-access-justifications.svelte"
+    },
+    "./key-management-service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-management-service.svelte"
+    },
+    "./kuberun": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kuberun.svelte"
+    },
+    "./launcher": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/launcher.svelte"
+    },
+    "./local-ssd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/local-ssd.svelte"
+    },
+    "./managed-service-for-microsoft-active-directory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/managed-service-for-microsoft-active-directory.svelte"
+    },
+    "./media-translation-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/media-translation-api.svelte"
+    },
+    "./memorystore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memorystore.svelte"
+    },
+    "./migrate-for-anthos": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/migrate-for-anthos.svelte"
+    },
+    "./migrate-for-compute-engine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/migrate-for-compute-engine.svelte"
+    },
+    "./my-cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/my-cloud.svelte"
+    },
+    "./network-connectivity-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-connectivity-center.svelte"
+    },
+    "./network-intelligence-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-intelligence-center.svelte"
+    },
+    "./network-security": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-security.svelte"
+    },
+    "./network-tiers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-tiers.svelte"
+    },
+    "./network-topology": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-topology.svelte"
+    },
+    "./onboarding": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/onboarding.svelte"
+    },
+    "./os-configuration-management": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/os-configuration-management.svelte"
+    },
+    "./os-inventory-management": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/os-inventory-management.svelte"
+    },
+    "./os-patch-management": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/os-patch-management.svelte"
+    },
+    "./partner-interconnect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partner-interconnect.svelte"
+    },
+    "./partner-portal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partner-portal.svelte"
+    },
+    "./performance-dashboard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/performance-dashboard.svelte"
+    },
+    "./permissions": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/permissions.svelte"
+    },
+    "./persistent-disk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/persistent-disk.svelte"
+    },
+    "./phishing-protection": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phishing-protection.svelte"
+    },
+    "./policy-analyzer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/policy-analyzer.svelte"
+    },
+    "./premium-network-tier": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premium-network-tier.svelte"
+    },
+    "./private-connectivity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/private-connectivity.svelte"
+    },
+    "./private-service-connect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/private-service-connect.svelte"
+    },
+    "./producer-portal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/producer-portal.svelte"
+    },
+    "./profiler": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/profiler.svelte"
+    },
+    "./project": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project.svelte"
+    },
+    "./pubsub": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pubsub.svelte"
+    },
+    "./quantum-engine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quantum-engine.svelte"
+    },
+    "./quotas": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quotas.svelte"
+    },
+    "./real-world-insights": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/real-world-insights.svelte"
+    },
+    "./recommendations-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/recommendations-ai.svelte"
+    },
+    "./release-notes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/release-notes.svelte"
+    },
+    "./retail-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/retail-api.svelte"
+    },
+    "./risk-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/risk-manager.svelte"
+    },
+    "./runtime-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/runtime-config.svelte"
+    },
+    "./secret-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/secret-manager.svelte"
+    },
+    "./security": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/security.svelte"
+    },
+    "./security-command-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/security-command-center.svelte"
+    },
+    "./security-health-advisor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/security-health-advisor.svelte"
+    },
+    "./security-key-enforcement": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/security-key-enforcement.svelte"
+    },
+    "./service-discovery": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/service-discovery.svelte"
+    },
+    "./speech-to-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/speech-to-text.svelte"
+    },
+    "./stackdriver": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackdriver.svelte"
+    },
+    "./standard-network-tier": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/standard-network-tier.svelte"
+    },
+    "./stream-suite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stream-suite.svelte"
+    },
+    "./support": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/support.svelte"
+    },
+    "./tensorflow-enterprise": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tensorflow-enterprise.svelte"
+    },
+    "./text-to-speech": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-to-speech.svelte"
+    },
+    "./tools-for-powershell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools-for-powershell.svelte"
+    },
+    "./trace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trace.svelte"
+    },
+    "./traffic-director": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/traffic-director.svelte"
+    },
+    "./transfer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transfer.svelte"
+    },
+    "./transfer-appliance": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transfer-appliance.svelte"
+    },
+    "./user-preferences": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-preferences.svelte"
+    },
+    "./vertexai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vertexai.svelte"
+    },
+    "./video-intelligence-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-intelligence-api.svelte"
+    },
+    "./virtual-private-cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virtual-private-cloud.svelte"
+    },
+    "./visual-inspection": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visual-inspection.svelte"
+    },
+    "./vmware-engine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vmware-engine.svelte"
+    },
+    "./web-risk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/web-risk.svelte"
+    },
+    "./web-security-scanner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/web-security-scanner.svelte"
+    },
+    "./workflows": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/workflows.svelte"
+    },
+    "./workload-identity-pool": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/workload-identity-pool.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#gcp"
+}
