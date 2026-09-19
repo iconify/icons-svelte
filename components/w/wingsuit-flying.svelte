@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/btx30rb9t.css';
+import '../../css/i/i_r28w9ux.css';
+import '../../css/y/ydkw8wkxd.css';
+import '../../css/c/crqsvlbwz.css';
+import '../../css/v/v2j7te83t.css';
+import '../../css/c/cylzn3m1b.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="btx30rb9t"><path class="i_r28w9ux"/><path class="ydkw8wkxd"/><path class="crqsvlbwz"/><path class="v2j7te83t"/><path class="cylzn3m1b"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park:wingsuit-flying" {...props}></Icon>

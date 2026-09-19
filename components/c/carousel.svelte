@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/ufeehvblu.css';
+import '../../css/q/q9rrfmswq.css';
+import '../../css/k/kx983zbwf.css';
+import '../../css/u/uddjpj_nf.css';
+import '../../css/h/hyoqxwbcr.css';
+import '../../css/p/pkuizzokp.css';
+import '../../css/h/hhfblyb9t.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="ufeehvblu"><path class="q9rrfmswq"/><path class="kx983zbwf"/><path class="uddjpj_nf"/><path class="hyoqxwbcr"/><path class="pkuizzokp"/><path class="hhfblyb9t"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park:carousel" {...props}></Icon>

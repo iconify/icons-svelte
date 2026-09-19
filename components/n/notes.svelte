@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/ufeehvblu.css';
+import '../../css/k/kgtfhz94h.css';
+import '../../css/s/smdm4abnm.css';
+import '../../css/u/u8vdedb1l.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="ufeehvblu"><path class="kgtfhz94h"/><path class="smdm4abnm"/><path class="u8vdedb1l"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park:notes" {...props}></Icon>

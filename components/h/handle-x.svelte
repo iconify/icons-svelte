@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/w/wwvp95byt.css';
+import '../../css/h/hrq90hfel.css';
+import '../../css/n/nk-6w4_er.css';
+import '../../css/d/d25hpvtvf.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="wwvp95byt"><circle class="hrq90hfel"/><path class="nk-6w4_er"/><path class="d25hpvtvf"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park:handle-x" {...props}></Icon>
