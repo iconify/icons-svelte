@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/r/rohhhzb0l.css';
+import '../../css/d/dkr0e0w5v.css';
+import '../../css/m/mqgl1bc0v.css';
+import '../../css/b/bl95smbeo.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<defs><mask id="SVGyDM9X1Xr"><g class="rohhhzb0l"><circle class="dkr0e0w5v"/><path class="mqgl1bc0v"/></g></mask></defs><path mask="url(#SVGyDM9X1Xr)" class="bl95smbeo"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park-twotone:key-one" {...props}></Icon>

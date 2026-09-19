@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/v/v3_i3wktz.css';
+import '../../css/l/lf83cxb8z.css';
+import '../../css/o/orlfnvmgi.css';
+import '../../css/r/ri7ymhbfz.css';
+import '../../css/a/as81pf7bf.css';
+import '../../css/b/bl95smbeo.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<defs><mask id="SVGJu9P0c0o"><g class="v3_i3wktz"><path class="lf83cxb8z"/><path class="orlfnvmgi"/><path class="ri7ymhbfz"/><path class="as81pf7bf"/></g></mask></defs><path mask="url(#SVGJu9P0c0o)" class="bl95smbeo"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park-twotone:hourglass-full" {...props}></Icon>
