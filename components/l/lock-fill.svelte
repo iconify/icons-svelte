@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/a/ar5b5-zjh.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":1024,"height":1024};
+const content = `<path class="ar5b5-zjh"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ant-design:lock-fill" {...props}></Icon>

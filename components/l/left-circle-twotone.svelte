@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/uwaa64zik.css';
+import '../../css/y/yv_brepse.css';
+import '../../css/r/rykla9wen.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":1024,"height":1024};
+const content = `<path class="uwaa64zik"/><path class="yv_brepse"/><path class="rykla9wen"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ant-design:left-circle-twotone" {...props}></Icon>

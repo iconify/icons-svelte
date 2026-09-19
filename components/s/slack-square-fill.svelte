@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/tna4p3b0g.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":1024,"height":1024};
+const content = `<path class="tna4p3b0g"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ant-design:slack-square-fill" {...props}></Icon>
