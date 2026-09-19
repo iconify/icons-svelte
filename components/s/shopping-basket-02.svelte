@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/s/s9eo6d69l.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s9eo6d69l"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:shopping-basket-02" {...props}></Icon>
