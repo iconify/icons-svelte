@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/z/z9hb5yb2a.css';
+import '../../css/g/gctaj9b_q.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="z9hb5yb2a"/><path class="gctaj9b_q"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="bx:globe-alt" {...props}></Icon>

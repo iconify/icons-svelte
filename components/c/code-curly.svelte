@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/k/kog2ww13f.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kog2ww13f"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="bx:code-curly" {...props}></Icon>

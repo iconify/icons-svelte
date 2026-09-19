@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/f_21izbtn.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="f_21izbtn"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="bx:book-open" {...props}></Icon>

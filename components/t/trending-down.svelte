@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/p/pvfcz2blm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pvfcz2blm"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="bx:trending-down" {...props}></Icon>

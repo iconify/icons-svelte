@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/m/mbf7gxbpw.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mbf7gxbpw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="bx:scan" {...props}></Icon>
