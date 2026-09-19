@@ -1,0 +1,2655 @@
+{
+  "name": "@iconify-svelte/catppuccin",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/catppuccin/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/3d.svelte"
+    },
+    "./adobe-ae": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-ae.svelte"
+    },
+    "./adobe-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-ai.svelte"
+    },
+    "./adobe-id": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-id.svelte"
+    },
+    "./adobe-ps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-ps.svelte"
+    },
+    "./adobe-xd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-xd.svelte"
+    },
+    "./adonis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adonis.svelte"
+    },
+    "./alex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alex.svelte"
+    },
+    "./amber": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amber.svelte"
+    },
+    "./android": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/android.svelte"
+    },
+    "./angular": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular.svelte"
+    },
+    "./angular-component": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-component.svelte"
+    },
+    "./angular-directive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-directive.svelte"
+    },
+    "./angular-guard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-guard.svelte"
+    },
+    "./angular-pipe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-pipe.svelte"
+    },
+    "./angular-service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-service.svelte"
+    },
+    "./ansible-lint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ansible-lint.svelte"
+    },
+    "./antlr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/antlr.svelte"
+    },
+    "./apache": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apache.svelte"
+    },
+    "./api-blueprint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/api-blueprint.svelte"
+    },
+    "./apollo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apollo.svelte"
+    },
+    "./apple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple.svelte"
+    },
+    "./arduino": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arduino.svelte"
+    },
+    "./asciidoc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/asciidoc.svelte"
+    },
+    "./assembly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/assembly.svelte"
+    },
+    "./astro": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/astro.svelte"
+    },
+    "./astro-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/astro-config.svelte"
+    },
+    "./audio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/audio.svelte"
+    },
+    "./autohotkey": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autohotkey.svelte"
+    },
+    "./azure-pipelines": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azure-pipelines.svelte"
+    },
+    "./babel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/babel.svelte"
+    },
+    "./bash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bash.svelte"
+    },
+    "./batch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/batch.svelte"
+    },
+    "./bazel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bazel.svelte"
+    },
+    "./benchmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/benchmark.svelte"
+    },
+    "./bicep": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bicep.svelte"
+    },
+    "./binary": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binary.svelte"
+    },
+    "./biome": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/biome.svelte"
+    },
+    "./bitbucket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitbucket.svelte"
+    },
+    "./blink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blink.svelte"
+    },
+    "./blitz": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blitz.svelte"
+    },
+    "./bower": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bower.svelte"
+    },
+    "./browserslist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/browserslist.svelte"
+    },
+    "./bun": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bun.svelte"
+    },
+    "./bun-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bun-lock.svelte"
+    },
+    "./c": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c.svelte"
+    },
+    "./c-header": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c-header.svelte"
+    },
+    "./cabal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cabal.svelte"
+    },
+    "./caddy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caddy.svelte"
+    },
+    "./capacitor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/capacitor.svelte"
+    },
+    "./cargo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cargo.svelte"
+    },
+    "./cargo-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cargo-lock.svelte"
+    },
+    "./certificate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate.svelte"
+    },
+    "./changelog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/changelog.svelte"
+    },
+    "./circle-ci": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-ci.svelte"
+    },
+    "./clojure": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clojure.svelte"
+    },
+    "./cmake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cmake.svelte"
+    },
+    "./cobol": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cobol.svelte"
+    },
+    "./code-climate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-climate.svelte"
+    },
+    "./code-of-conduct": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-of-conduct.svelte"
+    },
+    "./codeowners": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codeowners.svelte"
+    },
+    "./coffeescript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coffeescript.svelte"
+    },
+    "./commitlint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/commitlint.svelte"
+    },
+    "./config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/config.svelte"
+    },
+    "./contributing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contributing.svelte"
+    },
+    "./cpp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpp.svelte"
+    },
+    "./cpp-header": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpp-header.svelte"
+    },
+    "./crystal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crystal.svelte"
+    },
+    "./csharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/csharp.svelte"
+    },
+    "./cspell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cspell.svelte"
+    },
+    "./css": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/css.svelte"
+    },
+    "./css-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/css-map.svelte"
+    },
+    "./css3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/css3.svelte"
+    },
+    "./csv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/csv.svelte"
+    },
+    "./cucumber": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cucumber.svelte"
+    },
+    "./cuda": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cuda.svelte"
+    },
+    "./cue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cue.svelte"
+    },
+    "./cursor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor.svelte"
+    },
+    "./cursor-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-ignore.svelte"
+    },
+    "./cypress": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cypress.svelte"
+    },
+    "./d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/d.svelte"
+    },
+    "./darklua": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/darklua.svelte"
+    },
+    "./dart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dart.svelte"
+    },
+    "./dart-generated": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dart-generated.svelte"
+    },
+    "./database": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database.svelte"
+    },
+    "./deno": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deno.svelte"
+    },
+    "./deno-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deno-lock.svelte"
+    },
+    "./dependabot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dependabot.svelte"
+    },
+    "./devcontainer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devcontainer.svelte"
+    },
+    "./dhall": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dhall.svelte"
+    },
+    "./diff": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff.svelte"
+    },
+    "./django": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/django.svelte"
+    },
+    "./docker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker.svelte"
+    },
+    "./docker-compose": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-compose.svelte"
+    },
+    "./docker-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-ignore.svelte"
+    },
+    "./docusaurus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docusaurus.svelte"
+    },
+    "./drawio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drawio.svelte"
+    },
+    "./drizzle-orm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drizzle-orm.svelte"
+    },
+    "./dub": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dub.svelte"
+    },
+    "./dub-selections": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dub-selections.svelte"
+    },
+    "./editorconfig": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/editorconfig.svelte"
+    },
+    "./ejs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ejs.svelte"
+    },
+    "./eleventy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eleventy.svelte"
+    },
+    "./elixir": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elixir.svelte"
+    },
+    "./elm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elm.svelte"
+    },
+    "./ember": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ember.svelte"
+    },
+    "./env": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/env.svelte"
+    },
+    "./envrc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envrc.svelte"
+    },
+    "./erlang": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/erlang.svelte"
+    },
+    "./esbuild": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/esbuild.svelte"
+    },
+    "./eslint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eslint.svelte"
+    },
+    "./eslint-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eslint-ignore.svelte"
+    },
+    "./exe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exe.svelte"
+    },
+    "./fastlane": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fastlane.svelte"
+    },
+    "./favicon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/favicon.svelte"
+    },
+    "./figma": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figma.svelte"
+    },
+    "./file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file.svelte"
+    },
+    "./firebase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firebase.svelte"
+    },
+    "./flutter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flutter.svelte"
+    },
+    "./folder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder.svelte"
+    },
+    "./folder-admin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-admin.svelte"
+    },
+    "./folder-admin-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-admin-open.svelte"
+    },
+    "./folder-android": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-android.svelte"
+    },
+    "./folder-android-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-android-open.svelte"
+    },
+    "./folder-animation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-animation.svelte"
+    },
+    "./folder-animation-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-animation-open.svelte"
+    },
+    "./folder-api": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-api.svelte"
+    },
+    "./folder-api-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-api-open.svelte"
+    },
+    "./folder-app": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-app.svelte"
+    },
+    "./folder-app-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-app-open.svelte"
+    },
+    "./folder-assets": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-assets.svelte"
+    },
+    "./folder-assets-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-assets-open.svelte"
+    },
+    "./folder-audio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-audio.svelte"
+    },
+    "./folder-audio-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-audio-open.svelte"
+    },
+    "./folder-audit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-audit.svelte"
+    },
+    "./folder-audit-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-audit-open.svelte"
+    },
+    "./folder-aws": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-aws.svelte"
+    },
+    "./folder-aws-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-aws-open.svelte"
+    },
+    "./folder-azure-devops": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-azure-devops.svelte"
+    },
+    "./folder-azure-devops-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-azure-devops-open.svelte"
+    },
+    "./folder-azure-pipelines": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-azure-pipelines.svelte"
+    },
+    "./folder-azure-pipelines-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-azure-pipelines-open.svelte"
+    },
+    "./folder-benchmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-benchmark.svelte"
+    },
+    "./folder-benchmark-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-benchmark-open.svelte"
+    },
+    "./folder-caddy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-caddy.svelte"
+    },
+    "./folder-caddy-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-caddy-open.svelte"
+    },
+    "./folder-cargo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cargo.svelte"
+    },
+    "./folder-cargo-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cargo-open.svelte"
+    },
+    "./folder-circle-ci": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-circle-ci.svelte"
+    },
+    "./folder-circle-ci-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-circle-ci-open.svelte"
+    },
+    "./folder-client": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-client.svelte"
+    },
+    "./folder-client-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-client-open.svelte"
+    },
+    "./folder-cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cloud.svelte"
+    },
+    "./folder-cloud-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cloud-open.svelte"
+    },
+    "./folder-command": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-command.svelte"
+    },
+    "./folder-command-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-command-open.svelte"
+    },
+    "./folder-components": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-components.svelte"
+    },
+    "./folder-components-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-components-open.svelte"
+    },
+    "./folder-composables": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-composables.svelte"
+    },
+    "./folder-composables-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-composables-open.svelte"
+    },
+    "./folder-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-config.svelte"
+    },
+    "./folder-config-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-config-open.svelte"
+    },
+    "./folder-connection": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-connection.svelte"
+    },
+    "./folder-connection-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-connection-open.svelte"
+    },
+    "./folder-constant": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-constant.svelte"
+    },
+    "./folder-constant-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-constant-open.svelte"
+    },
+    "./folder-content": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-content.svelte"
+    },
+    "./folder-content-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-content-open.svelte"
+    },
+    "./folder-controllers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-controllers.svelte"
+    },
+    "./folder-controllers-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-controllers-open.svelte"
+    },
+    "./folder-core": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-core.svelte"
+    },
+    "./folder-core-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-core-open.svelte"
+    },
+    "./folder-coverage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-coverage.svelte"
+    },
+    "./folder-coverage-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-coverage-open.svelte"
+    },
+    "./folder-cursor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cursor.svelte"
+    },
+    "./folder-cursor-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cursor-open.svelte"
+    },
+    "./folder-cypress": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cypress.svelte"
+    },
+    "./folder-cypress-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-cypress-open.svelte"
+    },
+    "./folder-database": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-database.svelte"
+    },
+    "./folder-database-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-database-open.svelte"
+    },
+    "./folder-debug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-debug.svelte"
+    },
+    "./folder-debug-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-debug-open.svelte"
+    },
+    "./folder-devcontainer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-devcontainer.svelte"
+    },
+    "./folder-devcontainer-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-devcontainer-open.svelte"
+    },
+    "./folder-direnv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-direnv.svelte"
+    },
+    "./folder-direnv-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-direnv-open.svelte"
+    },
+    "./folder-dist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-dist.svelte"
+    },
+    "./folder-dist-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-dist-open.svelte"
+    },
+    "./folder-docker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-docker.svelte"
+    },
+    "./folder-docker-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-docker-open.svelte"
+    },
+    "./folder-docs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-docs.svelte"
+    },
+    "./folder-docs-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-docs-open.svelte"
+    },
+    "./folder-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-download.svelte"
+    },
+    "./folder-download-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-download-open.svelte"
+    },
+    "./folder-drizzle-orm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-drizzle-orm.svelte"
+    },
+    "./folder-drizzle-orm-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-drizzle-orm-open.svelte"
+    },
+    "./folder-examples": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-examples.svelte"
+    },
+    "./folder-examples-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-examples-open.svelte"
+    },
+    "./folder-fastlane": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-fastlane.svelte"
+    },
+    "./folder-fastlane-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-fastlane-open.svelte"
+    },
+    "./folder-firebase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-firebase.svelte"
+    },
+    "./folder-firebase-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-firebase-open.svelte"
+    },
+    "./folder-fonts": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-fonts.svelte"
+    },
+    "./folder-fonts-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-fonts-open.svelte"
+    },
+    "./folder-forgejo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-forgejo.svelte"
+    },
+    "./folder-forgejo-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-forgejo-open.svelte"
+    },
+    "./folder-functions": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-functions.svelte"
+    },
+    "./folder-functions-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-functions-open.svelte"
+    },
+    "./folder-fvm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-fvm.svelte"
+    },
+    "./folder-fvm-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-fvm-open.svelte"
+    },
+    "./folder-git": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-git.svelte"
+    },
+    "./folder-git-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-git-open.svelte"
+    },
+    "./folder-github": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-github.svelte"
+    },
+    "./folder-github-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-github-open.svelte"
+    },
+    "./folder-gitlab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-gitlab.svelte"
+    },
+    "./folder-gitlab-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-gitlab-open.svelte"
+    },
+    "./folder-gradle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-gradle.svelte"
+    },
+    "./folder-gradle-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-gradle-open.svelte"
+    },
+    "./folder-graphql": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-graphql.svelte"
+    },
+    "./folder-graphql-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-graphql-open.svelte"
+    },
+    "./folder-hooks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-hooks.svelte"
+    },
+    "./folder-hooks-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-hooks-open.svelte"
+    },
+    "./folder-husky": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-husky.svelte"
+    },
+    "./folder-husky-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-husky-open.svelte"
+    },
+    "./folder-images": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-images.svelte"
+    },
+    "./folder-images-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-images-open.svelte"
+    },
+    "./folder-include": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-include.svelte"
+    },
+    "./folder-include-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-include-open.svelte"
+    },
+    "./folder-intellij": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-intellij.svelte"
+    },
+    "./folder-intellij-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-intellij-open.svelte"
+    },
+    "./folder-javascript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-javascript.svelte"
+    },
+    "./folder-javascript-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-javascript-open.svelte"
+    },
+    "./folder-kubernetes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-kubernetes.svelte"
+    },
+    "./folder-kubernetes-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-kubernetes-open.svelte"
+    },
+    "./folder-layouts": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-layouts.svelte"
+    },
+    "./folder-layouts-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-layouts-open.svelte"
+    },
+    "./folder-lib": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lib.svelte"
+    },
+    "./folder-lib-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lib-open.svelte"
+    },
+    "./folder-linux": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-linux.svelte"
+    },
+    "./folder-linux-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-linux-open.svelte"
+    },
+    "./folder-locales": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-locales.svelte"
+    },
+    "./folder-locales-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-locales-open.svelte"
+    },
+    "./folder-luau": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-luau.svelte"
+    },
+    "./folder-luau-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-luau-open.svelte"
+    },
+    "./folder-lune": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lune.svelte"
+    },
+    "./folder-lune-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lune-open.svelte"
+    },
+    "./folder-macos": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-macos.svelte"
+    },
+    "./folder-macos-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-macos-open.svelte"
+    },
+    "./folder-messages": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-messages.svelte"
+    },
+    "./folder-messages-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-messages-open.svelte"
+    },
+    "./folder-middleware": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-middleware.svelte"
+    },
+    "./folder-middleware-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-middleware-open.svelte"
+    },
+    "./folder-mocks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-mocks.svelte"
+    },
+    "./folder-mocks-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-mocks-open.svelte"
+    },
+    "./folder-moonrepo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-moonrepo.svelte"
+    },
+    "./folder-moonrepo-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-moonrepo-open.svelte"
+    },
+    "./folder-next": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-next.svelte"
+    },
+    "./folder-next-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-next-open.svelte"
+    },
+    "./folder-nix": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-nix.svelte"
+    },
+    "./folder-nix-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-nix-open.svelte"
+    },
+    "./folder-node": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-node.svelte"
+    },
+    "./folder-node-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-node-open.svelte"
+    },
+    "./folder-nuxt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-nuxt.svelte"
+    },
+    "./folder-nuxt-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-nuxt-open.svelte"
+    },
+    "./folder-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open.svelte"
+    },
+    "./folder-packages": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-packages.svelte"
+    },
+    "./folder-packages-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-packages-open.svelte"
+    },
+    "./folder-pesde": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-pesde.svelte"
+    },
+    "./folder-pesde-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-pesde-open.svelte"
+    },
+    "./folder-plugins": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-plugins.svelte"
+    },
+    "./folder-plugins-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-plugins-open.svelte"
+    },
+    "./folder-pre-commit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-pre-commit.svelte"
+    },
+    "./folder-pre-commit-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-pre-commit-open.svelte"
+    },
+    "./folder-prisma": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-prisma.svelte"
+    },
+    "./folder-prisma-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-prisma-open.svelte"
+    },
+    "./folder-private": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-private.svelte"
+    },
+    "./folder-private-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-private-open.svelte"
+    },
+    "./folder-proto": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-proto.svelte"
+    },
+    "./folder-proto-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-proto-open.svelte"
+    },
+    "./folder-public": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-public.svelte"
+    },
+    "./folder-public-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-public-open.svelte"
+    },
+    "./folder-queue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-queue.svelte"
+    },
+    "./folder-queue-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-queue-open.svelte"
+    },
+    "./folder-redux": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-redux.svelte"
+    },
+    "./folder-redux-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-redux-open.svelte"
+    },
+    "./folder-renovate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-renovate.svelte"
+    },
+    "./folder-renovate-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-renovate-open.svelte"
+    },
+    "./folder-roblox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-roblox.svelte"
+    },
+    "./folder-roblox-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-roblox-open.svelte"
+    },
+    "./folder-routes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-routes.svelte"
+    },
+    "./folder-routes-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-routes-open.svelte"
+    },
+    "./folder-sass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-sass.svelte"
+    },
+    "./folder-sass-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-sass-open.svelte"
+    },
+    "./folder-scripts": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-scripts.svelte"
+    },
+    "./folder-scripts-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-scripts-open.svelte"
+    },
+    "./folder-security": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-security.svelte"
+    },
+    "./folder-security-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-security-open.svelte"
+    },
+    "./folder-server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-server.svelte"
+    },
+    "./folder-server-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-server-open.svelte"
+    },
+    "./folder-shared": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-shared.svelte"
+    },
+    "./folder-shared-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-shared-open.svelte"
+    },
+    "./folder-src": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-src.svelte"
+    },
+    "./folder-src-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-src-open.svelte"
+    },
+    "./folder-storybook": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-storybook.svelte"
+    },
+    "./folder-storybook-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-storybook-open.svelte"
+    },
+    "./folder-styles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-styles.svelte"
+    },
+    "./folder-styles-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-styles-open.svelte"
+    },
+    "./folder-svg": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-svg.svelte"
+    },
+    "./folder-svg-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-svg-open.svelte"
+    },
+    "./folder-symlink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-symlink.svelte"
+    },
+    "./folder-symlink-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-symlink-open.svelte"
+    },
+    "./folder-tauri": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-tauri.svelte"
+    },
+    "./folder-tauri-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-tauri-open.svelte"
+    },
+    "./folder-temp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-temp.svelte"
+    },
+    "./folder-temp-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-temp-open.svelte"
+    },
+    "./folder-templates": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-templates.svelte"
+    },
+    "./folder-templates-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-templates-open.svelte"
+    },
+    "./folder-tests": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-tests.svelte"
+    },
+    "./folder-tests-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-tests-open.svelte"
+    },
+    "./folder-themes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-themes.svelte"
+    },
+    "./folder-themes-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-themes-open.svelte"
+    },
+    "./folder-turbo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-turbo.svelte"
+    },
+    "./folder-turbo-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-turbo-open.svelte"
+    },
+    "./folder-types": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-types.svelte"
+    },
+    "./folder-types-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-types-open.svelte"
+    },
+    "./folder-upload": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-upload.svelte"
+    },
+    "./folder-upload-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-upload-open.svelte"
+    },
+    "./folder-utils": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-utils.svelte"
+    },
+    "./folder-utils-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-utils-open.svelte"
+    },
+    "./folder-vercel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-vercel.svelte"
+    },
+    "./folder-vercel-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-vercel-open.svelte"
+    },
+    "./folder-video": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-video.svelte"
+    },
+    "./folder-video-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-video-open.svelte"
+    },
+    "./folder-views": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-views.svelte"
+    },
+    "./folder-views-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-views-open.svelte"
+    },
+    "./folder-vscode": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-vscode.svelte"
+    },
+    "./folder-vscode-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-vscode-open.svelte"
+    },
+    "./folder-windows": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-windows.svelte"
+    },
+    "./folder-windows-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-windows-open.svelte"
+    },
+    "./folder-workflows": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-workflows.svelte"
+    },
+    "./folder-workflows-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-workflows-open.svelte"
+    },
+    "./folder-wxt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-wxt.svelte"
+    },
+    "./folder-wxt-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-wxt-open.svelte"
+    },
+    "./folder-xcode": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-xcode.svelte"
+    },
+    "./folder-xcode-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-xcode-open.svelte"
+    },
+    "./folder-xmake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-xmake.svelte"
+    },
+    "./folder-xmake-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-xmake-open.svelte"
+    },
+    "./folder-yarn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-yarn.svelte"
+    },
+    "./folder-yarn-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-yarn-open.svelte"
+    },
+    "./font": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/font.svelte"
+    },
+    "./foreman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foreman.svelte"
+    },
+    "./forgejo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forgejo.svelte"
+    },
+    "./fortran": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fortran.svelte"
+    },
+    "./fsharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fsharp.svelte"
+    },
+    "./fvm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fvm.svelte"
+    },
+    "./gatsby": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gatsby.svelte"
+    },
+    "./gcp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gcp.svelte"
+    },
+    "./git": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git.svelte"
+    },
+    "./git-cliff": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-cliff.svelte"
+    },
+    "./gitlab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gitlab.svelte"
+    },
+    "./gitpod": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gitpod.svelte"
+    },
+    "./gleam": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gleam.svelte"
+    },
+    "./gleam-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gleam-config.svelte"
+    },
+    "./go": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/go.svelte"
+    },
+    "./go-mod": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/go-mod.svelte"
+    },
+    "./go-template": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/go-template.svelte"
+    },
+    "./godot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/godot.svelte"
+    },
+    "./godot-assets": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/godot-assets.svelte"
+    },
+    "./gradle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gradle.svelte"
+    },
+    "./graphql": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graphql.svelte"
+    },
+    "./groovy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/groovy.svelte"
+    },
+    "./gulp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gulp.svelte"
+    },
+    "./hacking": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hacking.svelte"
+    },
+    "./haml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haml.svelte"
+    },
+    "./handlebars": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/handlebars.svelte"
+    },
+    "./hardhat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hardhat.svelte"
+    },
+    "./hare": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hare.svelte"
+    },
+    "./haskell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haskell.svelte"
+    },
+    "./haxe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haxe.svelte"
+    },
+    "./helm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/helm.svelte"
+    },
+    "./heroku": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heroku.svelte"
+    },
+    "./histoire": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/histoire.svelte"
+    },
+    "./html": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/html.svelte"
+    },
+    "./http": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/http.svelte"
+    },
+    "./huff": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/huff.svelte"
+    },
+    "./hugo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hugo.svelte"
+    },
+    "./humans": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/humans.svelte"
+    },
+    "./husky": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/husky.svelte"
+    },
+    "./image": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image.svelte"
+    },
+    "./ionic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ionic.svelte"
+    },
+    "./java": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java.svelte"
+    },
+    "./java-alt-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-alt-1.svelte"
+    },
+    "./java-alt-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-alt-2.svelte"
+    },
+    "./java-alt-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-alt-3.svelte"
+    },
+    "./java-annotation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-annotation.svelte"
+    },
+    "./java-class": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-class.svelte"
+    },
+    "./java-class-abstract": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-class-abstract.svelte"
+    },
+    "./java-class-final": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-class-final.svelte"
+    },
+    "./java-class-sealed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-class-sealed.svelte"
+    },
+    "./java-enum": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-enum.svelte"
+    },
+    "./java-exception": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-exception.svelte"
+    },
+    "./java-interface": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-interface.svelte"
+    },
+    "./java-jar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-jar.svelte"
+    },
+    "./java-record": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-record.svelte"
+    },
+    "./javascript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/javascript.svelte"
+    },
+    "./javascript-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/javascript-config.svelte"
+    },
+    "./javascript-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/javascript-map.svelte"
+    },
+    "./javascript-react": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/javascript-react.svelte"
+    },
+    "./javascript-test": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/javascript-test.svelte"
+    },
+    "./jest": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jest.svelte"
+    },
+    "./jinja": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jinja.svelte"
+    },
+    "./json": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/json.svelte"
+    },
+    "./json-schema": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/json-schema.svelte"
+    },
+    "./juce": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/juce.svelte"
+    },
+    "./jule": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jule.svelte"
+    },
+    "./julia": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/julia.svelte"
+    },
+    "./jupyter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jupyter.svelte"
+    },
+    "./just": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/just.svelte"
+    },
+    "./kdl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kdl.svelte"
+    },
+    "./key": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key.svelte"
+    },
+    "./knip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/knip.svelte"
+    },
+    "./kotlin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kotlin.svelte"
+    },
+    "./laravel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel.svelte"
+    },
+    "./latex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/latex.svelte"
+    },
+    "./latte": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/latte.svelte"
+    },
+    "./lerna": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lerna.svelte"
+    },
+    "./less": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/less.svelte"
+    },
+    "./lib": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lib.svelte"
+    },
+    "./license": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/license.svelte"
+    },
+    "./lint-staged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lint-staged.svelte"
+    },
+    "./liquid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/liquid.svelte"
+    },
+    "./lisp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lisp.svelte"
+    },
+    "./lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock.svelte"
+    },
+    "./log": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log.svelte"
+    },
+    "./lua": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua.svelte"
+    },
+    "./lua-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua-check.svelte"
+    },
+    "./lua-client": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua-client.svelte"
+    },
+    "./lua-rocks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua-rocks.svelte"
+    },
+    "./lua-server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua-server.svelte"
+    },
+    "./lua-test": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua-test.svelte"
+    },
+    "./luau": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luau.svelte"
+    },
+    "./luau-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luau-check.svelte"
+    },
+    "./luau-client": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luau-client.svelte"
+    },
+    "./luau-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luau-config.svelte"
+    },
+    "./luau-server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luau-server.svelte"
+    },
+    "./luau-test": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luau-test.svelte"
+    },
+    "./macos": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/macos.svelte"
+    },
+    "./makefile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/makefile.svelte"
+    },
+    "./mantle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mantle.svelte"
+    },
+    "./markdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown.svelte"
+    },
+    "./markdown-mdx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown-mdx.svelte"
+    },
+    "./marko": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marko.svelte"
+    },
+    "./matlab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/matlab.svelte"
+    },
+    "./mdbook": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mdbook.svelte"
+    },
+    "./mermaid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mermaid.svelte"
+    },
+    "./meson": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meson.svelte"
+    },
+    "./midi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/midi.svelte"
+    },
+    "./mjml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mjml.svelte"
+    },
+    "./modernizr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modernizr.svelte"
+    },
+    "./moonrepo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moonrepo.svelte"
+    },
+    "./moonwave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moonwave.svelte"
+    },
+    "./ms-excel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/ms-excel.svelte"
+    },
+    "./ms-powerpoint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/ms-powerpoint.svelte"
+    },
+    "./ms-word": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/ms-word.svelte"
+    },
+    "./msbuild": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/msbuild.svelte"
+    },
+    "./nativescript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nativescript.svelte"
+    },
+    "./nest": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest.svelte"
+    },
+    "./nest-controller": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-controller.svelte"
+    },
+    "./nest-decorator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-decorator.svelte"
+    },
+    "./nest-filter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-filter.svelte"
+    },
+    "./nest-gateway": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-gateway.svelte"
+    },
+    "./nest-guard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-guard.svelte"
+    },
+    "./nest-middleware": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-middleware.svelte"
+    },
+    "./nest-pipe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-pipe.svelte"
+    },
+    "./nest-service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-service.svelte"
+    },
+    "./netlify": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/netlify.svelte"
+    },
+    "./next": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/next.svelte"
+    },
+    "./nextflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nextflow.svelte"
+    },
+    "./nginx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nginx.svelte"
+    },
+    "./nim": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nim.svelte"
+    },
+    "./ninja": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/ninja.svelte"
+    },
+    "./nix": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nix.svelte"
+    },
+    "./nix-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nix-lock.svelte"
+    },
+    "./nodemon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nodemon.svelte"
+    },
+    "./npm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/npm.svelte"
+    },
+    "./npm-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/npm-ignore.svelte"
+    },
+    "./npm-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/npm-lock.svelte"
+    },
+    "./nuget": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuget.svelte"
+    },
+    "./nunjucks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nunjucks.svelte"
+    },
+    "./nuxt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuxt.svelte"
+    },
+    "./nuxt-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuxt-ignore.svelte"
+    },
+    "./nx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nx.svelte"
+    },
+    "./nx-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nx-ignore.svelte"
+    },
+    "./ocaml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/ocaml.svelte"
+    },
+    "./odin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/odin.svelte"
+    },
+    "./opentofu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opentofu.svelte"
+    },
+    "./org": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/org.svelte"
+    },
+    "./package-json": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-json.svelte"
+    },
+    "./panda-css": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/panda-css.svelte"
+    },
+    "./pdf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pdf.svelte"
+    },
+    "./perl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/perl.svelte"
+    },
+    "./pesde": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pesde.svelte"
+    },
+    "./pesde-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pesde-lock.svelte"
+    },
+    "./php": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/php.svelte"
+    },
+    "./phrase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phrase.svelte"
+    },
+    "./phtml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phtml.svelte"
+    },
+    "./pixi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixi.svelte"
+    },
+    "./pixi-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixi-lock.svelte"
+    },
+    "./plantuml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plantuml.svelte"
+    },
+    "./playwright": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playwright.svelte"
+    },
+    "./plop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plop.svelte"
+    },
+    "./pnpm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pnpm.svelte"
+    },
+    "./pnpm-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pnpm-lock.svelte"
+    },
+    "./poetry-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poetry-lock.svelte"
+    },
+    "./postcss": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postcss.svelte"
+    },
+    "./powershell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/powershell.svelte"
+    },
+    "./pre-commit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pre-commit.svelte"
+    },
+    "./premake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premake.svelte"
+    },
+    "./prettier": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prettier.svelte"
+    },
+    "./prettier-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prettier-ignore.svelte"
+    },
+    "./prisma": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prisma.svelte"
+    },
+    "./prolog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prolog.svelte"
+    },
+    "./properties": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/properties.svelte"
+    },
+    "./proto": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proto.svelte"
+    },
+    "./prototools": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prototools.svelte"
+    },
+    "./pug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pug.svelte"
+    },
+    "./puppet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puppet.svelte"
+    },
+    "./puppeteer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puppeteer.svelte"
+    },
+    "./python": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/python.svelte"
+    },
+    "./python-compiled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/python-compiled.svelte"
+    },
+    "./python-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/python-config.svelte"
+    },
+    "./qwik": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qwik.svelte"
+    },
+    "./r": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/r.svelte"
+    },
+    "./racket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/racket.svelte"
+    },
+    "./razor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/razor.svelte"
+    },
+    "./rdata": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rdata.svelte"
+    },
+    "./readme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/readme.svelte"
+    },
+    "./reason": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reason.svelte"
+    },
+    "./redwood": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redwood.svelte"
+    },
+    "./release": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/release.svelte"
+    },
+    "./remix": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/remix.svelte"
+    },
+    "./renovate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renovate.svelte"
+    },
+    "./rescript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rescript.svelte"
+    },
+    "./rmd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rmd.svelte"
+    },
+    "./roblox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roblox.svelte"
+    },
+    "./robots": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/robots.svelte"
+    },
+    "./rocket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rocket.svelte"
+    },
+    "./rojo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rojo.svelte"
+    },
+    "./rokit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rokit.svelte"
+    },
+    "./rollup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rollup.svelte"
+    },
+    "./root": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/root.svelte"
+    },
+    "./root-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/root-open.svelte"
+    },
+    "./rproj": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rproj.svelte"
+    },
+    "./rsml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rsml.svelte"
+    },
+    "./ruby": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruby.svelte"
+    },
+    "./ruby-gem": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruby-gem.svelte"
+    },
+    "./ruby-gem-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruby-gem-lock.svelte"
+    },
+    "./ruff": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruff.svelte"
+    },
+    "./rust": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rust.svelte"
+    },
+    "./rust-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rust-alt.svelte"
+    },
+    "./rust-alt-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rust-alt-config.svelte"
+    },
+    "./rust-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rust-config.svelte"
+    },
+    "./salesforce": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/salesforce.svelte"
+    },
+    "./sass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sass.svelte"
+    },
+    "./scala": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scala.svelte"
+    },
+    "./scheme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scheme.svelte"
+    },
+    "./search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search.svelte"
+    },
+    "./security": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/security.svelte"
+    },
+    "./semantic-release": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/semantic-release.svelte"
+    },
+    "./semgrep": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/semgrep.svelte"
+    },
+    "./semgrep-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/semgrep-ignore.svelte"
+    },
+    "./sentry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sentry.svelte"
+    },
+    "./serverless": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/serverless.svelte"
+    },
+    "./shader": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shader.svelte"
+    },
+    "./sketch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sketch.svelte"
+    },
+    "./slidesk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slidesk.svelte"
+    },
+    "./snowpack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snowpack.svelte"
+    },
+    "./solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solid.svelte"
+    },
+    "./solidity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solidity.svelte"
+    },
+    "./sonar-cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sonar-cloud.svelte"
+    },
+    "./spwn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spwn.svelte"
+    },
+    "./squirrel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squirrel.svelte"
+    },
+    "./stackblitz": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackblitz.svelte"
+    },
+    "./stata": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stata.svelte"
+    },
+    "./stencil": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stencil.svelte"
+    },
+    "./stitches": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stitches.svelte"
+    },
+    "./storybook": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storybook.svelte"
+    },
+    "./storybook-svelte": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storybook-svelte.svelte"
+    },
+    "./storybook-vue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storybook-vue.svelte"
+    },
+    "./stylelint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stylelint.svelte"
+    },
+    "./stylelint-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stylelint-ignore.svelte"
+    },
+    "./stylua": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stylua.svelte"
+    },
+    "./stylua-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stylua-ignore.svelte"
+    },
+    "./sublime": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sublime.svelte"
+    },
+    "./super-collider": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-collider.svelte"
+    },
+    "./svelte": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/svelte.svelte"
+    },
+    "./svelte-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/svelte-config.svelte"
+    },
+    "./svg": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/svg.svelte"
+    },
+    "./swift": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/swift.svelte"
+    },
+    "./swiftformat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/swiftformat.svelte"
+    },
+    "./symlink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symlink.svelte"
+    },
+    "./tailwind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tailwind.svelte"
+    },
+    "./taskfile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taskfile.svelte"
+    },
+    "./tauri": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tauri.svelte"
+    },
+    "./tauri-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tauri-ignore.svelte"
+    },
+    "./terraform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terraform.svelte"
+    },
+    "./text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text.svelte"
+    },
+    "./todo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/todo.svelte"
+    },
+    "./toml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toml.svelte"
+    },
+    "./turbo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turbo.svelte"
+    },
+    "./twig": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twig.svelte"
+    },
+    "./twine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twine.svelte"
+    },
+    "./typescript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typescript.svelte"
+    },
+    "./typescript-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typescript-config.svelte"
+    },
+    "./typescript-def": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typescript-def.svelte"
+    },
+    "./typescript-react": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typescript-react.svelte"
+    },
+    "./typescript-test": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typescript-test.svelte"
+    },
+    "./typst": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typst.svelte"
+    },
+    "./unity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unity.svelte"
+    },
+    "./unocss": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unocss.svelte"
+    },
+    "./url": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/url.svelte"
+    },
+    "./uv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv.svelte"
+    },
+    "./v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/v.svelte"
+    },
+    "./vala": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vala.svelte"
+    },
+    "./vanilla-extract": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vanilla-extract.svelte"
+    },
+    "./vapi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vapi.svelte"
+    },
+    "./vento": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vento.svelte"
+    },
+    "./vercel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vercel.svelte"
+    },
+    "./vercel-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vercel-ignore.svelte"
+    },
+    "./verilog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/verilog.svelte"
+    },
+    "./vhs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vhs.svelte"
+    },
+    "./video": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video.svelte"
+    },
+    "./vim": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vim.svelte"
+    },
+    "./visual-studio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visual-studio.svelte"
+    },
+    "./vital": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vital.svelte"
+    },
+    "./vite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vite.svelte"
+    },
+    "./vitest": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vitest.svelte"
+    },
+    "./vs-codium": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vs-codium.svelte"
+    },
+    "./vscode": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode.svelte"
+    },
+    "./vscode-ignore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode-ignore.svelte"
+    },
+    "./vue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vue.svelte"
+    },
+    "./vue-config": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vue-config.svelte"
+    },
+    "./wally": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wally.svelte"
+    },
+    "./web-assembly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/web-assembly.svelte"
+    },
+    "./webpack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webpack.svelte"
+    },
+    "./windi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windi.svelte"
+    },
+    "./workflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/workflow.svelte"
+    },
+    "./wrangler": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrangler.svelte"
+    },
+    "./wxt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wxt.svelte"
+    },
+    "./xaml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xaml.svelte"
+    },
+    "./xcode": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xcode.svelte"
+    },
+    "./xmake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xmake.svelte"
+    },
+    "./xml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xml.svelte"
+    },
+    "./yaml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yaml.svelte"
+    },
+    "./yarn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yarn.svelte"
+    },
+    "./yarn-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yarn-lock.svelte"
+    },
+    "./zap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zap.svelte"
+    },
+    "./zig": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zig.svelte"
+    },
+    "./zip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zip.svelte"
+    },
+    "./maven": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maven.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#catppuccin"
+}
