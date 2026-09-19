@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="alaq30bbk"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:round-swipe-right-alt" {...props}></Icon>
+<style>
+:global(.alaq30bbk) {
+  fill: currentColor;
+  d: path("M13.9 11a5 5 0 1 0 0 2h4.27l-.88.88a.996.996 0 1 0 1.41 1.41l2.59-2.59a.996.996 0 0 0 0-1.41L18.7 8.7a.996.996 0 1 0-1.41 1.41l.88.89z");
+}
+
+</style>

@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x3308_fmz"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:outline-crop-free" {...props}></Icon>
+<style>
+:global(.x3308_fmz) {
+  fill: currentColor;
+  d: path("M3 5v4h2V5h4V3H5c-1.1 0-2 .9-2 2m2 10H3v4c0 1.1.9 2 2 2h4v-2H5zm14 4h-4v2h4c1.1 0 2-.9 2-2v-4h-2zm0-16h-4v2h4v4h2V5c0-1.1-.9-2-2-2");
+}
+
+</style>

@@ -1,0 +1,22 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="f57gb6bny"/><path class="bpy5feb2w"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:baseline-sip" {...props}></Icon>
+<style>
+:global(.bpy5feb2w) {
+  fill: currentColor;
+  d: path("M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m-10 6.5H6.5v.75H9c.55 0 1 .45 1 1V14c0 .55-.45 1-1 1H5v-1.5h3.5v-.75H6c-.55 0-1-.45-1-1V10c0-.55.45-1 1-1h4zm3 4.5h-2V9h2zm6-3c0 .55-.45 1-1 1h-2.5v2H14V9h4c.55 0 1 .45 1 1z");
+}
+
+:global(.f57gb6bny) {
+  fill: currentColor;
+  d: path("M15.5 10.5h2v1h-2z");
+}
+
+</style>

@@ -1,0 +1,36 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="w19l8-jza"/><circle class="s3cqxlbus"/><circle class="ay4kxuviq"/><path class="h_1rhebpv"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:outline-local-laundry-service" {...props}></Icon>
+<style>
+:global(.ay4kxuviq) {
+  cx: 11px;
+  cy: 6px;
+  r: 1px;
+  fill: currentColor;
+}
+
+:global(.h_1rhebpv) {
+  fill: currentColor;
+  d: path("M12 19c2.76 0 5-2.24 5-5s-2.24-5-5-5s-5 2.24-5 5s2.24 5 5 5m2.36-7.36c1.3 1.3 1.3 3.42 0 4.72s-3.42 1.3-4.72 0z");
+}
+
+:global(.s3cqxlbus) {
+  cx: 8px;
+  cy: 6px;
+  r: 1px;
+  fill: currentColor;
+}
+
+:global(.w19l8-jza) {
+  fill: currentColor;
+  d: path("M18 2.01L6 2c-1.11 0-2 .89-2 2v16c0 1.11.89 2 2 2h12c1.11 0 2-.89 2-2V4c0-1.11-.89-1.99-2-1.99M18 20H6L5.99 4H18z");
+}
+
+</style>

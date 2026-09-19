@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fbhd2_bau"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:twotone-north-east" {...props}></Icon>
+<style>
+:global(.fbhd2_bau) {
+  fill: currentColor;
+  d: path("M9 5v2h6.59L4 18.59L5.41 20L17 8.41V15h2V5z");
+}
+
+</style>

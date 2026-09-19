@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="njag92bve"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:photo-size-select-actual" {...props}></Icon>
+<style>
+:global(.njag92bve) {
+  fill: currentColor;
+  d: path("M21 3H3C2 3 1 4 1 5v14c0 1.1.9 2 2 2h18c1 0 2-1 2-2V5c0-1-1-2-2-2M5 17l3.5-4.5l2.5 3.01L14.5 11l4.5 6z");
+}
+
+</style>

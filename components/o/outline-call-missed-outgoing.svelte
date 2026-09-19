@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="t7rpg_3yx"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:outline-call-missed-outgoing" {...props}></Icon>
+<style>
+:global(.t7rpg_3yx) {
+  fill: currentColor;
+  d: path("m3 8.41l9 9l7-7V15h2V7h-8v2h4.59L12 14.59L4.41 7z");
+}
+
+</style>

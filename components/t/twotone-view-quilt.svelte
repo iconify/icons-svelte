@@ -1,0 +1,23 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l3tv_hzhy"/><path class="hxtd0ebdh"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:twotone-view-quilt" {...props}></Icon>
+<style>
+:global(.hxtd0ebdh) {
+  fill: currentColor;
+  d: path("M3 5v14h18V5zm5.33 12H5V7h3.33zm5.34 0h-3.33v-4h3.33zM19 17h-3.33v-4H19zm0-6h-8.67V7H19z");
+}
+
+:global(.l3tv_hzhy) {
+  fill: currentColor;
+  d: path("M8.33 17H5V7h3.33zm5.34 0h-3.33v-4h3.33zM19 17h-3.33v-4H19zm0-6h-8.67V7H19z");
+  opacity: var(--svg-opacity--0-3, 0.3);
+}
+
+</style>

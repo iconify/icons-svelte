@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cpsku4dpd"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:sharp-flip-camera-ios" {...props}></Icon>
+<style>
+:global(.cpsku4dpd) {
+  fill: currentColor;
+  d: path("M16.83 5L15 3H9L7.17 5H2v16h20V5zM12 18c-2.76 0-5-2.24-5-5H5l2.5-2.5L10 13H8c0 2.21 1.79 4 4 4c.58 0 1.13-.13 1.62-.35l.74.74c-.71.37-1.5.61-2.36.61m4.5-2.5L14 13h2c0-2.21-1.79-4-4-4c-.58 0-1.13.13-1.62.35l-.74-.73C10.35 8.24 11.14 8 12 8c2.76 0 5 2.24 5 5h2z");
+}
+
+</style>

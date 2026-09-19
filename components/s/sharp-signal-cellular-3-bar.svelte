@@ -1,0 +1,23 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mnumfnbbo"/><path class="eol4_l0on"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:sharp-signal-cellular-3-bar" {...props}></Icon>
+<style>
+:global(.eol4_l0on) {
+  fill: currentColor;
+  d: path("M17 7L2 22h15z");
+}
+
+:global(.mnumfnbbo) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-3, 0.3);
+  d: path("M2 22h20V2z");
+}
+
+</style>

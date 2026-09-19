@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vg6h2rd1o"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:outline-keyboard-arrow-left" {...props}></Icon>
+<style>
+:global(.vg6h2rd1o) {
+  fill: currentColor;
+  d: path("M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6l6 6z");
+}
+
+</style>

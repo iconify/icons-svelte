@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="edxcwufmu"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ic:sharp-hdr-off" {...props}></Icon>
+<style>
+:global(.edxcwufmu) {
+  fill: currentColor;
+  d: path("M17.5 15v-2h1.1l.9 2H21l-.9-2.1h.9V9h-5v4.86L17.14 15zm0-4.5h2v1h-2zm-4.5 0v.36l1.5 1.5V10.5c0-.8-.7-1.5-1.5-1.5h-1.86l1.5 1.5zM2.51 2.49L1.45 3.55L6.9 9h-.4v2h-2V9H3v6h1.5v-2.5h2V15H8v-4.9l1.5 1.5V15h3.4l7.6 7.6l1.06-1.06z");
+}
+
+</style>
