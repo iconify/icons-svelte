@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/v/vtzdz7blb.css';
+import '../../css/l/l06wekb2j.css';
+import '../../css/f/ff7iaab8c.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="vtzdz7blb"/><path class="l06wekb2j"/><path class="ff7iaab8c"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ion:logo-tableau" {...props}></Icon>

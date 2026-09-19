@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/fhua3e2df.css';
+import '../../css/x/x7_z8lltl.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<rect class="fhua3e2df"/><path class="x7_z8lltl"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ion:card-outline" {...props}></Icon>

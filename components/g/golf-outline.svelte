@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/e/enrvvphgc.css';
+import '../../css/x/xjs5b0b4b.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="enrvvphgc"/><path class="xjs5b0b4b"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ion:golf-outline" {...props}></Icon>

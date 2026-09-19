@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/y/yt2xskbcf.css';
+import '../../css/q/q-tflgzje.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="yt2xskbcf"/><path class="q-tflgzje"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ion:arrow-down-circle-outline" {...props}></Icon>
