@@ -1,0 +1,52 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="cpk0fnbgt"/><circle class="ivoeacboo"/><circle class="xav3-zbdm"/><circle class="b6yjgkcjy"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:habit-builder" {...props}></Icon>
+<style>
+:global(.b6yjgkcjy) {
+  cx: 24px;
+  cy: 24px;
+  r: 17.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.cpk0fnbgt) {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.ivoeacboo) {
+  cx: 24px;
+  cy: 24px;
+  r: 12.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.xav3-zbdm) {
+  cx: 24px;
+  cy: 24px;
+  r: 6px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

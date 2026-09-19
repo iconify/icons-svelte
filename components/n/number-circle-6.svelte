@@ -1,0 +1,39 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><circle class="zep-sybwn"/><path class="gbi5mnisa"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:number-circle-6" {...props}></Icon>
+<style>
+:global(.cpk0fnbgt) {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.gbi5mnisa) {
+  d: path("M28.832 17.951c-.884-1.156-2.23-1.951-4.46-1.951H24a5.3 5.3 0 0 0-5.3 5.3v5.4");
+}
+
+:global(.y9tr6bcfx) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.zep-sybwn) {
+  cx: 24px;
+  cy: 26.7px;
+  r: 5.3px;
+}
+
+</style>

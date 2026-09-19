@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="xd94f627o"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:emoji-clock-face-five-thirty" {...props}></Icon>
+<style>
+:global(.xd94f627o) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.04 24.068v15.886m5.405-6.554l-5.397-9.344M2.5 24c-.004 11.87 9.619 21.496 21.493 21.5S45.496 35.884 45.5 24.014V24c.004-11.87-9.619-21.496-21.493-21.5S2.504 12.116 2.5 23.986z");
+}
+
+</style>

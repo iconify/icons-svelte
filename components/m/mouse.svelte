@@ -1,0 +1,33 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<rect class="gbkzdtx5x"/><path class="ix3o-pb3e"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:mouse" {...props}></Icon>
+<style>
+:global(.gbkzdtx5x) {
+  width: 28px;
+  height: 39px;
+  x: 10px;
+  y: 4.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 14px;
+  ry: 14px;
+}
+
+:global(.ix3o-pb3e) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10 20.233h28M24 4.5v15.733");
+}
+
+</style>

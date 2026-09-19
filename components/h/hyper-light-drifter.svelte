@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="j0e22pbwd"/><path class="nt1ig3fjq"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:hyper-light-drifter" {...props}></Icon>
+<style>
+:global(.j0e22pbwd) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 20.102l7.744 7.743L24 35.59l-7.744-7.744z");
+}
+
+:global(.nt1ig3fjq) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M37.141 25.333v-8.22c.811-.805 2.046-2.136 2.046-2.136L35.36 11.15l-2.97 2.971v6.46l-2.09-2.088V6.87h-4.75v6.871L24 12.192l-4.34 4.342V4.5h-4.752v16.785l-6.56 6.561L24 43.5l15.654-15.654z");
+}
+
+</style>

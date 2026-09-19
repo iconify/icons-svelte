@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="xsr30gbgu"/><path class="z2n4qybft"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:pkp-intercity" {...props}></Icon>
+<style>
+:global(.xsr30gbgu) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.105 14.05h15.262c9.804 0 22.555 7.208 23.647 13.157c.478 2.605-4.257 4.686-7.735 4.686h-5.007l-1.516-1.514H10.363l-1.517 1.514H4.002");
+}
+
+:global(.z2n4qybft) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.76 14.516c3.098 6.26 11.04 9.122 17.18 9.144m-22.823 6.756a3.555 3.555 0 0 1-3.557 3.534a3.555 3.555 0 0 1-3.558-3.534m16.115 0a3.555 3.555 0 0 1-3.558 3.534a3.555 3.555 0 0 1-3.557-3.534m-13.608-6.53h-1.76m2.853-4.975h13.362l4.985 4.975H10.07m-6.117-4.975H6.58m12 .168v4.642");
+}
+
+</style>

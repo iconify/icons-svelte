@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="ipe-0o44q"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:covidscancst" {...props}></Icon>
+<style>
+:global(.ipe-0o44q) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.5 42.5h5c2.216 0 4-1.784 4-4v-5m-37 0v5c0 2.216 1.784 4 4 4h5m28-28v-5c0-2.216-1.784-4-4-4h-5m-19 0h-5c-2.216 0-4 1.784-4 4v5m26.527.5H15.973a.973.973 0 0 0-.973.973v16.054c0 .537.436.973.973.973h16.054a.973.973 0 0 0 .973-.973V15.973a.973.973 0 0 0-.973-.973M8.5 24h31");
+}
+
+</style>

@@ -1,0 +1,48 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="vfuhwkb3k"/><circle class="k3-d9w7bv"/><circle class="c3f-hsbol"/><path class="gwazo3zpt"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:google-find-device" {...props}></Icon>
+<style>
+:global(.c3f-hsbol) {
+  cx: 24px;
+  cy: 24px;
+  r: 7px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.gwazo3zpt) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31 24h14.5c0-11.874-9.626-21.5-21.5-21.5V17");
+}
+
+:global(.k3-d9w7bv) {
+  cx: 24px;
+  cy: 24px;
+  r: 14.25px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.vfuhwkb3k) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17 24H2.5c0 11.874 9.626 21.5 21.5 21.5V31");
+}
+
+</style>

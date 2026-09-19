@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="rhmx8ibyk"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:zlantar" {...props}></Icon>
+<style>
+:global(.rhmx8ibyk) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.212 10.212c7.615-7.616 19.962-7.616 27.577 0L10.21 37.789c7.616 7.615 19.963 7.615 27.578 0");
+}
+
+</style>

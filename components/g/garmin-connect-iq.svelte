@@ -1,0 +1,46 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="b9omwbb4p"/><path class="s15gkwbmm"/><circle class="c8c-a65gx"/><path class="aqrtfufjp"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:garmin-connect-iq" {...props}></Icon>
+<style>
+:global(.aqrtfufjp) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.176 8.115a2.68 2.68 0 0 0-2.82-2.678c-1.447.076-2.532 1.377-2.532 2.83v2.484A2.68 2.68 0 0 0 9.5 13.433h0c1.478 0 2.676-1.2 2.676-2.682H9.5");
+}
+
+:global(.b9omwbb4p) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.5 36.818V19.184m18.442 17.042a9.65 9.65 0 0 1-5.14 1.472c-5.356 0-9.699-4.342-9.699-9.698s4.342-9.698 9.699-9.698S35.5 22.644 35.5 28a9.65 9.65 0 0 1-1.471 5.138m-4.92-1.83l6.391 6.39");
+}
+
+:global(.c8c-a65gx) {
+  cx: 9.5px;
+  cy: 9.433px;
+  r: 7px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.s15gkwbmm) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.5 15.176V38.5a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4H15.291");
+}
+
+</style>

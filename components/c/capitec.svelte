@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="wu7agvy2x"/><path class="jrmptwn0u"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:capitec" {...props}></Icon>
+<style>
+:global(.jrmptwn0u) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.837 24h6.422a4 4 0 0 1 4 4v6.24c5.959 0 10.729-5.088 10.201-11.157c-.464-5.343-5.176-9.324-10.54-9.324H18.837V20a4 4 0 0 0 4 4");
+}
+
+:global(.wu7agvy2x) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.163 24h-6.422a4 4 0 0 1-4-4v-6.24c-5.959 0-10.729 5.088-10.201 11.157c.464 5.343 5.176 9.323 10.54 9.323h14.083V28a4 4 0 0 0-4-4");
+}
+
+</style>

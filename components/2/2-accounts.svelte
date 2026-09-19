@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="x6p9_obzi"/><path class="t5b3zub_j"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:2-accounts" {...props}></Icon>
+<style>
+:global(.t5b3zub_j) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.123 30.034q.54.784 1.235 1.48c4.15 4.151 10.879 4.151 15.03 0s4.15-10.878 0-15.029s-10.88-4.15-15.03 0h0l-6.553 6.553");
+}
+
+:global(.x6p9_obzi) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.878 17.966a10.7 10.7 0 0 0-1.236-1.48c-4.15-4.151-10.879-4.151-15.03 0s-4.15 10.878 0 15.029s10.88 4.15 15.03 0h0l6.553-6.553");
+}
+
+</style>

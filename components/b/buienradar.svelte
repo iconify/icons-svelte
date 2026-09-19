@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="r1tvsoh9u"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:buienradar" {...props}></Icon>
+<style>
+:global(.r1tvsoh9u) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M3.748 31.237A21.507 21.507 0 0 1 35.235 5.666m7.099 7.098a21.51 21.51 0 0 1-25.571 31.488M4.11 36.11a5.5 5.5 0 0 0 7.78 7.78L45.5 2.5Z");
+}
+
+</style>

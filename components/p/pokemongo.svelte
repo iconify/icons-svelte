@@ -1,0 +1,40 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="ee8w9sbdc"/><circle class="n6w3b0d3u"/><path class="q3qhweb2m"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:pokemongo" {...props}></Icon>
+<style>
+:global(.ee8w9sbdc) {
+  cx: 23.99px;
+  cy: 23.99px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.n6w3b0d3u) {
+  cx: 23.99px;
+  cy: 23.99px;
+  r: 8.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.q3qhweb2m) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M2.49 23.99h13m17 0h13");
+}
+
+</style>

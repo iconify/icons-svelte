@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="gvim0vlza"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:sanskrit-basics" {...props}></Icon>
+<style>
+:global(.gvim0vlza) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.775 5.5h28.45m-7.107 0v11.382c-.24 8.264-9.96 9.96-17.079 0L33.961 42.5");
+}
+
+</style>

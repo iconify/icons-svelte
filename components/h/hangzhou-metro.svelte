@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="wm6yvwb5g"/><path class="sftydbbtw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:hangzhou-metro" {...props}></Icon>
+<style>
+:global(.sftydbbtw) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.364 45.232A21.497 21.497 0 0 1 14.577 4.677m8.673-2.162a21.498 21.498 0 0 1 13.081 39.094m.109-10.521l-.108 10.522M14.631 16.912l-.054-12.235");
+}
+
+:global(.wm6yvwb5g) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.621 22.36a5.452 5.452 0 0 1 10.904 0v8.723M14.621 16.908v14.175m10.905-8.723a5.452 5.452 0 0 1 10.904 0v8.723");
+}
+
+</style>

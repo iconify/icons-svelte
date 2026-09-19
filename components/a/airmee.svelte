@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="yyrghm_vl"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:airmee" {...props}></Icon>
+<style>
+:global(.yyrghm_vl) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.25 5.5h9.25v9.25h-9.25zM24 14.75H5.5V24h12.526l-5.708 6.916a6.42 6.42 0 0 1-4.953 2.334H5.5v9.25h3.296c3.77 0 7.344-1.684 9.744-4.592L24 31.293V42.5h9.25V14.75z");
+}
+
+</style>

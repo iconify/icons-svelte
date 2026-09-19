@@ -1,0 +1,35 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="y9tr6bcfx"><path class="ecdqj2-zr"/><path class="ohyog-bhe"/><path class="rh_q3bwrv"/><path class="mbkdoabfx"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:laser-puzzle" {...props}></Icon>
+<style>
+:global(.ecdqj2-zr) {
+  d: path("M5.5 14.75a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0m18.5 0a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0");
+}
+
+:global(.mbkdoabfx) {
+  d: path("M5.5 33.25a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0");
+}
+
+:global(.ohyog-bhe) {
+  d: path("M24 33.25a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0");
+}
+
+:global(.rh_q3bwrv) {
+  d: path("M5.5 14.75h27.75v18.5H5.5");
+}
+
+:global(.y9tr6bcfx) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

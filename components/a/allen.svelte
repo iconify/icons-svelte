@@ -1,0 +1,30 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="mp9gy3bjf"/><circle class="vb1_i8bfp"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:allen" {...props}></Icon>
+<style>
+:global(.mp9gy3bjf) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 5.5l-17.462 37h13.67l1.549-4.853h4.486l1.549 4.853h13.67z");
+}
+
+:global(.vb1_i8bfp) {
+  cx: 24px;
+  cy: 30px;
+  r: 2.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

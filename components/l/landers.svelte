@@ -1,0 +1,38 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="cpk0fnbgt"/><path class="zwh-ikbaf"/><path class="rk9m3-bsv"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:landers" {...props}></Icon>
+<style>
+:global(.cpk0fnbgt) {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.rk9m3-bsv) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.717 17.813A8.75 8.75 0 1 1 24 24a8.75 8.75 0 1 0-10.717 6.187");
+}
+
+:global(.zwh-ikbaf) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.813 13.283A8.75 8.75 0 1 1 24 24a8.75 8.75 0 1 0 6.187 10.717");
+}
+
+</style>

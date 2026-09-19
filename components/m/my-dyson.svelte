@@ -1,0 +1,57 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="i9clfwm2k"/><path class="db5-8ylkv"/><path class="wn8aurgvr"/><rect class="efe8e_bcy"/><path class="cp929-v5e"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:my-dyson" {...props}></Icon>
+<style>
+:global(.cp929-v5e) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.48 26.203c.365.306.76.447 1.645.447h.449c.73 0 1.322-.593 1.322-1.325h0c0-.732-.592-1.325-1.322-1.325h-.898c-.73 0-1.322-.593-1.322-1.325h0c0-.732.592-1.325 1.322-1.325h.45c.885 0 1.279.14 1.644.447m12.57 4.853v-3.3a2 2 0 0 0-2-2h0a2 2 0 0 0-2 2m0 3.3v-5.3m-20.68 2a2 2 0 0 0-2-2h0a2 2 0 0 0-2 2v1.3a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2m0 2v-8");
+}
+
+:global(.db5-8ylkv) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.016 24.65v2.7a2 2 0 0 1-2 2h0a2 2 0 0 1-1.414-.586");
+}
+
+:global(.efe8e_bcy) {
+  width: 4px;
+  height: 5.3px;
+  x: 28.048px;
+  y: 21.35px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 2px;
+  ry: 2px;
+}
+
+:global(.i9clfwm2k) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
+}
+
+:global(.wn8aurgvr) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.016 21.35v3.3a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2v-3.3");
+}
+
+</style>

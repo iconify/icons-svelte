@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="srmlhsspr"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:waves-2" {...props}></Icon>
+<style>
+:global(.srmlhsspr) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M43.5 26c-4.874 0-4.874-4-9.749-4s-4.873 4-9.746 4c-4.876 0-4.876-4-9.752-4S9.375 26 4.5 26m39 10c-4.874 0-4.874-4-9.749-4s-4.873 4-9.746 4c-4.876 0-4.876-4-9.752-4S9.375 36 4.5 36m39-20c-4.874 0-4.874-4-9.749-4s-4.873 4-9.746 4c-4.876 0-4.876-4-9.752-4S9.375 16 4.5 16");
+}
+
+</style>

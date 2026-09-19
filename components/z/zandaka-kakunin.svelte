@@ -1,0 +1,33 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="rdjjz031d"/><rect class="apo90stin"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:zandaka-kakunin" {...props}></Icon>
+<style>
+:global(.apo90stin) {
+  width: 39px;
+  height: 25.755px;
+  x: 4.5px;
+  y: 11.123px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 3.4px;
+  ry: 3.4px;
+}
+
+:global(.rdjjz031d) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.457 36.878c1.115 0 1.816-1.28 1.247-2.236h.001L14.901 13.136c-.569-.956-.903-2.013-2.018-2.013");
+}
+
+</style>

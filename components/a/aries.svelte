@@ -1,0 +1,36 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="skit70nyi"/><path class="g-l35fb4m"/><path class="pnn4me9nt"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:aries" {...props}></Icon>
+<style>
+:global(.g-l35fb4m) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.4 6.017a3.86 3.86 0 0 0-1.93 3.345v29.277a3.862 3.862 0 0 0 5.79 3.345L40.6 27.347a3.865 3.865 0 0 0 0-6.693L15.26 6.017a3.86 3.86 0 0 0-3.861 0zm5.792 10.038L38.669 28.46m-21.477 3.486V7.132m-.11 22.312L9.469 33.84m7.613-10.516L9.469 27.72m7.613-10.516L9.469 21.6m7.613-10.515l-7.613 4.397m5.791-9.465L9.47 9.362");
+}
+
+:global(.pnn4me9nt) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.89 26.343c2.053 1.503 3.525 3.6 4.23 6.48");
+}
+
+:global(.skit70nyi) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.4 6.017a3.86 3.86 0 0 0-1.93 3.345v29.277a3.862 3.862 0 0 0 5.79 3.345L40.6 27.347a3.865 3.865 0 0 0 0-6.693L15.26 6.017a3.86 3.86 0 0 0-3.861 0zM30.946 24L9.579 36.345");
+}
+
+</style>

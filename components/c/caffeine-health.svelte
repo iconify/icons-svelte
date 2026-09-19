@@ -1,0 +1,30 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<circle class="mq6x3qbem"/><path class="lq-f5-n-k"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:caffeine-health" {...props}></Icon>
+<style>
+:global(.lq-f5-n-k) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M4 24h11.332m-1.199.006h6.252l2.259-8.43l3.991 14.897l1.735-6.476s1.846-3.883 4.088 0h11.484");
+}
+
+:global(.mq6x3qbem) {
+  cx: 28.434px;
+  cy: 24px;
+  r: 15.566px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

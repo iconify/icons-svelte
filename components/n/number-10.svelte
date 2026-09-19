@@ -1,0 +1,45 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<rect class="j3s9ivbxi"/><g class="y9tr6bcfx"><path class="sg8ehwcrb"/><rect class="yu0n5sbsa"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:number-10" {...props}></Icon>
+<style>
+:global(.j3s9ivbxi) {
+  width: 37px;
+  height: 37px;
+  x: 5.5px;
+  y: 5.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 4px;
+  ry: 4px;
+}
+
+:global(.sg8ehwcrb) {
+  d: path("m14.368 18.178l4-2.178v16m14.01-14.116l-8.104 12.232");
+}
+
+:global(.y9tr6bcfx) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.yu0n5sbsa) {
+  width: 10.6px;
+  height: 16px;
+  x: 23.032px;
+  y: 16px;
+  rx: 5.3px;
+  ry: 5.3px;
+}
+
+</style>

@@ -1,0 +1,48 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="hhq8ow6hy"/><circle class="gbdfyvbid"/><circle class="t00j_txix"/><path class="u97mynlna"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:barinsta" {...props}></Icon>
+<style>
+:global(.gbdfyvbid) {
+  cx: 22.93px;
+  cy: 22.93px;
+  r: 18.43px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.hhq8ow6hy) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.8 16.28a3.79 3.79 0 0 0-2.94 6.18h0l6.07 7.12l6-7h0a3.78 3.78 0 1 0-6.06-4.52a3.79 3.79 0 0 0-3.13-1.66Z");
+}
+
+:global(.t00j_txix) {
+  cx: 22.93px;
+  cy: 22.93px;
+  r: 13.58px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:global(.u97mynlna) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.79 37.82L39 43a1.74 1.74 0 0 0 2.46 0L43 41.42A1.74 1.74 0 0 0 43 39l-5.17-5.17");
+}
+
+</style>
