@@ -1,0 +1,1555 @@
+{
+  "name": "@iconify-svelte/heroicons-outline",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/heroicons-outline/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./academic-cap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/academic-cap.svelte"
+    },
+    "./adjustments": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adjustments.svelte"
+    },
+    "./adjustments-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adjustments-horizontal.svelte"
+    },
+    "./adjustments-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adjustments-vertical.svelte"
+    },
+    "./annotation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/annotation.svelte"
+    },
+    "./archive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive.svelte"
+    },
+    "./archive-box": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-box.svelte"
+    },
+    "./archive-box-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-box-arrow-down.svelte"
+    },
+    "./archive-box-x-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-box-x-mark.svelte"
+    },
+    "./arrow-circle-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-down.svelte"
+    },
+    "./arrow-circle-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-left.svelte"
+    },
+    "./arrow-circle-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-right.svelte"
+    },
+    "./arrow-circle-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-up.svelte"
+    },
+    "./arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down.svelte"
+    },
+    "./arrow-down-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-circle.svelte"
+    },
+    "./arrow-down-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-left.svelte"
+    },
+    "./arrow-down-on-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-on-square.svelte"
+    },
+    "./arrow-down-on-square-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-on-square-stack.svelte"
+    },
+    "./arrow-down-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-right.svelte"
+    },
+    "./arrow-down-tray": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-tray.svelte"
+    },
+    "./arrow-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-left.svelte"
+    },
+    "./arrow-left-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-left-circle.svelte"
+    },
+    "./arrow-left-on-rectangle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-left-on-rectangle.svelte"
+    },
+    "./arrow-long-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-long-down.svelte"
+    },
+    "./arrow-long-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-long-left.svelte"
+    },
+    "./arrow-long-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-long-right.svelte"
+    },
+    "./arrow-long-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-long-up.svelte"
+    },
+    "./arrow-narrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-narrow-down.svelte"
+    },
+    "./arrow-narrow-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-narrow-left.svelte"
+    },
+    "./arrow-narrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-narrow-right.svelte"
+    },
+    "./arrow-narrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-narrow-up.svelte"
+    },
+    "./arrow-path": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-path.svelte"
+    },
+    "./arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-right.svelte"
+    },
+    "./arrow-right-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-right-circle.svelte"
+    },
+    "./arrow-right-on-rectangle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-right-on-rectangle.svelte"
+    },
+    "./arrow-sm-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-sm-down.svelte"
+    },
+    "./arrow-sm-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-sm-left.svelte"
+    },
+    "./arrow-sm-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-sm-right.svelte"
+    },
+    "./arrow-sm-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-sm-up.svelte"
+    },
+    "./arrow-top-right-on-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-top-right-on-square.svelte"
+    },
+    "./arrow-trending-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-trending-down.svelte"
+    },
+    "./arrow-trending-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-trending-up.svelte"
+    },
+    "./arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up.svelte"
+    },
+    "./arrow-up-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-circle.svelte"
+    },
+    "./arrow-up-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-left.svelte"
+    },
+    "./arrow-up-on-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-on-square.svelte"
+    },
+    "./arrow-up-on-square-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-on-square-stack.svelte"
+    },
+    "./arrow-up-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-right.svelte"
+    },
+    "./arrow-up-tray": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-tray.svelte"
+    },
+    "./arrow-uturn-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-down.svelte"
+    },
+    "./arrow-uturn-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-left.svelte"
+    },
+    "./arrow-uturn-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-right.svelte"
+    },
+    "./arrow-uturn-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-up.svelte"
+    },
+    "./arrows-expand": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrows-expand.svelte"
+    },
+    "./arrows-pointing-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrows-pointing-in.svelte"
+    },
+    "./arrows-pointing-out": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrows-pointing-out.svelte"
+    },
+    "./arrows-right-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrows-right-left.svelte"
+    },
+    "./arrows-up-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrows-up-down.svelte"
+    },
+    "./at-symbol": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/at-symbol.svelte"
+    },
+    "./backspace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backspace.svelte"
+    },
+    "./backward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backward.svelte"
+    },
+    "./badge-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-check.svelte"
+    },
+    "./ban": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/ban.svelte"
+    },
+    "./banknotes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banknotes.svelte"
+    },
+    "./bars-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bars-2.svelte"
+    },
+    "./bars-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bars-3.svelte"
+    },
+    "./bars-3-bottom-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bars-3-bottom-left.svelte"
+    },
+    "./bars-3-bottom-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bars-3-bottom-right.svelte"
+    },
+    "./bars-3-center-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bars-3-center-left.svelte"
+    },
+    "./bars-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bars-4.svelte"
+    },
+    "./beaker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beaker.svelte"
+    },
+    "./bell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell.svelte"
+    },
+    "./bell-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-alert.svelte"
+    },
+    "./bell-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-slash.svelte"
+    },
+    "./bell-snooze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-snooze.svelte"
+    },
+    "./bolt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt.svelte"
+    },
+    "./bolt-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt-slash.svelte"
+    },
+    "./book-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open.svelte"
+    },
+    "./bookmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark.svelte"
+    },
+    "./bookmark-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-alt.svelte"
+    },
+    "./bookmark-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-slash.svelte"
+    },
+    "./bookmark-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-square.svelte"
+    },
+    "./briefcase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase.svelte"
+    },
+    "./building-library": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-library.svelte"
+    },
+    "./building-office": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-office.svelte"
+    },
+    "./building-office-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-office-2.svelte"
+    },
+    "./building-storefront": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-storefront.svelte"
+    },
+    "./cake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cake.svelte"
+    },
+    "./calculator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calculator.svelte"
+    },
+    "./calendar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar.svelte"
+    },
+    "./calendar-days": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-days.svelte"
+    },
+    "./camera": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera.svelte"
+    },
+    "./cash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cash.svelte"
+    },
+    "./chart-bar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-bar.svelte"
+    },
+    "./chart-bar-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-bar-square.svelte"
+    },
+    "./chart-pie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-pie.svelte"
+    },
+    "./chart-square-bar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-square-bar.svelte"
+    },
+    "./chat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat.svelte"
+    },
+    "./chat-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-alt.svelte"
+    },
+    "./chat-alt-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-alt-2.svelte"
+    },
+    "./chat-bubble-bottom-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-bottom-center.svelte"
+    },
+    "./chat-bubble-bottom-center-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-bottom-center-text.svelte"
+    },
+    "./chat-bubble-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-left.svelte"
+    },
+    "./chat-bubble-left-ellipsis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-left-ellipsis.svelte"
+    },
+    "./chat-bubble-left-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-left-right.svelte"
+    },
+    "./chat-bubble-oval-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-oval-left.svelte"
+    },
+    "./chat-bubble-oval-left-ellipsis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-oval-left-ellipsis.svelte"
+    },
+    "./check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check.svelte"
+    },
+    "./check-badge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-badge.svelte"
+    },
+    "./check-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle.svelte"
+    },
+    "./chevron-double-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-double-down.svelte"
+    },
+    "./chevron-double-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-double-left.svelte"
+    },
+    "./chevron-double-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-double-right.svelte"
+    },
+    "./chevron-double-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-double-up.svelte"
+    },
+    "./chevron-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-down.svelte"
+    },
+    "./chevron-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-left.svelte"
+    },
+    "./chevron-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-right.svelte"
+    },
+    "./chevron-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-up.svelte"
+    },
+    "./chip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chip.svelte"
+    },
+    "./circle-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-stack.svelte"
+    },
+    "./clipboard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard.svelte"
+    },
+    "./clipboard-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-check.svelte"
+    },
+    "./clipboard-copy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-copy.svelte"
+    },
+    "./clipboard-document": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-document.svelte"
+    },
+    "./clipboard-document-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-document-check.svelte"
+    },
+    "./clipboard-document-list": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-document-list.svelte"
+    },
+    "./clipboard-list": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-list.svelte"
+    },
+    "./clock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock.svelte"
+    },
+    "./cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud.svelte"
+    },
+    "./cloud-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-arrow-down.svelte"
+    },
+    "./cloud-arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-arrow-up.svelte"
+    },
+    "./cloud-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-download.svelte"
+    },
+    "./cloud-upload": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-upload.svelte"
+    },
+    "./code": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code.svelte"
+    },
+    "./code-bracket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-bracket.svelte"
+    },
+    "./code-bracket-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-bracket-square.svelte"
+    },
+    "./cog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog.svelte"
+    },
+    "./cog-6-tooth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-6-tooth.svelte"
+    },
+    "./cog-8-tooth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-8-tooth.svelte"
+    },
+    "./collection": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/collection.svelte"
+    },
+    "./color-swatch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color-swatch.svelte"
+    },
+    "./command-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-line.svelte"
+    },
+    "./computer-desktop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/computer-desktop.svelte"
+    },
+    "./cpu-chip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-chip.svelte"
+    },
+    "./credit-card": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card.svelte"
+    },
+    "./cube": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cube.svelte"
+    },
+    "./cube-transparent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cube-transparent.svelte"
+    },
+    "./currency-bangladeshi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/currency-bangladeshi.svelte"
+    },
+    "./currency-dollar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/currency-dollar.svelte"
+    },
+    "./currency-euro": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/currency-euro.svelte"
+    },
+    "./currency-pound": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/currency-pound.svelte"
+    },
+    "./currency-rupee": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/currency-rupee.svelte"
+    },
+    "./currency-yen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/currency-yen.svelte"
+    },
+    "./cursor-arrow-rays": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-arrow-rays.svelte"
+    },
+    "./cursor-arrow-ripple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-arrow-ripple.svelte"
+    },
+    "./cursor-click": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-click.svelte"
+    },
+    "./database": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database.svelte"
+    },
+    "./desktop-computer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desktop-computer.svelte"
+    },
+    "./device-mobile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-mobile.svelte"
+    },
+    "./device-phone-mobile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-phone-mobile.svelte"
+    },
+    "./device-tablet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-tablet.svelte"
+    },
+    "./document": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document.svelte"
+    },
+    "./document-add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-add.svelte"
+    },
+    "./document-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-arrow-down.svelte"
+    },
+    "./document-arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-arrow-up.svelte"
+    },
+    "./document-chart-bar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-chart-bar.svelte"
+    },
+    "./document-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-check.svelte"
+    },
+    "./document-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-download.svelte"
+    },
+    "./document-duplicate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-duplicate.svelte"
+    },
+    "./document-magnifying-glass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-magnifying-glass.svelte"
+    },
+    "./document-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-minus.svelte"
+    },
+    "./document-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-plus.svelte"
+    },
+    "./document-remove": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-remove.svelte"
+    },
+    "./document-report": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-report.svelte"
+    },
+    "./document-search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-search.svelte"
+    },
+    "./document-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-text.svelte"
+    },
+    "./dots-circle-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dots-circle-horizontal.svelte"
+    },
+    "./dots-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dots-horizontal.svelte"
+    },
+    "./dots-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dots-vertical.svelte"
+    },
+    "./download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download.svelte"
+    },
+    "./duplicate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/duplicate.svelte"
+    },
+    "./ellipsis-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-horizontal.svelte"
+    },
+    "./ellipsis-horizontal-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-horizontal-circle.svelte"
+    },
+    "./ellipsis-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-vertical.svelte"
+    },
+    "./emoji-happy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emoji-happy.svelte"
+    },
+    "./emoji-sad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emoji-sad.svelte"
+    },
+    "./envelope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope.svelte"
+    },
+    "./envelope-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-open.svelte"
+    },
+    "./exclaimation-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclaimation-circle.svelte"
+    },
+    "./exclaimation-triangle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclaimation-triangle.svelte"
+    },
+    "./exclamation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation.svelte"
+    },
+    "./exclamation-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-circle.svelte"
+    },
+    "./external-link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/external-link.svelte"
+    },
+    "./eye": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye.svelte"
+    },
+    "./eye-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-off.svelte"
+    },
+    "./eye-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-slash.svelte"
+    },
+    "./face-frown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-frown.svelte"
+    },
+    "./face-smile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-smile.svelte"
+    },
+    "./fast-forward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fast-forward.svelte"
+    },
+    "./film": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/film.svelte"
+    },
+    "./filter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter.svelte"
+    },
+    "./finger-print": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/finger-print.svelte"
+    },
+    "./fire": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire.svelte"
+    },
+    "./flag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag.svelte"
+    },
+    "./folder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder.svelte"
+    },
+    "./folder-add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-add.svelte"
+    },
+    "./folder-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-arrow-down.svelte"
+    },
+    "./folder-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-download.svelte"
+    },
+    "./folder-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-minus.svelte"
+    },
+    "./folder-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open.svelte"
+    },
+    "./folder-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-plus.svelte"
+    },
+    "./folder-remove": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-remove.svelte"
+    },
+    "./forward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forward.svelte"
+    },
+    "./funnel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/funnel.svelte"
+    },
+    "./gif": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gif.svelte"
+    },
+    "./gift": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift.svelte"
+    },
+    "./gift-top": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-top.svelte"
+    },
+    "./globe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe.svelte"
+    },
+    "./globe-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-alt.svelte"
+    },
+    "./globe-americas": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-americas.svelte"
+    },
+    "./globe-asia-australia": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-asia-australia.svelte"
+    },
+    "./globe-europe-africa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-europe-africa.svelte"
+    },
+    "./hand": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand.svelte"
+    },
+    "./hand-raised": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-raised.svelte"
+    },
+    "./hand-thumb-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-thumb-down.svelte"
+    },
+    "./hand-thumb-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-thumb-up.svelte"
+    },
+    "./hashtag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hashtag.svelte"
+    },
+    "./heart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart.svelte"
+    },
+    "./home": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home.svelte"
+    },
+    "./home-modern": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-modern.svelte"
+    },
+    "./identification": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/identification.svelte"
+    },
+    "./inbox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox.svelte"
+    },
+    "./inbox-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-arrow-down.svelte"
+    },
+    "./inbox-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-in.svelte"
+    },
+    "./inbox-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-stack.svelte"
+    },
+    "./information-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/information-circle.svelte"
+    },
+    "./key": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key.svelte"
+    },
+    "./language": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/language.svelte"
+    },
+    "./library": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library.svelte"
+    },
+    "./lifebuoy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lifebuoy.svelte"
+    },
+    "./light-bulb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/light-bulb.svelte"
+    },
+    "./lightning-bolt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightning-bolt.svelte"
+    },
+    "./link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link.svelte"
+    },
+    "./list-bullet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-bullet.svelte"
+    },
+    "./location-marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-marker.svelte"
+    },
+    "./lock-closed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-closed.svelte"
+    },
+    "./lock-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-open.svelte"
+    },
+    "./login": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/login.svelte"
+    },
+    "./logout": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logout.svelte"
+    },
+    "./magnifying-glass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magnifying-glass.svelte"
+    },
+    "./magnifying-glass-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magnifying-glass-circle.svelte"
+    },
+    "./magnifying-glass-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magnifying-glass-minus.svelte"
+    },
+    "./magnifying-glass-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magnifying-glass-plus.svelte"
+    },
+    "./mail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail.svelte"
+    },
+    "./mail-open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-open.svelte"
+    },
+    "./map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map.svelte"
+    },
+    "./map-pin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin.svelte"
+    },
+    "./megaphone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone.svelte"
+    },
+    "./menu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu.svelte"
+    },
+    "./menu-alt-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu-alt-1.svelte"
+    },
+    "./menu-alt-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu-alt-2.svelte"
+    },
+    "./menu-alt-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu-alt-3.svelte"
+    },
+    "./menu-alt-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu-alt-4.svelte"
+    },
+    "./microphone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microphone.svelte"
+    },
+    "./minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus.svelte"
+    },
+    "./minus-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus-circle.svelte"
+    },
+    "./minus-sm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus-sm.svelte"
+    },
+    "./moon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon.svelte"
+    },
+    "./music-note": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/music-note.svelte"
+    },
+    "./musical-note": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/musical-note.svelte"
+    },
+    "./newspaper": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/newspaper.svelte"
+    },
+    "./no-symbol": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-symbol.svelte"
+    },
+    "./office-building": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/office-building.svelte"
+    },
+    "./paper-airplane": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paper-airplane.svelte"
+    },
+    "./paper-clip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paper-clip.svelte"
+    },
+    "./pause": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause.svelte"
+    },
+    "./pencil": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil.svelte"
+    },
+    "./pencil-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-alt.svelte"
+    },
+    "./pencil-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-square.svelte"
+    },
+    "./phone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone.svelte"
+    },
+    "./phone-arrow-down-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-arrow-down-left.svelte"
+    },
+    "./phone-arrow-up-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-arrow-up-right.svelte"
+    },
+    "./phone-incoming": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-incoming.svelte"
+    },
+    "./phone-missed-call": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-missed-call.svelte"
+    },
+    "./phone-outgoing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-outgoing.svelte"
+    },
+    "./phone-x-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-x-mark.svelte"
+    },
+    "./photo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/photo.svelte"
+    },
+    "./photograph": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/photograph.svelte"
+    },
+    "./play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play.svelte"
+    },
+    "./play-pause": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play-pause.svelte"
+    },
+    "./plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus.svelte"
+    },
+    "./plus-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-circle.svelte"
+    },
+    "./plus-sm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-sm.svelte"
+    },
+    "./presentation-chart-bar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/presentation-chart-bar.svelte"
+    },
+    "./presentation-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/presentation-chart-line.svelte"
+    },
+    "./printer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer.svelte"
+    },
+    "./puzzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle.svelte"
+    },
+    "./puzzle-piece": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle-piece.svelte"
+    },
+    "./qr-code": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qr-code.svelte"
+    },
+    "./qrcode": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qrcode.svelte"
+    },
+    "./question-mark-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-mark-circle.svelte"
+    },
+    "./queue-list": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/queue-list.svelte"
+    },
+    "./radio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/radio.svelte"
+    },
+    "./receipt-percent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-percent.svelte"
+    },
+    "./receipt-refund": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-refund.svelte"
+    },
+    "./receipt-tax": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-tax.svelte"
+    },
+    "./rectangle-group": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle-group.svelte"
+    },
+    "./rectangle-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle-stack.svelte"
+    },
+    "./refresh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/refresh.svelte"
+    },
+    "./reply": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reply.svelte"
+    },
+    "./rewind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rewind.svelte"
+    },
+    "./rss": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rss.svelte"
+    },
+    "./save": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/save.svelte"
+    },
+    "./save-as": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/save-as.svelte"
+    },
+    "./scale": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale.svelte"
+    },
+    "./scissors": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scissors.svelte"
+    },
+    "./search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search.svelte"
+    },
+    "./search-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-circle.svelte"
+    },
+    "./selector": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/selector.svelte"
+    },
+    "./server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server.svelte"
+    },
+    "./server-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-stack.svelte"
+    },
+    "./share": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share.svelte"
+    },
+    "./shield-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-check.svelte"
+    },
+    "./shield-exclamation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-exclamation.svelte"
+    },
+    "./shopping-bag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-bag.svelte"
+    },
+    "./shopping-cart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart.svelte"
+    },
+    "./signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signal.svelte"
+    },
+    "./signal-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signal-slash.svelte"
+    },
+    "./sort-ascending": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-ascending.svelte"
+    },
+    "./sort-descending": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-descending.svelte"
+    },
+    "./sparkles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkles.svelte"
+    },
+    "./speaker-wave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/speaker-wave.svelte"
+    },
+    "./speaker-x-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/speaker-x-mark.svelte"
+    },
+    "./speakerphone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/speakerphone.svelte"
+    },
+    "./square-2-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-2-stack.svelte"
+    },
+    "./squares-2x2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squares-2x2.svelte"
+    },
+    "./squares-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squares-plus.svelte"
+    },
+    "./star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star.svelte"
+    },
+    "./status-offline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-offline.svelte"
+    },
+    "./status-online": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-online.svelte"
+    },
+    "./stop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop.svelte"
+    },
+    "./sun": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sun.svelte"
+    },
+    "./support": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/support.svelte"
+    },
+    "./swatch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/swatch.svelte"
+    },
+    "./switch-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/switch-horizontal.svelte"
+    },
+    "./switch-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/switch-vertical.svelte"
+    },
+    "./table": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table.svelte"
+    },
+    "./table-cells": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-cells.svelte"
+    },
+    "./tag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag.svelte"
+    },
+    "./template": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/template.svelte"
+    },
+    "./terminal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal.svelte"
+    },
+    "./thumb-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumb-down.svelte"
+    },
+    "./thumb-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumb-up.svelte"
+    },
+    "./ticket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/ticket.svelte"
+    },
+    "./translate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/translate.svelte"
+    },
+    "./trash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash.svelte"
+    },
+    "./trending-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trending-down.svelte"
+    },
+    "./trending-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trending-up.svelte"
+    },
+    "./truck": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/truck.svelte"
+    },
+    "./upload": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload.svelte"
+    },
+    "./user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user.svelte"
+    },
+    "./user-add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-add.svelte"
+    },
+    "./user-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-circle.svelte"
+    },
+    "./user-group": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-group.svelte"
+    },
+    "./user-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-plus.svelte"
+    },
+    "./user-remove": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-remove.svelte"
+    },
+    "./users": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users.svelte"
+    },
+    "./variable": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/variable.svelte"
+    },
+    "./video-camera": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-camera.svelte"
+    },
+    "./video-camera-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-camera-slash.svelte"
+    },
+    "./view-boards": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-boards.svelte"
+    },
+    "./view-columns": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-columns.svelte"
+    },
+    "./view-grid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-grid.svelte"
+    },
+    "./view-grid-add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-grid-add.svelte"
+    },
+    "./view-list": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-list.svelte"
+    },
+    "./volume-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-off.svelte"
+    },
+    "./volume-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-up.svelte"
+    },
+    "./wifi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi.svelte"
+    },
+    "./wrench": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench.svelte"
+    },
+    "./wrench-screwdriver": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-screwdriver.svelte"
+    },
+    "./x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x.svelte"
+    },
+    "./x-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-circle.svelte"
+    },
+    "./x-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-mark.svelte"
+    },
+    "./zoom-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-in.svelte"
+    },
+    "./zoom-out": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-out.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#heroicons-outline"
+}
