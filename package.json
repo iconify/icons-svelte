@@ -1,0 +1,151 @@
+{
+  "name": "@iconify-svelte/fontelico",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/fontelico/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "CC-BY-SA-3.0",
+  "exports": {
+    "./chrome": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chrome.svelte"
+    },
+    "./crown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crown.svelte"
+    },
+    "./crown-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crown-minus.svelte"
+    },
+    "./crown-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crown-plus.svelte"
+    },
+    "./emo-angry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-angry.svelte"
+    },
+    "./emo-beer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-beer.svelte"
+    },
+    "./emo-coffee": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-coffee.svelte"
+    },
+    "./emo-cry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-cry.svelte"
+    },
+    "./emo-devil": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-devil.svelte"
+    },
+    "./emo-displeased": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-displeased.svelte"
+    },
+    "./emo-grin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-grin.svelte"
+    },
+    "./emo-happy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-happy.svelte"
+    },
+    "./emo-laugh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-laugh.svelte"
+    },
+    "./emo-saint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-saint.svelte"
+    },
+    "./emo-shoot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-shoot.svelte"
+    },
+    "./emo-sleep": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-sleep.svelte"
+    },
+    "./emo-squint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-squint.svelte"
+    },
+    "./emo-sunglasses": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-sunglasses.svelte"
+    },
+    "./emo-surprised": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-surprised.svelte"
+    },
+    "./emo-thumbsup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-thumbsup.svelte"
+    },
+    "./emo-tongue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-tongue.svelte"
+    },
+    "./emo-unhappy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-unhappy.svelte"
+    },
+    "./emo-wink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-wink.svelte"
+    },
+    "./emo-wink2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emo-wink2.svelte"
+    },
+    "./firefox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firefox.svelte"
+    },
+    "./ie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ie.svelte"
+    },
+    "./marquee": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marquee.svelte"
+    },
+    "./opera": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opera.svelte"
+    },
+    "./spin1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spin1.svelte"
+    },
+    "./spin2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spin2.svelte"
+    },
+    "./spin3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spin3.svelte"
+    },
+    "./spin4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spin4.svelte"
+    },
+    "./spin5": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spin5.svelte"
+    },
+    "./spin6": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spin6.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#fontelico"
+}
