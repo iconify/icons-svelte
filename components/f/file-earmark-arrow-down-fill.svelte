@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/up4hb1bjk.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="up4hb1bjk"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="bi:file-earmark-arrow-down-fill" {...props}></Icon>

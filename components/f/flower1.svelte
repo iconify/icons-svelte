@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/u5k1d6waj.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="u5k1d6waj"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="bi:flower1" {...props}></Icon>
