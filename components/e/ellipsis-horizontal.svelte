@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/l/l9-uvibgd.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="l9-uvibgd"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="heroicons-solid:ellipsis-horizontal" {...props}></Icon>
