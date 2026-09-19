@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/t21fhvpyz.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="t21fhvpyz"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icomoon-free:smile" {...props}></Icon>
