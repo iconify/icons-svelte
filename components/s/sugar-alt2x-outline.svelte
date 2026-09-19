@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/k/kxgp1cb4o.css';
+import '../../css/f/fr25qac1j.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="kxgp1cb4o"/><path class="fr25qac1j"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="healthicons:sugar-alt2x-outline" {...props}></Icon>

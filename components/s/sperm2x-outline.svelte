@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/q/qs8xe8bhn.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path clip-rule="evenodd" class="qs8xe8bhn"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="healthicons:sperm2x-outline" {...props}></Icon>

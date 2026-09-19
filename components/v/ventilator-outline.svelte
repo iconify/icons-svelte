@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/l/l2es_7bef.css';
+import '../../css/u/u74184bbs.css';
+import '../../css/j/j2f-64b_n.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="cuyn6tgcc"><path class="l2es_7bef"/><path clip-rule="evenodd" class="u74184bbs"/><path class="j2f-64b_n"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="healthicons:ventilator-outline" {...props}></Icon>
