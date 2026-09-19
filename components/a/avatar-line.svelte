@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/z/zqc4vyb-j.css';
+import '../../css/v/vpbu-db2v.css';
+import '../../css/m/m2o3sh-9c.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="clr-i-outline clr-i-outline-path-1 zqc4vyb-j"/><path class="clr-i-outline clr-i-outline-path-2 vpbu-db2v"/><path class="m2o3sh-9c"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="clarity:avatar-line" {...props}></Icon>

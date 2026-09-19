@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/p/pinyq9bqk.css';
+import '../../css/s/swnh3d4fc.css';
+import '../../css/t/t1v5m3rvb.css';
+import '../../css/m/m2o3sh-9c.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="clr-i-outline clr-i-outline-path-1 pinyq9bqk"/><path class="clr-i-outline clr-i-outline-path-2 swnh3d4fc"/><path class="clr-i-outline clr-i-outline-path-3 t1v5m3rvb"/><path class="m2o3sh-9c"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="clarity:hard-disk-line" {...props}></Icon>

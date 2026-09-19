@@ -1,0 +1,4435 @@
+{
+  "name": "@iconify-svelte/clarity",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/clarity/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./accessibility-1-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-1-line.svelte"
+    },
+    "./accessibility-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-1-solid.svelte"
+    },
+    "./accessibility-2-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-2-line.svelte"
+    },
+    "./accessibility-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-2-solid.svelte"
+    },
+    "./add-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-line.svelte"
+    },
+    "./add-text-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-text-line.svelte"
+    },
+    "./administrator-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/administrator-line.svelte"
+    },
+    "./administrator-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/administrator-solid.svelte"
+    },
+    "./airplane-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/airplane-line.svelte"
+    },
+    "./airplane-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/airplane-solid.svelte"
+    },
+    "./alarm-clock-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-clock-line.svelte"
+    },
+    "./alarm-clock-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-clock-outline-alerted.svelte"
+    },
+    "./alarm-clock-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-clock-outline-badged.svelte"
+    },
+    "./alarm-clock-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-clock-solid.svelte"
+    },
+    "./alarm-clock-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-clock-solid-alerted.svelte"
+    },
+    "./alarm-clock-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-clock-solid-badged.svelte"
+    },
+    "./alarm-off-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-off-line.svelte"
+    },
+    "./alarm-off-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-off-solid.svelte"
+    },
+    "./alert-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-line.svelte"
+    },
+    "./alert-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-solid.svelte"
+    },
+    "./align-bottom-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-bottom-line.svelte"
+    },
+    "./align-center-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-center-line.svelte"
+    },
+    "./align-left-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-left-line.svelte"
+    },
+    "./align-left-text-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-left-text-line.svelte"
+    },
+    "./align-middle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-middle-line.svelte"
+    },
+    "./align-right-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-right-line.svelte"
+    },
+    "./align-right-text-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-right-text-line.svelte"
+    },
+    "./align-top-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-top-line.svelte"
+    },
+    "./analytics-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analytics-line.svelte"
+    },
+    "./analytics-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analytics-outline-alerted.svelte"
+    },
+    "./analytics-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analytics-outline-badged.svelte"
+    },
+    "./analytics-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analytics-solid.svelte"
+    },
+    "./analytics-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analytics-solid-alerted.svelte"
+    },
+    "./analytics-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analytics-solid-badged.svelte"
+    },
+    "./angle-double-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angle-double-line.svelte"
+    },
+    "./angle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angle-line.svelte"
+    },
+    "./animation-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animation-line.svelte"
+    },
+    "./animation-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animation-solid.svelte"
+    },
+    "./application-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/application-line.svelte"
+    },
+    "./application-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/application-solid.svelte"
+    },
+    "./applications-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/applications-line.svelte"
+    },
+    "./applications-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/applications-outline-alerted.svelte"
+    },
+    "./applications-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/applications-outline-badged.svelte"
+    },
+    "./applications-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/applications-solid.svelte"
+    },
+    "./applications-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/applications-solid-alerted.svelte"
+    },
+    "./applications-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/applications-solid-badged.svelte"
+    },
+    "./archive-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-line.svelte"
+    },
+    "./archive-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-solid.svelte"
+    },
+    "./arrow-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-line.svelte"
+    },
+    "./assign-user-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/assign-user-line.svelte"
+    },
+    "./assign-user-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/assign-user-solid.svelte"
+    },
+    "./asterisk-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/asterisk-line.svelte"
+    },
+    "./asterisk-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/asterisk-solid.svelte"
+    },
+    "./atom-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atom-line.svelte"
+    },
+    "./atom-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atom-solid.svelte"
+    },
+    "./attachment-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/attachment-line.svelte"
+    },
+    "./auto-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/auto-line.svelte"
+    },
+    "./auto-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/auto-solid.svelte"
+    },
+    "./avatar-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatar-line.svelte"
+    },
+    "./avatar-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatar-outline-alerted.svelte"
+    },
+    "./avatar-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatar-outline-badged.svelte"
+    },
+    "./avatar-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatar-solid.svelte"
+    },
+    "./avatar-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatar-solid-alerted.svelte"
+    },
+    "./avatar-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatar-solid-badged.svelte"
+    },
+    "./axis-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/axis-chart-line.svelte"
+    },
+    "./axis-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/axis-chart-outline-alerted.svelte"
+    },
+    "./axis-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/axis-chart-outline-badged.svelte"
+    },
+    "./axis-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/axis-chart-solid.svelte"
+    },
+    "./axis-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/axis-chart-solid-alerted.svelte"
+    },
+    "./axis-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/axis-chart-solid-badged.svelte"
+    },
+    "./backup-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-line.svelte"
+    },
+    "./backup-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-outline-alerted.svelte"
+    },
+    "./backup-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-outline-badged.svelte"
+    },
+    "./backup-restore-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-restore-line.svelte"
+    },
+    "./backup-restore-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-restore-outline-alerted.svelte"
+    },
+    "./backup-restore-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-restore-outline-badged.svelte"
+    },
+    "./backup-restore-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-restore-solid.svelte"
+    },
+    "./backup-restore-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-restore-solid-alerted.svelte"
+    },
+    "./backup-restore-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-restore-solid-badged.svelte"
+    },
+    "./backup-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-solid.svelte"
+    },
+    "./backup-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-solid-alerted.svelte"
+    },
+    "./backup-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backup-solid-badged.svelte"
+    },
+    "./balance-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/balance-line.svelte"
+    },
+    "./ban-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/ban-line.svelte"
+    },
+    "./bank-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bank-line.svelte"
+    },
+    "./bank-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bank-outline-alerted.svelte"
+    },
+    "./bank-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bank-outline-badged.svelte"
+    },
+    "./bank-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bank-solid.svelte"
+    },
+    "./bank-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bank-solid-alerted.svelte"
+    },
+    "./bank-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bank-solid-badged.svelte"
+    },
+    "./bar-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-chart-line.svelte"
+    },
+    "./bar-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-chart-outline-alerted.svelte"
+    },
+    "./bar-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-chart-outline-badged.svelte"
+    },
+    "./bar-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-chart-solid.svelte"
+    },
+    "./bar-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-chart-solid-alerted.svelte"
+    },
+    "./bar-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-chart-solid-badged.svelte"
+    },
+    "./bar-code-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-code-line.svelte"
+    },
+    "./bars-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bars-line.svelte"
+    },
+    "./battery-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-line.svelte"
+    },
+    "./battery-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-outline-alerted.svelte"
+    },
+    "./battery-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-outline-badged.svelte"
+    },
+    "./battery-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-solid.svelte"
+    },
+    "./battery-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-solid-alerted.svelte"
+    },
+    "./battery-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-solid-badged.svelte"
+    },
+    "./bell-curve-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-curve-line.svelte"
+    },
+    "./bell-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-line.svelte"
+    },
+    "./bell-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-outline-badged.svelte"
+    },
+    "./bell-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-solid.svelte"
+    },
+    "./bell-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-solid-badged.svelte"
+    },
+    "./beta-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beta-line.svelte"
+    },
+    "./beta-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beta-solid.svelte"
+    },
+    "./bicycle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bicycle-line.svelte"
+    },
+    "./bicycle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bicycle-solid.svelte"
+    },
+    "./bitcoin-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitcoin-line.svelte"
+    },
+    "./bitcoin-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitcoin-solid.svelte"
+    },
+    "./block-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/block-line.svelte"
+    },
+    "./block-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/block-outline-alerted.svelte"
+    },
+    "./block-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/block-outline-badged.svelte"
+    },
+    "./block-quote-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/block-quote-line.svelte"
+    },
+    "./block-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/block-solid.svelte"
+    },
+    "./block-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/block-solid-alerted.svelte"
+    },
+    "./block-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/block-solid-badged.svelte"
+    },
+    "./blocks-group-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocks-group-line.svelte"
+    },
+    "./blocks-group-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocks-group-outline-alerted.svelte"
+    },
+    "./blocks-group-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocks-group-outline-badged.svelte"
+    },
+    "./blocks-group-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocks-group-solid.svelte"
+    },
+    "./blocks-group-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocks-group-solid-alerted.svelte"
+    },
+    "./blocks-group-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocks-group-solid-badged.svelte"
+    },
+    "./bluetooth-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth-line.svelte"
+    },
+    "./bluetooth-off-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth-off-line.svelte"
+    },
+    "./bluetooth-off-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth-off-solid.svelte"
+    },
+    "./bluetooth-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth-solid.svelte"
+    },
+    "./boat-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boat-line.svelte"
+    },
+    "./boat-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boat-solid.svelte"
+    },
+    "./bold-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bold-line.svelte"
+    },
+    "./bolt-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt-line.svelte"
+    },
+    "./bolt-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt-solid.svelte"
+    },
+    "./book-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-line.svelte"
+    },
+    "./book-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-solid.svelte"
+    },
+    "./bookmark-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-line.svelte"
+    },
+    "./bookmark-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-solid.svelte"
+    },
+    "./box-plot-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-plot-line.svelte"
+    },
+    "./box-plot-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-plot-outline-alerted.svelte"
+    },
+    "./box-plot-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-plot-outline-badged.svelte"
+    },
+    "./box-plot-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-plot-solid.svelte"
+    },
+    "./box-plot-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-plot-solid-alerted.svelte"
+    },
+    "./box-plot-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-plot-solid-badged.svelte"
+    },
+    "./briefcase-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-line.svelte"
+    },
+    "./briefcase-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-solid.svelte"
+    },
+    "./bubble-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-chart-line.svelte"
+    },
+    "./bubble-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-chart-outline-alerted.svelte"
+    },
+    "./bubble-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-chart-outline-badged.svelte"
+    },
+    "./bubble-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-chart-solid.svelte"
+    },
+    "./bubble-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-chart-solid-alerted.svelte"
+    },
+    "./bubble-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-chart-solid-badged.svelte"
+    },
+    "./bubble-exclamation-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-exclamation-line.svelte"
+    },
+    "./bubble-exclamation-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bubble-exclamation-solid.svelte"
+    },
+    "./bug-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bug-line.svelte"
+    },
+    "./bug-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bug-solid.svelte"
+    },
+    "./building-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-line.svelte"
+    },
+    "./building-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-outline-alerted.svelte"
+    },
+    "./building-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-outline-badged.svelte"
+    },
+    "./building-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-solid.svelte"
+    },
+    "./building-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-solid-alerted.svelte"
+    },
+    "./building-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-solid-badged.svelte"
+    },
+    "./bullet-list-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bullet-list-line.svelte"
+    },
+    "./bullseye-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bullseye-line.svelte"
+    },
+    "./bullseye-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bullseye-solid.svelte"
+    },
+    "./bundle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bundle-line.svelte"
+    },
+    "./bundle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bundle-solid.svelte"
+    },
+    "./calculator-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calculator-line.svelte"
+    },
+    "./calculator-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calculator-solid.svelte"
+    },
+    "./calendar-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-line.svelte"
+    },
+    "./calendar-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-outline-alerted.svelte"
+    },
+    "./calendar-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-outline-badged.svelte"
+    },
+    "./calendar-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-solid.svelte"
+    },
+    "./calendar-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-solid-alerted.svelte"
+    },
+    "./calendar-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-solid-badged.svelte"
+    },
+    "./camera-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-line.svelte"
+    },
+    "./camera-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-solid.svelte"
+    },
+    "./campervan-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/campervan-line.svelte"
+    },
+    "./campervan-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/campervan-solid.svelte"
+    },
+    "./cancel-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cancel-line.svelte"
+    },
+    "./capacitor-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/capacitor-line.svelte"
+    },
+    "./car-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-line.svelte"
+    },
+    "./car-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-solid.svelte"
+    },
+    "./caravan-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caravan-line.svelte"
+    },
+    "./caravan-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caravan-solid.svelte"
+    },
+    "./caret-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caret-line.svelte"
+    },
+    "./cd-dvd-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cd-dvd-line.svelte"
+    },
+    "./cd-dvd-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cd-dvd-solid.svelte"
+    },
+    "./center-text-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/center-text-line.svelte"
+    },
+    "./certificate-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-line.svelte"
+    },
+    "./certificate-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-outline-alerted.svelte"
+    },
+    "./certificate-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-outline-badged.svelte"
+    },
+    "./certificate-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-solid.svelte"
+    },
+    "./certificate-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-solid-alerted.svelte"
+    },
+    "./certificate-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-solid-badged.svelte"
+    },
+    "./chat-bubble-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-line.svelte"
+    },
+    "./chat-bubble-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-outline-badged.svelte"
+    },
+    "./chat-bubble-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-solid.svelte"
+    },
+    "./chat-bubble-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubble-solid-badged.svelte"
+    },
+    "./check-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle-line.svelte"
+    },
+    "./check-circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle-solid.svelte"
+    },
+    "./check-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-line.svelte"
+    },
+    "./checkbox-list-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-list-line.svelte"
+    },
+    "./child-arrow-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/child-arrow-line.svelte"
+    },
+    "./ci-cd-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/ci-cd-line.svelte"
+    },
+    "./circle-arrow-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-line.svelte"
+    },
+    "./circle-arrow-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-solid.svelte"
+    },
+    "./circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-line.svelte"
+    },
+    "./circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-solid.svelte"
+    },
+    "./clipboard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-line.svelte"
+    },
+    "./clipboard-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-outline-badged.svelte"
+    },
+    "./clipboard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-solid.svelte"
+    },
+    "./clipboard-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-solid-badged.svelte"
+    },
+    "./clock-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-line.svelte"
+    },
+    "./clock-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-outline-alerted.svelte"
+    },
+    "./clock-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-outline-badged.svelte"
+    },
+    "./clock-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-solid.svelte"
+    },
+    "./clock-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-solid-alerted.svelte"
+    },
+    "./clock-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-solid-badged.svelte"
+    },
+    "./clone-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clone-line.svelte"
+    },
+    "./clone-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clone-solid.svelte"
+    },
+    "./close-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/close-line.svelte"
+    },
+    "./cloud-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-chart-line.svelte"
+    },
+    "./cloud-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-chart-outline-alerted.svelte"
+    },
+    "./cloud-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-chart-outline-badged.svelte"
+    },
+    "./cloud-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-chart-solid.svelte"
+    },
+    "./cloud-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-chart-solid-alerted.svelte"
+    },
+    "./cloud-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-chart-solid-badged.svelte"
+    },
+    "./cloud-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-line.svelte"
+    },
+    "./cloud-network-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-network-line.svelte"
+    },
+    "./cloud-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-outline-alerted.svelte"
+    },
+    "./cloud-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-outline-badged.svelte"
+    },
+    "./cloud-scale-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-scale-line.svelte"
+    },
+    "./cloud-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-solid.svelte"
+    },
+    "./cloud-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-solid-alerted.svelte"
+    },
+    "./cloud-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-solid-badged.svelte"
+    },
+    "./cloud-traffic-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-traffic-line.svelte"
+    },
+    "./cluster-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cluster-line.svelte"
+    },
+    "./cluster-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cluster-outline-alerted.svelte"
+    },
+    "./cluster-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cluster-outline-badged.svelte"
+    },
+    "./cluster-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cluster-solid.svelte"
+    },
+    "./cluster-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cluster-solid-alerted.svelte"
+    },
+    "./cluster-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cluster-solid-badged.svelte"
+    },
+    "./code-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-line.svelte"
+    },
+    "./code-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-outline-alerted.svelte"
+    },
+    "./code-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-outline-badged.svelte"
+    },
+    "./cog-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-line.svelte"
+    },
+    "./cog-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-outline-alerted.svelte"
+    },
+    "./cog-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-outline-badged.svelte"
+    },
+    "./cog-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-solid.svelte"
+    },
+    "./cog-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-solid-alerted.svelte"
+    },
+    "./cog-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cog-solid-badged.svelte"
+    },
+    "./coin-bag-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-bag-line.svelte"
+    },
+    "./coin-bag-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-bag-solid.svelte"
+    },
+    "./collapse-card-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/collapse-card-line.svelte"
+    },
+    "./collapse-card-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/collapse-card-solid.svelte"
+    },
+    "./collapse-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/collapse-line.svelte"
+    },
+    "./color-palette-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color-palette-line.svelte"
+    },
+    "./color-palette-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color-palette-solid.svelte"
+    },
+    "./color-picker-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color-picker-line.svelte"
+    },
+    "./color-picker-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color-picker-solid.svelte"
+    },
+    "./command-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-line.svelte"
+    },
+    "./command-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-outline-alerted.svelte"
+    },
+    "./command-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-outline-badged.svelte"
+    },
+    "./command-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-solid.svelte"
+    },
+    "./command-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-solid-alerted.svelte"
+    },
+    "./command-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-solid-badged.svelte"
+    },
+    "./compass-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-line.svelte"
+    },
+    "./compass-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-solid.svelte"
+    },
+    "./computer-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/computer-line.svelte"
+    },
+    "./computer-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/computer-outline-alerted.svelte"
+    },
+    "./computer-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/computer-outline-badged.svelte"
+    },
+    "./computer-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/computer-solid.svelte"
+    },
+    "./computer-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/computer-solid-alerted.svelte"
+    },
+    "./computer-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/computer-solid-badged.svelte"
+    },
+    "./connect-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/connect-line.svelte"
+    },
+    "./connect-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/connect-solid.svelte"
+    },
+    "./container-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-line.svelte"
+    },
+    "./container-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-solid.svelte"
+    },
+    "./container-volume-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-volume-line.svelte"
+    },
+    "./container-volume-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-volume-solid.svelte"
+    },
+    "./contract-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contract-line.svelte"
+    },
+    "./contract-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contract-solid.svelte"
+    },
+    "./control-lun-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-lun-line.svelte"
+    },
+    "./control-lun-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-lun-outline-alerted.svelte"
+    },
+    "./control-lun-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-lun-outline-badged.svelte"
+    },
+    "./control-lun-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-lun-solid.svelte"
+    },
+    "./control-lun-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-lun-solid-alerted.svelte"
+    },
+    "./control-lun-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-lun-solid-badged.svelte"
+    },
+    "./copy-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-line.svelte"
+    },
+    "./copy-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-solid.svelte"
+    },
+    "./copy-to-clipboard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-to-clipboard-line.svelte"
+    },
+    "./cpu-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-line.svelte"
+    },
+    "./cpu-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-outline-alerted.svelte"
+    },
+    "./cpu-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-outline-badged.svelte"
+    },
+    "./cpu-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-solid.svelte"
+    },
+    "./cpu-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-solid-alerted.svelte"
+    },
+    "./cpu-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-solid-badged.svelte"
+    },
+    "./credit-card-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card-line.svelte"
+    },
+    "./credit-card-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card-solid.svelte"
+    },
+    "./crosshairs-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crosshairs-line.svelte"
+    },
+    "./crown-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crown-line.svelte"
+    },
+    "./crown-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crown-solid.svelte"
+    },
+    "./cursor-arrow-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-arrow-line.svelte"
+    },
+    "./cursor-arrow-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-arrow-solid.svelte"
+    },
+    "./cursor-hand-click-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-hand-click-line.svelte"
+    },
+    "./cursor-hand-grab-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-hand-grab-line.svelte"
+    },
+    "./cursor-hand-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-hand-line.svelte"
+    },
+    "./cursor-hand-open-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-hand-open-line.svelte"
+    },
+    "./cursor-hand-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-hand-solid.svelte"
+    },
+    "./cursor-move-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-move-line.svelte"
+    },
+    "./curve-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curve-chart-line.svelte"
+    },
+    "./curve-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curve-chart-outline-alerted.svelte"
+    },
+    "./curve-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curve-chart-outline-badged.svelte"
+    },
+    "./curve-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curve-chart-solid.svelte"
+    },
+    "./curve-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curve-chart-solid-alerted.svelte"
+    },
+    "./curve-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curve-chart-solid-badged.svelte"
+    },
+    "./dashboard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dashboard-line.svelte"
+    },
+    "./dashboard-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dashboard-outline-badged.svelte"
+    },
+    "./dashboard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dashboard-solid.svelte"
+    },
+    "./dashboard-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dashboard-solid-badged.svelte"
+    },
+    "./data-cluster-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-cluster-line.svelte"
+    },
+    "./data-cluster-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-cluster-outline-alerted.svelte"
+    },
+    "./data-cluster-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-cluster-outline-badged.svelte"
+    },
+    "./data-cluster-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-cluster-solid.svelte"
+    },
+    "./data-cluster-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-cluster-solid-alerted.svelte"
+    },
+    "./data-cluster-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-cluster-solid-badged.svelte"
+    },
+    "./date-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/date-line.svelte"
+    },
+    "./date-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/date-outline-alerted.svelte"
+    },
+    "./date-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/date-outline-badged.svelte"
+    },
+    "./date-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/date-solid.svelte"
+    },
+    "./date-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/date-solid-alerted.svelte"
+    },
+    "./date-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/date-solid-badged.svelte"
+    },
+    "./deploy-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deploy-line.svelte"
+    },
+    "./deploy-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deploy-solid.svelte"
+    },
+    "./design-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-line.svelte"
+    },
+    "./design-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-solid.svelte"
+    },
+    "./details-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/details-line.svelte"
+    },
+    "./details-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/details-solid.svelte"
+    },
+    "./devices-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-line.svelte"
+    },
+    "./devices-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-solid.svelte"
+    },
+    "./digital-signature-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital-signature-line.svelte"
+    },
+    "./directory-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directory-line.svelte"
+    },
+    "./directory-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directory-outline-alerted.svelte"
+    },
+    "./directory-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directory-outline-badged.svelte"
+    },
+    "./directory-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directory-solid.svelte"
+    },
+    "./directory-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directory-solid-alerted.svelte"
+    },
+    "./directory-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directory-solid-badged.svelte"
+    },
+    "./disconnect-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/disconnect-line.svelte"
+    },
+    "./disconnect-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/disconnect-solid.svelte"
+    },
+    "./disconnected-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/disconnected-line.svelte"
+    },
+    "./disconnected-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/disconnected-solid.svelte"
+    },
+    "./display-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/display-line.svelte"
+    },
+    "./display-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/display-outline-alerted.svelte"
+    },
+    "./display-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/display-outline-badged.svelte"
+    },
+    "./display-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/display-solid.svelte"
+    },
+    "./display-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/display-solid-alerted.svelte"
+    },
+    "./display-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/display-solid-badged.svelte"
+    },
+    "./dna-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dna-line.svelte"
+    },
+    "./dna-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dna-solid.svelte"
+    },
+    "./document-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-line.svelte"
+    },
+    "./document-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-outline-alerted.svelte"
+    },
+    "./document-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-outline-badged.svelte"
+    },
+    "./document-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-solid.svelte"
+    },
+    "./document-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-solid-alerted.svelte"
+    },
+    "./document-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-solid-badged.svelte"
+    },
+    "./dollar-bill-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dollar-bill-line.svelte"
+    },
+    "./dollar-bill-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dollar-bill-solid.svelte"
+    },
+    "./dollar-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dollar-line.svelte"
+    },
+    "./dollar-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dollar-solid.svelte"
+    },
+    "./dot-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-circle-line.svelte"
+    },
+    "./download-cloud-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-cloud-line.svelte"
+    },
+    "./download-cloud-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-cloud-outline-alerted.svelte"
+    },
+    "./download-cloud-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-cloud-outline-badged.svelte"
+    },
+    "./download-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-line.svelte"
+    },
+    "./download-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-outline-alerted.svelte"
+    },
+    "./download-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-outline-badged.svelte"
+    },
+    "./drag-handle-corner-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drag-handle-corner-line.svelte"
+    },
+    "./drag-handle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drag-handle-line.svelte"
+    },
+    "./e-check-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-check-line.svelte"
+    },
+    "./e-check-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-check-solid.svelte"
+    },
+    "./edit-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-line.svelte"
+    },
+    "./edit-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-solid.svelte"
+    },
+    "./ellipsis-horizontal-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-horizontal-line.svelte"
+    },
+    "./ellipsis-horizontal-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-horizontal-outline-badged.svelte"
+    },
+    "./ellipsis-vertical-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-vertical-line.svelte"
+    },
+    "./ellipsis-vertical-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-vertical-outline-badged.svelte"
+    },
+    "./email-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-line.svelte"
+    },
+    "./email-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-outline-alerted.svelte"
+    },
+    "./email-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-outline-badged.svelte"
+    },
+    "./email-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-solid.svelte"
+    },
+    "./email-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-solid-alerted.svelte"
+    },
+    "./email-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-solid-badged.svelte"
+    },
+    "./employee-group-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/employee-group-line.svelte"
+    },
+    "./employee-group-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/employee-group-solid.svelte"
+    },
+    "./employee-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/employee-line.svelte"
+    },
+    "./employee-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/employee-solid.svelte"
+    },
+    "./envelope-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-line.svelte"
+    },
+    "./envelope-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-outline-alerted.svelte"
+    },
+    "./envelope-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-outline-badged.svelte"
+    },
+    "./envelope-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-solid.svelte"
+    },
+    "./envelope-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-solid-alerted.svelte"
+    },
+    "./envelope-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-solid-badged.svelte"
+    },
+    "./eraser-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eraser-line.svelte"
+    },
+    "./eraser-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eraser-solid.svelte"
+    },
+    "./error-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-line.svelte"
+    },
+    "./error-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-solid.svelte"
+    },
+    "./error-standard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-standard-line.svelte"
+    },
+    "./error-standard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-standard-solid.svelte"
+    },
+    "./euro-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/euro-line.svelte"
+    },
+    "./euro-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/euro-solid.svelte"
+    },
+    "./event-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/event-line.svelte"
+    },
+    "./event-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/event-outline-alerted.svelte"
+    },
+    "./event-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/event-outline-badged.svelte"
+    },
+    "./event-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/event-solid.svelte"
+    },
+    "./event-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/event-solid-alerted.svelte"
+    },
+    "./event-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/event-solid-badged.svelte"
+    },
+    "./exclamation-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-circle-line.svelte"
+    },
+    "./exclamation-circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-circle-solid.svelte"
+    },
+    "./exclamation-triangle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-triangle-line.svelte"
+    },
+    "./exclamation-triangle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-triangle-solid.svelte"
+    },
+    "./expand-card-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/expand-card-line.svelte"
+    },
+    "./expand-card-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/expand-card-solid.svelte"
+    },
+    "./export-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/export-line.svelte"
+    },
+    "./export-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/export-outline-alerted.svelte"
+    },
+    "./export-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/export-outline-badged.svelte"
+    },
+    "./export-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/export-solid.svelte"
+    },
+    "./export-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/export-solid-alerted.svelte"
+    },
+    "./export-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/export-solid-badged.svelte"
+    },
+    "./eye-hide-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-hide-line.svelte"
+    },
+    "./eye-hide-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-hide-solid.svelte"
+    },
+    "./eye-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-line.svelte"
+    },
+    "./eye-show-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-show-line.svelte"
+    },
+    "./eye-show-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-show-solid.svelte"
+    },
+    "./eye-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-solid.svelte"
+    },
+    "./factory-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/factory-line.svelte"
+    },
+    "./factory-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/factory-solid.svelte"
+    },
+    "./fast-forward-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fast-forward-line.svelte"
+    },
+    "./fast-forward-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fast-forward-solid.svelte"
+    },
+    "./favorite-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/favorite-line.svelte"
+    },
+    "./favorite-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/favorite-solid.svelte"
+    },
+    "./ferry-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/ferry-line.svelte"
+    },
+    "./ferry-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/ferry-solid.svelte"
+    },
+    "./file-group-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-group-line.svelte"
+    },
+    "./file-group-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-group-solid.svelte"
+    },
+    "./file-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-line.svelte"
+    },
+    "./file-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-outline-alerted.svelte"
+    },
+    "./file-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-outline-badged.svelte"
+    },
+    "./file-settings-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-settings-line.svelte"
+    },
+    "./file-settings-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-settings-outline-alerted.svelte"
+    },
+    "./file-settings-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-settings-outline-badged.svelte"
+    },
+    "./file-settings-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-settings-solid.svelte"
+    },
+    "./file-settings-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-settings-solid-alerted.svelte"
+    },
+    "./file-settings-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-settings-solid-badged.svelte"
+    },
+    "./file-share-2-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-share-2-line.svelte"
+    },
+    "./file-share-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-share-2-solid.svelte"
+    },
+    "./file-share-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-share-line.svelte"
+    },
+    "./file-share-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-share-solid.svelte"
+    },
+    "./file-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-solid.svelte"
+    },
+    "./file-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-solid-alerted.svelte"
+    },
+    "./file-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-solid-badged.svelte"
+    },
+    "./file-zip-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-line.svelte"
+    },
+    "./file-zip-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-solid.svelte"
+    },
+    "./film-strip-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/film-strip-line.svelte"
+    },
+    "./film-strip-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/film-strip-solid.svelte"
+    },
+    "./filter-2-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-2-line.svelte"
+    },
+    "./filter-grid-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-grid-circle-line.svelte"
+    },
+    "./filter-grid-circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-grid-circle-solid.svelte"
+    },
+    "./filter-grid-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-grid-line.svelte"
+    },
+    "./filter-grid-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-grid-solid.svelte"
+    },
+    "./filter-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-line.svelte"
+    },
+    "./filter-off-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-off-line.svelte"
+    },
+    "./filter-off-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-off-solid.svelte"
+    },
+    "./filter-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-solid.svelte"
+    },
+    "./firewall-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firewall-line.svelte"
+    },
+    "./firewall-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firewall-outline-alerted.svelte"
+    },
+    "./firewall-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firewall-outline-badged.svelte"
+    },
+    "./firewall-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firewall-solid.svelte"
+    },
+    "./firewall-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firewall-solid-alerted.svelte"
+    },
+    "./firewall-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firewall-solid-badged.svelte"
+    },
+    "./first-aid-kit-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/first-aid-kit-line.svelte"
+    },
+    "./first-aid-kit-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/first-aid-kit-solid.svelte"
+    },
+    "./fish-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fish-line.svelte"
+    },
+    "./flag-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-line.svelte"
+    },
+    "./flag-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-solid.svelte"
+    },
+    "./flame-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flame-line.svelte"
+    },
+    "./flame-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flame-solid.svelte"
+    },
+    "./flask-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flask-line.svelte"
+    },
+    "./flask-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flask-solid.svelte"
+    },
+    "./floppy-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/floppy-line.svelte"
+    },
+    "./floppy-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/floppy-outline-alerted.svelte"
+    },
+    "./floppy-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/floppy-outline-badged.svelte"
+    },
+    "./floppy-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/floppy-solid.svelte"
+    },
+    "./floppy-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/floppy-solid-alerted.svelte"
+    },
+    "./floppy-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/floppy-solid-badged.svelte"
+    },
+    "./flow-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flow-chart-line.svelte"
+    },
+    "./flow-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flow-chart-solid.svelte"
+    },
+    "./folder-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-line.svelte"
+    },
+    "./folder-open-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open-line.svelte"
+    },
+    "./folder-open-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open-outline-alerted.svelte"
+    },
+    "./folder-open-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open-outline-badged.svelte"
+    },
+    "./folder-open-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open-solid.svelte"
+    },
+    "./folder-open-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open-solid-alerted.svelte"
+    },
+    "./folder-open-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-open-solid-badged.svelte"
+    },
+    "./folder-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-outline-alerted.svelte"
+    },
+    "./folder-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-outline-badged.svelte"
+    },
+    "./folder-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-solid.svelte"
+    },
+    "./folder-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-solid-alerted.svelte"
+    },
+    "./folder-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-solid-badged.svelte"
+    },
+    "./font-size-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/font-size-line.svelte"
+    },
+    "./forking-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forking-line.svelte"
+    },
+    "./form-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/form-line.svelte"
+    },
+    "./fuel-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fuel-line.svelte"
+    },
+    "./gavel-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-line.svelte"
+    },
+    "./gavel-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-solid.svelte"
+    },
+    "./grid-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-chart-line.svelte"
+    },
+    "./grid-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-chart-outline-alerted.svelte"
+    },
+    "./grid-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-chart-outline-badged.svelte"
+    },
+    "./grid-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-chart-solid.svelte"
+    },
+    "./grid-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-chart-solid-alerted.svelte"
+    },
+    "./grid-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-chart-solid-badged.svelte"
+    },
+    "./grid-view-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-view-line.svelte"
+    },
+    "./grid-view-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-view-solid.svelte"
+    },
+    "./group-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group-line.svelte"
+    },
+    "./group-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group-outline-alerted.svelte"
+    },
+    "./group-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group-outline-badged.svelte"
+    },
+    "./group-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group-solid.svelte"
+    },
+    "./group-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group-solid-alerted.svelte"
+    },
+    "./group-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group-solid-badged.svelte"
+    },
+    "./half-star-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/half-star-line.svelte"
+    },
+    "./half-star-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/half-star-solid.svelte"
+    },
+    "./happy-face-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/happy-face-line.svelte"
+    },
+    "./happy-face-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/happy-face-solid.svelte"
+    },
+    "./hard-disk-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-disk-line.svelte"
+    },
+    "./hard-disk-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-disk-outline-alerted.svelte"
+    },
+    "./hard-disk-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-disk-outline-badged.svelte"
+    },
+    "./hard-disk-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-disk-solid.svelte"
+    },
+    "./hard-disk-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-disk-solid-alerted.svelte"
+    },
+    "./hard-disk-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-disk-solid-badged.svelte"
+    },
+    "./hard-drive-disks-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-drive-disks-line.svelte"
+    },
+    "./hard-drive-disks-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-drive-disks-solid.svelte"
+    },
+    "./hard-drive-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-drive-line.svelte"
+    },
+    "./hard-drive-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hard-drive-solid.svelte"
+    },
+    "./hashtag-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hashtag-line.svelte"
+    },
+    "./hashtag-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hashtag-solid.svelte"
+    },
+    "./headphones-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones-line.svelte"
+    },
+    "./headphones-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones-solid.svelte"
+    },
+    "./heart-broken-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-broken-line.svelte"
+    },
+    "./heart-broken-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-broken-solid.svelte"
+    },
+    "./heart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-line.svelte"
+    },
+    "./heart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-solid.svelte"
+    },
+    "./heat-map-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-map-line.svelte"
+    },
+    "./heat-map-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-map-outline-alerted.svelte"
+    },
+    "./heat-map-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-map-outline-badged.svelte"
+    },
+    "./heat-map-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-map-solid.svelte"
+    },
+    "./heat-map-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-map-solid-alerted.svelte"
+    },
+    "./heat-map-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-map-solid-badged.svelte"
+    },
+    "./helix-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/helix-line.svelte"
+    },
+    "./helix-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/helix-solid.svelte"
+    },
+    "./help-info-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-info-line.svelte"
+    },
+    "./help-info-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-info-solid.svelte"
+    },
+    "./help-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-line.svelte"
+    },
+    "./help-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-outline-badged.svelte"
+    },
+    "./help-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-solid.svelte"
+    },
+    "./help-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-solid-badged.svelte"
+    },
+    "./highlighter-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/highlighter-line.svelte"
+    },
+    "./history-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-line.svelte"
+    },
+    "./home-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-line.svelte"
+    },
+    "./home-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-solid.svelte"
+    },
+    "./host-group-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-group-line.svelte"
+    },
+    "./host-group-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-group-solid.svelte"
+    },
+    "./host-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-line.svelte"
+    },
+    "./host-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-outline-alerted.svelte"
+    },
+    "./host-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-outline-badged.svelte"
+    },
+    "./host-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-solid.svelte"
+    },
+    "./host-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-solid-alerted.svelte"
+    },
+    "./host-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/host-solid-badged.svelte"
+    },
+    "./hourglass-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-line.svelte"
+    },
+    "./hourglass-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-outline-alerted.svelte"
+    },
+    "./hourglass-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-outline-badged.svelte"
+    },
+    "./hourglass-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-solid.svelte"
+    },
+    "./hourglass-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-solid-alerted.svelte"
+    },
+    "./hourglass-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-solid-badged.svelte"
+    },
+    "./house-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-line.svelte"
+    },
+    "./house-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-solid.svelte"
+    },
+    "./id-badge-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-line.svelte"
+    },
+    "./id-badge-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-outline-alerted.svelte"
+    },
+    "./id-badge-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-outline-badged.svelte"
+    },
+    "./id-badge-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-solid.svelte"
+    },
+    "./id-badge-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-solid-alerted.svelte"
+    },
+    "./id-badge-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-solid-badged.svelte"
+    },
+    "./image-gallery-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-gallery-line.svelte"
+    },
+    "./image-gallery-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-gallery-solid.svelte"
+    },
+    "./image-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-line.svelte"
+    },
+    "./image-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-outline-badged.svelte"
+    },
+    "./image-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-solid.svelte"
+    },
+    "./image-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-solid-badged.svelte"
+    },
+    "./import-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/import-line.svelte"
+    },
+    "./import-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/import-outline-alerted.svelte"
+    },
+    "./import-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/import-outline-badged.svelte"
+    },
+    "./import-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/import-solid.svelte"
+    },
+    "./import-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/import-solid-alerted.svelte"
+    },
+    "./import-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/import-solid-badged.svelte"
+    },
+    "./inbox-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-line.svelte"
+    },
+    "./inbox-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-outline-badged.svelte"
+    },
+    "./indent-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/indent-line.svelte"
+    },
+    "./inductor-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inductor-line.svelte"
+    },
+    "./info-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-circle-line.svelte"
+    },
+    "./info-circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-circle-solid.svelte"
+    },
+    "./info-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-line.svelte"
+    },
+    "./info-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-solid.svelte"
+    },
+    "./info-standard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-standard-line.svelte"
+    },
+    "./info-standard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-standard-solid.svelte"
+    },
+    "./install-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/install-line.svelte"
+    },
+    "./install-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/install-outline-alerted.svelte"
+    },
+    "./install-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/install-outline-badged.svelte"
+    },
+    "./internet-of-things-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/internet-of-things-line.svelte"
+    },
+    "./internet-of-things-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/internet-of-things-solid.svelte"
+    },
+    "./italic-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/italic-line.svelte"
+    },
+    "./justify-text-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/justify-text-line.svelte"
+    },
+    "./key-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-line.svelte"
+    },
+    "./key-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-outline-alerted.svelte"
+    },
+    "./key-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-outline-badged.svelte"
+    },
+    "./key-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-solid.svelte"
+    },
+    "./key-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-solid-alerted.svelte"
+    },
+    "./key-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-solid-badged.svelte"
+    },
+    "./keyboard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/keyboard-line.svelte"
+    },
+    "./keyboard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/keyboard-solid.svelte"
+    },
+    "./landscape-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/landscape-line.svelte"
+    },
+    "./landscape-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/landscape-solid.svelte"
+    },
+    "./language-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/language-line.svelte"
+    },
+    "./language-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/language-solid.svelte"
+    },
+    "./launchpad-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/launchpad-line.svelte"
+    },
+    "./launchpad-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/launchpad-solid.svelte"
+    },
+    "./layers-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers-line.svelte"
+    },
+    "./layers-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers-solid.svelte"
+    },
+    "./library-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-line.svelte"
+    },
+    "./library-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-solid.svelte"
+    },
+    "./license-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/license-line.svelte"
+    },
+    "./license-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/license-outline-alerted.svelte"
+    },
+    "./license-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/license-outline-badged.svelte"
+    },
+    "./license-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/license-solid.svelte"
+    },
+    "./license-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/license-solid-alerted.svelte"
+    },
+    "./license-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/license-solid-badged.svelte"
+    },
+    "./lightbulb-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-line.svelte"
+    },
+    "./lightbulb-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-outline-badged.svelte"
+    },
+    "./lightbulb-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-solid.svelte"
+    },
+    "./lightbulb-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-solid-badged.svelte"
+    },
+    "./lightning-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightning-line.svelte"
+    },
+    "./lightning-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightning-solid.svelte"
+    },
+    "./line-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-chart-line.svelte"
+    },
+    "./line-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-chart-outline-alerted.svelte"
+    },
+    "./line-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-chart-outline-badged.svelte"
+    },
+    "./line-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-chart-solid.svelte"
+    },
+    "./line-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-chart-solid-alerted.svelte"
+    },
+    "./line-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-chart-solid-badged.svelte"
+    },
+    "./link-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-line.svelte"
+    },
+    "./list-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-line.svelte"
+    },
+    "./list-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-outline-badged.svelte"
+    },
+    "./list-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-solid.svelte"
+    },
+    "./list-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-solid-badged.svelte"
+    },
+    "./lock-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-line.svelte"
+    },
+    "./lock-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-solid.svelte"
+    },
+    "./login-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/login-line.svelte"
+    },
+    "./login-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/login-solid.svelte"
+    },
+    "./logout-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logout-line.svelte"
+    },
+    "./logout-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logout-solid.svelte"
+    },
+    "./map-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-line.svelte"
+    },
+    "./map-marker-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-marker-line.svelte"
+    },
+    "./map-marker-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-marker-outline-badged.svelte"
+    },
+    "./map-marker-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-marker-solid.svelte"
+    },
+    "./map-marker-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-marker-solid-badged.svelte"
+    },
+    "./map-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-outline-alerted.svelte"
+    },
+    "./map-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-outline-badged.svelte"
+    },
+    "./map-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-solid.svelte"
+    },
+    "./map-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-solid-alerted.svelte"
+    },
+    "./map-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-solid-badged.svelte"
+    },
+    "./media-changer-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/media-changer-line.svelte"
+    },
+    "./media-changer-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/media-changer-outline-alerted.svelte"
+    },
+    "./media-changer-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/media-changer-outline-badged.svelte"
+    },
+    "./media-changer-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/media-changer-solid.svelte"
+    },
+    "./media-changer-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/media-changer-solid-alerted.svelte"
+    },
+    "./media-changer-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/media-changer-solid-badged.svelte"
+    },
+    "./memory-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-line.svelte"
+    },
+    "./memory-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-outline-alerted.svelte"
+    },
+    "./memory-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-outline-badged.svelte"
+    },
+    "./memory-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-solid.svelte"
+    },
+    "./memory-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-solid-alerted.svelte"
+    },
+    "./memory-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-solid-badged.svelte"
+    },
+    "./menu-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu-line.svelte"
+    },
+    "./microphone-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microphone-line.svelte"
+    },
+    "./microphone-mute-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microphone-mute-line.svelte"
+    },
+    "./microphone-mute-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microphone-mute-solid.svelte"
+    },
+    "./microphone-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microphone-solid.svelte"
+    },
+    "./minus-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus-circle-line.svelte"
+    },
+    "./minus-circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus-circle-solid.svelte"
+    },
+    "./minus-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus-line.svelte"
+    },
+    "./mobile-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mobile-line.svelte"
+    },
+    "./mobile-phone-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mobile-phone-line.svelte"
+    },
+    "./mobile-phone-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mobile-phone-solid.svelte"
+    },
+    "./mobile-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mobile-solid.svelte"
+    },
+    "./moon-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-line.svelte"
+    },
+    "./moon-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-solid.svelte"
+    },
+    "./mouse-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mouse-line.svelte"
+    },
+    "./mouse-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mouse-solid.svelte"
+    },
+    "./music-note-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/music-note-line.svelte"
+    },
+    "./music-note-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/music-note-solid.svelte"
+    },
+    "./namespace-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/namespace-line.svelte"
+    },
+    "./namespace-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/namespace-outline-alerted.svelte"
+    },
+    "./namespace-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/namespace-outline-badged.svelte"
+    },
+    "./network-globe-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-globe-line.svelte"
+    },
+    "./network-globe-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-globe-outline-alerted.svelte"
+    },
+    "./network-globe-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-globe-outline-badged.svelte"
+    },
+    "./network-globe-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-globe-solid.svelte"
+    },
+    "./network-globe-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-globe-solid-alerted.svelte"
+    },
+    "./network-globe-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-globe-solid-badged.svelte"
+    },
+    "./network-settings-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-settings-line.svelte"
+    },
+    "./network-settings-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-settings-solid.svelte"
+    },
+    "./network-switch-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-switch-line.svelte"
+    },
+    "./network-switch-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-switch-outline-alerted.svelte"
+    },
+    "./network-switch-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-switch-outline-badged.svelte"
+    },
+    "./network-switch-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-switch-solid.svelte"
+    },
+    "./network-switch-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-switch-solid-alerted.svelte"
+    },
+    "./network-switch-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-switch-solid-badged.svelte"
+    },
+    "./neutral-face-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/neutral-face-line.svelte"
+    },
+    "./neutral-face-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/neutral-face-solid.svelte"
+    },
+    "./new-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/new-line.svelte"
+    },
+    "./new-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/new-solid.svelte"
+    },
+    "./no-access-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-access-line.svelte"
+    },
+    "./no-access-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-access-solid.svelte"
+    },
+    "./no-wifi-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-wifi-line.svelte"
+    },
+    "./no-wifi-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-wifi-solid.svelte"
+    },
+    "./node-group-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/node-group-line.svelte"
+    },
+    "./node-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/node-line.svelte"
+    },
+    "./nodes-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nodes-line.svelte"
+    },
+    "./note-edit-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/note-edit-line.svelte"
+    },
+    "./note-edit-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/note-edit-solid.svelte"
+    },
+    "./note-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/note-line.svelte"
+    },
+    "./note-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/note-solid.svelte"
+    },
+    "./notification-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notification-line.svelte"
+    },
+    "./notification-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notification-outline-badged.svelte"
+    },
+    "./notification-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notification-solid.svelte"
+    },
+    "./notification-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notification-solid-badged.svelte"
+    },
+    "./number-list-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/number-list-line.svelte"
+    },
+    "./nvme-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nvme-line.svelte"
+    },
+    "./objects-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/objects-line.svelte"
+    },
+    "./objects-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/objects-solid.svelte"
+    },
+    "./on-holiday-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/on-holiday-line.svelte"
+    },
+    "./on-holiday-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/on-holiday-solid.svelte"
+    },
+    "./organization-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/organization-line.svelte"
+    },
+    "./organization-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/organization-solid.svelte"
+    },
+    "./outdent-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/outdent-line.svelte"
+    },
+    "./paint-roller-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-roller-line.svelte"
+    },
+    "./paint-roller-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-roller-solid.svelte"
+    },
+    "./paperclip-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paperclip-line.svelte"
+    },
+    "./paste-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-line.svelte"
+    },
+    "./paste-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-solid.svelte"
+    },
+    "./pause-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause-line.svelte"
+    },
+    "./pause-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause-solid.svelte"
+    },
+    "./pencil-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-line.svelte"
+    },
+    "./pencil-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-solid.svelte"
+    },
+    "./peso-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/peso-line.svelte"
+    },
+    "./peso-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/peso-solid.svelte"
+    },
+    "./phone-handset-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-handset-line.svelte"
+    },
+    "./phone-handset-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-handset-solid.svelte"
+    },
+    "./picture-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picture-line.svelte"
+    },
+    "./picture-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picture-outline-badged.svelte"
+    },
+    "./picture-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picture-solid.svelte"
+    },
+    "./picture-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picture-solid-badged.svelte"
+    },
+    "./pie-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pie-chart-line.svelte"
+    },
+    "./pie-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pie-chart-outline-alerted.svelte"
+    },
+    "./pie-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pie-chart-outline-badged.svelte"
+    },
+    "./pie-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pie-chart-solid.svelte"
+    },
+    "./pie-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pie-chart-solid-alerted.svelte"
+    },
+    "./pie-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pie-chart-solid-badged.svelte"
+    },
+    "./piggy-bank-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/piggy-bank-line.svelte"
+    },
+    "./piggy-bank-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/piggy-bank-solid.svelte"
+    },
+    "./pin-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-line.svelte"
+    },
+    "./pin-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-solid.svelte"
+    },
+    "./pinboard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinboard-line.svelte"
+    },
+    "./pinboard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinboard-solid.svelte"
+    },
+    "./pinned-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinned-line.svelte"
+    },
+    "./pinned-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinned-solid.svelte"
+    },
+    "./plane-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plane-line.svelte"
+    },
+    "./plane-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plane-solid.svelte"
+    },
+    "./play-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play-line.svelte"
+    },
+    "./play-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play-solid.svelte"
+    },
+    "./plugin-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plugin-line.svelte"
+    },
+    "./plugin-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plugin-outline-alerted.svelte"
+    },
+    "./plugin-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plugin-outline-badged.svelte"
+    },
+    "./plugin-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plugin-solid.svelte"
+    },
+    "./plugin-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plugin-solid-alerted.svelte"
+    },
+    "./plugin-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plugin-solid-badged.svelte"
+    },
+    "./plus-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-circle-line.svelte"
+    },
+    "./plus-circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-circle-solid.svelte"
+    },
+    "./plus-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-line.svelte"
+    },
+    "./pod-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pod-line.svelte"
+    },
+    "./pop-out-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pop-out-line.svelte"
+    },
+    "./portrait-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/portrait-line.svelte"
+    },
+    "./portrait-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/portrait-solid.svelte"
+    },
+    "./pound-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pound-line.svelte"
+    },
+    "./pound-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pound-solid.svelte"
+    },
+    "./power-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-line.svelte"
+    },
+    "./power-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-outline-alerted.svelte"
+    },
+    "./power-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-outline-badged.svelte"
+    },
+    "./power-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-solid.svelte"
+    },
+    "./power-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-solid-alerted.svelte"
+    },
+    "./power-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-solid-badged.svelte"
+    },
+    "./printer-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-line.svelte"
+    },
+    "./printer-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-outline-alerted.svelte"
+    },
+    "./printer-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-outline-badged.svelte"
+    },
+    "./printer-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-solid.svelte"
+    },
+    "./printer-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-solid-alerted.svelte"
+    },
+    "./printer-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-solid-badged.svelte"
+    },
+    "./process-on-vm-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/process-on-vm-line.svelte"
+    },
+    "./qr-code-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qr-code-line.svelte"
+    },
+    "./rack-server-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rack-server-line.svelte"
+    },
+    "./rack-server-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rack-server-outline-alerted.svelte"
+    },
+    "./rack-server-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rack-server-outline-badged.svelte"
+    },
+    "./rack-server-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rack-server-solid.svelte"
+    },
+    "./rack-server-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rack-server-solid-alerted.svelte"
+    },
+    "./rack-server-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rack-server-solid-badged.svelte"
+    },
+    "./radar-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/radar-line.svelte"
+    },
+    "./radar-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/radar-solid.svelte"
+    },
+    "./receiver-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receiver-line.svelte"
+    },
+    "./receiver-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receiver-solid.svelte"
+    },
+    "./recycle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/recycle-line.svelte"
+    },
+    "./recycle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/recycle-solid.svelte"
+    },
+    "./redo-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redo-line.svelte"
+    },
+    "./refresh-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/refresh-line.svelte"
+    },
+    "./remove-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/remove-line.svelte"
+    },
+    "./remove-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/remove-solid.svelte"
+    },
+    "./repeat-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat-line.svelte"
+    },
+    "./replay-all-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/replay-all-line.svelte"
+    },
+    "./replay-one-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/replay-one-line.svelte"
+    },
+    "./resistor-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resistor-line.svelte"
+    },
+    "./resize-down-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resize-down-line.svelte"
+    },
+    "./resize-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resize-line.svelte"
+    },
+    "./resize-up-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resize-up-line.svelte"
+    },
+    "./resource-pool-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resource-pool-line.svelte"
+    },
+    "./resource-pool-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resource-pool-outline-alerted.svelte"
+    },
+    "./resource-pool-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resource-pool-outline-badged.svelte"
+    },
+    "./resource-pool-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resource-pool-solid.svelte"
+    },
+    "./resource-pool-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resource-pool-solid-alerted.svelte"
+    },
+    "./resource-pool-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resource-pool-solid-badged.svelte"
+    },
+    "./rewind-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rewind-line.svelte"
+    },
+    "./rewind-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rewind-solid.svelte"
+    },
+    "./router-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-line.svelte"
+    },
+    "./router-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-outline-alerted.svelte"
+    },
+    "./router-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-outline-badged.svelte"
+    },
+    "./router-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-solid.svelte"
+    },
+    "./router-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-solid-alerted.svelte"
+    },
+    "./router-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-solid-badged.svelte"
+    },
+    "./ruble-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruble-line.svelte"
+    },
+    "./ruble-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruble-solid.svelte"
+    },
+    "./ruler-pencil-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruler-pencil-line.svelte"
+    },
+    "./ruler-pencil-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruler-pencil-solid.svelte"
+    },
+    "./rupee-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rupee-line.svelte"
+    },
+    "./rupee-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rupee-solid.svelte"
+    },
+    "./sad-face-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sad-face-line.svelte"
+    },
+    "./sad-face-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sad-face-solid.svelte"
+    },
+    "./savings-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/savings-line.svelte"
+    },
+    "./savings-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/savings-solid.svelte"
+    },
+    "./scatter-plot-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scatter-plot-line.svelte"
+    },
+    "./scatter-plot-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scatter-plot-outline-alerted.svelte"
+    },
+    "./scatter-plot-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scatter-plot-outline-badged.svelte"
+    },
+    "./scatter-plot-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scatter-plot-solid.svelte"
+    },
+    "./scatter-plot-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scatter-plot-solid-alerted.svelte"
+    },
+    "./scatter-plot-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scatter-plot-solid-badged.svelte"
+    },
+    "./scissors-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scissors-line.svelte"
+    },
+    "./scissors-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scissors-solid.svelte"
+    },
+    "./scroll-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scroll-line.svelte"
+    },
+    "./scroll-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scroll-outline-alerted.svelte"
+    },
+    "./scroll-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scroll-outline-badged.svelte"
+    },
+    "./scroll-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scroll-solid.svelte"
+    },
+    "./scroll-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scroll-solid-alerted.svelte"
+    },
+    "./scroll-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scroll-solid-badged.svelte"
+    },
+    "./search-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-line.svelte"
+    },
+    "./server-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-line.svelte"
+    },
+    "./server-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-outline-alerted.svelte"
+    },
+    "./server-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-outline-badged.svelte"
+    },
+    "./server-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-solid.svelte"
+    },
+    "./server-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-solid-alerted.svelte"
+    },
+    "./server-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-solid-badged.svelte"
+    },
+    "./settings-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-line.svelte"
+    },
+    "./settings-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-outline-alerted.svelte"
+    },
+    "./settings-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-outline-badged.svelte"
+    },
+    "./settings-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-solid.svelte"
+    },
+    "./settings-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-solid-alerted.svelte"
+    },
+    "./settings-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-solid-badged.svelte"
+    },
+    "./share-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-line.svelte"
+    },
+    "./share-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-solid.svelte"
+    },
+    "./shield-check-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-check-line.svelte"
+    },
+    "./shield-check-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-check-solid.svelte"
+    },
+    "./shield-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-line.svelte"
+    },
+    "./shield-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-outline-alerted.svelte"
+    },
+    "./shield-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-outline-badged.svelte"
+    },
+    "./shield-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-solid.svelte"
+    },
+    "./shield-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-solid-alerted.svelte"
+    },
+    "./shield-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-solid-badged.svelte"
+    },
+    "./shield-x-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-x-line.svelte"
+    },
+    "./shield-x-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-x-solid.svelte"
+    },
+    "./shopping-bag-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-bag-line.svelte"
+    },
+    "./shopping-bag-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-bag-solid.svelte"
+    },
+    "./shopping-cart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-line.svelte"
+    },
+    "./shopping-cart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-outline-alerted.svelte"
+    },
+    "./shopping-cart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-outline-badged.svelte"
+    },
+    "./shopping-cart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-solid.svelte"
+    },
+    "./shopping-cart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-solid-alerted.svelte"
+    },
+    "./shopping-cart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-solid-badged.svelte"
+    },
+    "./shrink-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shrink-line.svelte"
+    },
+    "./shuffle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shuffle-line.svelte"
+    },
+    "./sign-in-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-in-line.svelte"
+    },
+    "./sign-in-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-in-solid.svelte"
+    },
+    "./sign-out-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-out-line.svelte"
+    },
+    "./sign-out-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-out-solid.svelte"
+    },
+    "./slider-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slider-line.svelte"
+    },
+    "./slider-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slider-solid.svelte"
+    },
+    "./snowflake-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snowflake-line.svelte"
+    },
+    "./sort-by-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-by-line.svelte"
+    },
+    "./squid-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squid-line.svelte"
+    },
+    "./ssd-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/ssd-line.svelte"
+    },
+    "./ssd-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/ssd-solid.svelte"
+    },
+    "./star-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-line.svelte"
+    },
+    "./star-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-solid.svelte"
+    },
+    "./step-forward-2-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/step-forward-2-line.svelte"
+    },
+    "./step-forward-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/step-forward-line.svelte"
+    },
+    "./step-forward-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/step-forward-solid.svelte"
+    },
+    "./stop-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop-line.svelte"
+    },
+    "./stop-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop-solid.svelte"
+    },
+    "./storage-adapter-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storage-adapter-line.svelte"
+    },
+    "./storage-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storage-line.svelte"
+    },
+    "./storage-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storage-outline-alerted.svelte"
+    },
+    "./storage-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storage-outline-badged.svelte"
+    },
+    "./storage-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storage-solid.svelte"
+    },
+    "./storage-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storage-solid-alerted.svelte"
+    },
+    "./storage-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storage-solid-badged.svelte"
+    },
+    "./store-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/store-line.svelte"
+    },
+    "./store-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/store-solid.svelte"
+    },
+    "./strikethrough-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/strikethrough-line.svelte"
+    },
+    "./subscript-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/subscript-line.svelte"
+    },
+    "./success-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/success-line.svelte"
+    },
+    "./success-standard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/success-standard-line.svelte"
+    },
+    "./success-standard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/success-standard-solid.svelte"
+    },
+    "./sun-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sun-line.svelte"
+    },
+    "./sun-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sun-solid.svelte"
+    },
+    "./superscript-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/superscript-line.svelte"
+    },
+    "./switch-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/switch-line.svelte"
+    },
+    "./sync-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sync-line.svelte"
+    },
+    "./table-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-line.svelte"
+    },
+    "./tablet-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tablet-line.svelte"
+    },
+    "./tablet-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tablet-solid.svelte"
+    },
+    "./tag-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-line.svelte"
+    },
+    "./tag-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-outline-alerted.svelte"
+    },
+    "./tag-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-outline-badged.svelte"
+    },
+    "./tag-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-solid.svelte"
+    },
+    "./tag-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-solid-alerted.svelte"
+    },
+    "./tag-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-solid-badged.svelte"
+    },
+    "./tags-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags-line.svelte"
+    },
+    "./tags-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags-outline-alerted.svelte"
+    },
+    "./tags-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags-outline-badged.svelte"
+    },
+    "./tags-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags-solid.svelte"
+    },
+    "./tags-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags-solid-alerted.svelte"
+    },
+    "./tags-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags-solid-badged.svelte"
+    },
+    "./talk-bubbles-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/talk-bubbles-line.svelte"
+    },
+    "./talk-bubbles-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/talk-bubbles-outline-badged.svelte"
+    },
+    "./talk-bubbles-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/talk-bubbles-solid.svelte"
+    },
+    "./talk-bubbles-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/talk-bubbles-solid-badged.svelte"
+    },
+    "./tape-drive-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tape-drive-line.svelte"
+    },
+    "./tape-drive-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tape-drive-outline-alerted.svelte"
+    },
+    "./tape-drive-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tape-drive-outline-badged.svelte"
+    },
+    "./tape-drive-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tape-drive-solid.svelte"
+    },
+    "./tape-drive-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tape-drive-solid-alerted.svelte"
+    },
+    "./tape-drive-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tape-drive-solid-badged.svelte"
+    },
+    "./target-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/target-line.svelte"
+    },
+    "./target-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/target-solid.svelte"
+    },
+    "./tasks-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasks-line.svelte"
+    },
+    "./tasks-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasks-outline-alerted.svelte"
+    },
+    "./tasks-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasks-outline-badged.svelte"
+    },
+    "./tasks-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasks-solid.svelte"
+    },
+    "./tasks-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasks-solid-alerted.svelte"
+    },
+    "./tasks-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasks-solid-badged.svelte"
+    },
+    "./terminal-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-line.svelte"
+    },
+    "./terminal-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-outline-alerted.svelte"
+    },
+    "./terminal-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-outline-badged.svelte"
+    },
+    "./terminal-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-solid.svelte"
+    },
+    "./terminal-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-solid-alerted.svelte"
+    },
+    "./terminal-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-solid-badged.svelte"
+    },
+    "./text-color-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-color-line.svelte"
+    },
+    "./text-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-line.svelte"
+    },
+    "./thermometer-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-line.svelte"
+    },
+    "./thin-client-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thin-client-line.svelte"
+    },
+    "./thin-client-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thin-client-solid.svelte"
+    },
+    "./thumbs-down-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-down-line.svelte"
+    },
+    "./thumbs-down-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-down-solid.svelte"
+    },
+    "./thumbs-up-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-up-line.svelte"
+    },
+    "./thumbs-up-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-up-solid.svelte"
+    },
+    "./tick-chart-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tick-chart-line.svelte"
+    },
+    "./tick-chart-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tick-chart-outline-alerted.svelte"
+    },
+    "./tick-chart-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tick-chart-outline-badged.svelte"
+    },
+    "./tick-chart-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tick-chart-solid.svelte"
+    },
+    "./tick-chart-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tick-chart-solid-alerted.svelte"
+    },
+    "./tick-chart-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tick-chart-solid-badged.svelte"
+    },
+    "./timeline-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/timeline-line.svelte"
+    },
+    "./times-circle-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/times-circle-line.svelte"
+    },
+    "./times-circle-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/times-circle-solid.svelte"
+    },
+    "./times-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/times-line.svelte"
+    },
+    "./tools-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools-line.svelte"
+    },
+    "./tools-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools-solid.svelte"
+    },
+    "./trailer-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trailer-line.svelte"
+    },
+    "./trailer-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trailer-solid.svelte"
+    },
+    "./trash-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash-line.svelte"
+    },
+    "./trash-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash-solid.svelte"
+    },
+    "./tree-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tree-line.svelte"
+    },
+    "./tree-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tree-solid.svelte"
+    },
+    "./tree-view-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tree-view-line.svelte"
+    },
+    "./tree-view-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tree-view-solid.svelte"
+    },
+    "./truck-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/truck-line.svelte"
+    },
+    "./truck-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/truck-solid.svelte"
+    },
+    "./two-way-arrows-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/two-way-arrows-line.svelte"
+    },
+    "./unarchive-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unarchive-line.svelte"
+    },
+    "./unarchive-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unarchive-solid.svelte"
+    },
+    "./underline-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/underline-line.svelte"
+    },
+    "./undo-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/undo-line.svelte"
+    },
+    "./uninstall-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uninstall-line.svelte"
+    },
+    "./uninstall-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uninstall-outline-alerted.svelte"
+    },
+    "./uninstall-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uninstall-outline-badged.svelte"
+    },
+    "./unknown-status-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unknown-status-line.svelte"
+    },
+    "./unlink-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlink-line.svelte"
+    },
+    "./unlock-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlock-line.svelte"
+    },
+    "./unlock-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlock-solid.svelte"
+    },
+    "./update-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/update-line.svelte"
+    },
+    "./upload-cloud-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-cloud-line.svelte"
+    },
+    "./upload-cloud-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-cloud-outline-alerted.svelte"
+    },
+    "./upload-cloud-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-cloud-outline-badged.svelte"
+    },
+    "./upload-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-line.svelte"
+    },
+    "./upload-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-outline-alerted.svelte"
+    },
+    "./upload-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-outline-badged.svelte"
+    },
+    "./usb-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usb-line.svelte"
+    },
+    "./usb-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usb-solid.svelte"
+    },
+    "./user-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-line.svelte"
+    },
+    "./user-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-outline-alerted.svelte"
+    },
+    "./user-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-outline-badged.svelte"
+    },
+    "./user-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-solid.svelte"
+    },
+    "./user-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-solid-alerted.svelte"
+    },
+    "./user-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-solid-badged.svelte"
+    },
+    "./users-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-line.svelte"
+    },
+    "./users-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-outline-alerted.svelte"
+    },
+    "./users-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-outline-badged.svelte"
+    },
+    "./users-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-solid.svelte"
+    },
+    "./users-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-solid-alerted.svelte"
+    },
+    "./users-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-solid-badged.svelte"
+    },
+    "./video-camera-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-camera-line.svelte"
+    },
+    "./video-camera-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-camera-solid.svelte"
+    },
+    "./video-gallery-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-gallery-line.svelte"
+    },
+    "./video-gallery-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-gallery-solid.svelte"
+    },
+    "./view-cards-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-cards-line.svelte"
+    },
+    "./view-columns-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-columns-line.svelte"
+    },
+    "./view-list-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-list-line.svelte"
+    },
+    "./vm-bug-inverse-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-bug-inverse-line.svelte"
+    },
+    "./vm-bug-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-bug-line.svelte"
+    },
+    "./vm-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-line.svelte"
+    },
+    "./vm-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-outline-alerted.svelte"
+    },
+    "./vm-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-outline-badged.svelte"
+    },
+    "./vm-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-solid.svelte"
+    },
+    "./vm-solid-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-solid-alerted.svelte"
+    },
+    "./vm-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vm-solid-badged.svelte"
+    },
+    "./vmw-app-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vmw-app-line.svelte"
+    },
+    "./vmw-app-outline-alerted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vmw-app-outline-alerted.svelte"
+    },
+    "./vmw-app-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vmw-app-outline-badged.svelte"
+    },
+    "./volume-down-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-down-line.svelte"
+    },
+    "./volume-down-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-down-solid.svelte"
+    },
+    "./volume-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-line.svelte"
+    },
+    "./volume-mute-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-mute-line.svelte"
+    },
+    "./volume-mute-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-mute-solid.svelte"
+    },
+    "./volume-up-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-up-line.svelte"
+    },
+    "./volume-up-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-up-solid.svelte"
+    },
+    "./wallet-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wallet-line.svelte"
+    },
+    "./wallet-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wallet-solid.svelte"
+    },
+    "./wand-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wand-line.svelte"
+    },
+    "./warning-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-line.svelte"
+    },
+    "./warning-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-solid.svelte"
+    },
+    "./warning-standard-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-standard-line.svelte"
+    },
+    "./warning-standard-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-standard-solid.svelte"
+    },
+    "./wifi-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi-line.svelte"
+    },
+    "./wifi-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi-solid.svelte"
+    },
+    "./window-close-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/window-close-line.svelte"
+    },
+    "./window-max-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/window-max-line.svelte"
+    },
+    "./window-min-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/window-min-line.svelte"
+    },
+    "./window-restore-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/window-restore-line.svelte"
+    },
+    "./won-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/won-line.svelte"
+    },
+    "./won-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/won-solid.svelte"
+    },
+    "./world-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-line.svelte"
+    },
+    "./world-outline-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-outline-badged.svelte"
+    },
+    "./world-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-solid.svelte"
+    },
+    "./world-solid-badged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-solid-badged.svelte"
+    },
+    "./wrench-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-line.svelte"
+    },
+    "./wrench-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-solid.svelte"
+    },
+    "./yen-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yen-line.svelte"
+    },
+    "./yen-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yen-solid.svelte"
+    },
+    "./zoom-in-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-in-line.svelte"
+    },
+    "./zoom-out-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-out-line.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#clarity"
+}

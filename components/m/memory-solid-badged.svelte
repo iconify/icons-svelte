@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/uww0h5jqg.css';
+import '../../css/l/lmf0ecbhq.css';
+import '../../css/m/m2o3sh-9c.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="clr-i-solid--badged clr-i-solid-path-1--badged uww0h5jqg"/><circle class="clr-i-badge clr-i-solid--badged clr-i-solid-path-2--badged lmf0ecbhq"/><path class="m2o3sh-9c"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="clarity:memory-solid-badged" {...props}></Icon>
