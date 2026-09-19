@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/f2yvml66l.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="f2yvml66l"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="basil:folder-open-solid" {...props}></Icon>
