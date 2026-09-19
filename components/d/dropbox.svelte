@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/s/swzqjaccb.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":682,"height":694};
+const content = `<path class="swzqjaccb"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ls:dropbox" {...props}></Icon>
