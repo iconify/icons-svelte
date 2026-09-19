@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/q/qie-3kynn.css';
+import '../../css/u/u3cjz0b9i.css';
+import '../../css/z/zpx9uybjz.css';
+import '../../css/g/g5dygi8kz.css';
+import '../../css/c/cad8kdbkz.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="ft5dv1b6b"><path class="qie-3kynn"/><path class="u3cjz0b9i"/><path class="zpx9uybjz"/><path class="g5dygi8kz"/><path class="cad8kdbkz"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent-emoji-flat:shallow-pan-of-food" {...props}></Icon>
