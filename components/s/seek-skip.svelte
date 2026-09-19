@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/ctmlb8_7m.css';
+import '../../css/o/ohca03fbp.css';
+import '../../css/c/cy8-8obke.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":80,"height":80};
+const content = `<g class="ctmlb8_7m"><path class="ohca03fbp"/><path class="cy8-8obke"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="glyphs-poly:seek-skip" {...props}></Icon>

@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/l/l_q0wlbac.css';
+import '../../css/f/f0fv9c-tw.css';
+import '../../css/g/g3ethnbyo.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":80,"height":80};
+const content = `<g class="ft5dv1b6b"><path clip-rule="evenodd" class="l_q0wlbac"/><path class="f0fv9c-tw"/><path class="g3ethnbyo"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="glyphs-poly:door-open" {...props}></Icon>
