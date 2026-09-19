@@ -1,0 +1,463 @@
+{
+  "name": "@iconify-svelte/bpmn",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/bpmn/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "OFL-1.1",
+  "exports": {
+    "./ad-hoc-marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ad-hoc-marker.svelte"
+    },
+    "./business-rule": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/business-rule.svelte"
+    },
+    "./business-rule-task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/business-rule-task.svelte"
+    },
+    "./call-activity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/call-activity.svelte"
+    },
+    "./compensation-marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compensation-marker.svelte"
+    },
+    "./conditional-flow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/conditional-flow.svelte"
+    },
+    "./connection": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/connection.svelte"
+    },
+    "./connection-multi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/connection-multi.svelte"
+    },
+    "./data-input": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-input.svelte"
+    },
+    "./data-object": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-object.svelte"
+    },
+    "./data-output": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-output.svelte"
+    },
+    "./data-store": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-store.svelte"
+    },
+    "./default-flow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/default-flow.svelte"
+    },
+    "./end-event": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event.svelte"
+    },
+    "./end-event-cancel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-cancel.svelte"
+    },
+    "./end-event-compensation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-compensation.svelte"
+    },
+    "./end-event-error": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-error.svelte"
+    },
+    "./end-event-escalation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-escalation.svelte"
+    },
+    "./end-event-link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-link.svelte"
+    },
+    "./end-event-message": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-message.svelte"
+    },
+    "./end-event-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-multiple.svelte"
+    },
+    "./end-event-none": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-none.svelte"
+    },
+    "./end-event-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-signal.svelte"
+    },
+    "./end-event-terminate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/end-event-terminate.svelte"
+    },
+    "./event-subprocess-expanded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/event-subprocess-expanded.svelte"
+    },
+    "./gateway": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gateway.svelte"
+    },
+    "./gateway-complex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gateway-complex.svelte"
+    },
+    "./gateway-eventbased": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gateway-eventbased.svelte"
+    },
+    "./gateway-none": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gateway-none.svelte"
+    },
+    "./gateway-or": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gateway-or.svelte"
+    },
+    "./gateway-parallel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gateway-parallel.svelte"
+    },
+    "./gateway-xor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gateway-xor.svelte"
+    },
+    "./group": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group.svelte"
+    },
+    "./hand-tool": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-tool.svelte"
+    },
+    "./intermediate-event": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event.svelte"
+    },
+    "./intermediate-event-catch-cancel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-cancel.svelte"
+    },
+    "./intermediate-event-catch-compensation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-compensation.svelte"
+    },
+    "./intermediate-event-catch-condition": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-condition.svelte"
+    },
+    "./intermediate-event-catch-error": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-error.svelte"
+    },
+    "./intermediate-event-catch-escalation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-escalation.svelte"
+    },
+    "./intermediate-event-catch-link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-link.svelte"
+    },
+    "./intermediate-event-catch-message": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-message.svelte"
+    },
+    "./intermediate-event-catch-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-multiple.svelte"
+    },
+    "./intermediate-event-catch-non-interrupting-condition": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-non-interrupting-condition.svelte"
+    },
+    "./intermediate-event-catch-non-interrupting-escalation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-non-interrupting-escalation.svelte"
+    },
+    "./intermediate-event-catch-non-interrupting-message": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-non-interrupting-message.svelte"
+    },
+    "./intermediate-event-catch-non-interrupting-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-non-interrupting-multiple.svelte"
+    },
+    "./intermediate-event-catch-non-interrupting-parallel-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-non-interrupting-parallel-multiple.svelte"
+    },
+    "./intermediate-event-catch-non-interrupting-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-non-interrupting-signal.svelte"
+    },
+    "./intermediate-event-catch-non-interrupting-timer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-non-interrupting-timer.svelte"
+    },
+    "./intermediate-event-catch-parallel-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-parallel-multiple.svelte"
+    },
+    "./intermediate-event-catch-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-signal.svelte"
+    },
+    "./intermediate-event-catch-timer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-catch-timer.svelte"
+    },
+    "./intermediate-event-non-interrupting": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-non-interrupting.svelte"
+    },
+    "./intermediate-event-none": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-none.svelte"
+    },
+    "./intermediate-event-throw-compensation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-throw-compensation.svelte"
+    },
+    "./intermediate-event-throw-escalation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-throw-escalation.svelte"
+    },
+    "./intermediate-event-throw-link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-throw-link.svelte"
+    },
+    "./intermediate-event-throw-message": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-throw-message.svelte"
+    },
+    "./intermediate-event-throw-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-throw-multiple.svelte"
+    },
+    "./intermediate-event-throw-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intermediate-event-throw-signal.svelte"
+    },
+    "./lane": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lane.svelte"
+    },
+    "./lane-divide-three": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lane-divide-three.svelte"
+    },
+    "./lane-divide-two": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lane-divide-two.svelte"
+    },
+    "./lane-insert-above": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lane-insert-above.svelte"
+    },
+    "./lane-insert-below": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lane-insert-below.svelte"
+    },
+    "./lasso-tool": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lasso-tool.svelte"
+    },
+    "./loop-marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loop-marker.svelte"
+    },
+    "./manual": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/manual.svelte"
+    },
+    "./manual-task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/manual-task.svelte"
+    },
+    "./parallel-mi-marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parallel-mi-marker.svelte"
+    },
+    "./participant": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/participant.svelte"
+    },
+    "./receive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receive.svelte"
+    },
+    "./receive-task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receive-task.svelte"
+    },
+    "./screw-wrench": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screw-wrench.svelte"
+    },
+    "./script": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/script.svelte"
+    },
+    "./script-task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/script-task.svelte"
+    },
+    "./send": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send.svelte"
+    },
+    "./send-task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-task.svelte"
+    },
+    "./sequential-mi-marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sequential-mi-marker.svelte"
+    },
+    "./service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/service.svelte"
+    },
+    "./service-task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/service-task.svelte"
+    },
+    "./space-tool": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/space-tool.svelte"
+    },
+    "./start-event": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event.svelte"
+    },
+    "./start-event-compensation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-compensation.svelte"
+    },
+    "./start-event-condition": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-condition.svelte"
+    },
+    "./start-event-error": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-error.svelte"
+    },
+    "./start-event-escalation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-escalation.svelte"
+    },
+    "./start-event-message": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-message.svelte"
+    },
+    "./start-event-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-multiple.svelte"
+    },
+    "./start-event-non-interrupting": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting.svelte"
+    },
+    "./start-event-non-interrupting-condition": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting-condition.svelte"
+    },
+    "./start-event-non-interrupting-escalation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting-escalation.svelte"
+    },
+    "./start-event-non-interrupting-message": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting-message.svelte"
+    },
+    "./start-event-non-interrupting-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting-multiple.svelte"
+    },
+    "./start-event-non-interrupting-parallel-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting-parallel-multiple.svelte"
+    },
+    "./start-event-non-interrupting-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting-signal.svelte"
+    },
+    "./start-event-non-interrupting-timer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-non-interrupting-timer.svelte"
+    },
+    "./start-event-none": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-none.svelte"
+    },
+    "./start-event-parallel-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-parallel-multiple.svelte"
+    },
+    "./start-event-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-signal.svelte"
+    },
+    "./start-event-timer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-event-timer.svelte"
+    },
+    "./sub-process-marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sub-process-marker.svelte"
+    },
+    "./subprocess-collapsed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/subprocess-collapsed.svelte"
+    },
+    "./subprocess-expanded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/subprocess-expanded.svelte"
+    },
+    "./task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/task.svelte"
+    },
+    "./task-none": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/task-none.svelte"
+    },
+    "./text-annotation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-annotation.svelte"
+    },
+    "./transaction": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transaction.svelte"
+    },
+    "./trash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash.svelte"
+    },
+    "./user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user.svelte"
+    },
+    "./user-task": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-task.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#bpmn"
+}
