@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/g/gtgrl4u1h.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":640,"height":640};
+const content = `<path class="gtgrl4u1h"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fa7-solid:ping-pong-paddle-ball" {...props}></Icon>

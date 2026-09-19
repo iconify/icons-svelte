@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/l/lfzvvwblr.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":640,"height":640};
+const content = `<path class="lfzvvwblr"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fa7-solid:truck-loading" {...props}></Icon>

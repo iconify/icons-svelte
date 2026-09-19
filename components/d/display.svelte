@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/z/zowy7to0a.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":640,"height":640};
+const content = `<path class="zowy7to0a"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fa7-solid:display" {...props}></Icon>
