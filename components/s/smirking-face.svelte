@@ -1,0 +1,27 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="qgsyt7yth"/><path class="q-0k0mbdf"/><path class="c64z7vn-q"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="emojione:smirking-face" {...props}></Icon>
+<style>
+:global(.c64z7vn-q) {
+  fill: var(--svg-color--917524, #917524);
+  d: path("M53.2 24.6c-3.2-2.7-7.5-3.9-11.7-3.1c-.6.1-1.1-2-.4-2.2c4.8-.9 9.8.5 13.5 3.6c.6.5-1 2.1-1.4 1.7m-30.7-3.2c-4.2-.7-8.5.4-11.7 3.1c-.4.4-2-1.2-1.4-1.7c3.7-3.2 8.7-4.5 13.5-3.6c.7.1.2 2.3-.4 2.2");
+}
+
+:global(.q-0k0mbdf) {
+  fill: var(--svg-color--664e27, #664e27);
+  d: path("M53.9 30.8c-3.4-3.9-14-2.5-17.2 2.8c-.2.4.4 1 1.1 1.4c2.1-1.5 4.6-2.3 7.2-2.5c0 2.8 2.2 5.1 5 5.1c4 0 5.9-4.5 3.9-6.8m-27.3 0c-3.3-3.9-14-2.5-17.2 2.8c-.2.4.4 1 1.1 1.4c2.1-1.5 4.6-2.3 7.2-2.5c0 2.8 2.2 5.1 5 5.1c3.9 0 5.8-4.5 3.9-6.8m-.8 21c5.8 1.4 15.1 0 19.8-3.5c1.2-.9-1.2-4-2.3-3.1c-3.2 2.3-11.2 4.1-16.6 2.9c-1.4-.4-2.4 3.3-.9 3.7");
+}
+
+:global(.qgsyt7yth) {
+  fill: var(--svg-color--ffdd67, #ffdd67);
+  d: path("M62 32c0 16.6-13.4 30-30 30S2 48.6 2 32S15.4 2 32 2s30 13.4 30 30");
+}
+
+</style>

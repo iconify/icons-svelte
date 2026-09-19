@@ -1,0 +1,42 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="vl1n9jbct"/><path class="vuzkeij-u"/><path class="rx9n9u1rd"/><path class="w7mt37bfq"/><path class="btwmgtb1r"/><path class="ums4zgbdw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="emojione:hammer-and-pick" {...props}></Icon>
+<style>
+:global(.btwmgtb1r) {
+  fill: var(--svg-color--f2b200, #f2b200);
+  d: path("M38.7 28.4L35.3 25s-2.8 1.7-5.9 4.7c-3.4 3.3-5.3 7.7-9.8 12c-6.8 6.6-10.1 8.1-12.8 10c-1 .7-.9.9 0 1.8l2.9 2.8z");
+}
+
+:global(.rx9n9u1rd) {
+  fill: var(--svg-color--94989b, #94989b);
+  d: path("m57.2 19.7l-9.5-9.2c-.3-.3-.9-.3-1.3 0l-3.5 3.4l-3.5 3.4c-.3.3-.3.9 0 1.2l9.5 9.2c.3.3.9.3 1.3 0l7.1-6.9c.3-.3.3-.8-.1-1.1M41.3 4.3c-.3-.3-.9-.3-1.3 0l-7 6.9c-.3.3-.3.9 0 1.2l2 1.9l8.4-8.1c-.1 0-2.1-1.9-2.1-1.9");
+}
+
+:global(.ums4zgbdw) {
+  fill: var(--svg-color--ffce31, #ffce31);
+  d: path("m38.7 28.4l3.5 3.4s-1.8 2.7-4.9 5.7c-3.4 3.3-7.9 5.2-12.4 9.5c-6.8 6.6-8.4 9.6-10.5 12.3c-.8 1-.9.9-1.8 0l-2.9-2.8z");
+}
+
+:global(.vl1n9jbct) {
+  fill: var(--svg-color--89664c, #89664c);
+  d: path("M5.3 10.4c-.9.9-.9 2.3 0 3.1l43 43c.9.9 2.3.9 3.1 0l3.1-3.1c.9-.9.9-2.3 0-3.1l-43-43c-.9-.9-2.3-.9-3.1 0z");
+}
+
+:global(.vuzkeij-u) {
+  fill: var(--svg-color--3e4347, #3e4347);
+  d: path("M27.4 11.4c.9.9.9 2.3 0 3.2L12.6 29.4c-.9.9-2.3.9-3.2 0l-6.7-6.7c-.9-.9-.9-2.3 0-3.2L17.5 4.7c.9-.9 2.3-.9 3.2 0zm14 19.6L36 25.8l5.4-5.2l5.4 5.2z");
+}
+
+:global(.w7mt37bfq) {
+  fill: var(--svg-color--3e4347, #3e4347);
+  d: path("m42.9 13.9l3.5-3.4s-2 1.1-2.3-1.8c-.1-1.2-.4-1.9-.8-2.4l-8.3 8c.4.3 1.2.6 2.4.7c3.1.3 1.9 2.3 1.9 2.3zM58 41.1c9.7-9.4-1.1-19.8-1.1-19.8l-6.3 6.1s7.9 5.9 5.7 13.3c-.3.9-.7 1.6-.5 1.9c.3.3 1.5-.8 2.2-1.5");
+}
+
+</style>
