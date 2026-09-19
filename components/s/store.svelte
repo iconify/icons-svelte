@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/m/m2_0khbxh.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m2_0khbxh"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="griddy-icons:store" {...props}></Icon>
