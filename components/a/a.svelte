@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/fj69zb_dm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":384,"height":512};
+const content = `<path class="fj69zb_dm"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fa6-solid:a" {...props}></Icon>
