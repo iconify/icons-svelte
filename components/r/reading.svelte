@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/z/zip20upao.css';
+import '../../css/b/b4jm4y-yv.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":1024,"height":1024};
+const content = `<path class="zip20upao"/><path class="b4jm4y-yv"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ep:reading" {...props}></Icon>
