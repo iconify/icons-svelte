@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/q/qtvhlccsf.css';
+import '../../css/q/qlh3irf0m.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qtvhlccsf"/><path class="qlh3irf0m"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="boxicons:film-roll-alt" {...props}></Icon>
