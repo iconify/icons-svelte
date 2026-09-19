@@ -1,0 +1,135 @@
+{
+  "name": "@iconify-svelte/geo",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/geo/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./turf-along": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-along.svelte"
+    },
+    "./turf-bbox-polygon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-bbox-polygon.svelte"
+    },
+    "./turf-bezier": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-bezier.svelte"
+    },
+    "./turf-buffer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-buffer.svelte"
+    },
+    "./turf-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-center.svelte"
+    },
+    "./turf-centroid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-centroid.svelte"
+    },
+    "./turf-concave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-concave.svelte"
+    },
+    "./turf-convex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-convex.svelte"
+    },
+    "./turf-destination": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-destination.svelte"
+    },
+    "./turf-envelope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-envelope.svelte"
+    },
+    "./turf-erased": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-erased.svelte"
+    },
+    "./turf-explode": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-explode.svelte"
+    },
+    "./turf-extent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-extent.svelte"
+    },
+    "./turf-intersect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-intersect.svelte"
+    },
+    "./turf-kinks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-kinks.svelte"
+    },
+    "./turf-line-slice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-line-slice.svelte"
+    },
+    "./turf-merge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-merge.svelte"
+    },
+    "./turf-midpoint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-midpoint.svelte"
+    },
+    "./turf-point-grid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-point-grid.svelte"
+    },
+    "./turf-point-on-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-point-on-line.svelte"
+    },
+    "./turf-point-on-surface": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-point-on-surface.svelte"
+    },
+    "./turf-simplify": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-simplify.svelte"
+    },
+    "./turf-size": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-size.svelte"
+    },
+    "./turf-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-square.svelte"
+    },
+    "./turf-square-grid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-square-grid.svelte"
+    },
+    "./turf-tin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-tin.svelte"
+    },
+    "./turf-triangle-grid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-triangle-grid.svelte"
+    },
+    "./turf-union": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turf-union.svelte"
+    },
+    "./ui-earth-east": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ui-earth-east.svelte"
+    },
+    "./ui-earth-west": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ui-earth-west.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#geo"
+}
