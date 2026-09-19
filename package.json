@@ -1,0 +1,591 @@
+{
+  "name": "@iconify-svelte/formkit",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/formkit/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add.svelte"
+    },
+    "./amex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amex.svelte"
+    },
+    "./android": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/android.svelte"
+    },
+    "./apple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple.svelte"
+    },
+    "./arrowdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrowdown.svelte"
+    },
+    "./arrowleft": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrowleft.svelte"
+    },
+    "./arrowright": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrowright.svelte"
+    },
+    "./arrowup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrowup.svelte"
+    },
+    "./avatarman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatarman.svelte"
+    },
+    "./avatarwoman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/avatarwoman.svelte"
+    },
+    "./bitcoin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitcoin.svelte"
+    },
+    "./bnb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bnb.svelte"
+    },
+    "./bookmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark.svelte"
+    },
+    "./button": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/button.svelte"
+    },
+    "./cardano": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cardano.svelte"
+    },
+    "./caretdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caretdown.svelte"
+    },
+    "./caretleft": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caretleft.svelte"
+    },
+    "./caretright": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caretright.svelte"
+    },
+    "./caretup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caretup.svelte"
+    },
+    "./check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check.svelte"
+    },
+    "./checkbox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox.svelte"
+    },
+    "./circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle.svelte"
+    },
+    "./close": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/close.svelte"
+    },
+    "./color": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color.svelte"
+    },
+    "./compress": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compress.svelte"
+    },
+    "./currency": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/currency.svelte"
+    },
+    "./date": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/date.svelte"
+    },
+    "./datetime": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/datetime.svelte"
+    },
+    "./discover": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discover.svelte"
+    },
+    "./dogecoin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dogecoin.svelte"
+    },
+    "./dollar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dollar.svelte"
+    },
+    "./down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/down.svelte"
+    },
+    "./download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download.svelte"
+    },
+    "./downloadcloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/downloadcloud.svelte"
+    },
+    "./draghandle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/draghandle.svelte"
+    },
+    "./email": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email.svelte"
+    },
+    "./ethereum": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ethereum.svelte"
+    },
+    "./euro": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/euro.svelte"
+    },
+    "./expand": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/expand.svelte"
+    },
+    "./export": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/export.svelte"
+    },
+    "./eye": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye.svelte"
+    },
+    "./eyeclosed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eyeclosed.svelte"
+    },
+    "./facebook": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook.svelte"
+    },
+    "./fastforward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fastforward.svelte"
+    },
+    "./file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file.svelte"
+    },
+    "./fileaudio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fileaudio.svelte"
+    },
+    "./filedoc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filedoc.svelte"
+    },
+    "./fileimage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fileimage.svelte"
+    },
+    "./filepdf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filepdf.svelte"
+    },
+    "./filevideo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filevideo.svelte"
+    },
+    "./flag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag.svelte"
+    },
+    "./folder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder.svelte"
+    },
+    "./franc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/franc.svelte"
+    },
+    "./github": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github.svelte"
+    },
+    "./google": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google.svelte"
+    },
+    "./group": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group.svelte"
+    },
+    "./happy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/happy.svelte"
+    },
+    "./heart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart.svelte"
+    },
+    "./help": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help.svelte"
+    },
+    "./hidden": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hidden.svelte"
+    },
+    "./info": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info.svelte"
+    },
+    "./instagram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram.svelte"
+    },
+    "./krona": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/krona.svelte"
+    },
+    "./left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/left.svelte"
+    },
+    "./link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link.svelte"
+    },
+    "./linkedin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin.svelte"
+    },
+    "./linkexternal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkexternal.svelte"
+    },
+    "./lira": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lira.svelte"
+    },
+    "./list": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list.svelte"
+    },
+    "./mastercard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastercard.svelte"
+    },
+    "./medium": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium.svelte"
+    },
+    "./megaphone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone.svelte"
+    },
+    "./minimize": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minimize.svelte"
+    },
+    "./month": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/month.svelte"
+    },
+    "./multicurrency": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/multicurrency.svelte"
+    },
+    "./number": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/number.svelte"
+    },
+    "./open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open.svelte"
+    },
+    "./password": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/password.svelte"
+    },
+    "./pause": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause.svelte"
+    },
+    "./paypal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paypal.svelte"
+    },
+    "./people": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people.svelte"
+    },
+    "./peso": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/peso.svelte"
+    },
+    "./pinterest": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinterest.svelte"
+    },
+    "./play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play.svelte"
+    },
+    "./playcircle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playcircle.svelte"
+    },
+    "./pound": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pound.svelte"
+    },
+    "./radio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/radio.svelte"
+    },
+    "./range": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/range.svelte"
+    },
+    "./reddit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reddit.svelte"
+    },
+    "./refresh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/refresh.svelte"
+    },
+    "./reorder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reorder.svelte"
+    },
+    "./repeater": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeater.svelte"
+    },
+    "./reply": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reply.svelte"
+    },
+    "./rewind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rewind.svelte"
+    },
+    "./right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/right.svelte"
+    },
+    "./ruble": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruble.svelte"
+    },
+    "./rupee": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rupee.svelte"
+    },
+    "./sad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sad.svelte"
+    },
+    "./search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search.svelte"
+    },
+    "./select": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/select.svelte"
+    },
+    "./settings": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings.svelte"
+    },
+    "./share": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share.svelte"
+    },
+    "./shekel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shekel.svelte"
+    },
+    "./skype": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype.svelte"
+    },
+    "./snapchat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snapchat.svelte"
+    },
+    "./solana": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solana.svelte"
+    },
+    "./spinner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spinner.svelte"
+    },
+    "./star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star.svelte"
+    },
+    "./start": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start.svelte"
+    },
+    "./stepback": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stepback.svelte"
+    },
+    "./stepforward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stepforward.svelte"
+    },
+    "./stop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop.svelte"
+    },
+    "./stripe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stripe.svelte"
+    },
+    "./submit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/submit.svelte"
+    },
+    "./table": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table.svelte"
+    },
+    "./tag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag.svelte"
+    },
+    "./telephone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telephone.svelte"
+    },
+    "./tether": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tether.svelte"
+    },
+    "./text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text.svelte"
+    },
+    "./textarea": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/textarea.svelte"
+    },
+    "./tiktok": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tiktok.svelte"
+    },
+    "./time": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time.svelte"
+    },
+    "./tools": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools.svelte"
+    },
+    "./trash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash.svelte"
+    },
+    "./twitter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter.svelte"
+    },
+    "./unit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unit.svelte"
+    },
+    "./up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/up.svelte"
+    },
+    "./upload": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload.svelte"
+    },
+    "./uploadcloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uploadcloud.svelte"
+    },
+    "./url": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/url.svelte"
+    },
+    "./usdc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usdc.svelte"
+    },
+    "./vimeo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo.svelte"
+    },
+    "./visa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visa.svelte"
+    },
+    "./volumedown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volumedown.svelte"
+    },
+    "./volumeup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volumeup.svelte"
+    },
+    "./warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning.svelte"
+    },
+    "./week": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/week.svelte"
+    },
+    "./whatsapp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whatsapp.svelte"
+    },
+    "./won": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/won.svelte"
+    },
+    "./wordpress": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress.svelte"
+    },
+    "./yen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yen.svelte"
+    },
+    "./youtube": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube.svelte"
+    },
+    "./yuan": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yuan.svelte"
+    },
+    "./zip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zip.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#formkit"
+}
