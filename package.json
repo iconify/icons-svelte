@@ -1,0 +1,583 @@
+{
+  "name": "@iconify-svelte/covid",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/covid/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./covid-19-virus-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-19-virus-4.svelte"
+    },
+    "./covid-19-virus-pandemic-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-19-virus-pandemic-1.svelte"
+    },
+    "./covid-19-virus-pandemic-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-19-virus-pandemic-2.svelte"
+    },
+    "./covid-19-virus-pandemic-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-19-virus-pandemic-3.svelte"
+    },
+    "./covid-carrier-blood-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-carrier-blood-1.svelte"
+    },
+    "./covid-carrier-blood-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-carrier-blood-2.svelte"
+    },
+    "./covid-carrier-human": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-carrier-human.svelte"
+    },
+    "./covid-carrier-packages": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid-carrier-packages.svelte"
+    },
+    "./covid19-virus-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-1.svelte"
+    },
+    "./covid19-virus-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-2.svelte"
+    },
+    "./covid19-virus-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-3.svelte"
+    },
+    "./covid19-virus-bat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-bat.svelte"
+    },
+    "./covid19-virus-heal-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-heal-1.svelte"
+    },
+    "./covid19-virus-heal-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-heal-2.svelte"
+    },
+    "./covid19-virus-lifelong-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-lifelong-1.svelte"
+    },
+    "./covid19-virus-lifelong-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-lifelong-2.svelte"
+    },
+    "./covid19-virus-patient-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-patient-1.svelte"
+    },
+    "./covid19-virus-patient-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-patient-2.svelte"
+    },
+    "./covid19-virus-reinfected": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-reinfected.svelte"
+    },
+    "./covid19-virus-warning-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-warning-1.svelte"
+    },
+    "./covid19-virus-warning-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-warning-2.svelte"
+    },
+    "./covid19-virus-warning-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/covid19-virus-warning-3.svelte"
+    },
+    "./graph-cured-decreasing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-cured-decreasing.svelte"
+    },
+    "./graph-cured-increasing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-cured-increasing.svelte"
+    },
+    "./graph-cured-stable": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-cured-stable.svelte"
+    },
+    "./graph-death-rate-decreasing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-death-rate-decreasing.svelte"
+    },
+    "./graph-death-rate-increasing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-death-rate-increasing.svelte"
+    },
+    "./graph-death-rate-stable": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-death-rate-stable.svelte"
+    },
+    "./graph-document-infected-report": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-document-infected-report.svelte"
+    },
+    "./graph-infected-decreasing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-infected-decreasing.svelte"
+    },
+    "./graph-infected-increasing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-infected-increasing.svelte"
+    },
+    "./graph-infected-stable": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-infected-stable.svelte"
+    },
+    "./mutation-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mutation-1.svelte"
+    },
+    "./mutation-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mutation-2.svelte"
+    },
+    "./mutation-stronger": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mutation-stronger.svelte"
+    },
+    "./mutation-temperature-change": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mutation-temperature-change.svelte"
+    },
+    "./personal-hygiene-clean-bottle-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-clean-bottle-shield.svelte"
+    },
+    "./personal-hygiene-clean-bottle-virus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-clean-bottle-virus.svelte"
+    },
+    "./personal-hygiene-clean-bottle-virus-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-clean-bottle-virus-block.svelte"
+    },
+    "./personal-hygiene-clean-gel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-clean-gel.svelte"
+    },
+    "./personal-hygiene-clean-toothpaste": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-clean-toothpaste.svelte"
+    },
+    "./personal-hygiene-hand-liquid-soap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-liquid-soap.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-liquid-1.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-liquid-2.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-liquid-3.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-drop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-liquid-drop.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-liquid-virus-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-liquid-virus-block.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-spray": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-spray.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-spray-virus-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-spray-virus-block.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-virus-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-virus-block.svelte"
+    },
+    "./personal-hygiene-hand-sanitizer-virus-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-sanitizer-virus-shield.svelte"
+    },
+    "./personal-hygiene-hand-soap-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-soap-1.svelte"
+    },
+    "./personal-hygiene-hand-soap-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-soap-2.svelte"
+    },
+    "./personal-hygiene-hand-wash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-wash.svelte"
+    },
+    "./personal-hygiene-hand-wipe-paper-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-wipe-paper-1.svelte"
+    },
+    "./personal-hygiene-hand-wipe-paper-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-wipe-paper-2.svelte"
+    },
+    "./personal-hygiene-hand-wipe-paper-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-wipe-paper-3.svelte"
+    },
+    "./personal-hygiene-hand-wipe-paper-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/personal-hygiene-hand-wipe-paper-4.svelte"
+    },
+    "./quarantine-place-bed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-bed.svelte"
+    },
+    "./quarantine-place-hospital": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-hospital.svelte"
+    },
+    "./quarantine-place-house-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-house-1.svelte"
+    },
+    "./quarantine-place-house-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-house-2.svelte"
+    },
+    "./quarantine-place-house-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-house-shield.svelte"
+    },
+    "./quarantine-place-self-lockdown-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-self-lockdown-1.svelte"
+    },
+    "./quarantine-place-self-lockdown-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-self-lockdown-2.svelte"
+    },
+    "./quarantine-place-time-calendar-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-time-calendar-1.svelte"
+    },
+    "./quarantine-place-time-calendar-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-time-calendar-2.svelte"
+    },
+    "./quarantine-place-time-calendar-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-time-calendar-day.svelte"
+    },
+    "./quarantine-place-time-date-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quarantine-place-time-date-day.svelte"
+    },
+    "./social-distancing-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-1.svelte"
+    },
+    "./social-distancing-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-2.svelte"
+    },
+    "./social-distancing-attention": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-attention.svelte"
+    },
+    "./social-distancing-correct-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-correct-1.svelte"
+    },
+    "./social-distancing-correct-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-correct-2.svelte"
+    },
+    "./social-distancing-correct-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-correct-3.svelte"
+    },
+    "./social-distancing-correct-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-correct-4.svelte"
+    },
+    "./social-distancing-correct-5": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-correct-5.svelte"
+    },
+    "./social-distancing-correct-6": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-correct-6.svelte"
+    },
+    "./social-distancing-do-not-close-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-do-not-close-1.svelte"
+    },
+    "./social-distancing-do-not-close-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-do-not-close-2.svelte"
+    },
+    "./social-distancing-do-not-close-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-do-not-close-3.svelte"
+    },
+    "./social-distancing-do-not-close-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-do-not-close-4.svelte"
+    },
+    "./social-distancing-do-not-touch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-do-not-touch.svelte"
+    },
+    "./social-distancing-man": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-man.svelte"
+    },
+    "./social-distancing-not-allowed-space-man": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-not-allowed-space-man.svelte"
+    },
+    "./social-distancing-not-allowed-space-woman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-not-allowed-space-woman.svelte"
+    },
+    "./social-distancing-protect-shield-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-protect-shield-1.svelte"
+    },
+    "./social-distancing-protect-shield-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-protect-shield-2.svelte"
+    },
+    "./social-distancing-virus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-virus.svelte"
+    },
+    "./social-distancing-woman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/social-distancing-woman.svelte"
+    },
+    "./symptoms-cold-fever": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-cold-fever.svelte"
+    },
+    "./symptoms-fever": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-fever.svelte"
+    },
+    "./symptoms-nausea": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-nausea.svelte"
+    },
+    "./symptoms-virus-diarrhea-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-diarrhea-1.svelte"
+    },
+    "./symptoms-virus-diarrhea-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-diarrhea-2.svelte"
+    },
+    "./symptoms-virus-headache-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-headache-1.svelte"
+    },
+    "./symptoms-virus-headache-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-headache-2.svelte"
+    },
+    "./symptoms-virus-loss-smell-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-loss-smell-1.svelte"
+    },
+    "./symptoms-virus-loss-smell-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-loss-smell-2.svelte"
+    },
+    "./symptoms-virus-lung-damage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-lung-damage.svelte"
+    },
+    "./symptoms-virus-stomach": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symptoms-virus-stomach.svelte"
+    },
+    "./transmission-virus-airplane-flight": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-airplane-flight.svelte"
+    },
+    "./transmission-virus-briefcase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-briefcase.svelte"
+    },
+    "./transmission-virus-cough": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-cough.svelte"
+    },
+    "./transmission-virus-crowd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-crowd.svelte"
+    },
+    "./transmission-virus-expand": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-expand.svelte"
+    },
+    "./transmission-virus-float-wind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-float-wind.svelte"
+    },
+    "./transmission-virus-handshake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-handshake.svelte"
+    },
+    "./transmission-virus-human-infected": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-human-infected.svelte"
+    },
+    "./transmission-virus-human-transmit-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-human-transmit-1.svelte"
+    },
+    "./transmission-virus-human-transmit-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-human-transmit-2.svelte"
+    },
+    "./transmission-virus-increase-rate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-increase-rate.svelte"
+    },
+    "./transmission-virus-inhale": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-inhale.svelte"
+    },
+    "./transmission-virus-mobile-application": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-mobile-application.svelte"
+    },
+    "./transmission-virus-rat-mouse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-rat-mouse.svelte"
+    },
+    "./transmission-virus-touch-finger": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-touch-finger.svelte"
+    },
+    "./transmission-virus-touch-hand-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-touch-hand-1.svelte"
+    },
+    "./transmission-virus-touch-hand-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-touch-hand-2.svelte"
+    },
+    "./transmission-virus-transmit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-transmit.svelte"
+    },
+    "./transmission-virus-transportation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-transportation.svelte"
+    },
+    "./transmission-virus-trash-bin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-trash-bin.svelte"
+    },
+    "./transmission-virus-visible": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-visible.svelte"
+    },
+    "./transmission-virus-wind-breath": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/transmission-virus-wind-breath.svelte"
+    },
+    "./vaccine-protection-face-mask-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-face-mask-1.svelte"
+    },
+    "./vaccine-protection-face-mask-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-face-mask-2.svelte"
+    },
+    "./vaccine-protection-face-mask-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-face-mask-3.svelte"
+    },
+    "./vaccine-protection-face-shield-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-face-shield-1.svelte"
+    },
+    "./vaccine-protection-face-shield-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-face-shield-2.svelte"
+    },
+    "./vaccine-protection-infrared-thermometer-gun": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-infrared-thermometer-gun.svelte"
+    },
+    "./vaccine-protection-medicine-pill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-medicine-pill.svelte"
+    },
+    "./vaccine-protection-people-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-people-shield.svelte"
+    },
+    "./vaccine-protection-sanitizer-spray": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-sanitizer-spray.svelte"
+    },
+    "./vaccine-protection-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-shield.svelte"
+    },
+    "./vaccine-protection-syringe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-syringe.svelte"
+    },
+    "./vaccine-protection-virus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-virus.svelte"
+    },
+    "./vaccine-protection-wash-hands": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vaccine-protection-wash-hands.svelte"
+    },
+    "./virus-lab-research-magnifier-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-lab-research-magnifier-1.svelte"
+    },
+    "./virus-lab-research-magnifier-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-lab-research-magnifier-2.svelte"
+    },
+    "./virus-lab-research-medicine-pill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-lab-research-medicine-pill.svelte"
+    },
+    "./virus-lab-research-microscope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-lab-research-microscope.svelte"
+    },
+    "./virus-lab-research-syringe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-lab-research-syringe.svelte"
+    },
+    "./virus-lab-research-test-tube": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-lab-research-test-tube.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#covid"
+}
