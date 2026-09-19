@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/x/x4rc10b4w.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":1024,"height":1025};
+const content = `<path class="x4rc10b4w"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="whh:rain" {...props}></Icon>
