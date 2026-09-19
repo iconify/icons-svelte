@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/x/xts5eub8n.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="xts5eub8n"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ci:arrow-circle-up" {...props}></Icon>
