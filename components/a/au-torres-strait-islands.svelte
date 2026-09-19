@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/bc1fd0lxe.css';
+import '../../css/p/p7u1zwb7z.css';
+import '../../css/w/w5dx0bcnx.css';
+import '../../css/a/albi6hp1b.css';
+import '../../css/t/ttstsac7s.css';
+import '../../css/z/z8dpbzzhg.css';
+import '../../css/j/jzrdjfbbg.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="p7u1zwb7z"/><path class="w5dx0bcnx"/><path class="albi6hp1b"/><path class="ttstsac7s"/><path class="z8dpbzzhg"/><path class="jzrdjfbbg"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="circle-flags:au-torres-strait-islands" {...props}></Icon>

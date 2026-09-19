@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/bc1fd0lxe.css';
+import '../../css/a/aafymk54s.css';
+import '../../css/h/haepy696s.css';
+import '../../css/x/x9o47uzpy.css';
+import '../../css/s/s8lm5clux.css';
+import '../../css/e/ejs35enop.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<mask id="SVGuywqVbel"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGuywqVbel)"><path class="aafymk54s"/><path class="haepy696s"/><path class="x9o47uzpy"/><path class="s8lm5clux"/><path class="ejs35enop"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="circle-flags:lang-sl" {...props}></Icon>
