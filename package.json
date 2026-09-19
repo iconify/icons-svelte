@@ -1,0 +1,635 @@
+{
+  "name": "@iconify-svelte/fad",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/fad/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./adr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adr.svelte"
+    },
+    "./adsr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adsr.svelte"
+    },
+    "./ahdsr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ahdsr.svelte"
+    },
+    "./ar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ar.svelte"
+    },
+    "./armrecording": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/armrecording.svelte"
+    },
+    "./arpchord": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpchord.svelte"
+    },
+    "./arpdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpdown.svelte"
+    },
+    "./arpdownandup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpdownandup.svelte"
+    },
+    "./arpdownup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpdownup.svelte"
+    },
+    "./arpplayorder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpplayorder.svelte"
+    },
+    "./arprandom": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arprandom.svelte"
+    },
+    "./arpup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpup.svelte"
+    },
+    "./arpupandown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpupandown.svelte"
+    },
+    "./arpupdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arpupdown.svelte"
+    },
+    "./arrows-horz": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrows-horz.svelte"
+    },
+    "./arrows-vert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrows-vert.svelte"
+    },
+    "./automation-2p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automation-2p.svelte"
+    },
+    "./automation-3p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automation-3p.svelte"
+    },
+    "./automation-4p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/automation-4p.svelte"
+    },
+    "./backward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backward.svelte"
+    },
+    "./bluetooth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth.svelte"
+    },
+    "./caret-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caret-down.svelte"
+    },
+    "./caret-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caret-left.svelte"
+    },
+    "./caret-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caret-right.svelte"
+    },
+    "./caret-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caret-up.svelte"
+    },
+    "./close": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/close.svelte"
+    },
+    "./copy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy.svelte"
+    },
+    "./cpu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu.svelte"
+    },
+    "./cutter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cutter.svelte"
+    },
+    "./digital-colon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital-colon.svelte"
+    },
+    "./digital-dot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital-dot.svelte"
+    },
+    "./digital0": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital0.svelte"
+    },
+    "./digital1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital1.svelte"
+    },
+    "./digital2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital2.svelte"
+    },
+    "./digital3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital3.svelte"
+    },
+    "./digital4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital4.svelte"
+    },
+    "./digital5": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital5.svelte"
+    },
+    "./digital6": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital6.svelte"
+    },
+    "./digital7": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital7.svelte"
+    },
+    "./digital8": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital8.svelte"
+    },
+    "./digital9": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital9.svelte"
+    },
+    "./diskio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diskio.svelte"
+    },
+    "./drumpad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drumpad.svelte"
+    },
+    "./duplicate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/duplicate.svelte"
+    },
+    "./eraser": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eraser.svelte"
+    },
+    "./ffwd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/ffwd.svelte"
+    },
+    "./filter-bandpass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-bandpass.svelte"
+    },
+    "./filter-bell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-bell.svelte"
+    },
+    "./filter-bypass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-bypass.svelte"
+    },
+    "./filter-highpass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-highpass.svelte"
+    },
+    "./filter-lowpass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-lowpass.svelte"
+    },
+    "./filter-notch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-notch.svelte"
+    },
+    "./filter-rez-highpass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-rez-highpass.svelte"
+    },
+    "./filter-rez-lowpass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-rez-lowpass.svelte"
+    },
+    "./filter-shelving-hi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-shelving-hi.svelte"
+    },
+    "./filter-shelving-lo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-shelving-lo.svelte"
+    },
+    "./foldback": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foldback.svelte"
+    },
+    "./forward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forward.svelte"
+    },
+    "./h-expand": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/h-expand.svelte"
+    },
+    "./hardclip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hardclip.svelte"
+    },
+    "./hardclipcurve": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hardclipcurve.svelte"
+    },
+    "./headphones": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones.svelte"
+    },
+    "./keyboard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/keyboard.svelte"
+    },
+    "./lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock.svelte"
+    },
+    "./logo-aax": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-aax.svelte"
+    },
+    "./logo-abletonlink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-abletonlink.svelte"
+    },
+    "./logo-au": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-au.svelte"
+    },
+    "./logo-audacity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-audacity.svelte"
+    },
+    "./logo-audiobus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-audiobus.svelte"
+    },
+    "./logo-cubase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-cubase.svelte"
+    },
+    "./logo-fl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-fl.svelte"
+    },
+    "./logo-juce": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-juce.svelte"
+    },
+    "./logo-ladspa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-ladspa.svelte"
+    },
+    "./logo-live": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-live.svelte"
+    },
+    "./logo-lv2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-lv2.svelte"
+    },
+    "./logo-protools": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-protools.svelte"
+    },
+    "./logo-rackext": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-rackext.svelte"
+    },
+    "./logo-reaper": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-reaper.svelte"
+    },
+    "./logo-reason": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-reason.svelte"
+    },
+    "./logo-rewire": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-rewire.svelte"
+    },
+    "./logo-studioone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-studioone.svelte"
+    },
+    "./logo-tracktion": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-tracktion.svelte"
+    },
+    "./logo-vst": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-vst.svelte"
+    },
+    "./logo-waveform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-waveform.svelte"
+    },
+    "./loop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loop.svelte"
+    },
+    "./metronome": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/metronome.svelte"
+    },
+    "./microphone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microphone.svelte"
+    },
+    "./midiplug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/midiplug.svelte"
+    },
+    "./modrandom": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modrandom.svelte"
+    },
+    "./modsawdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modsawdown.svelte"
+    },
+    "./modsawup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modsawup.svelte"
+    },
+    "./modsh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modsh.svelte"
+    },
+    "./modsine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modsine.svelte"
+    },
+    "./modsquare": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modsquare.svelte"
+    },
+    "./modtri": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modtri.svelte"
+    },
+    "./modularplug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modularplug.svelte"
+    },
+    "./mono": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mono.svelte"
+    },
+    "./mute": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mute.svelte"
+    },
+    "./next": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/next.svelte"
+    },
+    "./open": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open.svelte"
+    },
+    "./paste": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste.svelte"
+    },
+    "./pause": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause.svelte"
+    },
+    "./pen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pen.svelte"
+    },
+    "./phase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phase.svelte"
+    },
+    "./play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play.svelte"
+    },
+    "./pointer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pointer.svelte"
+    },
+    "./powerswitch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/powerswitch.svelte"
+    },
+    "./preset-a": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preset-a.svelte"
+    },
+    "./preset-ab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preset-ab.svelte"
+    },
+    "./preset-b": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preset-b.svelte"
+    },
+    "./preset-ba": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/preset-ba.svelte"
+    },
+    "./prev": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prev.svelte"
+    },
+    "./punch-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/punch-in.svelte"
+    },
+    "./punch-out": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/punch-out.svelte"
+    },
+    "./ram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ram.svelte"
+    },
+    "./random-1dice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/random-1dice.svelte"
+    },
+    "./random-2dice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/random-2dice.svelte"
+    },
+    "./record": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/record.svelte"
+    },
+    "./redo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redo.svelte"
+    },
+    "./repeat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat.svelte"
+    },
+    "./repeat-one": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat-one.svelte"
+    },
+    "./rew": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rew.svelte"
+    },
+    "./roundswitch-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roundswitch-off.svelte"
+    },
+    "./roundswitch-on": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roundswitch-on.svelte"
+    },
+    "./save": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/save.svelte"
+    },
+    "./saveas": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/saveas.svelte"
+    },
+    "./scissors": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scissors.svelte"
+    },
+    "./shuffle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shuffle.svelte"
+    },
+    "./slider-round-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slider-round-1.svelte"
+    },
+    "./slider-round-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slider-round-2.svelte"
+    },
+    "./slider-round-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slider-round-3.svelte"
+    },
+    "./sliderhandle-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sliderhandle-1.svelte"
+    },
+    "./sliderhandle-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sliderhandle-2.svelte"
+    },
+    "./softclip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/softclip.svelte"
+    },
+    "./softclipcurve": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/softclipcurve.svelte"
+    },
+    "./solo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solo.svelte"
+    },
+    "./speaker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/speaker.svelte"
+    },
+    "./squareswitch-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squareswitch-off.svelte"
+    },
+    "./squareswitch-on": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squareswitch-on.svelte"
+    },
+    "./stereo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stereo.svelte"
+    },
+    "./stop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop.svelte"
+    },
+    "./thunderbolt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderbolt.svelte"
+    },
+    "./timeselect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/timeselect.svelte"
+    },
+    "./undo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/undo.svelte"
+    },
+    "./unlock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlock.svelte"
+    },
+    "./usb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usb.svelte"
+    },
+    "./v-expand": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/v-expand.svelte"
+    },
+    "./vroundswitch-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vroundswitch-off.svelte"
+    },
+    "./vroundswitch-on": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vroundswitch-on.svelte"
+    },
+    "./vsquareswitch-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vsquareswitch-off.svelte"
+    },
+    "./vsquareswitch-on": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vsquareswitch-on.svelte"
+    },
+    "./waveform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/waveform.svelte"
+    },
+    "./xlrplug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xlrplug.svelte"
+    },
+    "./zoomin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoomin.svelte"
+    },
+    "./zoomout": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoomout.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#fad"
+}
