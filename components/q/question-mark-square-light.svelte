@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/to-5kdesz.css';
+import '../../css/p/pgoy4ib5g.css';
+import '../../css/t/tvgcsmq7b.css';
+import '../../css/m/m2_gr2xhk.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="to-5kdesz"><path class="pgoy4ib5g"/><path class="tvgcsmq7b"/><path class="m2_gr2xhk"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconamoon:question-mark-square-light" {...props}></Icon>
