@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/bi12bsetm.css';
+import '../../css/y/yu1ec6bwr.css';
+import '../../css/h/hy-0j-bqo.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":80,"height":80};
+const content = `<g clip-rule="evenodd" class="bi12bsetm"><path class="yu1ec6bwr"/><path class="hy-0j-bqo"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="glyphs:spinner-1-outline" {...props}></Icon>
