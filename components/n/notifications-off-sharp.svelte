@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/v/vukxr8b6h.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="vukxr8b6h"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="famicons:notifications-off-sharp" {...props}></Icon>

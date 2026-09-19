@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/a/am_zo4ole.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="am_zo4ole"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="famicons:scale" {...props}></Icon>
