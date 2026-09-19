@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/p/prrfs4b3a.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":400,"height":512};
+const content = `<path class="prrfs4b3a"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fa-brands:nutritionix" {...props}></Icon>
