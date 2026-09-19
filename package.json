@@ -1,0 +1,195 @@
+{
+  "name": "@iconify-svelte/brandico",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/brandico/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "CC-BY-SA-3.0",
+  "exports": {
+    "./amex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amex.svelte"
+    },
+    "./bandcamp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandcamp.svelte"
+    },
+    "./blogger": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blogger.svelte"
+    },
+    "./blogger-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blogger-rect.svelte"
+    },
+    "./box": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box.svelte"
+    },
+    "./box-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-rect.svelte"
+    },
+    "./codepen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codepen.svelte"
+    },
+    "./deviantart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deviantart.svelte"
+    },
+    "./diigo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo.svelte"
+    },
+    "./discover": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discover.svelte"
+    },
+    "./facebook": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook.svelte"
+    },
+    "./facebook-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-rect.svelte"
+    },
+    "./friendfeed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/friendfeed.svelte"
+    },
+    "./friendfeed-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/friendfeed-rect.svelte"
+    },
+    "./github": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github.svelte"
+    },
+    "./github-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-text.svelte"
+    },
+    "./googleplus-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/googleplus-rect.svelte"
+    },
+    "./houzz": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/houzz.svelte"
+    },
+    "./icq": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/icq.svelte"
+    },
+    "./instagram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram.svelte"
+    },
+    "./instagram-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-filled.svelte"
+    },
+    "./jabber": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jabber.svelte"
+    },
+    "./lastfm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastfm.svelte"
+    },
+    "./lastfm-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastfm-rect.svelte"
+    },
+    "./linkedin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin.svelte"
+    },
+    "./linkedin-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin-rect.svelte"
+    },
+    "./mastercard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastercard.svelte"
+    },
+    "./odnoklassniki": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/odnoklassniki.svelte"
+    },
+    "./odnoklassniki-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/odnoklassniki-rect.svelte"
+    },
+    "./picasa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picasa.svelte"
+    },
+    "./skype": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype.svelte"
+    },
+    "./tudou": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tudou.svelte"
+    },
+    "./tumblr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tumblr.svelte"
+    },
+    "./tumblr-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tumblr-rect.svelte"
+    },
+    "./twitter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter.svelte"
+    },
+    "./twitter-bird": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-bird.svelte"
+    },
+    "./vimeo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo.svelte"
+    },
+    "./vimeo-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo-rect.svelte"
+    },
+    "./visa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visa.svelte"
+    },
+    "./vkontakte-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vkontakte-rect.svelte"
+    },
+    "./win8": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/win8.svelte"
+    },
+    "./wordpress": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress.svelte"
+    },
+    "./yandex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yandex.svelte"
+    },
+    "./yandex-rect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yandex-rect.svelte"
+    },
+    "./youku": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youku.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#brandico"
+}
