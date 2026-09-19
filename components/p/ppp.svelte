@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/bi12bsetm.css';
+import '../../css/q/qo-of5usx.css';
+import '../../css/r/rhse0sbxl.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="bi12bsetm"><circle class="qo-of5usx"/><path class="rhse0sbxl"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="cryptocurrency-color:ppp" {...props}></Icon>
