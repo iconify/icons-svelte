@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/r/rv-_qpbhl.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="rv-_qpbhl"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="flowbite:user-circle-solid" {...props}></Icon>
