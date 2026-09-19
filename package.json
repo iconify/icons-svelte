@@ -1,0 +1,319 @@
+{
+  "name": "@iconify-svelte/entypo-social",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/entypo-social/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "CC-BY-SA-4.0",
+  "exports": {
+    "./500px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px.svelte"
+    },
+    "./500px-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px-with-circle.svelte"
+    },
+    "./basecamp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basecamp.svelte"
+    },
+    "./behance": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/behance.svelte"
+    },
+    "./creative-cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/creative-cloud.svelte"
+    },
+    "./dribbble": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dribbble.svelte"
+    },
+    "./dribbble-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dribbble-with-circle.svelte"
+    },
+    "./dropbox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dropbox.svelte"
+    },
+    "./evernote": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/evernote.svelte"
+    },
+    "./facebook": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook.svelte"
+    },
+    "./facebook-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-with-circle.svelte"
+    },
+    "./flattr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flattr.svelte"
+    },
+    "./flickr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flickr.svelte"
+    },
+    "./flickr-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flickr-with-circle.svelte"
+    },
+    "./foursquare": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare.svelte"
+    },
+    "./github": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github.svelte"
+    },
+    "./github-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-with-circle.svelte"
+    },
+    "./google": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google.svelte"
+    },
+    "./google-drive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-drive.svelte"
+    },
+    "./google-hangouts": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts.svelte"
+    },
+    "./google-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-with-circle.svelte"
+    },
+    "./grooveshark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grooveshark.svelte"
+    },
+    "./icloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/icloud.svelte"
+    },
+    "./instagram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram.svelte"
+    },
+    "./instagram-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-with-circle.svelte"
+    },
+    "./lastfm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastfm.svelte"
+    },
+    "./lastfm-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastfm-with-circle.svelte"
+    },
+    "./linkedin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin.svelte"
+    },
+    "./linkedin-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin-with-circle.svelte"
+    },
+    "./medium": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium.svelte"
+    },
+    "./medium-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-with-circle.svelte"
+    },
+    "./mixi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mixi.svelte"
+    },
+    "./onedrive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/onedrive.svelte"
+    },
+    "./paypal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paypal.svelte"
+    },
+    "./picasa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picasa.svelte"
+    },
+    "./pinterest": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinterest.svelte"
+    },
+    "./pinterest-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinterest-with-circle.svelte"
+    },
+    "./qq": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qq.svelte"
+    },
+    "./qq-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qq-with-circle.svelte"
+    },
+    "./raft": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raft.svelte"
+    },
+    "./raft-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raft-with-circle.svelte"
+    },
+    "./rainbow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rainbow.svelte"
+    },
+    "./rdio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rdio.svelte"
+    },
+    "./rdio-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rdio-with-circle.svelte"
+    },
+    "./renren": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren.svelte"
+    },
+    "./scribd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scribd.svelte"
+    },
+    "./sina-weibo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sina-weibo.svelte"
+    },
+    "./skype": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype.svelte"
+    },
+    "./skype-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype-with-circle.svelte"
+    },
+    "./slideshare": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slideshare.svelte"
+    },
+    "./smashing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smashing.svelte"
+    },
+    "./soundcloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soundcloud.svelte"
+    },
+    "./spotify": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spotify.svelte"
+    },
+    "./spotify-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spotify-with-circle.svelte"
+    },
+    "./stumbleupon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumbleupon.svelte"
+    },
+    "./stumbleupon-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumbleupon-with-circle.svelte"
+    },
+    "./swarm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/swarm.svelte"
+    },
+    "./tripadvisor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tripadvisor.svelte"
+    },
+    "./tumblr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tumblr.svelte"
+    },
+    "./tumblr-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tumblr-with-circle.svelte"
+    },
+    "./twitter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter.svelte"
+    },
+    "./twitter-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-with-circle.svelte"
+    },
+    "./vimeo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo.svelte"
+    },
+    "./vimeo-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo-with-circle.svelte"
+    },
+    "./vine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vine.svelte"
+    },
+    "./vine-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vine-with-circle.svelte"
+    },
+    "./vk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vk.svelte"
+    },
+    "./vk-alternitive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vk-alternitive.svelte"
+    },
+    "./vk-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vk-with-circle.svelte"
+    },
+    "./xing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xing.svelte"
+    },
+    "./xing-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xing-with-circle.svelte"
+    },
+    "./yelp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yelp.svelte"
+    },
+    "./youko": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youko.svelte"
+    },
+    "./youko-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youko-with-circle.svelte"
+    },
+    "./youtube": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube.svelte"
+    },
+    "./youtube-with-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-with-circle.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#entypo-social"
+}
