@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/v/vm3ivccum.css';
+import '../../css/k/kgt5dq5fq.css';
+import '../../css/z/zsp_ecctg.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="vm3ivccum"><path class="kgt5dq5fq"/><path class="zsp_ecctg"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park-outline:text-message" {...props}></Icon>
