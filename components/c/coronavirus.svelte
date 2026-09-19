@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nz_20wbpz.css';
+import '../../css/w/w8kvpjbaf.css';
+import '../../css/j/j716il_vk.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="nz_20wbpz"><path class="w8kvpjbaf"/><path class="j716il_vk"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park-solid:coronavirus" {...props}></Icon>

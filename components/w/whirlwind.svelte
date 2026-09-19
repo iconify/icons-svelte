@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nz_20wbpz.css';
+import '../../css/f/fzkyp8b7q.css';
+import '../../css/t/t4o_z7khl.css';
+import '../../css/r/ryuc04bif.css';
+import '../../css/p/p2yu4yz6p.css';
+import '../../css/q/q1juiplek.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="nz_20wbpz"><path class="fzkyp8b7q"/><path class="t4o_z7khl"/><path class="ryuc04bif"/><path class="p2yu4yz6p"/><path class="q1juiplek"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park-solid:whirlwind" {...props}></Icon>

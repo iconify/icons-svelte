@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/h/hit3bi0-v.css';
+import '../../css/g/g995gab3y.css';
+import '../../css/p/pkbervbtf.css';
+import '../../css/k/kn1zr-vso.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="hit3bi0-v"><path class="g995gab3y"/><path class="pkbervbtf"/><circle transform="rotate(-180 10 11)" class="kn1zr-vso"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park-solid:s-turn-up" {...props}></Icon>

@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/casyzt9mq.css';
+import '../../css/e/e8jxhdczm.css';
+import '../../css/n/ndtovtbdh.css';
+import '../../css/z/z5pl6n_8y.css';
+import '../../css/a/aox-enbea.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="casyzt9mq"><path class="e8jxhdczm"/><path class="ndtovtbdh"/><rect class="z5pl6n_8y"/><path class="aox-enbea"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="icon-park-solid:locking-laptop" {...props}></Icon>
