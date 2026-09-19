@@ -1,0 +1,3575 @@
+{
+  "name": "@iconify-svelte/fluent-color",
+  "type": "module",
+  "version": "1.0.6",
+  "homepage": "https://icon-sets.iconify.design/fluent-color/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./add-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-circle-16.svelte"
+    },
+    "./add-circle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-circle-20.svelte"
+    },
+    "./add-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-circle-24.svelte"
+    },
+    "./add-circle-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-circle-28.svelte"
+    },
+    "./add-circle-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-circle-32.svelte"
+    },
+    "./add-starburst-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-starburst-16.svelte"
+    },
+    "./add-starburst-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-starburst-20.svelte"
+    },
+    "./add-starburst-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-starburst-24.svelte"
+    },
+    "./add-starburst-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-starburst-28.svelte"
+    },
+    "./add-starburst-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-starburst-32.svelte"
+    },
+    "./add-starburst-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-starburst-48.svelte"
+    },
+    "./agents-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agents-16.svelte"
+    },
+    "./agents-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agents-20.svelte"
+    },
+    "./agents-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agents-24.svelte"
+    },
+    "./agents-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agents-28.svelte"
+    },
+    "./agents-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agents-32.svelte"
+    },
+    "./agents-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agents-48.svelte"
+    },
+    "./alert-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-16.svelte"
+    },
+    "./alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-20.svelte"
+    },
+    "./alert-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-24.svelte"
+    },
+    "./alert-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-28.svelte"
+    },
+    "./alert-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-32.svelte"
+    },
+    "./alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-48.svelte"
+    },
+    "./alert-badge-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-badge-16.svelte"
+    },
+    "./alert-badge-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-badge-20.svelte"
+    },
+    "./alert-badge-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-badge-24.svelte"
+    },
+    "./alert-badge-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-badge-32.svelte"
+    },
+    "./alert-urgent-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-urgent-16.svelte"
+    },
+    "./alert-urgent-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-urgent-20.svelte"
+    },
+    "./alert-urgent-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-urgent-24.svelte"
+    },
+    "./animal-paw-print-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animal-paw-print-16.svelte"
+    },
+    "./animal-paw-print-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animal-paw-print-20.svelte"
+    },
+    "./animal-paw-print-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animal-paw-print-24.svelte"
+    },
+    "./animal-paw-print-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animal-paw-print-28.svelte"
+    },
+    "./animal-paw-print-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animal-paw-print-32.svelte"
+    },
+    "./animal-paw-print-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/animal-paw-print-48.svelte"
+    },
+    "./approvals-app-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/approvals-app-16.svelte"
+    },
+    "./approvals-app-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/approvals-app-20.svelte"
+    },
+    "./approvals-app-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/approvals-app-24.svelte"
+    },
+    "./approvals-app-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/approvals-app-28.svelte"
+    },
+    "./approvals-app-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/approvals-app-32.svelte"
+    },
+    "./apps-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-16.svelte"
+    },
+    "./apps-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-20.svelte"
+    },
+    "./apps-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-24.svelte"
+    },
+    "./apps-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-28.svelte"
+    },
+    "./apps-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-32.svelte"
+    },
+    "./apps-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-48.svelte"
+    },
+    "./apps-list-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-list-20.svelte"
+    },
+    "./apps-list-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-list-24.svelte"
+    },
+    "./apps-list-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-list-32.svelte"
+    },
+    "./apps-list-detail-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-list-detail-20.svelte"
+    },
+    "./apps-list-detail-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-list-detail-24.svelte"
+    },
+    "./apps-list-detail-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-list-detail-32.svelte"
+    },
+    "./arrow-clockwise-dashes-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-16.svelte"
+    },
+    "./arrow-clockwise-dashes-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-20.svelte"
+    },
+    "./arrow-clockwise-dashes-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-24.svelte"
+    },
+    "./arrow-clockwise-dashes-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-32.svelte"
+    },
+    "./arrow-clockwise-dashes-settings-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-settings-16.svelte"
+    },
+    "./arrow-clockwise-dashes-settings-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-settings-20.svelte"
+    },
+    "./arrow-clockwise-dashes-settings-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-settings-24.svelte"
+    },
+    "./arrow-clockwise-dashes-settings-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-settings-28.svelte"
+    },
+    "./arrow-clockwise-dashes-settings-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-settings-32.svelte"
+    },
+    "./arrow-clockwise-dashes-settings-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-clockwise-dashes-settings-48.svelte"
+    },
+    "./arrow-square-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-square-20.svelte"
+    },
+    "./arrow-square-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-square-24.svelte"
+    },
+    "./arrow-square-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-square-32.svelte"
+    },
+    "./arrow-square-down-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-square-down-20.svelte"
+    },
+    "./arrow-square-down-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-square-down-24.svelte"
+    },
+    "./arrow-square-down-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-square-down-32.svelte"
+    },
+    "./arrow-sync-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-sync-16.svelte"
+    },
+    "./arrow-sync-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-sync-20.svelte"
+    },
+    "./arrow-sync-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-sync-24.svelte"
+    },
+    "./arrow-trending-lines-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-trending-lines-20.svelte"
+    },
+    "./arrow-trending-lines-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-trending-lines-24.svelte"
+    },
+    "./beach-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beach-16.svelte"
+    },
+    "./beach-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beach-20.svelte"
+    },
+    "./beach-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beach-24.svelte"
+    },
+    "./beach-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beach-28.svelte"
+    },
+    "./beach-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beach-32.svelte"
+    },
+    "./beach-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beach-48.svelte"
+    },
+    "./board-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/board-16.svelte"
+    },
+    "./board-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/board-20.svelte"
+    },
+    "./board-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/board-24.svelte"
+    },
+    "./board-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/board-28.svelte"
+    },
+    "./book-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-16.svelte"
+    },
+    "./book-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-20.svelte"
+    },
+    "./book-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-24.svelte"
+    },
+    "./book-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-28.svelte"
+    },
+    "./book-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-32.svelte"
+    },
+    "./book-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-48.svelte"
+    },
+    "./book-contacts-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-contacts-16.svelte"
+    },
+    "./book-contacts-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-contacts-20.svelte"
+    },
+    "./book-contacts-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-contacts-24.svelte"
+    },
+    "./book-contacts-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-contacts-28.svelte"
+    },
+    "./book-contacts-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-contacts-32.svelte"
+    },
+    "./book-contacts-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-contacts-48.svelte"
+    },
+    "./book-database-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-database-16.svelte"
+    },
+    "./book-database-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-database-20.svelte"
+    },
+    "./book-database-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-database-24.svelte"
+    },
+    "./book-database-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-database-32.svelte"
+    },
+    "./book-open-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-16.svelte"
+    },
+    "./book-open-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-20.svelte"
+    },
+    "./book-open-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-24.svelte"
+    },
+    "./book-open-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-28.svelte"
+    },
+    "./book-open-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-32.svelte"
+    },
+    "./book-open-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-48.svelte"
+    },
+    "./book-open-lightbulb-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-lightbulb-20.svelte"
+    },
+    "./book-open-lightbulb-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-lightbulb-24.svelte"
+    },
+    "./book-open-lightbulb-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-open-lightbulb-32.svelte"
+    },
+    "./book-star-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-star-20.svelte"
+    },
+    "./book-star-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-star-24.svelte"
+    },
+    "./bookmark-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-16.svelte"
+    },
+    "./bookmark-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-20.svelte"
+    },
+    "./bookmark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-24.svelte"
+    },
+    "./bookmark-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-28.svelte"
+    },
+    "./bookmark-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-32.svelte"
+    },
+    "./bot-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bot-16.svelte"
+    },
+    "./bot-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bot-20.svelte"
+    },
+    "./bot-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bot-24.svelte"
+    },
+    "./bot-sparkle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bot-sparkle-16.svelte"
+    },
+    "./bot-sparkle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bot-sparkle-20.svelte"
+    },
+    "./bot-sparkle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bot-sparkle-24.svelte"
+    },
+    "./briefcase-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-16.svelte"
+    },
+    "./briefcase-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-20.svelte"
+    },
+    "./briefcase-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-24.svelte"
+    },
+    "./briefcase-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-28.svelte"
+    },
+    "./briefcase-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-32.svelte"
+    },
+    "./briefcase-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-48.svelte"
+    },
+    "./building-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-16.svelte"
+    },
+    "./building-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-20.svelte"
+    },
+    "./building-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-24.svelte"
+    },
+    "./building-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-32.svelte"
+    },
+    "./building-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-48.svelte"
+    },
+    "./building-government-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-16.svelte"
+    },
+    "./building-government-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-20.svelte"
+    },
+    "./building-government-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-24.svelte"
+    },
+    "./building-government-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-32.svelte"
+    },
+    "./building-government-search-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-search-16.svelte"
+    },
+    "./building-government-search-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-search-20.svelte"
+    },
+    "./building-government-search-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-search-24.svelte"
+    },
+    "./building-government-search-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-government-search-32.svelte"
+    },
+    "./building-home-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-home-16.svelte"
+    },
+    "./building-home-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-home-20.svelte"
+    },
+    "./building-home-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-home-24.svelte"
+    },
+    "./building-home-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-home-32.svelte"
+    },
+    "./building-multiple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-multiple-20.svelte"
+    },
+    "./building-multiple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-multiple-24.svelte"
+    },
+    "./building-people-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-people-16.svelte"
+    },
+    "./building-people-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-people-20.svelte"
+    },
+    "./building-people-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-people-24.svelte"
+    },
+    "./building-store-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-store-16.svelte"
+    },
+    "./building-store-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-store-20.svelte"
+    },
+    "./building-store-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/building-store-24.svelte"
+    },
+    "./calendar-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-16.svelte"
+    },
+    "./calendar-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-20.svelte"
+    },
+    "./calendar-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-24.svelte"
+    },
+    "./calendar-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-28.svelte"
+    },
+    "./calendar-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-32.svelte"
+    },
+    "./calendar-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-48.svelte"
+    },
+    "./calendar-cancel-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-cancel-16.svelte"
+    },
+    "./calendar-cancel-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-cancel-20.svelte"
+    },
+    "./calendar-cancel-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-cancel-24.svelte"
+    },
+    "./calendar-checkmark-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-checkmark-16.svelte"
+    },
+    "./calendar-checkmark-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-checkmark-20.svelte"
+    },
+    "./calendar-checkmark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-checkmark-24.svelte"
+    },
+    "./calendar-clock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-clock-16.svelte"
+    },
+    "./calendar-clock-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-clock-20.svelte"
+    },
+    "./calendar-clock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-clock-24.svelte"
+    },
+    "./calendar-data-bar-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-data-bar-16.svelte"
+    },
+    "./calendar-data-bar-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-data-bar-20.svelte"
+    },
+    "./calendar-data-bar-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-data-bar-24.svelte"
+    },
+    "./calendar-data-bar-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-data-bar-28.svelte"
+    },
+    "./calendar-edit-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-edit-16.svelte"
+    },
+    "./calendar-edit-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-edit-20.svelte"
+    },
+    "./calendar-edit-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-edit-24.svelte"
+    },
+    "./calendar-edit-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-edit-32.svelte"
+    },
+    "./calendar-people-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-people-20.svelte"
+    },
+    "./calendar-sync-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-sync-16.svelte"
+    },
+    "./calendar-sync-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-sync-20.svelte"
+    },
+    "./calendar-sync-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-sync-24.svelte"
+    },
+    "./camera-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-16.svelte"
+    },
+    "./camera-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-20.svelte"
+    },
+    "./camera-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-24.svelte"
+    },
+    "./certificate-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-16.svelte"
+    },
+    "./certificate-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-20.svelte"
+    },
+    "./certificate-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-24.svelte"
+    },
+    "./certificate-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate-32.svelte"
+    },
+    "./chart-multiple-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-multiple-16.svelte"
+    },
+    "./chart-multiple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-multiple-20.svelte"
+    },
+    "./chart-multiple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-multiple-24.svelte"
+    },
+    "./chart-multiple-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-multiple-32.svelte"
+    },
+    "./chat-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-16.svelte"
+    },
+    "./chat-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-20.svelte"
+    },
+    "./chat-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-24.svelte"
+    },
+    "./chat-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-28.svelte"
+    },
+    "./chat-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-32.svelte"
+    },
+    "./chat-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-48.svelte"
+    },
+    "./chat-add-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-16.svelte"
+    },
+    "./chat-add-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-20.svelte"
+    },
+    "./chat-add-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-24.svelte"
+    },
+    "./chat-add-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-28.svelte"
+    },
+    "./chat-add-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-32.svelte"
+    },
+    "./chat-add-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-48.svelte"
+    },
+    "./chat-bubbles-question-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubbles-question-16.svelte"
+    },
+    "./chat-bubbles-question-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubbles-question-20.svelte"
+    },
+    "./chat-bubbles-question-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-bubbles-question-24.svelte"
+    },
+    "./chat-more-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-more-16.svelte"
+    },
+    "./chat-more-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-more-20.svelte"
+    },
+    "./chat-more-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-more-24.svelte"
+    },
+    "./chat-multiple-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-multiple-16.svelte"
+    },
+    "./chat-multiple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-multiple-20.svelte"
+    },
+    "./chat-multiple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-multiple-24.svelte"
+    },
+    "./checkbox-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-16.svelte"
+    },
+    "./checkbox-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-20.svelte"
+    },
+    "./checkbox-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-24.svelte"
+    },
+    "./checkbox-person-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-person-16.svelte"
+    },
+    "./checkbox-person-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-person-20.svelte"
+    },
+    "./checkbox-person-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-person-24.svelte"
+    },
+    "./checkmark-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkmark-circle-16.svelte"
+    },
+    "./checkmark-circle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkmark-circle-20.svelte"
+    },
+    "./checkmark-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkmark-circle-24.svelte"
+    },
+    "./checkmark-circle-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkmark-circle-32.svelte"
+    },
+    "./checkmark-circle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkmark-circle-48.svelte"
+    },
+    "./circle-multiple-hint-checkmark-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-multiple-hint-checkmark-16.svelte"
+    },
+    "./circle-multiple-hint-checkmark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-multiple-hint-checkmark-24.svelte"
+    },
+    "./circle-multiple-hint-checkmark-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-multiple-hint-checkmark-28.svelte"
+    },
+    "./circle-multiple-hint-checkmark-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-multiple-hint-checkmark-32.svelte"
+    },
+    "./circle-multiple-hint-checkmark-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-multiple-hint-checkmark-48.svelte"
+    },
+    "./clipboard-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-16.svelte"
+    },
+    "./clipboard-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-20.svelte"
+    },
+    "./clipboard-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-24.svelte"
+    },
+    "./clipboard-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-28.svelte"
+    },
+    "./clipboard-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-32.svelte"
+    },
+    "./clipboard-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-48.svelte"
+    },
+    "./clipboard-task-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-task-16.svelte"
+    },
+    "./clipboard-task-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-task-20.svelte"
+    },
+    "./clipboard-task-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-task-24.svelte"
+    },
+    "./clipboard-text-edit-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-text-edit-20.svelte"
+    },
+    "./clipboard-text-edit-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-text-edit-24.svelte"
+    },
+    "./clipboard-text-edit-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-text-edit-28.svelte"
+    },
+    "./clipboard-text-edit-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard-text-edit-32.svelte"
+    },
+    "./clock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-16.svelte"
+    },
+    "./clock-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-20.svelte"
+    },
+    "./clock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-24.svelte"
+    },
+    "./clock-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-28.svelte"
+    },
+    "./clock-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-32.svelte"
+    },
+    "./clock-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-48.svelte"
+    },
+    "./clock-alarm-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-alarm-16.svelte"
+    },
+    "./clock-alarm-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-alarm-20.svelte"
+    },
+    "./clock-alarm-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-alarm-24.svelte"
+    },
+    "./clock-alarm-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-alarm-32.svelte"
+    },
+    "./clock-alarm-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-alarm-48.svelte"
+    },
+    "./cloud-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-16.svelte"
+    },
+    "./cloud-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-20.svelte"
+    },
+    "./cloud-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-24.svelte"
+    },
+    "./cloud-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-28.svelte"
+    },
+    "./cloud-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-32.svelte"
+    },
+    "./cloud-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-48.svelte"
+    },
+    "./cloud-dismiss-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-dismiss-16.svelte"
+    },
+    "./cloud-dismiss-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-dismiss-20.svelte"
+    },
+    "./cloud-dismiss-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-dismiss-24.svelte"
+    },
+    "./cloud-dismiss-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-dismiss-28.svelte"
+    },
+    "./cloud-dismiss-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-dismiss-32.svelte"
+    },
+    "./cloud-dismiss-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-dismiss-48.svelte"
+    },
+    "./cloud-words-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-words-16.svelte"
+    },
+    "./cloud-words-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-words-20.svelte"
+    },
+    "./cloud-words-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-words-24.svelte"
+    },
+    "./cloud-words-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-words-28.svelte"
+    },
+    "./cloud-words-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-words-32.svelte"
+    },
+    "./cloud-words-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-words-48.svelte"
+    },
+    "./code-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-16.svelte"
+    },
+    "./code-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-20.svelte"
+    },
+    "./code-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-24.svelte"
+    },
+    "./code-block-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-block-16.svelte"
+    },
+    "./code-block-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-block-20.svelte"
+    },
+    "./code-block-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-block-24.svelte"
+    },
+    "./code-block-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-block-28.svelte"
+    },
+    "./code-block-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-block-32.svelte"
+    },
+    "./code-block-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-block-48.svelte"
+    },
+    "./coin-multiple-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-multiple-16.svelte"
+    },
+    "./coin-multiple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-multiple-20.svelte"
+    },
+    "./coin-multiple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-multiple-24.svelte"
+    },
+    "./coin-multiple-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-multiple-28.svelte"
+    },
+    "./coin-multiple-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-multiple-32.svelte"
+    },
+    "./coin-multiple-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coin-multiple-48.svelte"
+    },
+    "./comment-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-16.svelte"
+    },
+    "./comment-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-20.svelte"
+    },
+    "./comment-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-24.svelte"
+    },
+    "./comment-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-28.svelte"
+    },
+    "./comment-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-32.svelte"
+    },
+    "./comment-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-48.svelte"
+    },
+    "./comment-multiple-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-multiple-16.svelte"
+    },
+    "./comment-multiple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-multiple-20.svelte"
+    },
+    "./comment-multiple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-multiple-24.svelte"
+    },
+    "./comment-multiple-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-multiple-28.svelte"
+    },
+    "./comment-multiple-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-multiple-32.svelte"
+    },
+    "./contact-card-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contact-card-16.svelte"
+    },
+    "./contact-card-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contact-card-20.svelte"
+    },
+    "./contact-card-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contact-card-24.svelte"
+    },
+    "./contact-card-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contact-card-28.svelte"
+    },
+    "./contact-card-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contact-card-32.svelte"
+    },
+    "./contact-card-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contact-card-48.svelte"
+    },
+    "./content-view-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-view-16.svelte"
+    },
+    "./content-view-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-view-20.svelte"
+    },
+    "./content-view-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-view-24.svelte"
+    },
+    "./content-view-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-view-28.svelte"
+    },
+    "./content-view-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-view-32.svelte"
+    },
+    "./data-area-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-area-20.svelte"
+    },
+    "./data-area-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-area-24.svelte"
+    },
+    "./data-area-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-area-32.svelte"
+    },
+    "./data-bar-vertical-ascending-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-bar-vertical-ascending-16.svelte"
+    },
+    "./data-bar-vertical-ascending-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-bar-vertical-ascending-20.svelte"
+    },
+    "./data-bar-vertical-ascending-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-bar-vertical-ascending-24.svelte"
+    },
+    "./data-line-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-line-16.svelte"
+    },
+    "./data-line-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-line-20.svelte"
+    },
+    "./data-line-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-line-24.svelte"
+    },
+    "./data-line-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-line-32.svelte"
+    },
+    "./data-pie-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-pie-20.svelte"
+    },
+    "./data-pie-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-pie-24.svelte"
+    },
+    "./data-pie-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-pie-32.svelte"
+    },
+    "./data-scatter-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-scatter-20.svelte"
+    },
+    "./data-scatter-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-scatter-24.svelte"
+    },
+    "./data-scatter-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-scatter-32.svelte"
+    },
+    "./data-trending-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-trending-16.svelte"
+    },
+    "./data-trending-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-trending-20.svelte"
+    },
+    "./data-trending-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-trending-24.svelte"
+    },
+    "./data-trending-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-trending-28.svelte"
+    },
+    "./data-trending-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-trending-32.svelte"
+    },
+    "./data-trending-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/data-trending-48.svelte"
+    },
+    "./database-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-16.svelte"
+    },
+    "./database-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-20.svelte"
+    },
+    "./database-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-24.svelte"
+    },
+    "./database-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-32.svelte"
+    },
+    "./database-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-48.svelte"
+    },
+    "./design-ideas-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-ideas-16.svelte"
+    },
+    "./design-ideas-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-ideas-20.svelte"
+    },
+    "./design-ideas-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-ideas-24.svelte"
+    },
+    "./design-ideas-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-ideas-28.svelte"
+    },
+    "./design-ideas-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-ideas-32.svelte"
+    },
+    "./design-ideas-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-ideas-48.svelte"
+    },
+    "./dismiss-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dismiss-circle-16.svelte"
+    },
+    "./dismiss-circle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dismiss-circle-20.svelte"
+    },
+    "./dismiss-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dismiss-circle-24.svelte"
+    },
+    "./dismiss-circle-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dismiss-circle-28.svelte"
+    },
+    "./dismiss-circle-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dismiss-circle-32.svelte"
+    },
+    "./dismiss-circle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dismiss-circle-48.svelte"
+    },
+    "./diversity-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diversity-16.svelte"
+    },
+    "./diversity-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diversity-20.svelte"
+    },
+    "./diversity-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diversity-24.svelte"
+    },
+    "./diversity-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diversity-28.svelte"
+    },
+    "./diversity-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diversity-48.svelte"
+    },
+    "./document-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-16.svelte"
+    },
+    "./document-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-20.svelte"
+    },
+    "./document-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-24.svelte"
+    },
+    "./document-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-28.svelte"
+    },
+    "./document-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-32.svelte"
+    },
+    "./document-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-48.svelte"
+    },
+    "./document-add-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-add-16.svelte"
+    },
+    "./document-add-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-add-20.svelte"
+    },
+    "./document-add-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-add-24.svelte"
+    },
+    "./document-add-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-add-28.svelte"
+    },
+    "./document-add-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-add-48.svelte"
+    },
+    "./document-edit-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-edit-16.svelte"
+    },
+    "./document-edit-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-edit-20.svelte"
+    },
+    "./document-edit-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-edit-24.svelte"
+    },
+    "./document-folder-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-folder-16.svelte"
+    },
+    "./document-folder-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-folder-20.svelte"
+    },
+    "./document-folder-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-folder-24.svelte"
+    },
+    "./document-lock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-lock-16.svelte"
+    },
+    "./document-lock-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-lock-20.svelte"
+    },
+    "./document-lock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-lock-24.svelte"
+    },
+    "./document-lock-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-lock-28.svelte"
+    },
+    "./document-lock-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-lock-32.svelte"
+    },
+    "./document-lock-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-lock-48.svelte"
+    },
+    "./document-text-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-text-16.svelte"
+    },
+    "./document-text-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-text-20.svelte"
+    },
+    "./document-text-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-text-24.svelte"
+    },
+    "./document-text-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-text-28.svelte"
+    },
+    "./document-text-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-text-32.svelte"
+    },
+    "./document-text-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document-text-48.svelte"
+    },
+    "./drafts-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drafts-16.svelte"
+    },
+    "./drafts-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drafts-20.svelte"
+    },
+    "./drafts-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drafts-24.svelte"
+    },
+    "./edit-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-16.svelte"
+    },
+    "./edit-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-20.svelte"
+    },
+    "./edit-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-24.svelte"
+    },
+    "./edit-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-32.svelte"
+    },
+    "./error-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-circle-16.svelte"
+    },
+    "./error-circle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-circle-20.svelte"
+    },
+    "./error-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-circle-24.svelte"
+    },
+    "./error-circle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/error-circle-48.svelte"
+    },
+    "./fast-forward-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fast-forward-circle-24.svelte"
+    },
+    "./flag-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-16.svelte"
+    },
+    "./flag-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-20.svelte"
+    },
+    "./flag-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-24.svelte"
+    },
+    "./flag-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-28.svelte"
+    },
+    "./flag-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-32.svelte"
+    },
+    "./flag-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-48.svelte"
+    },
+    "./food-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-16.svelte"
+    },
+    "./food-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-20.svelte"
+    },
+    "./food-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-24.svelte"
+    },
+    "./food-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-28.svelte"
+    },
+    "./food-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-32.svelte"
+    },
+    "./food-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-48.svelte"
+    },
+    "./form-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/form-20.svelte"
+    },
+    "./form-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/form-24.svelte"
+    },
+    "./form-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/form-28.svelte"
+    },
+    "./form-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/form-48.svelte"
+    },
+    "./game-chat-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/game-chat-20.svelte"
+    },
+    "./gauge-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gauge-20.svelte"
+    },
+    "./gauge-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gauge-24.svelte"
+    },
+    "./gauge-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gauge-32.svelte"
+    },
+    "./gift-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-16.svelte"
+    },
+    "./gift-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-20.svelte"
+    },
+    "./gift-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-24.svelte"
+    },
+    "./gift-card-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-card-16.svelte"
+    },
+    "./gift-card-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-card-20.svelte"
+    },
+    "./gift-card-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-card-24.svelte"
+    },
+    "./globe-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-20.svelte"
+    },
+    "./globe-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-24.svelte"
+    },
+    "./globe-shield-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-shield-20.svelte"
+    },
+    "./globe-shield-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-shield-24.svelte"
+    },
+    "./globe-shield-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-shield-48.svelte"
+    },
+    "./guest-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guest-16.svelte"
+    },
+    "./guest-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guest-20.svelte"
+    },
+    "./guest-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guest-24.svelte"
+    },
+    "./guest-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guest-28.svelte"
+    },
+    "./guest-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guest-32.svelte"
+    },
+    "./guest-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guest-48.svelte"
+    },
+    "./headphones-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones-20.svelte"
+    },
+    "./headphones-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones-24.svelte"
+    },
+    "./headphones-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones-28.svelte"
+    },
+    "./headphones-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones-32.svelte"
+    },
+    "./headphones-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones-48.svelte"
+    },
+    "./headset-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-16.svelte"
+    },
+    "./headset-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-20.svelte"
+    },
+    "./headset-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-24.svelte"
+    },
+    "./headset-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-28.svelte"
+    },
+    "./headset-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-32.svelte"
+    },
+    "./headset-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-48.svelte"
+    },
+    "./heart-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-16.svelte"
+    },
+    "./heart-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-20.svelte"
+    },
+    "./heart-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-24.svelte"
+    },
+    "./heart-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-28.svelte"
+    },
+    "./heart-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-32.svelte"
+    },
+    "./heart-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-48.svelte"
+    },
+    "./history-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-16.svelte"
+    },
+    "./history-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-20.svelte"
+    },
+    "./history-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-24.svelte"
+    },
+    "./history-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-28.svelte"
+    },
+    "./history-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-32.svelte"
+    },
+    "./history-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-48.svelte"
+    },
+    "./home-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-16.svelte"
+    },
+    "./home-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-20.svelte"
+    },
+    "./home-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-24.svelte"
+    },
+    "./home-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-28.svelte"
+    },
+    "./home-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-32.svelte"
+    },
+    "./home-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-48.svelte"
+    },
+    "./image-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-16.svelte"
+    },
+    "./image-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-20.svelte"
+    },
+    "./image-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-24.svelte"
+    },
+    "./image-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-28.svelte"
+    },
+    "./image-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-32.svelte"
+    },
+    "./image-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-48.svelte"
+    },
+    "./image-off-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-20.svelte"
+    },
+    "./image-off-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-24.svelte"
+    },
+    "./image-off-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-28.svelte"
+    },
+    "./image-off-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-32.svelte"
+    },
+    "./image-off-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-48.svelte"
+    },
+    "./laptop-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laptop-16.svelte"
+    },
+    "./laptop-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laptop-20.svelte"
+    },
+    "./laptop-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laptop-24.svelte"
+    },
+    "./laptop-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laptop-28.svelte"
+    },
+    "./laptop-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laptop-32.svelte"
+    },
+    "./laptop-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laptop-48.svelte"
+    },
+    "./layer-diagonal-person-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-diagonal-person-16.svelte"
+    },
+    "./layer-diagonal-person-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-diagonal-person-20.svelte"
+    },
+    "./layer-diagonal-person-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-diagonal-person-24.svelte"
+    },
+    "./library-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-16.svelte"
+    },
+    "./library-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-20.svelte"
+    },
+    "./library-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-24.svelte"
+    },
+    "./library-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-28.svelte"
+    },
+    "./library-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-32.svelte"
+    },
+    "./lightbulb-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-16.svelte"
+    },
+    "./lightbulb-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-20.svelte"
+    },
+    "./lightbulb-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-24.svelte"
+    },
+    "./lightbulb-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-28.svelte"
+    },
+    "./lightbulb-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-32.svelte"
+    },
+    "./lightbulb-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-48.svelte"
+    },
+    "./lightbulb-checkmark-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-checkmark-20.svelte"
+    },
+    "./lightbulb-checkmark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-checkmark-24.svelte"
+    },
+    "./lightbulb-checkmark-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-checkmark-32.svelte"
+    },
+    "./lightbulb-filament-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-filament-16.svelte"
+    },
+    "./lightbulb-filament-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-filament-20.svelte"
+    },
+    "./lightbulb-filament-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-filament-24.svelte"
+    },
+    "./lightbulb-filament-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-filament-28.svelte"
+    },
+    "./lightbulb-filament-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-filament-32.svelte"
+    },
+    "./lightbulb-filament-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightbulb-filament-48.svelte"
+    },
+    "./link-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-20.svelte"
+    },
+    "./link-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-24.svelte"
+    },
+    "./link-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-28.svelte"
+    },
+    "./link-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-32.svelte"
+    },
+    "./link-multiple-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-multiple-16.svelte"
+    },
+    "./link-multiple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-multiple-20.svelte"
+    },
+    "./link-multiple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-multiple-24.svelte"
+    },
+    "./list-bar-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-bar-16.svelte"
+    },
+    "./list-bar-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-bar-20.svelte"
+    },
+    "./list-bar-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-bar-24.svelte"
+    },
+    "./list-bar-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-bar-32.svelte"
+    },
+    "./location-ripple-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-ripple-16.svelte"
+    },
+    "./location-ripple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-ripple-20.svelte"
+    },
+    "./location-ripple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-ripple-24.svelte"
+    },
+    "./lock-closed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-closed-16.svelte"
+    },
+    "./lock-closed-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-closed-20.svelte"
+    },
+    "./lock-closed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-closed-24.svelte"
+    },
+    "./lock-closed-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-closed-28.svelte"
+    },
+    "./lock-closed-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-closed-32.svelte"
+    },
+    "./lock-closed-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-closed-48.svelte"
+    },
+    "./lock-shield-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-shield-16.svelte"
+    },
+    "./lock-shield-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-shield-20.svelte"
+    },
+    "./lock-shield-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-shield-24.svelte"
+    },
+    "./lock-shield-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-shield-28.svelte"
+    },
+    "./lock-shield-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-shield-32.svelte"
+    },
+    "./lock-shield-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-shield-48.svelte"
+    },
+    "./mail-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-16.svelte"
+    },
+    "./mail-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-20.svelte"
+    },
+    "./mail-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-24.svelte"
+    },
+    "./mail-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-28.svelte"
+    },
+    "./mail-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-32.svelte"
+    },
+    "./mail-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-48.svelte"
+    },
+    "./mail-alert-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-alert-16.svelte"
+    },
+    "./mail-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-alert-20.svelte"
+    },
+    "./mail-alert-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-alert-24.svelte"
+    },
+    "./mail-alert-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-alert-28.svelte"
+    },
+    "./mail-alert-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-alert-32.svelte"
+    },
+    "./mail-clock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-clock-16.svelte"
+    },
+    "./mail-clock-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-clock-20.svelte"
+    },
+    "./mail-clock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-clock-24.svelte"
+    },
+    "./mail-clock-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-clock-32.svelte"
+    },
+    "./mail-multiple-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-multiple-16.svelte"
+    },
+    "./mail-multiple-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-multiple-20.svelte"
+    },
+    "./mail-multiple-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-multiple-24.svelte"
+    },
+    "./mail-multiple-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-multiple-28.svelte"
+    },
+    "./mail-multiple-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-multiple-32.svelte"
+    },
+    "./megaphone-loud-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone-loud-16.svelte"
+    },
+    "./megaphone-loud-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone-loud-20.svelte"
+    },
+    "./megaphone-loud-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone-loud-24.svelte"
+    },
+    "./megaphone-loud-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone-loud-28.svelte"
+    },
+    "./megaphone-loud-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone-loud-32.svelte"
+    },
+    "./mic-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic-16.svelte"
+    },
+    "./mic-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic-20.svelte"
+    },
+    "./mic-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic-24.svelte"
+    },
+    "./mic-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic-28.svelte"
+    },
+    "./mic-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic-32.svelte"
+    },
+    "./mic-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic-48.svelte"
+    },
+    "./molecule-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/molecule-16.svelte"
+    },
+    "./molecule-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/molecule-20.svelte"
+    },
+    "./molecule-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/molecule-24.svelte"
+    },
+    "./molecule-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/molecule-28.svelte"
+    },
+    "./molecule-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/molecule-32.svelte"
+    },
+    "./molecule-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/molecule-48.svelte"
+    },
+    "./news-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/news-16.svelte"
+    },
+    "./news-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/news-20.svelte"
+    },
+    "./news-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/news-24.svelte"
+    },
+    "./news-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/news-28.svelte"
+    },
+    "./notebook-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-16.svelte"
+    },
+    "./notebook-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-20.svelte"
+    },
+    "./notebook-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-24.svelte"
+    },
+    "./notebook-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-32.svelte"
+    },
+    "./notebook-question-mark-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-question-mark-20.svelte"
+    },
+    "./notebook-question-mark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-question-mark-24.svelte"
+    },
+    "./number-symbol-square-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/number-symbol-square-20.svelte"
+    },
+    "./number-symbol-square-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/number-symbol-square-24.svelte"
+    },
+    "./number-symbol-square-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/number-symbol-square-32.svelte"
+    },
+    "./options-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/options-16.svelte"
+    },
+    "./options-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/options-20.svelte"
+    },
+    "./options-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/options-24.svelte"
+    },
+    "./options-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/options-28.svelte"
+    },
+    "./options-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/options-32.svelte"
+    },
+    "./options-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/options-48.svelte"
+    },
+    "./org-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/org-16.svelte"
+    },
+    "./org-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/org-20.svelte"
+    },
+    "./org-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/org-24.svelte"
+    },
+    "./org-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/org-28.svelte"
+    },
+    "./org-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/org-32.svelte"
+    },
+    "./org-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/org-48.svelte"
+    },
+    "./paint-brush-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-brush-16.svelte"
+    },
+    "./paint-brush-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-brush-20.svelte"
+    },
+    "./paint-brush-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-brush-24.svelte"
+    },
+    "./paint-brush-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-brush-28.svelte"
+    },
+    "./paint-brush-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-brush-32.svelte"
+    },
+    "./patient-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patient-20.svelte"
+    },
+    "./patient-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patient-24.svelte"
+    },
+    "./patient-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patient-32.svelte"
+    },
+    "./paw-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paw-16.svelte"
+    },
+    "./paw-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paw-20.svelte"
+    },
+    "./paw-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paw-24.svelte"
+    },
+    "./paw-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paw-28.svelte"
+    },
+    "./paw-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paw-32.svelte"
+    },
+    "./paw-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paw-48.svelte"
+    },
+    "./people-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-16.svelte"
+    },
+    "./people-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-20.svelte"
+    },
+    "./people-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-24.svelte"
+    },
+    "./people-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-28.svelte"
+    },
+    "./people-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-32.svelte"
+    },
+    "./people-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-48.svelte"
+    },
+    "./people-add-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-add-20.svelte"
+    },
+    "./people-add-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-add-24.svelte"
+    },
+    "./people-add-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-add-28.svelte"
+    },
+    "./people-add-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-add-32.svelte"
+    },
+    "./people-chat-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-chat-20.svelte"
+    },
+    "./people-chat-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-chat-24.svelte"
+    },
+    "./people-chat-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-chat-28.svelte"
+    },
+    "./people-chat-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-chat-32.svelte"
+    },
+    "./people-chat-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-chat-48.svelte"
+    },
+    "./people-community-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-community-16.svelte"
+    },
+    "./people-community-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-community-20.svelte"
+    },
+    "./people-community-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-community-24.svelte"
+    },
+    "./people-community-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-community-28.svelte"
+    },
+    "./people-community-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-community-32.svelte"
+    },
+    "./people-community-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-community-48.svelte"
+    },
+    "./people-home-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-home-16.svelte"
+    },
+    "./people-home-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-home-20.svelte"
+    },
+    "./people-home-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-home-24.svelte"
+    },
+    "./people-home-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-home-28.svelte"
+    },
+    "./people-home-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-home-32.svelte"
+    },
+    "./people-home-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-home-48.svelte"
+    },
+    "./people-interwoven-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-interwoven-16.svelte"
+    },
+    "./people-interwoven-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-interwoven-20.svelte"
+    },
+    "./people-interwoven-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-interwoven-24.svelte"
+    },
+    "./people-interwoven-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-interwoven-28.svelte"
+    },
+    "./people-interwoven-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-interwoven-32.svelte"
+    },
+    "./people-interwoven-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-interwoven-48.svelte"
+    },
+    "./people-list-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-list-16.svelte"
+    },
+    "./people-list-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-list-20.svelte"
+    },
+    "./people-list-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-list-24.svelte"
+    },
+    "./people-list-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-list-28.svelte"
+    },
+    "./people-list-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-list-32.svelte"
+    },
+    "./people-sync-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sync-16.svelte"
+    },
+    "./people-sync-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sync-20.svelte"
+    },
+    "./people-sync-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sync-24.svelte"
+    },
+    "./people-sync-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sync-28.svelte"
+    },
+    "./people-sync-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sync-32.svelte"
+    },
+    "./people-team-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-team-16.svelte"
+    },
+    "./people-team-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-team-20.svelte"
+    },
+    "./people-team-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-team-24.svelte"
+    },
+    "./people-team-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-team-28.svelte"
+    },
+    "./people-team-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-team-32.svelte"
+    },
+    "./people-team-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-team-48.svelte"
+    },
+    "./person-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-16.svelte"
+    },
+    "./person-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-20.svelte"
+    },
+    "./person-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-24.svelte"
+    },
+    "./person-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-28.svelte"
+    },
+    "./person-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-32.svelte"
+    },
+    "./person-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-48.svelte"
+    },
+    "./person-add-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-add-20.svelte"
+    },
+    "./person-add-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-add-24.svelte"
+    },
+    "./person-add-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-add-28.svelte"
+    },
+    "./person-add-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-add-32.svelte"
+    },
+    "./person-add-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-add-48.svelte"
+    },
+    "./person-available-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-available-16.svelte"
+    },
+    "./person-available-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-available-20.svelte"
+    },
+    "./person-available-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-available-24.svelte"
+    },
+    "./person-edit-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-edit-32.svelte"
+    },
+    "./person-feedback-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-feedback-16.svelte"
+    },
+    "./person-feedback-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-feedback-20.svelte"
+    },
+    "./person-feedback-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-feedback-24.svelte"
+    },
+    "./person-feedback-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-feedback-28.svelte"
+    },
+    "./person-feedback-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-feedback-32.svelte"
+    },
+    "./person-feedback-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-feedback-48.svelte"
+    },
+    "./person-heart-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-heart-20.svelte"
+    },
+    "./person-heart-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-heart-24.svelte"
+    },
+    "./person-heart-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-heart-28.svelte"
+    },
+    "./person-heart-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-heart-32.svelte"
+    },
+    "./person-heart-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-heart-48.svelte"
+    },
+    "./person-key-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-key-20.svelte"
+    },
+    "./person-key-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-key-24.svelte"
+    },
+    "./person-key-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-key-32.svelte"
+    },
+    "./person-starburst-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-starburst-16.svelte"
+    },
+    "./person-starburst-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-starburst-20.svelte"
+    },
+    "./person-starburst-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-starburst-24.svelte"
+    },
+    "./person-starburst-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-starburst-28.svelte"
+    },
+    "./person-starburst-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-starburst-32.svelte"
+    },
+    "./person-starburst-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-starburst-48.svelte"
+    },
+    "./person-tentative-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-tentative-16.svelte"
+    },
+    "./person-tentative-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-tentative-20.svelte"
+    },
+    "./person-tentative-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-tentative-24.svelte"
+    },
+    "./person-tentative-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-tentative-32.svelte"
+    },
+    "./person-warning-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-warning-16.svelte"
+    },
+    "./person-warning-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-warning-20.svelte"
+    },
+    "./person-warning-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-warning-24.svelte"
+    },
+    "./person-warning-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-warning-28.svelte"
+    },
+    "./person-warning-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-warning-32.svelte"
+    },
+    "./person-warning-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-warning-48.svelte"
+    },
+    "./phone-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-16.svelte"
+    },
+    "./phone-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-20.svelte"
+    },
+    "./phone-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-24.svelte"
+    },
+    "./phone-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-28.svelte"
+    },
+    "./phone-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-32.svelte"
+    },
+    "./phone-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-48.svelte"
+    },
+    "./phone-laptop-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-laptop-16.svelte"
+    },
+    "./phone-laptop-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-laptop-20.svelte"
+    },
+    "./phone-laptop-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-laptop-24.svelte"
+    },
+    "./phone-laptop-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-laptop-32.svelte"
+    },
+    "./pin-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-16.svelte"
+    },
+    "./pin-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-20.svelte"
+    },
+    "./pin-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-24.svelte"
+    },
+    "./pin-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-28.svelte"
+    },
+    "./pin-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-32.svelte"
+    },
+    "./pin-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-48.svelte"
+    },
+    "./planet-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/planet-16.svelte"
+    },
+    "./planet-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/planet-20.svelte"
+    },
+    "./planet-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/planet-24.svelte"
+    },
+    "./planet-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/planet-32.svelte"
+    },
+    "./poll-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poll-16.svelte"
+    },
+    "./poll-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poll-20.svelte"
+    },
+    "./poll-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poll-24.svelte"
+    },
+    "./poll-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poll-32.svelte"
+    },
+    "./premium-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premium-16.svelte"
+    },
+    "./premium-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premium-20.svelte"
+    },
+    "./premium-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premium-24.svelte"
+    },
+    "./premium-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premium-28.svelte"
+    },
+    "./premium-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premium-32.svelte"
+    },
+    "./puzzle-piece-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle-piece-16.svelte"
+    },
+    "./puzzle-piece-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle-piece-20.svelte"
+    },
+    "./puzzle-piece-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle-piece-24.svelte"
+    },
+    "./puzzle-piece-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle-piece-28.svelte"
+    },
+    "./puzzle-piece-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle-piece-32.svelte"
+    },
+    "./puzzle-piece-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/puzzle-piece-48.svelte"
+    },
+    "./question-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-circle-16.svelte"
+    },
+    "./question-circle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-circle-20.svelte"
+    },
+    "./question-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-circle-24.svelte"
+    },
+    "./question-circle-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-circle-28.svelte"
+    },
+    "./question-circle-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-circle-32.svelte"
+    },
+    "./question-circle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-circle-48.svelte"
+    },
+    "./receipt-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-16.svelte"
+    },
+    "./receipt-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-20.svelte"
+    },
+    "./receipt-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-24.svelte"
+    },
+    "./receipt-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-28.svelte"
+    },
+    "./receipt-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/receipt-32.svelte"
+    },
+    "./reward-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reward-16.svelte"
+    },
+    "./reward-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reward-20.svelte"
+    },
+    "./reward-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reward-24.svelte"
+    },
+    "./ribbon-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ribbon-16.svelte"
+    },
+    "./ribbon-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ribbon-20.svelte"
+    },
+    "./ribbon-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ribbon-24.svelte"
+    },
+    "./ribbon-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ribbon-32.svelte"
+    },
+    "./ribbon-star-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ribbon-star-20.svelte"
+    },
+    "./ribbon-star-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ribbon-star-24.svelte"
+    },
+    "./ribbon-star-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ribbon-star-32.svelte"
+    },
+    "./savings-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/savings-16.svelte"
+    },
+    "./savings-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/savings-20.svelte"
+    },
+    "./savings-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/savings-24.svelte"
+    },
+    "./savings-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/savings-32.svelte"
+    },
+    "./scan-person-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scan-person-16.svelte"
+    },
+    "./scan-person-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scan-person-20.svelte"
+    },
+    "./scan-person-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scan-person-24.svelte"
+    },
+    "./scan-person-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scan-person-28.svelte"
+    },
+    "./scan-person-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scan-person-48.svelte"
+    },
+    "./scan-type-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scan-type-20.svelte"
+    },
+    "./scan-type-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scan-type-24.svelte"
+    },
+    "./search-sparkle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-sparkle-16.svelte"
+    },
+    "./search-sparkle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-sparkle-20.svelte"
+    },
+    "./search-sparkle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-sparkle-24.svelte"
+    },
+    "./search-sparkle-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-sparkle-28.svelte"
+    },
+    "./search-sparkle-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-sparkle-32.svelte"
+    },
+    "./search-sparkle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-sparkle-48.svelte"
+    },
+    "./search-visual-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-visual-16.svelte"
+    },
+    "./search-visual-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-visual-20.svelte"
+    },
+    "./search-visual-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-visual-24.svelte"
+    },
+    "./send-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-16.svelte"
+    },
+    "./send-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-20.svelte"
+    },
+    "./send-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-24.svelte"
+    },
+    "./send-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-28.svelte"
+    },
+    "./send-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-32.svelte"
+    },
+    "./send-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-48.svelte"
+    },
+    "./send-clock-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-clock-20.svelte"
+    },
+    "./send-clock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-clock-24.svelte"
+    },
+    "./send-clock-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/send-clock-32.svelte"
+    },
+    "./settings-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-16.svelte"
+    },
+    "./settings-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-20.svelte"
+    },
+    "./settings-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-24.svelte"
+    },
+    "./settings-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-28.svelte"
+    },
+    "./settings-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-32.svelte"
+    },
+    "./settings-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-48.svelte"
+    },
+    "./share-android-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-android-16.svelte"
+    },
+    "./share-android-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-android-20.svelte"
+    },
+    "./share-android-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-android-24.svelte"
+    },
+    "./share-android-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-android-32.svelte"
+    },
+    "./share-ios-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-ios-20.svelte"
+    },
+    "./share-ios-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-ios-24.svelte"
+    },
+    "./share-ios-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-ios-28.svelte"
+    },
+    "./share-ios-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-ios-32.svelte"
+    },
+    "./share-ios-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-ios-48.svelte"
+    },
+    "./shield-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-16.svelte"
+    },
+    "./shield-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-20.svelte"
+    },
+    "./shield-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-24.svelte"
+    },
+    "./shield-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-28.svelte"
+    },
+    "./shield-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-32.svelte"
+    },
+    "./shield-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-48.svelte"
+    },
+    "./shield-checkmark-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-checkmark-16.svelte"
+    },
+    "./shield-checkmark-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-checkmark-20.svelte"
+    },
+    "./shield-checkmark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-checkmark-24.svelte"
+    },
+    "./shield-checkmark-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-checkmark-28.svelte"
+    },
+    "./shield-checkmark-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-checkmark-48.svelte"
+    },
+    "./shifts-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shifts-16.svelte"
+    },
+    "./shifts-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shifts-20.svelte"
+    },
+    "./shifts-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shifts-24.svelte"
+    },
+    "./shifts-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shifts-28.svelte"
+    },
+    "./shifts-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shifts-32.svelte"
+    },
+    "./slide-text-sparkle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-text-sparkle-16.svelte"
+    },
+    "./slide-text-sparkle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-text-sparkle-20.svelte"
+    },
+    "./slide-text-sparkle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-text-sparkle-24.svelte"
+    },
+    "./slide-text-sparkle-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-text-sparkle-28.svelte"
+    },
+    "./slide-text-sparkle-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-text-sparkle-32.svelte"
+    },
+    "./slide-text-sparkle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-text-sparkle-48.svelte"
+    },
+    "./sport-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sport-16.svelte"
+    },
+    "./sport-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sport-20.svelte"
+    },
+    "./sport-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sport-24.svelte"
+    },
+    "./star-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-16.svelte"
+    },
+    "./star-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-20.svelte"
+    },
+    "./star-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-24.svelte"
+    },
+    "./star-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-28.svelte"
+    },
+    "./star-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-32.svelte"
+    },
+    "./star-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-48.svelte"
+    },
+    "./star-settings-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-settings-20.svelte"
+    },
+    "./star-settings-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-settings-24.svelte"
+    },
+    "./star-settings-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-settings-32.svelte"
+    },
+    "./table-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-16.svelte"
+    },
+    "./table-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-20.svelte"
+    },
+    "./table-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-24.svelte"
+    },
+    "./table-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-28.svelte"
+    },
+    "./table-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-32.svelte"
+    },
+    "./table-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-48.svelte"
+    },
+    "./text-bullet-list-square-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-16.svelte"
+    },
+    "./text-bullet-list-square-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-20.svelte"
+    },
+    "./text-bullet-list-square-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-24.svelte"
+    },
+    "./text-bullet-list-square-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-28.svelte"
+    },
+    "./text-bullet-list-square-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-32.svelte"
+    },
+    "./text-bullet-list-square-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-48.svelte"
+    },
+    "./text-bullet-list-square-sparkle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-sparkle-16.svelte"
+    },
+    "./text-bullet-list-square-sparkle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-sparkle-20.svelte"
+    },
+    "./text-bullet-list-square-sparkle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-sparkle-24.svelte"
+    },
+    "./text-bullet-list-square-sparkle-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-bullet-list-square-sparkle-32.svelte"
+    },
+    "./text-edit-style-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-edit-style-16.svelte"
+    },
+    "./text-edit-style-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-edit-style-20.svelte"
+    },
+    "./text-edit-style-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-edit-style-24.svelte"
+    },
+    "./toolbox-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toolbox-16.svelte"
+    },
+    "./toolbox-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toolbox-20.svelte"
+    },
+    "./toolbox-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toolbox-24.svelte"
+    },
+    "./toolbox-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toolbox-28.svelte"
+    },
+    "./toolbox-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toolbox-32.svelte"
+    },
+    "./trophy-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-16.svelte"
+    },
+    "./trophy-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-20.svelte"
+    },
+    "./trophy-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-24.svelte"
+    },
+    "./trophy-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-28.svelte"
+    },
+    "./trophy-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-32.svelte"
+    },
+    "./trophy-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-48.svelte"
+    },
+    "./vault-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vault-16.svelte"
+    },
+    "./vault-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vault-20.svelte"
+    },
+    "./vault-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vault-24.svelte"
+    },
+    "./video-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-16.svelte"
+    },
+    "./video-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-20.svelte"
+    },
+    "./video-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-24.svelte"
+    },
+    "./video-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-28.svelte"
+    },
+    "./video-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-32.svelte"
+    },
+    "./video-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-48.svelte"
+    },
+    "./warning-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-16.svelte"
+    },
+    "./warning-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-20.svelte"
+    },
+    "./warning-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-24.svelte"
+    },
+    "./warning-28": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-28.svelte"
+    },
+    "./warning-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-32.svelte"
+    },
+    "./warning-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-48.svelte"
+    },
+    "./weather-snowflake-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-snowflake-20.svelte"
+    },
+    "./weather-snowflake-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-snowflake-24.svelte"
+    },
+    "./weather-snowflake-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-snowflake-32.svelte"
+    },
+    "./weather-snowflake-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-snowflake-48.svelte"
+    },
+    "./weather-sunny-low-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-sunny-low-20.svelte"
+    },
+    "./weather-sunny-low-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-sunny-low-24.svelte"
+    },
+    "./weather-sunny-low-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-sunny-low-48.svelte"
+    },
+    "./wifi-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi-20.svelte"
+    },
+    "./wifi-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi-24.svelte"
+    },
+    "./wifi-warning-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi-warning-20.svelte"
+    },
+    "./wifi-warning-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi-warning-24.svelte"
+    },
+    "./wrench-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-16.svelte"
+    },
+    "./wrench-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-20.svelte"
+    },
+    "./wrench-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-24.svelte"
+    },
+    "./wrench-screwdriver-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-screwdriver-20.svelte"
+    },
+    "./wrench-screwdriver-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-screwdriver-24.svelte"
+    },
+    "./wrench-screwdriver-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrench-screwdriver-32.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#fluent-color"
+}
