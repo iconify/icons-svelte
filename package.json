@@ -1,0 +1,327 @@
+{
+  "name": "@iconify-svelte/codex",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/codex/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./add-background": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-background.svelte"
+    },
+    "./add-border": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/add-border.svelte"
+    },
+    "./align-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-center.svelte"
+    },
+    "./align-justify": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-justify.svelte"
+    },
+    "./align-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-left.svelte"
+    },
+    "./align-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/align-right.svelte"
+    },
+    "./bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bold.svelte"
+    },
+    "./brackets": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets.svelte"
+    },
+    "./brackets-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-vertical.svelte"
+    },
+    "./check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check.svelte"
+    },
+    "./checklist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checklist.svelte"
+    },
+    "./chevron-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-down.svelte"
+    },
+    "./chevron-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-left.svelte"
+    },
+    "./chevron-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-right.svelte"
+    },
+    "./chevron-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-up.svelte"
+    },
+    "./clipboard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard.svelte"
+    },
+    "./collapse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/collapse.svelte"
+    },
+    "./color": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color.svelte"
+    },
+    "./copy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy.svelte"
+    },
+    "./cross": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cross.svelte"
+    },
+    "./curly-brackets": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curly-brackets.svelte"
+    },
+    "./delimiter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/delimiter.svelte"
+    },
+    "./direction-down-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/direction-down-right.svelte"
+    },
+    "./direction-left-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/direction-left-down.svelte"
+    },
+    "./direction-right-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/direction-right-down.svelte"
+    },
+    "./direction-up-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/direction-up-right.svelte"
+    },
+    "./dot-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-circle.svelte"
+    },
+    "./etc-horisontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/etc-horisontal.svelte"
+    },
+    "./etc-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/etc-vertical.svelte"
+    },
+    "./file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file.svelte"
+    },
+    "./gift": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift.svelte"
+    },
+    "./globe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe.svelte"
+    },
+    "./h1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/h1.svelte"
+    },
+    "./h2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/h2.svelte"
+    },
+    "./h3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/h3.svelte"
+    },
+    "./h4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/h4.svelte"
+    },
+    "./h5": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/h5.svelte"
+    },
+    "./h6": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/h6.svelte"
+    },
+    "./heading": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heading.svelte"
+    },
+    "./heart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart.svelte"
+    },
+    "./hidden": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hidden.svelte"
+    },
+    "./html": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/html.svelte"
+    },
+    "./instagram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram.svelte"
+    },
+    "./italic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/italic.svelte"
+    },
+    "./link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link.svelte"
+    },
+    "./linkedin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin.svelte"
+    },
+    "./list-bulleted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-bulleted.svelte"
+    },
+    "./list-numbered": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-numbered.svelte"
+    },
+    "./loader": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loader.svelte"
+    },
+    "./marker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker.svelte"
+    },
+    "./menu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu.svelte"
+    },
+    "./menu-small": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu-small.svelte"
+    },
+    "./picture": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picture.svelte"
+    },
+    "./play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play.svelte"
+    },
+    "./plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus.svelte"
+    },
+    "./question": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question.svelte"
+    },
+    "./quote": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quote.svelte"
+    },
+    "./redo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redo.svelte"
+    },
+    "./remove-background": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/remove-background.svelte"
+    },
+    "./replace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/replace.svelte"
+    },
+    "./save": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/save.svelte"
+    },
+    "./search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search.svelte"
+    },
+    "./star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star.svelte"
+    },
+    "./stretch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stretch.svelte"
+    },
+    "./strikethrough": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/strikethrough.svelte"
+    },
+    "./table": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table.svelte"
+    },
+    "./table-with-headings": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-with-headings.svelte"
+    },
+    "./table-without-headings": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-without-headings.svelte"
+    },
+    "./text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text.svelte"
+    },
+    "./translate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/translate.svelte"
+    },
+    "./trash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash.svelte"
+    },
+    "./twitter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter.svelte"
+    },
+    "./underline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/underline.svelte"
+    },
+    "./undo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/undo.svelte"
+    },
+    "./unlink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlink.svelte"
+    },
+    "./user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user.svelte"
+    },
+    "./users-group": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-group.svelte"
+    },
+    "./warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#codex"
+}
