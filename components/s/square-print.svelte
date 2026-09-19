@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/i/i5ynor4cz.css';
+import '../../css/h/h0pr25blg.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path class="i5ynor4cz"/><path clip-rule="evenodd" class="h0pr25blg"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pepicons:square-print" {...props}></Icon>
