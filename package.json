@@ -1,0 +1,1483 @@
+{
+  "name": "@iconify-svelte/gis",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/gis/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./360": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/360.svelte"
+    },
+    "./3dtiles-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/3dtiles-file.svelte"
+    },
+    "./3dtiles-web": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/3dtiles-web.svelte"
+    },
+    "./arrow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow.svelte"
+    },
+    "./arrow-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-o.svelte"
+    },
+    "./azimuth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azimuth.svelte"
+    },
+    "./bbox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbox.svelte"
+    },
+    "./bbox-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbox-alt.svelte"
+    },
+    "./bicycle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bicycle.svelte"
+    },
+    "./bookmark-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-poi.svelte"
+    },
+    "./bookmark-poi-b": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-poi-b.svelte"
+    },
+    "./buffer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/buffer.svelte"
+    },
+    "./bus-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bus-map.svelte"
+    },
+    "./cadastre-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cadastre-map.svelte"
+    },
+    "./car": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car.svelte"
+    },
+    "./circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle.svelte"
+    },
+    "./circle-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-o.svelte"
+    },
+    "./color": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/color.svelte"
+    },
+    "./compare-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compare-map.svelte"
+    },
+    "./compass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass.svelte"
+    },
+    "./compass-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-alt.svelte"
+    },
+    "./compass-alt-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-alt-o.svelte"
+    },
+    "./compass-needle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-needle.svelte"
+    },
+    "./compass-rose": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-rose.svelte"
+    },
+    "./compass-rose-n": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-rose-n.svelte"
+    },
+    "./contour-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contour-map.svelte"
+    },
+    "./convex-hull": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/convex-hull.svelte"
+    },
+    "./coord-grid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coord-grid.svelte"
+    },
+    "./coord-system": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coord-system.svelte"
+    },
+    "./coord-system-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coord-system-3d.svelte"
+    },
+    "./coord-system-3d-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coord-system-3d-alt.svelte"
+    },
+    "./coord-system-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coord-system-alt.svelte"
+    },
+    "./copy-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-line.svelte"
+    },
+    "./copy-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-point.svelte"
+    },
+    "./copy-poly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-poly.svelte"
+    },
+    "./csw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/csw.svelte"
+    },
+    "./cube-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cube-3d.svelte"
+    },
+    "./difference": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/difference.svelte"
+    },
+    "./dilatation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dilatation.svelte"
+    },
+    "./direct": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/direct.svelte"
+    },
+    "./direction": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/direction.svelte"
+    },
+    "./directions": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directions.svelte"
+    },
+    "./drone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drone.svelte"
+    },
+    "./earth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth.svelte"
+    },
+    "./earth-america": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-america.svelte"
+    },
+    "./earth-america-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-america-o.svelte"
+    },
+    "./earth-asia": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-asia.svelte"
+    },
+    "./earth-asia-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-asia-o.svelte"
+    },
+    "./earth-atlantic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-atlantic.svelte"
+    },
+    "./earth-atlantic-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-atlantic-o.svelte"
+    },
+    "./earth-australia": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-australia.svelte"
+    },
+    "./earth-australia-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-australia-o.svelte"
+    },
+    "./earth-euro-africa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-euro-africa.svelte"
+    },
+    "./earth-euro-africa-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-euro-africa-o.svelte"
+    },
+    "./earth-gear": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-gear.svelte"
+    },
+    "./earth-net": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-net.svelte"
+    },
+    "./earth-net-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-net-o.svelte"
+    },
+    "./earth-network": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-network.svelte"
+    },
+    "./earth-network-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-network-o.svelte"
+    },
+    "./earth-north": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-north.svelte"
+    },
+    "./earth-north-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-north-o.svelte"
+    },
+    "./earth-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-o.svelte"
+    },
+    "./earth-pacific": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-pacific.svelte"
+    },
+    "./earth-pacific-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-pacific-o.svelte"
+    },
+    "./earth-south": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-south.svelte"
+    },
+    "./earth-south-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth-south-o.svelte"
+    },
+    "./erosion": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/erosion.svelte"
+    },
+    "./esri-json-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/esri-json-file.svelte"
+    },
+    "./extent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extent.svelte"
+    },
+    "./extent-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extent-alt.svelte"
+    },
+    "./finish": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/finish.svelte"
+    },
+    "./flab-b-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flab-b-o.svelte"
+    },
+    "./flag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag.svelte"
+    },
+    "./flag-b": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-b.svelte"
+    },
+    "./flag-finish": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-finish.svelte"
+    },
+    "./flag-finish-b-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-finish-b-o.svelte"
+    },
+    "./flag-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-o.svelte"
+    },
+    "./flag-start": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-start.svelte"
+    },
+    "./flag-start-b": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-start-b.svelte"
+    },
+    "./flag-start-b-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-start-b-o.svelte"
+    },
+    "./flag-start-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-start-o.svelte"
+    },
+    "./flip-h": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flip-h.svelte"
+    },
+    "./flip-v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flip-v.svelte"
+    },
+    "./flow-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flow-map.svelte"
+    },
+    "./folder-globe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-globe.svelte"
+    },
+    "./folder-globe-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-globe-o.svelte"
+    },
+    "./folder-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-map.svelte"
+    },
+    "./folder-maps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-maps.svelte"
+    },
+    "./folder-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-poi.svelte"
+    },
+    "./folder-poi-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-poi-o.svelte"
+    },
+    "./folder-pois": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-pois.svelte"
+    },
+    "./full-screen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/full-screen.svelte"
+    },
+    "./geojson-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/geojson-file.svelte"
+    },
+    "./globe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe.svelte"
+    },
+    "./globe-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-alt.svelte"
+    },
+    "./globe-alt-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-alt-o.svelte"
+    },
+    "./globe-earth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-earth.svelte"
+    },
+    "./globe-earth-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-earth-alt.svelte"
+    },
+    "./globe-favorite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-favorite.svelte"
+    },
+    "./globe-gear": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-gear.svelte"
+    },
+    "./globe-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-o.svelte"
+    },
+    "./globe-options": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-options.svelte"
+    },
+    "./globe-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-poi.svelte"
+    },
+    "./globe-share": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-share.svelte"
+    },
+    "./globe-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-shield.svelte"
+    },
+    "./globe-smiley": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-smiley.svelte"
+    },
+    "./globe-star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-star.svelte"
+    },
+    "./globe-user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-user.svelte"
+    },
+    "./globe-users": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-users.svelte"
+    },
+    "./gnss": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gnss.svelte"
+    },
+    "./gnss-antenna": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gnss-antenna.svelte"
+    },
+    "./gpx-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gpx-file.svelte"
+    },
+    "./grid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid.svelte"
+    },
+    "./height-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/height-map.svelte"
+    },
+    "./help-larrow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-larrow.svelte"
+    },
+    "./help-rarrow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/help-rarrow.svelte"
+    },
+    "./hex-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hex-map.svelte"
+    },
+    "./hiker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hiker.svelte"
+    },
+    "./home": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home.svelte"
+    },
+    "./hydro-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydro-map.svelte"
+    },
+    "./i3s-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/i3s-file.svelte"
+    },
+    "./i3s-web": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/i3s-web.svelte"
+    },
+    "./intersection": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/intersection.svelte"
+    },
+    "./kml-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kml-file.svelte"
+    },
+    "./landcover-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/landcover-map.svelte"
+    },
+    "./layer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer.svelte"
+    },
+    "./layer-2-add-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-2-add-o.svelte"
+    },
+    "./layer-2-rm-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-2-rm-o.svelte"
+    },
+    "./layer-add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-add.svelte"
+    },
+    "./layer-add-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-add-o.svelte"
+    },
+    "./layer-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-alt.svelte"
+    },
+    "./layer-alt-add-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-alt-add-o.svelte"
+    },
+    "./layer-alt-edit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-alt-edit.svelte"
+    },
+    "./layer-alt-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-alt-o.svelte"
+    },
+    "./layer-alt-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-alt-poi.svelte"
+    },
+    "./layer-alt-rm-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-alt-rm-o.svelte"
+    },
+    "./layer-alt-x-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-alt-x-o.svelte"
+    },
+    "./layer-contour": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-contour.svelte"
+    },
+    "./layer-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-down.svelte"
+    },
+    "./layer-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-download.svelte"
+    },
+    "./layer-edit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-edit.svelte"
+    },
+    "./layer-height": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-height.svelte"
+    },
+    "./layer-hydro": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-hydro.svelte"
+    },
+    "./layer-landcover": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-landcover.svelte"
+    },
+    "./layer-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-o.svelte"
+    },
+    "./layer-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-poi.svelte"
+    },
+    "./layer-rm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-rm.svelte"
+    },
+    "./layer-rm-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-rm-o.svelte"
+    },
+    "./layer-road": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-road.svelte"
+    },
+    "./layer-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-stack.svelte"
+    },
+    "./layer-stack-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-stack-o.svelte"
+    },
+    "./layer-stat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-stat.svelte"
+    },
+    "./layer-stat-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-stat-alt.svelte"
+    },
+    "./layer-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-up.svelte"
+    },
+    "./layer-upload": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-upload.svelte"
+    },
+    "./layers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers.svelte"
+    },
+    "./layers-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers-o.svelte"
+    },
+    "./layers-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers-poi.svelte"
+    },
+    "./location": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location.svelte"
+    },
+    "./location-arrow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-arrow.svelte"
+    },
+    "./location-arrow-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-arrow-o.svelte"
+    },
+    "./location-man": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-man.svelte"
+    },
+    "./location-man-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-man-alt.svelte"
+    },
+    "./location-on": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-on.svelte"
+    },
+    "./location-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-poi.svelte"
+    },
+    "./location-poi-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-poi-o.svelte"
+    },
+    "./magnify-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magnify-map.svelte"
+    },
+    "./map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map.svelte"
+    },
+    "./map-add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-add.svelte"
+    },
+    "./map-book": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-book.svelte"
+    },
+    "./map-bookmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-bookmark.svelte"
+    },
+    "./map-control": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-control.svelte"
+    },
+    "./map-edit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-edit.svelte"
+    },
+    "./map-extent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-extent.svelte"
+    },
+    "./map-favorite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-favorite.svelte"
+    },
+    "./map-legend": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-legend.svelte"
+    },
+    "./map-legend-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-legend-o.svelte"
+    },
+    "./map-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-lock.svelte"
+    },
+    "./map-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-o.svelte"
+    },
+    "./map-options": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-options.svelte"
+    },
+    "./map-options-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-options-alt.svelte"
+    },
+    "./map-play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-play.svelte"
+    },
+    "./map-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-poi.svelte"
+    },
+    "./map-print": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-print.svelte"
+    },
+    "./map-rm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-rm.svelte"
+    },
+    "./map-route": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-route.svelte"
+    },
+    "./map-search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-search.svelte"
+    },
+    "./map-send": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-send.svelte"
+    },
+    "./map-share": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-share.svelte"
+    },
+    "./map-share-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-share-alt.svelte"
+    },
+    "./map-smiley": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-smiley.svelte"
+    },
+    "./map-star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-star.svelte"
+    },
+    "./map-stat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-stat.svelte"
+    },
+    "./map-tag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-tag.svelte"
+    },
+    "./map-tags": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-tags.svelte"
+    },
+    "./map-time": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-time.svelte"
+    },
+    "./map-unlock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-unlock.svelte"
+    },
+    "./map-user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-user.svelte"
+    },
+    "./map-users": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-users.svelte"
+    },
+    "./measure": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/measure.svelte"
+    },
+    "./measure-area": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/measure-area.svelte"
+    },
+    "./measure-area-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/measure-area-alt.svelte"
+    },
+    "./measure-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/measure-line.svelte"
+    },
+    "./modify-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modify-line.svelte"
+    },
+    "./modify-poly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modify-poly.svelte"
+    },
+    "./modify-poly-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/modify-poly-o.svelte"
+    },
+    "./mosaic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mosaic.svelte"
+    },
+    "./move": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move.svelte"
+    },
+    "./move-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-alt.svelte"
+    },
+    "./multipoint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/multipoint.svelte"
+    },
+    "./mvt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mvt.svelte"
+    },
+    "./network": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network.svelte"
+    },
+    "./network-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/network-o.svelte"
+    },
+    "./north-arrow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/north-arrow.svelte"
+    },
+    "./north-arrow-n": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/north-arrow-n.svelte"
+    },
+    "./offset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/offset.svelte"
+    },
+    "./openls": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openls.svelte"
+    },
+    "./pedestrian": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pedestrian.svelte"
+    },
+    "./phone-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-map.svelte"
+    },
+    "./phone-route": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-route.svelte"
+    },
+    "./phone-route-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-route-alt.svelte"
+    },
+    "./phone-route-alt-r": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-route-alt-r.svelte"
+    },
+    "./photogrammetry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/photogrammetry.svelte"
+    },
+    "./pin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin.svelte"
+    },
+    "./pin-earth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-earth.svelte"
+    },
+    "./pirate-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pirate-map.svelte"
+    },
+    "./pirate-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pirate-poi.svelte"
+    },
+    "./poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi.svelte"
+    },
+    "./poi-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-alt.svelte"
+    },
+    "./poi-alt-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-alt-o.svelte"
+    },
+    "./poi-earth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-earth.svelte"
+    },
+    "./poi-favorite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-favorite.svelte"
+    },
+    "./poi-favorite-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-favorite-o.svelte"
+    },
+    "./poi-home": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-home.svelte"
+    },
+    "./poi-home-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-home-o.svelte"
+    },
+    "./poi-info": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-info.svelte"
+    },
+    "./poi-info-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-info-o.svelte"
+    },
+    "./poi-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-map.svelte"
+    },
+    "./poi-map-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-map-o.svelte"
+    },
+    "./poi-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-o.svelte"
+    },
+    "./poi-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-slash.svelte"
+    },
+    "./poi-slash-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poi-slash-o.svelte"
+    },
+    "./point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/point.svelte"
+    },
+    "./pois": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pois.svelte"
+    },
+    "./pois-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pois-o.svelte"
+    },
+    "./polygon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polygon.svelte"
+    },
+    "./polygon-hole": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polygon-hole.svelte"
+    },
+    "./polygon-hole-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polygon-hole-o.svelte"
+    },
+    "./polygon-hole-pt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polygon-hole-pt.svelte"
+    },
+    "./polygon-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polygon-o.svelte"
+    },
+    "./polygon-o-dash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polygon-o-dash.svelte"
+    },
+    "./polygon-pt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polygon-pt.svelte"
+    },
+    "./polyline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polyline.svelte"
+    },
+    "./polyline-dash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polyline-dash.svelte"
+    },
+    "./polyline-pt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/polyline-pt.svelte"
+    },
+    "./position": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/position.svelte"
+    },
+    "./position-man": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/position-man.svelte"
+    },
+    "./position-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/position-o.svelte"
+    },
+    "./profile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/profile.svelte"
+    },
+    "./profile-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/profile-o.svelte"
+    },
+    "./proj-conic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proj-conic.svelte"
+    },
+    "./proj-geo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proj-geo.svelte"
+    },
+    "./proj-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proj-point.svelte"
+    },
+    "./proj-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proj-square.svelte"
+    },
+    "./proj-stereo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proj-stereo.svelte"
+    },
+    "./proj-utm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proj-utm.svelte"
+    },
+    "./pushpin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pushpin.svelte"
+    },
+    "./pyramid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pyramid.svelte"
+    },
+    "./rectangle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle.svelte"
+    },
+    "./rectangle-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle-o.svelte"
+    },
+    "./rectangle-pt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle-pt.svelte"
+    },
+    "./regular-shape": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regular-shape.svelte"
+    },
+    "./regular-shape-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regular-shape-o.svelte"
+    },
+    "./regular-shape-pt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regular-shape-pt.svelte"
+    },
+    "./revers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/revers.svelte"
+    },
+    "./road-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/road-map.svelte"
+    },
+    "./rotate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rotate.svelte"
+    },
+    "./route": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/route.svelte"
+    },
+    "./route-end": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/route-end.svelte"
+    },
+    "./route-start": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/route-start.svelte"
+    },
+    "./satellite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/satellite.svelte"
+    },
+    "./satellite-earth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/satellite-earth.svelte"
+    },
+    "./scale": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale.svelte"
+    },
+    "./scale-poly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-poly.svelte"
+    },
+    "./screen-dub": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-dub.svelte"
+    },
+    "./screen-dub-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-dub-o.svelte"
+    },
+    "./screen-dub1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-dub1.svelte"
+    },
+    "./screen-dub2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-dub2.svelte"
+    },
+    "./screen-mag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-mag.svelte"
+    },
+    "./screen-mag-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-mag-alt.svelte"
+    },
+    "./screen-mag-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-mag-o.svelte"
+    },
+    "./screen-split-h": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-split-h.svelte"
+    },
+    "./screen-split-v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-split-v.svelte"
+    },
+    "./search-address": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-address.svelte"
+    },
+    "./search-attribtues": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-attribtues.svelte"
+    },
+    "./search-coord": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-coord.svelte"
+    },
+    "./search-country": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-country.svelte"
+    },
+    "./search-data": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-data.svelte"
+    },
+    "./search-feature": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-feature.svelte"
+    },
+    "./search-globe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-globe.svelte"
+    },
+    "./search-globe-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-globe-alt.svelte"
+    },
+    "./search-home": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-home.svelte"
+    },
+    "./search-layer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-layer.svelte"
+    },
+    "./search-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-map.svelte"
+    },
+    "./search-poi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-poi.svelte"
+    },
+    "./search-propertie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-propertie.svelte"
+    },
+    "./select-extent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/select-extent.svelte"
+    },
+    "./shape-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shape-file.svelte"
+    },
+    "./signpost": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signpost.svelte"
+    },
+    "./simplify": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/simplify.svelte"
+    },
+    "./skeletonize": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skeletonize.svelte"
+    },
+    "./sld": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sld.svelte"
+    },
+    "./snap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snap.svelte"
+    },
+    "./snap-ortho": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snap-ortho.svelte"
+    },
+    "./sos": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sos.svelte"
+    },
+    "./split": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split.svelte"
+    },
+    "./split-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-line.svelte"
+    },
+    "./split-polygon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-polygon.svelte"
+    },
+    "./sps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sps.svelte"
+    },
+    "./square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square.svelte"
+    },
+    "./square-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-o.svelte"
+    },
+    "./square-pt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-pt.svelte"
+    },
+    "./start": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start.svelte"
+    },
+    "./start-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/start-o.svelte"
+    },
+    "./statistic-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/statistic-map.svelte"
+    },
+    "./step": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/step.svelte"
+    },
+    "./step-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/step-o.svelte"
+    },
+    "./story-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/story-map.svelte"
+    },
+    "./story-map-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/story-map-o.svelte"
+    },
+    "./story-maps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/story-maps.svelte"
+    },
+    "./swipe-map-h": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/swipe-map-h.svelte"
+    },
+    "./swipe-map-v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/swipe-map-v.svelte"
+    },
+    "./sym-difference": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sym-difference.svelte"
+    },
+    "./tacheometer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tacheometer.svelte"
+    },
+    "./tag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag.svelte"
+    },
+    "./tag-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-o.svelte"
+    },
+    "./tags": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags.svelte"
+    },
+    "./tags-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tags-o.svelte"
+    },
+    "./theodolite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/theodolite.svelte"
+    },
+    "./time-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-map.svelte"
+    },
+    "./timer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/timer.svelte"
+    },
+    "./tjs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tjs.svelte"
+    },
+    "./topography": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/topography.svelte"
+    },
+    "./topojson-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/topojson-file.svelte"
+    },
+    "./translate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/translate.svelte"
+    },
+    "./translate-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/translate-x.svelte"
+    },
+    "./translate-y": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/translate-y.svelte"
+    },
+    "./triangle-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-map.svelte"
+    },
+    "./union": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/union.svelte"
+    },
+    "./voronoi-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voronoi-map.svelte"
+    },
+    "./wcps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wcps.svelte"
+    },
+    "./wcs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wcs.svelte"
+    },
+    "./weather-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weather-map.svelte"
+    },
+    "./wfs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wfs.svelte"
+    },
+    "./wfs-t": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wfs-t.svelte"
+    },
+    "./wmc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wmc.svelte"
+    },
+    "./wms": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wms.svelte"
+    },
+    "./wmts": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wmts.svelte"
+    },
+    "./world-folder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-folder.svelte"
+    },
+    "./world-folder-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-folder-o.svelte"
+    },
+    "./world-map": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-map.svelte"
+    },
+    "./world-map-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-map-alt.svelte"
+    },
+    "./world-map-alt-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-map-alt-o.svelte"
+    },
+    "./wps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wps.svelte"
+    },
+    "./xyz": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xyz.svelte"
+    },
+    "./zoom-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-in.svelte"
+    },
+    "./zoom-out": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-out.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#gis"
+}
