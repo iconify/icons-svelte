@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/s/sd1xwpbcc.css';
+import '../../css/k/kcckbrb0y.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="sd1xwpbcc"/><path clip-rule="evenodd" class="kcckbrb0y"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="cuida:headphone-outline" {...props}></Icon>
