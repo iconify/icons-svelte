@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/y/yx35p2zye.css';
+import '../../css/c/cszcplbvc.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="yx35p2zye"/><path class="cszcplbvc"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uim:java-script" {...props}></Icon>
