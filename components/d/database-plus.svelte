@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/b/bgbi_bb4g.css';
+import '../../css/f/f855gcc9j.css';
+import '../../css/y/ydljjdb3v.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="bgbi_bb4g"/><path class="f855gcc9j"/><path class="ydljjdb3v"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="tabler:database-plus" {...props}></Icon>

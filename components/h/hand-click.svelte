@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/w/w2dcj8b7h.css';
+import '../../css/n/n_vtn-bul.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="w2dcj8b7h"/><path class="n_vtn-bul"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="tabler:hand-click" {...props}></Icon>

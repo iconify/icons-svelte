@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/m/mo-q_sb2f.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mo-q_sb2f"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="tabler:play-card-2-filled" {...props}></Icon>
