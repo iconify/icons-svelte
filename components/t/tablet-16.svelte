@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/q/q5lan_0sa.css';
+import '../../css/s/sep8gme6u.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":16,"height":16};
+const content = `<path clip-rule="evenodd" class="q5lan_0sa"/><path clip-rule="evenodd" class="sep8gme6u"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="qlementine-icons:tablet-16" {...props}></Icon>

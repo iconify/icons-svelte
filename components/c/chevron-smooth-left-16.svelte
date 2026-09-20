@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/v/vhsgjb_gi.css';
+import '../../css/h/hruqhdmcp.css';
+import '../../css/n/n6xeidxlr.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":16,"height":16};
+const content = `<path clip-rule="evenodd" class="vhsgjb_gi"/><path clip-rule="evenodd" class="hruqhdmcp"/><path clip-rule="evenodd" class="n6xeidxlr"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="qlementine-icons:chevron-smooth-left-16" {...props}></Icon>
