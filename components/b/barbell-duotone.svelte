@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="ic641vbjh"/><path class="p34bm62ug"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:barbell-duotone" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.ic641vbjh) {
+  d: path("M96 64v128a8 8 0 0 1-8 8H64a8 8 0 0 1-8-8V64a8 8 0 0 1 8-8h24a8 8 0 0 1 8 8m96-8h-24a8 8 0 0 0-8 8v128a8 8 0 0 0 8 8h24a8 8 0 0 0 8-8V64a8 8 0 0 0-8-8");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.p34bm62ug) {
+  d: path("M248 120h-8V88a16 16 0 0 0-16-16h-16v-8a16 16 0 0 0-16-16h-24a16 16 0 0 0-16 16v56h-48V64a16 16 0 0 0-16-16H64a16 16 0 0 0-16 16v8H32a16 16 0 0 0-16 16v32H8a8 8 0 0 0 0 16h8v32a16 16 0 0 0 16 16h16v8a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-56h48v56a16 16 0 0 0 16 16h24a16 16 0 0 0 16-16v-8h16a16 16 0 0 0 16-16v-32h8a8 8 0 0 0 0-16M32 168V88h16v80Zm56 24H64V64h24zm104 0h-24V64h24zm32-24h-16V88h16Z");
+}
+
+</style>

@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="m16zfwzui"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:arrow-bend-double-up-left-thin" {...props}></Icon>
+<style>
+:global(.m16zfwzui) {
+  fill: currentColor;
+  d: path("M82.83 149.17a4 4 0 0 1-5.66 5.66l-48-48a4 4 0 0 1 0-5.66l48-48a4 4 0 0 1 5.66 5.66L37.66 104ZM128 100H89.66l41.17-41.17a4 4 0 0 0-5.66-5.66l-48 48a4 4 0 0 0 0 5.66l48 48a4 4 0 0 0 5.66-5.66L89.66 108H128a92.1 92.1 0 0 1 92 92a4 4 0 0 0 8 0a100.11 100.11 0 0 0-100-100");
+}
+
+</style>

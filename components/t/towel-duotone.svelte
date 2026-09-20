@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="ay-q6xpii"/><path class="b2d_jmgon"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:towel-duotone" {...props}></Icon>
+<style>
+:global(.ay-q6xpii) {
+  d: path("M184 192v24a8 8 0 0 1-8 8H64a8 8 0 0 1-8-8v-24Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.b2d_jmgon) {
+  d: path("M200 24H72a24 24 0 0 0-24 24v168a16 16 0 0 0 16 16h112a16 16 0 0 0 16-16V48a8 8 0 0 1 16 0v104a8 8 0 0 0 16 0V48a24 24 0 0 0-24-24M72 40h105.37a23.8 23.8 0 0 0-1.37 8v136H64V48a8 8 0 0 1 8-8m-8 176v-16h112v16Z");
+}
+
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+</style>

@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="bg35r-f3d"/><path class="s3ghakb2f"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:matrix-logo-duotone" {...props}></Icon>
+<style>
+:global(.bg35r-f3d) {
+  d: path("M216 40v176H40V40Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.s3ghakb2f) {
+  d: path("M72 216a8 8 0 0 1-8 8H40a8 8 0 0 1-8-8V40a8 8 0 0 1 8-8h24a8 8 0 0 1 0 16H48v160h16a8 8 0 0 1 8 8M216 32h-24a8 8 0 0 0 0 16h16v160h-16a8 8 0 0 0 0 16h24a8 8 0 0 0 8-8V40a8 8 0 0 0-8-8m-32 88a32 32 0 0 0-56-21.13a31.93 31.93 0 0 0-40.71-6.15A8 8 0 0 0 72 96v64a8 8 0 0 0 16 0v-40a16 16 0 0 1 32 0v40a8 8 0 0 0 16 0v-40a16 16 0 0 1 32 0v40a8 8 0 0 0 16 0Z");
+}
+
+</style>

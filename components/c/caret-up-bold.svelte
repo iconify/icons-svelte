@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="ddv94wbwi"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:caret-up-bold" {...props}></Icon>
+<style>
+:global(.ddv94wbwi) {
+  fill: currentColor;
+  d: path("M216.49 168.49a12 12 0 0 1-17 0L128 97l-71.51 71.49a12 12 0 0 1-17-17l80-80a12 12 0 0 1 17 0l80 80a12 12 0 0 1 0 17");
+}
+
+</style>

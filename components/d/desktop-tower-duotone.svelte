@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="pk4bzsbqg"/><path class="iuq9t_43y"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:desktop-tower-duotone" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.iuq9t_43y) {
+  d: path("M216 72a8 8 0 0 1-8 8h-32a8 8 0 0 1 0-16h32a8 8 0 0 1 8 8m-8 24h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16m40-48v160a16 16 0 0 1-16 16h-80a16 16 0 0 1-16-16v-16H96v16h16a8 8 0 0 1 0 16H64a8 8 0 0 1 0-16h16v-16H32a24 24 0 0 1-24-24V96a24 24 0 0 1 24-24h104V48a16 16 0 0 1 16-16h80a16 16 0 0 1 16 16M136 176V88H32a8 8 0 0 0-8 8v72a8 8 0 0 0 8 8Zm96 32V48h-80v160zm-40-40a12 12 0 1 0 12 12a12 12 0 0 0-12-12");
+}
+
+:global(.pk4bzsbqg) {
+  d: path("M240 48v160a8 8 0 0 1-8 8h-80a8 8 0 0 1-8-8V48a8 8 0 0 1 8-8h80a8 8 0 0 1 8 8");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

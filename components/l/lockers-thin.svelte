@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="r7ai5dbnd"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:lockers-thin" {...props}></Icon>
+<style>
+:global(.r7ai5dbnd) {
+  fill: currentColor;
+  d: path("M188 72a4 4 0 0 1-4 4h-24a4 4 0 0 1 0-8h24a4 4 0 0 1 4 4m-4 28h-24a4 4 0 0 0 0 8h24a4 4 0 0 0 0-8M72 76h24a4 4 0 0 0 0-8H72a4 4 0 0 0 0 8m24 24H72a4 4 0 0 0 0 8h24a4 4 0 0 0 0-8m124-52v176a4 4 0 0 1-8 0v-20h-80v20a4 4 0 0 1-8 0v-20H44v20a4 4 0 0 1-8 0V48a12 12 0 0 1 12-12h160a12 12 0 0 1 12 12m-96 148V44H48a4 4 0 0 0-4 4v148Zm8 0h80V48a4 4 0 0 0-4-4h-76Z");
+}
+
+</style>

@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="midkkyb8x"/><path class="ija71-4oy"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:metronome-duotone" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.ija71-4oy) {
+  d: path("m187.14 114.84l26.78-29.46a8 8 0 0 0-11.84-10.76l-20.55 22.6l-17.2-54.07A15.94 15.94 0 0 0 149.08 32h-42.17a15.94 15.94 0 0 0-15.25 11.15l-50.91 160A16 16 0 0 0 56 224h144a16 16 0 0 0 15.25-20.85ZM184.72 160h-38.64l28.62-31.48ZM106.91 48h42.17l20 62.9l-44.62 49.1H71.27ZM56 208l10.18-32h123.63L200 208Z");
+}
+
+:global(.midkkyb8x) {
+  d: path("M200 216H56a8 8 0 0 1-7.63-10.43l12-37.57h135.29l12 37.57A8 8 0 0 1 200 216");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

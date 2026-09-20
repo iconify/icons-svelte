@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="w1u0w2o3i"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:battery-warning-vertical-bold" {...props}></Icon>
+<style>
+:global(.w1u0w2o3i) {
+  fill: currentColor;
+  d: path("M116 136v-36a12 12 0 0 1 24 0v36a12 12 0 0 1-24 0m12 24a16 16 0 1 0 16 16a16 16 0 0 0-16-16M104 24h48a12 12 0 0 0 0-24h-48a12 12 0 0 0 0 24m100 36v168a28 28 0 0 1-28 28H80a28 28 0 0 1-28-28V60a28 28 0 0 1 28-28h96a28 28 0 0 1 28 28m-24 0a4 4 0 0 0-4-4H80a4 4 0 0 0-4 4v168a4 4 0 0 0 4 4h96a4 4 0 0 0 4-4Z");
+}
+
+</style>

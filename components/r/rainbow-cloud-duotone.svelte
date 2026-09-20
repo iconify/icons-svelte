@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="cuyn6tgcc"><path class="fzb3jmbsn"/><path class="t3f3fgbjq"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:rainbow-cloud-duotone" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.fzb3jmbsn) {
+  d: path("M240 160a40 40 0 0 1-40 40h-48c-13.25 0-24-11.14-24-24.89s10.75-24.89 24-24.89a23.3 23.3 0 0 1 8.81 1.73A40 40 0 0 1 240 160");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.t3f3fgbjq) {
+  d: path("M200 112a48.18 48.18 0 0 0-44.66 30.4a31 31 0 0 0-3.34-.18c-17.65 0-32 14.76-32 32.89S134.35 208 152 208h48a48 48 0 0 0 0-96m0 80h-48c-8.82 0-16-7.58-16-16.89s7.18-16.89 16-16.89a15 15 0 0 1 5.78 1.14a8 8 0 0 0 10.87-5.81A32 32 0 1 1 200 192M24 160v16a8 8 0 0 1-16 0v-16a104 104 0 0 1 176.5-74.56a8 8 0 0 1-11.15 11.47A88 88 0 0 0 24 160m32 0v16a8 8 0 0 1-16 0v-16a72 72 0 0 1 114.6-58a8 8 0 1 1-9.47 12.89A56 56 0 0 0 56 160m61.57-23.35A24 24 0 0 0 88 160v16a8 8 0 0 1-16 0v-16a40 40 0 0 1 49.27-38.92a8 8 0 1 1-3.7 15.57");
+}
+
+</style>

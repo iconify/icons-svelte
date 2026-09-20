@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":256};
+const content = `<path class="bvbs8nbcz"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ph:receipt-bold" {...props}></Icon>
+<style>
+:global(.bvbs8nbcz) {
+  fill: currentColor;
+  d: path("M68 100a12 12 0 0 1 12-12h96a12 12 0 0 1 0 24H80a12 12 0 0 1-12-12m12 52h96a12 12 0 0 0 0-24H80a12 12 0 0 0 0 24m156-96v152a12 12 0 0 1-17.37 10.73L192 205.42l-26.63 13.31a12 12 0 0 1-10.74 0L128 205.42l-26.63 13.31a12 12 0 0 1-10.74 0L64 205.42l-26.63 13.31A12 12 0 0 1 20 208V56a20 20 0 0 1 20-20h176a20 20 0 0 1 20 20m-24 4H44v128.58l14.63-7.31a12 12 0 0 1 10.74 0L96 194.58l26.63-13.31a12 12 0 0 1 10.74 0L160 194.58l26.63-13.31a12 12 0 0 1 10.74 0l14.63 7.31Z");
+}
+
+</style>
