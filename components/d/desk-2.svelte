@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/n8oo7gb6g.css';
+import '../../css/p/p7yqnwbor.css';
+import '../../css/v/vv7nwxbag.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":50,"height":50};
+const content = `<g class="n8oo7gb6g"><path class="p7yqnwbor"/><path class="vv7nwxbag"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="marketeq:desk-2" {...props}></Icon>

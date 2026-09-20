@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/n8oo7gb6g.css';
+import '../../css/w/wuo3cwivr.css';
+import '../../css/p/pz9iwls3d.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":50,"height":50};
+const content = `<g class="n8oo7gb6g"><path class="wuo3cwivr"/><path class="pz9iwls3d"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="marketeq:pendulum" {...props}></Icon>
