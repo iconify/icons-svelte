@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/to0gas8_s.css';
+import '../../css/n/nkd2b7pcb.css';
+import '../../css/i/i2k9wdb1i.css';
+import '../../css/m/my6364gtl.css';
+import '../../css/n/nom1l2ksv.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="to0gas8_s"/><path class="nkd2b7pcb"/><path class="i2k9wdb1i"/><path class="my6364gtl"/><path class="nom1l2ksv"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:hourglass-done" {...props}></Icon>

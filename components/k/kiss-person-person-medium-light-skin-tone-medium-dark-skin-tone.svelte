@@ -1,0 +1,22 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/f9p3nr4eq.css';
+import '../../css/j/jfb7edcnb.css';
+import '../../css/c/c5gv-wbzj.css';
+import '../../css/s/sh2k9h_rt.css';
+import '../../css/b/brzn_0bpr.css';
+import '../../css/f/flneovb3l.css';
+import '../../css/j/j3q4brbum.css';
+import '../../css/j/j04elhb4b.css';
+import '../../css/n/nscd1kvoh.css';
+import '../../css/n/npm0uhbyg.css';
+import '../../css/e/eplbuhbzb.css';
+import '../../css/x/x883ecc5w.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="f9p3nr4eq"/><path class="jfb7edcnb"/><path class="c5gv-wbzj"/><path class="sh2k9h_rt"/><g class="brzn_0bpr"><path class="flneovb3l"/><path class="j3q4brbum"/><path class="j04elhb4b"/><path class="nscd1kvoh"/><path class="npm0uhbyg"/><path class="eplbuhbzb"/><path class="x883ecc5w"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:kiss-person-person-medium-light-skin-tone-medium-dark-skin-tone" {...props}></Icon>

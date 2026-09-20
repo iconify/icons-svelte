@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/z/zytfvsi9y.css';
+import '../../css/w/wu34451yl.css';
+import '../../css/l/l-pq53bnn.css';
+import '../../css/g/gjn5-jbmw.css';
+import '../../css/t/tlubx6bdz.css';
+import '../../css/y/yesatpbng.css';
+import '../../css/x/x8poo_bjf.css';
+import '../../css/x/x_6haaclu.css';
+import '../../css/t/th2o1hbtg.css';
+import '../../css/l/loev3ubln.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":72,"height":72};
+const content = `<circle class="zytfvsi9y"/><circle class="wu34451yl"/><g class="l-pq53bnn"><circle class="gjn5-jbmw"/><path class="tlubx6bdz"/><path class="yesatpbng"/></g><g class="x8poo_bjf"><circle class="gjn5-jbmw"/><circle class="x_6haaclu"/><path class="th2o1hbtg"/><path class="loev3ubln"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:person-playing-handball-medium-light-skin-tone" {...props}></Icon>

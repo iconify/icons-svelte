@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/k/k_09uzbol.css';
+import '../../css/r/reipi0w6l.css';
+import '../../css/u/u9ld25bjz.css';
+import '../../css/q/qtvivvozr.css';
+import '../../css/s/suavi9osi.css';
+import '../../css/o/o69beaclm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="k_09uzbol"/><path class="reipi0w6l"/><path class="u9ld25bjz"/><g class="qtvivvozr"><path class="suavi9osi"/><path class="o69beaclm"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:leftwards-pushing-hand-medium-dark-skin-tone" {...props}></Icon>

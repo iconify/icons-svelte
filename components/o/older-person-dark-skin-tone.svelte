@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/h/hvn_rxb6v.css';
+import '../../css/e/eyg7-wf7e.css';
+import '../../css/w/wfijoq2mq.css';
+import '../../css/t/tz-ydab7t.css';
+import '../../css/m/m2zr24brs.css';
+import '../../css/d/d7amhlj7r.css';
+import '../../css/b/bwi1ebl6k.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="hvn_rxb6v"/><path class="eyg7-wf7e"/><path class="wfijoq2mq"/><path class="tz-ydab7t"/><path class="m2zr24brs"/><path class="d7amhlj7r"/><path class="bwi1ebl6k"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:older-person-dark-skin-tone" {...props}></Icon>

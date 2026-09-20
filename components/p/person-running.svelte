@@ -1,0 +1,19 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/x/x4u8pbwjc.css';
+import '../../css/q/q133b_p0v.css';
+import '../../css/n/nlmdxkqjd.css';
+import '../../css/v/v73jdib8l.css';
+import '../../css/b/brzn_0bpr.css';
+import '../../css/a/amm3co44a.css';
+import '../../css/c/cw3d66bob.css';
+import '../../css/t/tukvnlbmo.css';
+import '../../css/o/ocs2e82mg.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":72,"height":72};
+const content = `<g class="x4u8pbwjc"><circle class="q133b_p0v"/><path class="nlmdxkqjd"/><path class="v73jdib8l"/></g><g class="brzn_0bpr"><circle class="amm3co44a"/><path class="cw3d66bob"/><path class="tukvnlbmo"/><path class="ocs2e82mg"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:person-running" {...props}></Icon>

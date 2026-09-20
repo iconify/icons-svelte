@@ -1,0 +1,19 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/v/v7x3wt57u.css';
+import '../../css/b/b7q_ndblj.css';
+import '../../css/k/k9pq-abme.css';
+import '../../css/p/pzto40g8i.css';
+import '../../css/g/g5cg-zbph.css';
+import '../../css/x/x8poo_bjf.css';
+import '../../css/r/r43dhcb-v.css';
+import '../../css/k/klfcrzb0n.css';
+import '../../css/m/mcjwwtbdm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="v7x3wt57u"/><circle class="b7q_ndblj"/><g class="k9pq-abme"><path class="pzto40g8i"/><circle class="g5cg-zbph"/></g><g class="x8poo_bjf"><circle class="g5cg-zbph"/><path class="r43dhcb-v"/><circle class="klfcrzb0n"/><path class="mcjwwtbdm"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:person-playing-water-polo-medium-skin-tone" {...props}></Icon>
