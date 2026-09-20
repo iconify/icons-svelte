@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/bkjk0pbod.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="bkjk0pbod"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="maki:natural-15" {...props}></Icon>

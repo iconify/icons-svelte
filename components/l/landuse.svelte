@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/q/q9d4n4bid.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="q9d4n4bid"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="maki:landuse" {...props}></Icon>
