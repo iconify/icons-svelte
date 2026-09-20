@@ -1,0 +1,3883 @@
+{
+  "name": "@iconify-svelte/octicon",
+  "type": "module",
+  "version": "1.0.23",
+  "homepage": "https://icon-sets.iconify.design/octicon/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./accessibility-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-16.svelte"
+    },
+    "./accessibility-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-24.svelte"
+    },
+    "./accessibility-inset-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-inset-16.svelte"
+    },
+    "./accessibility-inset-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessibility-inset-24.svelte"
+    },
+    "./agent-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agent-16.svelte"
+    },
+    "./agent-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/agent-24.svelte"
+    },
+    "./ai-model-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-model-16.svelte"
+    },
+    "./ai-model-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-model-24.svelte"
+    },
+    "./alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert.svelte"
+    },
+    "./alert-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-16.svelte"
+    },
+    "./alert-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-24.svelte"
+    },
+    "./alert-fill-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-fill-12.svelte"
+    },
+    "./alert-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-fill-16.svelte"
+    },
+    "./alert-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alert-fill-24.svelte"
+    },
+    "./apps-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-16.svelte"
+    },
+    "./apps-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apps-24.svelte"
+    },
+    "./archive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive.svelte"
+    },
+    "./archive-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-16.svelte"
+    },
+    "./archive-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-24.svelte"
+    },
+    "./arrow-both": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-both.svelte"
+    },
+    "./arrow-both-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-both-16.svelte"
+    },
+    "./arrow-both-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-both-24.svelte"
+    },
+    "./arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down.svelte"
+    },
+    "./arrow-down-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-16.svelte"
+    },
+    "./arrow-down-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-24.svelte"
+    },
+    "./arrow-down-left-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-left-16.svelte"
+    },
+    "./arrow-down-left-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-left-24.svelte"
+    },
+    "./arrow-down-right-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-right-16.svelte"
+    },
+    "./arrow-down-right-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-right-24.svelte"
+    },
+    "./arrow-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-left.svelte"
+    },
+    "./arrow-left-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-left-16.svelte"
+    },
+    "./arrow-left-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-left-24.svelte"
+    },
+    "./arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-right.svelte"
+    },
+    "./arrow-right-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-right-16.svelte"
+    },
+    "./arrow-right-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-right-24.svelte"
+    },
+    "./arrow-small-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-small-down.svelte"
+    },
+    "./arrow-small-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-small-left.svelte"
+    },
+    "./arrow-small-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-small-right.svelte"
+    },
+    "./arrow-small-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-small-up.svelte"
+    },
+    "./arrow-switch-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-switch-16.svelte"
+    },
+    "./arrow-switch-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-switch-24.svelte"
+    },
+    "./arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up.svelte"
+    },
+    "./arrow-up-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-16.svelte"
+    },
+    "./arrow-up-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-24.svelte"
+    },
+    "./arrow-up-left-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-left-16.svelte"
+    },
+    "./arrow-up-left-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-left-24.svelte"
+    },
+    "./arrow-up-right-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-right-16.svelte"
+    },
+    "./arrow-up-right-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-right-24.svelte"
+    },
+    "./beaker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beaker.svelte"
+    },
+    "./beaker-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beaker-16.svelte"
+    },
+    "./beaker-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beaker-24.svelte"
+    },
+    "./bell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell.svelte"
+    },
+    "./bell-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-16.svelte"
+    },
+    "./bell-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-24.svelte"
+    },
+    "./bell-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-fill-16.svelte"
+    },
+    "./bell-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-fill-24.svelte"
+    },
+    "./bell-slash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-slash-16.svelte"
+    },
+    "./bell-slash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-slash-24.svelte"
+    },
+    "./blocked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocked-16.svelte"
+    },
+    "./blocked-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blocked-24.svelte"
+    },
+    "./bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bold.svelte"
+    },
+    "./bold-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bold-16.svelte"
+    },
+    "./bold-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bold-24.svelte"
+    },
+    "./book": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book.svelte"
+    },
+    "./book-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-16.svelte"
+    },
+    "./book-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-24.svelte"
+    },
+    "./book-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-locked-16.svelte"
+    },
+    "./bookmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark.svelte"
+    },
+    "./bookmark-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-16.svelte"
+    },
+    "./bookmark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-24.svelte"
+    },
+    "./bookmark-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-fill-16.svelte"
+    },
+    "./bookmark-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-fill-24.svelte"
+    },
+    "./bookmark-slash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-slash-16.svelte"
+    },
+    "./bookmark-slash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-slash-24.svelte"
+    },
+    "./bookmark-slash-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-slash-fill-16.svelte"
+    },
+    "./bookmark-slash-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-slash-fill-24.svelte"
+    },
+    "./boolean-off-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-off-16.svelte"
+    },
+    "./boolean-off-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-off-24.svelte"
+    },
+    "./boolean-on-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-on-16.svelte"
+    },
+    "./boolean-on-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-on-24.svelte"
+    },
+    "./briefcase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase.svelte"
+    },
+    "./briefcase-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-16.svelte"
+    },
+    "./briefcase-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-24.svelte"
+    },
+    "./broadcast": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broadcast.svelte"
+    },
+    "./broadcast-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broadcast-16.svelte"
+    },
+    "./broadcast-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broadcast-24.svelte"
+    },
+    "./browser": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/browser.svelte"
+    },
+    "./browser-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/browser-16.svelte"
+    },
+    "./browser-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/browser-24.svelte"
+    },
+    "./bug-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bug-16.svelte"
+    },
+    "./bug-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bug-24.svelte"
+    },
+    "./cache-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cache-16.svelte"
+    },
+    "./cache-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cache-24.svelte"
+    },
+    "./calendar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar.svelte"
+    },
+    "./calendar-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-16.svelte"
+    },
+    "./calendar-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-24.svelte"
+    },
+    "./chat-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-16.svelte"
+    },
+    "./chat-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-24.svelte"
+    },
+    "./chat-add-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-16.svelte"
+    },
+    "./chat-add-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-add-24.svelte"
+    },
+    "./chat-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-locked-16.svelte"
+    },
+    "./chat-question-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-question-16.svelte"
+    },
+    "./chat-question-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chat-question-24.svelte"
+    },
+    "./check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check.svelte"
+    },
+    "./check-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-16.svelte"
+    },
+    "./check-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-24.svelte"
+    },
+    "./check-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle-16.svelte"
+    },
+    "./check-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle-24.svelte"
+    },
+    "./check-circle-fill-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle-fill-12.svelte"
+    },
+    "./check-circle-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle-fill-16.svelte"
+    },
+    "./check-circle-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-circle-fill-24.svelte"
+    },
+    "./checkbox-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-16.svelte"
+    },
+    "./checkbox-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-24.svelte"
+    },
+    "./checkbox-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-fill-16.svelte"
+    },
+    "./checkbox-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkbox-fill-24.svelte"
+    },
+    "./checklist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checklist.svelte"
+    },
+    "./checklist-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checklist-16.svelte"
+    },
+    "./checklist-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checklist-24.svelte"
+    },
+    "./chevron-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-down.svelte"
+    },
+    "./chevron-down-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-down-12.svelte"
+    },
+    "./chevron-down-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-down-16.svelte"
+    },
+    "./chevron-down-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-down-24.svelte"
+    },
+    "./chevron-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-left.svelte"
+    },
+    "./chevron-left-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-left-12.svelte"
+    },
+    "./chevron-left-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-left-16.svelte"
+    },
+    "./chevron-left-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-left-24.svelte"
+    },
+    "./chevron-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-right.svelte"
+    },
+    "./chevron-right-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-right-12.svelte"
+    },
+    "./chevron-right-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-right-16.svelte"
+    },
+    "./chevron-right-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-right-24.svelte"
+    },
+    "./chevron-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-up.svelte"
+    },
+    "./chevron-up-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-up-12.svelte"
+    },
+    "./chevron-up-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-up-16.svelte"
+    },
+    "./chevron-up-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevron-up-24.svelte"
+    },
+    "./circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-16.svelte"
+    },
+    "./circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-24.svelte"
+    },
+    "./circle-slash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-slash.svelte"
+    },
+    "./circle-slash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-slash-16.svelte"
+    },
+    "./circle-slash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-slash-24.svelte"
+    },
+    "./circuit-board": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circuit-board.svelte"
+    },
+    "./clippy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clippy.svelte"
+    },
+    "./clock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock.svelte"
+    },
+    "./clock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-16.svelte"
+    },
+    "./clock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-24.svelte"
+    },
+    "./clock-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-fill-16.svelte"
+    },
+    "./clock-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-fill-24.svelte"
+    },
+    "./cloud-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-16.svelte"
+    },
+    "./cloud-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-24.svelte"
+    },
+    "./cloud-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-download.svelte"
+    },
+    "./cloud-offline-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-offline-16.svelte"
+    },
+    "./cloud-offline-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-offline-24.svelte"
+    },
+    "./cloud-upload": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-upload.svelte"
+    },
+    "./code": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code.svelte"
+    },
+    "./code-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-16.svelte"
+    },
+    "./code-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-24.svelte"
+    },
+    "./code-of-conduct-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-of-conduct-16.svelte"
+    },
+    "./code-of-conduct-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-of-conduct-24.svelte"
+    },
+    "./code-review-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-review-16.svelte"
+    },
+    "./code-review-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-review-24.svelte"
+    },
+    "./code-square-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-square-16.svelte"
+    },
+    "./code-square-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-square-24.svelte"
+    },
+    "./codescan-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codescan-16.svelte"
+    },
+    "./codescan-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codescan-24.svelte"
+    },
+    "./codescan-checkmark-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codescan-checkmark-16.svelte"
+    },
+    "./codescan-checkmark-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codescan-checkmark-24.svelte"
+    },
+    "./codespaces-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codespaces-16.svelte"
+    },
+    "./codespaces-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codespaces-24.svelte"
+    },
+    "./columns-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/columns-16.svelte"
+    },
+    "./columns-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/columns-24.svelte"
+    },
+    "./command-palette-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-palette-16.svelte"
+    },
+    "./command-palette-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command-palette-24.svelte"
+    },
+    "./comment": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment.svelte"
+    },
+    "./comment-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-16.svelte"
+    },
+    "./comment-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-24.svelte"
+    },
+    "./comment-ai-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-ai-16.svelte"
+    },
+    "./comment-ai-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-ai-24.svelte"
+    },
+    "./comment-discussion": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-discussion.svelte"
+    },
+    "./comment-discussion-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-discussion-16.svelte"
+    },
+    "./comment-discussion-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-discussion-24.svelte"
+    },
+    "./comment-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-fill-16.svelte"
+    },
+    "./comment-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-fill-24.svelte"
+    },
+    "./comment-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/comment-locked-16.svelte"
+    },
+    "./commit-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/commit-24.svelte"
+    },
+    "./compose-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compose-16.svelte"
+    },
+    "./compose-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compose-24.svelte"
+    },
+    "./container-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-16.svelte"
+    },
+    "./container-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/container-24.svelte"
+    },
+    "./copilot-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copilot-16.svelte"
+    },
+    "./copilot-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copilot-24.svelte"
+    },
+    "./copilot-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copilot-48.svelte"
+    },
+    "./copilot-96": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copilot-96.svelte"
+    },
+    "./copilot-error-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copilot-error-16.svelte"
+    },
+    "./copilot-warning-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copilot-warning-16.svelte"
+    },
+    "./copy-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-16.svelte"
+    },
+    "./copy-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/copy-24.svelte"
+    },
+    "./cpu-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-16.svelte"
+    },
+    "./cpu-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-24.svelte"
+    },
+    "./credit-card": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card.svelte"
+    },
+    "./credit-card-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card-16.svelte"
+    },
+    "./credit-card-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card-24.svelte"
+    },
+    "./cross-reference-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cross-reference-16.svelte"
+    },
+    "./cross-reference-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cross-reference-24.svelte"
+    },
+    "./crosshairs-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crosshairs-16.svelte"
+    },
+    "./crosshairs-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crosshairs-24.svelte"
+    },
+    "./dash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dash.svelte"
+    },
+    "./dash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dash-16.svelte"
+    },
+    "./dash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dash-24.svelte"
+    },
+    "./dashboard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dashboard.svelte"
+    },
+    "./database": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database.svelte"
+    },
+    "./database-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-16.svelte"
+    },
+    "./database-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-24.svelte"
+    },
+    "./dependabot-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dependabot-16.svelte"
+    },
+    "./dependabot-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dependabot-24.svelte"
+    },
+    "./desktop-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desktop-download.svelte"
+    },
+    "./desktop-download-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desktop-download-16.svelte"
+    },
+    "./desktop-download-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desktop-download-24.svelte"
+    },
+    "./device-camera-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-camera-16.svelte"
+    },
+    "./device-camera-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-camera-24.svelte"
+    },
+    "./device-camera-video": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-camera-video.svelte"
+    },
+    "./device-camera-video-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-camera-video-16.svelte"
+    },
+    "./device-camera-video-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-camera-video-24.svelte"
+    },
+    "./device-desktop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-desktop.svelte"
+    },
+    "./device-desktop-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-desktop-16.svelte"
+    },
+    "./device-desktop-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-desktop-24.svelte"
+    },
+    "./device-mobile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-mobile.svelte"
+    },
+    "./device-mobile-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-mobile-16.svelte"
+    },
+    "./device-mobile-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-mobile-24.svelte"
+    },
+    "./devices-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-16.svelte"
+    },
+    "./devices-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-24.svelte"
+    },
+    "./diamond-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diamond-16.svelte"
+    },
+    "./diamond-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diamond-24.svelte"
+    },
+    "./dice-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dice-16.svelte"
+    },
+    "./dice-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dice-24.svelte"
+    },
+    "./diff": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff.svelte"
+    },
+    "./diff-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-16.svelte"
+    },
+    "./diff-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-24.svelte"
+    },
+    "./diff-added": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-added.svelte"
+    },
+    "./diff-added-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-added-16.svelte"
+    },
+    "./diff-added-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-added-24.svelte"
+    },
+    "./diff-ignored": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-ignored.svelte"
+    },
+    "./diff-ignored-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-ignored-16.svelte"
+    },
+    "./diff-ignored-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-ignored-24.svelte"
+    },
+    "./diff-modified": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-modified.svelte"
+    },
+    "./diff-modified-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-modified-16.svelte"
+    },
+    "./diff-modified-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-modified-24.svelte"
+    },
+    "./diff-removed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-removed.svelte"
+    },
+    "./diff-removed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-removed-16.svelte"
+    },
+    "./diff-removed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-removed-24.svelte"
+    },
+    "./diff-renamed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-renamed.svelte"
+    },
+    "./diff-renamed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-renamed-16.svelte"
+    },
+    "./diff-renamed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diff-renamed-24.svelte"
+    },
+    "./discussion-closed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discussion-closed-16.svelte"
+    },
+    "./discussion-closed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discussion-closed-24.svelte"
+    },
+    "./discussion-duplicate-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discussion-duplicate-16.svelte"
+    },
+    "./discussion-duplicate-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discussion-duplicate-24.svelte"
+    },
+    "./discussion-outdated-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discussion-outdated-16.svelte"
+    },
+    "./discussion-outdated-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discussion-outdated-24.svelte"
+    },
+    "./dot-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-16.svelte"
+    },
+    "./dot-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-24.svelte"
+    },
+    "./dot-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-fill-16.svelte"
+    },
+    "./dot-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-fill-24.svelte"
+    },
+    "./download-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-16.svelte"
+    },
+    "./download-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/download-24.svelte"
+    },
+    "./duplicate-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/duplicate-16.svelte"
+    },
+    "./duplicate-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/duplicate-24.svelte"
+    },
+    "./ellipsis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis.svelte"
+    },
+    "./ellipsis-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-16.svelte"
+    },
+    "./ellipsis-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ellipsis-24.svelte"
+    },
+    "./exclamation-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-16.svelte"
+    },
+    "./exclamation-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-24.svelte"
+    },
+    "./eye": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye.svelte"
+    },
+    "./eye-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-16.svelte"
+    },
+    "./eye-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-24.svelte"
+    },
+    "./eye-closed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-closed.svelte"
+    },
+    "./eye-closed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-closed-16.svelte"
+    },
+    "./eye-closed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-closed-24.svelte"
+    },
+    "./feed-discussion-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-discussion-16.svelte"
+    },
+    "./feed-forked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-forked-16.svelte"
+    },
+    "./feed-heart-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-heart-16.svelte"
+    },
+    "./feed-issue-closed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-issue-closed-16.svelte"
+    },
+    "./feed-issue-draft-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-issue-draft-16.svelte"
+    },
+    "./feed-issue-open-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-issue-open-16.svelte"
+    },
+    "./feed-issue-reopen-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-issue-reopen-16.svelte"
+    },
+    "./feed-merged-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-merged-16.svelte"
+    },
+    "./feed-person-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-person-16.svelte"
+    },
+    "./feed-plus-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-plus-16.svelte"
+    },
+    "./feed-public-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-public-16.svelte"
+    },
+    "./feed-pull-request-closed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-pull-request-closed-16.svelte"
+    },
+    "./feed-pull-request-draft-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-pull-request-draft-16.svelte"
+    },
+    "./feed-pull-request-open-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-pull-request-open-16.svelte"
+    },
+    "./feed-repo-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-repo-16.svelte"
+    },
+    "./feed-rocket-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-rocket-16.svelte"
+    },
+    "./feed-star-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-star-16.svelte"
+    },
+    "./feed-tag-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-tag-16.svelte"
+    },
+    "./feed-trophy-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-trophy-16.svelte"
+    },
+    "./file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file.svelte"
+    },
+    "./file-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-16.svelte"
+    },
+    "./file-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-24.svelte"
+    },
+    "./file-added-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-added-16.svelte"
+    },
+    "./file-added-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-added-24.svelte"
+    },
+    "./file-badge-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-badge-16.svelte"
+    },
+    "./file-badge-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-badge-24.svelte"
+    },
+    "./file-binary": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-binary.svelte"
+    },
+    "./file-binary-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-binary-16.svelte"
+    },
+    "./file-binary-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-binary-24.svelte"
+    },
+    "./file-check-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-check-16.svelte"
+    },
+    "./file-check-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-check-24.svelte"
+    },
+    "./file-code": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-code.svelte"
+    },
+    "./file-code-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-code-16.svelte"
+    },
+    "./file-code-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-code-24.svelte"
+    },
+    "./file-diff-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-diff-16.svelte"
+    },
+    "./file-diff-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-diff-24.svelte"
+    },
+    "./file-directory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory.svelte"
+    },
+    "./file-directory-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-16.svelte"
+    },
+    "./file-directory-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-24.svelte"
+    },
+    "./file-directory-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-fill-16.svelte"
+    },
+    "./file-directory-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-fill-24.svelte"
+    },
+    "./file-directory-open-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-open-fill-16.svelte"
+    },
+    "./file-directory-open-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-open-fill-24.svelte"
+    },
+    "./file-directory-symlink-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-symlink-16.svelte"
+    },
+    "./file-directory-symlink-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-directory-symlink-24.svelte"
+    },
+    "./file-media": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-media.svelte"
+    },
+    "./file-media-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-media-16.svelte"
+    },
+    "./file-media-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-media-24.svelte"
+    },
+    "./file-moved-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-moved-16.svelte"
+    },
+    "./file-moved-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-moved-24.svelte"
+    },
+    "./file-pdf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-pdf.svelte"
+    },
+    "./file-removed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-removed-16.svelte"
+    },
+    "./file-removed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-removed-24.svelte"
+    },
+    "./file-submodule": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-submodule.svelte"
+    },
+    "./file-submodule-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-submodule-16.svelte"
+    },
+    "./file-submodule-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-submodule-24.svelte"
+    },
+    "./file-symlink-directory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-symlink-directory.svelte"
+    },
+    "./file-symlink-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-symlink-file.svelte"
+    },
+    "./file-symlink-file-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-symlink-file-16.svelte"
+    },
+    "./file-symlink-file-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-symlink-file-24.svelte"
+    },
+    "./file-zip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip.svelte"
+    },
+    "./file-zip-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-16.svelte"
+    },
+    "./file-zip-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-24.svelte"
+    },
+    "./filter-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-16.svelte"
+    },
+    "./filter-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-24.svelte"
+    },
+    "./filter-remove-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-remove-16.svelte"
+    },
+    "./filter-remove-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-remove-24.svelte"
+    },
+    "./fiscal-host-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fiscal-host-16.svelte"
+    },
+    "./fiscal-host-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fiscal-host-24.svelte"
+    },
+    "./flag-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-16.svelte"
+    },
+    "./flag-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-24.svelte"
+    },
+    "./flame": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flame.svelte"
+    },
+    "./flame-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flame-16.svelte"
+    },
+    "./flame-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flame-24.svelte"
+    },
+    "./flowchart-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flowchart-16.svelte"
+    },
+    "./flowchart-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flowchart-24.svelte"
+    },
+    "./focus-center-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/focus-center-16.svelte"
+    },
+    "./focus-center-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/focus-center-24.svelte"
+    },
+    "./fold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold.svelte"
+    },
+    "./fold-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-16.svelte"
+    },
+    "./fold-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-24.svelte"
+    },
+    "./fold-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-down.svelte"
+    },
+    "./fold-down-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-down-16.svelte"
+    },
+    "./fold-down-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-down-24.svelte"
+    },
+    "./fold-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-up.svelte"
+    },
+    "./fold-up-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-up-16.svelte"
+    },
+    "./fold-up-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fold-up-24.svelte"
+    },
+    "./gear": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gear.svelte"
+    },
+    "./gear-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gear-16.svelte"
+    },
+    "./gear-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gear-24.svelte"
+    },
+    "./gift": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift.svelte"
+    },
+    "./gift-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-16.svelte"
+    },
+    "./gift-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gift-24.svelte"
+    },
+    "./gist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gist.svelte"
+    },
+    "./gist-secret": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gist-secret.svelte"
+    },
+    "./git-branch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch.svelte"
+    },
+    "./git-branch-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-16.svelte"
+    },
+    "./git-branch-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-24.svelte"
+    },
+    "./git-branch-check-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-check-16.svelte"
+    },
+    "./git-branch-check-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-check-24.svelte"
+    },
+    "./git-commit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-commit.svelte"
+    },
+    "./git-commit-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-commit-16.svelte"
+    },
+    "./git-commit-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-commit-24.svelte"
+    },
+    "./git-compare": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-compare.svelte"
+    },
+    "./git-compare-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-compare-16.svelte"
+    },
+    "./git-compare-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-compare-24.svelte"
+    },
+    "./git-merge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-merge.svelte"
+    },
+    "./git-merge-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-merge-16.svelte"
+    },
+    "./git-merge-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-merge-24.svelte"
+    },
+    "./git-merge-queue-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-merge-queue-16.svelte"
+    },
+    "./git-merge-queue-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-merge-queue-24.svelte"
+    },
+    "./git-pull-request": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request.svelte"
+    },
+    "./git-pull-request-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-16.svelte"
+    },
+    "./git-pull-request-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-24.svelte"
+    },
+    "./git-pull-request-closed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-closed-16.svelte"
+    },
+    "./git-pull-request-closed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-closed-24.svelte"
+    },
+    "./git-pull-request-draft-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-draft-16.svelte"
+    },
+    "./git-pull-request-draft-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-draft-24.svelte"
+    },
+    "./git-pull-request-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-locked-16.svelte"
+    },
+    "./git-pull-request-unlisted-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-unlisted-16.svelte"
+    },
+    "./github-action": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-action.svelte"
+    },
+    "./globe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe.svelte"
+    },
+    "./globe-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-16.svelte"
+    },
+    "./globe-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-24.svelte"
+    },
+    "./goal-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/goal-16.svelte"
+    },
+    "./goal-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/goal-24.svelte"
+    },
+    "./grabber": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grabber.svelte"
+    },
+    "./grabber-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grabber-16.svelte"
+    },
+    "./grabber-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grabber-24.svelte"
+    },
+    "./graph": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph.svelte"
+    },
+    "./graph-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-16.svelte"
+    },
+    "./graph-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-24.svelte"
+    },
+    "./graph-bar-horizontal-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-bar-horizontal-16.svelte"
+    },
+    "./graph-bar-horizontal-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-bar-horizontal-24.svelte"
+    },
+    "./graph-bar-vertical-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-bar-vertical-16.svelte"
+    },
+    "./graph-bar-vertical-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-bar-vertical-24.svelte"
+    },
+    "./graph-stacked-area-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-stacked-area-16.svelte"
+    },
+    "./graph-stacked-area-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-stacked-area-24.svelte"
+    },
+    "./hash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hash-16.svelte"
+    },
+    "./hash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hash-24.svelte"
+    },
+    "./heading-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heading-16.svelte"
+    },
+    "./heading-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heading-24.svelte"
+    },
+    "./heart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart.svelte"
+    },
+    "./heart-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-16.svelte"
+    },
+    "./heart-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-24.svelte"
+    },
+    "./heart-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-fill-16.svelte"
+    },
+    "./heart-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-fill-24.svelte"
+    },
+    "./history": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history.svelte"
+    },
+    "./history-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-16.svelte"
+    },
+    "./history-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history-24.svelte"
+    },
+    "./home": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home.svelte"
+    },
+    "./home-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-16.svelte"
+    },
+    "./home-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-24.svelte"
+    },
+    "./home-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-fill-16.svelte"
+    },
+    "./home-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-fill-24.svelte"
+    },
+    "./horizontal-rule": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/horizontal-rule.svelte"
+    },
+    "./horizontal-rule-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/horizontal-rule-16.svelte"
+    },
+    "./horizontal-rule-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/horizontal-rule-24.svelte"
+    },
+    "./hourglass-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-16.svelte"
+    },
+    "./hourglass-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass-24.svelte"
+    },
+    "./hubot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hubot.svelte"
+    },
+    "./hubot-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hubot-16.svelte"
+    },
+    "./hubot-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hubot-24.svelte"
+    },
+    "./id-badge-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-16.svelte"
+    },
+    "./id-badge-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/id-badge-24.svelte"
+    },
+    "./image-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-16.svelte"
+    },
+    "./image-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-24.svelte"
+    },
+    "./inbox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox.svelte"
+    },
+    "./inbox-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-16.svelte"
+    },
+    "./inbox-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-24.svelte"
+    },
+    "./inbox-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-fill-16.svelte"
+    },
+    "./inbox-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inbox-fill-24.svelte"
+    },
+    "./infinity-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/infinity-16.svelte"
+    },
+    "./infinity-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/infinity-24.svelte"
+    },
+    "./info": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info.svelte"
+    },
+    "./info-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-16.svelte"
+    },
+    "./info-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/info-24.svelte"
+    },
+    "./insights-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/insights-24.svelte"
+    },
+    "./issue-closed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-closed.svelte"
+    },
+    "./issue-closed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-closed-16.svelte"
+    },
+    "./issue-closed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-closed-24.svelte"
+    },
+    "./issue-draft-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-draft-16.svelte"
+    },
+    "./issue-draft-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-draft-24.svelte"
+    },
+    "./issue-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-locked-16.svelte"
+    },
+    "./issue-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-opened.svelte"
+    },
+    "./issue-opened-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-opened-16.svelte"
+    },
+    "./issue-opened-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-opened-24.svelte"
+    },
+    "./issue-relates-to-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-relates-to-16.svelte"
+    },
+    "./issue-relates-to-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-relates-to-24.svelte"
+    },
+    "./issue-reopened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-reopened.svelte"
+    },
+    "./issue-reopened-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-reopened-16.svelte"
+    },
+    "./issue-reopened-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-reopened-24.svelte"
+    },
+    "./issue-tracked-by-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-tracked-by-16.svelte"
+    },
+    "./issue-tracked-by-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-tracked-by-24.svelte"
+    },
+    "./issue-tracks-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-tracks-16.svelte"
+    },
+    "./issue-tracks-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-tracks-24.svelte"
+    },
+    "./italic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/italic.svelte"
+    },
+    "./italic-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/italic-16.svelte"
+    },
+    "./italic-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/italic-24.svelte"
+    },
+    "./iterations-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iterations-16.svelte"
+    },
+    "./iterations-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iterations-24.svelte"
+    },
+    "./jersey": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jersey.svelte"
+    },
+    "./kebab-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kebab-horizontal.svelte"
+    },
+    "./kebab-horizontal-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kebab-horizontal-16.svelte"
+    },
+    "./kebab-horizontal-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kebab-horizontal-24.svelte"
+    },
+    "./kebab-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kebab-vertical.svelte"
+    },
+    "./key": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key.svelte"
+    },
+    "./key-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-16.svelte"
+    },
+    "./key-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-24.svelte"
+    },
+    "./key-asterisk-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-asterisk-16.svelte"
+    },
+    "./key-asterisk-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-asterisk-24.svelte"
+    },
+    "./keyboard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/keyboard.svelte"
+    },
+    "./law": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/law.svelte"
+    },
+    "./law-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/law-16.svelte"
+    },
+    "./law-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/law-24.svelte"
+    },
+    "./library-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-16.svelte"
+    },
+    "./library-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/library-24.svelte"
+    },
+    "./light-bulb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/light-bulb.svelte"
+    },
+    "./light-bulb-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/light-bulb-16.svelte"
+    },
+    "./light-bulb-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/light-bulb-24.svelte"
+    },
+    "./link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link.svelte"
+    },
+    "./link-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-16.svelte"
+    },
+    "./link-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-24.svelte"
+    },
+    "./link-external": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-external.svelte"
+    },
+    "./link-external-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-external-16.svelte"
+    },
+    "./link-external-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/link-external-24.svelte"
+    },
+    "./list-ordered": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-ordered.svelte"
+    },
+    "./list-ordered-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-ordered-16.svelte"
+    },
+    "./list-ordered-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-ordered-24.svelte"
+    },
+    "./list-unordered": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-unordered.svelte"
+    },
+    "./list-unordered-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-unordered-16.svelte"
+    },
+    "./list-unordered-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-unordered-24.svelte"
+    },
+    "./location": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location.svelte"
+    },
+    "./location-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-16.svelte"
+    },
+    "./location-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/location-24.svelte"
+    },
+    "./lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock.svelte"
+    },
+    "./lock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-16.svelte"
+    },
+    "./lock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-24.svelte"
+    },
+    "./lockup-github-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lockup-github-16.svelte"
+    },
+    "./lockup-github-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lockup-github-24.svelte"
+    },
+    "./log-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-16.svelte"
+    },
+    "./log-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-24.svelte"
+    },
+    "./logo-gist-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-gist-16.svelte"
+    },
+    "./logo-gist-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-gist-24.svelte"
+    },
+    "./logo-github-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-github-16.svelte"
+    },
+    "./logo-github-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-github-24.svelte"
+    },
+    "./loop-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loop-16.svelte"
+    },
+    "./loop-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loop-24.svelte"
+    },
+    "./mail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail.svelte"
+    },
+    "./mail-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-16.svelte"
+    },
+    "./mail-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-24.svelte"
+    },
+    "./mail-read": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-read.svelte"
+    },
+    "./mark-github-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mark-github-16.svelte"
+    },
+    "./mark-github-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mark-github-24.svelte"
+    },
+    "./markdown-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown-16.svelte"
+    },
+    "./markdown-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown-24.svelte"
+    },
+    "./maximize-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maximize-16.svelte"
+    },
+    "./maximize-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maximize-24.svelte"
+    },
+    "./mcp-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mcp-16.svelte"
+    },
+    "./mcp-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mcp-24.svelte"
+    },
+    "./megaphone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone.svelte"
+    },
+    "./megaphone-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone-16.svelte"
+    },
+    "./megaphone-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/megaphone-24.svelte"
+    },
+    "./mention": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mention.svelte"
+    },
+    "./mention-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mention-16.svelte"
+    },
+    "./mention-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mention-24.svelte"
+    },
+    "./meter-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meter-16.svelte"
+    },
+    "./meter-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meter-24.svelte"
+    },
+    "./milestone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/milestone.svelte"
+    },
+    "./milestone-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/milestone-16.svelte"
+    },
+    "./milestone-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/milestone-24.svelte"
+    },
+    "./minimize-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minimize-16.svelte"
+    },
+    "./minimize-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minimize-24.svelte"
+    },
+    "./mirror": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror.svelte"
+    },
+    "./mirror-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-16.svelte"
+    },
+    "./mirror-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-24.svelte"
+    },
+    "./moon-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-16.svelte"
+    },
+    "./moon-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-24.svelte"
+    },
+    "./mortar-board": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mortar-board.svelte"
+    },
+    "./mortar-board-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mortar-board-16.svelte"
+    },
+    "./mortar-board-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mortar-board-24.svelte"
+    },
+    "./move-to-bottom-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-bottom-16.svelte"
+    },
+    "./move-to-bottom-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-bottom-24.svelte"
+    },
+    "./move-to-end-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-end-16.svelte"
+    },
+    "./move-to-end-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-end-24.svelte"
+    },
+    "./move-to-start-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-start-16.svelte"
+    },
+    "./move-to-start-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-start-24.svelte"
+    },
+    "./move-to-top-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-top-16.svelte"
+    },
+    "./move-to-top-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-to-top-24.svelte"
+    },
+    "./multi-select-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/multi-select-16.svelte"
+    },
+    "./multi-select-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/multi-select-24.svelte"
+    },
+    "./mute": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mute.svelte"
+    },
+    "./mute-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mute-16.svelte"
+    },
+    "./mute-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mute-24.svelte"
+    },
+    "./no-entry-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-entry-16.svelte"
+    },
+    "./no-entry-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-entry-24.svelte"
+    },
+    "./no-entry-fill-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-entry-fill-12.svelte"
+    },
+    "./no-newline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/no-newline.svelte"
+    },
+    "./node-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/node-16.svelte"
+    },
+    "./node-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/node-24.svelte"
+    },
+    "./north-star-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/north-star-16.svelte"
+    },
+    "./north-star-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/north-star-24.svelte"
+    },
+    "./note": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/note.svelte"
+    },
+    "./note-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/note-16.svelte"
+    },
+    "./note-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/note-24.svelte"
+    },
+    "./number-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/number-16.svelte"
+    },
+    "./number-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/number-24.svelte"
+    },
+    "./octoface": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octoface.svelte"
+    },
+    "./octoface-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octoface-16.svelte"
+    },
+    "./octoface-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octoface-24.svelte"
+    },
+    "./organization": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/organization.svelte"
+    },
+    "./organization-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/organization-16.svelte"
+    },
+    "./organization-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/organization-24.svelte"
+    },
+    "./package": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package.svelte"
+    },
+    "./package-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-16.svelte"
+    },
+    "./package-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-24.svelte"
+    },
+    "./package-dependencies-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-dependencies-16.svelte"
+    },
+    "./package-dependencies-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-dependencies-24.svelte"
+    },
+    "./package-dependents-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-dependents-16.svelte"
+    },
+    "./package-dependents-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-dependents-24.svelte"
+    },
+    "./paintbrush-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paintbrush-16.svelte"
+    },
+    "./paintbrush-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paintbrush-24.svelte"
+    },
+    "./paintcan": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paintcan.svelte"
+    },
+    "./paper-airplane-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paper-airplane-16.svelte"
+    },
+    "./paper-airplane-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paper-airplane-24.svelte"
+    },
+    "./paperclip-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paperclip-16.svelte"
+    },
+    "./paperclip-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paperclip-24.svelte"
+    },
+    "./passkey-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/passkey-fill-16.svelte"
+    },
+    "./passkey-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/passkey-fill-24.svelte"
+    },
+    "./paste-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-16.svelte"
+    },
+    "./paste-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-24.svelte"
+    },
+    "./pause-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause-16.svelte"
+    },
+    "./pause-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause-24.svelte"
+    },
+    "./pencil": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil.svelte"
+    },
+    "./pencil-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-16.svelte"
+    },
+    "./pencil-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-24.svelte"
+    },
+    "./pencil-ai-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-ai-16.svelte"
+    },
+    "./pencil-ai-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-ai-24.svelte"
+    },
+    "./people-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-16.svelte"
+    },
+    "./people-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-24.svelte"
+    },
+    "./person": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person.svelte"
+    },
+    "./person-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-16.svelte"
+    },
+    "./person-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-24.svelte"
+    },
+    "./person-add-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-add-16.svelte"
+    },
+    "./person-add-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-add-24.svelte"
+    },
+    "./person-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-fill-16.svelte"
+    },
+    "./person-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-fill-24.svelte"
+    },
+    "./pin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin.svelte"
+    },
+    "./pin-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-16.svelte"
+    },
+    "./pin-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-24.svelte"
+    },
+    "./pin-slash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-slash-16.svelte"
+    },
+    "./pin-slash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin-slash-24.svelte"
+    },
+    "./pivot-column-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pivot-column-16.svelte"
+    },
+    "./pivot-column-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pivot-column-24.svelte"
+    },
+    "./play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play.svelte"
+    },
+    "./plug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug.svelte"
+    },
+    "./plug-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-16.svelte"
+    },
+    "./plug-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-24.svelte"
+    },
+    "./plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus.svelte"
+    },
+    "./plus-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-16.svelte"
+    },
+    "./plus-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-24.svelte"
+    },
+    "./plus-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-circle-16.svelte"
+    },
+    "./plus-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-circle-24.svelte"
+    },
+    "./plus-small": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-small.svelte"
+    },
+    "./primitive-dot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/primitive-dot.svelte"
+    },
+    "./primitive-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/primitive-square.svelte"
+    },
+    "./project": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project.svelte"
+    },
+    "./project-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-16.svelte"
+    },
+    "./project-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-24.svelte"
+    },
+    "./project-check-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-check-16.svelte"
+    },
+    "./project-check-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-check-24.svelte"
+    },
+    "./project-roadmap-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-roadmap-16.svelte"
+    },
+    "./project-roadmap-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-roadmap-24.svelte"
+    },
+    "./project-symlink-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-symlink-16.svelte"
+    },
+    "./project-symlink-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-symlink-24.svelte"
+    },
+    "./project-template-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-template-16.svelte"
+    },
+    "./project-template-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/project-template-24.svelte"
+    },
+    "./pulse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pulse.svelte"
+    },
+    "./pulse-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pulse-16.svelte"
+    },
+    "./pulse-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pulse-24.svelte"
+    },
+    "./question": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question.svelte"
+    },
+    "./question-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-16.svelte"
+    },
+    "./question-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-24.svelte"
+    },
+    "./question-bubble-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-bubble-16.svelte"
+    },
+    "./question-bubble-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-bubble-24.svelte"
+    },
+    "./quote": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quote.svelte"
+    },
+    "./quote-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quote-16.svelte"
+    },
+    "./quote-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quote-24.svelte"
+    },
+    "./radio-tower": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/radio-tower.svelte"
+    },
+    "./read-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/read-16.svelte"
+    },
+    "./read-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/read-24.svelte"
+    },
+    "./redo-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redo-16.svelte"
+    },
+    "./redo-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redo-24.svelte"
+    },
+    "./rel-file-path-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rel-file-path-16.svelte"
+    },
+    "./rel-file-path-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rel-file-path-24.svelte"
+    },
+    "./reply": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reply.svelte"
+    },
+    "./reply-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reply-16.svelte"
+    },
+    "./reply-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reply-24.svelte"
+    },
+    "./repo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo.svelte"
+    },
+    "./repo-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-16.svelte"
+    },
+    "./repo-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-24.svelte"
+    },
+    "./repo-clone-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-clone-16.svelte"
+    },
+    "./repo-clone-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-clone-24.svelte"
+    },
+    "./repo-delete-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-delete-16.svelte"
+    },
+    "./repo-delete-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-delete-24.svelte"
+    },
+    "./repo-force-push": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-force-push.svelte"
+    },
+    "./repo-forked": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-forked.svelte"
+    },
+    "./repo-forked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-forked-16.svelte"
+    },
+    "./repo-forked-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-forked-24.svelte"
+    },
+    "./repo-forked-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-forked-locked-16.svelte"
+    },
+    "./repo-forked-locked-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-forked-locked-24.svelte"
+    },
+    "./repo-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-locked-16.svelte"
+    },
+    "./repo-locked-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-locked-24.svelte"
+    },
+    "./repo-pull-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-pull-16.svelte"
+    },
+    "./repo-pull-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-pull-24.svelte"
+    },
+    "./repo-push": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-push.svelte"
+    },
+    "./repo-push-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-push-16.svelte"
+    },
+    "./repo-push-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-push-24.svelte"
+    },
+    "./repo-template-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-template-16.svelte"
+    },
+    "./repo-template-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-template-24.svelte"
+    },
+    "./report": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/report.svelte"
+    },
+    "./report-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/report-16.svelte"
+    },
+    "./report-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/report-24.svelte"
+    },
+    "./request-changes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/request-changes.svelte"
+    },
+    "./rocket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rocket.svelte"
+    },
+    "./rocket-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rocket-16.svelte"
+    },
+    "./rocket-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rocket-24.svelte"
+    },
+    "./rows-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-16.svelte"
+    },
+    "./rows-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-24.svelte"
+    },
+    "./rss": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rss.svelte"
+    },
+    "./rss-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rss-16.svelte"
+    },
+    "./rss-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rss-24.svelte"
+    },
+    "./ruby": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruby.svelte"
+    },
+    "./ruby-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruby-16.svelte"
+    },
+    "./ruby-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruby-24.svelte"
+    },
+    "./sandbox-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sandbox-16.svelte"
+    },
+    "./screen-full": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-full.svelte"
+    },
+    "./screen-full-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-full-16.svelte"
+    },
+    "./screen-full-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-full-24.svelte"
+    },
+    "./screen-normal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-normal.svelte"
+    },
+    "./screen-normal-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-normal-16.svelte"
+    },
+    "./screen-normal-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-normal-24.svelte"
+    },
+    "./search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search.svelte"
+    },
+    "./search-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-16.svelte"
+    },
+    "./search-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-24.svelte"
+    },
+    "./server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server.svelte"
+    },
+    "./server-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-16.svelte"
+    },
+    "./server-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-24.svelte"
+    },
+    "./settings": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings.svelte"
+    },
+    "./settings-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/settings-24.svelte"
+    },
+    "./share-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-16.svelte"
+    },
+    "./share-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-24.svelte"
+    },
+    "./share-android-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-android-16.svelte"
+    },
+    "./share-android-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/share-android-24.svelte"
+    },
+    "./shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield.svelte"
+    },
+    "./shield-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-16.svelte"
+    },
+    "./shield-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-24.svelte"
+    },
+    "./shield-check-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-check-16.svelte"
+    },
+    "./shield-check-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-check-24.svelte"
+    },
+    "./shield-lock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-lock-16.svelte"
+    },
+    "./shield-lock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-lock-24.svelte"
+    },
+    "./shield-slash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-slash-16.svelte"
+    },
+    "./shield-slash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-slash-24.svelte"
+    },
+    "./shield-x-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-x-16.svelte"
+    },
+    "./shield-x-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-x-24.svelte"
+    },
+    "./sidebar-collapse-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sidebar-collapse-16.svelte"
+    },
+    "./sidebar-collapse-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sidebar-collapse-24.svelte"
+    },
+    "./sidebar-expand-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sidebar-expand-16.svelte"
+    },
+    "./sidebar-expand-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sidebar-expand-24.svelte"
+    },
+    "./sign-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-in.svelte"
+    },
+    "./sign-in-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-in-16.svelte"
+    },
+    "./sign-in-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-in-24.svelte"
+    },
+    "./sign-out": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-out.svelte"
+    },
+    "./sign-out-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-out-16.svelte"
+    },
+    "./sign-out-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sign-out-24.svelte"
+    },
+    "./single-select-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/single-select-16.svelte"
+    },
+    "./single-select-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/single-select-24.svelte"
+    },
+    "./skip-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skip-16.svelte"
+    },
+    "./skip-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skip-24.svelte"
+    },
+    "./skip-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skip-fill-16.svelte"
+    },
+    "./skip-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skip-fill-24.svelte"
+    },
+    "./sliders-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sliders-16.svelte"
+    },
+    "./sliders-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sliders-24.svelte"
+    },
+    "./smiley": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley.svelte"
+    },
+    "./smiley-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-16.svelte"
+    },
+    "./smiley-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-24.svelte"
+    },
+    "./smiley-frown-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-frown-16.svelte"
+    },
+    "./smiley-frown-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-frown-24.svelte"
+    },
+    "./smiley-frustrated-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-frustrated-16.svelte"
+    },
+    "./smiley-frustrated-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-frustrated-24.svelte"
+    },
+    "./smiley-grin-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-grin-16.svelte"
+    },
+    "./smiley-grin-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-grin-24.svelte"
+    },
+    "./smiley-neutral-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-neutral-16.svelte"
+    },
+    "./smiley-neutral-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smiley-neutral-24.svelte"
+    },
+    "./sort-asc-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-asc-16.svelte"
+    },
+    "./sort-asc-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-asc-24.svelte"
+    },
+    "./sort-desc-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-desc-16.svelte"
+    },
+    "./sort-desc-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-desc-24.svelte"
+    },
+    "./space-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/space-16.svelte"
+    },
+    "./space-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/space-24.svelte"
+    },
+    "./spacing-large-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spacing-large-16.svelte"
+    },
+    "./spacing-large-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spacing-large-24.svelte"
+    },
+    "./spacing-medium-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spacing-medium-16.svelte"
+    },
+    "./spacing-medium-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spacing-medium-24.svelte"
+    },
+    "./spacing-small-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spacing-small-16.svelte"
+    },
+    "./spacing-small-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spacing-small-24.svelte"
+    },
+    "./sparkle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkle-16.svelte"
+    },
+    "./sparkle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkle-24.svelte"
+    },
+    "./sparkle-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkle-fill-16.svelte"
+    },
+    "./sparkle-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkle-fill-24.svelte"
+    },
+    "./sparkles-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkles-fill-16.svelte"
+    },
+    "./sparkles-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkles-fill-24.svelte"
+    },
+    "./split-view-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-view-16.svelte"
+    },
+    "./split-view-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-view-24.svelte"
+    },
+    "./sponsor-tiers-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sponsor-tiers-16.svelte"
+    },
+    "./sponsor-tiers-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sponsor-tiers-24.svelte"
+    },
+    "./square-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-16.svelte"
+    },
+    "./square-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-24.svelte"
+    },
+    "./square-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-circle-16.svelte"
+    },
+    "./square-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-circle-24.svelte"
+    },
+    "./square-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-fill-16.svelte"
+    },
+    "./square-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-fill-24.svelte"
+    },
+    "./squirrel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squirrel.svelte"
+    },
+    "./squirrel-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squirrel-16.svelte"
+    },
+    "./squirrel-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squirrel-24.svelte"
+    },
+    "./stack-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-16.svelte"
+    },
+    "./stack-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-24.svelte"
+    },
+    "./stack-add-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-add-16.svelte"
+    },
+    "./stack-check-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-check-16.svelte"
+    },
+    "./stack-remove-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-remove-16.svelte"
+    },
+    "./star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star.svelte"
+    },
+    "./star-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-16.svelte"
+    },
+    "./star-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-24.svelte"
+    },
+    "./star-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-fill-16.svelte"
+    },
+    "./star-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-fill-24.svelte"
+    },
+    "./stop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop.svelte"
+    },
+    "./stop-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop-16.svelte"
+    },
+    "./stop-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stop-24.svelte"
+    },
+    "./stopwatch-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stopwatch-16.svelte"
+    },
+    "./stopwatch-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stopwatch-24.svelte"
+    },
+    "./strikethrough-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/strikethrough-16.svelte"
+    },
+    "./strikethrough-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/strikethrough-24.svelte"
+    },
+    "./sun-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sun-16.svelte"
+    },
+    "./sun-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sun-24.svelte"
+    },
+    "./sync": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sync.svelte"
+    },
+    "./sync-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sync-16.svelte"
+    },
+    "./sync-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sync-24.svelte"
+    },
+    "./tab-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tab-16.svelte"
+    },
+    "./tab-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tab-24.svelte"
+    },
+    "./tab-external-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tab-external-16.svelte"
+    },
+    "./tab-external-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tab-external-24.svelte"
+    },
+    "./table-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-16.svelte"
+    },
+    "./table-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-24.svelte"
+    },
+    "./tag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag.svelte"
+    },
+    "./tag-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-16.svelte"
+    },
+    "./tag-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-24.svelte"
+    },
+    "./tasklist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasklist.svelte"
+    },
+    "./tasklist-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasklist-16.svelte"
+    },
+    "./tasklist-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tasklist-24.svelte"
+    },
+    "./telescope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope.svelte"
+    },
+    "./telescope-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-16.svelte"
+    },
+    "./telescope-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-24.svelte"
+    },
+    "./telescope-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-fill-16.svelte"
+    },
+    "./telescope-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-fill-24.svelte"
+    },
+    "./terminal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal.svelte"
+    },
+    "./terminal-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-16.svelte"
+    },
+    "./terminal-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-24.svelte"
+    },
+    "./terminal-locked-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-locked-16.svelte"
+    },
+    "./terminal-locked-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-locked-24.svelte"
+    },
+    "./text-size": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-size.svelte"
+    },
+    "./three-bars": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/three-bars.svelte"
+    },
+    "./three-bars-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/three-bars-16.svelte"
+    },
+    "./three-bars-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/three-bars-24.svelte"
+    },
+    "./thumbsdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbsdown.svelte"
+    },
+    "./thumbsdown-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbsdown-16.svelte"
+    },
+    "./thumbsdown-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbsdown-24.svelte"
+    },
+    "./thumbsup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbsup.svelte"
+    },
+    "./thumbsup-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbsup-16.svelte"
+    },
+    "./thumbsup-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbsup-24.svelte"
+    },
+    "./tools": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools.svelte"
+    },
+    "./tools-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools-16.svelte"
+    },
+    "./tools-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools-24.svelte"
+    },
+    "./tracked-by-closed-completed-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tracked-by-closed-completed-16.svelte"
+    },
+    "./tracked-by-closed-completed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tracked-by-closed-completed-24.svelte"
+    },
+    "./tracked-by-closed-not-planned-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tracked-by-closed-not-planned-16.svelte"
+    },
+    "./tracked-by-closed-not-planned-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tracked-by-closed-not-planned-24.svelte"
+    },
+    "./trash-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash-16.svelte"
+    },
+    "./trash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash-24.svelte"
+    },
+    "./trashcan": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trashcan.svelte"
+    },
+    "./triangle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-16.svelte"
+    },
+    "./triangle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-24.svelte"
+    },
+    "./triangle-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-circle-16.svelte"
+    },
+    "./triangle-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-circle-24.svelte"
+    },
+    "./triangle-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-down.svelte"
+    },
+    "./triangle-down-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-down-16.svelte"
+    },
+    "./triangle-down-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-down-24.svelte"
+    },
+    "./triangle-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-fill-16.svelte"
+    },
+    "./triangle-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-fill-24.svelte"
+    },
+    "./triangle-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-left.svelte"
+    },
+    "./triangle-left-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-left-16.svelte"
+    },
+    "./triangle-left-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-left-24.svelte"
+    },
+    "./triangle-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-right.svelte"
+    },
+    "./triangle-right-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-right-16.svelte"
+    },
+    "./triangle-right-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-right-24.svelte"
+    },
+    "./triangle-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-up.svelte"
+    },
+    "./triangle-up-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-up-16.svelte"
+    },
+    "./triangle-up-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-up-24.svelte"
+    },
+    "./trophy-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-16.svelte"
+    },
+    "./trophy-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy-24.svelte"
+    },
+    "./typography-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typography-16.svelte"
+    },
+    "./typography-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typography-24.svelte"
+    },
+    "./undo-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/undo-16.svelte"
+    },
+    "./undo-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/undo-24.svelte"
+    },
+    "./unfold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unfold.svelte"
+    },
+    "./unfold-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unfold-16.svelte"
+    },
+    "./unfold-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unfold-24.svelte"
+    },
+    "./unlink-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlink-16.svelte"
+    },
+    "./unlink-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlink-24.svelte"
+    },
+    "./unlock-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlock-16.svelte"
+    },
+    "./unlock-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unlock-24.svelte"
+    },
+    "./unmute": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unmute.svelte"
+    },
+    "./unmute-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unmute-16.svelte"
+    },
+    "./unmute-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unmute-24.svelte"
+    },
+    "./unread-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unread-16.svelte"
+    },
+    "./unread-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unread-24.svelte"
+    },
+    "./unverified": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unverified.svelte"
+    },
+    "./unverified-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unverified-16.svelte"
+    },
+    "./unverified-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unverified-24.svelte"
+    },
+    "./unwrap-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unwrap-16.svelte"
+    },
+    "./unwrap-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unwrap-24.svelte"
+    },
+    "./upload-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-16.svelte"
+    },
+    "./upload-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/upload-24.svelte"
+    },
+    "./verified": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/verified.svelte"
+    },
+    "./verified-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/verified-16.svelte"
+    },
+    "./verified-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/verified-24.svelte"
+    },
+    "./versions": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/versions.svelte"
+    },
+    "./versions-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/versions-16.svelte"
+    },
+    "./versions-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/versions-24.svelte"
+    },
+    "./video-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-16.svelte"
+    },
+    "./video-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-24.svelte"
+    },
+    "./view-files-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-files-16.svelte"
+    },
+    "./view-files-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-files-24.svelte"
+    },
+    "./vscode-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode-16.svelte"
+    },
+    "./vscode-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode-24.svelte"
+    },
+    "./vscode-32": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode-32.svelte"
+    },
+    "./vscode-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode-48.svelte"
+    },
+    "./watch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/watch.svelte"
+    },
+    "./webhook-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webhook-16.svelte"
+    },
+    "./workflow-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/workflow-16.svelte"
+    },
+    "./workflow-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/workflow-24.svelte"
+    },
+    "./wrap-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrap-16.svelte"
+    },
+    "./wrap-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrap-24.svelte"
+    },
+    "./x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x.svelte"
+    },
+    "./x-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-12.svelte"
+    },
+    "./x-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-16.svelte"
+    },
+    "./x-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-24.svelte"
+    },
+    "./x-circle-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-circle-16.svelte"
+    },
+    "./x-circle-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-circle-24.svelte"
+    },
+    "./x-circle-fill-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-circle-fill-12.svelte"
+    },
+    "./x-circle-fill-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-circle-fill-16.svelte"
+    },
+    "./x-circle-fill-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-circle-fill-24.svelte"
+    },
+    "./zap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zap.svelte"
+    },
+    "./zap-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zap-16.svelte"
+    },
+    "./zap-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zap-24.svelte"
+    },
+    "./zoom-in-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-in-16.svelte"
+    },
+    "./zoom-in-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-in-24.svelte"
+    },
+    "./zoom-out-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-out-16.svelte"
+    },
+    "./zoom-out-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-out-24.svelte"
+    },
+    "./bookmark-filled-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-filled-16.svelte"
+    },
+    "./bug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bug.svelte"
+    },
+    "./clippy-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clippy-16.svelte"
+    },
+    "./clippy-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clippy-24.svelte"
+    },
+    "./device-camera": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/device-camera.svelte"
+    },
+    "./eye-slash-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eye-slash-24.svelte"
+    },
+    "./file-symlink-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-symlink-24.svelte"
+    },
+    "./fire-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-24.svelte"
+    },
+    "./git-fork-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-fork-24.svelte"
+    },
+    "./issue-tracked-in-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-tracked-in-16.svelte"
+    },
+    "./issue-tracked-in-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/issue-tracked-in-24.svelte"
+    },
+    "./logo-gist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-gist.svelte"
+    },
+    "./logo-github": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-github.svelte"
+    },
+    "./mark-github": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mark-github.svelte"
+    },
+    "./markdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown.svelte"
+    },
+    "./play-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play-16.svelte"
+    },
+    "./play-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/play-24.svelte"
+    },
+    "./repo-clone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-clone.svelte"
+    },
+    "./repo-deleted-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-deleted-16.svelte"
+    },
+    "./repo-pull": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repo-pull.svelte"
+    },
+    "./select-single-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/select-single-16.svelte"
+    },
+    "./trashcan-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trashcan-16.svelte"
+    },
+    "./unverifed-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unverifed-24.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#octicon"
+}

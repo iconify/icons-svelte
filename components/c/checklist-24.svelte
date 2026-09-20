@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/l/lw5jslsmt.css';
+import '../../css/l/l5ucbdcah.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lw5jslsmt"/><path class="l5ucbdcah"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="octicon:checklist-24" {...props}></Icon>

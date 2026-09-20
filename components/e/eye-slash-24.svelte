@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/s/szb27ezbg.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="szb27ezbg"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="octicon:eye-slash-24" {...props}></Icon>
