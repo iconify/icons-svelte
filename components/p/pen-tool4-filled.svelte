@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/y/y24_45omj.css';
+import '../../css/e/eft13r6pp.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="y24_45omj"/><path class="eft13r6pp"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="reicon:pen-tool4-filled" {...props}></Icon>

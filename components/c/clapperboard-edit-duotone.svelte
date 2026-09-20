@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/l/lvwbaqb1f.css';
+import '../../css/g/g1jyq1e1a.css';
+import '../../css/k/kfalkfbzo.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="lvwbaqb1f"/><path clip-rule="evenodd" class="g1jyq1e1a"/><path class="kfalkfbzo"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="reicon:clapperboard-edit-duotone" {...props}></Icon>

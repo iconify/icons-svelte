@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/q/q9fcwidun.css';
+import '../../css/a/a2ujucc-o.css';
+import '../../css/w/w9p3ambxu.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="q9fcwidun"/><path class="a2ujucc-o"/><path clip-rule="evenodd" class="w9p3ambxu"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="reicon:memo-minus" {...props}></Icon>

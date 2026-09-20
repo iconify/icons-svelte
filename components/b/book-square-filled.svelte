@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/v/vd5eemdne.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vd5eemdne"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="reicon:book-square-filled" {...props}></Icon>

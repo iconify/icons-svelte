@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/b/b6vxvox9y.css';
+import '../../css/m/mrxlb0n2j.css';
+import '../../css/k/k_4uaccxm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="b6vxvox9y"/><path class="mrxlb0n2j"/><path class="k_4uaccxm"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="reicon:filters-duotone" {...props}></Icon>

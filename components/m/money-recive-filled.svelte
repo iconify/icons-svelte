@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/p/p5wwzt7iy.css';
+import '../../css/k/khgtwubok.css';
+import '../../css/s/seiis-bzt.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="p5wwzt7iy"/><path class="khgtwubok"/><path class="seiis-bzt"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="reicon:money-recive-filled" {...props}></Icon>

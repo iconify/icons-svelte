@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/h/hntgybcog.css';
+import '../../css/n/nxn4riv4n.css';
+import '../../css/x/xtwadebck.css';
+import '../../css/o/oj8w4xbvf.css';
+import '../../css/a/aeq8lyaql.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="nxn4riv4n"/><path class="xtwadebck"/><path class="oj8w4xbvf"/><path class="aeq8lyaql"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="reicon:wallet-check" {...props}></Icon>
