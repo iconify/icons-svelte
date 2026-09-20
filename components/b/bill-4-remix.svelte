@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/j/jts0sc04i.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":14,"height":14};
+const content = `<path clip-rule="evenodd" class="jts0sc04i"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="streamline:bill-4-remix" {...props}></Icon>
