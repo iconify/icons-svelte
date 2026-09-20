@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/neh7qo-0n.css';
+import '../../css/x/xs83kkb9k.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<path clip-rule="evenodd" class="neh7qo-0n"/><path class="xs83kkb9k"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ix:notebook-filled" {...props}></Icon>
