@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/octicon",
   "type": "module",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "homepage": "https://icon-sets.iconify.design/octicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -821,6 +821,14 @@
     "./crosshairs-24": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/crosshairs-24.svelte"
+    },
+    "./cursor-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-16.svelte"
+    },
+    "./cursor-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cursor-24.svelte"
     },
     "./dash": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2489,6 +2497,14 @@
     "./person-add-24": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/person-add-24.svelte"
+    },
+    "./person-cursor-16": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-cursor-16.svelte"
+    },
+    "./person-cursor-24": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-cursor-24.svelte"
     },
     "./person-fill-16": {
       "types": "./types/gfwqskkx.d.ts",
