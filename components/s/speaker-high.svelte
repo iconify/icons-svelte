@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/d/dyrcd-bsw.css';
+import '../../css/i/i-s5vhb2l.css';
+import '../../css/h/hqszsznzc.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="dyrcd-bsw"/><path class="i-s5vhb2l"/><path class="hqszsznzc"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pepicons-pencil:speaker-high" {...props}></Icon>

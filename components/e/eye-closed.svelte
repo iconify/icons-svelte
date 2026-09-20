@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/n/ng9vtx4ft.css';
+import '../../css/h/h4t313bie.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path class="ng9vtx4ft"/><path class="h4t313bie"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pepicons-pencil:eye-closed" {...props}></Icon>
