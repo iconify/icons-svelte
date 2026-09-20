@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/q/q2f0_tbdl.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="q2f0_tbdl"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mynaui:threads" {...props}></Icon>

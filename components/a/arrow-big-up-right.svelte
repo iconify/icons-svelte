@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/i/itmyjfbsy.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="itmyjfbsy"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mynaui:arrow-big-up-right" {...props}></Icon>

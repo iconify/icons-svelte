@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/h/hntgybcog.css';
+import '../../css/t/tzagp_bxl.css';
+import '../../css/h/hp8mvujfg.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="tzagp_bxl"/><path class="hp8mvujfg"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mynaui:rewind-waves" {...props}></Icon>

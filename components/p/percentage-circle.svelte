@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/j/j1gk-vf-z.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="j1gk-vf-z"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mynaui:percentage-circle" {...props}></Icon>
