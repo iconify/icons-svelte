@@ -1,0 +1,5463 @@
+{
+  "name": "@iconify-svelte/streamline-logos",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/streamline-logos/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./3ds-max-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/3ds-max-logo.svelte"
+    },
+    "./3ds-max-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/3ds-max-logo-block.svelte"
+    },
+    "./3ds-max-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/3ds-max-logo-solid.svelte"
+    },
+    "./500px-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px-logo-1.svelte"
+    },
+    "./500px-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px-logo-1-block.svelte"
+    },
+    "./500px-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px-logo-1-solid.svelte"
+    },
+    "./500px-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px-logo-2.svelte"
+    },
+    "./500px-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px-logo-2-block.svelte"
+    },
+    "./500px-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/500px-logo-2-solid.svelte"
+    },
+    "./about-me-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/about-me-logo.svelte"
+    },
+    "./about-me-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/about-me-logo-block.svelte"
+    },
+    "./about-me-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/about-me-logo-solid.svelte"
+    },
+    "./adobe-after-effects-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-after-effects-logo.svelte"
+    },
+    "./adobe-after-effects-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-after-effects-logo-block.svelte"
+    },
+    "./adobe-after-effects-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-after-effects-logo-solid.svelte"
+    },
+    "./adobe-animate-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-animate-logo.svelte"
+    },
+    "./adobe-animate-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-animate-logo-block.svelte"
+    },
+    "./adobe-animate-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-animate-logo-solid.svelte"
+    },
+    "./adobe-audio-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-audio-logo.svelte"
+    },
+    "./adobe-audio-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-audio-logo-block.svelte"
+    },
+    "./adobe-audio-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-audio-logo-solid.svelte"
+    },
+    "./adobe-bridge-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-bridge-logo.svelte"
+    },
+    "./adobe-bridge-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-bridge-logo-block.svelte"
+    },
+    "./adobe-bridge-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-bridge-logo-solid.svelte"
+    },
+    "./adobe-cloud-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-cloud-logo.svelte"
+    },
+    "./adobe-cloud-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-cloud-logo-block.svelte"
+    },
+    "./adobe-cloud-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-cloud-logo-solid.svelte"
+    },
+    "./adobe-illustrator-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-illustrator-logo.svelte"
+    },
+    "./adobe-illustrator-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-illustrator-logo-block.svelte"
+    },
+    "./adobe-illustrator-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-illustrator-logo-solid.svelte"
+    },
+    "./adobe-indesign-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-indesign-logo.svelte"
+    },
+    "./adobe-indesign-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-indesign-logo-block.svelte"
+    },
+    "./adobe-indesign-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-indesign-logo-solid.svelte"
+    },
+    "./adobe-lightroom-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-lightroom-logo.svelte"
+    },
+    "./adobe-lightroom-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-lightroom-logo-block.svelte"
+    },
+    "./adobe-lightroom-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-lightroom-logo-solid.svelte"
+    },
+    "./adobe-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-logo.svelte"
+    },
+    "./adobe-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-logo-block.svelte"
+    },
+    "./adobe-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-logo-solid.svelte"
+    },
+    "./adobe-photoshop-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-photoshop-logo.svelte"
+    },
+    "./adobe-photoshop-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-photoshop-logo-block.svelte"
+    },
+    "./adobe-photoshop-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-photoshop-logo-solid.svelte"
+    },
+    "./adobe-premiere-pro-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-premiere-pro-logo.svelte"
+    },
+    "./adobe-premiere-pro-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-premiere-pro-logo-block.svelte"
+    },
+    "./adobe-premiere-pro-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-premiere-pro-logo-solid.svelte"
+    },
+    "./adobe-xd-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-xd-logo.svelte"
+    },
+    "./adobe-xd-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-xd-logo-block.svelte"
+    },
+    "./adobe-xd-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-xd-logo-solid.svelte"
+    },
+    "./affinity-designer-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-designer-logo.svelte"
+    },
+    "./affinity-designer-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-designer-logo-block.svelte"
+    },
+    "./affinity-designer-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-designer-logo-solid.svelte"
+    },
+    "./affinity-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-logo.svelte"
+    },
+    "./affinity-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-logo-block.svelte"
+    },
+    "./affinity-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-logo-solid.svelte"
+    },
+    "./affinity-photo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-photo-logo.svelte"
+    },
+    "./affinity-photo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-photo-logo-block.svelte"
+    },
+    "./affinity-photo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-photo-logo-solid.svelte"
+    },
+    "./affinity-publiser-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-publiser-logo.svelte"
+    },
+    "./affinity-publiser-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-publiser-logo-block.svelte"
+    },
+    "./affinity-publiser-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/affinity-publiser-logo-solid.svelte"
+    },
+    "./aim-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aim-logo.svelte"
+    },
+    "./aim-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aim-logo-block.svelte"
+    },
+    "./aim-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aim-logo-solid.svelte"
+    },
+    "./alipay-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alipay-logo.svelte"
+    },
+    "./alipay-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alipay-logo-block.svelte"
+    },
+    "./alipay-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alipay-logo-solid.svelte"
+    },
+    "./alpine-linux-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alpine-linux-logo.svelte"
+    },
+    "./alpine-linux-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alpine-linux-logo-block.svelte"
+    },
+    "./alpine-linux-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alpine-linux-logo-solid.svelte"
+    },
+    "./amazon-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-logo.svelte"
+    },
+    "./amazon-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-logo-block.svelte"
+    },
+    "./amazon-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-logo-solid.svelte"
+    },
+    "./amazon-luna-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-luna-logo.svelte"
+    },
+    "./amazon-luna-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-luna-logo-block.svelte"
+    },
+    "./amazon-luna-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-luna-logo-solid.svelte"
+    },
+    "./amazon-prime-video-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-prime-video-logo-1.svelte"
+    },
+    "./amazon-prime-video-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-prime-video-logo-1-block.svelte"
+    },
+    "./amazon-prime-video-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-prime-video-logo-1-solid.svelte"
+    },
+    "./amazon-prime-video-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-prime-video-logo-2.svelte"
+    },
+    "./amazon-prime-video-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-prime-video-logo-2-block.svelte"
+    },
+    "./amazon-prime-video-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-prime-video-logo-2-solid.svelte"
+    },
+    "./amazon-web-service-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-web-service-logo.svelte"
+    },
+    "./amazon-web-service-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-web-service-logo-block.svelte"
+    },
+    "./amazon-web-service-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amazon-web-service-logo-solid.svelte"
+    },
+    "./amd-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amd-logo.svelte"
+    },
+    "./amd-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amd-logo-block.svelte"
+    },
+    "./amd-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amd-logo-solid.svelte"
+    },
+    "./american-express-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/american-express-logo.svelte"
+    },
+    "./american-express-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/american-express-logo-block.svelte"
+    },
+    "./american-express-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/american-express-logo-solid.svelte"
+    },
+    "./analogue-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analogue-logo.svelte"
+    },
+    "./analogue-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analogue-logo-block.svelte"
+    },
+    "./analogue-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/analogue-logo-solid.svelte"
+    },
+    "./anchor-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anchor-logo.svelte"
+    },
+    "./anchor-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anchor-logo-block.svelte"
+    },
+    "./anchor-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anchor-logo-solid.svelte"
+    },
+    "./android-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/android-logo.svelte"
+    },
+    "./android-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/android-logo-block.svelte"
+    },
+    "./android-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/android-logo-solid.svelte"
+    },
+    "./androidauto-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/androidauto-logo.svelte"
+    },
+    "./androidauto-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/androidauto-logo-block.svelte"
+    },
+    "./androidauto-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/androidauto-logo-solid.svelte"
+    },
+    "./angular-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-logo.svelte"
+    },
+    "./angular-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-logo-block.svelte"
+    },
+    "./angular-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-logo-solid.svelte"
+    },
+    "./apache-netbeans-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apache-netbeans-logo.svelte"
+    },
+    "./apache-netbeans-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apache-netbeans-logo-block.svelte"
+    },
+    "./apache-netbeans-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apache-netbeans-logo-solid.svelte"
+    },
+    "./app-store-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-store-logo.svelte"
+    },
+    "./app-store-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-store-logo-block.svelte"
+    },
+    "./app-store-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-store-logo-solid.svelte"
+    },
+    "./apple-ios-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-1.svelte"
+    },
+    "./apple-ios-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-1-block.svelte"
+    },
+    "./apple-ios-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-1-solid.svelte"
+    },
+    "./apple-ios-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-2.svelte"
+    },
+    "./apple-ios-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-2-block.svelte"
+    },
+    "./apple-ios-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-2-solid.svelte"
+    },
+    "./apple-ios-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-3.svelte"
+    },
+    "./apple-ios-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-3-block.svelte"
+    },
+    "./apple-ios-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-ios-logo-3-solid.svelte"
+    },
+    "./apple-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-logo.svelte"
+    },
+    "./apple-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-logo-block.svelte"
+    },
+    "./apple-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-logo-solid.svelte"
+    },
+    "./apple-podcast-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-podcast-logo.svelte"
+    },
+    "./apple-podcast-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-podcast-logo-block.svelte"
+    },
+    "./apple-podcast-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-podcast-logo-solid.svelte"
+    },
+    "./arch-linux-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arch-linux-logo.svelte"
+    },
+    "./arch-linux-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arch-linux-logo-block.svelte"
+    },
+    "./arch-linux-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arch-linux-logo-solid.svelte"
+    },
+    "./askfm-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/askfm-logo.svelte"
+    },
+    "./askfm-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/askfm-logo-block.svelte"
+    },
+    "./askfm-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/askfm-logo-solid.svelte"
+    },
+    "./ati-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ati-logo.svelte"
+    },
+    "./ati-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ati-logo-block.svelte"
+    },
+    "./ati-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ati-logo-solid.svelte"
+    },
+    "./atlassian-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atlassian-logo.svelte"
+    },
+    "./atlassian-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atlassian-logo-block.svelte"
+    },
+    "./atlassian-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atlassian-logo-solid.svelte"
+    },
+    "./audacity-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/audacity-logo.svelte"
+    },
+    "./audacity-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/audacity-logo-block.svelte"
+    },
+    "./audacity-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/audacity-logo-solid.svelte"
+    },
+    "./authy-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/authy-logo.svelte"
+    },
+    "./authy-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/authy-logo-block.svelte"
+    },
+    "./authy-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/authy-logo-solid.svelte"
+    },
+    "./autodesk-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autodesk-logo-1.svelte"
+    },
+    "./autodesk-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autodesk-logo-1-block.svelte"
+    },
+    "./autodesk-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autodesk-logo-1-solid.svelte"
+    },
+    "./autodesk-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autodesk-logo-2.svelte"
+    },
+    "./autodesk-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autodesk-logo-2-block.svelte"
+    },
+    "./autodesk-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autodesk-logo-2-solid.svelte"
+    },
+    "./backbonejs-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backbonejs-logo.svelte"
+    },
+    "./backbonejs-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backbonejs-logo-block.svelte"
+    },
+    "./backbonejs-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backbonejs-logo-solid.svelte"
+    },
+    "./badoo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badoo-logo.svelte"
+    },
+    "./badoo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badoo-logo-block.svelte"
+    },
+    "./badoo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badoo-logo-solid.svelte"
+    },
+    "./bandcamp-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandcamp-logo-1.svelte"
+    },
+    "./bandcamp-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandcamp-logo-1-block.svelte"
+    },
+    "./bandcamp-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandcamp-logo-1-solid.svelte"
+    },
+    "./bandcamp-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandcamp-logo-2.svelte"
+    },
+    "./bandcamp-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandcamp-logo-2-block.svelte"
+    },
+    "./bandcamp-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandcamp-logo-2-solid.svelte"
+    },
+    "./basecamp-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basecamp-logo-1.svelte"
+    },
+    "./basecamp-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basecamp-logo-1-block.svelte"
+    },
+    "./basecamp-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basecamp-logo-1-solid.svelte"
+    },
+    "./basecamp-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basecamp-logo-2.svelte"
+    },
+    "./basecamp-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basecamp-logo-2-block.svelte"
+    },
+    "./basecamp-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basecamp-logo-2-solid.svelte"
+    },
+    "./bbc-iplayer-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbc-iplayer-logo-1.svelte"
+    },
+    "./bbc-iplayer-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbc-iplayer-logo-1-block.svelte"
+    },
+    "./bbc-iplayer-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbc-iplayer-logo-1-solid.svelte"
+    },
+    "./bbc-iplayer-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbc-iplayer-logo-2.svelte"
+    },
+    "./bbc-iplayer-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbc-iplayer-logo-2-block.svelte"
+    },
+    "./bbc-iplayer-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bbc-iplayer-logo-2-solid.svelte"
+    },
+    "./beats-studio-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beats-studio-logo.svelte"
+    },
+    "./beats-studio-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beats-studio-logo-block.svelte"
+    },
+    "./beats-studio-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beats-studio-logo-solid.svelte"
+    },
+    "./bebo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bebo-logo.svelte"
+    },
+    "./bebo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bebo-logo-block.svelte"
+    },
+    "./bebo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bebo-logo-solid.svelte"
+    },
+    "./behance-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/behance-logo.svelte"
+    },
+    "./behance-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/behance-logo-block.svelte"
+    },
+    "./behance-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/behance-logo-solid.svelte"
+    },
+    "./betalist-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/betalist-logo.svelte"
+    },
+    "./betalist-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/betalist-logo-block.svelte"
+    },
+    "./betalist-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/betalist-logo-solid.svelte"
+    },
+    "./beyondcorp-enterprise-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beyondcorp-enterprise-logo.svelte"
+    },
+    "./beyondcorp-enterprise-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beyondcorp-enterprise-logo-block.svelte"
+    },
+    "./beyondcorp-enterprise-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beyondcorp-enterprise-logo-solid.svelte"
+    },
+    "./bilibili-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bilibili-logo.svelte"
+    },
+    "./bilibili-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bilibili-logo-block.svelte"
+    },
+    "./bilibili-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bilibili-logo-solid.svelte"
+    },
+    "./bing-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bing-logo-1.svelte"
+    },
+    "./bing-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bing-logo-1-block.svelte"
+    },
+    "./bing-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bing-logo-1-solid.svelte"
+    },
+    "./bing-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bing-logo-2.svelte"
+    },
+    "./bing-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bing-logo-2-block.svelte"
+    },
+    "./bing-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bing-logo-2-solid.svelte"
+    },
+    "./bitbucket-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitbucket-logo.svelte"
+    },
+    "./bitbucket-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitbucket-logo-block.svelte"
+    },
+    "./bitbucket-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitbucket-logo-solid.svelte"
+    },
+    "./blackberry-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blackberry-logo.svelte"
+    },
+    "./blackberry-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blackberry-logo-block.svelte"
+    },
+    "./blackberry-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blackberry-logo-solid.svelte"
+    },
+    "./blogger-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blogger-logo.svelte"
+    },
+    "./blogger-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blogger-logo-block.svelte"
+    },
+    "./blogger-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blogger-logo-solid.svelte"
+    },
+    "./bloglovin-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bloglovin-logo.svelte"
+    },
+    "./bloglovin-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bloglovin-logo-block.svelte"
+    },
+    "./bloglovin-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bloglovin-logo-solid.svelte"
+    },
+    "./bnter-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bnter-logo.svelte"
+    },
+    "./bnter-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bnter-logo-block.svelte"
+    },
+    "./bnter-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bnter-logo-solid.svelte"
+    },
+    "./bootstrap-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bootstrap-logo.svelte"
+    },
+    "./bootstrap-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bootstrap-logo-block.svelte"
+    },
+    "./bootstrap-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bootstrap-logo-solid.svelte"
+    },
+    "./bower-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bower-logo.svelte"
+    },
+    "./bower-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bower-logo-block.svelte"
+    },
+    "./bower-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bower-logo-solid.svelte"
+    },
+    "./box-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-logo.svelte"
+    },
+    "./box-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-logo-block.svelte"
+    },
+    "./box-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-logo-solid.svelte"
+    },
+    "./brightkite-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brightkite-logo.svelte"
+    },
+    "./brightkite-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brightkite-logo-block.svelte"
+    },
+    "./brightkite-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brightkite-logo-solid.svelte"
+    },
+    "./broadcom-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broadcom-logo.svelte"
+    },
+    "./broadcom-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broadcom-logo-block.svelte"
+    },
+    "./broadcom-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broadcom-logo-solid.svelte"
+    },
+    "./bugsnag-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bugsnag-logo.svelte"
+    },
+    "./bugsnag-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bugsnag-logo-block.svelte"
+    },
+    "./bugsnag-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bugsnag-logo-solid.svelte"
+    },
+    "./byte-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/byte-logo.svelte"
+    },
+    "./byte-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/byte-logo-block.svelte"
+    },
+    "./byte-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/byte-logo-solid.svelte"
+    },
+    "./c-language-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c-language-logo.svelte"
+    },
+    "./c-language-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c-language-logo-block.svelte"
+    },
+    "./c-language-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c-language-logo-solid.svelte"
+    },
+    "./c-plus-language-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c-plus-language-logo.svelte"
+    },
+    "./c-plus-language-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c-plus-language-logo-block.svelte"
+    },
+    "./c-plus-language-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c-plus-language-logo-solid.svelte"
+    },
+    "./campaign-monitor-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/campaign-monitor-logo.svelte"
+    },
+    "./campaign-monitor-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/campaign-monitor-logo-block.svelte"
+    },
+    "./campaign-monitor-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/campaign-monitor-logo-solid.svelte"
+    },
+    "./canonical-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/canonical-logo.svelte"
+    },
+    "./canonical-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/canonical-logo-block.svelte"
+    },
+    "./canonical-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/canonical-logo-solid.svelte"
+    },
+    "./centos-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/centos-logo.svelte"
+    },
+    "./centos-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/centos-logo-block.svelte"
+    },
+    "./centos-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/centos-logo-solid.svelte"
+    },
+    "./cinema-4d-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cinema-4d-logo.svelte"
+    },
+    "./cinema-4d-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cinema-4d-logo-block.svelte"
+    },
+    "./cinema-4d-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cinema-4d-logo-solid.svelte"
+    },
+    "./claris-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/claris-logo.svelte"
+    },
+    "./claris-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/claris-logo-block.svelte"
+    },
+    "./claris-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/claris-logo-solid.svelte"
+    },
+    "./cloudsmith-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudsmith-logo.svelte"
+    },
+    "./cloudsmith-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudsmith-logo-block.svelte"
+    },
+    "./cloudsmith-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudsmith-logo-solid.svelte"
+    },
+    "./cnn-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cnn-logo.svelte"
+    },
+    "./cnn-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cnn-logo-block.svelte"
+    },
+    "./cnn-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cnn-logo-solid.svelte"
+    },
+    "./code-climate-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-climate-logo.svelte"
+    },
+    "./code-climate-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-climate-logo-block.svelte"
+    },
+    "./code-climate-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-climate-logo-solid.svelte"
+    },
+    "./code-sandbox-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-sandbox-logo.svelte"
+    },
+    "./code-sandbox-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-sandbox-logo-block.svelte"
+    },
+    "./code-sandbox-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-sandbox-logo-solid.svelte"
+    },
+    "./codecov-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codecov-logo.svelte"
+    },
+    "./codecov-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codecov-logo-block.svelte"
+    },
+    "./codecov-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codecov-logo-solid.svelte"
+    },
+    "./codefactor-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codefactor-logo.svelte"
+    },
+    "./codefactor-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codefactor-logo-block.svelte"
+    },
+    "./codefactor-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codefactor-logo-solid.svelte"
+    },
+    "./codeigniter-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codeigniter-logo.svelte"
+    },
+    "./codeigniter-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codeigniter-logo-block.svelte"
+    },
+    "./codeigniter-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codeigniter-logo-solid.svelte"
+    },
+    "./codepen-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codepen-logo.svelte"
+    },
+    "./codepen-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codepen-logo-block.svelte"
+    },
+    "./codepen-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codepen-logo-solid.svelte"
+    },
+    "./consul-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/consul-logo.svelte"
+    },
+    "./consul-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/consul-logo-block.svelte"
+    },
+    "./consul-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/consul-logo-solid.svelte"
+    },
+    "./coroflot-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coroflot-logo.svelte"
+    },
+    "./coroflot-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coroflot-logo-block.svelte"
+    },
+    "./coroflot-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coroflot-logo-solid.svelte"
+    },
+    "./creative-commons-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/creative-commons-logo.svelte"
+    },
+    "./creative-commons-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/creative-commons-logo-block.svelte"
+    },
+    "./creative-commons-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/creative-commons-logo-solid.svelte"
+    },
+    "./crowdin-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crowdin-logo.svelte"
+    },
+    "./crowdin-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crowdin-logo-block.svelte"
+    },
+    "./crowdin-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crowdin-logo-solid.svelte"
+    },
+    "./crunchyroll-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crunchyroll-logo.svelte"
+    },
+    "./crunchyroll-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crunchyroll-logo-block.svelte"
+    },
+    "./crunchyroll-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crunchyroll-logo-solid.svelte"
+    },
+    "./cryengine-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cryengine-logo.svelte"
+    },
+    "./cryengine-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cryengine-logo-block.svelte"
+    },
+    "./cryengine-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cryengine-logo-solid.svelte"
+    },
+    "./cucumber-io-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cucumber-io-logo.svelte"
+    },
+    "./cucumber-io-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cucumber-io-logo-block.svelte"
+    },
+    "./cucumber-io-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cucumber-io-logo-solid.svelte"
+    },
+    "./d3js-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/d3js-logo.svelte"
+    },
+    "./d3js-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/d3js-logo-block.svelte"
+    },
+    "./d3js-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/d3js-logo-solid.svelte"
+    },
+    "./dailybooth-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dailybooth-logo.svelte"
+    },
+    "./dailybooth-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dailybooth-logo-block.svelte"
+    },
+    "./dailybooth-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dailybooth-logo-solid.svelte"
+    },
+    "./dailymotion-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dailymotion-logo.svelte"
+    },
+    "./dailymotion-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dailymotion-logo-block.svelte"
+    },
+    "./dailymotion-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dailymotion-logo-solid.svelte"
+    },
+    "./dart-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dart-logo.svelte"
+    },
+    "./dart-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dart-logo-block.svelte"
+    },
+    "./dart-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dart-logo-solid.svelte"
+    },
+    "./daytum-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/daytum-logo.svelte"
+    },
+    "./daytum-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/daytum-logo-block.svelte"
+    },
+    "./daytum-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/daytum-logo-solid.svelte"
+    },
+    "./deezer-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deezer-logo.svelte"
+    },
+    "./deezer-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deezer-logo-block.svelte"
+    },
+    "./deezer-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deezer-logo-solid.svelte"
+    },
+    "./deliciousing-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deliciousing-logo.svelte"
+    },
+    "./deliciousing-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deliciousing-logo-block.svelte"
+    },
+    "./deliciousing-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deliciousing-logo-solid.svelte"
+    },
+    "./design-bump-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-bump-logo.svelte"
+    },
+    "./design-bump-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-bump-logo-block.svelte"
+    },
+    "./design-bump-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-bump-logo-solid.svelte"
+    },
+    "./design-float-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-float-logo.svelte"
+    },
+    "./design-float-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-float-logo-block.svelte"
+    },
+    "./design-float-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/design-float-logo-solid.svelte"
+    },
+    "./designmoo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/designmoo-logo.svelte"
+    },
+    "./designmoo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/designmoo-logo-block.svelte"
+    },
+    "./designmoo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/designmoo-logo-solid.svelte"
+    },
+    "./deviant-art-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deviant-art-logo-1.svelte"
+    },
+    "./deviant-art-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deviant-art-logo-1-block.svelte"
+    },
+    "./deviant-art-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deviant-art-logo-1-solid.svelte"
+    },
+    "./deviant-art-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deviant-art-logo-2.svelte"
+    },
+    "./deviant-art-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deviant-art-logo-2-block.svelte"
+    },
+    "./deviant-art-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deviant-art-logo-2-solid.svelte"
+    },
+    "./devicon-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devicon-logo.svelte"
+    },
+    "./devicon-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devicon-logo-block.svelte"
+    },
+    "./devicon-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devicon-logo-solid.svelte"
+    },
+    "./digg-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digg-logo.svelte"
+    },
+    "./digg-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digg-logo-block.svelte"
+    },
+    "./digg-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digg-logo-solid.svelte"
+    },
+    "./digital-ocean-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital-ocean-logo.svelte"
+    },
+    "./digital-ocean-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital-ocean-logo-block.svelte"
+    },
+    "./digital-ocean-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/digital-ocean-logo-solid.svelte"
+    },
+    "./diigo-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-1.svelte"
+    },
+    "./diigo-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-1-block.svelte"
+    },
+    "./diigo-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-1-solid.svelte"
+    },
+    "./diigo-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-2.svelte"
+    },
+    "./diigo-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-2-block.svelte"
+    },
+    "./diigo-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-2-solid.svelte"
+    },
+    "./diigo-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-3.svelte"
+    },
+    "./diigo-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-3-block.svelte"
+    },
+    "./diigo-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diigo-logo-3-solid.svelte"
+    },
+    "./discord-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discord-logo-1.svelte"
+    },
+    "./discord-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discord-logo-1-block.svelte"
+    },
+    "./discord-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discord-logo-1-solid.svelte"
+    },
+    "./discord-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discord-logo-2.svelte"
+    },
+    "./discord-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discord-logo-2-block.svelte"
+    },
+    "./discord-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discord-logo-2-solid.svelte"
+    },
+    "./discourse-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discourse-logo.svelte"
+    },
+    "./discourse-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discourse-logo-block.svelte"
+    },
+    "./discourse-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discourse-logo-solid.svelte"
+    },
+    "./disney-plus-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/disney-plus-logo.svelte"
+    },
+    "./disney-plus-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/disney-plus-logo-block.svelte"
+    },
+    "./disney-plus-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/disney-plus-logo-solid.svelte"
+    },
+    "./docker-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-logo.svelte"
+    },
+    "./docker-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-logo-block.svelte"
+    },
+    "./docker-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-logo-solid.svelte"
+    },
+    "./doctrine-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/doctrine-logo.svelte"
+    },
+    "./doctrine-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/doctrine-logo-block.svelte"
+    },
+    "./doctrine-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/doctrine-logo-solid.svelte"
+    },
+    "./douban-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/douban-logo.svelte"
+    },
+    "./douban-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/douban-logo-block.svelte"
+    },
+    "./douban-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/douban-logo-solid.svelte"
+    },
+    "./dribbble-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dribbble-logo.svelte"
+    },
+    "./dribbble-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dribbble-logo-block.svelte"
+    },
+    "./dribbble-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dribbble-logo-solid.svelte"
+    },
+    "./dropbox-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dropbox-logo-1.svelte"
+    },
+    "./dropbox-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dropbox-logo-1-block.svelte"
+    },
+    "./dropbox-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dropbox-logo-1-solid.svelte"
+    },
+    "./dropbox-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dropbox-logo-2.svelte"
+    },
+    "./dropbox-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dropbox-logo-2-block.svelte"
+    },
+    "./dropbox-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dropbox-logo-2-solid.svelte"
+    },
+    "./drupal-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drupal-logo-1.svelte"
+    },
+    "./drupal-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drupal-logo-1-block.svelte"
+    },
+    "./drupal-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drupal-logo-1-solid.svelte"
+    },
+    "./drupal-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drupal-logo-2.svelte"
+    },
+    "./drupal-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drupal-logo-2-block.svelte"
+    },
+    "./drupal-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drupal-logo-2-solid.svelte"
+    },
+    "./eclipse-ide-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eclipse-ide-logo.svelte"
+    },
+    "./eclipse-ide-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eclipse-ide-logo-block.svelte"
+    },
+    "./eclipse-ide-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eclipse-ide-logo-solid.svelte"
+    },
+    "./egnyte-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egnyte-logo.svelte"
+    },
+    "./egnyte-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egnyte-logo-block.svelte"
+    },
+    "./egnyte-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egnyte-logo-solid.svelte"
+    },
+    "./elastic-beats-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-beats-logo.svelte"
+    },
+    "./elastic-beats-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-beats-logo-block.svelte"
+    },
+    "./elastic-beats-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-beats-logo-solid.svelte"
+    },
+    "./elastic-cloud-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-cloud-logo.svelte"
+    },
+    "./elastic-cloud-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-cloud-logo-block.svelte"
+    },
+    "./elastic-cloud-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-cloud-logo-solid.svelte"
+    },
+    "./elastic-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-logo.svelte"
+    },
+    "./elastic-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-logo-block.svelte"
+    },
+    "./elastic-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-logo-solid.svelte"
+    },
+    "./elastic-logstash-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-logstash-logo.svelte"
+    },
+    "./elastic-logstash-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-logstash-logo-block.svelte"
+    },
+    "./elastic-logstash-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-logstash-logo-solid.svelte"
+    },
+    "./elastic-search-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-search-logo.svelte"
+    },
+    "./elastic-search-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-search-logo-block.svelte"
+    },
+    "./elastic-search-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-search-logo-solid.svelte"
+    },
+    "./elastic-stack-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-stack-logo.svelte"
+    },
+    "./elastic-stack-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-stack-logo-block.svelte"
+    },
+    "./elastic-stack-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-stack-logo-solid.svelte"
+    },
+    "./elastic-x-pack-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-x-pack-logo.svelte"
+    },
+    "./elastic-x-pack-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-x-pack-logo-block.svelte"
+    },
+    "./elastic-x-pack-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elastic-x-pack-logo-solid.svelte"
+    },
+    "./electronic-arts-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/electronic-arts-logo.svelte"
+    },
+    "./electronic-arts-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/electronic-arts-logo-block.svelte"
+    },
+    "./electronic-arts-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/electronic-arts-logo-solid.svelte"
+    },
+    "./elixir-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elixir-logo.svelte"
+    },
+    "./elixir-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elixir-logo-block.svelte"
+    },
+    "./elixir-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elixir-logo-solid.svelte"
+    },
+    "./ello-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ello-logo.svelte"
+    },
+    "./ello-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ello-logo-block.svelte"
+    },
+    "./ello-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ello-logo-solid.svelte"
+    },
+    "./email-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-logo.svelte"
+    },
+    "./email-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-logo-block.svelte"
+    },
+    "./email-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/email-logo-solid.svelte"
+    },
+    "./epic-games-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/epic-games-logo.svelte"
+    },
+    "./epic-games-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/epic-games-logo-block.svelte"
+    },
+    "./epic-games-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/epic-games-logo-solid.svelte"
+    },
+    "./esea-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/esea-logo.svelte"
+    },
+    "./esea-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/esea-logo-block.svelte"
+    },
+    "./esea-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/esea-logo-solid.svelte"
+    },
+    "./eslint-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eslint-logo.svelte"
+    },
+    "./eslint-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eslint-logo-block.svelte"
+    },
+    "./eslint-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eslint-logo-solid.svelte"
+    },
+    "./etsy-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/etsy-logo.svelte"
+    },
+    "./etsy-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/etsy-logo-block.svelte"
+    },
+    "./etsy-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/etsy-logo-solid.svelte"
+    },
+    "./evernote-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/evernote-logo.svelte"
+    },
+    "./evernote-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/evernote-logo-block.svelte"
+    },
+    "./evernote-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/evernote-logo-solid.svelte"
+    },
+    "./eyeem-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eyeem-logo.svelte"
+    },
+    "./eyeem-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eyeem-logo-block.svelte"
+    },
+    "./eyeem-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eyeem-logo-solid.svelte"
+    },
+    "./f-droid-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/f-droid-logo.svelte"
+    },
+    "./f-droid-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/f-droid-logo-block.svelte"
+    },
+    "./f-droid-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/f-droid-logo-solid.svelte"
+    },
+    "./facebook-gaming-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-gaming-logo.svelte"
+    },
+    "./facebook-gaming-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-gaming-logo-block.svelte"
+    },
+    "./facebook-gaming-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-gaming-logo-solid.svelte"
+    },
+    "./facebook-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-logo-1.svelte"
+    },
+    "./facebook-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-logo-1-block.svelte"
+    },
+    "./facebook-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-logo-1-solid.svelte"
+    },
+    "./facebook-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-logo-2.svelte"
+    },
+    "./facebook-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-logo-2-block.svelte"
+    },
+    "./facebook-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-logo-2-solid.svelte"
+    },
+    "./facebook-messenger-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-messenger-logo.svelte"
+    },
+    "./facebook-messenger-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-messenger-logo-block.svelte"
+    },
+    "./facebook-messenger-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/facebook-messenger-logo-solid.svelte"
+    },
+    "./fandom-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fandom-logo-1.svelte"
+    },
+    "./fandom-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fandom-logo-1-block.svelte"
+    },
+    "./fandom-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fandom-logo-1-solid.svelte"
+    },
+    "./fandom-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fandom-logo-2.svelte"
+    },
+    "./fandom-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fandom-logo-2-block.svelte"
+    },
+    "./fandom-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fandom-logo-2-solid.svelte"
+    },
+    "./feathub-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feathub-logo.svelte"
+    },
+    "./feathub-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feathub-logo-block.svelte"
+    },
+    "./feathub-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feathub-logo-solid.svelte"
+    },
+    "./fedora-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fedora-logo.svelte"
+    },
+    "./fedora-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fedora-logo-block.svelte"
+    },
+    "./fedora-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fedora-logo-solid.svelte"
+    },
+    "./feed-burner-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-burner-logo.svelte"
+    },
+    "./feed-burner-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-burner-logo-block.svelte"
+    },
+    "./feed-burner-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feed-burner-logo-solid.svelte"
+    },
+    "./feedly-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feedly-logo.svelte"
+    },
+    "./feedly-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feedly-logo-block.svelte"
+    },
+    "./feedly-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feedly-logo-solid.svelte"
+    },
+    "./ffffounding-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/ffffounding-logo.svelte"
+    },
+    "./ffffounding-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/ffffounding-logo-block.svelte"
+    },
+    "./ffffounding-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/ffffounding-logo-solid.svelte"
+    },
+    "./figma-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figma-logo.svelte"
+    },
+    "./figma-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figma-logo-block.svelte"
+    },
+    "./figma-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figma-logo-solid.svelte"
+    },
+    "./firebase-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firebase-logo.svelte"
+    },
+    "./firebase-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firebase-logo-block.svelte"
+    },
+    "./firebase-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firebase-logo-solid.svelte"
+    },
+    "./fitbit-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fitbit-logo.svelte"
+    },
+    "./fitbit-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fitbit-logo-block.svelte"
+    },
+    "./fitbit-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fitbit-logo-solid.svelte"
+    },
+    "./flickr-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flickr-logo.svelte"
+    },
+    "./flickr-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flickr-logo-block.svelte"
+    },
+    "./flickr-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flickr-logo-solid.svelte"
+    },
+    "./flipboard-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flipboard-logo.svelte"
+    },
+    "./flipboard-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flipboard-logo-block.svelte"
+    },
+    "./flipboard-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flipboard-logo-solid.svelte"
+    },
+    "./flutter-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flutter-logo.svelte"
+    },
+    "./flutter-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flutter-logo-block.svelte"
+    },
+    "./flutter-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flutter-logo-solid.svelte"
+    },
+    "./food-spotting-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-spotting-logo-1.svelte"
+    },
+    "./food-spotting-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-spotting-logo-1-block.svelte"
+    },
+    "./food-spotting-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-spotting-logo-1-solid.svelte"
+    },
+    "./food-spotting-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-spotting-logo-2.svelte"
+    },
+    "./food-spotting-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-spotting-logo-2-block.svelte"
+    },
+    "./food-spotting-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/food-spotting-logo-2-solid.svelte"
+    },
+    "./formspirng-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/formspirng-logo.svelte"
+    },
+    "./formspirng-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/formspirng-logo-block.svelte"
+    },
+    "./formspirng-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/formspirng-logo-solid.svelte"
+    },
+    "./forrst-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forrst-logo.svelte"
+    },
+    "./forrst-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forrst-logo-block.svelte"
+    },
+    "./forrst-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forrst-logo-solid.svelte"
+    },
+    "./foursquare-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo.svelte"
+    },
+    "./foursquare-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-1.svelte"
+    },
+    "./foursquare-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-1-block.svelte"
+    },
+    "./foursquare-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-1-solid.svelte"
+    },
+    "./foursquare-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-2.svelte"
+    },
+    "./foursquare-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-2-block.svelte"
+    },
+    "./foursquare-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-2-solid.svelte"
+    },
+    "./foursquare-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-block.svelte"
+    },
+    "./foursquare-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/foursquare-logo-solid.svelte"
+    },
+    "./framer-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/framer-logo.svelte"
+    },
+    "./framer-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/framer-logo-block.svelte"
+    },
+    "./framer-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/framer-logo-solid.svelte"
+    },
+    "./friends-feed-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/friends-feed-logo.svelte"
+    },
+    "./friends-feed-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/friends-feed-logo-block.svelte"
+    },
+    "./friends-feed-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/friends-feed-logo-solid.svelte"
+    },
+    "./funimation-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/funimation-logo.svelte"
+    },
+    "./funimation-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/funimation-logo-block.svelte"
+    },
+    "./funimation-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/funimation-logo-solid.svelte"
+    },
+    "./gabbr-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gabbr-logo.svelte"
+    },
+    "./gabbr-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gabbr-logo-block.svelte"
+    },
+    "./gabbr-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gabbr-logo-solid.svelte"
+    },
+    "./gamercastering-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gamercastering-logo.svelte"
+    },
+    "./gamercastering-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gamercastering-logo-block.svelte"
+    },
+    "./gamercastering-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gamercastering-logo-solid.svelte"
+    },
+    "./gdgt-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gdgt-logo.svelte"
+    },
+    "./gdgt-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gdgt-logo-block.svelte"
+    },
+    "./gdgt-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gdgt-logo-solid.svelte"
+    },
+    "./geforce-now-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/geforce-now-logo.svelte"
+    },
+    "./geforce-now-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/geforce-now-logo-block.svelte"
+    },
+    "./geforce-now-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/geforce-now-logo-solid.svelte"
+    },
+    "./github-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-logo-1.svelte"
+    },
+    "./github-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-logo-1-block.svelte"
+    },
+    "./github-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-logo-1-solid.svelte"
+    },
+    "./github-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-logo-2.svelte"
+    },
+    "./github-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-logo-2-block.svelte"
+    },
+    "./github-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-logo-2-solid.svelte"
+    },
+    "./gog-com-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gog-com-logo.svelte"
+    },
+    "./gog-com-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gog-com-logo-block.svelte"
+    },
+    "./gog-com-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gog-com-logo-solid.svelte"
+    },
+    "./google-ads-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-ads-logo.svelte"
+    },
+    "./google-ads-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-ads-logo-block.svelte"
+    },
+    "./google-ads-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-ads-logo-solid.svelte"
+    },
+    "./google-adsense-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-adsense-logo.svelte"
+    },
+    "./google-adsense-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-adsense-logo-block.svelte"
+    },
+    "./google-adsense-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-adsense-logo-solid.svelte"
+    },
+    "./google-assistant-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-assistant-logo.svelte"
+    },
+    "./google-assistant-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-assistant-logo-block.svelte"
+    },
+    "./google-assistant-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-assistant-logo-solid.svelte"
+    },
+    "./google-buzz-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-buzz-logo.svelte"
+    },
+    "./google-buzz-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-buzz-logo-block.svelte"
+    },
+    "./google-buzz-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-buzz-logo-solid.svelte"
+    },
+    "./google-calendar-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-calendar-logo.svelte"
+    },
+    "./google-calendar-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-calendar-logo-block.svelte"
+    },
+    "./google-calendar-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-calendar-logo-solid.svelte"
+    },
+    "./google-cast-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-cast-logo.svelte"
+    },
+    "./google-cast-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-cast-logo-block.svelte"
+    },
+    "./google-cast-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-cast-logo-solid.svelte"
+    },
+    "./google-chat-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-chat-logo.svelte"
+    },
+    "./google-chat-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-chat-logo-block.svelte"
+    },
+    "./google-chat-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-chat-logo-solid.svelte"
+    },
+    "./google-cloud-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-cloud-logo.svelte"
+    },
+    "./google-cloud-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-cloud-logo-block.svelte"
+    },
+    "./google-cloud-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-cloud-logo-solid.svelte"
+    },
+    "./google-drive-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-drive-logo-1.svelte"
+    },
+    "./google-drive-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-drive-logo-1-block.svelte"
+    },
+    "./google-drive-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-drive-logo-1-solid.svelte"
+    },
+    "./google-drive-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-drive-logo-2.svelte"
+    },
+    "./google-drive-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-drive-logo-2-block.svelte"
+    },
+    "./google-drive-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-drive-logo-2-solid.svelte"
+    },
+    "./google-fit-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-fit-logo.svelte"
+    },
+    "./google-fit-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-fit-logo-block.svelte"
+    },
+    "./google-fit-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-fit-logo-solid.svelte"
+    },
+    "./google-hangouts-chat-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-chat-logo.svelte"
+    },
+    "./google-hangouts-chat-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-chat-logo-block.svelte"
+    },
+    "./google-hangouts-chat-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-chat-logo-solid.svelte"
+    },
+    "./google-hangouts-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-logo.svelte"
+    },
+    "./google-hangouts-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-logo-block.svelte"
+    },
+    "./google-hangouts-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-logo-solid.svelte"
+    },
+    "./google-hangouts-meet-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-meet-logo.svelte"
+    },
+    "./google-hangouts-meet-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-meet-logo-block.svelte"
+    },
+    "./google-hangouts-meet-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-hangouts-meet-logo-solid.svelte"
+    },
+    "./google-home-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-home-logo.svelte"
+    },
+    "./google-home-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-home-logo-block.svelte"
+    },
+    "./google-home-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-home-logo-solid.svelte"
+    },
+    "./google-lens-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-lens-logo.svelte"
+    },
+    "./google-lens-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-lens-logo-block.svelte"
+    },
+    "./google-lens-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-lens-logo-solid.svelte"
+    },
+    "./google-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-logo.svelte"
+    },
+    "./google-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-logo-block.svelte"
+    },
+    "./google-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-logo-solid.svelte"
+    },
+    "./google-mail-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-mail-logo.svelte"
+    },
+    "./google-mail-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-mail-logo-block.svelte"
+    },
+    "./google-mail-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-mail-logo-solid.svelte"
+    },
+    "./google-maps-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-maps-logo.svelte"
+    },
+    "./google-maps-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-maps-logo-block.svelte"
+    },
+    "./google-maps-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-maps-logo-solid.svelte"
+    },
+    "./google-meet-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-meet-logo.svelte"
+    },
+    "./google-meet-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-meet-logo-block.svelte"
+    },
+    "./google-meet-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-meet-logo-solid.svelte"
+    },
+    "./google-microphone-voice-search-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-microphone-voice-search-logo.svelte"
+    },
+    "./google-microphone-voice-search-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-microphone-voice-search-logo-block.svelte"
+    },
+    "./google-microphone-voice-search-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-microphone-voice-search-logo-solid.svelte"
+    },
+    "./google-near-by-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-near-by-logo.svelte"
+    },
+    "./google-near-by-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-near-by-logo-block.svelte"
+    },
+    "./google-near-by-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-near-by-logo-solid.svelte"
+    },
+    "./google-news-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-news-logo.svelte"
+    },
+    "./google-news-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-news-logo-block.svelte"
+    },
+    "./google-news-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-news-logo-solid.svelte"
+    },
+    "./google-photos-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-photos-logo.svelte"
+    },
+    "./google-photos-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-photos-logo-block.svelte"
+    },
+    "./google-photos-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-photos-logo-solid.svelte"
+    },
+    "./google-play-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-play-logo.svelte"
+    },
+    "./google-play-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-play-logo-block.svelte"
+    },
+    "./google-play-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-play-logo-solid.svelte"
+    },
+    "./google-plus-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-plus-logo-1.svelte"
+    },
+    "./google-plus-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-plus-logo-1-block.svelte"
+    },
+    "./google-plus-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-plus-logo-1-solid.svelte"
+    },
+    "./google-plus-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-plus-logo-2.svelte"
+    },
+    "./google-plus-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-plus-logo-2-block.svelte"
+    },
+    "./google-plus-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-plus-logo-2-solid.svelte"
+    },
+    "./google-podcast-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-podcast-logo.svelte"
+    },
+    "./google-podcast-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-podcast-logo-block.svelte"
+    },
+    "./google-podcast-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-podcast-logo-solid.svelte"
+    },
+    "./google-shopping-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-shopping-logo.svelte"
+    },
+    "./google-shopping-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-shopping-logo-block.svelte"
+    },
+    "./google-shopping-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-shopping-logo-solid.svelte"
+    },
+    "./google-stadia-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-stadia-logo.svelte"
+    },
+    "./google-stadia-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-stadia-logo-block.svelte"
+    },
+    "./google-stadia-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-stadia-logo-solid.svelte"
+    },
+    "./google-surveys-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-surveys-logo.svelte"
+    },
+    "./google-surveys-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-surveys-logo-block.svelte"
+    },
+    "./google-surveys-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-surveys-logo-solid.svelte"
+    },
+    "./google-tab-manager-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-tab-manager-logo.svelte"
+    },
+    "./google-tab-manager-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-tab-manager-logo-block.svelte"
+    },
+    "./google-tab-manager-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-tab-manager-logo-solid.svelte"
+    },
+    "./google-talk-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-talk-logo.svelte"
+    },
+    "./google-talk-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-talk-logo-block.svelte"
+    },
+    "./google-talk-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-talk-logo-solid.svelte"
+    },
+    "./gowalla-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-1.svelte"
+    },
+    "./gowalla-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-1-block.svelte"
+    },
+    "./gowalla-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-1-solid.svelte"
+    },
+    "./gowalla-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-2.svelte"
+    },
+    "./gowalla-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-2-block.svelte"
+    },
+    "./gowalla-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-2-solid.svelte"
+    },
+    "./gowalla-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-3.svelte"
+    },
+    "./gowalla-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-3-block.svelte"
+    },
+    "./gowalla-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-3-solid.svelte"
+    },
+    "./gowalla-logo-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-4.svelte"
+    },
+    "./gowalla-logo-4-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-4-block.svelte"
+    },
+    "./gowalla-logo-4-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gowalla-logo-4-solid.svelte"
+    },
+    "./grooveshark-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grooveshark-logo.svelte"
+    },
+    "./grooveshark-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grooveshark-logo-block.svelte"
+    },
+    "./grooveshark-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grooveshark-logo-solid.svelte"
+    },
+    "./guildeding-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guildeding-logo.svelte"
+    },
+    "./guildeding-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guildeding-logo-block.svelte"
+    },
+    "./guildeding-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guildeding-logo-solid.svelte"
+    },
+    "./hbo-max-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hbo-max-logo.svelte"
+    },
+    "./hbo-max-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hbo-max-logo-block.svelte"
+    },
+    "./hbo-max-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hbo-max-logo-solid.svelte"
+    },
+    "./hi-five-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hi-five-logo.svelte"
+    },
+    "./hi-five-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hi-five-logo-block.svelte"
+    },
+    "./hi-five-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hi-five-logo-solid.svelte"
+    },
+    "./hulu-live-tv-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hulu-live-tv-logo.svelte"
+    },
+    "./hulu-live-tv-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hulu-live-tv-logo-block.svelte"
+    },
+    "./hulu-live-tv-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hulu-live-tv-logo-solid.svelte"
+    },
+    "./hyves-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hyves-logo.svelte"
+    },
+    "./hyves-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hyves-logo-block.svelte"
+    },
+    "./hyves-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hyves-logo-solid.svelte"
+    },
+    "./iconjar-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iconjar-logo.svelte"
+    },
+    "./iconjar-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iconjar-logo-block.svelte"
+    },
+    "./iconjar-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iconjar-logo-solid.svelte"
+    },
+    "./iconmoon-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iconmoon-logo.svelte"
+    },
+    "./iconmoon-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iconmoon-logo-block.svelte"
+    },
+    "./iconmoon-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iconmoon-logo-solid.svelte"
+    },
+    "./icq-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/icq-logo-1.svelte"
+    },
+    "./icq-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/icq-logo-1-block.svelte"
+    },
+    "./icq-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/icq-logo-1-solid.svelte"
+    },
+    "./identica-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/identica-logo.svelte"
+    },
+    "./identica-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/identica-logo-block.svelte"
+    },
+    "./identica-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/identica-logo-solid.svelte"
+    },
+    "./imdb-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imdb-logo.svelte"
+    },
+    "./imdb-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imdb-logo-block.svelte"
+    },
+    "./imdb-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imdb-logo-solid.svelte"
+    },
+    "./imessage-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imessage-logo.svelte"
+    },
+    "./imessage-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imessage-logo-block.svelte"
+    },
+    "./imessage-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imessage-logo-solid.svelte"
+    },
+    "./imgur-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imgur-logo.svelte"
+    },
+    "./imgur-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imgur-logo-block.svelte"
+    },
+    "./imgur-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/imgur-logo-solid.svelte"
+    },
+    "./inkscape-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inkscape-logo.svelte"
+    },
+    "./inkscape-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inkscape-logo-block.svelte"
+    },
+    "./inkscape-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inkscape-logo-solid.svelte"
+    },
+    "./instagram-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-logo-1.svelte"
+    },
+    "./instagram-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-logo-1-block.svelte"
+    },
+    "./instagram-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-logo-1-solid.svelte"
+    },
+    "./instagram-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-logo-2.svelte"
+    },
+    "./instagram-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-logo-2-block.svelte"
+    },
+    "./instagram-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram-logo-2-solid.svelte"
+    },
+    "./instapaper-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instapaper-logo.svelte"
+    },
+    "./instapaper-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instapaper-logo-block.svelte"
+    },
+    "./instapaper-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instapaper-logo-solid.svelte"
+    },
+    "./invision-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/invision-logo.svelte"
+    },
+    "./invision-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/invision-logo-block.svelte"
+    },
+    "./invision-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/invision-logo-solid.svelte"
+    },
+    "./iq-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iq-logo-2.svelte"
+    },
+    "./iq-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iq-logo-2-block.svelte"
+    },
+    "./iq-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iq-logo-2-solid.svelte"
+    },
+    "./irc-galleria-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/irc-galleria-logo.svelte"
+    },
+    "./irc-galleria-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/irc-galleria-logo-block.svelte"
+    },
+    "./irc-galleria-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/irc-galleria-logo-solid.svelte"
+    },
+    "./itunes-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/itunes-logo.svelte"
+    },
+    "./itunes-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/itunes-logo-block.svelte"
+    },
+    "./itunes-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/itunes-logo-solid.svelte"
+    },
+    "./iwiw-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iwiw-logo-1.svelte"
+    },
+    "./iwiw-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iwiw-logo-1-block.svelte"
+    },
+    "./iwiw-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iwiw-logo-1-solid.svelte"
+    },
+    "./iwiw-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iwiw-logo-2.svelte"
+    },
+    "./iwiw-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iwiw-logo-2-block.svelte"
+    },
+    "./iwiw-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/iwiw-logo-2-solid.svelte"
+    },
+    "./jira-software-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jira-software-logo-1.svelte"
+    },
+    "./jira-software-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jira-software-logo-1-block.svelte"
+    },
+    "./jira-software-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jira-software-logo-1-solid.svelte"
+    },
+    "./jira-software-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jira-software-logo-2.svelte"
+    },
+    "./jira-software-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jira-software-logo-2-block.svelte"
+    },
+    "./jira-software-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jira-software-logo-2-solid.svelte"
+    },
+    "./jpeg-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jpeg-logo.svelte"
+    },
+    "./jpeg-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jpeg-logo-block.svelte"
+    },
+    "./jpeg-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jpeg-logo-solid.svelte"
+    },
+    "./kai-os-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kai-os-logo.svelte"
+    },
+    "./kai-os-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kai-os-logo-block.svelte"
+    },
+    "./kai-os-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kai-os-logo-solid.svelte"
+    },
+    "./kakao-talk-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kakao-talk-logo.svelte"
+    },
+    "./kakao-talk-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kakao-talk-logo-block.svelte"
+    },
+    "./kakao-talk-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kakao-talk-logo-solid.svelte"
+    },
+    "./kibana-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kibana-logo.svelte"
+    },
+    "./kibana-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kibana-logo-block.svelte"
+    },
+    "./kibana-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kibana-logo-solid.svelte"
+    },
+    "./kick-logo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kick-logo-logo.svelte"
+    },
+    "./kick-logo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kick-logo-logo-block.svelte"
+    },
+    "./kick-logo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kick-logo-logo-solid.svelte"
+    },
+    "./kik-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kik-logo-1.svelte"
+    },
+    "./kik-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kik-logo-1-block.svelte"
+    },
+    "./kik-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kik-logo-1-solid.svelte"
+    },
+    "./kik-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kik-logo-2.svelte"
+    },
+    "./kik-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kik-logo-2-block.svelte"
+    },
+    "./kik-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kik-logo-2-solid.svelte"
+    },
+    "./kodi-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kodi-logo.svelte"
+    },
+    "./kodi-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kodi-logo-block.svelte"
+    },
+    "./kodi-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kodi-logo-solid.svelte"
+    },
+    "./kotlin-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kotlin-logo.svelte"
+    },
+    "./kotlin-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kotlin-logo-block.svelte"
+    },
+    "./kotlin-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kotlin-logo-solid.svelte"
+    },
+    "./laravel-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-logo-1.svelte"
+    },
+    "./laravel-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-logo-1-block.svelte"
+    },
+    "./laravel-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-logo-1-solid.svelte"
+    },
+    "./laravel-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-logo-2.svelte"
+    },
+    "./laravel-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-logo-2-block.svelte"
+    },
+    "./laravel-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-logo-2-solid.svelte"
+    },
+    "./lastfm-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastfm-logo.svelte"
+    },
+    "./lastfm-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastfm-logo-block.svelte"
+    },
+    "./lastfm-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastfm-logo-solid.svelte"
+    },
+    "./lastpass-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastpass-logo.svelte"
+    },
+    "./lastpass-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastpass-logo-block.svelte"
+    },
+    "./lastpass-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lastpass-logo-solid.svelte"
+    },
+    "./line-app-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-app-logo.svelte"
+    },
+    "./line-app-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-app-logo-block.svelte"
+    },
+    "./line-app-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-app-logo-solid.svelte"
+    },
+    "./lineage-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lineage-logo.svelte"
+    },
+    "./lineage-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lineage-logo-block.svelte"
+    },
+    "./lineage-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lineage-logo-solid.svelte"
+    },
+    "./linkedin-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin-logo.svelte"
+    },
+    "./linkedin-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin-logo-block.svelte"
+    },
+    "./linkedin-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin-logo-solid.svelte"
+    },
+    "./linux-mint-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-mint-logo-1.svelte"
+    },
+    "./linux-mint-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-mint-logo-1-block.svelte"
+    },
+    "./linux-mint-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-mint-logo-1-solid.svelte"
+    },
+    "./linux-mint-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-mint-logo-2.svelte"
+    },
+    "./linux-mint-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-mint-logo-2-block.svelte"
+    },
+    "./linux-mint-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-mint-logo-2-solid.svelte"
+    },
+    "./livejournal-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/livejournal-logo.svelte"
+    },
+    "./livejournal-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/livejournal-logo-block.svelte"
+    },
+    "./livejournal-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/livejournal-logo-solid.svelte"
+    },
+    "./logmein-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logmein-logo-1.svelte"
+    },
+    "./logmein-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logmein-logo-1-block.svelte"
+    },
+    "./logmein-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logmein-logo-1-solid.svelte"
+    },
+    "./logmein-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logmein-logo-2.svelte"
+    },
+    "./logmein-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logmein-logo-2-block.svelte"
+    },
+    "./logmein-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logmein-logo-2-solid.svelte"
+    },
+    "./logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo.svelte"
+    },
+    "./loom-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loom-logo.svelte"
+    },
+    "./loom-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loom-logo-block.svelte"
+    },
+    "./loom-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loom-logo-solid.svelte"
+    },
+    "./lubuntu-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lubuntu-logo.svelte"
+    },
+    "./lubuntu-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lubuntu-logo-block.svelte"
+    },
+    "./lubuntu-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lubuntu-logo-solid.svelte"
+    },
+    "./lyft-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lyft-logo.svelte"
+    },
+    "./lyft-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lyft-logo-block.svelte"
+    },
+    "./lyft-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lyft-logo-solid.svelte"
+    },
+    "./mac-finder-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mac-finder-logo.svelte"
+    },
+    "./mac-finder-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mac-finder-logo-block.svelte"
+    },
+    "./mac-finder-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mac-finder-logo-solid.svelte"
+    },
+    "./macos-osx-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/macos-osx-logo.svelte"
+    },
+    "./macos-osx-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/macos-osx-logo-block.svelte"
+    },
+    "./macos-osx-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/macos-osx-logo-solid.svelte"
+    },
+    "./magento-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magento-logo.svelte"
+    },
+    "./magento-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magento-logo-block.svelte"
+    },
+    "./magento-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/magento-logo-solid.svelte"
+    },
+    "./manjaro-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/manjaro-logo.svelte"
+    },
+    "./manjaro-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/manjaro-logo-block.svelte"
+    },
+    "./manjaro-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/manjaro-logo-solid.svelte"
+    },
+    "./mastercard-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastercard-logo.svelte"
+    },
+    "./mastercard-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastercard-logo-block.svelte"
+    },
+    "./mastercard-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastercard-logo-solid.svelte"
+    },
+    "./mastodon-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-1.svelte"
+    },
+    "./mastodon-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-1-block.svelte"
+    },
+    "./mastodon-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-1-solid.svelte"
+    },
+    "./mastodon-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-2.svelte"
+    },
+    "./mastodon-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-2-block.svelte"
+    },
+    "./mastodon-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-2-solid.svelte"
+    },
+    "./mastodon-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-3.svelte"
+    },
+    "./mastodon-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-3-block.svelte"
+    },
+    "./mastodon-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-logo-3-solid.svelte"
+    },
+    "./maya-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maya-logo.svelte"
+    },
+    "./maya-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maya-logo-block.svelte"
+    },
+    "./maya-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maya-logo-solid.svelte"
+    },
+    "./mcafee-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mcafee-logo.svelte"
+    },
+    "./mcafee-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mcafee-logo-block.svelte"
+    },
+    "./mcafee-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mcafee-logo-solid.svelte"
+    },
+    "./medium-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-1.svelte"
+    },
+    "./medium-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-1-block.svelte"
+    },
+    "./medium-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-1-solid.svelte"
+    },
+    "./medium-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-2.svelte"
+    },
+    "./medium-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-2-block.svelte"
+    },
+    "./medium-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-2-solid.svelte"
+    },
+    "./medium-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-3.svelte"
+    },
+    "./medium-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-3-block.svelte"
+    },
+    "./medium-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medium-logo-3-solid.svelte"
+    },
+    "./meetup-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meetup-logo.svelte"
+    },
+    "./meetup-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meetup-logo-block.svelte"
+    },
+    "./meetup-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meetup-logo-solid.svelte"
+    },
+    "./memori-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memori-logo.svelte"
+    },
+    "./memori-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memori-logo-block.svelte"
+    },
+    "./memori-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memori-logo-solid.svelte"
+    },
+    "./messages-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/messages-logo.svelte"
+    },
+    "./messages-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/messages-logo-block.svelte"
+    },
+    "./messages-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/messages-logo-solid.svelte"
+    },
+    "./meta-cafe-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meta-cafe-logo.svelte"
+    },
+    "./meta-cafe-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meta-cafe-logo-block.svelte"
+    },
+    "./meta-cafe-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meta-cafe-logo-solid.svelte"
+    },
+    "./microsoft-azure-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-azure-logo.svelte"
+    },
+    "./microsoft-azure-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-azure-logo-block.svelte"
+    },
+    "./microsoft-azure-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-azure-logo-solid.svelte"
+    },
+    "./microsoft-dynamics-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-dynamics-logo.svelte"
+    },
+    "./microsoft-dynamics-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-dynamics-logo-block.svelte"
+    },
+    "./microsoft-dynamics-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-dynamics-logo-solid.svelte"
+    },
+    "./microsoft-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-logo.svelte"
+    },
+    "./microsoft-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-logo-block.svelte"
+    },
+    "./microsoft-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-logo-solid.svelte"
+    },
+    "./microsoft-onedrive-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-onedrive-logo-1.svelte"
+    },
+    "./microsoft-onedrive-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-onedrive-logo-1-block.svelte"
+    },
+    "./microsoft-onedrive-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-onedrive-logo-1-solid.svelte"
+    },
+    "./microsoft-onedrive-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-onedrive-logo-2.svelte"
+    },
+    "./microsoft-onedrive-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-onedrive-logo-2-block.svelte"
+    },
+    "./microsoft-onedrive-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-onedrive-logo-2-solid.svelte"
+    },
+    "./microsoft-sharepoint-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-sharepoint-logo.svelte"
+    },
+    "./microsoft-sharepoint-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-sharepoint-logo-block.svelte"
+    },
+    "./microsoft-sharepoint-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-sharepoint-logo-solid.svelte"
+    },
+    "./microsoft-teams-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-teams-logo.svelte"
+    },
+    "./microsoft-teams-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-teams-logo-block.svelte"
+    },
+    "./microsoft-teams-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-teams-logo-solid.svelte"
+    },
+    "./microsoft-windows-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-1.svelte"
+    },
+    "./microsoft-windows-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-1-block.svelte"
+    },
+    "./microsoft-windows-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-1-solid.svelte"
+    },
+    "./microsoft-windows-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-2.svelte"
+    },
+    "./microsoft-windows-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-2-block.svelte"
+    },
+    "./microsoft-windows-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-2-solid.svelte"
+    },
+    "./microsoft-windows-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-3.svelte"
+    },
+    "./microsoft-windows-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-3-block.svelte"
+    },
+    "./microsoft-windows-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-windows-logo-3-solid.svelte"
+    },
+    "./microsoft-yammer-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-yammer-logo-1.svelte"
+    },
+    "./microsoft-yammer-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-yammer-logo-1-block.svelte"
+    },
+    "./microsoft-yammer-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-yammer-logo-1-solid.svelte"
+    },
+    "./microsoft-yammer-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-yammer-logo-2.svelte"
+    },
+    "./microsoft-yammer-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-yammer-logo-2-block.svelte"
+    },
+    "./microsoft-yammer-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-yammer-logo-2-solid.svelte"
+    },
+    "./midi-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/midi-logo.svelte"
+    },
+    "./midi-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/midi-logo-block.svelte"
+    },
+    "./midi-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/midi-logo-solid.svelte"
+    },
+    "./mixx-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mixx-logo.svelte"
+    },
+    "./mixx-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mixx-logo-block.svelte"
+    },
+    "./mixx-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mixx-logo-solid.svelte"
+    },
+    "./mobile-me-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mobile-me-logo.svelte"
+    },
+    "./mobile-me-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mobile-me-logo-block.svelte"
+    },
+    "./mobile-me-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mobile-me-logo-solid.svelte"
+    },
+    "./mr-wong-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mr-wong-logo.svelte"
+    },
+    "./mr-wong-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mr-wong-logo-block.svelte"
+    },
+    "./mr-wong-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mr-wong-logo-solid.svelte"
+    },
+    "./msn-messenger-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/msn-messenger-logo.svelte"
+    },
+    "./msn-messenger-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/msn-messenger-logo-block.svelte"
+    },
+    "./msn-messenger-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/msn-messenger-logo-solid.svelte"
+    },
+    "./mubi-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mubi-logo.svelte"
+    },
+    "./mubi-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mubi-logo-block.svelte"
+    },
+    "./mubi-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mubi-logo-solid.svelte"
+    },
+    "./mx-linux-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mx-linux-logo.svelte"
+    },
+    "./mx-linux-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mx-linux-logo-block.svelte"
+    },
+    "./mx-linux-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mx-linux-logo-solid.svelte"
+    },
+    "./my-space-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/my-space-logo.svelte"
+    },
+    "./my-space-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/my-space-logo-block.svelte"
+    },
+    "./my-space-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/my-space-logo-solid.svelte"
+    },
+    "./nest-wifi-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-wifi-logo.svelte"
+    },
+    "./nest-wifi-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-wifi-logo-block.svelte"
+    },
+    "./nest-wifi-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nest-wifi-logo-solid.svelte"
+    },
+    "./netflix-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/netflix-logo.svelte"
+    },
+    "./netflix-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/netflix-logo-block.svelte"
+    },
+    "./netflix-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/netflix-logo-solid.svelte"
+    },
+    "./newsvine-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/newsvine-logo.svelte"
+    },
+    "./newsvine-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/newsvine-logo-block.svelte"
+    },
+    "./newsvine-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/newsvine-logo-solid.svelte"
+    },
+    "./nexopia-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nexopia-logo.svelte"
+    },
+    "./nexopia-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nexopia-logo-block.svelte"
+    },
+    "./nexopia-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nexopia-logo-solid.svelte"
+    },
+    "./niconico-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/niconico-logo-1.svelte"
+    },
+    "./niconico-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/niconico-logo-1-block.svelte"
+    },
+    "./niconico-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/niconico-logo-1-solid.svelte"
+    },
+    "./niconico-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/niconico-logo-2.svelte"
+    },
+    "./niconico-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/niconico-logo-2-block.svelte"
+    },
+    "./niconico-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/niconico-logo-2-solid.svelte"
+    },
+    "./nintendo-network-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nintendo-network-logo.svelte"
+    },
+    "./nintendo-network-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nintendo-network-logo-block.svelte"
+    },
+    "./nintendo-network-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nintendo-network-logo-solid.svelte"
+    },
+    "./nintendo-switch-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nintendo-switch-logo.svelte"
+    },
+    "./nintendo-switch-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nintendo-switch-logo-block.svelte"
+    },
+    "./nintendo-switch-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nintendo-switch-logo-solid.svelte"
+    },
+    "./nomad-list-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nomad-list-logo.svelte"
+    },
+    "./nomad-list-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nomad-list-logo-block.svelte"
+    },
+    "./nomad-list-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nomad-list-logo-solid.svelte"
+    },
+    "./nuke-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuke-logo.svelte"
+    },
+    "./nuke-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuke-logo-block.svelte"
+    },
+    "./nuke-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuke-logo-solid.svelte"
+    },
+    "./obs-studio-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/obs-studio-logo.svelte"
+    },
+    "./obs-studio-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/obs-studio-logo-block.svelte"
+    },
+    "./obs-studio-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/obs-studio-logo-solid.svelte"
+    },
+    "./oculus-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oculus-logo.svelte"
+    },
+    "./oculus-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oculus-logo-block.svelte"
+    },
+    "./oculus-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oculus-logo-solid.svelte"
+    },
+    "./odnoklassniki-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/odnoklassniki-logo.svelte"
+    },
+    "./odnoklassniki-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/odnoklassniki-logo-block.svelte"
+    },
+    "./odnoklassniki-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/odnoklassniki-logo-solid.svelte"
+    },
+    "./open-access-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-access-logo.svelte"
+    },
+    "./open-access-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-access-logo-block.svelte"
+    },
+    "./open-access-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-access-logo-solid.svelte"
+    },
+    "./open-container-initiative-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-container-initiative-logo.svelte"
+    },
+    "./open-container-initiative-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-container-initiative-logo-block.svelte"
+    },
+    "./open-container-initiative-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-container-initiative-logo-solid.svelte"
+    },
+    "./openai-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openai-logo.svelte"
+    },
+    "./openai-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openai-logo-block.svelte"
+    },
+    "./openai-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openai-logo-solid.svelte"
+    },
+    "./openvpn-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openvpn-logo.svelte"
+    },
+    "./openvpn-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openvpn-logo-block.svelte"
+    },
+    "./openvpn-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openvpn-logo-solid.svelte"
+    },
+    "./oracle-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oracle-logo.svelte"
+    },
+    "./oracle-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oracle-logo-block.svelte"
+    },
+    "./oracle-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oracle-logo-solid.svelte"
+    },
+    "./origin-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/origin-logo.svelte"
+    },
+    "./origin-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/origin-logo-block.svelte"
+    },
+    "./origin-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/origin-logo-solid.svelte"
+    },
+    "./orkut-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orkut-logo.svelte"
+    },
+    "./orkut-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orkut-logo-block.svelte"
+    },
+    "./orkut-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orkut-logo-solid.svelte"
+    },
+    "./osmc-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/osmc-logo.svelte"
+    },
+    "./osmc-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/osmc-logo-block.svelte"
+    },
+    "./osmc-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/osmc-logo-solid.svelte"
+    },
+    "./overcast-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-logo.svelte"
+    },
+    "./overcast-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-logo-block.svelte"
+    },
+    "./overcast-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-logo-solid.svelte"
+    },
+    "./path-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/path-logo.svelte"
+    },
+    "./path-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/path-logo-block.svelte"
+    },
+    "./path-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/path-logo-solid.svelte"
+    },
+    "./patreon-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patreon-logo.svelte"
+    },
+    "./patreon-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patreon-logo-block.svelte"
+    },
+    "./patreon-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patreon-logo-solid.svelte"
+    },
+    "./paypal-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paypal-logo.svelte"
+    },
+    "./paypal-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paypal-logo-block.svelte"
+    },
+    "./paypal-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paypal-logo-solid.svelte"
+    },
+    "./photobucket-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/photobucket-logo-block.svelte"
+    },
+    "./photobucket-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/photobucket-logo-solid.svelte"
+    },
+    "./picasa-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picasa-logo.svelte"
+    },
+    "./picasa-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picasa-logo-block.svelte"
+    },
+    "./picasa-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/picasa-logo-solid.svelte"
+    },
+    "./pingchat-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pingchat-logo.svelte"
+    },
+    "./pingchat-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pingchat-logo-block.svelte"
+    },
+    "./pingchat-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pingchat-logo-solid.svelte"
+    },
+    "./pinterest-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinterest-logo.svelte"
+    },
+    "./pinterest-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinterest-logo-block.svelte"
+    },
+    "./pinterest-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinterest-logo-solid.svelte"
+    },
+    "./pixabay-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixabay-logo.svelte"
+    },
+    "./pixabay-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixabay-logo-block.svelte"
+    },
+    "./pixabay-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixabay-logo-solid.svelte"
+    },
+    "./player-me-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/player-me-logo.svelte"
+    },
+    "./player-me-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/player-me-logo-block.svelte"
+    },
+    "./player-me-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/player-me-logo-solid.svelte"
+    },
+    "./playerfm-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playerfm-logo.svelte"
+    },
+    "./playerfm-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playerfm-logo-block.svelte"
+    },
+    "./playerfm-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playerfm-logo-solid.svelte"
+    },
+    "./playstation-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playstation-logo.svelte"
+    },
+    "./playstation-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playstation-logo-block.svelte"
+    },
+    "./playstation-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playstation-logo-solid.svelte"
+    },
+    "./plurk-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-1.svelte"
+    },
+    "./plurk-logo-1-alternate-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-1-alternate-block.svelte"
+    },
+    "./plurk-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-1-solid.svelte"
+    },
+    "./plurk-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-2.svelte"
+    },
+    "./plurk-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-2-block.svelte"
+    },
+    "./plurk-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-2-solid.svelte"
+    },
+    "./plurk-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-3.svelte"
+    },
+    "./plurk-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-3-block.svelte"
+    },
+    "./plurk-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plurk-logo-3-solid.svelte"
+    },
+    "./pocket-casts-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pocket-casts-logo.svelte"
+    },
+    "./pocket-casts-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pocket-casts-logo-block.svelte"
+    },
+    "./pocket-casts-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pocket-casts-logo-solid.svelte"
+    },
+    "./proto-io-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proto-io-logo-1.svelte"
+    },
+    "./proto-io-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proto-io-logo-1-block.svelte"
+    },
+    "./proto-io-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proto-io-logo-1-solid.svelte"
+    },
+    "./proto-io-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proto-io-logo-2.svelte"
+    },
+    "./proto-io-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proto-io-logo-2-block.svelte"
+    },
+    "./proto-io-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proto-io-logo-2-solid.svelte"
+    },
+    "./protonmail-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protonmail-logo-1.svelte"
+    },
+    "./protonmail-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protonmail-logo-1-block.svelte"
+    },
+    "./protonmail-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protonmail-logo-1-solid.svelte"
+    },
+    "./protonmail-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protonmail-logo-2.svelte"
+    },
+    "./protonmail-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protonmail-logo-2-block.svelte"
+    },
+    "./protonmail-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protonmail-logo-2-solid.svelte"
+    },
+    "./proxmox-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proxmox-logo.svelte"
+    },
+    "./proxmox-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proxmox-logo-block.svelte"
+    },
+    "./proxmox-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/proxmox-logo-solid.svelte"
+    },
+    "./qik-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qik-logo.svelte"
+    },
+    "./qik-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qik-logo-block.svelte"
+    },
+    "./qik-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qik-logo-solid.svelte"
+    },
+    "./qq-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qq-logo.svelte"
+    },
+    "./qq-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qq-logo-block.svelte"
+    },
+    "./qq-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qq-logo-solid.svelte"
+    },
+    "./qualcomm-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qualcomm-logo.svelte"
+    },
+    "./qualcomm-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qualcomm-logo-block.svelte"
+    },
+    "./qualcomm-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qualcomm-logo-solid.svelte"
+    },
+    "./rdio-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rdio-logo.svelte"
+    },
+    "./rdio-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rdio-logo-block.svelte"
+    },
+    "./rdio-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rdio-logo-solid.svelte"
+    },
+    "./reason-studios-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reason-studios-logo.svelte"
+    },
+    "./reason-studios-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reason-studios-logo-block.svelte"
+    },
+    "./reason-studios-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reason-studios-logo-solid.svelte"
+    },
+    "./reddit-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reddit-logo.svelte"
+    },
+    "./reddit-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reddit-logo-block.svelte"
+    },
+    "./reddit-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reddit-logo-solid.svelte"
+    },
+    "./renren-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-1.svelte"
+    },
+    "./renren-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-1-block.svelte"
+    },
+    "./renren-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-1-solid.svelte"
+    },
+    "./renren-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-2.svelte"
+    },
+    "./renren-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-2-block.svelte"
+    },
+    "./renren-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-2-solid.svelte"
+    },
+    "./renren-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-3.svelte"
+    },
+    "./renren-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-3-block.svelte"
+    },
+    "./renren-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/renren-logo-3-solid.svelte"
+    },
+    "./retweet-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/retweet-logo.svelte"
+    },
+    "./retweet-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/retweet-logo-block.svelte"
+    },
+    "./retweet-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/retweet-logo-solid.svelte"
+    },
+    "./riot-games-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/riot-games-logo.svelte"
+    },
+    "./riot-games-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/riot-games-logo-block.svelte"
+    },
+    "./riot-games-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/riot-games-logo-solid.svelte"
+    },
+    "./rss-feed-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rss-feed-logo.svelte"
+    },
+    "./rss-feed-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rss-feed-logo-block.svelte"
+    },
+    "./rss-feed-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rss-feed-logo-solid.svelte"
+    },
+    "./shadow-tech-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shadow-tech-logo.svelte"
+    },
+    "./shadow-tech-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shadow-tech-logo-block.svelte"
+    },
+    "./shadow-tech-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shadow-tech-logo-solid.svelte"
+    },
+    "./shazam-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shazam-logo.svelte"
+    },
+    "./shazam-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shazam-logo-block.svelte"
+    },
+    "./shazam-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shazam-logo-solid.svelte"
+    },
+    "./sina-weibo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sina-weibo-logo.svelte"
+    },
+    "./sina-weibo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sina-weibo-logo-block.svelte"
+    },
+    "./sina-weibo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sina-weibo-logo-solid.svelte"
+    },
+    "./sketch-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sketch-logo.svelte"
+    },
+    "./sketch-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sketch-logo-block.svelte"
+    },
+    "./sketch-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sketch-logo-solid.svelte"
+    },
+    "./skype-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype-logo-1.svelte"
+    },
+    "./skype-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype-logo-1-block.svelte"
+    },
+    "./skype-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype-logo-1-solid.svelte"
+    },
+    "./skype-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype-logo-2.svelte"
+    },
+    "./skype-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype-logo-2-block.svelte"
+    },
+    "./skype-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skype-logo-2-solid.svelte"
+    },
+    "./slack-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slack-logo.svelte"
+    },
+    "./slack-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slack-logo-block.svelte"
+    },
+    "./slack-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slack-logo-solid.svelte"
+    },
+    "./slash-dot-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slash-dot-logo.svelte"
+    },
+    "./slash-dot-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slash-dot-logo-block.svelte"
+    },
+    "./slash-dot-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slash-dot-logo-solid.svelte"
+    },
+    "./slide-share-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-share-logo.svelte"
+    },
+    "./slide-share-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-share-logo-block.svelte"
+    },
+    "./slide-share-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slide-share-logo-solid.svelte"
+    },
+    "./smug-mug-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smug-mug-logo.svelte"
+    },
+    "./smug-mug-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smug-mug-logo-block.svelte"
+    },
+    "./smug-mug-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smug-mug-logo-solid.svelte"
+    },
+    "./snapchat-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snapchat-logo.svelte"
+    },
+    "./snapchat-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snapchat-logo-block.svelte"
+    },
+    "./snapchat-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snapchat-logo-solid.svelte"
+    },
+    "./snapdragon-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snapdragon-logo.svelte"
+    },
+    "./snapdragon-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snapdragon-logo-block.svelte"
+    },
+    "./snapdragon-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snapdragon-logo-solid.svelte"
+    },
+    "./soundcloud-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soundcloud-logo.svelte"
+    },
+    "./soundcloud-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soundcloud-logo-block.svelte"
+    },
+    "./soundcloud-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soundcloud-logo-solid.svelte"
+    },
+    "./spark-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spark-logo.svelte"
+    },
+    "./spark-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spark-logo-block.svelte"
+    },
+    "./spark-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spark-logo-solid.svelte"
+    },
+    "./spinrilla-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spinrilla-logo.svelte"
+    },
+    "./spinrilla-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spinrilla-logo-block.svelte"
+    },
+    "./spinrilla-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spinrilla-logo-solid.svelte"
+    },
+    "./spotify-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spotify-logo.svelte"
+    },
+    "./spotify-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spotify-logo-block.svelte"
+    },
+    "./spotify-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spotify-logo-solid.svelte"
+    },
+    "./square-enix-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-enix-logo.svelte"
+    },
+    "./square-enix-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-enix-logo-block.svelte"
+    },
+    "./square-enix-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-enix-logo-solid.svelte"
+    },
+    "./squidoo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squidoo-logo.svelte"
+    },
+    "./squidoo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squidoo-logo-block.svelte"
+    },
+    "./squidoo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squidoo-logo-solid.svelte"
+    },
+    "./stackoverflow-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackoverflow-logo.svelte"
+    },
+    "./stackoverflow-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackoverflow-logo-block.svelte"
+    },
+    "./stackoverflow-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackoverflow-logo-solid.svelte"
+    },
+    "./steam-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/steam-logo-block.svelte"
+    },
+    "./steam-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/steam-logo-solid.svelte"
+    },
+    "./steinberg-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/steinberg-logo.svelte"
+    },
+    "./steinberg-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/steinberg-logo-block.svelte"
+    },
+    "./steinberg-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/steinberg-logo-solid.svelte"
+    },
+    "./stellar-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stellar-logo.svelte"
+    },
+    "./stellar-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stellar-logo-block.svelte"
+    },
+    "./stellar-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stellar-logo-solid.svelte"
+    },
+    "./stitcher-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stitcher-logo-1.svelte"
+    },
+    "./stitcher-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stitcher-logo-1-block.svelte"
+    },
+    "./stitcher-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stitcher-logo-1-solid.svelte"
+    },
+    "./stitcher-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stitcher-logo-2.svelte"
+    },
+    "./stitcher-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stitcher-logo-2-block.svelte"
+    },
+    "./stitcher-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stitcher-logo-2-solid.svelte"
+    },
+    "./stream-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stream-logo.svelte"
+    },
+    "./streaming-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streaming-logo.svelte"
+    },
+    "./streaming-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streaming-logo-block.svelte"
+    },
+    "./streaming-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streaming-logo-solid.svelte"
+    },
+    "./streamplay-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streamplay-logo.svelte"
+    },
+    "./streamplay-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streamplay-logo-block.svelte"
+    },
+    "./streamplay-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streamplay-logo-solid.svelte"
+    },
+    "./stripe-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stripe-logo.svelte"
+    },
+    "./stripe-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stripe-logo-block.svelte"
+    },
+    "./stripe-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stripe-logo-solid.svelte"
+    },
+    "./studen-circle-network-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/studen-circle-network-logo.svelte"
+    },
+    "./studen-circle-network-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/studen-circle-network-logo-block.svelte"
+    },
+    "./studen-circle-network-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/studen-circle-network-logo-solid.svelte"
+    },
+    "./stumble-upon-2ing-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumble-upon-2ing-logo.svelte"
+    },
+    "./stumble-upon-2ing-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumble-upon-2ing-logo-block.svelte"
+    },
+    "./stumble-upon-2ing-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumble-upon-2ing-logo-solid.svelte"
+    },
+    "./stumble-upong-1ing-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumble-upong-1ing-logo.svelte"
+    },
+    "./stumble-upong-1ing-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumble-upong-1ing-logo-block.svelte"
+    },
+    "./stumble-upong-1ing-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stumble-upong-1ing-logo-solid.svelte"
+    },
+    "./ted-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/ted-logo.svelte"
+    },
+    "./ted-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/ted-logo-block.svelte"
+    },
+    "./ted-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/ted-logo-solid.svelte"
+    },
+    "./telegram-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telegram-logo-1.svelte"
+    },
+    "./telegram-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telegram-logo-1-block.svelte"
+    },
+    "./telegram-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telegram-logo-1-solid.svelte"
+    },
+    "./telegram-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telegram-logo-2.svelte"
+    },
+    "./telegram-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telegram-logo-2-block.svelte"
+    },
+    "./telegram-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telegram-logo-2-solid.svelte"
+    },
+    "./tencent-weiboing-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tencent-weiboing-logo.svelte"
+    },
+    "./tencent-weiboing-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tencent-weiboing-logo-block.svelte"
+    },
+    "./tencent-weiboing-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tencent-weiboing-logo-solid.svelte"
+    },
+    "./thread-block-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thread-block-logo-block.svelte"
+    },
+    "./thread-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thread-logo.svelte"
+    },
+    "./thread-logo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thread-logo-logo-solid.svelte"
+    },
+    "./tidal-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tidal-logo.svelte"
+    },
+    "./tidal-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tidal-logo-block.svelte"
+    },
+    "./tidal-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tidal-logo-solid.svelte"
+    },
+    "./tiktok-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tiktok-logo.svelte"
+    },
+    "./tiktok-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tiktok-logo-block.svelte"
+    },
+    "./tiktok-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tiktok-logo-solid.svelte"
+    },
+    "./tinder-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tinder-logo.svelte"
+    },
+    "./tinder-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tinder-logo-block.svelte"
+    },
+    "./tinder-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tinder-logo-solid.svelte"
+    },
+    "./trello-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trello-logo.svelte"
+    },
+    "./trello-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trello-logo-block.svelte"
+    },
+    "./trello-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trello-logo-solid.svelte"
+    },
+    "./tuenti-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tuenti-logo.svelte"
+    },
+    "./tuenti-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tuenti-logo-block.svelte"
+    },
+    "./tuenti-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tuenti-logo-solid.svelte"
+    },
+    "./tumblr-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tumblr-logo.svelte"
+    },
+    "./tumblr-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tumblr-logo-block.svelte"
+    },
+    "./tumblr-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tumblr-logo-solid.svelte"
+    },
+    "./tunein-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tunein-logo.svelte"
+    },
+    "./tunein-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tunein-logo-block.svelte"
+    },
+    "./tunein-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tunein-logo-solid.svelte"
+    },
+    "./twitch-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitch-logo.svelte"
+    },
+    "./twitch-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitch-logo-block.svelte"
+    },
+    "./twitch-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitch-logo-solid.svelte"
+    },
+    "./twitter-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-logo-1.svelte"
+    },
+    "./twitter-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-logo-1-block.svelte"
+    },
+    "./twitter-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-logo-1-solid.svelte"
+    },
+    "./twitter-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-logo-2.svelte"
+    },
+    "./twitter-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-logo-2-block.svelte"
+    },
+    "./twitter-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter-logo-2-solid.svelte"
+    },
+    "./ubisoft-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ubisoft-logo.svelte"
+    },
+    "./ubisoft-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ubisoft-logo-block.svelte"
+    },
+    "./ubisoft-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ubisoft-logo-solid.svelte"
+    },
+    "./unreal-engine-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unreal-engine-logo.svelte"
+    },
+    "./unreal-engine-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unreal-engine-logo-block.svelte"
+    },
+    "./unreal-engine-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unreal-engine-logo-solid.svelte"
+    },
+    "./unspash-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unspash-logo.svelte"
+    },
+    "./unspash-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unspash-logo-block.svelte"
+    },
+    "./unspash-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unspash-logo-solid.svelte"
+    },
+    "./uplabs-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uplabs-logo.svelte"
+    },
+    "./uplabs-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uplabs-logo-block.svelte"
+    },
+    "./uplabs-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uplabs-logo-solid.svelte"
+    },
+    "./v-kontakte-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/v-kontakte-logo.svelte"
+    },
+    "./v-kontakte-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/v-kontakte-logo-block.svelte"
+    },
+    "./v-kontakte-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/v-kontakte-logo-solid.svelte"
+    },
+    "./viddler-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viddler-logo.svelte"
+    },
+    "./viddler-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viddler-logo-block.svelte"
+    },
+    "./viddler-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viddler-logo-solid.svelte"
+    },
+    "./vimeo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo-logo.svelte"
+    },
+    "./vimeo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo-logo-block.svelte"
+    },
+    "./vimeo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vimeo-logo-solid.svelte"
+    },
+    "./virustotal-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virustotal-logo.svelte"
+    },
+    "./virustotal-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virustotal-logo-block.svelte"
+    },
+    "./virustotal-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virustotal-logo-solid.svelte"
+    },
+    "./visa-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visa-logo.svelte"
+    },
+    "./visa-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visa-logo-block.svelte"
+    },
+    "./visa-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visa-logo-solid.svelte"
+    },
+    "./vlc-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vlc-logo.svelte"
+    },
+    "./vlc-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vlc-logo-block.svelte"
+    },
+    "./vlc-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vlc-logo-solid.svelte"
+    },
+    "./vodafone-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vodafone-logo.svelte"
+    },
+    "./vodafone-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vodafone-logo-block.svelte"
+    },
+    "./vodafone-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vodafone-logo-solid.svelte"
+    },
+    "./vortex-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vortex-logo-1.svelte"
+    },
+    "./vortex-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vortex-logo-1-block.svelte"
+    },
+    "./vortex-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vortex-logo-1-solid.svelte"
+    },
+    "./vortex-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vortex-logo-2.svelte"
+    },
+    "./vortex-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vortex-logo-2-block.svelte"
+    },
+    "./vortex-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vortex-logo-2-solid.svelte"
+    },
+    "./vray-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vray-logo.svelte"
+    },
+    "./vray-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vray-logo-block.svelte"
+    },
+    "./vray-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vray-logo-solid.svelte"
+    },
+    "./w3-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/w3-logo.svelte"
+    },
+    "./w3-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/w3-logo-block.svelte"
+    },
+    "./w3-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/w3-logo-solid.svelte"
+    },
+    "./wear-os-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wear-os-logo.svelte"
+    },
+    "./wear-os-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wear-os-logo-block.svelte"
+    },
+    "./wear-os-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wear-os-logo-solid.svelte"
+    },
+    "./wechat-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wechat-logo.svelte"
+    },
+    "./wechat-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wechat-logo-block.svelte"
+    },
+    "./wechat-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wechat-logo-solid.svelte"
+    },
+    "./wechat-pay-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wechat-pay-logo.svelte"
+    },
+    "./wechat-pay-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wechat-pay-logo-block.svelte"
+    },
+    "./wechat-pay-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wechat-pay-logo-solid.svelte"
+    },
+    "./wetv-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wetv-logo.svelte"
+    },
+    "./wetv-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wetv-logo-block.svelte"
+    },
+    "./wetv-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wetv-logo-solid.svelte"
+    },
+    "./whatsapp-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whatsapp-logo.svelte"
+    },
+    "./whatsapp-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whatsapp-logo-block.svelte"
+    },
+    "./whatsapp-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whatsapp-logo-solid.svelte"
+    },
+    "./whitesource-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-1.svelte"
+    },
+    "./whitesource-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-1-block.svelte"
+    },
+    "./whitesource-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-1-solid.svelte"
+    },
+    "./whitesource-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-2.svelte"
+    },
+    "./whitesource-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-2-block.svelte"
+    },
+    "./whitesource-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-2-solid.svelte"
+    },
+    "./whitesource-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-3.svelte"
+    },
+    "./whitesource-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-3-block.svelte"
+    },
+    "./whitesource-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whitesource-logo-3-solid.svelte"
+    },
+    "./wip-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wip-logo.svelte"
+    },
+    "./wip-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wip-logo-block.svelte"
+    },
+    "./wip-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wip-logo-solid.svelte"
+    },
+    "./wise-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wise-logo.svelte"
+    },
+    "./wise-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wise-logo-block.svelte"
+    },
+    "./wise-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wise-logo-solid.svelte"
+    },
+    "./woocommerce-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/woocommerce-logo.svelte"
+    },
+    "./woocommerce-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/woocommerce-logo-block.svelte"
+    },
+    "./woocommerce-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/woocommerce-logo-solid.svelte"
+    },
+    "./wordpress-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress-logo-1.svelte"
+    },
+    "./wordpress-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress-logo-1-block.svelte"
+    },
+    "./wordpress-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress-logo-1-solid.svelte"
+    },
+    "./wordpress-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress-logo-2.svelte"
+    },
+    "./wordpress-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress-logo-2-block.svelte"
+    },
+    "./wordpress-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress-logo-2-solid.svelte"
+    },
+    "./x-twitter-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-twitter-logo.svelte"
+    },
+    "./x-twitter-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-twitter-logo-block.svelte"
+    },
+    "./x-twitter-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x-twitter-logo-solid.svelte"
+    },
+    "./xbox-live-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xbox-live-logo.svelte"
+    },
+    "./xbox-live-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xbox-live-logo-block.svelte"
+    },
+    "./xbox-live-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xbox-live-logo-solid.svelte"
+    },
+    "./xing-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xing-logo.svelte"
+    },
+    "./xing-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xing-logo-block.svelte"
+    },
+    "./xing-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xing-logo-solid.svelte"
+    },
+    "./xsplit-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xsplit-logo.svelte"
+    },
+    "./xsplit-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xsplit-logo-block.svelte"
+    },
+    "./xsplit-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xsplit-logo-solid.svelte"
+    },
+    "./yahoo-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yahoo-logo.svelte"
+    },
+    "./yahoo-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yahoo-logo-block.svelte"
+    },
+    "./yahoo-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yahoo-logo-solid.svelte"
+    },
+    "./yelp-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yelp-logo.svelte"
+    },
+    "./yelp-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yelp-logo-block.svelte"
+    },
+    "./yelp-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yelp-logo-solid.svelte"
+    },
+    "./youtube-clip-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-clip-logo.svelte"
+    },
+    "./youtube-clip-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-clip-logo-block.svelte"
+    },
+    "./youtube-clip-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-clip-logo-solid.svelte"
+    },
+    "./youtube-gaming-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-1.svelte"
+    },
+    "./youtube-gaming-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-1-block.svelte"
+    },
+    "./youtube-gaming-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-1-solid.svelte"
+    },
+    "./youtube-gaming-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-2.svelte"
+    },
+    "./youtube-gaming-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-2-block.svelte"
+    },
+    "./youtube-gaming-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-2-solid.svelte"
+    },
+    "./youtube-gaming-logo-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-3.svelte"
+    },
+    "./youtube-gaming-logo-3-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-3-block.svelte"
+    },
+    "./youtube-gaming-logo-3-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-gaming-logo-3-solid.svelte"
+    },
+    "./youtube-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-logo.svelte"
+    },
+    "./youtube-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-logo-block.svelte"
+    },
+    "./youtube-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-logo-solid.svelte"
+    },
+    "./youtube-music-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-music-logo.svelte"
+    },
+    "./youtube-music-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-music-logo-block.svelte"
+    },
+    "./youtube-music-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-music-logo-solid.svelte"
+    },
+    "./youtube-studio-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-studio-logo.svelte"
+    },
+    "./youtube-studio-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-studio-logo-block.svelte"
+    },
+    "./youtube-studio-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-studio-logo-solid.svelte"
+    },
+    "./youtube-tv-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-tv-logo.svelte"
+    },
+    "./youtube-tv-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-tv-logo-block.svelte"
+    },
+    "./youtube-tv-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/youtube-tv-logo-solid.svelte"
+    },
+    "./z-wave-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/z-wave-logo.svelte"
+    },
+    "./z-wave-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/z-wave-logo-block.svelte"
+    },
+    "./z-wave-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/z-wave-logo-solid.svelte"
+    },
+    "./zcool-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zcool-logo-1.svelte"
+    },
+    "./zcool-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zcool-logo-1-block.svelte"
+    },
+    "./zcool-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zcool-logo-1-solid.svelte"
+    },
+    "./zcool-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zcool-logo-2.svelte"
+    },
+    "./zcool-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zcool-logo-2-block.svelte"
+    },
+    "./zcool-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zcool-logo-2-solid.svelte"
+    },
+    "./zoom-logo-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-logo-1.svelte"
+    },
+    "./zoom-logo-1-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-logo-1-block.svelte"
+    },
+    "./zoom-logo-1-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-logo-1-solid.svelte"
+    },
+    "./zoom-logo-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-logo-2.svelte"
+    },
+    "./zoom-logo-2-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-logo-2-block.svelte"
+    },
+    "./zoom-logo-2-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-logo-2-solid.svelte"
+    },
+    "./zootool-logo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zootool-logo.svelte"
+    },
+    "./zootool-logo-block": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zootool-logo-block.svelte"
+    },
+    "./zootool-logo-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zootool-logo-solid.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#streamline-logos"
+}

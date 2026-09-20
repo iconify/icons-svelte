@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/to-5kdesz.css';
+import '../../css/p/pb8akpk-u.css';
+import '../../css/n/n7v2ymbet.css';
+import '../../css/a/av1gbnoiu.css';
+import '../../css/d/du17i2b5p.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="to-5kdesz"><path class="pb8akpk-u"/><path class="n7v2ymbet"/><path class="av1gbnoiu"/><path class="du17i2b5p"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="streamline-logos:gowalla-logo-4" {...props}></Icon>
