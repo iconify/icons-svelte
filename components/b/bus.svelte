@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/tu8ksliog.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="tu8ksliog"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="temaki:bus" {...props}></Icon>
