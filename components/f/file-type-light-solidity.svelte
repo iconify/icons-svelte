@@ -1,0 +1,42 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="nv47pmzig"/><path class="hso81g_io"/><path class="hw_6rtbza"/><path class="q1fw8vzxk"/><path class="k6wsxdbcu"/><path class="o0vhcdygb"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:file-type-light-solidity" {...props}></Icon>
+<style>
+:global(.hso81g_io) {
+  d: path("M15.975 10h9l-4.5-8h-9Z");
+  opacity: var(--svg-opacity--0-6, 0.6);
+}
+
+:global(.hw_6rtbza) {
+  d: path("m11.477 18l4.5-8l-4.5-8l-4.5 8Z");
+  opacity: var(--svg-opacity--0-8, 0.8);
+}
+
+:global(.k6wsxdbcu) {
+  d: path("M16.022 22h-9l4.5 8h9Z");
+  opacity: var(--svg-opacity--0-6, 0.6);
+}
+
+:global(.nv47pmzig) {
+  d: path("m20.477 2l-4.5 8h-9l4.5-8z");
+  opacity: var(--svg-opacity--0-45, 0.45);
+}
+
+:global(.o0vhcdygb) {
+  d: path("m20.52 14l-4.5 8l4.5 8l4.5-8Z");
+  opacity: var(--svg-opacity--0-8, 0.8);
+}
+
+:global(.q1fw8vzxk) {
+  d: path("m11.52 30l4.5-8h9l-4.5 8z");
+  opacity: var(--svg-opacity--0-45, 0.45);
+}
+
+</style>
