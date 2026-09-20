@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/r/r8g8ox.css';
+import '../../css/a/a0m25c.css';
+import '../../css/o/oq600w.css';
+import '../../css/s/sdwher.css';
+import '../../css/j/j_b-yc.css';
+import '../../css/j/juj32z.css';
+import '../../css/f/fill-to-0.css';
+import '../../css/f/fill-to-0_3.css';
+import '../../css/s/so-from-16.css';
+import '../../css/s/so-to-0.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="r8g8ox"/><path class="a0m25c oq600w"/><path class="a0m25c sdwher"/><path class="a0m25c j_b-yc"/><path class="a0m25c juj32z"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="line-md:home-md-twotone" {...props}></Icon>

@@ -1,0 +1,23 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/t5pxry.css';
+import '../../css/v/vz72ed.css';
+import '../../css/z/zxndow.css';
+import '../../css/l/l6j71m.css';
+import '../../css/y/y4wbml.css';
+import '../../css/s/sa4k_u.css';
+import '../../css/b/botfzx.css';
+import '../../css/k/kuqzdx.css';
+import '../../css/s/so-from-62.css';
+import '../../css/f/fill-to-1.css';
+import '../../css/f/fade-to-1.css';
+import '../../css/d/d-tnsd9f.css';
+import '../../css/s/so-to-0.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<defs><mask id="SVGHvOFEeNb"><path class="t5pxry vz72ed zxndow"/><path class="l6j71m t5pxry y4wbml zxndow"/><path class="sa4k_u"/></mask></defs><path mask="url(#SVGHvOFEeNb)" class="botfzx"/><path class="kuqzdx t5pxry y4wbml"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="line-md:folder-minus-filled" {...props}></Icon>
