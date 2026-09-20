@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/n1lsf0bnc.css';
+import '../../css/v/v57pwdwow.css';
+import '../../css/a/alnrfta9e.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g clip-rule="evenodd" class="n1lsf0bnc"><path class="v57pwdwow"/><path class="alnrfta9e"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="nrk:target" {...props}></Icon>
