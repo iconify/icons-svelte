@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l5gd3kb0m"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:deck-outline" {...props}></Icon>
+<style>
+:global(.l5gd3kb0m) {
+  fill: currentColor;
+  d: path("M11 22V9H2l10-7l10 7h-9v13zm1-15h3.65h-7.3zM3 22v-5.25l-.8-4.4L4.15 12l.75 4H9v6H7v-4H5v4zm12 0v-6h4.1l.75-4l1.95.35l-.8 4.4V22h-2v-4h-2v4zM8.35 7h7.3L12 4.45z");
+}
+
+</style>

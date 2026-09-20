@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fegfyzu5g"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:window-closed-sharp" {...props}></Icon>
+<style>
+:global(.fegfyzu5g) {
+  fill: currentColor;
+  d: path("M4 21V3h16v18zm3-10h4v-1h2v1h4V6H7zm0 7h10v-5H7zm-1 1h12V5H6z");
+}
+
+</style>

@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lir3fkvwx"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:blur-short" {...props}></Icon>
+<style>
+:global(.lir3fkvwx) {
+  fill: currentColor;
+  d: path("M17.125 14.125Q18 13.25 18 12t-.875-2.125T15 9t-2.125.875T12 12t.875 2.125T15 15t2.125-.875M15 17q-1.8 0-3.175-1.125T10.1 13H6v-2h4.1q.125-.55.338-1.062T11 9H4V7h11q2.075 0 3.538 1.463T20 12t-1.463 3.538T15 17");
+}
+
+</style>

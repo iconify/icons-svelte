@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m9foxqbpr"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:filter-drama" {...props}></Icon>
+<style>
+:global(.m9foxqbpr) {
+  fill: currentColor;
+  d: path("M6.5 20q-2.3 0-3.9-1.6T1 14.5q0-1.825 1.338-3.162T5.5 10t3.163 1.338T10 14.5h2q0-2.575-1.6-4.312T6.25 8q.45-1.85 2.038-2.925T12 4q2.95 0 4.975 2.025T19 11q1.575 0 2.788 1.4T23 15.5q0 1.875-1.312 3.188T18.5 20z");
+}
+
+</style>

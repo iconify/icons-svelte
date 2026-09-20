@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="hyxmcobnz"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:ripples-outline-sharp" {...props}></Icon>
+<style>
+:global(.hyxmcobnz) {
+  fill: currentColor;
+  d: path("M5 19h14v-8.55q-.45.275-.962.413T17 11q-1.65 0-2.825-1.175T13 7q0-.525.138-1.038T13.55 5H5zm-2 2V3h18v18zM5 5v14z");
+}
+
+</style>

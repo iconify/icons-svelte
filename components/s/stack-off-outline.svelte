@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wgx7a0b2o"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:stack-off-outline" {...props}></Icon>
+<style>
+:global(.wgx7a0b2o) {
+  fill: currentColor;
+  d: path("m22 19.15l-2-2V10h-7.15l-2-2H20q.825 0 1.413.588T22 10zM14 6V4H6.85l-2-2H14q.825 0 1.413.588T16 4v2zm-4 14h7.15L10 12.85zm10.575 3.425L19.15 22H10q-.85 0-1.425-.575T8 20v-9.15l-4-4V14h2v2H4q-.85 0-1.425-.575T2 14V4.85L.575 3.425L2 2l20 20zm-7-7");
+}
+
+</style>

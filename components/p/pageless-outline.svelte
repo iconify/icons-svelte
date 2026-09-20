@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="apvm9teep"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:pageless-outline" {...props}></Icon>
+<style>
+:global(.apvm9teep) {
+  fill: currentColor;
+  d: path("M10 22H3q-.825 0-1.412-.587T1 20v-6h2v6h7zm4 0v-2h7v-6h2v6q0 .825-.587 1.413T21 22zM1 10V4q0-.825.588-1.412T3 2h7v2H3v6zm20 0V4h-7V2h7q.825 0 1.413.588T23 4v6z");
+}
+
+</style>

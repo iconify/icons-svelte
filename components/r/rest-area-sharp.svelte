@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ry_30vzem"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:rest-area-sharp" {...props}></Icon>
+<style>
+:global(.ry_30vzem) {
+  fill: currentColor;
+  d: path("M5 22v-2H3v-2h6v2H7v2zm6 0v-6H7v-2h10v2h-4v6zm6 0v-2h-2v-2h6v2h-2v2zM2 16V2h20v14h-3v-2h1v-1.525L15.05 8.35l-4.025 4.025l-3.3-3.05L4 12.45V14h1v2z");
+}
+
+</style>

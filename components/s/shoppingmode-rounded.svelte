@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jngwa7xcm"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols:shoppingmode-rounded" {...props}></Icon>
+<style>
+:global(.jngwa7xcm) {
+  fill: currentColor;
+  d: path("M11.175 22q-.375 0-.75-.15t-.675-.45L2.6 14.25q-.3-.3-.438-.663t-.137-.737t.138-.75t.437-.675L11.4 2.6q.275-.275.65-.438T12.825 2H20q.825 0 1.413.587T22 4v7.175q0 .4-.15.763t-.425.637L12.6 21.4q-.3.3-.675.45t-.75.15M17.5 8q.625 0 1.063-.437T19 6.5t-.437-1.062T17.5 5t-1.062.438T16 6.5t.438 1.063T17.5 8");
+}
+
+</style>
