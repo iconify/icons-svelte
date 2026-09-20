@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/r/rhp64zbzw.css';
+import '../../css/c/cagr_ndqq.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":64,"height":64};
+const content = `<path class="rhp64zbzw"/><path class="cagr_ndqq"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lineicons:bus" {...props}></Icon>

@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/x/x-5jj4beu.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x-5jj4beu"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lineicons:cloud-iot-2" {...props}></Icon>

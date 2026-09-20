@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/g/gc25bjpgv.css';
+import '../../css/k/ksajmtbwp.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":25,"height":24};
+const content = `<path clip-rule="evenodd" class="gc25bjpgv"/><path class="ksajmtbwp"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lineicons:text-format-remove" {...props}></Icon>
