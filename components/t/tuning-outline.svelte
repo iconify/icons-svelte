@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/m/m9e_w_bgk.css';
+import '../../css/p/p59jgoh5a.css';
+import '../../css/m/mm-pvyqxi.css';
+import '../../css/f/f7k12xbna.css';
+import '../../css/v/v6k41cbfr.css';
+import '../../css/h/hu4w8sbsm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="m9e_w_bgk"/><path clip-rule="evenodd" class="p59jgoh5a"/><path clip-rule="evenodd" class="mm-pvyqxi"/><path class="f7k12xbna"/><path class="v6k41cbfr"/><path class="hu4w8sbsm"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:tuning-outline" {...props}></Icon>

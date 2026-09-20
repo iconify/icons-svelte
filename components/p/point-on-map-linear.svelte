@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/b/bsi142u7b.css';
+import '../../css/z/zv97pxbdl.css';
+import '../../css/q/q4m7tjd5h.css';
+import '../../css/p/ptvu1u_4n.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="bsi142u7b"/><path class="zv97pxbdl"/><path class="q4m7tjd5h"/><circle class="ptvu1u_4n"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:point-on-map-linear" {...props}></Icon>

@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/k/kec720k7f.css';
+import '../../css/d/d465v9bll.css';
+import '../../css/v/vbc8ai-qb.css';
+import '../../css/t/tpnfn4b2j.css';
+import '../../css/a/ap2s0m7in.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="kec720k7f"/><path class="d465v9bll"/><path class="vbc8ai-qb"/><path class="tpnfn4b2j"/><path class="ap2s0m7in"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:gamepad-charge-outline" {...props}></Icon>

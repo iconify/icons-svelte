@@ -1,0 +1,18 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/x/xnxq2c_2x.css';
+import '../../css/i/isbq27bhw.css';
+import '../../css/d/d83pj63ue.css';
+import '../../css/j/j17hywdzm.css';
+import '../../css/p/psv6jlkbl.css';
+import '../../css/i/iebli22xk.css';
+import '../../css/l/lm483pb2v.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="xnxq2c_2x"/><path class="isbq27bhw"/><path class="d83pj63ue"/><path class="j17hywdzm"/><path class="psv6jlkbl"/><path class="iebli22xk"/><path class="lm483pb2v"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:cup-star-line-duotone" {...props}></Icon>

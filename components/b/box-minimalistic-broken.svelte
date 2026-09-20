@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/r/r0rdqsbjc.css';
+import '../../css/l/lasg3lkdc.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="r0rdqsbjc"/><path class="lasg3lkdc"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:box-minimalistic-broken" {...props}></Icon>

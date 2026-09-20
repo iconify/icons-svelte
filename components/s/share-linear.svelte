@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/a/at_81ebpk.css';
+import '../../css/b/bqfg75b4w.css';
+import '../../css/g/gz3zbhgyq.css';
+import '../../css/i/iyvfpqslp.css';
+import '../../css/b/bz9hxnbeg.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="at_81ebpk"/><path class="bqfg75b4w"/><path class="gz3zbhgyq"/><path class="iyvfpqslp"/><path class="bz9hxnbeg"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:share-linear" {...props}></Icon>
