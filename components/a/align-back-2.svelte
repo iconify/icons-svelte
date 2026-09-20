@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/k/k2u665ban.css';
+import '../../css/d/duo2tzbwe.css';
+import '../../css/f/f2x1xkbtq.css';
+import '../../css/h/hp9sw6onm.css';
+import '../../css/w/w3wj5iy0u.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="k2u665ban"><path class="duo2tzbwe"/><path class="f2x1xkbtq"/><path class="hp9sw6onm"/><path class="w3wj5iy0u"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="streamline-sharp-color:align-back-2" {...props}></Icon>
