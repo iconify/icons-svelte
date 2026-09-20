@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="cow_lc8_t"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="qhgmfcb0b"/><rect class="j3s9ivbxi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:dollar-general" {...props}></Icon>
 <style>
-:global(.cow_lc8_t) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M14.5 31.17V16.83h3.226A6.274 6.274 0 0 1 24 23.104v1.792a6.274 6.274 0 0 1-6.274 6.274zm19-9.59a4.75 4.75 0 0 0-4.75-4.75h0A4.75 4.75 0 0 0 24 21.58v4.84a4.75 4.75 0 0 0 4.75 4.75h0a4.75 4.75 0 0 0 4.75-4.75h-4.75");
-}
-
 :global(.j3s9ivbxi) {
   width: 37px;
   height: 37px;
@@ -28,6 +20,14 @@ const content = `<path class="cow_lc8_t"/><rect class="j3s9ivbxi"/>`;
   stroke-linejoin: round;
   rx: 4px;
   ry: 4px;
+}
+
+:global(.qhgmfcb0b) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.5 31.17V16.83h3.226A6.274 6.274 0 0 1 24 23.104v1.792a6.274 6.274 0 0 1-6.274 6.274zm19-9.59a4.75 4.75 0 0 0-9.5 0v4.84a4.75 4.75 0 0 0 9.5 0h-4.75");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="adghcxrdt"/><path class="klhug2pfu"/><ellipse transform="rotate(-60 28.687 24)" class="g1rc2vb9x"/><path class="f_e6_fbrc"/>`;
+const content = `<circle class="adghcxrdt"/><path class="klhug2pfu"/><ellipse transform="rotate(-60 28.687 24)" class="g1rc2vb9x"/><path class="y7hzrc9ag"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:cz" {...props}></Icon>
 <style>
@@ -17,14 +17,6 @@ const content = `<circle class="adghcxrdt"/><path class="klhug2pfu"/><ellipse tr
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.f_e6_fbrc) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M29.457 22.1v.024a1.93 1.93 0 0 1-1.93 1.93h0a1.93 1.93 0 0 1-1.929-1.93v-1.966a1.93 1.93 0 0 1 1.93-1.93h0a1.93 1.93 0 0 1 1.93 1.93v.024m1.162-1.953h3.858l-3.858 5.824h3.858");
 }
 
 :global(.g1rc2vb9x) {
@@ -44,6 +36,14 @@ const content = `<circle class="adghcxrdt"/><path class="klhug2pfu"/><ellipse tr
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M28.026 28.188a12.2 12.2 0 0 1-10.25 5.55c-6.784 0-12.276-5.492-12.276-12.261C5.5 14.693 10.992 9.2 17.776 9.2c4.053 0 7.65 1.967 9.883 5.007");
+}
+
+:global(.y7hzrc9ag) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.457 22.1v.024a1.93 1.93 0 1 1-3.859 0v-1.966a1.93 1.93 0 1 1 3.859 0v.024m1.163-1.953h3.858l-3.858 5.824h3.858");
 }
 
 </style>

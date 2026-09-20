@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="i9clfwm2k"/><circle class="l8xnx4b-o"/><path class="zcjuq5bil"/>`;
+const content = `<path class="i9clfwm2k"/><circle class="l8xnx4b-o"/><path class="lqaoeqmyt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:itslearning" {...props}></Icon>
 <style>
@@ -24,12 +24,12 @@ const content = `<path class="i9clfwm2k"/><circle class="l8xnx4b-o"/><path class
   fill: currentColor;
 }
 
-:global(.zcjuq5bil) {
+:global(.lqaoeqmyt) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M14.413 18.913V31.87m11.574-1.093c.892.75 1.856 1.093 4.02 1.093h1.098a3.236 3.236 0 0 0 3.232-3.239h0a3.236 3.236 0 0 0-3.232-3.24H28.91a3.236 3.236 0 0 1-3.232-3.238h0a3.236 3.236 0 0 1 3.232-3.24h1.097c2.164 0 3.128.344 4.02 1.094M20.068 14.88v14.545a2.445 2.445 0 0 0 2.444 2.445h.734m-5.745-12.957h5.133");
+  d: path("M14.413 18.913V31.87m11.574-1.093c.892.75 1.856 1.093 4.02 1.093h1.098a3.236 3.236 0 0 0 3.232-3.239a3.236 3.236 0 0 0-3.232-3.24H28.91a3.236 3.236 0 0 1-3.232-3.238a3.236 3.236 0 0 1 3.232-3.24h1.097c2.164 0 3.128.344 4.02 1.094M20.068 14.88v14.545a2.445 2.445 0 0 0 2.444 2.445h.734m-5.745-12.957h5.133");
 }
 
 </style>

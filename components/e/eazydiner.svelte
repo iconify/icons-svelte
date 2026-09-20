@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="la2klucnb"/><circle class="v2sa847jv"/><path class="f4phaqq4i"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="yan4e7twr"/><circle class="v2sa847jv"/><path class="s0b_hxisk"/><rect class="j3s9ivbxi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:eazydiner" {...props}></Icon>
 <style>
-:global(.f4phaqq4i) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M18.093 20.767v6.077m7.062 0v-3.783a2.293 2.293 0 0 0-2.294-2.293h0a2.293 2.293 0 0 0-2.293 2.293m.001 3.783v-6.077m11.354 4.92a2.29 2.29 0 0 1-1.992 1.157h0a2.293 2.293 0 0 1-2.293-2.293v-1.49a2.293 2.293 0 0 1 2.293-2.294h0a2.293 2.293 0 0 1 2.293 2.293v.746h-4.586m-12.052-.746a2.293 2.293 0 0 0-2.293-2.292h0A2.293 2.293 0 0 0 11 23.06v1.49a2.293 2.293 0 0 0 2.293 2.293h0a2.293 2.293 0 0 0 2.293-2.293m0 2.294v-9.172");
-}
-
 :global(.j3s9ivbxi) {
   width: 37px;
   height: 37px;
@@ -30,12 +22,12 @@ const content = `<path class="la2klucnb"/><circle class="v2sa847jv"/><path class
   ry: 4px;
 }
 
-:global(.la2klucnb) {
+:global(.s0b_hxisk) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M34.707 23.06A2.293 2.293 0 0 1 37 20.769h0m-2.293-.002v6.077");
+  d: path("M18.093 20.767v6.077m7.062 0v-3.783a2.293 2.293 0 1 0-4.586 0m0 3.783v-6.077m11.354 4.92a2.293 2.293 0 0 1-4.285-1.136v-1.49a2.293 2.293 0 1 1 4.586 0v.745h-4.586m-12.052-.746a2.293 2.293 0 1 0-4.586 0v1.491a2.293 2.293 0 1 0 4.586 0m0 2.293v-9.172");
 }
 
 :global(.v2sa847jv) {
@@ -43,6 +35,14 @@ const content = `<path class="la2klucnb"/><circle class="v2sa847jv"/><path class
   cy: 17.959px;
   r: 0.803px;
   fill: currentColor;
+}
+
+:global(.yan4e7twr) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.707 23.06A2.293 2.293 0 0 1 37 20.769m-2.293-.002v6.077");
 }
 
 </style>

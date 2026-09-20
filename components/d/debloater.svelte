@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="mep3kqq1w"/><path class="sc8uzabfq"/><path class="ouo6kyg4x"/><path class="ckk1cs32a"/>`;
+const content = `<path class="mep3kqq1w"/><path class="sc8uzabfq"/><path class="ouo6kyg4x"/><path class="yci4i4bxc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:debloater" {...props}></Icon>
 <style>
-:global(.ckk1cs32a) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.516 18.944a6.62 6.62 0 0 0-1.44-7.206h0a6.62 6.62 0 0 0-9.362 0h0a.945.945 0 0 0 0 1.336l5.87 5.87m.15-11.948l-.236 2.895m8.32 5.189l-2.895.236");
-}
-
 :global(.mep3kqq1w) {
   fill: none;
   stroke: currentColor;
@@ -36,6 +28,14 @@ const content = `<path class="mep3kqq1w"/><path class="sc8uzabfq"/><path class="
   stroke-linecap: round;
   stroke-miterlimit: 4.75;
   d: path("M37.562 18.944L16.987 4.5");
+}
+
+:global(.yci4i4bxc) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.516 18.944a6.62 6.62 0 0 0-1.44-7.206a6.62 6.62 0 0 0-9.362 0a.945.945 0 0 0 0 1.336l5.87 5.87m.15-11.948l-.236 2.895m8.32 5.189l-2.895.236");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="jc1oydeao"/><path class="o99npcbso"/><rect class="byk-ihmmr"/><rect class="ffxesnbri"/><path class="lkhq_8blk"/>`;
+const content = `<rect class="jc1oydeao"/><path class="o99npcbso"/><rect class="byk-ihmmr"/><rect class="ffxesnbri"/><path class="mu3up8bod"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:zozotown" {...props}></Icon>
 <style>
@@ -48,12 +48,12 @@ const content = `<rect class="jc1oydeao"/><path class="o99npcbso"/><rect class="
   ry: 4px;
 }
 
-:global(.lkhq_8blk) {
+:global(.mu3up8bod) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M34.5 33.5v-8l5.3 8v-8m-7.87 0l-2 8l-2-8l-2 8l-2-8m-13.23-11H16l-5.3 8H16m9.33-8h5.3l-5.3 8h5.3m4.674-8a2.65 2.65 0 0 1 2.65 2.65v2.7a2.65 2.65 0 0 1-2.65 2.65h0a2.65 2.65 0 0 1-2.65-2.65v-2.7a2.65 2.65 0 0 1 2.65-2.65");
+  d: path("M34.5 33.5v-8l5.3 8v-8m-7.87 0l-2 8l-2-8l-2 8l-2-8m-13.23-11H16l-5.3 8H16m9.33-8h5.3l-5.3 8h5.3m4.674-8za2.65 2.65 0 0 1 2.65 2.65v2.7a2.65 2.65 0 1 1-5.3 0v-2.7a2.65 2.65 0 0 1 2.65-2.65");
 }
 
 :global(.o99npcbso) {

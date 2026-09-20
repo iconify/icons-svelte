@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jlzqt6t1k"/><path class="zzxnrhb1d"/><path class="iy9nwm0gz"/>`;
+const content = `<path class="re6vy4bdt"/><path class="zzxnrhb1d"/><path class="iy9nwm0gz"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:click-assistant" {...props}></Icon>
 <style>
@@ -17,12 +17,12 @@ const content = `<path class="jlzqt6t1k"/><path class="zzxnrhb1d"/><path class="
   d: path("M30.516 15.921c8.337 4.169 0 8.337 8.37 12.738");
 }
 
-:global(.jlzqt6t1k) {
+:global(.re6vy4bdt) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m10.749 31.877l5.895 5.895a1.04 1.04 0 0 1 0 1.474l-2.948 2.948a1.04 1.04 0 0 1-1.474 0l-5.895-5.895a1.04 1.04 0 0 1 0-1.474l2.948-2.948a1.04 1.04 0 0 1 1.474 0m15.808-16.614a1.51 1.51 0 0 0-2.141 0l-8.51 8.508c0-7.369-2.947-5.895-2.947-5.895L10.75 28.93h0s-.488 2.46.736 3.684l4.422 4.422a3.12 3.12 0 0 0 4.421 0l8.106-8.106a1.563 1.563 0 1 0-2.21-2.211a1.563 1.563 0 1 0-2.211-2.21a1.563 1.563 0 1 0-2.21-2.211l4.823-4.825a1.51 1.51 0 0 0 0-2.141z");
+  d: path("m10.749 31.877l5.895 5.895a1.04 1.04 0 0 1 0 1.474l-2.948 2.948a1.04 1.04 0 0 1-1.474 0l-5.895-5.895a1.04 1.04 0 0 1 0-1.474l2.948-2.948a1.04 1.04 0 0 1 1.474 0m15.808-16.614a1.51 1.51 0 0 0-2.141 0l-8.51 8.508c0-7.369-2.947-5.895-2.947-5.895L10.75 28.93s-.488 2.46.736 3.684l4.422 4.422a3.12 3.12 0 0 0 4.421 0l8.106-8.106a1.563 1.563 0 1 0-2.21-2.211a1.563 1.563 0 1 0-2.211-2.21a1.563 1.563 0 1 0-2.21-2.211l4.823-4.825a1.51 1.51 0 0 0 0-2.141z");
 }
 
 :global(.zzxnrhb1d) {

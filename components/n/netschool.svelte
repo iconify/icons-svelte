@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ut4ws8bcb"/><path class="avd3ru90d"/>`;
+const content = `<path class="ut4ws8bcb"/><path class="r1pztib6a"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:netschool" {...props}></Icon>
 <style>
-:global(.avd3ru90d) {
+:global(.r1pztib6a) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M41 20.41c0 1.886-1.527 3.415-3.41 3.415s-3.408-1.53-3.408-3.415s1.526-3.415 3.408-3.415h0A3.41 3.41 0 0 1 41 20.41");
+  d: path("M41 20.41c0 1.886-1.527 3.415-3.41 3.415s-3.408-1.53-3.408-3.415s1.526-3.415 3.408-3.415A3.41 3.41 0 0 1 41 20.41");
 }
 
 :global(.ut4ws8bcb) {

@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="e7p7i8sxx"/><path class="zks9wun1x"/>`;
+const content = `<path class="vswxlnaop"/><path class="zks9wun1x"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:creditas" {...props}></Icon>
 <style>
-:global(.e7p7i8sxx) {
+:global(.vswxlnaop) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M42.5 14.75a9.25 9.25 0 0 0-9.25-9.25H9.5a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h23.75a9.25 9.25 0 0 0 9.25-9.25h0A9.25 9.25 0 0 0 33.25 24a9.25 9.25 0 0 0 9.25-9.25");
+  d: path("M42.5 14.75za9.25 9.25 0 0 0-9.25-9.25H9.5a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h23.75a9.25 9.25 0 0 0 9.25-9.25A9.25 9.25 0 0 0 33.25 24a9.25 9.25 0 0 0 9.25-9.25");
 }
 
 :global(.zks9wun1x) {

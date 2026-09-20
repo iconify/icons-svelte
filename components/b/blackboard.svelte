@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="nwmi-xk1q"/><path class="m784r9bay"/><path class="zbg4nfb-f"/>`;
+const content = `<path class="nwmi-xk1q"/><path class="xr--7hqas"/><path class="zbg4nfb-f"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:blackboard" {...props}></Icon>
 <style>
-:global(.m784r9bay) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m5.887 8.27l1.464-1.463a3.78 3.78 0 0 1 5.346 0l2.673 2.672h0l-6.81 6.81h0l-2.673-2.673a3.78 3.78 0 0 1 0-5.346M32.36 40.09l8.16 2.57a1 1 0 0 0 1.21-1.22l-2.57-8.16");
-}
-
 :global(.nwmi-xk1q) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m39.16 33.28l-1.1 3.93A2.56 2.56 0 0 1 36.28 39l-3.92 1.1L8.54 16.27l6.81-6.8ZM12.22 19.92l6.79-6.79m18.4 25.2L15.6 16.53");
+}
+
+:global(.xr--7hqas) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m5.887 8.27l1.464-1.463a3.78 3.78 0 0 1 5.346 0l2.673 2.672l-6.81 6.81l-2.673-2.673a3.78 3.78 0 0 1 0-5.346M32.36 40.09l8.16 2.57a1 1 0 0 0 1.21-1.22l-2.57-8.16");
 }
 
 :global(.zbg4nfb-f) {

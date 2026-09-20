@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="z_i8820zz"/><circle class="cpk0fnbgt"/><path class="id1-53wmd"/><circle class="shb1lxbmy"/><circle class="fzcwwqbay"/><path class="kxwz3gbrs"/>`;
+const content = `<path class="z_i8820zz"/><circle class="cpk0fnbgt"/><path class="f4iowcnjk"/><circle class="shb1lxbmy"/><circle class="fzcwwqbay"/><path class="kxwz3gbrs"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:sbb-cint-customer-app" {...props}></Icon>
 <style>
@@ -19,19 +19,19 @@ const content = `<path class="z_i8820zz"/><circle class="cpk0fnbgt"/><path class
   stroke-linejoin: round;
 }
 
+:global(.f4iowcnjk) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M4.421 15.318h39.158m-21.601 6.557h4.154a3.915 3.915 0 0 1 3.915 3.915v9.507H18.063V25.79a3.915 3.915 0 0 1 3.915-3.915m-2.909-2.183h9.862m-5.439 2.183l-1.7-2.183m2.716 2.183l1.7-2.183m-8.145 10.261h11.984m-8.096-5.271h4.208");
+}
+
 :global(.fzcwwqbay) {
   cx: 27.16px;
   cy: 32.54px;
   r: 0.75px;
   fill: currentColor;
-}
-
-:global(.id1-53wmd) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M4.421 15.318h39.158m-21.601 6.557h4.154a3.915 3.915 0 0 1 3.915 3.915v9.507h0h-11.984h0V25.79a3.915 3.915 0 0 1 3.915-3.915m-2.909-2.183h9.862m-5.439 2.183l-1.7-2.183m2.716 2.183l1.7-2.183m-8.145 10.261h11.984m-8.096-5.271h4.208");
 }
 
 :global(.kxwz3gbrs) {

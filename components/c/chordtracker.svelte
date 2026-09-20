@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="izv301_io"/><path class="de414_btx"/>`;
+const content = `<path class="izv301_io"/><path class="dfpwwfbel"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:chordtracker" {...props}></Icon>
 <style>
-:global(.de414_btx) {
+:global(.dfpwwfbel) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M35.757 28.61v.126c0 5.63-3.532 10.192-7.888 10.192h0c-4.357 0-7.889-4.563-7.889-10.191V18.353c0-5.63 3.532-10.192 7.889-10.192h0c4.356 0 7.888 4.563 7.888 10.192v.126m.009.061l2.89.36l-.335-11.687m-2.548 21.381l2.964-.692l.226 12.415");
+  d: path("M35.757 28.61v.126c0 5.63-3.532 10.192-7.888 10.192c-4.357 0-7.889-4.563-7.889-10.191V18.353c0-5.63 3.532-10.192 7.889-10.192c4.356 0 7.888 4.563 7.888 10.192v.126m.009.061l2.89.36l-.335-11.687m-2.548 21.381l2.964-.692l.226 12.415");
 }
 
 :global(.izv301_io) {

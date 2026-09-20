@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="r5l_qy-7e"/><path class="zvl5z-y5w"/><circle class="st5vxbc2t"/>`;
+const content = `<path class="jc4jcb3ep"/><path class="zvl5z-y5w"/><circle class="st5vxbc2t"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:rss" {...props}></Icon>
 <style>
-:global(.r5l_qy-7e) {
+:global(.jc4jcb3ep) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M5.5 13.573A28.927 28.927 0 0 1 34.427 42.5v0H42.5a37 37 0 0 0-37-37Z");
+  d: path("M5.5 13.573A28.927 28.927 0 0 1 34.427 42.5H42.5a37 37 0 0 0-37-37Z");
 }
 
 :global(.st5vxbc2t) {

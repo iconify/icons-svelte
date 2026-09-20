@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="xqgql63sr"/><rect class="uwxradcgn"/><rect class="p2ug2jbiv"/><rect class="mdiolpbsn"/><path class="a-dgcnzvv"/><rect class="lsl3tnbme"/><rect class="f7zw9_bwd"/><rect class="r6z3kvj4j"/><path class="j7gzitrby"/><rect class="lzz0w1byn"/><path class="p1z02538y"/><path class="sem395bmb"/>`;
+const content = `<path class="xqgql63sr"/><rect class="uwxradcgn"/><rect class="p2ug2jbiv"/><rect class="mdiolpbsn"/><path class="a-dgcnzvv"/><rect class="lsl3tnbme"/><rect class="f7zw9_bwd"/><rect class="r6z3kvj4j"/><path class="j7gzitrby"/><rect class="lzz0w1byn"/><path class="sc2_y91fj"/><path class="sem395bmb"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:google-pinyin-input" {...props}></Icon>
 <style>
@@ -73,14 +73,6 @@ const content = `<path class="xqgql63sr"/><rect class="uwxradcgn"/><rect class="
   rx: 0.421px;
 }
 
-:global(.p1z02538y) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183A1.683 1.683 0 0 1 14.85 5.5h18.542a1.683 1.683 0 0 1 1.683 1.683h0v15.025a2.1 2.1 0 0 1-.824 1.67");
-}
-
 :global(.p2ug2jbiv) {
   width: 3.366px;
   height: 3.366px;
@@ -103,6 +95,14 @@ const content = `<path class="xqgql63sr"/><rect class="uwxradcgn"/><rect class="
   stroke-linecap: round;
   stroke-linejoin: round;
   rx: 0.421px;
+}
+
+:global(.sc2_y91fj) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183A1.683 1.683 0 0 1 14.85 5.5h18.542a1.683 1.683 0 0 1 1.683 1.683v15.025a2.1 2.1 0 0 1-.824 1.67");
 }
 
 :global(.sem395bmb) {

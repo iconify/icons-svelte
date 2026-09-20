@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="l1zjvop8k"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="et8v4ibzh"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:letter-lowercase-square-q" {...props}></Icon>
 <style>
+:global(.et8v4ibzh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28 22.6a4 4 0 0 1-8 0V20a4 4 0 0 1 8 0m0-4v16");
+}
+
 :global(.j3s9ivbxi) {
   width: 37px;
   height: 37px;
@@ -20,14 +28,6 @@ const content = `<rect class="j3s9ivbxi"/><path class="l1zjvop8k"/>`;
   stroke-linejoin: round;
   rx: 4px;
   ry: 4px;
-}
-
-:global(.l1zjvop8k) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M28 22.6a4 4 0 0 1-4 4h0a4 4 0 0 1-4-4V20a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4m0-4v16");
 }
 
 </style>

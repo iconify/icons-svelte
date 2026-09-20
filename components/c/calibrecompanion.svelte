@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="lkj-yhqhw"/><path class="lv7a_nauo"/><path class="hi9rfsb7r"/>`;
+const content = `<path class="lkj-yhqhw"/><path class="lv7a_nauo"/><path class="gli6fvbdi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:calibrecompanion" {...props}></Icon>
 <style>
-:global(.hi9rfsb7r) {
+:global(.gli6fvbdi) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M25.95 19.669a8.72 8.72 0 0 1 8.72 8.721v0a1.245 1.245 0 0 1-1.244 1.245H18.473a1.245 1.245 0 0 1-1.245-1.245v0a8.72 8.72 0 0 1 8.722-8.721m-7.532-1.304l2.478 2.917m12.585-2.917l-2.478 2.917");
+  d: path("M25.95 19.669za8.72 8.72 0 0 1 8.72 8.721a1.245 1.245 0 0 1-1.244 1.245H18.473a1.245 1.245 0 0 1-1.245-1.245a8.72 8.72 0 0 1 8.722-8.721m-7.532-1.304l2.478 2.917m12.585-2.917l-2.478 2.917");
 }
 
 :global(.lkj-yhqhw) {

@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="immh-9bcu"/><path class="d9zf32bje"/><path class="ydqthzbbt"/>`;
+const content = `<path class="ba42oc_1w"/><path class="d9zf32bje"/><path class="ydqthzbbt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:luca" {...props}></Icon>
 <style>
+:global(.ba42oc_1w) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.462 17.871v9.625c0 .825.55 1.375 1.375 1.375h.413m16.135-1.375c-.413.825-1.375 1.375-2.338 1.375a2.76 2.76 0 0 1-2.75-2.75v-1.787a2.76 2.76 0 0 1 2.75-2.75c.963 0 1.925.55 2.338 1.374m-8.412 3.163a2.76 2.76 0 0 1-2.75 2.75a2.76 2.76 0 0 1-2.75-2.75v-4.537m6.6 7.287c-.55 0-1.1-.55-1.1-1.1v-6.187m16.465 4.537a2.76 2.76 0 0 1-2.75 2.75a2.76 2.76 0 0 1-2.75-2.75v-1.787a2.76 2.76 0 0 1 2.75-2.75a2.76 2.76 0 0 1 2.75 2.75");
+}
+
 :global(.d9zf32bje) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M37.538 28.871c-.55 0-1.1-.55-1.1-1.1v-6.187");
-}
-
-:global(.immh-9bcu) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M10.462 17.871v9.625c0 .825.55 1.375 1.375 1.375h.413m16.135-1.375c-.413.825-1.375 1.375-2.338 1.375h0a2.76 2.76 0 0 1-2.75-2.75v-1.787a2.76 2.76 0 0 1 2.75-2.75h0c.963 0 1.925.55 2.338 1.374m-8.412 3.163a2.76 2.76 0 0 1-2.75 2.75h0a2.76 2.76 0 0 1-2.75-2.75v-4.537m6.6 7.287c-.55 0-1.1-.55-1.1-1.1v-6.187m16.465 4.537a2.76 2.76 0 0 1-2.75 2.75h0a2.76 2.76 0 0 1-2.75-2.75v-1.787a2.76 2.76 0 0 1 2.75-2.75h0a2.76 2.76 0 0 1 2.75 2.75");
 }
 
 :global(.ydqthzbbt) {

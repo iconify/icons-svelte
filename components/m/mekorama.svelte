@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="h22js-b7e"/><path class="r9_2nfb_f"/><path class="wv1wtebns"/><circle class="ocqgu4bsl"/><path class="p9j7jdmzt"/><circle class="y_e8ueb0d"/><path class="req5mqb4z"/><circle class="ut8a8odsf"/><path class="e5779qb7r"/>`;
+const content = `<path class="h22js-b7e"/><path class="yz4hidb_v"/><path class="wv1wtebns"/><circle class="ocqgu4bsl"/><path class="usrdvaccp"/><circle class="y_e8ueb0d"/><path class="req5mqb4z"/><circle class="ut8a8odsf"/><path class="e5779qb7r"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:mekorama" {...props}></Icon>
 <style>
@@ -35,28 +35,20 @@ const content = `<path class="h22js-b7e"/><path class="r9_2nfb_f"/><path class="
   stroke-linejoin: round;
 }
 
-:global(.p9j7jdmzt) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m19.333 25.66l.518 4.356s-2.303.185-2.593 1.556c-.273 1.293 5.47 1.25 5.186 0c-.334-1.474-2.593-1.556-2.593-1.556h0m8.816-4.356l-.518 6.43s-2.304.186-2.593 1.556c-.273 1.293 5.469 1.25 5.186 0c-.334-1.474-2.593-1.555-2.593-1.555M15.703 14.977l-2.075 7.26m18.67-7.26l2.592 5.705");
-}
-
-:global(.r9_2nfb_f) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M15.703 13.94v-1.556l1.555-.518h0m13.484 0l1.556.518v1.556");
-}
-
 :global(.req5mqb4z) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M24.463 20.637h-2.35m2.35 0a1.424 1.424 0 0 1 0 2.849h-2.35v-5.697h2.35a1.424 1.424 0 0 1 0 2.848");
+}
+
+:global(.usrdvaccp) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m19.333 25.66l.518 4.356s-2.303.185-2.593 1.556c-.273 1.293 5.47 1.25 5.186 0c-.334-1.474-2.593-1.556-2.593-1.556m8.816-4.356l-.518 6.43s-2.304.186-2.593 1.556c-.273 1.293 5.469 1.25 5.186 0c-.334-1.474-2.593-1.555-2.593-1.555M15.703 14.977l-2.075 7.26m18.67-7.26l2.592 5.705");
 }
 
 :global(.ut8a8odsf) {
@@ -85,6 +77,14 @@ const content = `<path class="h22js-b7e"/><path class="r9_2nfb_f"/><path class="
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.yz4hidb_v) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M15.703 13.94v-1.556l1.555-.518m13.484 0zl1.556.518v1.556");
 }
 
 </style>

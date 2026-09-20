@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="xy8knjqcw"/><path class="jnrkkfb8e"/><path class="beytv2vqg"/><path class="z_2dubbbu"/><rect class="vjx6q6b0w"/><rect class="ck_uzrb2j"/><path class="o3ulb0b3l"/><path class="l1liknxvu"/>`;
+const content = `<path class="xy8knjqcw"/><path class="qzriwub5t"/><path class="beytv2vqg"/><path class="z_2dubbbu"/><rect class="vjx6q6b0w"/><rect class="ck_uzrb2j"/><path class="o3ulb0b3l"/><path class="l1liknxvu"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:duolingo-streaksaver-5" {...props}></Icon>
 <style>
@@ -30,14 +30,6 @@ const content = `<path class="xy8knjqcw"/><path class="jnrkkfb8e"/><path class="
   ry: 2.166px;
 }
 
-:global(.jnrkkfb8e) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M28.077 31.366a8.82 8.82 0 0 0 7.595 4.324h0a8.83 8.83 0 0 0 8.828-8.828h0v-5.19a8.8 8.8 0 0 0-2.21-5.844h0c0-1.926-.468-4.617-1.771-4.617s-2.509 1.945-2.509 1.945s.815-4.626-1.524-4.626c-3.327 0-5.084 8.956-12.485 8.956S14.84 8.53 11.515 8.53c-2.34 0-1.524 4.626-1.524 4.626s-1.206-1.945-2.51-1.945s-1.77 2.691-1.77 4.617h0A8.8 8.8 0 0 0 3.5 21.672v5.19a8.83 8.83 0 0 0 8.828 8.828h0c3.118.001 6-1.569 7.59-4.25");
-}
-
 :global(.l1liknxvu) {
   fill: none;
   stroke: currentColor;
@@ -52,6 +44,14 @@ const content = `<path class="xy8knjqcw"/><path class="jnrkkfb8e"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M30.79 26.3c-.2-.32-.31-.7-.31-1.11v-2.54c0-.59.24-1.14.63-1.53c.39-.4.93-.64 1.53-.64c1.19 0 2.17.98 2.17 2.17v2.54c0 .18-.02.35-.07.51m-24.3-10.887c3.784-.477 6.364-1.01 8.27-2.832");
+}
+
+:global(.qzriwub5t) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28.077 31.366A8.828 8.828 0 0 0 44.5 26.862v-5.19a8.8 8.8 0 0 0-2.21-5.844c0-1.926-.468-4.617-1.771-4.617s-2.509 1.945-2.509 1.945s.815-4.626-1.524-4.626c-3.327 0-5.084 8.956-12.485 8.956S14.84 8.53 11.515 8.53c-2.34 0-1.524 4.626-1.524 4.626s-1.206-1.945-2.51-1.945s-1.77 2.691-1.77 4.617A8.8 8.8 0 0 0 3.5 21.672v5.19a8.83 8.83 0 0 0 8.828 8.828c3.118.001 6-1.569 7.59-4.25");
 }
 
 :global(.vjx6q6b0w) {

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="ouw3f2o3h"/><circle class="ulgp7lr-z"/><circle class="r32dt0hof"/><circle class="y85d4_3_l"/><circle class="pn6m1ub2r"/><circle class="e8vjb6bmv"/><circle class="w039job9j"/><circle class="aqm0apfod"/><circle class="px_r9jb3u"/><circle class="y1gyen97a"/><circle class="xo0h-rbpv"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="nqoasmbyp"/><circle class="ulgp7lr-z"/><circle class="r32dt0hof"/><circle class="y85d4_3_l"/><circle class="pn6m1ub2r"/><circle class="e8vjb6bmv"/><circle class="w039job9j"/><circle class="aqm0apfod"/><circle class="px_r9jb3u"/><circle class="y1gyen97a"/><circle class="xo0h-rbpv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:handpickd" {...props}></Icon>
 <style>
@@ -36,12 +36,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="ouw3f2o3h"/><circle class
   ry: 4px;
 }
 
-:global(.ouw3f2o3h) {
+:global(.nqoasmbyp) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m27.912 24.815l.836-4.95c.5-2.96-2.128-5.46-4.753-5.46h0c-2.625 0-5.2 2.488-4.753 5.46l.742 4.95m-.79-15.879v9.821");
+  d: path("m27.912 24.815l.836-4.95c.5-2.96-2.128-5.46-4.753-5.46s-5.2 2.488-4.753 5.46l.742 4.95m-.79-15.879v9.821");
 }
 
 :global(.pn6m1ub2r) {

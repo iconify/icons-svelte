@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="aa5lhfe8z"/><path class="ugwhewb7j"/><path class="w7ha01tyb"/><path class="cn5n2zyuj"/><path class="gyn18ab8y"/><path class="criy_qbmv"/><path class="jlqvfdnzy"/><path class="nbpejqbwu"/><path class="axybacc3d"/><path class="g-h_14bki"/><path class="lfg0lgezb"/><circle class="yl94lpfnl"/>`;
+const content = `<path class="pxevm__0w"/><path class="ugwhewb7j"/><path class="wqsnxjbrn"/><path class="cn5n2zyuj"/><path class="om7fnt0-n"/><path class="criy_qbmv"/><path class="q4f--f6jx"/><path class="nbpejqbwu"/><path class="axybacc3d"/><path class="g-h_14bki"/><path class="lfg0lgezb"/><circle class="yl94lpfnl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:incognitowallet" {...props}></Icon>
 <style>
-:global(.aa5lhfe8z) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M42 39.5a1.5 1.5 0 0 0 1.5-1.5h0");
-}
-
 :global(.axybacc3d) {
   fill: none;
   stroke: currentColor;
@@ -52,22 +44,6 @@ const content = `<path class="aa5lhfe8z"/><path class="ugwhewb7j"/><path class="
   d: path("M40.433 20.4h-4.085a2.85 2.85 0 0 0-2.848 2.848v1.504a2.85 2.85 0 0 0 2.848 2.848h5.118");
 }
 
-:global(.gyn18ab8y) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M6 8.5A1.5 1.5 0 0 0 4.5 10h0");
-}
-
-:global(.jlqvfdnzy) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M4.5 38A1.5 1.5 0 0 0 6 39.5h0");
-}
-
 :global(.lfg0lgezb) {
   fill: none;
   stroke: currentColor;
@@ -85,6 +61,30 @@ const content = `<path class="aa5lhfe8z"/><path class="ugwhewb7j"/><path class="
   d: path("M10.865 39.5h28.703");
 }
 
+:global(.om7fnt0-n) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M6 8.5zA1.5 1.5 0 0 0 4.5 10");
+}
+
+:global(.pxevm__0w) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42 39.5za1.5 1.5 0 0 0 1.5-1.5");
+}
+
+:global(.q4f--f6jx) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M4.5 38zA1.5 1.5 0 0 0 6 39.5");
+}
+
 :global(.ugwhewb7j) {
   fill: none;
   stroke: currentColor;
@@ -94,12 +94,12 @@ const content = `<path class="aa5lhfe8z"/><path class="ugwhewb7j"/><path class="
   d: path("M43.5 33.172V12.414");
 }
 
-:global(.w7ha01tyb) {
+:global(.wqsnxjbrn) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M43.5 10A1.5 1.5 0 0 0 42 8.5h0");
+  d: path("M43.5 10zA1.5 1.5 0 0 0 42 8.5");
 }
 
 :global(.yl94lpfnl) {

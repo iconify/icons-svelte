@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="yc3-mqbma"/><path class="svftkib-r"/><circle class="jvh38tbcm"/><path class="g0jh--wyg"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="l81bv2ydu"/><path class="ob-5rbc6b"/><circle class="jvh38tbcm"/><path class="jvbq6bcdr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:trivago" {...props}></Icon>
 <style>
@@ -19,12 +19,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="yc3-mqbma"/><path class
   stroke-linejoin: round;
 }
 
-:global(.g0jh--wyg) {
+:global(.jvbq6bcdr) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M16.306 21.575v5.3m-7.307-7v6a.945.945 0 0 0 1 1h.3m-2.3-5.3h2.1m17.9 3.3a2.006 2.006 0 0 1-2 2h0a2.006 2.006 0 0 1-2-2v-1.3a2.006 2.006 0 0 1 2-2h0a2.006 2.006 0 0 1 2 2m0 3.3v-5.3");
+  d: path("M16.306 21.575v5.3m-7.307-7v6a.945.945 0 0 0 1 1h.3m-2.3-5.3h2.1m17.9 3.3a2.006 2.006 0 0 1-2 2a2.006 2.006 0 0 1-2-2v-1.3a2.006 2.006 0 0 1 2-2a2.006 2.006 0 0 1 2 2m0 3.3v-5.3");
 }
 
 :global(.jvh38tbcm) {
@@ -34,20 +34,20 @@ const content = `<circle class="cpk0fnbgt"/><path class="yc3-mqbma"/><path class
   fill: currentColor;
 }
 
-:global(.svftkib-r) {
+:global(.l81bv2ydu) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M32.003 21.575a2.006 2.006 0 0 1 2 2v1.3a2.006 2.006 0 0 1-2 2h0a2.006 2.006 0 0 1-2-2v-1.3a2.006 2.006 0 0 1 2-2m5.998 5.3a2.006 2.006 0 0 1-2-2v-1.3a2.006 2.006 0 0 1 2-2h0a2.006 2.006 0 0 1 2 2v1.3a2.006 2.006 0 0 1-2 2m-25.705-3.299a2.006 2.006 0 0 1 2-2h0m-2 0v5.299");
+  d: path("m22.313 21.575l-2 5.3l-2-5.3m15.69 0v6a2.006 2.006 0 0 1-2 2a1.68 1.68 0 0 1-1.4-.6");
 }
 
-:global(.yc3-mqbma) {
+:global(.ob-5rbc6b) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m22.313 21.575l-2 5.3l-2-5.3m15.69 0v6a2.006 2.006 0 0 1-2 2h0a1.68 1.68 0 0 1-1.4-.6");
+  d: path("M32.003 21.575za2.006 2.006 0 0 1 2 2v1.3a2.006 2.006 0 0 1-2 2a2.006 2.006 0 0 1-2-2v-1.3a2.006 2.006 0 0 1 2-2m5.998 5.3za2.006 2.006 0 0 1-2-2v-1.3a2.006 2.006 0 0 1 2-2a2.006 2.006 0 0 1 2 2v1.3a2.006 2.006 0 0 1-2 2m-25.705-3.299a2.006 2.006 0 0 1 2-2m-2 0v5.299");
 }
 
 </style>

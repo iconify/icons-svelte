@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ye6w9-vba"/><path class="de-ta9b9y"/><circle class="po6l10bki"/><circle class="y7beoxqee"/><circle class="ftn3ylbhe"/><circle class="cbz_mwleo"/>`;
+const content = `<path class="azpr1oe8n"/><path class="de-ta9b9y"/><circle class="po6l10bki"/><circle class="y7beoxqee"/><circle class="ftn3ylbhe"/><circle class="cbz_mwleo"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:einstein-island" {...props}></Icon>
 <style>
+:global(.azpr1oe8n) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m10.207 10.437l19.984.297c3.67 5.14 5.317 11.287 2.374 19.715c-6.187-2.007-12.74-2.339-19.878.008c.312-7.116.211-14.071-2.48-20.019m3.564-2.544c1.453-.249 2.823-1.334 4.483.018c1.66 1.351 2.804.72 4.517.091m.147 2.649V6.425");
+}
+
 :global(.cbz_mwleo) {
   cx: 29.421px;
   cy: 38.36px;
@@ -43,14 +51,6 @@ const content = `<path class="ye6w9-vba"/><path class="de-ta9b9y"/><circle class
   cy: 38.36px;
   r: 0.75px;
   fill: currentColor;
-}
-
-:global(.ye6w9-vba) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m10.207 10.437l19.984.297c3.67 5.14 5.317 11.287 2.374 19.715c-6.187-2.007-12.74-2.339-19.878.008c.312-7.116.211-14.071-2.48-20.019zm3.564-2.543c1.453-.249 2.823-1.334 4.483.018c1.66 1.351 2.804.72 4.517.091m.147 2.649V6.425");
 }
 
 </style>

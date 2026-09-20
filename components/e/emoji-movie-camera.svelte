@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="pdg09db6j"/><path class="qlw08u2bd"/><path class="shl6vcb_v"/><path class="vqzrpdbia"/>`;
+const content = `<path class="pdg09db6j"/><path class="qlw08u2bd"/><path class="shl6vcb_v"/><path class="c0pfdhkwh"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:emoji-movie-camera" {...props}></Icon>
 <style>
+:global(.c0pfdhkwh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.032 16.902a2.049 2.049 0 1 0 4.098 0a2.049 2.049 0 1 0-4.098 0");
+}
+
 :global(.pdg09db6j) {
   fill: none;
   stroke: currentColor;
@@ -31,14 +39,6 @@ const content = `<path class="pdg09db6j"/><path class="qlw08u2bd"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M30.35 16.902a2.049 2.049 0 1 0 4.098.002v-.002a2.049 2.049 0 1 0-4.097-.003zm-21.098 0a6.83 6.83 0 1 0 13.658.004v-.004a6.83 6.83 0 1 0-13.658 0");
-}
-
-:global(.vqzrpdbia) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M14.032 16.902a2.049 2.049 0 1 0 4.098 0v0a2.049 2.049 0 1 0-4.098 0");
 }
 
 </style>

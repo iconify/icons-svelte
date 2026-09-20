@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ymuzcm6sr"/><rect class="ypabh1wof"/><circle class="bo46vl0_k"/><path class="hly17-bop"/><circle class="cpk0fnbgt"/><path class="ep8_0931t"/><path class="s9r77nbul"/>`;
+const content = `<path class="ymuzcm6sr"/><rect class="ypabh1wof"/><circle class="bo46vl0_k"/><path class="ogupycwmy"/><circle class="cpk0fnbgt"/><path class="ep8_0931t"/><path class="s9r77nbul"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:amazon-prime-video" {...props}></Icon>
 <style>
@@ -34,12 +34,12 @@ const content = `<path class="ymuzcm6sr"/><rect class="ypabh1wof"/><circle class
   d: path("M32.28 29.406c1.113-.45 3.092-1.05 3.688-.327c.644.781-.17 2.477-.92 3.794");
 }
 
-:global(.hly17-bop) {
+:global(.ogupycwmy) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.007 20.125v5.3m11.738-1.009a2 2 0 0 1-1.738 1.009h0a2 2 0 0 1-2-2v-1.3a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v.65h-4m-2-.65a2 2 0 0 0-2-2h0a2 2 0 0 0-2 2v1.3a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2m0 2v-8");
+  d: path("M18.007 20.125v5.3m11.738-1.009a2 2 0 0 1-1.738 1.009a2 2 0 0 1-2-2v-1.3a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.65h-4m-2-.65a2 2 0 0 0-2-2a2 2 0 0 0-2 2v1.3a2 2 0 0 0 2 2a2 2 0 0 0 2-2m0 2v-8");
 }
 
 :global(.s9r77nbul) {

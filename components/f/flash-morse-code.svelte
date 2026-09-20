@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="h7cirdbaa"/><circle class="elmf8_b8e"/><circle class="i58ae2blo"/><circle class="i5rdw2b1f"/>`;
+const content = `<path class="t2d5dwbrg"/><circle class="elmf8_b8e"/><circle class="i58ae2blo"/><circle class="i5rdw2b1f"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:flash-morse-code" {...props}></Icon>
 <style>
@@ -17,14 +17,6 @@ const content = `<path class="h7cirdbaa"/><circle class="elmf8_b8e"/><circle cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.h7cirdbaa) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M16.2 20.1a3.9 3.9 0 0 1 3.9 3.9v15.6a3.9 3.9 0 0 1-3.9 3.9h0a3.9 3.9 0 0 1-3.9-3.9V24a3.9 3.9 0 0 1 3.9-3.9");
 }
 
 :global(.i58ae2blo) {
@@ -45,6 +37,14 @@ const content = `<path class="h7cirdbaa"/><circle class="elmf8_b8e"/><circle cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.t2d5dwbrg) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.2 20.1za3.9 3.9 0 0 1 3.9 3.9v15.6a3.9 3.9 0 0 1-7.8 0V24a3.9 3.9 0 0 1 3.9-3.9");
 }
 
 </style>

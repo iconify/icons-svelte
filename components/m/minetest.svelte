@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="d4ztvfbsb"/><path class="mhzedi9nh"/><path class="zm4t-1bxz"/><path class="nc_ulcc0c"/><path class="o2ws0ebwb"/><path class="ay13l0b5e"/>`;
+const content = `<path class="liy344bqy"/><path class="mhzedi9nh"/><path class="fg27xkl4z"/><path class="nc_ulcc0c"/><path class="o2ws0ebwb"/><path class="ay13l0b5e"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:minetest" {...props}></Icon>
 <style>
@@ -17,12 +17,20 @@ const content = `<path class="d4ztvfbsb"/><path class="mhzedi9nh"/><path class="
   d: path("m7.744 15.575l6.65 3.84l6.006-3.468V8.418l-6.005-3.467l-6.65 3.839Zm27.12 6.618l1.451.837l1.261-.728V14.72l-1.26-.728l-1.452.97ZM43 25.499l-3.616 2.088v.904l-1.808 1.043v1.808l-1.808 1.044v3.616L43 31.827Zm-25.312 3.049v1.808");
 }
 
-:global(.d4ztvfbsb) {
+:global(.fg27xkl4z) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M43 31.827L24.016 43.049L5 32.07V21.223");
+  d: path("m17.688 39.396l-9.556-5.518l3.137-1.742l2.803 1.556m20.792-16.598L32.2 15.221l-6.056 3.654l4.201 2.515v1.81l5.96 3.447l3.136-1.808L43 22.787l-5.424-3.815m-5.377-3.75l-.047-1.827");
+}
+
+:global(.liy344bqy) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M43 31.827zL24.016 43.049L5 32.07V21.223");
 }
 
 :global(.mhzedi9nh) {
@@ -47,14 +55,6 @@ const content = `<path class="d4ztvfbsb"/><path class="mhzedi9nh"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m12.803 18.495l.026 3.821l1.566.714l1.565-.714V20.51l-.023-1.993l-1.542.899");
-}
-
-:global(.zm4t-1bxz) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m17.688 39.396l-9.556-5.518l3.137-1.742l2.803 1.556m20.792-16.598L32.2 15.221l-6.056 3.654l4.201 2.515v1.81l5.96 3.447l3.136-1.808L43 22.787v0l-5.424-3.815m-5.377-3.75l-.047-1.827");
 }
 
 </style>

@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x-o4j9b7q"/><path class="su6lu1btr"/><path class="pl6jdpbyr"/>`;
+const content = `<path class="x-o4j9b7q"/><path class="su6lu1btr"/><path class="p43owlbfd"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:pid-litacka" {...props}></Icon>
 <style>
-:global(.pl6jdpbyr) {
+:global(.p43owlbfd) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M32.155 22.464a3.39 3.39 0 0 0-3.381-3.38h0a3.39 3.39 0 0 0-3.38 3.38v2.197a3.39 3.39 0 0 0 3.38 3.381h0a3.39 3.39 0 0 0 3.38-3.38m.001 3.38V14.52M12.794 24.855a3.39 3.39 0 0 0 3.38 3.381h0a3.39 3.39 0 0 0 3.38-3.38v-2.198a3.39 3.39 0 0 0-3.38-3.38h0a3.39 3.39 0 0 0-3.38 3.38m0-3.381V32.8");
+  d: path("M32.155 22.464a3.39 3.39 0 0 0-3.381-3.38a3.39 3.39 0 0 0-3.38 3.38v2.197a3.39 3.39 0 0 0 3.38 3.381a3.39 3.39 0 0 0 3.38-3.38m.001 3.38V14.52M12.794 24.855a3.39 3.39 0 0 0 3.38 3.381a3.39 3.39 0 0 0 3.38-3.38v-2.198a3.39 3.39 0 0 0-3.38-3.38a3.39 3.39 0 0 0-3.38 3.38m0-3.381V32.8");
 }
 
 :global(.su6lu1btr) {

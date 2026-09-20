@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="blz5s3b7n"/><path class="lkpsrr46i"/><path class="cfju6ubpg"/>`;
+const content = `<path class="blz5s3b7n"/><path class="lkpsrr46i"/><path class="ditc3obgo"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:bump" {...props}></Icon>
 <style>
@@ -17,12 +17,12 @@ const content = `<path class="blz5s3b7n"/><path class="lkpsrr46i"/><path class="
   d: path("m24 27.503l8.117 3.252c3.387 1.357 6.525-2.425 4.566-5.504l-7.982-12.544c-2.19-3.44-7.212-3.44-9.402 0L11.317 25.25c-1.96 3.079 1.178 6.86 4.566 5.504z");
 }
 
-:global(.cfju6ubpg) {
+:global(.ditc3obgo) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M5.5 30.879v6.2h0c.03 3.66 3.764 6.756 7.72 5.24L24 38.187l10.78 4.132c3.956 1.516 7.69-1.58 7.72-5.24h0v-6.2");
+  d: path("M5.5 30.879v6.2c.03 3.66 3.764 6.756 7.72 5.24L24 38.187l10.78 4.132c3.956 1.516 7.69-1.58 7.72-5.24s0-6.2 0-6.2");
 }
 
 :global(.lkpsrr46i) {

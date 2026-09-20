@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ro3rxgb0v"/><path class="vyet1y67i"/><path class="ywfni3b7n"/><path class="cymxiyole"/><path class="r568g6b5e"/><circle class="qtlohj0es"/><path class="w3ynj1b7h"/>`;
+const content = `<path class="ro3rxgb0v"/><path class="vyet1y67i"/><path class="ywfni3b7n"/><path class="cymxiyole"/><path class="yth42ccxw"/><circle class="qtlohj0es"/><path class="w3ynj1b7h"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:droidvim" {...props}></Icon>
 <style>
@@ -23,14 +23,6 @@ const content = `<path class="ro3rxgb0v"/><path class="vyet1y67i"/><path class="
   cy: 16px;
   r: 0.8px;
   fill: currentColor;
-}
-
-:global(.r568g6b5e) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m20.4 15.7l-2.7 8l-2.6-8m9.6 4.8a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v3.2m-4-5.2v5.2m4-3.2a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v3.2");
 }
 
 :global(.ro3rxgb0v) {
@@ -54,6 +46,14 @@ const content = `<path class="ro3rxgb0v"/><path class="vyet1y67i"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M22.5 18.4v5.3");
+}
+
+:global(.yth42ccxw) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m20.4 15.7l-2.7 8l-2.6-8m9.6 4.8a2 2 0 0 1 2-2a2 2 0 0 1 2 2v3.2m-4-5.2v5.2m4-3.2a2 2 0 0 1 2-2a2 2 0 0 1 2 2v3.2");
 }
 
 :global(.ywfni3b7n) {

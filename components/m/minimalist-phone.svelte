@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yrpa296zp"/>`;
+const content = `<path class="mqfkbmbwg"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:minimalist-phone" {...props}></Icon>
 <style>
-:global(.yrpa296zp) {
+:global(.mqfkbmbwg) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 2.5c11.874 0 21.5 9.626 21.5 21.5h0c0 11.874-9.626 21.5-21.5 21.5h0C12.126 45.5 2.5 35.874 2.5 24h0A21.43 21.43 0 0 1 8.797 8.797");
+  d: path("M24 2.5zc11.874 0 21.5 9.626 21.5 21.5S35.874 45.5 24 45.5S2.5 35.874 2.5 24A21.43 21.43 0 0 1 8.797 8.797");
 }
 
 </style>

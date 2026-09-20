@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="kmv0qgdzb"/><rect transform="rotate(175.825 27.436 24.012)" class="t3drjo-fc"/><path class="rrlkbabiu"/><circle class="fvy1281yv"/><path class="e3pfwv8jv"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="dq95syblc"/><rect transform="rotate(175.825 27.436 24.012)" class="t3drjo-fc"/><path class="m4g6z8cox"/><circle class="fvy1281yv"/><path class="e3pfwv8jv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:migu" {...props}></Icon>
 <style>
+:global(.dq95syblc) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m11.572 28.149l-.654-8.965l5.142 8.647l3.833-9.288l.654 8.96m8.916-6.627l.49 6.73a2.25 2.25 0 0 1-2.079 2.408a2.24 2.24 0 0 1-1.634-.542");
+}
+
 :global(.e3pfwv8jv) {
   fill: none;
   stroke: currentColor;
@@ -37,20 +45,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="kmv0qgdzb"/><rect transfo
   ry: 4px;
 }
 
-:global(.kmv0qgdzb) {
+:global(.m4g6z8cox) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m11.572 28.149l-.654-8.965l5.142 8.647l3.833-9.288l.654 8.96m8.916-6.627l.49 6.73a2.25 2.25 0 0 1-2.079 2.408h0a2.24 2.24 0 0 1-1.634-.542");
-}
-
-:global(.rrlkbabiu) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m31.997 20.69l.27 3.703a2.25 2.25 0 0 0 2.407 2.08h0a2.25 2.25 0 0 0 2.08-2.408l-.27-3.702m.27 3.702l.164 2.243");
+  d: path("m31.997 20.69l.27 3.703a2.25 2.25 0 1 0 4.487-.328l-.27-3.702m.27 3.702l.164 2.243");
 }
 
 :global(.t3drjo-fc) {

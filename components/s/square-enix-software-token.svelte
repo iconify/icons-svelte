@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><circle class="re5gdbvwm"/><path class="jje0l-w3d"/><circle class="i7wdi9_uf"/><path class="comqsy8-j"/>`;
+const content = `<rect class="j3s9ivbxi"/><circle class="re5gdbvwm"/><path class="p6fpzj2tt"/><circle class="i7wdi9_uf"/><path class="comqsy8-j"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:square-enix-software-token" {...props}></Icon>
 <style>
@@ -40,12 +40,12 @@ const content = `<rect class="j3s9ivbxi"/><circle class="re5gdbvwm"/><path class
   ry: 4px;
 }
 
-:global(.jje0l-w3d) {
+:global(.p6fpzj2tt) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M26.001 10.144A14 14 0 0 1 38 24h0a14 14 0 0 1-12 13.856m-4 0a14 14 0 0 1 0-27.712");
+  d: path("M26.001 10.144A14 14 0 0 1 26 37.856m-4 0a14 14 0 0 1 0-27.712");
 }
 
 :global(.re5gdbvwm) {

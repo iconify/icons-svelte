@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jz3rzxb5s"/><g class="y9tr6bcfx"><path class="a54h34b7f"/><path class="dlp2d9bbz"/><path class="y2f63tbfw"/></g>`;
+const content = `<path class="jz3rzxb5s"/><g class="y9tr6bcfx"><path class="dzic2gl0h"/><path class="dlp2d9bbz"/><path class="y2f63tbfw"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:message-assistant-answer-phone" {...props}></Icon>
 <style>
-:global(.a54h34b7f) {
-  d: path("M40.773 27.126a2.383 2.383 0 0 1-2.383 2.383h0a2.383 2.383 0 1 1 2.383-2.383");
-}
-
 :global(.dlp2d9bbz) {
   d: path("M27.674 21.455a4.534 4.534 0 0 1 4.429-5.512c1.8 0 3.243 1.108 4.081 2.56l4.328 7.495");
+}
+
+:global(.dzic2gl0h) {
+  d: path("M40.773 27.126a2.383 2.383 0 1 1-4.766 0a2.383 2.383 0 0 1 4.766 0");
 }
 
 :global(.jz3rzxb5s) {

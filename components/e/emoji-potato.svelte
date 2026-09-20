@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<defs><path id="SVGJwwVBgKr" class="xvektccux"/></defs><use href="#SVGJwwVBgKr" class="c-zrgpb5l"/><use href="#SVGJwwVBgKr" class="c-zrgpb5l"/><path class="felr8tbzd"/>`;
+const content = `<defs><path id="SVGJwwVBgKr" class="xvektccux"/></defs><use href="#SVGJwwVBgKr" class="c-zrgpb5l"/><use href="#SVGJwwVBgKr" class="c-zrgpb5l"/><path class="dulx6qbit"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:emoji-potato" {...props}></Icon>
 <style>
@@ -14,12 +14,12 @@ const content = `<defs><path id="SVGJwwVBgKr" class="xvektccux"/></defs><use hre
   stroke-linejoin: round;
 }
 
-:global(.felr8tbzd) {
+:global(.dulx6qbit) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M25.612 10.094a.863.863 0 0 0 1.727.001v0a.863.863 0 0 0-1.727-.002zm-2.221 24.274a2.22 2.22 0 0 0 4.441.004v-.004a2.22 2.22 0 0 0-4.44-.004z");
+  d: path("M25.612 10.094a.863.863 0 0 0 1.727.001a.863.863 0 0 0-1.727-.002zm-2.221 24.274a2.22 2.22 0 0 0 4.441.004v-.004a2.22 2.22 0 0 0-4.44-.004z");
 }
 
 :global(.xvektccux) {

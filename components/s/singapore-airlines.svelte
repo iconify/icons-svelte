@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="xb02-7biy"/><path class="lvugp06qn"/><path class="ew59ewb9n"/><path class="nrtfsdici"/>`;
+const content = `<path class="xb02-7biy"/><path class="lvugp06qn"/><path class="ew59ewb9n"/><path class="evpct9bdp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:singapore-airlines" {...props}></Icon>
 <style>
+:global(.evpct9bdp) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.36 40.73h3.178c.716 0 1.384-.362 1.774-.963l4.094-6.315a2.25 2.25 0 0 1 1.884-1.024");
+}
+
 :global(.ew59ewb9n) {
   fill: none;
   stroke: currentColor;
@@ -23,14 +31,6 @@ const content = `<path class="xb02-7biy"/><path class="lvugp06qn"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m23.43 38.758l6.037-9.458a7.35 7.35 0 0 0-.054-7.996L18.367 4.5l-1.94 3.103a3.2 3.2 0 0 0 .039 3.459l.021.033");
-}
-
-:global(.nrtfsdici) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.36 40.73h3.178c.716 0 1.384-.362 1.774-.963l4.094-6.315a2.25 2.25 0 0 1 1.884-1.024h0");
 }
 
 :global(.xb02-7biy) {

@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><g class="y9tr6bcfx"><path class="lgtl44u0y"/><path class="f01-39xon"/></g>`;
+const content = `<rect class="j3s9ivbxi"/><g class="y9tr6bcfx"><path class="fpr8qvbek"/><path class="r4cdy9b6f"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:letter-lowercase-y" {...props}></Icon>
 <style>
-:global(.f01-39xon) {
-  d: path("M28 16v6.6a4 4 0 0 1-4 4h0a4 4 0 0 1-4-4V16");
+:global(.fpr8qvbek) {
+  d: path("M28 22.6V28a4 4 0 0 1-4 4a4 4 0 0 1-2.828-1.171");
 }
 
 :global(.j3s9ivbxi) {
@@ -26,8 +26,8 @@ const content = `<rect class="j3s9ivbxi"/><g class="y9tr6bcfx"><path class="lgtl
   ry: 4px;
 }
 
-:global(.lgtl44u0y) {
-  d: path("M28 22.6V28a4 4 0 0 1-4 4h0a4 4 0 0 1-2.828-1.171");
+:global(.r4cdy9b6f) {
+  d: path("M28 16v6.6a4 4 0 0 1-8 0V16");
 }
 
 :global(.y9tr6bcfx) {

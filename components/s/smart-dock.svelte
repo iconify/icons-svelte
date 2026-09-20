@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="u8jf4tbwu"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="nvghvqbmi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:smart-dock" {...props}></Icon>
 <style>
@@ -22,12 +22,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="u8jf4tbwu"/>`;
   ry: 4px;
 }
 
-:global(.u8jf4tbwu) {
+:global(.nvghvqbmi) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.306 27.92c.924 1.202 2.083 1.65 3.695 1.65h2.232a3.76 3.76 0 0 0 3.76-3.76v-.015a3.76 3.76 0 0 0-3.76-3.76H22.77a3.764 3.764 0 0 1-3.763-3.763v0A3.77 3.77 0 0 1 22.78 14.5h2.219c1.612 0 2.77.448 3.695 1.651M20.5 33.5h7");
+  d: path("M19.306 27.92c.924 1.202 2.083 1.65 3.695 1.65h2.232a3.76 3.76 0 0 0 3.76-3.76v-.015a3.76 3.76 0 0 0-3.76-3.76H22.77a3.764 3.764 0 0 1-3.763-3.763A3.77 3.77 0 0 1 22.78 14.5h2.219c1.612 0 2.77.448 3.695 1.651M20.5 33.5h7");
 }
 
 </style>

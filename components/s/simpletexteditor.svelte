@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="guz8plbzs"/><path class="nxlc7kbko"/><path class="udfss3bhw"/>`;
+const content = `<path class="guz8plbzs"/><path class="nxlc7kbko"/><path class="atneracnk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:simpletexteditor" {...props}></Icon>
 <style>
+:global(.atneracnk) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.697 11.183a4 4 0 0 1 6.5 4.662M17.149 31.466a4 4 0 0 1 6.501 4.663");
+}
+
 :global(.guz8plbzs) {
   fill: none;
   stroke: currentColor;
@@ -23,14 +31,6 @@ const content = `<path class="guz8plbzs"/><path class="nxlc7kbko"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M36.858 4.51L18.34 4.5v7.978a1.995 1.995 0 0 1-1.945 1.994H8.42v27.034a1.994 1.994 0 0 0 1.994 1.994h27.223a1.995 1.995 0 0 0 1.945-1.994v-27.59");
-}
-
-:global(.udfss3bhw) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M31.697 11.183a4 4 0 0 1 6.5 4.662M17.149 31.466a4 4 0 0 1 6.501 4.663h0");
 }
 
 </style>

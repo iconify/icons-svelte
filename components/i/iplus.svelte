@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jo8s1soph"/><path class="kxda3wbyg"/><path class="ocps1lbac"/><path class="uxo2g9bgv"/><path class="o_5irhbrd"/><path class="q7c4yvb-t"/><path class="vnyxkacom"/>`;
+const content = `<path class="jo8s1soph"/><path class="kxda3wbyg"/><path class="h04x9obxl"/><path class="uxo2g9bgv"/><path class="o_5irhbrd"/><path class="q7c4yvb-t"/><path class="vnyxkacom"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:iplus" {...props}></Icon>
 <style>
+:global(.h04x9obxl) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M23.178 2.677c2.646 2.398 4.424 7.889 7.693 9.904s7.084-.299 10.217-1.858m4.412 9.985s-2.39 2.39-2.554 3.947c-.183 1.73 1.857 4.877 1.857 4.877");
+}
+
 :global(.jo8s1soph) {
   fill: none;
   stroke: currentColor;
@@ -31,14 +39,6 @@ const content = `<path class="jo8s1soph"/><path class="kxda3wbyg"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M23.671 45.323s5.474-6.798 7.895-7.43c1.917.055 3.948 4.18 3.948 4.18m-21.567 1.57s2.652-8.1 6.063-13.346c1.143-2.296-.892-4.306-3.896-5.395c-4.602-1.404-13.614-.589-13.614-.589");
-}
-
-:global(.ocps1lbac) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.178 2.677c2.646 2.398 4.424 7.889 7.693 9.904s7.084-.299 10.217-1.858h0m4.412 9.985s-2.39 2.39-2.554 3.947c-.183 1.73 1.857 4.877 1.857 4.877");
 }
 
 :global(.q7c4yvb-t) {

@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="unje1isbv"/><path class="k5x3w2o8s"/><path class="cnrjczbcq"/>`;
+const content = `<path class="unje1isbv"/><path class="k5x3w2o8s"/><path class="m0r6bzgzb"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:emoji-hammer-and-wrench" {...props}></Icon>
 <style>
-:global(.cnrjczbcq) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M16.835 7.944a43.5 43.5 0 0 0-7.354 5.417l1.26 1.712l-1.715 1.264l-.883-1.208s0 0 0 0c-1.026-.151-2.472.92-2.624 1.946l3.39 4.64c.965-.049 2.298-1.036 2.624-1.945l-.963-1.32l1.724-1.27l1.395 1.894l7.353-5.417l-2.404-3.265s4.902-3.61 7.739-3.182a10.87 10.87 0 0 0-9.542.734m-8.692 7.185");
-}
-
 :global(.k5x3w2o8s) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m18.411 15.595l9.356 12.737l2.235 1.58l6.66 9.073l-.696.516l-2.092 1.545l-.697.516l-6.661-9.074l-.84-2.61l-9.36-12.74z");
+}
+
+:global(.m0r6bzgzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.835 7.944a43.5 43.5 0 0 0-7.354 5.417l1.26 1.712l-1.715 1.264l-.883-1.208c-1.026-.151-2.472.92-2.624 1.946l3.39 4.64c.965-.049 2.298-1.036 2.624-1.945l-.963-1.32l1.724-1.27l1.395 1.894l7.353-5.417l-2.404-3.265s4.902-3.61 7.739-3.182a10.87 10.87 0 0 0-9.542.734m-8.692 7.185z");
 }
 
 :global(.unje1isbv) {

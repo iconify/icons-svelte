@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="mgh-g6hkn"/><path class="zyxhuxbbz"/><circle class="g2ql4oemh"/>`;
+const content = `<path class="q74ya9che"/><path class="zyxhuxbbz"/><circle class="g2ql4oemh"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:camera" {...props}></Icon>
 <style>
@@ -19,12 +19,12 @@ const content = `<path class="mgh-g6hkn"/><path class="zyxhuxbbz"/><circle class
   stroke-linejoin: round;
 }
 
-:global(.mgh-g6hkn) {
+:global(.q74ya9che) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 16.92a8.5 8.5 0 1 1-8.5 8.5h0a8.5 8.5 0 0 1 8.5-8.5");
+  d: path("M24 16.92a8.5 8.5 0 1 1-8.5 8.5a8.5 8.5 0 0 1 8.5-8.5");
 }
 
 :global(.zyxhuxbbz) {

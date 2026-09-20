@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="we75edbts"/><circle class="tz2hzln-u"/><circle class="f_8gftgqm"/><path class="vvm-lxb_a"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="we75edbts"/><circle class="tz2hzln-u"/><circle class="f_8gftgqm"/><path class="hzlyghbjd"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:ftp-server" {...props}></Icon>
 <style>
@@ -26,19 +26,19 @@ const content = `<circle class="cpk0fnbgt"/><path class="we75edbts"/><circle cla
   fill: currentColor;
 }
 
+:global(.hzlyghbjd) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m27.4 19.2l.4 3.2m-9 4.4l3.1.7m-6 6.2zc-.7.6-.8 1.7-.1 2.4l3.5 3.9l2.5-2.2l-3.5-3.9c-.7-.8-1.7-.8-2.4-.2m18.7-16.6zc-.7.6-.8 1.7-.1 2.4l3.5 3.9l2.5-2.2l-3.5-3.9c-.7-.7-1.7-.8-2.4-.2");
+}
+
 :global(.tz2hzln-u) {
   cx: 23.8px;
   cy: 29.5px;
   r: 0.75px;
   fill: currentColor;
-}
-
-:global(.vvm-lxb_a) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m27.4 19.2l.4 3.2m-9 4.4l3.1.7m-6 6.2c-.7.6-.8 1.7-.1 2.4l3.5 3.9l2.5-2.2l-3.5-3.9c-.7-.8-1.7-.8-2.4-.2m18.7-16.6c-.7.6-.8 1.7-.1 2.4l3.5 3.9l2.5-2.2l-3.5-3.9c-.7-.7-1.7-.8-2.4-.2");
 }
 
 :global(.we75edbts) {

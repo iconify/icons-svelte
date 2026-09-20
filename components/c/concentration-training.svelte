@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ss56liiyt"/><path class="vov1pibmd"/>`;
+const content = `<path class="jqu44zbfw"/><path class="vov1pibmd"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:concentration-training" {...props}></Icon>
 <style>
-:global(.ss56liiyt) {
+:global(.jqu44zbfw) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M25.527 17.635c0 5.828-4.707 10.552-10.513 10.552h0C9.207 28.187 4.5 23.462 4.5 17.635c0-5.828 4.707-10.552 10.514-10.552h0c5.806 0 10.513 4.724 10.513 10.552");
+  d: path("M25.527 17.635c0 5.828-4.707 10.552-10.513 10.552c-5.807 0-10.514-4.725-10.514-10.552c0-5.828 4.707-10.552 10.514-10.552s10.513 4.724 10.513 10.552");
 }
 
 :global(.vov1pibmd) {

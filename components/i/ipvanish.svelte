@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="oqfs31b8u"/><path class="lxggmv4sy"/><path class="vx6hm2b6m"/>`;
+const content = `<path class="dg9ikab3t"/><path class="dj5_83baq"/><path class="vx6hm2b6m"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:ipvanish" {...props}></Icon>
 <style>
-:global(.lxggmv4sy) {
+:global(.dg9ikab3t) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.49 14.9v6.27h6.09a3.32 3.32 0 0 1 3.32 3.32h0a3.31 3.31 0 0 1-3.32 3.32h-6.09v6.28h6.09a9.6 9.6 0 0 0 9.6-9.6h0a9.59 9.59 0 0 0-9.6-9.59Z");
+  d: path("M24.22 27.81h.28V43.5h-6.28v-9.69a6 6 0 0 1 6-6");
 }
 
-:global(.oqfs31b8u) {
+:global(.dj5_83baq) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.22 27.81h.28V43.5h0h-6.28h0v-9.69a6 6 0 0 1 6-6");
+  d: path("M24.49 14.9v6.27h6.09a3.32 3.32 0 0 1 3.32 3.32a3.31 3.31 0 0 1-3.32 3.32h-6.09v6.28h6.09a9.6 9.6 0 0 0 9.6-9.6a9.59 9.59 0 0 0-9.6-9.59Z");
 }
 
 :global(.vx6hm2b6m) {

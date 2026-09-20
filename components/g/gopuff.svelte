@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="m7gz-fbys"/><rect transform="matrix(-1 0 0 -1 38.28 46.71)" class="krv11eb1h"/><path class="h5xpp9yee"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="blumuxbam"/><rect transform="matrix(-1 0 0 -1 38.28 46.71)" class="krv11eb1h"/><path class="h5xpp9yee"/><rect class="j3s9ivbxi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:gopuff" {...props}></Icon>
 <style>
+:global(.blumuxbam) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.671 31.67a3.49 3.49 0 0 0 5.959-2.468v-6.981c0-2.549 1.16-3.823 1.16-3.823");
+}
+
 :global(.h5xpp9yee) {
   fill: none;
   stroke: currentColor;
@@ -41,14 +49,6 @@ const content = `<path class="m7gz-fbys"/><rect transform="matrix(-1 0 0 -1 38.2
   stroke-linejoin: round;
   rx: 3.491px;
   ry: 3.491px;
-}
-
-:global(.m7gz-fbys) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M16.671 31.67a3.48 3.48 0 0 0 2.469 1.023h0a3.49 3.49 0 0 0 3.49-3.49V22.22c0-2.549 1.16-3.823 1.16-3.823");
 }
 
 </style>

@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ydqthzbbt"/><path class="oscycbbki"/><circle class="vhhwvx4ic"/><path class="rgyik9b8s"/>`;
+const content = `<path class="ydqthzbbt"/><path class="yy7lxwb5m"/><circle class="vhhwvx4ic"/><path class="rgyik9b8s"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:tui" {...props}></Icon>
 <style>
-:global(.oscycbbki) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M30.24 20.413v4.426a2.683 2.683 0 0 0 2.683 2.683h0a2.683 2.683 0 0 0 2.682-2.683v-4.426m0 4.426v2.682");
-}
-
 :global(.rgyik9b8s) {
   fill: none;
   stroke: currentColor;
@@ -38,6 +30,14 @@ const content = `<path class="ydqthzbbt"/><path class="oscycbbki"/><circle class
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M38.5 42.5h-29c-2.2 0-4-1.8-4-4v-29c0-2.2 1.8-4 4-4h29c2.2 0 4 1.8 4 4v29c0 2.2-1.8 4-4 4");
+}
+
+:global(.yy7lxwb5m) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.24 20.413v4.426a2.682 2.682 0 1 0 5.365 0v-4.426m0 4.426v2.682");
 }
 
 </style>

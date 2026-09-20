@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><rect class="w5ztvbg7m"/><path class="w9v12qzbx"/></g><path class="t-1w98bpp"/>`;
+const content = `<g class="y9tr6bcfx"><rect class="w5ztvbg7m"/><path class="w9v12qzbx"/></g><path class="yllsf8b9k"/><path class="id5z-i86a"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:acalendar" {...props}></Icon>
 <style>
-:global(.t-1w98bpp) {
+:global(.id5z-i86a) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.348 28.238A5.35 5.35 0 0 1 24 33.587h0a5.35 5.35 0 0 1-5.348-5.349v-3.476A5.35 5.35 0 0 1 24 19.413h0a5.35 5.35 0 0 1 5.348 5.349m2.14 8.825a2.14 2.14 0 0 1-2.14-2.14V19.413");
+  d: path("M31.488 33.587a2.14 2.14 0 0 1-2.14-2.14V19.413");
 }
 
 :global(.w5ztvbg7m) {
@@ -35,6 +35,14 @@ const content = `<g class="y9tr6bcfx"><rect class="w5ztvbg7m"/><path class="w9v1
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.yllsf8b9k) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M29.348 28.238a5.348 5.348 0 1 1-10.697 0v-3.476a5.348 5.348 0 1 1 10.697 0");
 }
 
 </style>

@@ -5,10 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="kb3fg6dwe"/><circle class="ulff-ty2m"/><circle class="qzz2pwbuc"/><circle class="vrui_9ujd"/><circle class="boe79qjro"/><circle class="fvd-t06-t"/><circle class="sn7zuo60x"/><path class="avb3z_b5d"/><g class="y9tr6bcfx"><path class="n64-vomcg"/><path class="l9wauobap"/></g><path class="dw3zpybfl"/>`;
+const content = `<path class="kb3fg6dwe"/><circle class="ulff-ty2m"/><circle class="qzz2pwbuc"/><circle class="vrui_9ujd"/><circle class="boe79qjro"/><circle class="fvd-t06-t"/><circle class="sn7zuo60x"/><path class="avb3z_b5d"/><g class="y9tr6bcfx"><path class="j13qz61-k"/><path class="ar9rddr-i"/></g><path class="dw3zpybfl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:arcticons-cool" {...props}></Icon>
 <style>
+:global(.ar9rddr-i) {
+  d: path("M24 18.766h7.56v1.628a3.78 3.78 0 0 1-3.78 3.78a3.78 3.78 0 0 1-3.78-3.78z");
+}
+
 :global(.avb3z_b5d) {
   fill: none;
   stroke: currentColor;
@@ -45,20 +49,16 @@ const content = `<path class="kb3fg6dwe"/><circle class="ulff-ty2m"/><circle cla
   stroke-linejoin: round;
 }
 
+:global(.j13qz61-k) {
+  d: path("M16.44 18.766H24v1.628a3.78 3.78 0 0 1-3.78 3.78a3.78 3.78 0 0 1-3.78-3.78z");
+}
+
 :global(.kb3fg6dwe) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m24 10.84l-11.4 6.58v13.16L24 37.16l11.4-6.58V17.42z");
-}
-
-:global(.l9wauobap) {
-  d: path("M24 18.766h7.56v1.628a3.78 3.78 0 0 1-3.78 3.78h0a3.78 3.78 0 0 1-3.78-3.78z");
-}
-
-:global(.n64-vomcg) {
-  d: path("M16.44 18.766H24v1.628a3.78 3.78 0 0 1-3.78 3.78h0a3.78 3.78 0 0 1-3.78-3.78z");
 }
 
 :global(.qzz2pwbuc) {

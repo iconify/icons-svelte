@@ -5,19 +5,19 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="ysv3nlbpu"/><path class="y6l-y4vnh"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="ysv3nlbpu"/><path class="yj1a_5brg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:ea-sports-fc-companion" {...props}></Icon>
 <style>
-:global(.y6l-y4vnh) {
-  d: path("m32.418 27.365l-2.064 3.456h0h-7.495c-.518 0-.725-.36-.464-.808l7.02-12.026c.26-.448.888-.808 1.406-.808H38.5l-2.063 3.454m-10.349-3.454H18.41c-.519 0-1.146.36-1.407.808L9.5 30.82");
-}
-
 :global(.y9tr6bcfx) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.yj1a_5brg) {
+  d: path("m32.418 27.365l-2.064 3.456H22.86c-.518 0-.725-.36-.464-.808l7.02-12.026c.26-.448.888-.808 1.406-.808H38.5l-2.063 3.454m-10.349-3.454H18.41c-.519 0-1.146.36-1.407.808L9.5 30.82");
 }
 
 :global(.ysv3nlbpu) {

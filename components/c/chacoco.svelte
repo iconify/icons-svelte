@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="p5cj_kvrf"/><rect class="scgbe1hyy"/><path class="eheenn0sp"/><rect class="e0_l7iben"/><path class="w05xy4b5j"/><path class="yt2ujrv6v"/>`;
+const content = `<path class="jyfap0blt"/><rect class="scgbe1hyy"/><path class="qr379965v"/><rect class="e0_l7iben"/><path class="w05xy4b5j"/><path class="yt2ujrv6v"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:chacoco" {...props}></Icon>
 <style>
@@ -22,20 +22,20 @@ const content = `<path class="p5cj_kvrf"/><rect class="scgbe1hyy"/><path class="
   ry: 1.988px;
 }
 
-:global(.eheenn0sp) {
+:global(.jyfap0blt) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M38.683 27.085v.024c0 1.098-.89 1.989-1.988 1.989h0a1.99 1.99 0 0 1-1.988-1.989v-2.025c0-1.098.89-1.989 1.988-1.989h0c1.098 0 1.988.89 1.988 1.989v.024");
+  d: path("M12.004 23.095v6.003m3.977-6.003v6.003m-3.977-3.013h3.977m-5.954 1v.024a1.988 1.988 0 1 1-3.977 0v-2.025a1.988 1.988 0 1 1 3.977 0v.024m17.057 1.977v.024a1.988 1.988 0 1 1-3.977 0v-2.025a1.988 1.988 0 1 1 3.977 0v.024");
 }
 
-:global(.p5cj_kvrf) {
+:global(.qr379965v) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M12.004 23.095v6.003m3.977-6.003v6.003m-3.977-3.013h3.977m-5.954 1v.024c0 1.098-.89 1.989-1.988 1.989h0a1.99 1.99 0 0 1-1.988-1.989v-2.025c0-1.098.89-1.989 1.988-1.989h0c1.098 0 1.988.89 1.988 1.989v.024m17.057 1.977v.024c0 1.098-.89 1.989-1.988 1.989h0a1.99 1.99 0 0 1-1.988-1.989v-2.025c0-1.098.89-1.989 1.988-1.989h0c1.098 0 1.988.89 1.988 1.989v.024");
+  d: path("M38.683 27.085v.024a1.988 1.988 0 1 1-3.977 0v-2.025a1.988 1.988 0 1 1 3.977 0v.024");
 }
 
 :global(.scgbe1hyy) {

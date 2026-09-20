@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="l4mmx8bpw"/><path class="wv1m0pbjs"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="sghm5zy4l"/><path class="wv1m0pbjs"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:soothing-noise-player" {...props}></Icon>
 <style>
@@ -19,12 +19,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="l4mmx8bpw"/><path class
   stroke-linejoin: round;
 }
 
-:global(.l4mmx8bpw) {
+:global(.sghm5zy4l) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.011 19.517a3.99 3.99 0 1 1 7.979 0h0a3.99 3.99 0 0 1-1.988 3.451c2.204.825 4.481 3.636 4.48 6.025H17.517c0-2.39 2.278-5.2 4.481-6.025a3.99 3.99 0 0 1-1.988-3.451z");
+  d: path("M20.011 19.517a3.99 3.99 0 1 1 7.979 0a3.99 3.99 0 0 1-1.988 3.451c2.204.825 4.481 3.636 4.48 6.025H17.517c0-2.39 2.278-5.2 4.481-6.025a3.99 3.99 0 0 1-1.988-3.451");
 }
 
 :global(.wv1m0pbjs) {

@@ -5,16 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="bem_qszsv"/><rect transform="matrix(-1 0 0 -1 43.657 46.925)" class="ymf0_abyc"/><path class="jxm_bhsnh"/><rect transform="matrix(-1 0 0 -1 57.05 46.925)" class="mshu_nb6j"/><path class="yexxh6sjk"/><path class="netpdysae"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="vs3b-es7m"/><rect transform="matrix(-1 0 0 -1 43.657 46.925)" class="ymf0_abyc"/><path class="kqt8vebbk"/><rect transform="matrix(-1 0 0 -1 57.05 46.925)" class="mshu_nb6j"/><path class="j-divab-q"/><path class="f3rvp649f"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:piggy" {...props}></Icon>
 <style>
-:global(.bem_qszsv) {
+:global(.f3rvp649f) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24.106 20.445v6.833a2.28 2.28 0 0 1-2.278 2.277h0a2.27 2.27 0 0 1-1.61-.667");
+  d: path("M37.5 20.445v3.758a2.278 2.278 0 1 1-4.555 0v-3.758m-15.692 0v6.035M10.5 24.203a2.278 2.278 0 1 0 4.555 0v-1.48a2.278 2.278 0 1 0-4.555 0m0-2.278v9.11");
+}
+
+:global(.j-divab-q) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M37.5 24.203v3.075a2.28 2.28 0 0 1-2.278 2.277a2.27 2.27 0 0 1-1.61-.667");
 }
 
 :global(.j3s9ivbxi) {
@@ -30,12 +38,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="bem_qszsv"/><rect transfo
   ry: 4px;
 }
 
-:global(.jxm_bhsnh) {
+:global(.kqt8vebbk) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M30.803 20.445v6.833a2.28 2.28 0 0 1-2.278 2.277h0a2.27 2.27 0 0 1-1.61-.667");
+  d: path("M30.803 20.445v6.833a2.28 2.28 0 0 1-2.278 2.277a2.27 2.27 0 0 1-1.61-.667");
 }
 
 :global(.mshu_nb6j) {
@@ -51,20 +59,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="bem_qszsv"/><rect transfo
   ry: 2.278px;
 }
 
-:global(.netpdysae) {
+:global(.vs3b-es7m) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37.5 20.445v3.758a2.28 2.28 0 0 1-2.278 2.278h0a2.28 2.28 0 0 1-2.277-2.278v-3.758m-15.692 0v6.035M10.5 24.203a2.28 2.28 0 0 0 2.278 2.277h0a2.28 2.28 0 0 0 2.277-2.277v-1.48a2.28 2.28 0 0 0-2.277-2.278h0a2.28 2.28 0 0 0-2.278 2.277m0-2.277v9.11");
-}
-
-:global(.yexxh6sjk) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M37.5 24.203v3.075a2.28 2.28 0 0 1-2.278 2.277h0a2.27 2.27 0 0 1-1.61-.667");
+  d: path("M24.106 20.445v6.833a2.28 2.28 0 0 1-2.278 2.277a2.27 2.27 0 0 1-1.61-.667");
 }
 
 :global(.ymf0_abyc) {

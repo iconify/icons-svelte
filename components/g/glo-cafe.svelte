@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="kum348bkw"/><rect transform="matrix(-1 0 0 -1 34.775 48)" class="xdem-_bzz"/><path class="wz7xqzbyc"/><circle class="cpk0fnbgt"/>`;
+const content = `<path class="tnsc6ztsj"/><rect transform="matrix(-1 0 0 -1 34.775 48)" class="xdem-_bzz"/><path class="wz7xqzbyc"/><circle class="cpk0fnbgt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:glo-cafe" {...props}></Icon>
 <style>
@@ -19,12 +19,12 @@ const content = `<path class="kum348bkw"/><rect transform="matrix(-1 0 0 -1 34.7
   stroke-linejoin: round;
 }
 
-:global(.kum348bkw) {
+:global(.tnsc6ztsj) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.378 20.037v8.972A2.99 2.99 0 0 1 17.388 32h0a2.98 2.98 0 0 1-2.115-.876");
+  d: path("M20.378 20.037v8.972A2.99 2.99 0 0 1 17.388 32a2.98 2.98 0 0 1-2.115-.876");
 }
 
 :global(.wz7xqzbyc) {

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="kneszcbyc"/><circle class="na0fenbgn"/><path class="yqcad3bsj"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="w34u-1v-f"/><circle class="na0fenbgn"/><path class="yqcad3bsj"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:toeic" {...props}></Icon>
 <style>
@@ -22,19 +22,19 @@ const content = `<rect class="j3s9ivbxi"/><path class="kneszcbyc"/><circle class
   ry: 4px;
 }
 
-:global(.kneszcbyc) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.86 22.675a2 2 0 0 1 2 2v1.3a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2v-1.3a2 2 0 0 1 2-2");
-}
-
 :global(.na0fenbgn) {
   cx: 32.449px;
   cy: 20.225px;
   r: 0.75px;
   fill: currentColor;
+}
+
+:global(.w34u-1v-f) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.86 22.675za2 2 0 0 1 2 2v1.3a2 2 0 1 1-4 0v-1.3a2 2 0 0 1 2-2");
 }
 
 :global(.yqcad3bsj) {

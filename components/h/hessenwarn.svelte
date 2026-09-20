@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sg_15459c"/><path class="vladnxfjr"/><path class="hl828mbfq"/>`;
+const content = `<path class="sg_15459c"/><path class="ndgcv7bey"/><path class="hl828mbfq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:hessenwarn" {...props}></Icon>
 <style>
@@ -17,20 +17,20 @@ const content = `<path class="sg_15459c"/><path class="vladnxfjr"/><path class="
   d: path("M5.5 42.5c0-20.435 16.565-37 37-37");
 }
 
+:global(.ndgcv7bey) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M14.647 42.498c0-15.382 12.47-27.851 27.851-27.851");
+}
+
 :global(.sg_15459c) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M32.782 42.495a9.71 9.71 0 0 1 9.713-9.713v9.713zm-9.097-.002c0-10.387 8.42-18.808 18.808-18.808");
-}
-
-:global(.vladnxfjr) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M14.647 42.498c0-15.382 12.47-27.851 27.851-27.851h0");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="lfclhcccl"/><circle class="sq363xb3s"/><circle class="h_u7t_hpf"/><circle class="v253bqifj"/><circle class="iwj34baar"/><path class="qtrb3ibvp"/>`;
+const content = `<path class="nqgnfjube"/><circle class="sq363xb3s"/><circle class="h_u7t_hpf"/><circle class="v253bqifj"/><circle class="iwj34baar"/><path class="qtrb3ibvp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:qubo" {...props}></Icon>
 <style>
@@ -29,12 +29,12 @@ const content = `<path class="lfclhcccl"/><circle class="sq363xb3s"/><circle cla
   stroke-linejoin: round;
 }
 
-:global(.lfclhcccl) {
+:global(.nqgnfjube) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17.5 18.5h13c6.627 0 12 5.373 12 12h0c0 6.627-5.373 12-12 12h-13c-6.627 0-12-5.373-12-12h0c0-6.627 5.373-12 12-12");
+  d: path("M17.5 18.5h13c6.627 0 12 5.373 12 12s-5.373 12-12 12h-13c-6.627 0-12-5.373-12-12s5.373-12 12-12");
 }
 
 :global(.qtrb3ibvp) {

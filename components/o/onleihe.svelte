@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ydqthzbbt"/><rect transform="rotate(-20 16.155 26.549)" class="t6um1t7kw"/><path class="p78axsbcs"/>`;
+const content = `<path class="ydqthzbbt"/><rect transform="rotate(-20 16.155 26.549)" class="t6um1t7kw"/><path class="bg9s98brw"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:onleihe" {...props}></Icon>
 <style>
-:global(.p78axsbcs) {
+:global(.bg9s98brw) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m38.5 26.859l-3.38-9.284a5.99 5.99 0 0 0-7.674-3.58h0a5.99 5.99 0 0 0-3.579 7.676l3.38 9.284m-3.38-9.284l-2.048-5.627");
+  d: path("m38.5 26.859l-3.38-9.284a5.988 5.988 0 1 0-11.254 4.096l3.38 9.284m-3.379-9.284l-2.048-5.627");
 }
 
 :global(.t6um1t7kw) {

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="w445ytk8a"/><path class="awrvxmwwv"/><circle class="nklefk4du"/><circle class="el7fucahe"/><circle class="himdm0sxv"/>`;
+const content = `<path class="yn_w74tcb"/><path class="awrvxmwwv"/><circle class="nklefk4du"/><circle class="el7fucahe"/><circle class="himdm0sxv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:weawow" {...props}></Icon>
 <style>
@@ -41,12 +41,12 @@ const content = `<path class="w445ytk8a"/><path class="awrvxmwwv"/><circle class
   fill: currentColor;
 }
 
-:global(.w445ytk8a) {
+:global(.yn_w74tcb) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M40.61 26.64a12.31 12.31 0 0 0-4.32-9.37v0a7.68 7.68 0 0 0-9.91-7.38A10.86 10.86 0 0 0 9.14 22.05a12.41 12.41 0 0 0 10.68 18.77h19.45l-6.37-2.75a12.34 12.34 0 0 0 7.71-11.43");
+  d: path("M40.61 26.64a12.31 12.31 0 0 0-4.32-9.37a7.68 7.68 0 0 0-9.91-7.38A10.86 10.86 0 0 0 9.14 22.05a12.41 12.41 0 0 0 10.68 18.77h19.45l-6.37-2.75a12.34 12.34 0 0 0 7.71-11.43");
 }
 
 </style>

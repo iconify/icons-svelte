@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ydqthzbbt"/><path class="dnr742c-i"/>`;
+const content = `<path class="ydqthzbbt"/><path class="pq7zqmbzm"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:tldr" {...props}></Icon>
 <style>
-:global(.dnr742c-i) {
+:global(.pq7zqmbzm) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M12.204 30.247c.98 1.277 2.211 1.753 3.923 1.753h2.369a3.996 3.996 0 0 0 3.991-4h0c0-2.21-1.787-4-3.991-4h-2.618a3.996 3.996 0 0 1-3.991-4h0c0-2.21 1.787-4 3.991-4h2.37c1.71 0 2.941.476 3.922 1.753M17.187 34V14m8.326 20h10.6");
+  d: path("M12.204 30.247c.98 1.277 2.211 1.753 3.923 1.753h2.369a3.996 3.996 0 0 0 3.991-4c0-2.21-1.787-4-3.991-4h-2.618a3.996 3.996 0 0 1-3.991-4c0-2.21 1.787-4 3.991-4h2.37c1.71 0 2.941.476 3.922 1.753M17.187 34V14m8.326 20h10.6");
 }
 
 :global(.ydqthzbbt) {

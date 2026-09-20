@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ptbs05mpr"/><path class="h2w9jyb9l"/><path class="ka7bnqwxn"/><path class="q2u5hucsq"/>`;
+const content = `<path class="ptbs05mpr"/><path class="h2w9jyb9l"/><path class="ka7bnqwxn"/><path class="t_b6mmbov"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:rediffmail" {...props}></Icon>
 <style>
@@ -33,12 +33,12 @@ const content = `<path class="ptbs05mpr"/><path class="h2w9jyb9l"/><path class="
   d: path("M40.555 19.647V42.5H7.445V19.647m33.11 0L24 5.5L7.445 19.647");
 }
 
-:global(.q2u5hucsq) {
+:global(.t_b6mmbov) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.1 24.92a4.566 4.566 0 0 1 4.552-4.553h0m-4.549 10.091V20.365");
+  d: path("M23.1 24.92a4.566 4.566 0 0 1 4.552-4.553m-4.549 10.091V20.365");
 }
 
 </style>

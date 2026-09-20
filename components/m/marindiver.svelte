@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="d05u03m9g"/><path class="l0bhy9blm"/><circle class="pq4cevbbf"/>`;
+const content = `<path class="rm2i45x6f"/><path class="l0bhy9blm"/><circle class="pq4cevbbf"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:marindiver" {...props}></Icon>
 <style>
-:global(.d05u03m9g) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M25.33 6.67a18.17 18.17 0 0 0-16.129 9.893a18.136 18.136 0 0 1 30.47 13.33h0a18.2 18.2 0 0 1-2.038 8.275A18.14 18.14 0 0 0 25.33 6.671Z");
-}
-
 :global(.l0bhy9blm) {
   fill: none;
   stroke: currentColor;
@@ -30,6 +22,14 @@ const content = `<path class="d05u03m9g"/><path class="l0bhy9blm"/><circle class
   cy: 37.303px;
   r: 0.75px;
   fill: currentColor;
+}
+
+:global(.rm2i45x6f) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.33 6.67a18.17 18.17 0 0 0-16.129 9.893a18.136 18.136 0 0 1 30.47 13.33a18.2 18.2 0 0 1-2.038 8.275A18.14 18.14 0 0 0 25.33 6.671Z");
 }
 
 </style>

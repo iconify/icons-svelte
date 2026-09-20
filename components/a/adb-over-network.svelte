@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jaa353bgv"/><path class="uiev5hq-h"/><circle class="hw3wgr08n"/><circle class="jj33i0bdq"/>`;
+const content = `<path class="m2bf2wcvg"/><path class="uiev5hq-h"/><circle class="hw3wgr08n"/><circle class="jj33i0bdq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:adb-over-network" {...props}></Icon>
 <style>
@@ -16,19 +16,19 @@ const content = `<path class="jaa353bgv"/><path class="uiev5hq-h"/><circle class
   fill: currentColor;
 }
 
-:global(.jaa353bgv) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M4.5 14.86C8.223 10.504 15.691 7.547 24 7.547s15.777 2.957 19.5 7.313L24 40.453Zm25.55.815l1.496-1.389M16.189 14l1.787 1.66");
-}
-
 :global(.jj33i0bdq) {
   cx: 20.496px;
   cy: 18.285px;
   r: 0.75px;
   fill: currentColor;
+}
+
+:global(.m2bf2wcvg) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M4.5 14.86C8.223 10.504 15.691 7.547 24 7.547s15.777 2.957 19.5 7.313L24 40.453Zm25.55.815zl1.496-1.389M16.189 14l1.787 1.66");
 }
 
 :global(.uiev5hq-h) {

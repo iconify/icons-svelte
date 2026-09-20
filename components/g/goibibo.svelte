@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x0i496bnx"/><rect transform="matrix(-1 0 0 -1 20.707 48.417)" class="si2cv1eta"/><rect class="cvfs8kbvf"/><rect class="u7qx7wbrk"/><circle class="v9sgo5bpx"/><path class="ceilrbcdb"/><circle class="hc3qz7b8x"/><path class="d8kd7fbkr"/><path class="i9clfwm2k"/>`;
+const content = `<path class="gptvavith"/><rect transform="matrix(-1 0 0 -1 20.707 48.417)" class="si2cv1eta"/><rect class="cvfs8kbvf"/><rect class="u7qx7wbrk"/><circle class="v9sgo5bpx"/><path class="ceilrbcdb"/><circle class="hc3qz7b8x"/><path class="tb1kytekg"/><path class="i9clfwm2k"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:goibibo" {...props}></Icon>
 <style>
@@ -30,12 +30,12 @@ const content = `<path class="x0i496bnx"/><rect transform="matrix(-1 0 0 -1 20.7
   ry: 1.854px;
 }
 
-:global(.d8kd7fbkr) {
+:global(.gptvavith) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.947 21.752v4.913m-5.652-3.059c0-1.024.83-1.854 1.853-1.854h0c1.024 0 1.854.83 1.854 1.854v1.205c0 1.024-.83 1.854-1.854 1.854h0a1.854 1.854 0 0 1-1.854-1.854m0 1.854V19.25m7.773 4.356c0-1.024.83-1.854 1.854-1.854h0c1.024 0 1.854.83 1.854 1.854v1.205c0 1.024-.83 1.854-1.854 1.854h0a1.854 1.854 0 0 1-1.854-1.854m0 1.854V19.25");
+  d: path("M12.207 21.752v5.562a1.853 1.853 0 0 1-3.164 1.31");
 }
 
 :global(.hc3qz7b8x) {
@@ -66,6 +66,14 @@ const content = `<path class="x0i496bnx"/><rect transform="matrix(-1 0 0 -1 20.7
   ry: 1.854px;
 }
 
+:global(.tb1kytekg) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.947 21.752v4.913m-5.652-3.059a1.854 1.854 0 1 1 3.707 0v1.205a1.854 1.854 0 1 1-3.707 0m-.001 1.854V19.25m7.773 4.356a1.854 1.854 0 1 1 3.707 0v1.205a1.854 1.854 0 1 1-3.707 0m0 1.854V19.25");
+}
+
 :global(.u7qx7wbrk) {
   width: 3.707px;
   height: 4.912px;
@@ -84,14 +92,6 @@ const content = `<path class="x0i496bnx"/><rect transform="matrix(-1 0 0 -1 20.7
   cy: 19.482px;
   r: 0.75px;
   fill: currentColor;
-}
-
-:global(.x0i496bnx) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.207 21.752v5.562c0 1.023-.83 1.853-1.853 1.853h0c-.512 0-.976-.207-1.311-.543");
 }
 
 </style>

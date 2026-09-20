@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="hws-dacnc"/><path class="ixf1mcbiq"/><rect class="r7y3_fb3j"/><circle class="w7szwlvbt"/>`;
+const content = `<rect class="hws-dacnc"/><path class="cdvfakbdt"/><rect class="r7y3_fb3j"/><circle class="w7szwlvbt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:ukg-wallet" {...props}></Icon>
 <style>
+:global(.cdvfakbdt) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M36.96 16.49v18.18a3.26 3.26 0 0 1-6.52 0V16.49m-12.89 0v18.18a3.26 3.26 0 0 1-6.52 0V16.49");
+}
+
 :global(.hws-dacnc) {
   width: 25.93px;
   height: 6.51px;
@@ -20,14 +28,6 @@ const content = `<rect class="hws-dacnc"/><path class="ixf1mcbiq"/><rect class="
   stroke-linejoin: round;
   rx: 2.99px;
   ry: 2.99px;
-}
-
-:global(.ixf1mcbiq) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M36.96 16.49v18.18c0 1.8-1.46 3.26-3.26 3.26h0a3.26 3.26 0 0 1-3.26-3.26V16.49m-12.89 0v18.18c0 1.8-1.46 3.26-3.26 3.26h0a3.26 3.26 0 0 1-3.26-3.26V16.49");
 }
 
 :global(.r7y3_fb3j) {

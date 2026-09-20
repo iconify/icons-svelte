@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="c-1cx9riy"/><path class="xktwv-blb"/><path class="b7u2hib9x"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="c-1cx9riy"/><path class="xktwv-blb"/><path class="j0v-q1-bt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:niagara-launcher-pro" {...props}></Icon>
 <style>
-:global(.b7u2hib9x) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M33.078 20.578a3.325 3.325 0 0 0 3.235 3.417L36.5 24l-.187.005a3.325 3.325 0 0 0-3.235 3.417h0s0 0 0 0a3.325 3.325 0 0 0-3.236-3.417L29.655 24l.187-.005a3.325 3.325 0 0 0 3.236-3.417");
-}
-
 :global(.c-1cx9riy) {
   fill: none;
   stroke: currentColor;
@@ -33,6 +25,14 @@ const content = `<circle class="cpk0fnbgt"/><path class="c-1cx9riy"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.j0v-q1-bt) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M33.078 20.578za3.325 3.325 0 0 0 3.235 3.417L36.5 24l-.187.005a3.325 3.325 0 0 0-3.235 3.417a3.325 3.325 0 0 0-3.236-3.417L29.655 24l.187-.005a3.325 3.325 0 0 0 3.236-3.417");
 }
 
 :global(.xktwv-blb) {

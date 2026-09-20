@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jvph6fbpq"/><path class="pb6_s0biy"/><path class="ywm-8ytqp"/><path class="i1e2robad"/>`;
+const content = `<path class="jvph6fbpq"/><path class="nencdfotv"/><path class="ywm-8ytqp"/><path class="i1e2robad"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:packagemanager" {...props}></Icon>
 <style>
@@ -25,12 +25,12 @@ const content = `<path class="jvph6fbpq"/><path class="pb6_s0biy"/><path class="
   d: path("M18.236 18.833a1.985 1.985 0 1 1 1.985-1.984a1.985 1.985 0 0 1-1.985 1.984m11.551 0a1.985 1.985 0 1 1 1.984-1.984a1.985 1.985 0 0 1-1.985 1.984");
 }
 
-:global(.pb6_s0biy) {
+:global(.nencdfotv) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 6.615a14.147 14.147 0 0 1 14.147 14.147v2.02h0H9.853h0v-2.02A14.147 14.147 0 0 1 24 6.615M11.784 4.5l4.019 4.731M36.216 4.5l-4.019 4.731");
+  d: path("M24 6.615za14.147 14.147 0 0 1 14.147 14.147v2.02H9.853v-2.02A14.147 14.147 0 0 1 24 6.615M11.784 4.5l4.019 4.731M36.216 4.5l-4.019 4.731");
 }
 
 :global(.ywm-8ytqp) {

@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="djkm6xbgq"/><path class="dhjwjnm9i"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:arcade" {...props}></Icon>
+<style>
+:global(.dhjwjnm9i) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m25.519 4.5l-13.616.976l-.107 5.63l13.365-.563m-.035 17.342l-14.867-1.164l-.143 14.414l15.01 2.365m5.718-18.768l-15.832-.976l-4.753 2.965M32.28 13.82l-14.23-.086l-6.254-2.628m6.254 2.628l-3.038 10.022");
+}
+
+:global(.djkm6xbgq) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m25.519 4.5l12.365 6.08l-2.216 28.791L25.126 43.5V27.885l5.718-3.153L32.28 13.82l-7.119-3.277z");
+}
+
+</style>

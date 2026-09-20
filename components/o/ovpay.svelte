@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="a8oj_8b7n"/><path class="sz5pz0bic"/><rect class="pq8jjwbrl"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="rwhb-8w_g"/><path class="a-r2bj4be"/><rect class="pq8jjwbrl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:ovpay" {...props}></Icon>
 <style>
-:global(.a8oj_8b7n) {
+:global(.a-r2bj4be) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M34.013 29.594v3.393A2.513 2.513 0 0 1 31.5 35.5h0a2.5 2.5 0 0 1-1.777-.736");
+  d: path("M34.013 25.448v4.146a2.513 2.513 0 1 1-5.026 0v-4.146m-2.554 4.146a2.513 2.513 0 1 1-5.026 0v-1.633a2.513 2.513 0 1 1 5.026 0m0 4.146v-6.659m-12.446 4.146a2.513 2.513 0 1 0 5.026 0v-1.633a2.513 2.513 0 1 0-5.026 0m0-2.513V35.5m17.664-23l-3.33 10.052l-3.33-10.052");
 }
 
 :global(.j3s9ivbxi) {
@@ -43,12 +43,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="a8oj_8b7n"/><path class="
   ry: 3.33px;
 }
 
-:global(.sz5pz0bic) {
+:global(.rwhb-8w_g) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M34.013 25.448v4.146a2.513 2.513 0 0 1-2.513 2.513h0a2.513 2.513 0 0 1-2.513-2.513v-4.146m-2.554 4.146a2.513 2.513 0 0 1-2.513 2.513h0a2.513 2.513 0 0 1-2.513-2.513v-1.633a2.513 2.513 0 0 1 2.513-2.513h0a2.513 2.513 0 0 1 2.513 2.513m0 4.146v-6.659m-12.446 4.146a2.513 2.513 0 0 0 2.513 2.513h0a2.513 2.513 0 0 0 2.513-2.513v-1.633a2.513 2.513 0 0 0-2.513-2.513h0a2.513 2.513 0 0 0-2.513 2.513m0-2.513V35.5m17.664-23l-3.33 10.052l-3.33-10.052");
+  d: path("M34.013 29.594v3.393A2.513 2.513 0 0 1 31.5 35.5a2.5 2.5 0 0 1-1.777-.736");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="t-2ow-_5y"/><g class="y9tr6bcfx"><circle class="bybjau59l"/><circle class="se87bac5g"/><rect class="brxpxfbzn"/></g>`;
+const content = `<path class="kjbhv23ib"/><g class="y9tr6bcfx"><circle class="bybjau59l"/><circle class="se87bac5g"/><rect class="brxpxfbzn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:calendar-5" {...props}></Icon>
 <style>
@@ -24,18 +24,18 @@ const content = `<path class="t-2ow-_5y"/><g class="y9tr6bcfx"><circle class="by
   r: 2.5px;
 }
 
-:global(.se87bac5g) {
-  cx: 15.5px;
-  cy: 11px;
-  r: 2.5px;
-}
-
-:global(.t-2ow-_5y) {
+:global(.kjbhv23ib) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.1 34.65c1.105.926 2.176 1.35 4.854 1.35h.46a4.485 4.485 0 0 0 4.486-4.485h0a4.486 4.486 0 0 0-4.486-4.486H19.1V20h9.8");
+  d: path("M19.1 34.65c1.105.926 2.176 1.35 4.854 1.35h.46a4.486 4.486 0 0 0 0-8.971H19.1V20h9.8");
+}
+
+:global(.se87bac5g) {
+  cx: 15.5px;
+  cy: 11px;
+  r: 2.5px;
 }
 
 :global(.y9tr6bcfx) {

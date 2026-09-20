@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="fo3qmbbut"/><circle class="wd9i8zbsg"/><path class="ytjad3_tv"/>`;
+const content = `<path class="pcj-_rigq"/><circle class="wd9i8zbsg"/><path class="xfgcmxqle"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:flashacademy" {...props}></Icon>
 <style>
-:global(.fo3qmbbut) {
+:global(.pcj-_rigq) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17 4.5h14a5.5 5.5 0 0 1 5.5 5.5h0a5.5 5.5 0 0 1-5.5 5.5H17a5.5 5.5 0 0 1-5.5-5.5h0A5.5 5.5 0 0 1 17 4.5");
+  d: path("M17 4.5h14a5.5 5.5 0 1 1 0 11H17a5.5 5.5 0 1 1 0-11");
 }
 
 :global(.wd9i8zbsg) {
@@ -27,12 +27,12 @@ const content = `<path class="fo3qmbbut"/><circle class="wd9i8zbsg"/><path class
   stroke-linejoin: round;
 }
 
-:global(.ytjad3_tv) {
+:global(.xfgcmxqle) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17 18.5a5.5 5.5 0 0 1 5.5 5.5v14a5.5 5.5 0 0 1-5.5 5.5h0a5.5 5.5 0 0 1-5.5-5.5V24a5.5 5.5 0 0 1 5.5-5.5");
+  d: path("M17 18.5za5.5 5.5 0 0 1 5.5 5.5v14a5.5 5.5 0 1 1-11 0V24a5.5 5.5 0 0 1 5.5-5.5");
 }
 
 </style>

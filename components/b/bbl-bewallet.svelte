@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="y-rrr2bqd"/><path class="w_lf4d8wx"/><path class="rst5iw69p"/><path class="pf44m9lxm"/><path class="pjrncuwuy"/>`;
+const content = `<path class="y-rrr2bqd"/><path class="w_lf4d8wx"/><path class="m93fuob7b"/><path class="pf44m9lxm"/><path class="pjrncuwuy"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:bbl-bewallet" {...props}></Icon>
 <style>
+:global(.m93fuob7b) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m10.963 15.324l-.555-1.504a1.5 1.5 0 0 1 .884-1.93l.007-.003l16.015-5.906a1.5 1.5 0 0 1 1.93.885l.002.007l1.101 2.985");
+}
+
 :global(.pf44m9lxm) {
   fill: none;
   stroke: currentColor;
@@ -23,14 +31,6 @@ const content = `<path class="y-rrr2bqd"/><path class="w_lf4d8wx"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M19.097 26.62c-.327 2.581 4.086 5.935 4.92 7.444");
-}
-
-:global(.rst5iw69p) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m10.963 15.324l-.555-1.504a1.5 1.5 0 0 1 .884-1.93l.007-.003h0l16.015-5.906a1.5 1.5 0 0 1 1.93.885l.002.007l1.101 2.985");
 }
 
 :global(.w_lf4d8wx) {

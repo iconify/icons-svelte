@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="i4y70wd6o"/><path class="tdz8smb6t"/>`;
+const content = `<path class="i4y70wd6o"/><path class="r6r07nbyh"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:tu-dortmund" {...props}></Icon>
 <style>
@@ -17,12 +17,12 @@ const content = `<path class="i4y70wd6o"/><path class="tdz8smb6t"/>`;
   d: path("M10.341 7.978v27.433a4.61 4.61 0 0 0 4.61 4.61h3.384");
 }
 
-:global(.tdz8smb6t) {
+:global(.r6r07nbyh) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M5.5 15.586h15.558a3 3 0 0 1 3 3V30.8a9.22 9.22 0 0 0 9.22 9.22h0A9.22 9.22 0 0 0 42.5 30.8V15.586m0 15.215v9.221");
+  d: path("M5.5 15.586h15.558a3 3 0 0 1 3 3V30.8a9.22 9.22 0 0 0 9.22 9.22A9.22 9.22 0 0 0 42.5 30.8V15.586m0 15.215v9.221");
 }
 
 </style>

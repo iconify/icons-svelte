@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="y377dsleh"/><rect transform="matrix(-1 0 0 -1 31.745 50.07)" class="ueekm8gpi"/><path class="iziod8bfl"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="xhgkukbfn"/><rect transform="matrix(-1 0 0 -1 31.745 50.07)" class="ueekm8gpi"/><path class="iziod8bfl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:galnet-dictionary" {...props}></Icon>
 <style>
@@ -43,12 +43,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="y377dsleh"/><rect transfo
   ry: 3.372px;
 }
 
-:global(.y377dsleh) {
+:global(.xhgkukbfn) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.245 20.567v10.117a3.37 3.37 0 0 1-3.373 3.372h0a3.36 3.36 0 0 1-2.384-.987");
+  d: path("M19.245 20.567v10.117a3.37 3.37 0 0 1-3.373 3.372a3.36 3.36 0 0 1-2.384-.987");
 }
 
 </style>

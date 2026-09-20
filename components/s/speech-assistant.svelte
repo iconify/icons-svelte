@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sxh2dnbpz"/><path class="a0ghfzy0z"/>`;
+const content = `<path class="sxh2dnbpz"/><path class="ixuxofbzr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:speech-assistant" {...props}></Icon>
 <style>
-:global(.a0ghfzy0z) {
+:global(.ixuxofbzr) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37.877 23.142a11.42 11.42 0 0 1 4.623 9.134h0a11.42 11.42 0 0 1-4.614 9.134m-2.45-14.99a7.35 7.35 0 0 1 3.059 5.856a7.35 7.35 0 0 1-3.068 5.87m-2.295-8.68a3.522 3.522 0 0 1 0 5.62");
+  d: path("M37.877 23.142a11.42 11.42 0 0 1 4.623 9.134a11.42 11.42 0 0 1-4.614 9.134m-2.45-14.99a7.35 7.35 0 0 1 3.059 5.856a7.35 7.35 0 0 1-3.068 5.87m-2.295-8.68a3.522 3.522 0 0 1 0 5.62");
 }
 
 :global(.sxh2dnbpz) {

@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="v1zu3mb9h"/><circle class="qz-j4nozx"/><path class="mq31jvb5o"/>`;
+const content = `<circle class="v1zu3mb9h"/><circle class="qz-j4nozx"/><path class="pni6t7mzz"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:duet" {...props}></Icon>
 <style>
-:global(.mq31jvb5o) {
+:global(.pni6t7mzz) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 2.5c11.872 0 21.497 9.624 21.497 21.497c0 3.554-.863 6.907-2.39 9.86h0C40.885 25.382 33.172 19.129 24 19.129M24 45.5c-11.872 0-21.497-9.624-21.497-21.497c0-3.554.863-6.907 2.39-9.86h0C7.115 22.618 14.828 28.871 24 28.871");
+  d: path("M24 2.5c11.872 0 21.497 9.624 21.497 21.497c0 3.554-.863 6.907-2.39 9.86C40.885 25.382 33.172 19.129 24 19.129M24 45.5c-11.872 0-21.497-9.624-21.497-21.497c0-3.554.863-6.907 2.39-9.86C7.115 22.618 14.828 28.871 24 28.871");
 }
 
 :global(.qz-j4nozx) {

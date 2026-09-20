@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="j5c5phb-q"/><path class="coqgi-ato"/>`;
+const content = `<circle class="j5c5phb-q"/><path class="ne-jl5b8b"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:boinc" {...props}></Icon>
 <style>
-:global(.coqgi-ato) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m5.5 5.5l7.33 7.33m19.59-2.19a15.81 15.81 0 0 0-19.59 2.19m24.53 19.59a15.81 15.81 0 0 0-2.19-19.59h0L42.5 5.5M15.58 37.36a15.81 15.81 0 0 0 19.59-2.19h0l7.33 7.33M10.64 15.58a15.81 15.81 0 0 0 2.19 19.59h0L5.5 42.5");
-}
-
 :global(.j5c5phb-q) {
   cx: 24px;
   cy: 24px;
@@ -25,6 +17,14 @@ const content = `<circle class="j5c5phb-q"/><path class="coqgi-ato"/>`;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.ne-jl5b8b) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m5.5 5.5l7.33 7.33m19.59-2.19a15.81 15.81 0 0 0-19.59 2.19m24.53 19.59a15.81 15.81 0 0 0-2.19-19.59L42.5 5.5M15.58 37.36a15.81 15.81 0 0 0 19.59-2.19l7.33 7.33M10.64 15.58a15.81 15.81 0 0 0 2.19 19.59L5.5 42.5");
 }
 
 </style>

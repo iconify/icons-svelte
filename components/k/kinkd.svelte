@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="cubuh3beh"/><circle class="svids7b8p"/><path class="nv2ibt__f"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="cubuh3beh"/><circle class="svids7b8p"/><path class="tjea4cbuz"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:kinkd" {...props}></Icon>
 <style>
@@ -30,19 +30,19 @@ const content = `<rect class="j3s9ivbxi"/><path class="cubuh3beh"/><circle class
   ry: 4px;
 }
 
-:global(.nv2ibt__f) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M17.143 22.852v5.659m6.397-.001v-3.523a2.135 2.135 0 0 0-2.135-2.135h0c-1.18 0-2.135.956-2.135 2.135m0 3.524v-5.659m12.572 5.658v-8.54h1.921a3.737 3.737 0 0 1 3.737 3.736v1.068a3.737 3.737 0 0 1-3.737 3.737zM10.5 19.97v8.541m0-2.975l4.591-5.538m0 8.513l-3.517-4.271");
-}
-
 :global(.svids7b8p) {
   cx: 17.143px;
   cy: 20.237px;
   r: 0.747px;
   fill: currentColor;
+}
+
+:global(.tjea4cbuz) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.143 22.852v5.659m6.397-.001v-3.523a2.135 2.135 0 0 0-4.27 0m0 3.524v-5.659m12.572 5.658v-8.54h1.921a3.737 3.737 0 0 1 3.737 3.736v1.068a3.737 3.737 0 0 1-3.737 3.737zM10.5 19.97v8.541m0-2.975l4.591-5.538m0 8.513l-3.517-4.271");
 }
 
 </style>

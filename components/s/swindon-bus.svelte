@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="cyf4ocbij"/><circle class="labqe46de"/><path class="s20tw_b8w"/>`;
+const content = `<path class="cyf4ocbij"/><circle class="labqe46de"/><path class="bshkkac9y"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:swindon-bus" {...props}></Icon>
 <style>
+:global(.bshkkac9y) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.923 18.73v11.478m12.355 0V23.06a4.33 4.33 0 0 0-4.33-4.331a4.33 4.33 0 0 0-4.332 4.331v7.147");
+}
+
 :global(.cyf4ocbij) {
   fill: none;
   stroke: currentColor;
@@ -22,14 +30,6 @@ const content = `<path class="cyf4ocbij"/><circle class="labqe46de"/><path class
   cy: 15.71px;
   r: 0.75px;
   fill: currentColor;
-}
-
-:global(.s20tw_b8w) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.923 18.73v11.478m12.355 0V23.06a4.33 4.33 0 0 0-4.33-4.331h0a4.33 4.33 0 0 0-4.332 4.331v7.147");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="kh48f7uho"/><circle class="cpk0fnbgt"/><path class="e0dhc2lwe"/><path class="garsomv5t"/><path class="xiye5yiaa"/><path class="qrlir5brh"/>`;
+const content = `<circle class="kh48f7uho"/><circle class="cpk0fnbgt"/><path class="oi3fe_yad"/><path class="garsomv5t"/><path class="xiye5yiaa"/><path class="qrlir5brh"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:giga-text" {...props}></Icon>
 <style>
@@ -17,14 +17,6 @@ const content = `<circle class="kh48f7uho"/><circle class="cpk0fnbgt"/><path cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.e0dhc2lwe) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M3.147 29.252s4.322-3.134 8.458-3.134v-13.29a6.07 6.07 0 0 1 6.07-6.07h0c1.35 0 2.66.468 3.704 1.324l6.239 5.115a3.15 3.15 0 0 1 .993 3.43h0a3.15 3.15 0 0 1-2.991 2.16h-4.385v10.646");
 }
 
 :global(.garsomv5t) {
@@ -43,6 +35,14 @@ const content = `<circle class="kh48f7uho"/><circle class="cpk0fnbgt"/><path cla
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.oi3fe_yad) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M3.147 29.252s4.322-3.134 8.458-3.134v-13.29a6.07 6.07 0 0 1 6.07-6.07c1.35 0 2.66.468 3.704 1.324l6.239 5.115a3.152 3.152 0 0 1-1.998 5.59h-4.385v10.646");
 }
 
 :global(.qrlir5brh) {

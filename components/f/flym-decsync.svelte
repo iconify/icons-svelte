@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wxz_wzb3i"/><path class="y3a6bf0sq"/>`;
+const content = `<path class="azine9b5z"/><path class="y3a6bf0sq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:flym-decsync" {...props}></Icon>
 <style>
-:global(.wxz_wzb3i) {
+:global(.azine9b5z) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M33.205 10.214A16.646 16.646 0 0 0 7.24 24m1.313 0h2.891l-3.977 6.068L3.5 24zm30.894 0h-2.891l3.967-6.068L44.5 24h0zM14.69 37.796A16.636 16.636 0 0 0 40.633 24");
+  d: path("M33.205 10.214A16.646 16.646 0 0 0 7.24 24m1.313 0h2.891l-3.977 6.068L3.5 24zm30.894 0h-2.891l3.967-6.068L44.5 24zM14.69 37.796A16.636 16.636 0 0 0 40.633 24");
 }
 
 :global(.y3a6bf0sq) {

@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="catmv6b6i"/>`;
+const content = `<path class="zfz9c6krp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:firefoxlockwise" {...props}></Icon>
 <style>
-:global(.catmv6b6i) {
+:global(.zfz9c6krp) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m17.05 31.32l4.61-4.61h-.07a5.95 5.95 0 1 1 4.57 0h0l7.65 7.65a2 2 0 0 1 0 2.76l-5.68 5.68a5.86 5.86 0 0 1-8.26 0L5.2 28.13a5.86 5.86 0 0 1 0-8.26L19.87 5.2a5.86 5.86 0 0 1 8.26 0L42.8 19.87a5.86 5.86 0 0 1 0 8.26L39 32");
+  d: path("m17.05 31.32l4.61-4.61h-.07a5.95 5.95 0 1 1 4.57 0l7.65 7.65a2 2 0 0 1 0 2.76l-5.68 5.68a5.86 5.86 0 0 1-8.26 0L5.2 28.13a5.86 5.86 0 0 1 0-8.26L19.87 5.2a5.86 5.86 0 0 1 8.26 0L42.8 19.87a5.86 5.86 0 0 1 0 8.26L39 32");
 }
 
 </style>

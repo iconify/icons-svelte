@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wv0zdrb1v"/><circle class="ukh3y3-pq"/><path class="qp727cc6k"/>`;
+const content = `<path class="wv0zdrb1v"/><circle class="ukh3y3-pq"/><path class="blk15md5d"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:vivaldi-snapshot" {...props}></Icon>
 <style>
-:global(.qp727cc6k) {
+:global(.blk15md5d) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M32.008 37.624a2.24 2.24 0 0 0 1.962.876h1.184a2 2 0 0 0 1.996-2h0a2 2 0 0 0-1.996-2h-1.308a2 2 0 0 1-1.996-2h0a2 2 0 0 1 1.996-2h1.184a2.24 2.24 0 0 1 1.962.877");
+  d: path("M32.008 37.624a2.24 2.24 0 0 0 1.962.876h1.184a2 2 0 0 0 1.996-2a2 2 0 0 0-1.996-2h-1.308a2 2 0 0 1-1.996-2a2 2 0 0 1 1.996-2h1.184a2.24 2.24 0 0 1 1.962.877");
 }
 
 :global(.ukh3y3-pq) {

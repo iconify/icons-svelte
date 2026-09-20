@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="sj-zp5qmj"/><path class="eheaggrxe"/>`;
+const content = `<path class="sj-zp5qmj"/><path class="jeqlabqwy"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:brother-print-service-plugin" {...props}></Icon>
 <style>
-:global(.eheaggrxe) {
+:global(.jeqlabqwy) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M13.083 26.092h21.835v12.06H13.083zm25.567-4.786a1.985 1.985 0 0 1-1.98 1.988h0c-1.094 0-1.981-.89-1.981-1.989s.887-1.988 1.98-1.988c1.094 0 1.98.89 1.98 1.988");
+  d: path("M13.083 26.092h21.835v12.06H13.083zm25.567-4.786a1.985 1.985 0 0 1-1.98 1.988c-1.094 0-1.981-.89-1.981-1.989s.887-1.988 1.98-1.988c1.094 0 1.98.89 1.98 1.988");
 }
 
 :global(.sj-zp5qmj) {

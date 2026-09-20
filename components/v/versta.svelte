@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="pri3nwb7y"/><path class="pson3ox4r"/><path class="q4gh-u6vv"/>`;
+const content = `<circle class="pri3nwb7y"/><path class="odrkurs4s"/><path class="q4gh-u6vv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:versta" {...props}></Icon>
 <style>
+:global(.odrkurs4s) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m35.658 25.597l-7.02 12.422A5.3 5.3 0 0 1 24 40.748a5.3 5.3 0 0 1-4.4-2.34l.019.026L5.978 14.752l-.061-.13a5.305 5.305 0 0 1 9.35-4.937l-.002.002l10.963 17.321");
+}
+
 :global(.pri3nwb7y) {
   cx: 37.195px;
   cy: 12.557px;
@@ -17,14 +25,6 @@ const content = `<circle class="pri3nwb7y"/><path class="pson3ox4r"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.pson3ox4r) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m35.658 25.597l-7.02 12.422h0A5.3 5.3 0 0 1 24 40.748a5.3 5.3 0 0 1-4.4-2.34l.019.026L5.978 14.752l-.061-.13a5.305 5.305 0 0 1 9.35-4.937l-.002.002l10.963 17.321");
 }
 
 :global(.q4gh-u6vv) {

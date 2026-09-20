@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="i2k561b5m"/><path class="nhxtanb3g"/><path class="w2mxj0_0t"/><path class="q99gw2b2j"/>`;
+const content = `<path class="i2k561b5m"/><path class="nhxtanb3g"/><path class="jxsno8tur"/><path class="q99gw2b2j"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:randonautica" {...props}></Icon>
 <style>
@@ -15,6 +15,14 @@ const content = `<path class="i2k561b5m"/><path class="nhxtanb3g"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M39.016 19.496C39.016 11.214 32.3 4.5 24 4.5S8.984 11.214 8.984 19.496C8.984 26.97 15.395 37.734 24 43.5c8.605-5.766 15.016-16.529 15.016-24.004");
+}
+
+:global(.jxsno8tur) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.601 11.478a10.58 10.58 0 0 1 2.978 7.357c0 5.842-4.736 10.577-10.579 10.578s-10.58-4.736-10.58-10.578c0-2.748 1.07-5.388 2.982-7.361");
 }
 
 :global(.nhxtanb3g) {
@@ -31,14 +39,6 @@ const content = `<path class="i2k561b5m"/><path class="nhxtanb3g"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M32.46 12.61c-3.286-.142-6.233.556-8.46 2.64c-2.227-2.084-5.174-2.782-8.46-2.64");
-}
-
-:global(.w2mxj0_0t) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M31.601 11.478a10.58 10.58 0 0 1 2.978 7.357h0c0 5.842-4.736 10.577-10.579 10.578s-10.58-4.736-10.58-10.578h0c0-2.748 1.07-5.388 2.982-7.361");
 }
 
 </style>

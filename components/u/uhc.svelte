@@ -5,40 +5,40 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="rq1r9fbne"/><path class="vqf-a-dyg"/><path class="srton1ban"/><path class="ye7nk6b_s"/>`;
+const content = `<path class="vvcn42g7e"/><path class="wr39hvbnq"/><path class="tpqdmvz1b"/><path class="v2gmpx4oh"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:uhc" {...props}></Icon>
 <style>
-:global(.rq1r9fbne) {
+:global(.tpqdmvz1b) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M12.878 14.446L35.122 4.5v27.878c0 6.143-4.98 11.122-11.122 11.122h0c-6.142 0-11.122-4.98-11.122-11.122z");
+  d: path("M27.353 7.974V31.02a7.238 7.238 0 0 1-14.475 0");
 }
 
-:global(.srton1ban) {
+:global(.v2gmpx4oh) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.353 7.974V31.02a7.24 7.24 0 0 1-7.237 7.238h0a7.24 7.24 0 0 1-7.238-7.238");
+  d: path("M31.238 6.237v25.732a9.18 9.18 0 0 1-18.36 0");
 }
 
-:global(.vqf-a-dyg) {
+:global(.vvcn42g7e) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.469 9.71v21.048a5.295 5.295 0 0 1-5.296 5.295h0a5.295 5.295 0 0 1-5.295-5.295");
+  d: path("M12.878 14.446L35.122 4.5v27.878c0 6.143-4.98 11.122-11.122 11.122s-11.122-4.98-11.122-11.122z");
 }
 
-:global(.ye7nk6b_s) {
+:global(.wr39hvbnq) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M31.238 6.237v25.732a9.18 9.18 0 0 1-9.18 9.18h0a9.18 9.18 0 0 1-9.18-9.18");
+  d: path("M23.469 9.71v21.048a5.295 5.295 0 0 1-10.59 0");
 }
 
 </style>

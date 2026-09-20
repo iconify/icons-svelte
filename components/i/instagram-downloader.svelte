@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="iv34yub_k"/><path class="yazjg8bzf"/><path class="xtjozdb5e"/>`;
+const content = `<circle class="iv34yub_k"/><path class="yazjg8bzf"/><path class="e7xxhnbxg"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:instagram-downloader" {...props}></Icon>
 <style>
+:global(.e7xxhnbxg) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m35.203 39.203l3.297 3.296l3.297-3.296M35.38 10.46a2.19 2.19 0 1 0 2.16 2.22v-.06a2.18 2.18 0 0 0-2.16-2.16M24 15.72A8.28 8.28 0 1 0 32.28 24A8.28 8.28 0 0 0 24 15.72");
+}
+
 :global(.iv34yub_k) {
   cx: 38.5px;
   cy: 38.499px;
@@ -17,14 +25,6 @@ const content = `<circle class="iv34yub_k"/><path class="yazjg8bzf"/><path class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.xtjozdb5e) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m35.203 39.203l3.297 3.296l3.297-3.296M35.38 10.46a2.19 2.19 0 1 0 2.16 2.22v-.06a2.18 2.18 0 0 0-2.16-2.16M24 15.72A8.28 8.28 0 1 0 32.28 24h0A8.28 8.28 0 0 0 24 15.72");
 }
 
 :global(.yazjg8bzf) {

@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="lmgc0ac7r"/><path class="zv8g1nq1z"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="rrwg7bc6f"/><path class="d-u9z0bdu"/><rect class="j3s9ivbxi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:billthefarmercrossword" {...props}></Icon>
 <style>
+:global(.d-u9z0bdu) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.317 40.333a2 2 0 1 0 0-4m-3.299 3.326a3.4 3.4 0 0 0 2.487.674h.812m-3.3-7.331c.71-.54 1.604-.78 2.49-.669l.811.002m-2.038 3.999h2.037");
+}
+
 :global(.j3s9ivbxi) {
   width: 37px;
   height: 37px;
@@ -22,20 +30,12 @@ const content = `<path class="lmgc0ac7r"/><path class="zv8g1nq1z"/><rect class="
   ry: 4px;
 }
 
-:global(.lmgc0ac7r) {
+:global(.rrwg7bc6f) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17.833 5.5v37m12.334-37v37M5.5 17.833h37m-37 12.334h37m-32.833-14.5h4m-4-6.911l2-1.089m0 0v8m22.016-5.35a2.65 2.65 0 0 1 5.3-.003v.003a2.47 2.47 0 0 1-.776 1.874c-1.072.94-4.524 3.476-4.524 3.476h5.3M12.317 36.334a2 2 0 0 0 2-2h0a2 2 0 0 0-2-2");
-}
-
-:global(.zv8g1nq1z) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.317 40.333a2 2 0 0 0 2-2h0a2 2 0 0 0-2-2m-3.299 3.326a3.4 3.4 0 0 0 2.487.674h.812m-3.3-7.331c.71-.54 1.604-.78 2.49-.669l.811.002m-2.038 3.999h2.037");
+  d: path("M17.833 5.5v37m12.334-37v37M5.5 17.833h37m-37 12.334h37m-32.833-14.5h4m-4-6.911l2-1.089m0 0v8m22.016-5.35a2.65 2.65 0 0 1 5.3-.003v.003a2.47 2.47 0 0 1-.776 1.874c-1.072.94-4.524 3.476-4.524 3.476h5.3M12.317 36.334a2 2 0 1 0 0-4");
 }
 
 </style>

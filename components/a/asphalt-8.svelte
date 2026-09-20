@@ -5,12 +5,20 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="fidnz5j4o"/><path class="qyifvbb_d"/><path class="lcq2vharl"/><path class="wuljgy32a"/></g><path class="um2-djrqn"/>`;
+const content = `<g class="y9tr6bcfx"><path class="fidnz5j4o"/><path class="qyifvbb_d"/><path class="lcq2vharl"/><path class="wuljgy32a"/></g><path class="k3sm-1u7x"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:asphalt-8" {...props}></Icon>
 <style>
 :global(.fidnz5j4o) {
   d: path("M38.647 22.255c.395 4.488 2.695 3.578 3.515 2.902");
+}
+
+:global(.k3sm-1u7x) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M40.613 15.496a1.75 1.75 0 1 0 0 3.5h1.137a1.75 1.75 0 1 0 0-3.5m0 0a1.75 1.75 0 1 0 0-3.5h-1.137a1.75 1.75 0 1 0 0 3.5m0 0h1.137");
 }
 
 :global(.lcq2vharl) {
@@ -19,14 +27,6 @@ const content = `<g class="y9tr6bcfx"><path class="fidnz5j4o"/><path class="qyif
 
 :global(.qyifvbb_d) {
   d: path("M4.959 23.014c.481-2.584 4.911-1.655 4.911-1.655a6 6 0 0 1 4.359-2.79c.28-.066 7.635-.74 10.233.002s2.567 1.425 3.688 2.709a13.3 13.3 0 0 0 4.47.126a8.484 8.484 0 0 1 9.542 3.751");
-}
-
-:global(.um2-djrqn) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M40.613 15.496a1.75 1.75 0 0 0-1.75 1.75h0c0 .967.783 1.75 1.75 1.75h1.137a1.75 1.75 0 0 0 1.75-1.75h0a1.75 1.75 0 0 0-1.75-1.75m0 0a1.75 1.75 0 0 0 1.75-1.75h0a1.75 1.75 0 0 0-1.75-1.75h-1.137a1.75 1.75 0 0 0-1.75 1.75h0c0 .967.783 1.75 1.75 1.75m0 0h1.137");
 }
 
 :global(.wuljgy32a) {

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ei-avhbyd"/><path class="b9r6xsbut"/><path class="n2o0oubji"/><path class="sihr-ibya"/>`;
+const content = `<path class="ei-avhbyd"/><path class="b9r6xsbut"/><path class="j4jpw8bmd"/><path class="sihr-ibya"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:beecount" {...props}></Icon>
 <style>
@@ -22,12 +22,12 @@ const content = `<path class="ei-avhbyd"/><path class="b9r6xsbut"/><path class="
   d: path("m21.437 33.824l2.49 7.174l2.636-7.171Zm18.801-7.778H32.66v-7.721l7.578.013c4.377.097 4.322 7.705 0 7.708m0 0c3.11 2.545-.34 7.138-4.033 3.706l-3.544-3.706m7.577 0l-7.578-7.721M28.348 9.85l1.8-2.848");
 }
 
-:global(.n2o0oubji) {
+:global(.j4jpw8bmd) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M15.34 18.325V32.8a1.025 1.025 0 0 0 1.025 1.025h15.27A1.025 1.025 0 0 0 32.66 32.8V18.325Zm-7.578.013l7.578-.013v7.72H7.762c-4.322-.002-4.377-7.61 0-7.707m7.577 7.708l-3.544 3.706c-3.694 3.432-7.143-1.161-4.033-3.706m7.578-7.721l-7.578 7.721M24 15.428h-8.66v-.001c0-3.56 3.877-6.447 8.66-6.447s8.66 2.886 8.66 6.447v0Zm-6.148-8.426l1.8 2.848");
+  d: path("M15.34 18.325V32.8a1.025 1.025 0 0 0 1.025 1.025h15.27A1.025 1.025 0 0 0 32.66 32.8V18.325Zm-7.578.013l7.578-.013v7.72H7.762c-4.322-.002-4.377-7.61 0-7.707m7.577 7.708l-3.544 3.706c-3.694 3.432-7.143-1.161-4.033-3.706m7.578-7.721l-7.578 7.721M24 15.428h-8.66v-.001c0-3.56 3.877-6.447 8.66-6.447s8.66 2.886 8.66 6.447Zm-6.148-8.426l1.8 2.848");
 }
 
 :global(.sihr-ibya) {

@@ -5,10 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<defs><path id="SVGk4gO3c9d" class="ufdq17bxq"/></defs><circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><use href="#SVGk4gO3c9d"/><use href="#SVGk4gO3c9d"/></g>`;
+const content = `<defs><path id="SVGvmqPddPE" class="adv69lb9y"/></defs><circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><use href="#SVGvmqPddPE"/><use href="#SVGvmqPddPE"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:letter-lowercase-circle-m" {...props}></Icon>
 <style>
+:global(.adv69lb9y) {
+  d: path("M16 22.7a4 4 0 0 1 8 0v6.6m-8-10.6v10.6m8-6.6a4 4 0 0 1 8 0v6.6");
+}
+
 :global(.cpk0fnbgt) {
   cx: 24px;
   cy: 24px;
@@ -17,10 +21,6 @@ const content = `<defs><path id="SVGk4gO3c9d" class="ufdq17bxq"/></defs><circle 
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.ufdq17bxq) {
-  d: path("M16 22.7a4 4 0 0 1 4-4a4 4 0 0 1 4 4v6.6m-8-10.6v10.6m8-6.6a4 4 0 0 1 4-4a4 4 0 0 1 4 4v6.6");
 }
 
 :global(.y9tr6bcfx) {

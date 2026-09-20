@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="rgyed1ldr"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="o00gimb9c"/><path class="hc77isnme"/><rect class="j3s9ivbxi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:nvm" {...props}></Icon>
 <style>
+:global(.hc77isnme) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.755 23.066a2.873 2.873 0 1 1 5.745 0v4.74m-21.255 0v-4.74a2.873 2.873 0 1 0-5.745 0m0 4.74v-7.612");
+}
+
 :global(.j3s9ivbxi) {
   width: 37px;
   height: 37px;
@@ -22,12 +30,12 @@ const content = `<path class="rgyed1ldr"/><rect class="j3s9ivbxi"/>`;
   ry: 4px;
 }
 
-:global(.rgyed1ldr) {
+:global(.o00gimb9c) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m23.654 20.194l-2.873 7.612l-2.873-7.612m8.102 2.872a2.873 2.873 0 0 1 2.872-2.872h0a2.873 2.873 0 0 1 2.873 2.872v4.74m-5.746-7.612v7.612m5.746-4.74a2.873 2.873 0 0 1 2.872-2.872h0a2.873 2.873 0 0 1 2.873 2.872v4.74m-21.255 0v-4.74a2.873 2.873 0 0 0-2.872-2.872h0a2.873 2.873 0 0 0-2.873 2.872m0 4.74v-7.612");
+  d: path("m23.654 20.194l-2.873 7.612l-2.873-7.612m8.102 2.872a2.873 2.873 0 1 1 5.745 0v4.74m-5.746-7.612v7.612");
 }
 
 </style>

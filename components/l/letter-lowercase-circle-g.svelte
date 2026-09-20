@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><path class="rqpwkubzd"/><rect transform="matrix(-1 0 0 -1 48 42.6)" class="ros899qmg"/></g>`;
+const content = `<circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><path class="efqaa-fww"/><rect transform="matrix(-1 0 0 -1 48 42.6)" class="ros899qmg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:letter-lowercase-circle-g" {...props}></Icon>
 <style>
@@ -19,6 +19,10 @@ const content = `<circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><path class="rq
   stroke-linejoin: round;
 }
 
+:global(.efqaa-fww) {
+  d: path("M28 16v12a4 4 0 0 1-4 4a4 4 0 0 1-2.828-1.171");
+}
+
 :global(.ros899qmg) {
   width: 8px;
   height: 10.6px;
@@ -26,10 +30,6 @@ const content = `<circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><path class="rq
   y: 16px;
   rx: 4px;
   ry: 4px;
-}
-
-:global(.rqpwkubzd) {
-  d: path("M28 16v12a4 4 0 0 1-4 4h0a4 4 0 0 1-2.828-1.171");
 }
 
 :global(.y9tr6bcfx) {

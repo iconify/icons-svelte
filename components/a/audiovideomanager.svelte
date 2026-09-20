@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="krc3wu1bp"/><path class="a2xgm7bov"/><path class="us4r5o9py"/>`;
+const content = `<rect class="krc3wu1bp"/><path class="a2xgm7bov"/><path class="pb74uc3wz"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:audiovideomanager" {...props}></Icon>
 <style>
@@ -29,12 +29,12 @@ const content = `<rect class="krc3wu1bp"/><path class="a2xgm7bov"/><path class="
   rx: 2.03px;
 }
 
-:global(.us4r5o9py) {
+:global(.pb74uc3wz) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m28.68 9.32l-11.4-3.19a2 2 0 0 0-2.58 2V27.4a6.2 6.2 0 1 0 3.2 5.43v-.3h0V15.12L28.33 18a2 2 0 0 0 2.58-2v-3.74a3.05 3.05 0 0 0-2.23-2.94");
+  d: path("m28.68 9.32l-11.4-3.19a2 2 0 0 0-2.58 2V27.4a6.2 6.2 0 1 0 3.2 5.43V15.12L28.33 18a2 2 0 0 0 2.58-2v-3.74a3.05 3.05 0 0 0-2.23-2.94");
 }
 
 </style>

@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="m4bohibjn"/><path class="wuzsvvb9v"/><circle class="j355e4lau"/><circle class="phnnl9obg"/><path class="lqjl04b8t"/><path class="tazbezbaj"/>`;
+const content = `<path class="m4bohibjn"/><path class="wuzsvvb9v"/><circle class="j355e4lau"/><circle class="phnnl9obg"/><path class="c0pl4fbjb"/><path class="tazbezbaj"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:mparivahan" {...props}></Icon>
 <style>
+:global(.c0pl4fbjb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M28.719 34.026h10.657a1.62 1.62 0 0 0 1.622-1.622a1.62 1.62 0 0 0-1.621-1.621H18.06a1.62 1.62 0 0 0-1.622 1.621a1.62 1.62 0 0 0 1.622 1.622Zm6.021-10.64c0-1.148-.956-2.059-2.906-2.059s-2.332 1.039-2.332 2.06");
+}
+
 :global(.j355e4lau) {
   cx: 36.935px;
   cy: 26.811px;
@@ -17,14 +25,6 @@ const content = `<path class="m4bohibjn"/><path class="wuzsvvb9v"/><circle class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.lqjl04b8t) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M28.719 34.026h10.657a1.62 1.62 0 0 0 1.622-1.622h0a1.62 1.62 0 0 0-1.621-1.621H18.06a1.62 1.62 0 0 0-1.622 1.621h0a1.62 1.62 0 0 0 1.622 1.622Zm6.021-10.64c0-1.148-.956-2.059-2.906-2.059s-2.332 1.039-2.332 2.06");
 }
 
 :global(.m4bohibjn) {

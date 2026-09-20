@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="s3vfz1bxx"/><path class="l11qvw6ia"/></g><path class="y2uaqebbj"/><path class="gxp2drsnd"/><path class="f_yjbsh9a"/><path class="u_v5erwdo"/>`;
+const content = `<g class="y9tr6bcfx"><path class="s3vfz1bxx"/><path class="ripqtoajt"/></g><path class="y2uaqebbj"/><path class="gxp2drsnd"/><path class="f_yjbsh9a"/><path class="u_v5erwdo"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:update-centre" {...props}></Icon>
 <style>
@@ -24,8 +24,8 @@ const content = `<g class="y9tr6bcfx"><path class="s3vfz1bxx"/><path class="l11q
   d: path("m2.5 29.968l1.83-3.843l3.232 2.716");
 }
 
-:global(.l11qvw6ia) {
-  d: path("M24.403 16.873c7.674 0 13.895 6.22 13.895 13.894h0a1.976 1.976 0 0 1-1.976 1.976H12.42a1.976 1.976 0 0 1-1.976-1.976h0c0-7.674 6.22-13.894 13.894-13.894zm-11.982-2.072l3.951 4.637m20.045-4.637l-3.935 4.637");
+:global(.ripqtoajt) {
+  d: path("M24.403 16.873zc7.674 0 13.895 6.22 13.895 13.894a1.976 1.976 0 0 1-1.976 1.976H12.42a1.976 1.976 0 0 1-1.976-1.976c0-7.674 6.22-13.894 13.894-13.894zm-11.982-2.072l3.951 4.637m20.045-4.637l-3.935 4.637");
 }
 
 :global(.s3vfz1bxx) {

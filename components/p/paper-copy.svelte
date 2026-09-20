@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="nrqpvcc4x"/><path class="jo7g3xb3b"/>`;
+const content = `<path class="nrqpvcc4x"/><path class="ch72bzpsw"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:paper-copy" {...props}></Icon>
 <style>
-:global(.jo7g3xb3b) {
+:global(.ch72bzpsw) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.284 5.5c-7.297 0-13.213 5.917-13.213 13.215v0c.001 7.297 5.916 13.212 13.213 13.213c7.298 0 13.215-5.915 13.215-13.213v0c0-.812-.075-1.623-.224-2.422H31.707V5.725c-.799-.15-1.61-.224-2.422-.225z");
+  d: path("M29.284 5.5c-7.297 0-13.213 5.917-13.213 13.215c.001 7.297 5.916 13.212 13.213 13.213c7.298 0 13.215-5.915 13.215-13.213c0-.812-.075-1.623-.224-2.422H31.707V5.725c-.799-.15-1.61-.224-2.422-.225");
 }
 
 :global(.nrqpvcc4x) {

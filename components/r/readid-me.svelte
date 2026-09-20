@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="pj3zg71xn"/><path class="epvw03b1k"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="x817ofb_d"/><path class="epvw03b1k"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:readid-me" {...props}></Icon>
 <style>
@@ -30,12 +30,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="pj3zg71xn"/><path class="
   ry: 4px;
 }
 
-:global(.pj3zg71xn) {
+:global(.x817ofb_d) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M11.5 19.555v15.632m5.36.026V19.581h5.03c4.317 0 7.816 3.5 7.816 7.816h0c0 4.317-3.5 7.816-7.816 7.816zm7.701-22.426c6.583 0 11.939 5.356 11.939 11.939");
+  d: path("M11.5 19.555v15.632m5.36.026V19.581h5.03a7.816 7.816 0 0 1 0 15.632zm7.701-22.426c6.583 0 11.939 5.356 11.939 11.939");
 }
 
 </style>

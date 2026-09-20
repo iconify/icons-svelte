@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="y_youq5up"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="foozgfnkr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:letter-uppercase-circle-j" {...props}></Icon>
 <style>
@@ -19,12 +19,12 @@ const content = `<circle class="cpk0fnbgt"/><path class="y_youq5up"/>`;
   stroke-linejoin: round;
 }
 
-:global(.y_youq5up) {
+:global(.foozgfnkr) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28 16v12a4 4 0 0 1-4 4h0a4 4 0 0 1-4-4v-1.328");
+  d: path("M28 16v12a4 4 0 0 1-8 0v-1.328");
 }
 
 </style>

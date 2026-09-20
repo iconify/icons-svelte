@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jfj0kcevx"/><path class="jjhtjgvmo"/><circle class="dbx5zl31b"/><circle class="zz0fzgbrg"/><path class="yyemhnnic"/><path class="i7iysonby"/><path class="hukk54-ns"/>`;
+const content = `<path class="zzzz2bbvj"/><path class="pexua8b5e"/><circle class="dbx5zl31b"/><circle class="zz0fzgbrg"/><path class="yyemhnnic"/><path class="i7iysonby"/><path class="hukk54-ns"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:lime3ds" {...props}></Icon>
 <style>
@@ -35,20 +35,12 @@ const content = `<path class="jfj0kcevx"/><path class="jjhtjgvmo"/><circle class
   d: path("M27.556 6.078c-6.809.55-12.221 3.404-14.634 7.018");
 }
 
-:global(.jfj0kcevx) {
+:global(.pexua8b5e) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M10.525 16.689a16.8 16.8 0 0 0-3.317 10.02C7.208 35.981 14.726 43.5 24 43.5s16.792-7.518 16.792-16.792A16.79 16.79 0 0 0 30.026 11.04a114 114 0 0 1 1.701-3.785A2.167 2.167 0 0 0 30.23 4.58c-.216-.06-.647-.08-.647-.08a2.17 2.17 0 0 0-2.025 1.578h0a238 238 0 0 1-.605 4.105q-.598-.108-1.2-.172");
-}
-
-:global(.jjhtjgvmo) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.02 13.29a14.625 14.625 0 0 1 12.728 14.502h0c0 8.077-6.547 14.624-14.624 14.624S7.499 35.87 7.499 27.792c0-4.19 1.797-8.178 4.934-10.954");
+  d: path("M24.02 13.29a14.625 14.625 0 0 1 12.728 14.502c0 8.077-6.547 14.624-14.624 14.624S7.499 35.87 7.499 27.792c0-4.19 1.797-8.178 4.934-10.954");
 }
 
 :global(.yyemhnnic) {
@@ -67,6 +59,14 @@ const content = `<path class="jfj0kcevx"/><path class="jjhtjgvmo"/><circle class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+:global(.zzzz2bbvj) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.525 16.689a16.8 16.8 0 0 0-3.317 10.02C7.208 35.981 14.726 43.5 24 43.5s16.792-7.518 16.792-16.792A16.79 16.79 0 0 0 30.026 11.04a114 114 0 0 1 1.701-3.785A2.167 2.167 0 0 0 30.23 4.58c-.216-.06-.647-.08-.647-.08a2.17 2.17 0 0 0-2.025 1.578a238 238 0 0 1-.605 4.105q-.598-.108-1.2-.172");
 }
 
 </style>

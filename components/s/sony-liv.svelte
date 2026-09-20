@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="k6qn5opjd"/><path class="mpf1g2bqe"/><rect class="lrnyqib6g"/><path class="dkl_of00k"/><circle class="flomuibpr"/><path class="lvqxmfbsg"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="k6qn5opjd"/><path class="xseqsm2ck"/><rect class="lrnyqib6g"/><path class="dkl_of00k"/><circle class="flomuibpr"/><path class="lvqxmfbsg"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:sony-liv" {...props}></Icon>
 <style>
@@ -66,12 +66,12 @@ const content = `<rect class="j3s9ivbxi"/><path class="k6qn5opjd"/><path class="
   d: path("M22.187 31.249V38.5m-4.798-10.945v9.577c0 .756.612 1.368 1.368 1.368h.41");
 }
 
-:global(.mpf1g2bqe) {
+:global(.xseqsm2ck) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M12.102 16.233c.429.559.967.767 1.716.767h1.036c.965 0 1.747-.782 1.747-1.746v-.008c0-.964-.782-1.746-1.747-1.746h-1.143a1.75 1.75 0 0 1-1.748-1.748h0c0-.968.784-1.752 1.752-1.752h1.03c.75 0 1.288.208 1.717.767");
+  d: path("M12.102 16.233c.429.559.967.767 1.716.767h1.036c.965 0 1.747-.782 1.747-1.746v-.008c0-.964-.782-1.746-1.747-1.746h-1.143a1.75 1.75 0 0 1-1.748-1.748c0-.968.784-1.752 1.752-1.752h1.03c.75 0 1.288.208 1.717.767");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect class="j3s9ivbxi"/><path class="hamlhzrfg"/><path class="ar9icn-6t"/><rect class="u-6k40fzf"/><path class="z_742oatv"/>`;
+const content = `<rect class="j3s9ivbxi"/><path class="hamlhzrfg"/><path class="ar9icn-6t"/><rect class="u-6k40fzf"/><path class="j4qwfiwxb"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:luxchat4gov" {...props}></Icon>
 <style>
@@ -38,6 +38,14 @@ const content = `<rect class="j3s9ivbxi"/><path class="hamlhzrfg"/><path class="
   ry: 4px;
 }
 
+:global(.j4qwfiwxb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.036 23.1a1.768 1.768 0 1 0-3.536 0v1.8a1.768 1.768 0 1 0 3.536 0h-1.768");
+}
+
 :global(.u-6k40fzf) {
   width: 3.536px;
   height: 5.337px;
@@ -49,14 +57,6 @@ const content = `<rect class="j3s9ivbxi"/><path class="hamlhzrfg"/><path class="
   stroke-linejoin: round;
   rx: 1.768px;
   ry: 1.768px;
-}
-
-:global(.z_742oatv) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M20.036 23.1c0-.977-.792-1.768-1.768-1.768h0c-.977 0-1.768.791-1.768 1.767v1.802c0 .976.791 1.767 1.768 1.767h0c.976 0 1.768-.791 1.768-1.767h-1.768");
 }
 
 </style>

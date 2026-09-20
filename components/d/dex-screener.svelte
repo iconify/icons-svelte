@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="gv9vr54uc"/><path class="nhmvvklqc"/><path class="es_ju3b4r"/><path class="k87jcbbxr"/>`;
+const content = `<path class="ypb0ttbpo"/><path class="nhmvvklqc"/><path class="es_ju3b4r"/><path class="k87jcbbxr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:dex-screener" {...props}></Icon>
 <style>
@@ -15,14 +15,6 @@ const content = `<path class="gv9vr54uc"/><path class="nhmvvklqc"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M26.522 17.69c4.604-2.337 9.597-6.354 11.318-12.439c-1.07 1.375-2.66 2.767-4.518 3.283a15 15 0 0 0-.685-.66C29.536 5.057 27.25 4.508 24 4.508s-5.536.55-8.637 3.364q-.36.329-.685.661c-1.858-.516-3.449-1.908-4.518-3.283c1.72 6.085 6.714 10.102 11.318 12.44");
-}
-
-:global(.gv9vr54uc) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.951 10.765c-4.384 7.074.244 15.697-5.366 25.358l4.657-3.436v0l3.196 5.208l3.23-3.12L24 43.492l5.332-8.715l3.23 3.12l3.196-5.21l4.657 3.437c-5.61-9.66-.982-18.284-5.366-25.358");
 }
 
 :global(.k87jcbbxr) {
@@ -39,6 +31,14 @@ const content = `<path class="gv9vr54uc"/><path class="nhmvvklqc"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m19.89 23.502l-3.424 2.037c4.622.794 6.467 7.03 7.534 12.389c1.067-5.36 2.912-11.595 7.534-12.389l-3.423-2.037c.436-3.3-1.91-6.552-4.111-6.552s-4.547 3.253-4.11 6.552");
+}
+
+:global(.ypb0ttbpo) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.951 10.765c-4.384 7.074.244 15.697-5.366 25.358l4.657-3.436l3.196 5.208l3.23-3.12L24 43.492l5.332-8.715l3.23 3.12l3.196-5.21l4.657 3.437c-5.61-9.66-.982-18.284-5.366-25.358");
 }
 
 </style>

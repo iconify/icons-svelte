@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="e9-ebdp8j"/><path class="d0b-cbu_i"/></g><g class="y9tr6bcfx"><path class="qsdgmbbbv"/><path class="ecd7-dx3b"/></g><g class="y9tr6bcfx"><path class="pcamfrbaw"/><path class="mmcv-c20d"/></g><g class="y9tr6bcfx"><path class="ac6gmnb8l"/><path class="o8yu281-a"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="e9-ebdp8j"/><path class="d0b-cbu_i"/></g><g class="y9tr6bcfx"><path class="qsdgmbbbv"/><path class="slszzj5qd"/></g><g class="y9tr6bcfx"><path class="pcamfrbaw"/><path class="mmcv-c20d"/></g><g class="y9tr6bcfx"><path class="ac6gmnb8l"/><path class="o8yu281-a"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:drive-ahead" {...props}></Icon>
 <style>
@@ -19,10 +19,6 @@ const content = `<g class="y9tr6bcfx"><path class="e9-ebdp8j"/><path class="d0b-
 
 :global(.e9-ebdp8j) {
   d: path("M43.5 20.66a7.48 7.48 0 0 1-7.482 7.478c-4.133 0-7.483-3.348-7.483-7.478s3.35-7.479 7.483-7.479A7.48 7.48 0 0 1 43.5 20.66");
-}
-
-:global(.ecd7-dx3b) {
-  d: path("M20.62 32.875a3.493 3.493 0 0 1-3.492 3.493h0a3.493 3.493 0 0 1-3.493-3.493h0a3.493 3.493 0 0 1 3.493-3.493h0a3.493 3.493 0 0 1 3.493 3.493");
 }
 
 :global(.mmcv-c20d) {
@@ -39,6 +35,10 @@ const content = `<g class="y9tr6bcfx"><path class="e9-ebdp8j"/><path class="d0b-
 
 :global(.qsdgmbbbv) {
   d: path("M24.61 32.875c0 4.13-3.35 7.478-7.482 7.478s-7.483-3.348-7.483-7.478s3.35-7.479 7.483-7.479s7.482 3.348 7.482 7.479");
+}
+
+:global(.slszzj5qd) {
+  d: path("M20.62 32.875a3.493 3.493 0 0 1-6.986 0a3.493 3.493 0 0 1 6.986 0");
 }
 
 :global(.y9tr6bcfx) {

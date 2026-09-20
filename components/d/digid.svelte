@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="jfiatbclj"/><path class="wljllruef"/><circle class="mt2qg2t9i"/><path class="or6-g3q9p"/><circle class="lmrm61aec"/><path class="pk1-4_btg"/>`;
+const content = `<path class="y2gm61byv"/><path class="eftbmbcnh"/><circle class="mt2qg2t9i"/><path class="or6-g3q9p"/><circle class="lmrm61aec"/><path class="pk1-4_btg"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:digid" {...props}></Icon>
 <style>
-:global(.jfiatbclj) {
+:global(.eftbmbcnh) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M10.1 35.3v-9.4h2.1c2.3 0 4.1 1.8 4.1 4.1h0v1.2c0 2.3-1.8 4.1-4.1 4.1zm21.5 0v-9.4h2.1c2.3 0 4.1 1.8 4.1 4.1h0v1.2c0 2.3-1.8 4.1-4.1 4.1zM26.3 29v7.1c0 1.3-1.1 2.4-2.4 2.4h0c-.6 0-1.2-.2-1.7-.7");
+  d: path("M23.9 35.3zc-1.3 0-2.4-1.1-2.4-2.4v-1.5c0-1.3 1.1-2.4 2.4-2.4s2.4 1.1 2.4 2.4v1.5c0 1.3-1.1 2.4-2.4 2.4");
 }
 
 :global(.lmrm61aec) {
@@ -47,12 +47,12 @@ const content = `<path class="jfiatbclj"/><path class="wljllruef"/><circle class
   d: path("M29 29v6.3m9.5-29.8h-29c-2.2 0-4 1.8-4 4v29c0 2.2 1.8 4 4 4h29c2.2 0 4-1.8 4-4v-29c0-2.2-1.8-4-4-4");
 }
 
-:global(.wljllruef) {
+:global(.y2gm61byv) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.9 35.3c-1.3 0-2.4-1.1-2.4-2.4v-1.5c0-1.3 1.1-2.4 2.4-2.4h0c1.3 0 2.4 1.1 2.4 2.4v1.5c0 1.3-1.1 2.4-2.4 2.4");
+  d: path("M10.1 35.3v-9.4h2.1c2.3 0 4.1 1.8 4.1 4.1v1.2c0 2.3-1.8 4.1-4.1 4.1zm21.5 0v-9.4h2.1c2.3 0 4.1 1.8 4.1 4.1v1.2c0 2.3-1.8 4.1-4.1 4.1zM26.3 29v7.1c0 1.3-1.1 2.4-2.4 2.4c-.6 0-1.2-.2-1.7-.7");
 }
 
 </style>

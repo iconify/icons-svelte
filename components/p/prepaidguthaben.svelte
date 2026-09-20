@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<ellipse class="fv763l4rj"/><path class="ohaqbvdwm"/>`;
+const content = `<ellipse class="fv763l4rj"/><path class="yzdo72b6p"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:prepaidguthaben" {...props}></Icon>
 <style>
@@ -20,12 +20,12 @@ const content = `<ellipse class="fv763l4rj"/><path class="ohaqbvdwm"/>`;
   ry: 13.633px;
 }
 
-:global(.ohaqbvdwm) {
+:global(.yzdo72b6p) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.12 37.633A13.626 13.626 0 0 1 4.5 24h0a13.626 13.626 0 0 1 13.62-13.633");
+  d: path("M18.12 37.633A13.626 13.626 0 0 1 4.5 24a13.626 13.626 0 0 1 13.62-13.633");
 }
 
 </style>

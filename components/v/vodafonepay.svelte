@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="snj4fbggw"/><path class="c5appdbxq"/><path class="g6d-zjbkb"/><path class="llgapdg0r"/>`;
+const content = `<path class="zckj5obhw"/><path class="c5appdbxq"/><path class="g6d-zjbkb"/><path class="llgapdg0r"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:vodafonepay" {...props}></Icon>
 <style>
@@ -33,12 +33,12 @@ const content = `<path class="snj4fbggw"/><path class="c5appdbxq"/><path class="
   d: path("M22.734 26.378c.482-.483.82-.525 1.75-.525c1.056 0 1.75.464 1.75 1.72v3.58");
 }
 
-:global(.snj4fbggw) {
+:global(.zckj5obhw) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M9.97 29.422C9.953 41.369 23.93 47.86 33.05 40.146c9.121-7.715 5.037-22.573-6.747-24.54a4.3 4.3 0 0 1 .404-1.579C28.13 10.714 33.1 5.822 36.844 4.51C19.272 4.503 9.97 15.306 9.97 29.421z");
+  d: path("M9.97 29.422C9.953 41.369 23.93 47.86 33.05 40.146c9.121-7.715 5.037-22.573-6.747-24.54a4.3 4.3 0 0 1 .404-1.579C28.13 10.714 33.1 5.822 36.844 4.51C19.272 4.503 9.97 15.306 9.97 29.421");
 }
 
 </style>

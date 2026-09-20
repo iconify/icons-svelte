@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wmlwi9b0l"/><path class="hjjdgubiq"/><path class="pzngqbc8l"/>`;
+const content = `<path class="wmlwi9b0l"/><path class="hjjdgubiq"/><path class="lwgxvobcn"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:emoji-clown-face" {...props}></Icon>
 <style>
@@ -17,12 +17,12 @@ const content = `<path class="wmlwi9b0l"/><path class="hjjdgubiq"/><path class="
   d: path("M5.795 24.29c0 10.057 8.15 18.21 18.205 18.21s18.205-8.153 18.205-18.21S34.055 6.082 24 6.082S5.795 14.234 5.795 24.291");
 }
 
-:global(.pzngqbc8l) {
+:global(.lwgxvobcn) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M21.835 26.648a2.165 2.165 0 1 0 4.33 0h0a2.165 2.165 0 1 0-4.33 0");
+  d: path("M21.835 26.648a2.165 2.165 0 1 0 4.33 0a2.165 2.165 0 1 0-4.33 0");
 }
 
 :global(.wmlwi9b0l) {

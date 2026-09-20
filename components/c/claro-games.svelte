@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="otzeusqhk"/><path class="o8hn08_3j"/>`;
+const content = `<path class="otzeusqhk"/><path class="hng2xaczx"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:claro-games" {...props}></Icon>
 <style>
-:global(.o8hn08_3j) {
+:global(.hng2xaczx) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M15.212 16.83v-2.933m2.612 4.067l2.6-2.595m-1.746 5.483h2.94m-4.673-.12a2.414 2.414 0 0 1-2.417 2.412h0c-1.335 0-2.417-1.08-2.417-2.412s1.082-2.412 2.417-2.412s2.417 1.08 2.417 2.412m13.938-4.938v2.151h-2.15v2.535h2.15v2.15h2.534v-2.15h2.149v-2.535h-2.149v-2.15z");
+  d: path("M15.212 16.83v-2.933m2.612 4.067l2.6-2.595m-1.746 5.483h2.94m-4.673-.12a2.414 2.414 0 0 1-2.417 2.412c-1.335 0-2.417-1.08-2.417-2.412s1.082-2.412 2.417-2.412s2.417 1.08 2.417 2.412m13.938-4.938v2.151h-2.15v2.535h2.15v2.15h2.534v-2.15h2.149v-2.535h-2.149v-2.15z");
 }
 
 :global(.otzeusqhk) {

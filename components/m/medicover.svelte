@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ew0on226a"/><path class="i_ct5-1me"/><path class="fko8iszje"/><path class="x-4_ex3zx"/>`;
+const content = `<path class="ew0on226a"/><path class="i_ct5-1me"/><path class="fko8iszje"/><path class="cqc9vsb7d"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:medicover" {...props}></Icon>
 <style>
+:global(.cqc9vsb7d) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.53 24.621a2.53 2.53 0 0 1-5.06 0a2.53 2.53 0 1 1 5.06 0");
+}
+
 :global(.ew0on226a) {
   fill: none;
   stroke: currentColor;
@@ -31,14 +39,6 @@ const content = `<path class="ew0on226a"/><path class="i_ct5-1me"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M12.147 20.518c6.457-6.663 15.724-7.2 23.415-1.4");
-}
-
-:global(.x-4_ex3zx) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M26.53 24.621a2.53 2.53 0 0 1-5.06 0h0a2.53 2.53 0 1 1 5.06 0");
 }
 
 </style>

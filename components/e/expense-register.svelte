@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="l6k5qxb1j"/><path class="s1xoa1rph"/><path class="v299n4bzs"/><path class="kykk9pbmp"/><path class="g3pudpb1e"/><path class="jz2_-n9if"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="l6k5qxb1j"/><path class="s1xoa1rph"/><path class="v299n4bzs"/><path class="kykk9pbmp"/><path class="h8m5fevkn"/><path class="jz2_-n9if"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:expense-register" {...props}></Icon>
 <style>
-:global(.g3pudpb1e) {
-  d: path("m5.59 23.948l13.542 10.4l7.423-5.91m-6.32-4.688c-.226 1.027-1.694 1.554-3.278 1.175h0c-1.584-.378-2.685-1.517-2.459-2.545c.226-1.027 1.694-1.553 3.278-1.175s2.685 1.518 2.459 2.545");
+:global(.h8m5fevkn) {
+  d: path("m5.59 23.948l13.542 10.4l7.423-5.91m-6.32-4.688c-.226 1.027-1.694 1.554-3.278 1.175c-1.584-.378-2.685-1.517-2.459-2.545c.226-1.027 1.694-1.553 3.278-1.175s2.685 1.518 2.459 2.545");
 }
 
 :global(.jz2_-n9if) {

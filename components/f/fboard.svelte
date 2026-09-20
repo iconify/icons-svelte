@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="iaa_cdm5r"/><rect class="c4b24vbkk"/><rect class="fcniw0mfp"/><rect class="tkwqppmim"/><path class="r265w2izx"/><rect class="nkn7dobon"/><rect class="tz3brfbuo"/><rect class="tvj0nenwg"/><path class="j7gzitrby"/><rect class="a2ybldbhu"/><path class="g_m6rukvx"/>`;
+const content = `<path class="iaa_cdm5r"/><rect class="c4b24vbkk"/><rect class="fcniw0mfp"/><rect class="tkwqppmim"/><path class="a-dgcnzvv"/><rect class="nkn7dobon"/><rect class="tz3brfbuo"/><rect class="tvj0nenwg"/><path class="j7gzitrby"/><rect class="a2ybldbhu"/><path class="zq9me18ct"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:fboard" {...props}></Icon>
 <style>
+:global(.a-dgcnzvv) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.805 30.355v2.37a.42.42 0 0 1-.42.421H22.86a.42.42 0 0 1-.42-.42v-2.37");
+}
+
 :global(.a2ybldbhu) {
   width: 3.366px;
   height: 3.366px;
@@ -48,14 +56,6 @@ const content = `<path class="iaa_cdm5r"/><rect class="c4b24vbkk"/><rect class="
   ry: 0.421px;
 }
 
-:global(.g_m6rukvx) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183c0-.93.753-1.683 1.683-1.683h18.542c.93 0 1.683.754 1.683 1.683h0v15.025c0 .654-.304 1.271-.824 1.67M21.75 9.989h6.5m-6.5 6.5h4.225m-4.225-6.5v13");
-}
-
 :global(.iaa_cdm5r) {
   fill: none;
   stroke: currentColor;
@@ -83,14 +83,6 @@ const content = `<path class="iaa_cdm5r"/><rect class="c4b24vbkk"/><rect class="
   stroke-linejoin: round;
   rx: 0.421px;
   ry: 0.421px;
-}
-
-:global(.r265w2izx) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M25.805 30.355v2.37a.42.42 0 0 1-.42.421H22.86a.42.42 0 0 1-.42-.42h0v-2.37");
 }
 
 :global(.tkwqppmim) {
@@ -130,6 +122,14 @@ const content = `<path class="iaa_cdm5r"/><rect class="c4b24vbkk"/><rect class="
   stroke-linejoin: round;
   rx: 0.421px;
   ry: 0.421px;
+}
+
+:global(.zq9me18ct) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m34.253 23.878l-10.131 7.768l-10.13-7.768a2.1 2.1 0 0 1-.824-1.67V7.183c0-.93.753-1.683 1.683-1.683h18.542c.93 0 1.683.754 1.683 1.683v15.025c0 .654-.304 1.271-.824 1.67M21.75 9.989h6.5m-6.5 6.5h4.225m-4.225-6.5v13");
 }
 
 </style>

@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="om-iyx24n"/><path class="dbdqx99oc"/>`;
+const content = `<path class="om-iyx24n"/><path class="dua4_0bez"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:google-sites" {...props}></Icon>
 <style>
-:global(.dbdqx99oc) {
+:global(.dua4_0bez) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M36.375 30.036h.929a3.02 3.02 0 0 1 3.018 3.018h0a3.02 3.02 0 0 1-3.018 3.017h-.929a3.02 3.02 0 0 1-3.018-3.017h0a3.02 3.02 0 0 1 3.018-3.018M11.304 40.25a5.804 5.804 0 0 0 5.803-5.804V17.964H5.5m39 0H17.107");
+  d: path("M36.375 30.036h.929a3.018 3.018 0 1 1 0 6.036h-.929a3.018 3.018 0 1 1 0-6.036M11.304 40.25a5.804 5.804 0 0 0 5.803-5.804V17.964H5.5m39 0H17.107");
 }
 
 :global(.om-iyx24n) {

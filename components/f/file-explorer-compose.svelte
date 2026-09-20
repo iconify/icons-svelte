@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="u4zr43bhi"/><path class="m6q-2tjcb"/>`;
+const content = `<path class="u4zr43bhi"/><path class="k_ndklyla"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:file-explorer-compose" {...props}></Icon>
 <style>
-:global(.m6q-2tjcb) {
+:global(.k_ndklyla) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.967 24A5.96 5.96 0 0 1 24 29.955h0A5.96 5.96 0 0 1 18.033 24h0A5.96 5.96 0 0 1 24 18.045h0A5.96 5.96 0 0 1 29.967 24");
+  d: path("M29.967 24c0 3.289-2.671 5.955-5.967 5.955S18.033 27.289 18.033 24s2.671-5.955 5.967-5.955s5.967 2.666 5.967 5.955");
 }
 
 :global(.u4zr43bhi) {

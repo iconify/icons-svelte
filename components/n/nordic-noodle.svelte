@@ -5,23 +5,23 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="wjpgebbbz"/><path class="hx0qswb7f"/><circle class="frfp4zbmz"/><circle class="wijpodbbu"/><circle class="ybrx6c_lo"/><circle class="nbv7jflcx"/>`;
+const content = `<path class="wjpgebbbz"/><path class="c76i_7yxj"/><circle class="frfp4zbmz"/><circle class="wijpodbbu"/><circle class="ybrx6c_lo"/><circle class="nbv7jflcx"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:nordic-noodle" {...props}></Icon>
 <style>
+:global(.c76i_7yxj) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m35.61 16.73l-3.92 3.92c-1.2 1.2-3.14 1.2-4.34 0s-1.2-3.14 0-4.34l3.92-3.92");
+}
+
 :global(.frfp4zbmz) {
   cx: 23.76px;
   cy: 13.72px;
   r: 0.75px;
   fill: currentColor;
-}
-
-:global(.hx0qswb7f) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m35.61 16.73l-3.92 3.92c-1.2 1.2-3.14 1.2-4.34 0h0c-1.2-1.2-1.2-3.14 0-4.34l3.92-3.92");
 }
 
 :global(.nbv7jflcx) {

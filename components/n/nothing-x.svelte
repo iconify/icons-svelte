@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="c6vliab8r"/><path class="ibg0hre8r"/><circle class="p16wx4bbl"/>`;
+const content = `<path class="dkols7bau"/><path class="k9qin_n-k"/><circle class="p16wx4bbl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:nothing-x" {...props}></Icon>
 <style>
-:global(.c6vliab8r) {
+:global(.dkols7bau) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M40.155 28.832L19.168 7.845a8.007 8.007 0 0 0-11.323 0h0a8.007 8.007 0 0 0 0 11.323l20.987 20.987a8.007 8.007 0 0 0 11.323 0h0a8.007 8.007 0 0 0 0-11.323");
+  d: path("M40.155 28.832L19.168 7.845A8.007 8.007 0 1 0 7.845 19.168l20.987 20.987a8.007 8.007 0 1 0 11.323-11.323");
 }
 
-:global(.ibg0hre8r) {
+:global(.k9qin_n-k) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m35.323 24l4.832-4.832a8.007 8.007 0 0 0 0-11.323h0a8.007 8.007 0 0 0-11.323 0l-4.847 4.847M12.677 24l-4.832 4.832a8.007 8.007 0 0 0 0 11.323h0a8.007 8.007 0 0 0 11.323 0l4.817-4.817");
+  d: path("m35.323 24l4.832-4.832A8.007 8.007 0 1 0 28.832 7.845l-4.847 4.847M12.677 24l-4.832 4.832a8.007 8.007 0 1 0 11.323 11.323l4.817-4.817");
 }
 
 :global(.p16wx4bbl) {

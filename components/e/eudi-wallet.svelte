@@ -5,10 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="z7f1mb75k"/><path class="xvotbzoge"/><circle class="skyou7byk"/>`;
+const content = `<path class="z7f1mb75k"/><path class="moazalf4x"/><circle class="skyou7byk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:eudi-wallet" {...props}></Icon>
 <style>
+:global(.moazalf4x) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.294 29.925h-6.369a5.82 5.82 0 0 1-5.822-5.818v-.004a5.82 5.82 0 0 1 5.817-5.823h6.375c.665 0 1.205.54 1.205 1.206v9.234c0 .665-.54 1.205-1.206 1.205");
+}
+
 :global(.skyou7byk) {
   cx: 36.458px;
   cy: 24.171px;
@@ -17,14 +25,6 @@ const content = `<path class="z7f1mb75k"/><path class="xvotbzoge"/><circle class
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.xvotbzoge) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M42.294 29.925h-6.369a5.82 5.82 0 0 1-5.822-5.818v-.004h0a5.82 5.82 0 0 1 5.817-5.823h6.375c.665 0 1.205.54 1.205 1.206v9.234c0 .665-.54 1.205-1.206 1.205");
 }
 
 :global(.z7f1mb75k) {

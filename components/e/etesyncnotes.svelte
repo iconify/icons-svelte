@@ -5,10 +5,26 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="h38wt6bjl"/><path class="sqvsrzbxj"/><path class="qibpakmer"/><path class="zjpaa2bwm"/>`;
+const content = `<path class="h38wt6bjl"/><path class="ei1yxobdb"/><path class="qibpakmer"/><path class="dpfhaebye"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:etesyncnotes" {...props}></Icon>
 <style>
+:global(.dpfhaebye) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 23.33v2.03l-2.79-2.79L24 19.79zm0 9.11v-2.02l2.79 2.78L24 35.99z");
+}
+
+:global(.ei1yxobdb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M41.24 12.71H6.76v28a2.85 2.85 0 0 0 2.86 2.86h28.74a2.86 2.86 0 0 0 2.88-2.85Z");
+}
+
 :global(.h38wt6bjl) {
   fill: none;
   stroke: currentColor;
@@ -23,22 +39,6 @@ const content = `<path class="h38wt6bjl"/><path class="sqvsrzbxj"/><path class="
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M28.47 30.9A5.39 5.39 0 0 0 24 22.5m-4.47 2.37A5.4 5.4 0 0 0 24 33.28");
-}
-
-:global(.sqvsrzbxj) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M41.24 12.71H6.76v28a2.85 2.85 0 0 0 2.86 2.86h28.74a2.86 2.86 0 0 0 2.88-2.85h0Z");
-}
-
-:global(.zjpaa2bwm) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24 23.33v2.03l-2.79-2.79L24 19.79h0zm0 9.11v-2.02l2.79 2.78L24 35.99z");
 }
 
 </style>

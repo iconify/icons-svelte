@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="pkvykupaj"/><path class="eezjfhb_h"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="kc64rtbmx"/><path class="ddk24b6bl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:inshare" {...props}></Icon>
 <style>
@@ -19,20 +19,20 @@ const content = `<circle class="cpk0fnbgt"/><path class="pkvykupaj"/><path class
   stroke-linejoin: round;
 }
 
-:global(.eezjfhb_h) {
+:global(.ddk24b6bl) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m20.51 22.137l5.93-3.253h0a4.025 4.025 0 1 0-1.204-2.273h0l-5.886 3.187");
+  d: path("m20.51 22.137l5.93-3.253a4.025 4.025 0 1 0-1.204-2.273s-5.886 3.187-5.886 3.187");
 }
 
-:global(.pkvykupaj) {
+:global(.kc64rtbmx) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m25.398 29.816l-6.205-3.062h0a5.17 5.17 0 1 1 1.276-2.328h0l5.803 2.954h0a5.617 5.617 0 1 1-.874 2.436");
+  d: path("m25.398 29.816l-6.205-3.062a5.17 5.17 0 1 1 1.276-2.328s5.803 2.954 5.803 2.954a5.617 5.617 0 1 1-.874 2.436");
 }
 
 </style>

@@ -5,20 +5,20 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="iliosfbsd"/><path class="ql_-eybdd"/></g><path class="pafcrab3p"/>`;
+const content = `<g class="y9tr6bcfx"><path class="iliosfbsd"/><path class="ql_-eybdd"/></g><path class="ajlwfulir"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:tflat-dictionary" {...props}></Icon>
 <style>
-:global(.iliosfbsd) {
-  d: path("M31.682 30.295c.478-1.785 4.583-5.33 7.707-6.167l-3.854-6.422l-2.826 1.284");
-}
-
-:global(.pafcrab3p) {
+:global(.ajlwfulir) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17.962 22.073v7.194c0 .567.46 1.028 1.028 1.028h.308m6.064-2.055c0 1.134-.92 2.054-2.056 2.054h0a2.055 2.055 0 0 1-2.055-2.055v-1.336c0-1.135.92-2.055 2.055-2.055h0c1.135 0 2.056.92 2.056 2.055m0 3.391v-5.446m3.031-1.696v6.115c0 .567.46 1.028 1.028 1.028h.308m-2.415-5.447h2.158");
+  d: path("M17.962 22.073v7.194c0 .567.46 1.028 1.028 1.028h.308m6.064-2.055a2.055 2.055 0 0 1-4.11 0v-1.337a2.055 2.055 0 0 1 4.11 0m0 3.391v-5.446m3.031-1.696v6.115c0 .567.46 1.028 1.028 1.028h.308m-2.415-5.447h2.158");
+}
+
+:global(.iliosfbsd) {
+  d: path("M31.682 30.295c.478-1.785 4.583-5.33 7.707-6.167l-3.854-6.422l-2.826 1.284");
 }
 
 :global(.ql_-eybdd) {

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="db5arjb0l"/><path class="xpnh-q2dv"/><circle class="cpk0fnbgt"/>`;
+const content = `<circle class="db5arjb0l"/><path class="fabmjzb9t"/><circle class="cpk0fnbgt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:cytoid" {...props}></Icon>
 <style>
@@ -29,12 +29,12 @@ const content = `<circle class="db5arjb0l"/><path class="xpnh-q2dv"/><circle cla
   stroke-linejoin: round;
 }
 
-:global(.xpnh-q2dv) {
+:global(.fabmjzb9t) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M35.5 24c0 6.351-5.149 11.5-11.5 11.5h0c-6.351 0-11.5-5.149-11.5-11.5h0c0-6.351 5.149-11.5 11.5-11.5h0c6.351 0 11.5 5.149 11.5 11.5");
+  d: path("M35.5 24c0 6.351-5.149 11.5-11.5 11.5S12.5 30.351 12.5 24S17.649 12.5 24 12.5S35.5 17.649 35.5 24");
 }
 
 </style>

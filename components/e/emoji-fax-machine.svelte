@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="vyu93m8gd"/><path class="lxuk09iqz"/><path class="z_3754y5b"/>`;
+const content = `<path class="kcppjmb0p"/><path class="lxuk09iqz"/><path class="z_3754y5b"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:emoji-fax-machine" {...props}></Icon>
 <style>
+:global(.kcppjmb0p) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.935 39.687h-.805a2.413 2.413 0 0 1-2.413-2.414V26.011a2.413 2.413 0 0 1 2.413-2.413h.805a2.413 2.413 0 0 1 2.413 2.413v11.262a2.413 2.413 0 0 1-2.413 2.414m4.825-12.871a1.609 1.609 0 1 0 3.218 0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0a1.609 1.609 0 1 0-3.217 0m-9.653 4.826a1.609 1.609 0 1 0 3.218 0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0a1.609 1.609 0 1 0-3.217 0m-9.653 4.827a1.609 1.609 0 1 0 3.218 0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0a1.609 1.609 0 1 0-3.217 0");
+}
+
 :global(.lxuk09iqz) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M5.5 21.184h37V42.1h-37zM8.717 5.9h30.566v15.284H8.717z");
-}
-
-:global(.vyu93m8gd) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M11.935 39.687h-.805a2.413 2.413 0 0 1-2.413-2.414V26.011a2.413 2.413 0 0 1 2.413-2.413h.805a2.413 2.413 0 0 1 2.413 2.413v11.262a2.413 2.413 0 0 1-2.413 2.414m4.825-12.871a1.609 1.609 0 1 0 3.218 0v0a1.609 1.609 0 1 0-3.217 0zm4.827 0a1.609 1.609 0 1 0 3.217 0v0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0v0a1.609 1.609 0 1 0-3.217 0m-9.653 4.826a1.609 1.609 0 1 0 3.218 0v0a1.609 1.609 0 1 0-3.217 0zm4.827 0a1.609 1.609 0 1 0 3.217 0v0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0v0a1.609 1.609 0 1 0-3.217 0m-9.653 4.827a1.609 1.609 0 1 0 3.218 0v0a1.609 1.609 0 1 0-3.217 0zm4.827 0a1.609 1.609 0 1 0 3.217 0v0a1.609 1.609 0 1 0-3.217 0m4.826 0a1.609 1.609 0 1 0 3.217 0v0a1.609 1.609 0 1 0-3.217 0");
 }
 
 :global(.z_3754y5b) {

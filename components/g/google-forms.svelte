@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="g5ghvmm7t"/><path class="r95b5w44m"/><path class="jwv8rk4-q"/><path class="yuoz3cbtr"/><path class="t-6etna8a"/><circle class="ityysac-j"/>`;
+const content = `<path class="grcmjq4yh"/><path class="mz9fpkbij"/><path class="umi34zz3g"/><path class="xew4tlsta"/><circle class="ityysac-j"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:google-forms" {...props}></Icon>
 <style>
-:global(.g5ghvmm7t) {
+:global(.grcmjq4yh) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M23.757 6.993h12.657A6.086 6.086 0 0 1 42.5 13.08h0a6.086 6.086 0 0 1-6.085 6.085H23.757a6.086 6.086 0 0 1-6.086-6.085h0a6.086 6.086 0 0 1 6.086-6.086m0 24.342h12.657A6.086 6.086 0 0 1 42.5 37.42h0a6.086 6.086 0 0 1-6.085 6.086H23.757a6.086 6.086 0 0 1-6.086-6.086h0a6.086 6.086 0 0 1 6.086-6.085");
+  d: path("M23.757 6.993h12.657a6.086 6.086 0 0 1 0 12.171H23.758a6.086 6.086 0 0 1 0-12.171m-.001 24.343h12.657a6.086 6.086 0 0 1 0 12.171H23.758a6.086 6.086 0 0 1 0-12.171");
 }
 
 :global(.ityysac-j) {
@@ -27,36 +27,28 @@ const content = `<path class="g5ghvmm7t"/><path class="r95b5w44m"/><path class="
   stroke-linejoin: round;
 }
 
-:global(.jwv8rk4-q) {
+:global(.mz9fpkbij) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M11.586 19.165a6.086 6.086 0 0 1 6.085 6.085h0a6.086 6.086 0 0 1-6.085 6.086h0A6.086 6.086 0 0 1 5.5 25.25h0a6.086 6.086 0 0 1 6.086-6.085");
+  d: path("M11.586 31.336za6.086 6.086 0 0 1 0 12.171a6.086 6.086 0 0 1 0-12.171m0-12.171za6.086 6.086 0 0 1 0 12.171a6.086 6.086 0 0 1 0-12.171");
 }
 
-:global(.r95b5w44m) {
+:global(.umi34zz3g) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M11.586 31.336a6.086 6.086 0 0 1 6.085 6.085h0a6.086 6.086 0 0 1-6.085 6.086h0A6.086 6.086 0 0 1 5.5 37.42h0a6.086 6.086 0 0 1 6.086-6.085");
+  d: path("M23.757 19.165h12.657a6.086 6.086 0 0 1 0 12.171H23.758a6.086 6.086 0 0 1 0-12.171m-.001-12.172h12.657a6.086 6.086 0 0 1 0 12.171H23.758a6.086 6.086 0 0 1 0-12.171");
 }
 
-:global(.t-6etna8a) {
+:global(.xew4tlsta) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M11.586 6.993a6.086 6.086 0 0 1 6.085 6.086h0a6.086 6.086 0 0 1-6.085 6.085h0A6.086 6.086 0 0 1 5.5 13.08h0a6.086 6.086 0 0 1 6.086-6.086m12.171 6.085h12.657");
-}
-
-:global(.yuoz3cbtr) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.757 19.165h12.657A6.086 6.086 0 0 1 42.5 25.25h0a6.086 6.086 0 0 1-6.085 6.086H23.757a6.086 6.086 0 0 1-6.086-6.086h0a6.086 6.086 0 0 1 6.086-6.085m0-12.172h12.657A6.086 6.086 0 0 1 42.5 13.08h0a6.086 6.086 0 0 1-6.085 6.085H23.757a6.086 6.086 0 0 1-6.086-6.085h0a6.086 6.086 0 0 1 6.086-6.086");
+  d: path("M11.586 6.993za6.086 6.086 0 0 1 0 12.171a6.086 6.086 0 0 1 0-12.171m12.171 6.086h12.657");
 }
 
 </style>

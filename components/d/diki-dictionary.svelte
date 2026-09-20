@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="zdmc9jkkv"/><circle class="sbd3khbbl"/><path class="krhhq7b1z"/><circle class="r093cpoin"/><path class="kncq906dn"/>`;
+const content = `<path class="zdmc9jkkv"/><circle class="sbd3khbbl"/><path class="krhhq7b1z"/><circle class="r093cpoin"/><path class="hpgjfw8ft"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:diki-dictionary" {...props}></Icon>
 <style>
-:global(.kncq906dn) {
+:global(.hpgjfw8ft) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m34.439 21.185l-.269 7.888m-16.183-6.954a2.98 2.98 0 0 0-2.114-3.643h0a2.98 2.98 0 0 0-3.643 2.114l-.497 1.871a2.98 2.98 0 0 0 2.114 3.643h0a2.98 2.98 0 0 0 3.643-2.114m-.764 2.879l3.058-11.515");
+  d: path("m34.439 21.185l-.269 7.888m-16.183-6.954a2.979 2.979 0 0 0-5.757-1.53l-.497 1.872a2.979 2.979 0 0 0 5.758 1.53m-.765 2.878l3.058-11.515");
 }
 
 :global(.krhhq7b1z) {

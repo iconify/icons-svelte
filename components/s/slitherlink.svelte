@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<g class="y9tr6bcfx"><path class="kg_00khgw"/><path class="z5xi9jbqx"/></g>`;
+const content = `<g class="y9tr6bcfx"><path class="lzmqmbdid"/><path class="z5xi9jbqx"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:slitherlink" {...props}></Icon>
 <style>
-:global(.kg_00khgw) {
-  d: path("M42.5 15.97h-6.962M5.5 31.938h6.677M22.454 18.58c.39.337.767.491 1.71.491h.162c.872 0 1.579-.731 1.579-1.633h0c0-.902-.707-1.633-1.58-1.633h-1.87v-2.559h3.45m-3.451 21.071c.39.337.767.491 1.71.491h.162c.872 0 1.579-.731 1.579-1.633h0c0-.902-.707-1.633-1.58-1.633h-1.87v-2.558h3.45");
+:global(.lzmqmbdid) {
+  d: path("M42.5 15.97h-6.962M5.5 31.938h6.677M22.454 18.58c.39.337.767.491 1.71.491h.162c.872 0 1.579-.731 1.579-1.633s-.707-1.633-1.58-1.633h-1.87v-2.559h3.45m-3.451 21.071c.39.337.767.491 1.71.491h.162c.872 0 1.579-.731 1.579-1.633s-.707-1.633-1.58-1.633h-1.87v-2.558h3.45");
 }
 
 :global(.y9tr6bcfx) {

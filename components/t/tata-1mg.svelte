@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="nec760bny"/><path class="vvfv62k6q"/><rect transform="matrix(-1 0 0 -1 68.246 59.599)" class="skcp_6bwj"/><path class="lrs6dob5q"/>`;
+const content = `<path class="nec760bny"/><path class="djqu_1b-p"/><rect transform="matrix(-1 0 0 -1 68.246 59.599)" class="skcp_6bwj"/><path class="uhh00nbkz"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:tata-1mg" {...props}></Icon>
 <style>
-:global(.lrs6dob5q) {
+:global(.djqu_1b-p) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M16.862 28.864a2.877 2.877 0 0 1 2.877-2.876h0a2.877 2.877 0 0 1 2.877 2.876v4.747m-5.754-7.623v7.623m5.754-4.747a2.877 2.877 0 0 1 2.877-2.876h0a2.877 2.877 0 0 1 2.876 2.876v4.747m-10.82-15.414l3.212-7.692m3.214 7.715l-3.214-7.715m3.264 0h6.549m-3.275 7.715v-7.715m3.275 7.692l3.211-7.692M37 18.22l-3.215-7.715M16.681 22.104H37m-8.631 15.391H13.877");
+  d: path("M37 25.988v8.63a2.877 2.877 0 0 1-2.877 2.877a2.87 2.87 0 0 1-2.034-.843");
 }
 
 :global(.nec760bny) {
@@ -38,12 +38,12 @@ const content = `<path class="nec760bny"/><path class="vvfv62k6q"/><rect transfo
   ry: 2.877px;
 }
 
-:global(.vvfv62k6q) {
+:global(.uhh00nbkz) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M37 25.988v8.63a2.877 2.877 0 0 1-2.877 2.877h0a2.87 2.87 0 0 1-2.034-.843");
+  d: path("M16.862 28.864a2.877 2.877 0 0 1 5.754 0v4.747m-5.754-7.623v7.623m5.754-4.747a2.877 2.877 0 0 1 5.754 0v4.747M17.549 18.197l3.212-7.692m3.214 7.715l-3.214-7.715m3.264 0h6.549m-3.275 7.715v-7.715m3.275 7.692l3.211-7.692M37 18.22l-3.215-7.715M16.681 22.104H37m-8.631 15.391H13.877");
 }
 
 </style>

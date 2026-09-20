@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="k9sn0tjwd"/><path class="vccm9gbay"/>`;
+const content = `<path class="n0-xmhsks"/><path class="vccm9gbay"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:mobilfizetes" {...props}></Icon>
 <style>
-:global(.k9sn0tjwd) {
+:global(.n0-xmhsks) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M14.405 5.114a2 2 0 0 0-1.732 1l-3.057 5.295l3.635 6.294L9.616 24l3.635 6.297l-3.635 6.295l3.057 5.295a2 2 0 0 0 1.732 1h19.5a2 2 0 0 0 1.733-1L45.388 25a2 2 0 0 0 0-2l-9.75-16.887a2 2 0 0 0-1.733-1h-19.5z");
+  d: path("M14.405 5.114a2 2 0 0 0-1.732 1l-3.057 5.295l3.635 6.294L9.616 24l3.635 6.297l-3.635 6.295l3.057 5.295a2 2 0 0 0 1.732 1h19.5a2 2 0 0 0 1.733-1L45.388 25a2 2 0 0 0 0-2l-9.75-16.887a2 2 0 0 0-1.733-1h-19.5");
 }
 
 :global(.vccm9gbay) {

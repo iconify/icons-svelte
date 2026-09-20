@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<rect transform="rotate(9.72 15.71 24)" class="q9pfaynbw"/><path class="xs09x9byd"/><circle class="kr-y_kbru"/><path class="n6r0n32cw"/><path class="gxaihhtek"/>`;
+const content = `<rect transform="rotate(9.72 15.71 24)" class="q9pfaynbw"/><path class="xs09x9byd"/><circle class="kr-y_kbru"/><path class="n6r0n32cw"/><path class="p05w35iup"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:tcl-e-ticket" {...props}></Icon>
 <style>
-:global(.gxaihhtek) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M37.424 22.842v5.668h2.834m-14.412-5.668h3.756m-1.878 5.668v-5.668m7.059 5.118c-.34.34-.81.55-1.328.55h0a1.88 1.88 0 0 1-1.878-1.877v-1.914c0-1.037.841-1.877 1.878-1.877h0c.599 0 1.132.28 1.476.717");
-}
-
 :global(.kr-y_kbru) {
   cx: 15.709px;
   cy: 24px;
@@ -33,6 +25,14 @@ const content = `<rect transform="rotate(9.72 15.71 24)" class="q9pfaynbw"/><pat
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m13.141 24.012l1.391 1.965l3.874-2.741m3.35 13.125h18.513a2.23 2.23 0 0 0 2.23-2.23V17.018a2.23 2.23 0 0 0-2.23-2.23H25.451");
+}
+
+:global(.p05w35iup) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M37.424 22.842v5.668h2.834m-14.412-5.668h3.756m-1.878 5.668v-5.668m7.059 5.118a1.878 1.878 0 0 1-3.206-1.328V24.72a1.877 1.877 0 0 1 3.354-1.16");
 }
 
 :global(.q9pfaynbw) {

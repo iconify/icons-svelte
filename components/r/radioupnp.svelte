@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ggj6x-0qx"/><path class="qt6ozsbjl"/><path class="bam67ec1r"/><path class="mbx3vgifb"/>`;
+const content = `<path class="ggj6x-0qx"/><path class="qt6ozsbjl"/><path class="jv71qrkjd"/><path class="mbx3vgifb"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:radioupnp" {...props}></Icon>
 <style>
-:global(.bam67ec1r) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M19.874 15.225a4.808 4.808 0 0 1 8.328 0m-7.732 5.981a3.606 3.606 0 0 1 3.606-3.607h0a3.606 3.606 0 0 1 3.606 3.606h0m.001 10.577a3.606 3.606 0 1 1-7.213 0m7.213-10.576v10.576M20.47 21.206v10.576");
-}
-
 :global(.ggj6x-0qx) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M13.59 9.51a12.02 12.02 0 0 1 20.82 0");
+}
+
+:global(.jv71qrkjd) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M19.874 15.225a4.808 4.808 0 0 1 8.328 0m-7.732 5.981a3.606 3.606 0 0 1 3.606-3.607a3.606 3.606 0 0 1 3.606 3.606m.001 10.577a3.606 3.606 0 1 1-7.213 0m7.213-10.576v10.576M20.47 21.206v10.576");
 }
 
 :global(.mbx3vgifb) {

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ome5678is"/><rect class="j3s9ivbxi"/>`;
+const content = `<path class="lz9blbwqu"/><rect class="j3s9ivbxi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:freelancer-upwork" {...props}></Icon>
 <style>
@@ -22,12 +22,12 @@ const content = `<path class="ome5678is"/><rect class="j3s9ivbxi"/>`;
   ry: 4px;
 }
 
-:global(.ome5678is) {
+:global(.lz9blbwqu) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.043 22.04v6.909M12 18.355v6.651a4.044 4.044 0 0 0 4.033 4.033h0a4.04 4.04 0 0 0 4.03-4.033v-6.65m2.569-.017s2.222 10.655 8.54 10.474c2.51-.07 4.866-1.711 4.827-5.405c-.032-3.435-2.318-5.034-5.02-4.766c-7.268.724-6.749 19.496-6.749 19.496");
+  d: path("M20.043 22.04v6.909M12 18.355v6.651a4.044 4.044 0 0 0 4.033 4.033a4.04 4.04 0 0 0 4.03-4.033v-6.65m2.569-.017s2.222 10.655 8.54 10.474c2.51-.07 4.866-1.711 4.827-5.405c-.032-3.435-2.318-5.034-5.02-4.766c-7.268.724-6.749 19.496-6.749 19.496");
 }
 
 </style>

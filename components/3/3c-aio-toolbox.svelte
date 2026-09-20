@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="q_cjpbc7w"/><path class="sie2o103f"/><path class="zq1q4_pey"/><circle class="cliq4ac0a"/><circle class="ck5fomb1t"/>`;
+const content = `<path class="i53ncf72s"/><path class="dw9gd7r1c"/><path class="zq1q4_pey"/><circle class="cliq4ac0a"/><circle class="ck5fomb1t"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:3c-aio-toolbox" {...props}></Icon>
 <style>
@@ -23,20 +23,20 @@ const content = `<path class="q_cjpbc7w"/><path class="sie2o103f"/><path class="
   fill: currentColor;
 }
 
-:global(.q_cjpbc7w) {
+:global(.dw9gd7r1c) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M42.5 28.826v.12c0 5.361-4.346 9.707-9.708 9.707h0c-5.361 0-9.708-4.346-9.708-9.707v-9.892c0-5.361 4.347-9.707 9.708-9.707h0c5.362 0 9.708 4.346 9.708 9.707v.12M5.503 36.181c2.023 1.696 4.208 2.472 9.113 2.472h1.143a7.325 7.325 0 0 0 7.325-7.325h0a7.325 7.325 0 0 0-7.325-7.325");
+  d: path("M5.503 36.181c2.023 1.696 4.208 2.472 9.113 2.472h1.143a7.325 7.325 0 1 0 0-14.65M5.5 11.794c2.028-1.69 4.214-2.46 9.12-2.447l1.14.006a7.325 7.325 0 1 1 0 14.65m-5.631 0h5.63m10.43 1.384a6.604 6.604 0 0 1 13.207 0v3.116a.69.69 0 0 1-.68.688h-11.83a.69.69 0 0 1-.696-.688s0-3.116 0-3.116");
 }
 
-:global(.sie2o103f) {
+:global(.i53ncf72s) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M5.5 11.794c2.028-1.69 4.214-2.46 9.12-2.447l1.14.006a7.325 7.325 0 0 1 7.324 7.325h0a7.325 7.325 0 0 1-7.325 7.325m-5.63 0h5.63m10.43 1.384a6.604 6.604 0 0 1 13.207 0v3.116a.69.69 0 0 1-.68.688h-11.83a.69.69 0 0 1-.696-.688h0z");
+  d: path("M42.5 28.826v.12c0 5.361-4.346 9.707-9.708 9.707c-5.361 0-9.708-4.346-9.708-9.707v-9.892c0-5.361 4.347-9.707 9.708-9.707c5.362 0 9.708 4.346 9.708 9.707v.12");
 }
 
 :global(.zq1q4_pey) {

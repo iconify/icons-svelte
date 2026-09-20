@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yfd21owue"/><path class="vtk6mdwxi"/>`;
+const content = `<path class="yfd21owue"/><path class="s_te3obzp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:cab-compare" {...props}></Icon>
 <style>
-:global(.vtk6mdwxi) {
+:global(.s_te3obzp) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m12.87 12.808l-3.253 9.218h28.766l-3.253-9.218zm2.81 16.289a2.962 2.962 0 1 1-5.925 0a2.962 2.962 0 0 1 5.925 0m22.565 0a2.962 2.962 0 0 1-5.924 0h0a2.96 2.96 0 0 1 2.962-2.962h0a2.96 2.96 0 0 1 2.962 2.962");
+  d: path("m12.87 12.808l-3.253 9.218h28.766l-3.253-9.218zm2.81 16.289a2.962 2.962 0 1 1-5.925 0a2.962 2.962 0 0 1 5.925 0m22.565 0a2.962 2.962 0 0 1-5.924 0a2.962 2.962 0 0 1 5.925 0");
 }
 
 :global(.yfd21owue) {

@@ -5,18 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><path class="s5cbacb7i"/><path class="la0fvjztp"/><circle class="ce1w7kb4e"/><path class="c09h4ub_c"/><path class="d8mrafbjm"/><circle class="iu8ktwbun"/><circle class="lioofebld"/>`;
+const content = `<circle class="cpk0fnbgt"/><path class="s5cbacb7i"/><path class="la0fvjztp"/><circle class="ce1w7kb4e"/><path class="oo1c-ybuw"/><path class="d8mrafbjm"/><circle class="iu8ktwbun"/><circle class="lioofebld"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:apps2fire" {...props}></Icon>
 <style>
-:global(.c09h4ub_c) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.931 33.328v5.299m-4.131.001v-6.6a1.4 1.4 0 0 1 1.4-1.4h0a1.63 1.63 0 0 1 1.42.59m-3.999 2.11h2.8m4.655 2a2 2 0 0 1 2-2h0m-2 0v5.299m7.044-.999a2 2 0 0 1-1.74 1h0a2 2 0 0 1-2-2v-1.29a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v.65h-4m-9.983-20.784a6.604 6.604 0 0 1 13.207 0v3.116a.69.69 0 0 1-.68.688h-11.83a.69.69 0 0 1-.696-.688h0Z");
-}
-
 :global(.ce1w7kb4e) {
   cx: 21.931px;
   cy: 30.878px;
@@ -61,6 +53,14 @@ const content = `<circle class="cpk0fnbgt"/><path class="s5cbacb7i"/><path class
   cy: 14.158px;
   r: 0.75px;
   fill: currentColor;
+}
+
+:global(.oo1c-ybuw) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.931 33.328v5.299m-4.131.001v-6.6a1.4 1.4 0 0 1 1.4-1.4a1.63 1.63 0 0 1 1.42.59m-3.999 2.11h2.8m4.655 2a2 2 0 0 1 2-2m-2 0v5.299m7.044-.999a2 2 0 0 1-1.74 1a2 2 0 0 1-2-2v-1.29a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.65h-4m-9.983-20.784a6.604 6.604 0 0 1 13.207 0v3.116a.69.69 0 0 1-.68.688h-11.83a.69.69 0 0 1-.696-.688Z");
 }
 
 :global(.s5cbacb7i) {

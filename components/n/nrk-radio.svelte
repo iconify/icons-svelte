@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="ulg-y3b-w"/><path class="mw92e95qe"/><circle class="gwao55b_f"/><path class="olkvdsbqi"/><circle class="wrbzd0bux"/><path class="nron7w_1f"/>`;
+const content = `<path class="ulg-y3b-w"/><path class="mw92e95qe"/><circle class="gwao55b_f"/><path class="olkvdsbqi"/><circle class="wrbzd0bux"/><path class="itfxq71lv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:nrk-radio" {...props}></Icon>
 <style>
@@ -19,20 +19,20 @@ const content = `<path class="ulg-y3b-w"/><path class="mw92e95qe"/><circle class
   stroke-linejoin: round;
 }
 
+:global(.itfxq71lv) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24.668 30.797v5.3m-8.214-2a2 2 0 1 1-4 0v-1.3a2 2 0 1 1 4 0m0 3.3v-5.3m6.019 2a2 2 0 1 0-4 0v1.3a2 2 0 1 0 4 0m0 2v-8m4.183 4.7a2 2 0 1 1 4 0v1.3a2 2 0 1 1-4 0z");
+}
+
 :global(.mw92e95qe) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M42.5 11.903h-4.679l-4.679 6.449l4.679 6.449H42.5l-4.679-6.449zM18.967 24.802H14.29l-4.11-12.899h2.06c1.56 0 2.94 1.01 3.414 2.495z");
-}
-
-:global(.nron7w_1f) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.668 30.797v5.3m-8.214-2a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2v-1.3a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2m0 3.3v-5.3m6.019 2a2 2 0 0 0-2-2h0a2 2 0 0 0-2 2v1.3a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2m0 2v-8m4.183 4.7a2 2 0 1 1 4 0v1.3a2 2 0 1 1-4 0z");
 }
 
 :global(.olkvdsbqi) {

@@ -5,24 +5,24 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="x2mo31nhq"/><path class="i9clfwm2k"/>`;
+const content = `<path class="a1xgjq-7w"/><path class="i9clfwm2k"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:bitdefender" {...props}></Icon>
 <style>
+:global(.a1xgjq-7w) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M18.034 24h8.79a5.25 5.25 0 0 1 0 10.5h-8.79V15.717h.031l-2.13-2.217h10.888a5.25 5.25 0 0 1 0 10.5z");
+}
+
 :global(.i9clfwm2k) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
-}
-
-:global(.x2mo31nhq) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M18.034 24h8.79a5.25 5.25 0 0 1 5.242 5.25h0a5.25 5.25 0 0 1-5.243 5.25h-8.789V15.717h.031l-2.13-2.217h10.888a5.25 5.25 0 0 1 5.242 5.25h0A5.25 5.25 0 0 1 26.824 24z");
 }
 
 </style>

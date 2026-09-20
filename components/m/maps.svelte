@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="yx0htwcyc"/><path class="qg4zl1bkk"/>`;
+const content = `<path class="yx0htwcyc"/><path class="wm9kg5ese"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:maps" {...props}></Icon>
 <style>
-:global(.qg4zl1bkk) {
+:global(.wm9kg5ese) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M29.538 4.434a9.554 9.554 0 0 0-9.554 9.554c0 7.477 7.314 16.49 9.207 18.699a.577.577 0 0 0 .882-.004c1.861-2.216 9.02-11.222 9.02-18.694a9.554 9.554 0 0 0-9.554-9.555zm0 13.124a3.57 3.57 0 1 1 3.571-3.57h0a3.57 3.57 0 0 1-3.57 3.57m5.251 8.567l7.71-1.189m-37 5.703l19.82-3.055m-7.412 1.142l-3.74-22.16");
+  d: path("M29.538 4.434a9.554 9.554 0 0 0-9.554 9.554c0 7.477 7.314 16.49 9.207 18.699a.577.577 0 0 0 .882-.004c1.861-2.216 9.02-11.222 9.02-18.694a9.554 9.554 0 0 0-9.554-9.555m0 13.124a3.57 3.57 0 1 1 3.571-3.57a3.57 3.57 0 0 1-3.57 3.57m5.25 8.567l7.71-1.189m-37 5.703l19.82-3.055m-7.412 1.142l-3.74-22.16");
 }
 
 :global(.yx0htwcyc) {

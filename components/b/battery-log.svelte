@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path class="j0l66d94n"/><path class="i_9xx4k2x"/>`;
+const content = `<path class="j0l66d94n"/><path class="ip-zsobpe"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:battery-log" {...props}></Icon>
 <style>
-:global(.i_9xx4k2x) {
+:global(.ip-zsobpe) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17.93 15.336h20.29a1 1 0 0 1 1 1v12.85h0h-22.29h0v-12.85a1 1 0 0 1 1-1m-2.205 13.851h24.701v2.477a1 1 0 0 1-1 1h-22.7a1 1 0 0 1-1-1zm11.251 1.738h2.2");
+  d: path("M17.93 15.336h20.29a1 1 0 0 1 1 1v12.85H16.93v-12.85a1 1 0 0 1 1-1m-2.205 13.851h24.701v2.477a1 1 0 0 1-1 1h-22.7a1 1 0 0 1-1-1zm11.251 1.738h2.2");
 }
 
 :global(.j0l66d94n) {
