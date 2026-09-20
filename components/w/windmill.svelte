@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/w/wmz9b2bsu.css';
+import '../../css/p/pwgf32d7i.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="wmz9b2bsu"/><path class="pwgf32d7i"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-lab:windmill" {...props}></Icon>
