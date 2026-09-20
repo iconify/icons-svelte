@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/h/h01tyzbfu.css';
+import '../../css/h/heqtmdb8h.css';
+import '../../css/p/pm27xrbad.css';
+import '../../css/r/r0cxtj73q.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="h01tyzbfu"><path class="heqtmdb8h"/><circle class="pm27xrbad"/><path class="r0cxtj73q"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lets-icons:folder-search-light" {...props}></Icon>

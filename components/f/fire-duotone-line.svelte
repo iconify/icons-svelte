@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/j/j9zjytb8k.css';
+import '../../css/q/qcmlopf1w.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="j9zjytb8k"/><path class="qcmlopf1w"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lets-icons:fire-duotone-line" {...props}></Icon>
