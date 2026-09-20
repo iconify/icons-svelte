@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/d/dv0o9bjrv.css';
+import '../../css/n/nwfps6kqr.css';
+import '../../css/u/uzr9r6dce.css';
+import '../../css/p/pgxuijb2o.css';
+import '../../css/x/x9nhjgblq.css';
+import '../../css/m/mo5netbri.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path class="dv0o9bjrv"/><path class="nwfps6kqr"/><path clip-rule="evenodd" class="uzr9r6dce"/><path class="pgxuijb2o"/><path class="x9nhjgblq"/><path class="mo5netbri"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pepicons-print:controller-off" {...props}></Icon>

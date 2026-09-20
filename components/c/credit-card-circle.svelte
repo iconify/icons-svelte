@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/p/psv_8pbss.css';
+import '../../css/l/l_i85_b9g.css';
+import '../../css/s/sqf-mpz1p.css';
+import '../../css/m/mzn226cms.css';
+import '../../css/k/kspoj7vnd.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":26,"height":26};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="psv_8pbss"/><path class="l_i85_b9g"/><path clip-rule="evenodd" class="sqf-mpz1p"/><path clip-rule="evenodd" class="mzn226cms"/><path clip-rule="evenodd" class="kspoj7vnd"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pepicons-print:credit-card-circle" {...props}></Icon>
