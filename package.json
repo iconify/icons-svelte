@@ -1,0 +1,167 @@
+{
+  "name": "@iconify-svelte/k8s",
+  "type": "module",
+  "version": "1.0.1",
+  "homepage": "https://icon-sets.iconify.design/k8s/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "Apache-2.0",
+  "exports": {
+    "./api-server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/api-server.svelte"
+    },
+    "./cloud-controller-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-controller-manager.svelte"
+    },
+    "./clusterrole": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clusterrole.svelte"
+    },
+    "./clusterrolebinding": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clusterrolebinding.svelte"
+    },
+    "./configmap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/configmap.svelte"
+    },
+    "./controller-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/controller-manager.svelte"
+    },
+    "./cronjob": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cronjob.svelte"
+    },
+    "./customresourcedefinition": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/customresourcedefinition.svelte"
+    },
+    "./daemonset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/daemonset.svelte"
+    },
+    "./deployment": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deployment.svelte"
+    },
+    "./endpoints": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/endpoints.svelte"
+    },
+    "./etcd-cluster": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/etcd-cluster.svelte"
+    },
+    "./group": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/group.svelte"
+    },
+    "./horizontalpodautoscaler": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/horizontalpodautoscaler.svelte"
+    },
+    "./ingress": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ingress.svelte"
+    },
+    "./job": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/job.svelte"
+    },
+    "./kube-proxy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kube-proxy.svelte"
+    },
+    "./kubelet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kubelet.svelte"
+    },
+    "./limitrange": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/limitrange.svelte"
+    },
+    "./namespace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/namespace.svelte"
+    },
+    "./networkpolicy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/networkpolicy.svelte"
+    },
+    "./persistentvolume": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/persistentvolume.svelte"
+    },
+    "./persistentvolumeclaim": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/persistentvolumeclaim.svelte"
+    },
+    "./pod": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pod.svelte"
+    },
+    "./podsecuritypolicy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/podsecuritypolicy.svelte"
+    },
+    "./replicaset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/replicaset.svelte"
+    },
+    "./resourcequota": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/resourcequota.svelte"
+    },
+    "./role": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/role.svelte"
+    },
+    "./rolebinding": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rolebinding.svelte"
+    },
+    "./scheduler": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scheduler.svelte"
+    },
+    "./secret": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/secret.svelte"
+    },
+    "./service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/service.svelte"
+    },
+    "./serviceaccount": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/serviceaccount.svelte"
+    },
+    "./statefulset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/statefulset.svelte"
+    },
+    "./storageclass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/storageclass.svelte"
+    },
+    "./user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user.svelte"
+    },
+    "./volume": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume.svelte"
+    },
+    "./worker-node": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/worker-node.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#k8s"
+}
