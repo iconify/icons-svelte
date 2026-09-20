@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cyl_y4bnl.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cyl_y4bnl"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="ri:layout-5-line" {...props}></Icon>
