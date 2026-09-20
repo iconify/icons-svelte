@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/w/wagc5n8vi.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wagc5n8vi"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="simple-icons:googlemeet" {...props}></Icon>

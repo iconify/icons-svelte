@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/uqbut3hmm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uqbut3hmm"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="simple-icons:rezgo" {...props}></Icon>

@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/uicc9ebcx.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uicc9ebcx"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="simple-icons:puma" {...props}></Icon>
