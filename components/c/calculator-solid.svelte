@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nvu2ttbxw.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="nvu2ttbxw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="la:calculator-solid" {...props}></Icon>
