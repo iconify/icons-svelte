@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/a/aq7z88bzf.css';
+import '../../css/q/qtsxnt9xi.css';
+import '../../css/b/btlc75bib.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="aq7z88bzf"/><path clip-rule="evenodd" class="qtsxnt9xi"/><path clip-rule="evenodd" class="btlc75bib"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="stash:emoji-laugh" {...props}></Icon>
