@@ -1,0 +1,31 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="eh7ghqm0p"/><path class="rdsbofbxu"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="token-branded:safe-background" {...props}></Icon>
+<style>
+:global(.eh7ghqm0p) {
+  fill: var(--svg-color--049f67, #049f67);
+  d: path("M24 0H0v24h24z");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
+}
+
+:global(.py7ktqbvf) {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+:global(.rdsbofbxu) {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M7.611 8.549c0-.518.42-.938.938-.938h6.898c.518 0 .938-.42.938-.938V4.938A.94.94 0 0 0 15.447 4H8.149a.94.94 0 0 0-.938.938v1.337c0 .518-.42.938-.938.938H4.938A.94.94 0 0 0 4 8.15v2.927c0 .518.422.917.94.917h1.735c.518 0 .938-.42.938-.938zm11.451 3.446h-1.735a.94.94 0 0 0-.938.938v2.518c0 .518-.42.938-.938.938H8.55a.94.94 0 0 0-.938.938v1.735c0 .518.42.938.938.938h7.3c.519 0 .933-.42.933-.938V17.67c0-.518.42-.886.938-.886h1.34c.519 0 .939-.42.939-.937v-2.924a.93.93 0 0 0-.938-.928m-6.212-1.823h-1.667a.984.984 0 0 0-.983.983v1.667c0 .542.44.983.983.983h1.667c.542 0 .983-.44.983-.983v-1.667a.984.984 0 0 0-.983-.983");
+}
+
+</style>
