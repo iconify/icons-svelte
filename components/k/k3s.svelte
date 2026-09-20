@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/j/jro49pouc.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jro49pouc"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="thesvg:k3s" {...props}></Icon>

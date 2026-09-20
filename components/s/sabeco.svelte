@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/l/ll2orwbou.css';
+import '../../css/n/n1lsf0bnc.css';
+import '../../css/l/luok09b9t.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":1563,"height":1428};
+const content = `<defs><clipPath id="SVGd07GO19d" clipPathUnits="userSpaceOnUse"><path class="ll2orwbou"/></clipPath></defs><g clip-path="url(#SVGd07GO19d)" class="n1lsf0bnc"><path class="luok09b9t"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="thesvg:sabeco" {...props}></Icon>

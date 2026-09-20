@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/p/pkg9k32nj.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pkg9k32nj"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="thesvg:fraunhofer-gesellschaft" {...props}></Icon>
