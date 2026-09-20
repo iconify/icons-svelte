@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/a/ag5tnvbhw.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ag5tnvbhw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="tdesign:arrow-right-circle-filled" {...props}></Icon>
