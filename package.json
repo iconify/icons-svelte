@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -561,6 +561,10 @@
     "./claude": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/claude.svelte"
+    },
+    "./claudecode": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/claudecode.svelte"
     },
     "./clickhouse": {
       "types": "./types/gfwqskkx.d.ts",
