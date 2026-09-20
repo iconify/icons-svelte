@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/i/in9d5ac6n.css';
+import '../../css/m/mcnvfyv3x.css';
+import '../../css/l/lqndm293u.css';
+import '../../css/k/k6qro_vwd.css';
+import '../../css/h/hlvpo9b3u.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="in9d5ac6n"><path class="mcnvfyv3x"/><path class="lqndm293u"/><path class="k6qro_vwd"/><path class="hlvpo9b3u"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="streamline-plump-color:graph-arrow-user-increase" {...props}></Icon>
