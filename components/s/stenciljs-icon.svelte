@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":256,"height":197};
+const content = `<path class="tjy4k5inb"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="logos:stenciljs-icon" {...props}></Icon>
+<style>
+:global(.tjy4k5inb) {
+  d: path("m193.065 138.495l-53.333 58.428H41.599L94.4 138.495zM256 69.248l-53.305 58.427H0l53.305-58.427zM214.399 0l-53.087 58.428h-98.38L116.1 0z");
+}
+
+</style>
