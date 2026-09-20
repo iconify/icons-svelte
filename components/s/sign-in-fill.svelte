@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/g/gy0z5bcpu.css';
+import '../../css/o/ol75fg2fk.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gy0z5bcpu"/><path class="ol75fg2fk"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="si:sign-in-fill" {...props}></Icon>
