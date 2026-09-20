@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/o/om86e5bdk.css';
+import '../../css/v/vfhujpbju.css';
+import '../../css/j/jfd0h_bdk.css';
+import '../../css/h/hhhzdkbwh.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="om86e5bdk"/><path class="vfhujpbju"/><path class="jfd0h_bdk"/><path class="hhhzdkbwh"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-icon-theme:hack" {...props}></Icon>
