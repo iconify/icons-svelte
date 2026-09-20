@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/x/x3efgdbxq.css';
+import '../../css/i/iza8txj7z.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x3efgdbxq"/><path class="iza8txj7z"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mage:microphone-mute-fill" {...props}></Icon>
