@@ -1,0 +1,1615 @@
+{
+  "name": "@iconify-svelte/skill-icons",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/skill-icons/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./ableton-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ableton-dark.svelte"
+    },
+    "./ableton-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ableton-light.svelte"
+    },
+    "./activitypub-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/activitypub-dark.svelte"
+    },
+    "./activitypub-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/activitypub-light.svelte"
+    },
+    "./actix-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/actix-dark.svelte"
+    },
+    "./actix-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/actix-light.svelte"
+    },
+    "./adonis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adonis.svelte"
+    },
+    "./aftereffects": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aftereffects.svelte"
+    },
+    "./aiscript-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aiscript-dark.svelte"
+    },
+    "./aiscript-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aiscript-light.svelte"
+    },
+    "./alpinejs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alpinejs-dark.svelte"
+    },
+    "./alpinejs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alpinejs-light.svelte"
+    },
+    "./anaconda-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anaconda-dark.svelte"
+    },
+    "./anaconda-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anaconda-light.svelte"
+    },
+    "./androidstudio-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/androidstudio-dark.svelte"
+    },
+    "./androidstudio-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/androidstudio-light.svelte"
+    },
+    "./angular-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-dark.svelte"
+    },
+    "./angular-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angular-light.svelte"
+    },
+    "./ansible": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ansible.svelte"
+    },
+    "./apollo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apollo.svelte"
+    },
+    "./apple-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-dark.svelte"
+    },
+    "./apple-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple-light.svelte"
+    },
+    "./appwrite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/appwrite.svelte"
+    },
+    "./arch-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arch-dark.svelte"
+    },
+    "./arch-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arch-light.svelte"
+    },
+    "./arduino": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arduino.svelte"
+    },
+    "./astro": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/astro.svelte"
+    },
+    "./atom": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atom.svelte"
+    },
+    "./audition": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/audition.svelte"
+    },
+    "./autocad-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autocad-dark.svelte"
+    },
+    "./autocad-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/autocad-light.svelte"
+    },
+    "./aws-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aws-dark.svelte"
+    },
+    "./aws-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aws-light.svelte"
+    },
+    "./azul": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azul.svelte"
+    },
+    "./azure-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azure-dark.svelte"
+    },
+    "./azure-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azure-light.svelte"
+    },
+    "./babel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/babel.svelte"
+    },
+    "./bash-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bash-dark.svelte"
+    },
+    "./bash-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bash-light.svelte"
+    },
+    "./bevy-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bevy-dark.svelte"
+    },
+    "./bevy-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bevy-light.svelte"
+    },
+    "./bitbucket-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitbucket-dark.svelte"
+    },
+    "./bitbucket-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitbucket-light.svelte"
+    },
+    "./blender-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blender-dark.svelte"
+    },
+    "./blender-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blender-light.svelte"
+    },
+    "./bootstrap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bootstrap.svelte"
+    },
+    "./bsd-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bsd-dark.svelte"
+    },
+    "./bsd-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bsd-light.svelte"
+    },
+    "./bun-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bun-dark.svelte"
+    },
+    "./bun-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bun-light.svelte"
+    },
+    "./c": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/c.svelte"
+    },
+    "./cassandra-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cassandra-dark.svelte"
+    },
+    "./cassandra-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cassandra-light.svelte"
+    },
+    "./clion-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clion-dark.svelte"
+    },
+    "./clion-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clion-light.svelte"
+    },
+    "./clojure-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clojure-dark.svelte"
+    },
+    "./clojure-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clojure-light.svelte"
+    },
+    "./cloudflare-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudflare-dark.svelte"
+    },
+    "./cloudflare-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudflare-light.svelte"
+    },
+    "./cmake-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cmake-dark.svelte"
+    },
+    "./cmake-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cmake-light.svelte"
+    },
+    "./codepen-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codepen-dark.svelte"
+    },
+    "./codepen-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codepen-light.svelte"
+    },
+    "./coffeescript-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coffeescript-dark.svelte"
+    },
+    "./coffeescript-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coffeescript-light.svelte"
+    },
+    "./cpp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpp.svelte"
+    },
+    "./crystal-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crystal-dark.svelte"
+    },
+    "./crystal-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crystal-light.svelte"
+    },
+    "./cs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cs.svelte"
+    },
+    "./css": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/css.svelte"
+    },
+    "./cypress-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cypress-dark.svelte"
+    },
+    "./cypress-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cypress-light.svelte"
+    },
+    "./d3-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/d3-dark.svelte"
+    },
+    "./d3-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/d3-light.svelte"
+    },
+    "./dart-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dart-dark.svelte"
+    },
+    "./dart-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dart-light.svelte"
+    },
+    "./debian-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/debian-dark.svelte"
+    },
+    "./debian-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/debian-light.svelte"
+    },
+    "./deno-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deno-dark.svelte"
+    },
+    "./deno-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deno-light.svelte"
+    },
+    "./devto-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devto-dark.svelte"
+    },
+    "./devto-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devto-light.svelte"
+    },
+    "./discord": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discord.svelte"
+    },
+    "./discordbots": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discordbots.svelte"
+    },
+    "./discordjs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discordjs-dark.svelte"
+    },
+    "./discordjs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discordjs-light.svelte"
+    },
+    "./django": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/django.svelte"
+    },
+    "./docker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker.svelte"
+    },
+    "./dotnet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dotnet.svelte"
+    },
+    "./dynamodb-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dynamodb-dark.svelte"
+    },
+    "./dynamodb-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dynamodb-light.svelte"
+    },
+    "./eclipse-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eclipse-dark.svelte"
+    },
+    "./eclipse-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eclipse-light.svelte"
+    },
+    "./elasticsearch-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elasticsearch-dark.svelte"
+    },
+    "./elasticsearch-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elasticsearch-light.svelte"
+    },
+    "./electron": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/electron.svelte"
+    },
+    "./elixir-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elixir-dark.svelte"
+    },
+    "./elixir-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elixir-light.svelte"
+    },
+    "./elysia-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elysia-dark.svelte"
+    },
+    "./elysia-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elysia-light.svelte"
+    },
+    "./emacs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emacs.svelte"
+    },
+    "./ember": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ember.svelte"
+    },
+    "./emotion-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emotion-dark.svelte"
+    },
+    "./emotion-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emotion-light.svelte"
+    },
+    "./expressjs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/expressjs-dark.svelte"
+    },
+    "./expressjs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/expressjs-light.svelte"
+    },
+    "./fastapi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fastapi.svelte"
+    },
+    "./fediverse-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fediverse-dark.svelte"
+    },
+    "./fediverse-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fediverse-light.svelte"
+    },
+    "./figma-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figma-dark.svelte"
+    },
+    "./figma-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/figma-light.svelte"
+    },
+    "./flask-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flask-dark.svelte"
+    },
+    "./flask-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flask-light.svelte"
+    },
+    "./flutter-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flutter-dark.svelte"
+    },
+    "./flutter-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flutter-light.svelte"
+    },
+    "./forth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forth.svelte"
+    },
+    "./fortran": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fortran.svelte"
+    },
+    "./gamemakerstudio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gamemakerstudio.svelte"
+    },
+    "./gatsby": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gatsby.svelte"
+    },
+    "./gcp-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gcp-dark.svelte"
+    },
+    "./gcp-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gcp-light.svelte"
+    },
+    "./gherkin-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gherkin-dark.svelte"
+    },
+    "./gherkin-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gherkin-light.svelte"
+    },
+    "./git": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git.svelte"
+    },
+    "./github-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-dark.svelte"
+    },
+    "./github-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/github-light.svelte"
+    },
+    "./githubactions-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/githubactions-dark.svelte"
+    },
+    "./githubactions-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/githubactions-light.svelte"
+    },
+    "./gitlab-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gitlab-dark.svelte"
+    },
+    "./gitlab-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gitlab-light.svelte"
+    },
+    "./gmail-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gmail-dark.svelte"
+    },
+    "./gmail-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gmail-light.svelte"
+    },
+    "./godot-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/godot-dark.svelte"
+    },
+    "./godot-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/godot-light.svelte"
+    },
+    "./golang": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/golang.svelte"
+    },
+    "./gradle-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gradle-dark.svelte"
+    },
+    "./gradle-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gradle-light.svelte"
+    },
+    "./grafana-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grafana-dark.svelte"
+    },
+    "./grafana-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grafana-light.svelte"
+    },
+    "./graphql-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graphql-dark.svelte"
+    },
+    "./graphql-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graphql-light.svelte"
+    },
+    "./gtk-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gtk-dark.svelte"
+    },
+    "./gtk-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gtk-light.svelte"
+    },
+    "./gulp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gulp.svelte"
+    },
+    "./haskell-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haskell-dark.svelte"
+    },
+    "./haskell-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haskell-light.svelte"
+    },
+    "./haxe-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haxe-dark.svelte"
+    },
+    "./haxe-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haxe-light.svelte"
+    },
+    "./haxeflixel-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haxeflixel-dark.svelte"
+    },
+    "./haxeflixel-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haxeflixel-light.svelte"
+    },
+    "./heroku": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heroku.svelte"
+    },
+    "./hibernate-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hibernate-dark.svelte"
+    },
+    "./hibernate-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hibernate-light.svelte"
+    },
+    "./html": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/html.svelte"
+    },
+    "./htmx-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/htmx-dark.svelte"
+    },
+    "./htmx-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/htmx-light.svelte"
+    },
+    "./idea-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/idea-dark.svelte"
+    },
+    "./idea-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/idea-light.svelte"
+    },
+    "./illustrator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/illustrator.svelte"
+    },
+    "./instagram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/instagram.svelte"
+    },
+    "./ipfs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ipfs-dark.svelte"
+    },
+    "./ipfs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ipfs-light.svelte"
+    },
+    "./java-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-dark.svelte"
+    },
+    "./java-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/java-light.svelte"
+    },
+    "./javascript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/javascript.svelte"
+    },
+    "./jenkins-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jenkins-dark.svelte"
+    },
+    "./jenkins-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jenkins-light.svelte"
+    },
+    "./jest": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jest.svelte"
+    },
+    "./jquery": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jquery.svelte"
+    },
+    "./julia-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/julia-dark.svelte"
+    },
+    "./julia-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/julia-light.svelte"
+    },
+    "./kafka": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kafka.svelte"
+    },
+    "./kali-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kali-dark.svelte"
+    },
+    "./kali-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kali-light.svelte"
+    },
+    "./kotlin-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kotlin-dark.svelte"
+    },
+    "./kotlin-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kotlin-light.svelte"
+    },
+    "./ktor-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/ktor-dark.svelte"
+    },
+    "./ktor-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/ktor-light.svelte"
+    },
+    "./kubernetes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kubernetes.svelte"
+    },
+    "./laravel-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-dark.svelte"
+    },
+    "./laravel-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laravel-light.svelte"
+    },
+    "./latex-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/latex-dark.svelte"
+    },
+    "./latex-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/latex-light.svelte"
+    },
+    "./less-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/less-dark.svelte"
+    },
+    "./less-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/less-light.svelte"
+    },
+    "./linkedin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linkedin.svelte"
+    },
+    "./linux-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-dark.svelte"
+    },
+    "./linux-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/linux-light.svelte"
+    },
+    "./lit-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lit-dark.svelte"
+    },
+    "./lit-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lit-light.svelte"
+    },
+    "./lua-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua-dark.svelte"
+    },
+    "./lua-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lua-light.svelte"
+    },
+    "./markdown-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown-dark.svelte"
+    },
+    "./markdown-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown-light.svelte"
+    },
+    "./mastodon-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-dark.svelte"
+    },
+    "./mastodon-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastodon-light.svelte"
+    },
+    "./materialui-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/materialui-dark.svelte"
+    },
+    "./materialui-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/materialui-light.svelte"
+    },
+    "./matlab-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/matlab-dark.svelte"
+    },
+    "./matlab-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/matlab-light.svelte"
+    },
+    "./maven-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maven-dark.svelte"
+    },
+    "./maven-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maven-light.svelte"
+    },
+    "./mint-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mint-dark.svelte"
+    },
+    "./mint-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mint-light.svelte"
+    },
+    "./misskey-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/misskey-dark.svelte"
+    },
+    "./misskey-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/misskey-light.svelte"
+    },
+    "./mongodb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mongodb.svelte"
+    },
+    "./mysql-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mysql-dark.svelte"
+    },
+    "./mysql-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mysql-light.svelte"
+    },
+    "./neovim-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/neovim-dark.svelte"
+    },
+    "./neovim-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/neovim-light.svelte"
+    },
+    "./nestjs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nestjs-dark.svelte"
+    },
+    "./nestjs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nestjs-light.svelte"
+    },
+    "./netlify-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/netlify-dark.svelte"
+    },
+    "./netlify-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/netlify-light.svelte"
+    },
+    "./nextjs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nextjs-dark.svelte"
+    },
+    "./nextjs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nextjs-light.svelte"
+    },
+    "./nginx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nginx.svelte"
+    },
+    "./nim-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nim-dark.svelte"
+    },
+    "./nim-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nim-light.svelte"
+    },
+    "./nix-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nix-dark.svelte"
+    },
+    "./nix-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nix-light.svelte"
+    },
+    "./nodejs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nodejs-dark.svelte"
+    },
+    "./nodejs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nodejs-light.svelte"
+    },
+    "./notion-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notion-dark.svelte"
+    },
+    "./notion-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notion-light.svelte"
+    },
+    "./npm-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/npm-dark.svelte"
+    },
+    "./npm-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/npm-light.svelte"
+    },
+    "./nuxtjs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuxtjs-dark.svelte"
+    },
+    "./nuxtjs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuxtjs-light.svelte"
+    },
+    "./obsidian-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/obsidian-dark.svelte"
+    },
+    "./obsidian-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/obsidian-light.svelte"
+    },
+    "./ocaml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/ocaml.svelte"
+    },
+    "./octave-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octave-dark.svelte"
+    },
+    "./octave-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octave-light.svelte"
+    },
+    "./opencv-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opencv-dark.svelte"
+    },
+    "./opencv-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opencv-light.svelte"
+    },
+    "./openshift": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openshift.svelte"
+    },
+    "./openstack-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openstack-dark.svelte"
+    },
+    "./openstack-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openstack-light.svelte"
+    },
+    "./p5js": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p5js.svelte"
+    },
+    "./perl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/perl.svelte"
+    },
+    "./photoshop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/photoshop.svelte"
+    },
+    "./php-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/php-dark.svelte"
+    },
+    "./php-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/php-light.svelte"
+    },
+    "./phpstorm-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phpstorm-dark.svelte"
+    },
+    "./phpstorm-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phpstorm-light.svelte"
+    },
+    "./pinia-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinia-dark.svelte"
+    },
+    "./pinia-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pinia-light.svelte"
+    },
+    "./pkl-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pkl-dark.svelte"
+    },
+    "./pkl-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pkl-light.svelte"
+    },
+    "./plan9-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plan9-dark.svelte"
+    },
+    "./plan9-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plan9-light.svelte"
+    },
+    "./planetscale-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/planetscale-dark.svelte"
+    },
+    "./planetscale-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/planetscale-light.svelte"
+    },
+    "./pnpm-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pnpm-dark.svelte"
+    },
+    "./pnpm-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pnpm-light.svelte"
+    },
+    "./postgresql-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postgresql-dark.svelte"
+    },
+    "./postgresql-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postgresql-light.svelte"
+    },
+    "./postman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postman.svelte"
+    },
+    "./powershell-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/powershell-dark.svelte"
+    },
+    "./powershell-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/powershell-light.svelte"
+    },
+    "./premiere": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/premiere.svelte"
+    },
+    "./prisma": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prisma.svelte"
+    },
+    "./processing-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/processing-dark.svelte"
+    },
+    "./processing-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/processing-light.svelte"
+    },
+    "./prometheus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prometheus.svelte"
+    },
+    "./pug-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pug-dark.svelte"
+    },
+    "./pug-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pug-light.svelte"
+    },
+    "./pycharm-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pycharm-dark.svelte"
+    },
+    "./pycharm-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pycharm-light.svelte"
+    },
+    "./python-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/python-dark.svelte"
+    },
+    "./python-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/python-light.svelte"
+    },
+    "./pytorch-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pytorch-dark.svelte"
+    },
+    "./pytorch-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pytorch-light.svelte"
+    },
+    "./qt-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qt-dark.svelte"
+    },
+    "./qt-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qt-light.svelte"
+    },
+    "./r-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/r-dark.svelte"
+    },
+    "./r-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/r-light.svelte"
+    },
+    "./rabbitmq-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rabbitmq-dark.svelte"
+    },
+    "./rabbitmq-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rabbitmq-light.svelte"
+    },
+    "./rails": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rails.svelte"
+    },
+    "./raspberrypi-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raspberrypi-dark.svelte"
+    },
+    "./raspberrypi-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raspberrypi-light.svelte"
+    },
+    "./react-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/react-dark.svelte"
+    },
+    "./react-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/react-light.svelte"
+    },
+    "./reactivex-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reactivex-dark.svelte"
+    },
+    "./reactivex-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reactivex-light.svelte"
+    },
+    "./redhat-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redhat-dark.svelte"
+    },
+    "./redhat-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redhat-light.svelte"
+    },
+    "./redis-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redis-dark.svelte"
+    },
+    "./redis-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redis-light.svelte"
+    },
+    "./redux": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/redux.svelte"
+    },
+    "./regex-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-dark.svelte"
+    },
+    "./regex-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-light.svelte"
+    },
+    "./remix-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/remix-dark.svelte"
+    },
+    "./remix-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/remix-light.svelte"
+    },
+    "./replit-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/replit-dark.svelte"
+    },
+    "./replit-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/replit-light.svelte"
+    },
+    "./rider-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rider-dark.svelte"
+    },
+    "./rider-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rider-light.svelte"
+    },
+    "./robloxstudio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/robloxstudio.svelte"
+    },
+    "./rocket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rocket.svelte"
+    },
+    "./rollupjs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rollupjs-dark.svelte"
+    },
+    "./rollupjs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rollupjs-light.svelte"
+    },
+    "./ros-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ros-dark.svelte"
+    },
+    "./ros-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ros-light.svelte"
+    },
+    "./ruby": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ruby.svelte"
+    },
+    "./rust": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rust.svelte"
+    },
+    "./sass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sass.svelte"
+    },
+    "./scala-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scala-dark.svelte"
+    },
+    "./scala-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scala-light.svelte"
+    },
+    "./scikitlearn-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scikitlearn-dark.svelte"
+    },
+    "./scikitlearn-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scikitlearn-light.svelte"
+    },
+    "./selenium": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/selenium.svelte"
+    },
+    "./sentry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sentry.svelte"
+    },
+    "./sequelize-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sequelize-dark.svelte"
+    },
+    "./sequelize-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sequelize-light.svelte"
+    },
+    "./sketchup-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sketchup-dark.svelte"
+    },
+    "./sketchup-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sketchup-light.svelte"
+    },
+    "./solidity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solidity.svelte"
+    },
+    "./solidjs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solidjs-dark.svelte"
+    },
+    "./solidjs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solidjs-light.svelte"
+    },
+    "./spotify-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spotify-dark.svelte"
+    },
+    "./spotify-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spotify-light.svelte"
+    },
+    "./spring-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spring-dark.svelte"
+    },
+    "./spring-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spring-light.svelte"
+    },
+    "./sqlite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sqlite.svelte"
+    },
+    "./stackoverflow-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackoverflow-dark.svelte"
+    },
+    "./stackoverflow-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackoverflow-light.svelte"
+    },
+    "./styledcomponents": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/styledcomponents.svelte"
+    },
+    "./sublime-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sublime-dark.svelte"
+    },
+    "./sublime-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sublime-light.svelte"
+    },
+    "./supabase-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/supabase-dark.svelte"
+    },
+    "./supabase-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/supabase-light.svelte"
+    },
+    "./svelte": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/svelte.svelte"
+    },
+    "./svg-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/svg-dark.svelte"
+    },
+    "./svg-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/svg-light.svelte"
+    },
+    "./swift": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/swift.svelte"
+    },
+    "./symfony-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symfony-dark.svelte"
+    },
+    "./symfony-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/symfony-light.svelte"
+    },
+    "./tailwindcss-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tailwindcss-dark.svelte"
+    },
+    "./tailwindcss-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tailwindcss-light.svelte"
+    },
+    "./tauri-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tauri-dark.svelte"
+    },
+    "./tauri-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tauri-light.svelte"
+    },
+    "./tensorflow-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tensorflow-dark.svelte"
+    },
+    "./tensorflow-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tensorflow-light.svelte"
+    },
+    "./terraform-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terraform-dark.svelte"
+    },
+    "./terraform-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terraform-light.svelte"
+    },
+    "./threejs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/threejs-dark.svelte"
+    },
+    "./threejs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/threejs-light.svelte"
+    },
+    "./twitter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/twitter.svelte"
+    },
+    "./typescript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typescript.svelte"
+    },
+    "./ubuntu-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ubuntu-dark.svelte"
+    },
+    "./ubuntu-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ubuntu-light.svelte"
+    },
+    "./unity-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unity-dark.svelte"
+    },
+    "./unity-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unity-light.svelte"
+    },
+    "./unrealengine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unrealengine.svelte"
+    },
+    "./v-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/v-dark.svelte"
+    },
+    "./v-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/v-light.svelte"
+    },
+    "./vala": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vala.svelte"
+    },
+    "./vercel-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vercel-dark.svelte"
+    },
+    "./vercel-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vercel-light.svelte"
+    },
+    "./verilog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/verilog.svelte"
+    },
+    "./vim-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vim-dark.svelte"
+    },
+    "./vim-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vim-light.svelte"
+    },
+    "./visualstudio-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visualstudio-dark.svelte"
+    },
+    "./visualstudio-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/visualstudio-light.svelte"
+    },
+    "./vite-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vite-dark.svelte"
+    },
+    "./vite-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vite-light.svelte"
+    },
+    "./vitest-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vitest-dark.svelte"
+    },
+    "./vitest-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vitest-light.svelte"
+    },
+    "./vscode-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode-dark.svelte"
+    },
+    "./vscode-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscode-light.svelte"
+    },
+    "./vscodium-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscodium-dark.svelte"
+    },
+    "./vscodium-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vscodium-light.svelte"
+    },
+    "./vuejs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vuejs-dark.svelte"
+    },
+    "./vuejs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vuejs-light.svelte"
+    },
+    "./vuetify-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vuetify-dark.svelte"
+    },
+    "./vuetify-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vuetify-light.svelte"
+    },
+    "./webassembly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webassembly.svelte"
+    },
+    "./webflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webflow.svelte"
+    },
+    "./webpack-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webpack-dark.svelte"
+    },
+    "./webpack-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webpack-light.svelte"
+    },
+    "./webstorm-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webstorm-dark.svelte"
+    },
+    "./webstorm-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webstorm-light.svelte"
+    },
+    "./windicss-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windicss-dark.svelte"
+    },
+    "./windicss-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windicss-light.svelte"
+    },
+    "./windows-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windows-dark.svelte"
+    },
+    "./windows-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windows-light.svelte"
+    },
+    "./wordpress": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wordpress.svelte"
+    },
+    "./workers-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/workers-dark.svelte"
+    },
+    "./workers-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/workers-light.svelte"
+    },
+    "./xd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xd.svelte"
+    },
+    "./yarn-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yarn-dark.svelte"
+    },
+    "./yarn-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yarn-light.svelte"
+    },
+    "./yew-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yew-dark.svelte"
+    },
+    "./yew-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yew-light.svelte"
+    },
+    "./zig-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zig-dark.svelte"
+    },
+    "./zig-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zig-light.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#skill-icons"
+}
