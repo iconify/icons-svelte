@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pj_1f_k3s"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols-light:tv-gen-rounded" {...props}></Icon>
+<style>
+:global(.pj_1f_k3s) {
+  fill: currentColor;
+  d: path("m5.675 18l-.492 1.304q-.028.068-.097.113t-.154.044h-.073q-.097 0-.17-.074t-.073-.175V18q-.667 0-1.141-.475T3 16.386v-9.77q0-.666.475-1.14T4.615 5h14.77q.666 0 1.14.475T21 6.615v9.77q0 .667-.475 1.143q-.474.475-1.14.475v1.234q0 .094-.065.16q-.066.065-.16.065h-.094q-.081 0-.149-.041t-.094-.111L18.369 18z");
+}
+
+</style>

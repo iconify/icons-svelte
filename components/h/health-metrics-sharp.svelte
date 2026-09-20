@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="b9-ladb7e"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols-light:health-metrics-sharp" {...props}></Icon>
+<style>
+:global(.b9-ladb7e) {
+  fill: currentColor;
+  d: path("M8 20.846V16H3.154v-3.5h5.565l1.835 2.748h.915l1.677-5.132l1.592 2.384h6.108V16H16v4.846zm2.854-6.961L9.256 11.5H3.154V8H8V3.154h8V8h4.846v3.5h-5.59L13.44 8.758h-.91z");
+}
+
+</style>

@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="k9ru-7bni"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols-light:chat-bubble-off-sharp" {...props}></Icon>
+<style>
+:global(.k9ru-7bni) {
+  fill: currentColor;
+  d: path("M19.7 16.966L5.85 3H21v13.966zm.57 4.719L15.572 17H6.077L3 20.077V4.416L1.008 2.423l.707-.707l19.262 19.261z");
+}
+
+</style>

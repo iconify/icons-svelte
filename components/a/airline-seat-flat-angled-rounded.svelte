@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="vcalvpbvw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols-light:airline-seat-flat-angled-rounded" {...props}></Icon>
+<style>
+:global(.vcalvpbvw) {
+  fill: currentColor;
+  d: path("m9.977 11.333l1.087-2.962q.159-.41.534-.596t.785-.027l6.479 2.361q1.17.422 1.707 1.544t.097 2.293l-.425 1.125q-.131.304-.43.46t-.601.025l-8.748-3.192q-.323-.131-.47-.42q-.146-.288-.015-.611m8.567 6.913L3.581 12.808q-.189-.068-.274-.26t-.018-.38t.262-.278t.384-.015l14.963 5.438q.189.068.274.26t.019.38q-.068.19-.263.278t-.384.015M5.287 10.242q-.616-.615-.616-1.48q0-.866.616-1.481q.615-.616 1.48-.616q.866 0 1.481.616q.616.615.616 1.48q0 .866-.616 1.481q-.615.616-1.48.616q-.866 0-1.481-.616");
+}
+
+</style>

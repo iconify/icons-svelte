@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qmjzwhg5x"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols-light:nest-wake-on-press-outline-sharp" {...props}></Icon>
+<style>
+:global(.qmjzwhg5x) {
+  fill: currentColor;
+  d: path("M19.23 11.962V5H21v6.962zM7.413 20l-4.835-4.833l1.067-1.078l3.645.792V5.5q0-.63.434-1.065T8.786 4t1.066.435t.436 1.065v5.116h1.081l4.99 2.201L15.116 20zm.427-1h6.428l.964-5.584l-4.192-1.876H9.29V5.5q0-.225-.138-.363T8.788 5t-.362.138t-.138.362v10.6l-4.29-.933zm0 0h6.37z");
+}
+
+</style>

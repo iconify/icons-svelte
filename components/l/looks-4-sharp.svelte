@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ziazvb_0a"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols-light:looks-4-sharp" {...props}></Icon>
+<style>
+:global(.ziazvb_0a) {
+  fill: currentColor;
+  d: path("M4 20V4h16v16zm9.5-3.5h1v-9h-1v4h-3v-4h-1v5h4z");
+}
+
+</style>

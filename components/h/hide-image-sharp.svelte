@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="um0xt_8-x"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="material-symbols-light:hide-image-sharp" {...props}></Icon>
+<style>
+:global(.um0xt_8-x) {
+  fill: currentColor;
+  d: path("M20 17.15L6.85 4H20zm.492 4.758L18.585 20H4V5.416L2.092 3.508L2.8 2.8l18.4 18.4zM7.5 16.5h7.579l-2.35-2.35l-1.517 1.889l-1.75-2.116z");
+}
+
+</style>
