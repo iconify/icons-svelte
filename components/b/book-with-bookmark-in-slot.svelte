@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/l/lih5fib8b.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="lih5fib8b"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pinhead:book-with-bookmark-in-slot" {...props}></Icon>

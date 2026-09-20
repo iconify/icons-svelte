@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/z/z62gofbym.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="z62gofbym"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pinhead:x-above-water" {...props}></Icon>

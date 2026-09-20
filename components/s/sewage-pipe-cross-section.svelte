@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/djko6_bxw.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":15,"height":15};
+const content = `<path class="djko6_bxw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pinhead:sewage-pipe-cross-section" {...props}></Icon>
