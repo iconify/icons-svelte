@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/w/w-uvrnlra.css';
+import '../../css/b/b81tpq8nq.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="w-uvrnlra"/><path class="b81tpq8nq"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="streamline-ultimate:task-list-to-do-bold" {...props}></Icon>

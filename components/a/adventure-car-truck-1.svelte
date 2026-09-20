@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/f/f7_kfcbwf.css';
+import '../../css/t/tp66aodkz.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="jx0p4fbya"><path class="f7_kfcbwf"/><path class="tp66aodkz"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="streamline-ultimate:adventure-car-truck-1" {...props}></Icon>

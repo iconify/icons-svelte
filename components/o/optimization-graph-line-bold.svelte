@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/l/lk9vvbbsy.css';
+import '../../css/l/l14akwbha.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="lk9vvbbsy"/><path class="l14akwbha"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="streamline-ultimate:optimization-graph-line-bold" {...props}></Icon>
