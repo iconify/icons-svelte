@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/c58wlsbaf.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="c58wlsbaf"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uil:html5" {...props}></Icon>
