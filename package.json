@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/tabler",
   "type": "module",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "homepage": "https://icon-sets.iconify.design/tabler/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -261,6 +261,14 @@
     "./air-traffic-control": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/air-traffic-control.svelte"
+    },
+    "./airpods-l": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/airpods-l.svelte"
+    },
+    "./airpods-r": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/airpods-r.svelte"
     },
     "./alarm": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5838,6 +5846,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cash-banknote-plus.svelte"
     },
+    "./cash-coin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cash-coin.svelte"
+    },
     "./cash-edit": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cash-edit.svelte"
@@ -10514,6 +10526,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/edit.svelte"
     },
+    "./edit-bulk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-bulk.svelte"
+    },
     "./edit-circle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/edit-circle.svelte"
@@ -12106,6 +12122,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-star.svelte"
     },
+    "./folder-stats": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-stats.svelte"
+    },
     "./folder-symlink": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-symlink.svelte"
@@ -12113,6 +12133,10 @@
     "./folder-up": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-up.svelte"
+    },
+    "./folder-user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-user.svelte"
     },
     "./folder-x": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12521,6 +12545,14 @@
     "./gps-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gps-filled.svelte"
+    },
+    "./gpu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gpu.svelte"
+    },
+    "./gpu-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gpu-2.svelte"
     },
     "./gradienter": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15702,6 +15734,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-pin-x.svelte"
     },
+    "./map-pinned": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pinned.svelte"
+    },
     "./map-pins": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-pins.svelte"
@@ -17774,6 +17810,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/option.svelte"
     },
+    "./orbit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orbit.svelte"
+    },
+    "./orbit-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orbit-vertical.svelte"
+    },
+    "./orbits": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orbits.svelte"
+    },
     "./outbound": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/outbound.svelte"
@@ -19562,6 +19610,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/recycle-off.svelte"
     },
+    "./reduce-motion": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reduce-motion.svelte"
+    },
+    "./reference-image": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reference-image.svelte"
+    },
     "./refresh": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/refresh.svelte"
@@ -20293,6 +20349,10 @@
     "./search-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/search-off.svelte"
+    },
+    "./secret-phrases": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/secret-phrases.svelte"
     },
     "./section": {
       "types": "./types/gfwqskkx.d.ts",
@@ -22506,6 +22566,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sticker-2.svelte"
     },
+    "./sticker-smile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sticker-smile.svelte"
+    },
     "./stopwatch": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stopwatch.svelte"
@@ -24201,6 +24265,14 @@
     "./vocabulary-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/vocabulary-off.svelte"
+    },
+    "./voice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voice.svelte"
+    },
+    "./voice-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voice-2.svelte"
     },
     "./volcano": {
       "types": "./types/gfwqskkx.d.ts",
