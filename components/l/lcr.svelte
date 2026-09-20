@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/c7r3pbozs.css';
+import '../../css/e/ezke5sblm.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="c7r3pbozs"/><path class="ezke5sblm"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="token:lcr" {...props}></Icon>
