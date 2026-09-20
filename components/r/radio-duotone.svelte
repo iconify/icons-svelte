@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/h/hd4pobbto.css';
+import '../../css/d/dk5iih4zr.css';
+import '../../css/z/zyu0detlv.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="hd4pobbto"/><path class="dk5iih4zr"/><path clip-rule="evenodd" class="zyu0detlv"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:radio-duotone" {...props}></Icon>

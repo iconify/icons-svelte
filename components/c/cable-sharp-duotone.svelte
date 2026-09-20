@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/g/gp_8x1bzb.css';
+import '../../css/e/e7lqm9obr.css';
+import '../../css/z/z37i7yg4n.css';
+import '../../css/n/n724o7bcp.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="e7lqm9obr"/><path clip-rule="evenodd" class="z37i7yg4n"/><path class="n724o7bcp"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:cable-sharp-duotone" {...props}></Icon>
