@@ -1,0 +1,1815 @@
+{
+  "name": "@iconify-svelte/meteocons",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/meteocons/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./barometer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/barometer.svelte"
+    },
+    "./barometer-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/barometer-fill.svelte"
+    },
+    "./beanie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beanie.svelte"
+    },
+    "./beanie-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beanie-fill.svelte"
+    },
+    "./celsius": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/celsius.svelte"
+    },
+    "./celsius-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/celsius-fill.svelte"
+    },
+    "./clear-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clear-day.svelte"
+    },
+    "./clear-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clear-day-fill.svelte"
+    },
+    "./clear-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clear-night.svelte"
+    },
+    "./clear-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clear-night-fill.svelte"
+    },
+    "./cloud-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-down.svelte"
+    },
+    "./cloud-down-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-down-fill.svelte"
+    },
+    "./cloud-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-up.svelte"
+    },
+    "./cloud-up-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-up-fill.svelte"
+    },
+    "./cloudy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudy.svelte"
+    },
+    "./cloudy-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudy-fill.svelte"
+    },
+    "./code-green": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-green.svelte"
+    },
+    "./code-green-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-green-fill.svelte"
+    },
+    "./code-orange": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-orange.svelte"
+    },
+    "./code-orange-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-orange-fill.svelte"
+    },
+    "./code-red": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-red.svelte"
+    },
+    "./code-red-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-red-fill.svelte"
+    },
+    "./code-yellow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-yellow.svelte"
+    },
+    "./code-yellow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/code-yellow-fill.svelte"
+    },
+    "./compass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass.svelte"
+    },
+    "./compass-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass-fill.svelte"
+    },
+    "./drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drizzle.svelte"
+    },
+    "./drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drizzle-fill.svelte"
+    },
+    "./dust": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust.svelte"
+    },
+    "./dust-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust-day.svelte"
+    },
+    "./dust-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust-day-fill.svelte"
+    },
+    "./dust-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust-fill.svelte"
+    },
+    "./dust-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust-night.svelte"
+    },
+    "./dust-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust-night-fill.svelte"
+    },
+    "./dust-wind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust-wind.svelte"
+    },
+    "./dust-wind-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dust-wind-fill.svelte"
+    },
+    "./extreme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme.svelte"
+    },
+    "./extreme-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day.svelte"
+    },
+    "./extreme-day-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-drizzle.svelte"
+    },
+    "./extreme-day-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-drizzle-fill.svelte"
+    },
+    "./extreme-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-fill.svelte"
+    },
+    "./extreme-day-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-fog.svelte"
+    },
+    "./extreme-day-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-fog-fill.svelte"
+    },
+    "./extreme-day-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-hail.svelte"
+    },
+    "./extreme-day-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-hail-fill.svelte"
+    },
+    "./extreme-day-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-haze.svelte"
+    },
+    "./extreme-day-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-haze-fill.svelte"
+    },
+    "./extreme-day-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-rain.svelte"
+    },
+    "./extreme-day-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-rain-fill.svelte"
+    },
+    "./extreme-day-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-sleet.svelte"
+    },
+    "./extreme-day-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-sleet-fill.svelte"
+    },
+    "./extreme-day-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-smoke.svelte"
+    },
+    "./extreme-day-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-smoke-fill.svelte"
+    },
+    "./extreme-day-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-snow.svelte"
+    },
+    "./extreme-day-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-day-snow-fill.svelte"
+    },
+    "./extreme-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-drizzle.svelte"
+    },
+    "./extreme-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-drizzle-fill.svelte"
+    },
+    "./extreme-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-fill.svelte"
+    },
+    "./extreme-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-fog.svelte"
+    },
+    "./extreme-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-fog-fill.svelte"
+    },
+    "./extreme-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-hail.svelte"
+    },
+    "./extreme-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-hail-fill.svelte"
+    },
+    "./extreme-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-haze.svelte"
+    },
+    "./extreme-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-haze-fill.svelte"
+    },
+    "./extreme-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night.svelte"
+    },
+    "./extreme-night-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-drizzle.svelte"
+    },
+    "./extreme-night-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-drizzle-fill.svelte"
+    },
+    "./extreme-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-fill.svelte"
+    },
+    "./extreme-night-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-fog.svelte"
+    },
+    "./extreme-night-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-fog-fill.svelte"
+    },
+    "./extreme-night-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-hail.svelte"
+    },
+    "./extreme-night-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-hail-fill.svelte"
+    },
+    "./extreme-night-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-haze.svelte"
+    },
+    "./extreme-night-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-haze-fill.svelte"
+    },
+    "./extreme-night-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-rain.svelte"
+    },
+    "./extreme-night-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-rain-fill.svelte"
+    },
+    "./extreme-night-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-sleet.svelte"
+    },
+    "./extreme-night-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-sleet-fill.svelte"
+    },
+    "./extreme-night-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-smoke.svelte"
+    },
+    "./extreme-night-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-smoke-fill.svelte"
+    },
+    "./extreme-night-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-snow.svelte"
+    },
+    "./extreme-night-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-night-snow-fill.svelte"
+    },
+    "./extreme-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-rain.svelte"
+    },
+    "./extreme-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-rain-fill.svelte"
+    },
+    "./extreme-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-sleet.svelte"
+    },
+    "./extreme-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-sleet-fill.svelte"
+    },
+    "./extreme-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-smoke.svelte"
+    },
+    "./extreme-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-smoke-fill.svelte"
+    },
+    "./extreme-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-snow.svelte"
+    },
+    "./extreme-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extreme-snow-fill.svelte"
+    },
+    "./fahrenheit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fahrenheit.svelte"
+    },
+    "./fahrenheit-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fahrenheit-fill.svelte"
+    },
+    "./falling-stars": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/falling-stars.svelte"
+    },
+    "./falling-stars-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/falling-stars-fill.svelte"
+    },
+    "./flag-gale-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-gale-warning.svelte"
+    },
+    "./flag-gale-warning-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-gale-warning-fill.svelte"
+    },
+    "./flag-hurricane-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-hurricane-warning.svelte"
+    },
+    "./flag-hurricane-warning-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-hurricane-warning-fill.svelte"
+    },
+    "./flag-small-craft-advisory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-small-craft-advisory.svelte"
+    },
+    "./flag-small-craft-advisory-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-small-craft-advisory-fill.svelte"
+    },
+    "./flag-storm-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-storm-warning.svelte"
+    },
+    "./flag-storm-warning-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag-storm-warning-fill.svelte"
+    },
+    "./fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fog.svelte"
+    },
+    "./fog-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fog-day.svelte"
+    },
+    "./fog-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fog-day-fill.svelte"
+    },
+    "./fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fog-fill.svelte"
+    },
+    "./fog-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fog-night.svelte"
+    },
+    "./fog-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fog-night-fill.svelte"
+    },
+    "./glove": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glove.svelte"
+    },
+    "./glove-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glove-fill.svelte"
+    },
+    "./hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hail.svelte"
+    },
+    "./hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hail-fill.svelte"
+    },
+    "./haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haze.svelte"
+    },
+    "./haze-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haze-day.svelte"
+    },
+    "./haze-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haze-day-fill.svelte"
+    },
+    "./haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haze-fill.svelte"
+    },
+    "./haze-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haze-night.svelte"
+    },
+    "./haze-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haze-night-fill.svelte"
+    },
+    "./horizon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/horizon.svelte"
+    },
+    "./horizon-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/horizon-fill.svelte"
+    },
+    "./humidity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/humidity.svelte"
+    },
+    "./humidity-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/humidity-fill.svelte"
+    },
+    "./hurricane": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hurricane.svelte"
+    },
+    "./hurricane-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hurricane-fill.svelte"
+    },
+    "./lightning-bolt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightning-bolt.svelte"
+    },
+    "./lightning-bolt-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lightning-bolt-fill.svelte"
+    },
+    "./mist": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mist.svelte"
+    },
+    "./mist-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mist-fill.svelte"
+    },
+    "./moon-first-quarter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-first-quarter.svelte"
+    },
+    "./moon-first-quarter-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-first-quarter-fill.svelte"
+    },
+    "./moon-full": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-full.svelte"
+    },
+    "./moon-full-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-full-fill.svelte"
+    },
+    "./moon-last-quarter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-last-quarter.svelte"
+    },
+    "./moon-last-quarter-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-last-quarter-fill.svelte"
+    },
+    "./moon-new": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-new.svelte"
+    },
+    "./moon-new-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-new-fill.svelte"
+    },
+    "./moon-waning-crescent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waning-crescent.svelte"
+    },
+    "./moon-waning-crescent-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waning-crescent-fill.svelte"
+    },
+    "./moon-waning-gibbous": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waning-gibbous.svelte"
+    },
+    "./moon-waning-gibbous-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waning-gibbous-fill.svelte"
+    },
+    "./moon-waxing-crescent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waxing-crescent.svelte"
+    },
+    "./moon-waxing-crescent-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waxing-crescent-fill.svelte"
+    },
+    "./moon-waxing-gibbous": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waxing-gibbous.svelte"
+    },
+    "./moon-waxing-gibbous-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moon-waxing-gibbous-fill.svelte"
+    },
+    "./moonrise": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moonrise.svelte"
+    },
+    "./moonrise-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moonrise-fill.svelte"
+    },
+    "./moonset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moonset.svelte"
+    },
+    "./moonset-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moonset-fill.svelte"
+    },
+    "./not-available": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/not-available.svelte"
+    },
+    "./not-available-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/not-available-fill.svelte"
+    },
+    "./overcast": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast.svelte"
+    },
+    "./overcast-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day.svelte"
+    },
+    "./overcast-day-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-drizzle.svelte"
+    },
+    "./overcast-day-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-drizzle-fill.svelte"
+    },
+    "./overcast-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-fill.svelte"
+    },
+    "./overcast-day-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-fog.svelte"
+    },
+    "./overcast-day-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-fog-fill.svelte"
+    },
+    "./overcast-day-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-hail.svelte"
+    },
+    "./overcast-day-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-hail-fill.svelte"
+    },
+    "./overcast-day-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-haze.svelte"
+    },
+    "./overcast-day-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-haze-fill.svelte"
+    },
+    "./overcast-day-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-rain.svelte"
+    },
+    "./overcast-day-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-rain-fill.svelte"
+    },
+    "./overcast-day-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-sleet.svelte"
+    },
+    "./overcast-day-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-sleet-fill.svelte"
+    },
+    "./overcast-day-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-smoke.svelte"
+    },
+    "./overcast-day-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-smoke-fill.svelte"
+    },
+    "./overcast-day-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-snow.svelte"
+    },
+    "./overcast-day-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-day-snow-fill.svelte"
+    },
+    "./overcast-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-drizzle.svelte"
+    },
+    "./overcast-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-drizzle-fill.svelte"
+    },
+    "./overcast-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-fill.svelte"
+    },
+    "./overcast-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-fog.svelte"
+    },
+    "./overcast-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-fog-fill.svelte"
+    },
+    "./overcast-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-hail.svelte"
+    },
+    "./overcast-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-hail-fill.svelte"
+    },
+    "./overcast-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-haze.svelte"
+    },
+    "./overcast-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-haze-fill.svelte"
+    },
+    "./overcast-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night.svelte"
+    },
+    "./overcast-night-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-drizzle.svelte"
+    },
+    "./overcast-night-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-drizzle-fill.svelte"
+    },
+    "./overcast-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-fill.svelte"
+    },
+    "./overcast-night-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-fog.svelte"
+    },
+    "./overcast-night-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-fog-fill.svelte"
+    },
+    "./overcast-night-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-hail.svelte"
+    },
+    "./overcast-night-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-hail-fill.svelte"
+    },
+    "./overcast-night-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-haze.svelte"
+    },
+    "./overcast-night-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-haze-fill.svelte"
+    },
+    "./overcast-night-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-rain.svelte"
+    },
+    "./overcast-night-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-rain-fill.svelte"
+    },
+    "./overcast-night-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-sleet.svelte"
+    },
+    "./overcast-night-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-sleet-fill.svelte"
+    },
+    "./overcast-night-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-smoke.svelte"
+    },
+    "./overcast-night-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-smoke-fill.svelte"
+    },
+    "./overcast-night-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-snow.svelte"
+    },
+    "./overcast-night-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-night-snow-fill.svelte"
+    },
+    "./overcast-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-rain.svelte"
+    },
+    "./overcast-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-rain-fill.svelte"
+    },
+    "./overcast-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-sleet.svelte"
+    },
+    "./overcast-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-sleet-fill.svelte"
+    },
+    "./overcast-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-smoke.svelte"
+    },
+    "./overcast-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-smoke-fill.svelte"
+    },
+    "./overcast-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-snow.svelte"
+    },
+    "./overcast-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/overcast-snow-fill.svelte"
+    },
+    "./partly-cloudy-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day.svelte"
+    },
+    "./partly-cloudy-day-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-drizzle.svelte"
+    },
+    "./partly-cloudy-day-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-drizzle-fill.svelte"
+    },
+    "./partly-cloudy-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-fill.svelte"
+    },
+    "./partly-cloudy-day-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-fog.svelte"
+    },
+    "./partly-cloudy-day-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-fog-fill.svelte"
+    },
+    "./partly-cloudy-day-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-hail.svelte"
+    },
+    "./partly-cloudy-day-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-hail-fill.svelte"
+    },
+    "./partly-cloudy-day-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-haze.svelte"
+    },
+    "./partly-cloudy-day-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-haze-fill.svelte"
+    },
+    "./partly-cloudy-day-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-rain.svelte"
+    },
+    "./partly-cloudy-day-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-rain-fill.svelte"
+    },
+    "./partly-cloudy-day-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-sleet.svelte"
+    },
+    "./partly-cloudy-day-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-sleet-fill.svelte"
+    },
+    "./partly-cloudy-day-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-smoke.svelte"
+    },
+    "./partly-cloudy-day-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-smoke-fill.svelte"
+    },
+    "./partly-cloudy-day-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-snow.svelte"
+    },
+    "./partly-cloudy-day-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-day-snow-fill.svelte"
+    },
+    "./partly-cloudy-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night.svelte"
+    },
+    "./partly-cloudy-night-drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-drizzle.svelte"
+    },
+    "./partly-cloudy-night-drizzle-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-drizzle-fill.svelte"
+    },
+    "./partly-cloudy-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-fill.svelte"
+    },
+    "./partly-cloudy-night-fog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-fog.svelte"
+    },
+    "./partly-cloudy-night-fog-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-fog-fill.svelte"
+    },
+    "./partly-cloudy-night-hail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-hail.svelte"
+    },
+    "./partly-cloudy-night-hail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-hail-fill.svelte"
+    },
+    "./partly-cloudy-night-haze": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-haze.svelte"
+    },
+    "./partly-cloudy-night-haze-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-haze-fill.svelte"
+    },
+    "./partly-cloudy-night-rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-rain.svelte"
+    },
+    "./partly-cloudy-night-rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-rain-fill.svelte"
+    },
+    "./partly-cloudy-night-sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-sleet.svelte"
+    },
+    "./partly-cloudy-night-sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-sleet-fill.svelte"
+    },
+    "./partly-cloudy-night-smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-smoke.svelte"
+    },
+    "./partly-cloudy-night-smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-smoke-fill.svelte"
+    },
+    "./partly-cloudy-night-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-snow.svelte"
+    },
+    "./partly-cloudy-night-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/partly-cloudy-night-snow-fill.svelte"
+    },
+    "./pollen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen.svelte"
+    },
+    "./pollen-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen-fill.svelte"
+    },
+    "./pollen-flower": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen-flower.svelte"
+    },
+    "./pollen-flower-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen-flower-fill.svelte"
+    },
+    "./pollen-grass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen-grass.svelte"
+    },
+    "./pollen-grass-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen-grass-fill.svelte"
+    },
+    "./pollen-tree": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen-tree.svelte"
+    },
+    "./pollen-tree-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pollen-tree-fill.svelte"
+    },
+    "./pressure-high": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-high.svelte"
+    },
+    "./pressure-high-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-high-alt.svelte"
+    },
+    "./pressure-high-alt-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-high-alt-fill.svelte"
+    },
+    "./pressure-high-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-high-fill.svelte"
+    },
+    "./pressure-low": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-low.svelte"
+    },
+    "./pressure-low-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-low-alt.svelte"
+    },
+    "./pressure-low-alt-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-low-alt-fill.svelte"
+    },
+    "./pressure-low-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-low-fill.svelte"
+    },
+    "./rain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rain.svelte"
+    },
+    "./rain-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rain-fill.svelte"
+    },
+    "./rainbow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rainbow.svelte"
+    },
+    "./rainbow-clear": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rainbow-clear.svelte"
+    },
+    "./rainbow-clear-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rainbow-clear-fill.svelte"
+    },
+    "./rainbow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rainbow-fill.svelte"
+    },
+    "./raindrop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raindrop.svelte"
+    },
+    "./raindrop-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raindrop-fill.svelte"
+    },
+    "./raindrop-measure": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raindrop-measure.svelte"
+    },
+    "./raindrop-measure-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raindrop-measure-fill.svelte"
+    },
+    "./raindrops": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raindrops.svelte"
+    },
+    "./raindrops-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/raindrops-fill.svelte"
+    },
+    "./sleet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sleet.svelte"
+    },
+    "./sleet-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sleet-fill.svelte"
+    },
+    "./smoke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smoke.svelte"
+    },
+    "./smoke-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smoke-fill.svelte"
+    },
+    "./smoke-particles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smoke-particles.svelte"
+    },
+    "./smoke-particles-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smoke-particles-fill.svelte"
+    },
+    "./snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snow.svelte"
+    },
+    "./snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snow-fill.svelte"
+    },
+    "./snowflake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snowflake.svelte"
+    },
+    "./snowflake-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snowflake-fill.svelte"
+    },
+    "./snowman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snowman.svelte"
+    },
+    "./snowman-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snowman-fill.svelte"
+    },
+    "./solar-eclipse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-eclipse.svelte"
+    },
+    "./solar-eclipse-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-eclipse-fill.svelte"
+    },
+    "./star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star.svelte"
+    },
+    "./star-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-fill.svelte"
+    },
+    "./starry-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/starry-night.svelte"
+    },
+    "./starry-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/starry-night-fill.svelte"
+    },
+    "./sun-hot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sun-hot.svelte"
+    },
+    "./sun-hot-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sun-hot-fill.svelte"
+    },
+    "./sunrise": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sunrise.svelte"
+    },
+    "./sunrise-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sunrise-fill.svelte"
+    },
+    "./sunset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sunset.svelte"
+    },
+    "./sunset-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sunset-fill.svelte"
+    },
+    "./thermometer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer.svelte"
+    },
+    "./thermometer-celsius": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-celsius.svelte"
+    },
+    "./thermometer-celsius-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-celsius-fill.svelte"
+    },
+    "./thermometer-colder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-colder.svelte"
+    },
+    "./thermometer-colder-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-colder-fill.svelte"
+    },
+    "./thermometer-fahrenheit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-fahrenheit.svelte"
+    },
+    "./thermometer-fahrenheit-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-fahrenheit-fill.svelte"
+    },
+    "./thermometer-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-fill.svelte"
+    },
+    "./thermometer-glass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-glass.svelte"
+    },
+    "./thermometer-glass-celsius": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-glass-celsius.svelte"
+    },
+    "./thermometer-glass-celsius-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-glass-celsius-fill.svelte"
+    },
+    "./thermometer-glass-fahrenheit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-glass-fahrenheit.svelte"
+    },
+    "./thermometer-glass-fahrenheit-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-glass-fahrenheit-fill.svelte"
+    },
+    "./thermometer-glass-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-glass-fill.svelte"
+    },
+    "./thermometer-mercury": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-mercury.svelte"
+    },
+    "./thermometer-mercury-cold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-mercury-cold.svelte"
+    },
+    "./thermometer-mercury-cold-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-mercury-cold-fill.svelte"
+    },
+    "./thermometer-mercury-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-mercury-fill.svelte"
+    },
+    "./thermometer-moon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-moon.svelte"
+    },
+    "./thermometer-moon-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-moon-fill.svelte"
+    },
+    "./thermometer-raindrop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-raindrop.svelte"
+    },
+    "./thermometer-raindrop-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-raindrop-fill.svelte"
+    },
+    "./thermometer-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-snow.svelte"
+    },
+    "./thermometer-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-snow-fill.svelte"
+    },
+    "./thermometer-sun": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-sun.svelte"
+    },
+    "./thermometer-sun-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-sun-fill.svelte"
+    },
+    "./thermometer-warmer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-warmer.svelte"
+    },
+    "./thermometer-warmer-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-warmer-fill.svelte"
+    },
+    "./thermometer-water": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-water.svelte"
+    },
+    "./thermometer-water-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thermometer-water-fill.svelte"
+    },
+    "./thunderstorms": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms.svelte"
+    },
+    "./thunderstorms-day": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day.svelte"
+    },
+    "./thunderstorms-day-extreme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-extreme.svelte"
+    },
+    "./thunderstorms-day-extreme-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-extreme-fill.svelte"
+    },
+    "./thunderstorms-day-extreme-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-extreme-snow.svelte"
+    },
+    "./thunderstorms-day-extreme-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-extreme-snow-fill.svelte"
+    },
+    "./thunderstorms-day-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-fill.svelte"
+    },
+    "./thunderstorms-day-overcast": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-overcast.svelte"
+    },
+    "./thunderstorms-day-overcast-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-overcast-fill.svelte"
+    },
+    "./thunderstorms-day-overcast-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-overcast-snow.svelte"
+    },
+    "./thunderstorms-day-overcast-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-overcast-snow-fill.svelte"
+    },
+    "./thunderstorms-day-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-snow.svelte"
+    },
+    "./thunderstorms-day-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-day-snow-fill.svelte"
+    },
+    "./thunderstorms-extreme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-extreme.svelte"
+    },
+    "./thunderstorms-extreme-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-extreme-fill.svelte"
+    },
+    "./thunderstorms-extreme-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-extreme-snow.svelte"
+    },
+    "./thunderstorms-extreme-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-extreme-snow-fill.svelte"
+    },
+    "./thunderstorms-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-fill.svelte"
+    },
+    "./thunderstorms-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night.svelte"
+    },
+    "./thunderstorms-night-extreme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-extreme.svelte"
+    },
+    "./thunderstorms-night-extreme-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-extreme-fill.svelte"
+    },
+    "./thunderstorms-night-extreme-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-extreme-snow.svelte"
+    },
+    "./thunderstorms-night-extreme-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-extreme-snow-fill.svelte"
+    },
+    "./thunderstorms-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-fill.svelte"
+    },
+    "./thunderstorms-night-overcast": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-overcast.svelte"
+    },
+    "./thunderstorms-night-overcast-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-overcast-fill.svelte"
+    },
+    "./thunderstorms-night-overcast-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-overcast-snow.svelte"
+    },
+    "./thunderstorms-night-overcast-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-overcast-snow-fill.svelte"
+    },
+    "./thunderstorms-night-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-snow.svelte"
+    },
+    "./thunderstorms-night-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-night-snow-fill.svelte"
+    },
+    "./thunderstorms-overcast": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-overcast.svelte"
+    },
+    "./thunderstorms-overcast-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-overcast-fill.svelte"
+    },
+    "./thunderstorms-overcast-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-overcast-snow.svelte"
+    },
+    "./thunderstorms-overcast-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-overcast-snow-fill.svelte"
+    },
+    "./thunderstorms-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-snow.svelte"
+    },
+    "./thunderstorms-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thunderstorms-snow-fill.svelte"
+    },
+    "./tide-high": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tide-high.svelte"
+    },
+    "./tide-high-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tide-high-fill.svelte"
+    },
+    "./tide-low": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tide-low.svelte"
+    },
+    "./tide-low-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tide-low-fill.svelte"
+    },
+    "./time-afternoon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-afternoon.svelte"
+    },
+    "./time-afternoon-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-afternoon-fill.svelte"
+    },
+    "./time-evening": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-evening.svelte"
+    },
+    "./time-evening-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-evening-fill.svelte"
+    },
+    "./time-late-afternoon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-afternoon.svelte"
+    },
+    "./time-late-afternoon-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-afternoon-fill.svelte"
+    },
+    "./time-late-evening": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-evening.svelte"
+    },
+    "./time-late-evening-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-evening-fill.svelte"
+    },
+    "./time-late-morning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-morning.svelte"
+    },
+    "./time-late-morning-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-morning-fill.svelte"
+    },
+    "./time-late-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-night.svelte"
+    },
+    "./time-late-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-late-night-fill.svelte"
+    },
+    "./time-morning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-morning.svelte"
+    },
+    "./time-morning-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-morning-fill.svelte"
+    },
+    "./time-night": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-night.svelte"
+    },
+    "./time-night-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/time-night-fill.svelte"
+    },
+    "./tornado": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tornado.svelte"
+    },
+    "./tornado-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tornado-fill.svelte"
+    },
+    "./umbrella": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/umbrella.svelte"
+    },
+    "./umbrella-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/umbrella-fill.svelte"
+    },
+    "./umbrella-wind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/umbrella-wind.svelte"
+    },
+    "./umbrella-wind-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/umbrella-wind-alt.svelte"
+    },
+    "./umbrella-wind-alt-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/umbrella-wind-alt-fill.svelte"
+    },
+    "./umbrella-wind-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/umbrella-wind-fill.svelte"
+    },
+    "./uv-index": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index.svelte"
+    },
+    "./uv-index-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-1.svelte"
+    },
+    "./uv-index-1-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-1-fill.svelte"
+    },
+    "./uv-index-10": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-10.svelte"
+    },
+    "./uv-index-10-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-10-fill.svelte"
+    },
+    "./uv-index-11": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-11.svelte"
+    },
+    "./uv-index-11-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-11-fill.svelte"
+    },
+    "./uv-index-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-2.svelte"
+    },
+    "./uv-index-2-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-2-fill.svelte"
+    },
+    "./uv-index-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-3.svelte"
+    },
+    "./uv-index-3-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-3-fill.svelte"
+    },
+    "./uv-index-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-4.svelte"
+    },
+    "./uv-index-4-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-4-fill.svelte"
+    },
+    "./uv-index-5": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-5.svelte"
+    },
+    "./uv-index-5-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-5-fill.svelte"
+    },
+    "./uv-index-6": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-6.svelte"
+    },
+    "./uv-index-6-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-6-fill.svelte"
+    },
+    "./uv-index-7": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-7.svelte"
+    },
+    "./uv-index-7-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-7-fill.svelte"
+    },
+    "./uv-index-8": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-8.svelte"
+    },
+    "./uv-index-8-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-8-fill.svelte"
+    },
+    "./uv-index-9": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-9.svelte"
+    },
+    "./uv-index-9-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-9-fill.svelte"
+    },
+    "./uv-index-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/uv-index-fill.svelte"
+    },
+    "./wind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind.svelte"
+    },
+    "./wind-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-alert.svelte"
+    },
+    "./wind-alert-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-alert-fill.svelte"
+    },
+    "./wind-beaufort-0": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-0.svelte"
+    },
+    "./wind-beaufort-0-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-0-fill.svelte"
+    },
+    "./wind-beaufort-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-1.svelte"
+    },
+    "./wind-beaufort-1-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-1-fill.svelte"
+    },
+    "./wind-beaufort-10": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-10.svelte"
+    },
+    "./wind-beaufort-10-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-10-fill.svelte"
+    },
+    "./wind-beaufort-11": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-11.svelte"
+    },
+    "./wind-beaufort-11-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-11-fill.svelte"
+    },
+    "./wind-beaufort-12": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-12.svelte"
+    },
+    "./wind-beaufort-12-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-12-fill.svelte"
+    },
+    "./wind-beaufort-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-2.svelte"
+    },
+    "./wind-beaufort-2-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-2-fill.svelte"
+    },
+    "./wind-beaufort-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-3.svelte"
+    },
+    "./wind-beaufort-3-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-3-fill.svelte"
+    },
+    "./wind-beaufort-4": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-4.svelte"
+    },
+    "./wind-beaufort-4-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-4-fill.svelte"
+    },
+    "./wind-beaufort-5": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-5.svelte"
+    },
+    "./wind-beaufort-5-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-5-fill.svelte"
+    },
+    "./wind-beaufort-6": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-6.svelte"
+    },
+    "./wind-beaufort-6-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-6-fill.svelte"
+    },
+    "./wind-beaufort-7": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-7.svelte"
+    },
+    "./wind-beaufort-7-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-7-fill.svelte"
+    },
+    "./wind-beaufort-8": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-8.svelte"
+    },
+    "./wind-beaufort-8-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-8-fill.svelte"
+    },
+    "./wind-beaufort-9": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-9.svelte"
+    },
+    "./wind-beaufort-9-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-beaufort-9-fill.svelte"
+    },
+    "./wind-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-fill.svelte"
+    },
+    "./wind-offshore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-offshore.svelte"
+    },
+    "./wind-offshore-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-offshore-fill.svelte"
+    },
+    "./wind-onshore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-onshore.svelte"
+    },
+    "./wind-onshore-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-onshore-fill.svelte"
+    },
+    "./wind-snow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-snow.svelte"
+    },
+    "./wind-snow-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-snow-fill.svelte"
+    },
+    "./windsock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windsock.svelte"
+    },
+    "./windsock-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windsock-fill.svelte"
+    },
+    "./windsock-weak": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windsock-weak.svelte"
+    },
+    "./windsock-weak-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windsock-weak-fill.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#meteocons"
+}
