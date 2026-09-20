@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="b0nyedkcd"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:line-horizontal-2-dashes-solid-20-filled" {...props}></Icon>
+<style>
+:global(.b0nyedkcd) {
+  fill: currentColor;
+  d: path("M2.75 6a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5zm6 0a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5zm6 0a.75.75 0 0 0 0 1.5h2.5a.75.75 0 0 0 0-1.5zm-12 6a.75.75 0 0 0 0 1.5h14.5a.75.75 0 0 0 0-1.5z");
+}
+
+</style>

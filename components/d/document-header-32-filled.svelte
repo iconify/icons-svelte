@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="eeeslmb7w"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:document-header-32-filled" {...props}></Icon>
+<style>
+:global(.eeeslmb7w) {
+  fill: currentColor;
+  d: path("M24.75 2A3.25 3.25 0 0 1 28 5.25v21.5A3.25 3.25 0 0 1 24.75 30H7.25A3.25 3.25 0 0 1 4 26.75V5.25A3.25 3.25 0 0 1 7.25 2zM10.5 7a2 2 0 1 0 0 4h11a2 2 0 1 0 0-4z");
+}
+
+</style>

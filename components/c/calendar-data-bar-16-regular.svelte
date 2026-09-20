@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="z3-46mwlk"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:calendar-data-bar-16-regular" {...props}></Icon>
+<style>
+:global(.z3-46mwlk) {
+  fill: currentColor;
+  d: path("M14 4.5A2.5 2.5 0 0 0 11.5 2h-7A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14H7v-1H4.5A1.5 1.5 0 0 1 3 11.5V6h10v.268A2 2 0 0 1 14 8zM4.5 3h7A1.5 1.5 0 0 1 13 4.5V5H3v-.5A1.5 1.5 0 0 1 4.5 3M12 7a1 1 0 0 0-1 1v7a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1m-3 4a1 1 0 0 0-1 1v3a1 1 0 1 0 2 0v-3a1 1 0 0 0-1-1m5-1a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0z");
+}
+
+</style>

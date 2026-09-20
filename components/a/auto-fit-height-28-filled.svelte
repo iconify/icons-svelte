@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":28,"height":28};
+const content = `<path class="tww52xbyk"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:auto-fit-height-28-filled" {...props}></Icon>
+<style>
+:global(.tww52xbyk) {
+  fill: currentColor;
+  d: path("M21.103 23.005a1 1 0 0 1 0 1.99L21 25H7a1 1 0 1 1 0-2h14zm-7.734-15.78a1 1 0 0 1 1.338.068l3 3l.068.076a1 1 0 0 1-1.406 1.406l-.076-.068L15 10.414v7.172l1.293-1.293a1 1 0 1 1 1.414 1.414l-3 3a1 1 0 0 1-1.338.068l-.076-.068l-3-3l-.068-.076a1 1 0 0 1 1.406-1.406l.076.068L13 17.586v-7.172l-1.293 1.293a1 1 0 1 1-1.414-1.414l3-3zm7.733-4.22a1 1 0 0 1 0 1.99L21 5H7a1 1 0 0 1 0-2h14z");
+}
+
+</style>

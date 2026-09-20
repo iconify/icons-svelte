@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="wf167obxr"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:textbox-align-top-rotate-90-20-filled" {...props}></Icon>
+<style>
+:global(.wf167obxr) {
+  fill: currentColor;
+  d: path("M17 5.5A2.5 2.5 0 0 0 14.5 3h-9A2.5 2.5 0 0 0 3 5.5v9A2.5 2.5 0 0 0 5.5 17h9a2.5 2.5 0 0 0 2.5-2.5zm-3 1v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0m-3 0v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0");
+}
+
+</style>

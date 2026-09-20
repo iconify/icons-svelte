@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="d5nrvlauo"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:toolbox-24-filled" {...props}></Icon>
+<style>
+:global(.d5nrvlauo) {
+  fill: currentColor;
+  d: path("M7 6.253V7H4.25A2.25 2.25 0 0 0 2 9.25v2.25h4.5v-.75a.75.75 0 0 1 1.5 0v.75h8v-.75a.75.75 0 0 1 1.5 0v.75H22V9.25A2.25 2.25 0 0 0 19.75 7H17v-.747a2.25 2.25 0 0 0-2.25-2.25h-5.5A2.25 2.25 0 0 0 7 6.253m2.25-.75h5.5a.75.75 0 0 1 .75.75V7h-7v-.747a.75.75 0 0 1 .75-.75M22 13h-4.5v1.25a.75.75 0 0 1-1.5 0V13H8v1.25a.75.75 0 0 1-1.5 0V13H2v4.747a2.25 2.25 0 0 0 2.25 2.25h15.5a2.25 2.25 0 0 0 2.25-2.25z");
+}
+
+</style>

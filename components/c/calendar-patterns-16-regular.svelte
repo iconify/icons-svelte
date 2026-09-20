@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="urc18bbfp"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:calendar-patterns-16-regular" {...props}></Icon>
+<style>
+:global(.urc18bbfp) {
+  fill: currentColor;
+  d: path("M4.5 2A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h7a2.5 2.5 0 0 0 2.5-2.5v-7A2.5 2.5 0 0 0 11.5 2zM3 4.5A1.5 1.5 0 0 1 4.5 3h7A1.5 1.5 0 0 1 13 4.5V6H3zM11.707 7H13v.293L10.293 10H8.707zm-1.414 0l-3 3H5.707l3-3zm-6 3H3v-.293L5.707 7h1.586zM3 8.293V7h1.293zM11.707 10L13 8.707V10z");
+}
+
+</style>

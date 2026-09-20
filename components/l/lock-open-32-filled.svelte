@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="r_xu9vb5m"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="fluent:lock-open-32-filled" {...props}></Icon>
+<style>
+:global(.r_xu9vb5m) {
+  fill: currentColor;
+  d: path("M24 2a6 6 0 0 1 6 6v1a1 1 0 1 1-2 0V8a4 4 0 0 0-8 0v3h1.5a4.5 4.5 0 0 1 4.5 4.5v9a4.5 4.5 0 0 1-4.5 4.5h-11A4.5 4.5 0 0 1 6 24.5v-9a4.5 4.5 0 0 1 4.5-4.5H18V8a6 6 0 0 1 6-6m-8 16.25a1.75 1.75 0 1 0 0 3.5a1.75 1.75 0 0 0 0-3.5");
+}
+
+</style>
