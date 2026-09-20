@@ -1,0 +1,43 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="ucf3ueb9q"/><path class="diipsobkl"/><path class="wuvisubmw"/><path class="zsd3khm8o"/><path class="ws9v8zbhe"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:hobby-journal-duotone-thin" {...props}></Icon>
+<style>
+:global(.diipsobkl) {
+  d: path("M5 3v18h14V3Z");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.ucf3ueb9q) {
+  fill: currentColor;
+  d: path("M5 3v18h14V3Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.ws9v8zbhe) {
+  d: path("M11 16h6");
+}
+
+:global(.wuvisubmw) {
+  d: path("M8 3v18");
+}
+
+:global(.zsd3khm8o) {
+  d: path("M16 3v9l-2 -2 -2 2V3");
+}
+
+</style>

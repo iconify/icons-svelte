@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="eawry1bwu"/><path class="ww6qi_bzz"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:triage-agent-outline-regular" {...props}></Icon>
+<style>
+:global(.eawry1bwu) {
+  d: path("M8 3.33a3.5 3.5 0 1 1 -2.96 0");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.ww6qi_bzz) {
+  d: path("M10 11h11l-4 4v5h-3v-5Z");
+}
+
+</style>

@@ -1,0 +1,44 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="ymw3aibdo"/><path class="tturp2djn"/><path class="maut9lbea"/><path class="vzsi2jzmx"/><path class="efnc6pc0s"/><path class="a0o0t-zvo"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:community-outline-thin" {...props}></Icon>
+<style>
+:global(.a0o0t-zvo) {
+  d: path("M15 19a3 3 0 0 1 6 0");
+}
+
+:global(.efnc6pc0s) {
+  d: path("M16 13a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.maut9lbea) {
+  d: path("M4 13a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.tturp2djn) {
+  d: path("M9 11a3 3 0 0 1 6 0");
+}
+
+:global(.vzsi2jzmx) {
+  d: path("M3 19a3 3 0 0 1 6 0");
+}
+
+:global(.ymw3aibdo) {
+  d: path("M10 5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+</style>

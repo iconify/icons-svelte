@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="uweslxo3x"/><path class="ghl-fb90s"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:frost-warning-outline-regular" {...props}></Icon>
+<style>
+:global(.ghl-fb90s) {
+  d: path("M12 10.5v7m-3.5 0 7 -7");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.uweslxo3x) {
+  d: path("M12 3.5 21.5 20h-19Z");
+}
+
+</style>

@@ -1,0 +1,51 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="fsuht_b8c"/><path class="jxonqxbcf"/><path class="gbjtkzb6z"/><path class="oze4upblc"/><path class="acyg6nb1v"/><path class="idhymedkk"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:viewpoint-duotone-bold" {...props}></Icon>
+<style>
+:global(.acyg6nb1v) {
+  d: path("M10 8a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.fsuht_b8c) {
+  fill: currentColor;
+  d: path("M10 8a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.gbjtkzb6z) {
+  stroke-width: var(--svg-stroke-width--5-5px, 5.5px);
+  d: path("m2 20 6 -6 3 3 5 -5 5 5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.idhymedkk) {
+  d: path("m2 20 6 -6 3 3 5 -5 5 5");
+}
+
+:global(.jxonqxbcf) {
+  stroke-width: var(--svg-stroke-width--5-5px, 5.5px);
+  d: path("M6.36 5.95a6 6 0 0 1 11.28 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.oze4upblc) {
+  d: path("M6.36 5.95a6 6 0 0 1 11.28 0");
+}
+
+:global(.s0phu2bbs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+</style>

@@ -1,0 +1,51 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="f-t_rcb_j"/><path class="k6fi9qmtq"/><path class="ozi-k-boi"/><path class="k_zt_ib1v"/><path class="njt4q9htw"/><path class="v33uslbhb"/><path class="uvdljpy6b"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:balance-hide-duotone-thin" {...props}></Icon>
+<style>
+:global(.f-t_rcb_j) {
+  fill: currentColor;
+  d: path("M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.k_zt_ib1v) {
+  d: path("M16.7 12.71a5 5 0 0 1 -9.4 0");
+}
+
+:global(.k6fi9qmtq) {
+  d: path("M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+:global(.njt4q9htw) {
+  d: path("m9 15 -2 2");
+}
+
+:global(.ozi-k-boi) {
+  d: path("M3 7h18");
+}
+
+:global(.uvdljpy6b) {
+  d: path("m15 15 2 2");
+}
+
+:global(.v33uslbhb) {
+  d: path("M12 16v2.5");
+}
+
+</style>

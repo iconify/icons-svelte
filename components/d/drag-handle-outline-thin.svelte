@@ -1,0 +1,44 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="jotdonbiv"/><path class="prj4rnb6x"/><path class="iedujiqkb"/><path class="a-9s6wb0y"/><path class="ccgk_xb3n"/><path class="uesvxd39h"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:drag-handle-outline-thin" {...props}></Icon>
+<style>
+:global(.a-9s6wb0y) {
+  d: path("M15 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.ccgk_xb3n) {
+  d: path("M7 18a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.iedujiqkb) {
+  d: path("M7 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.jotdonbiv) {
+  d: path("M7 6a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.prj4rnb6x) {
+  d: path("M15 6a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.uesvxd39h) {
+  d: path("M15 18a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+</style>

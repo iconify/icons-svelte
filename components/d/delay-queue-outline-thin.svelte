@@ -1,0 +1,44 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="fmr2g_bno"/><path class="aff9hemvj"/><path class="mz4c5lb-h"/><path class="osjmvib6z"/><path class="le2s8qb-r"/><path class="ffja1hbnj"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:delay-queue-outline-thin" {...props}></Icon>
+<style>
+:global(.aff9hemvj) {
+  d: path("M9 6a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.ffja1hbnj) {
+  d: path("M12 16h3.5");
+}
+
+:global(.fmr2g_bno) {
+  d: path("M3 6a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.le2s8qb-r) {
+  d: path("M12 13.5V16");
+}
+
+:global(.mz4c5lb-h) {
+  d: path("M15 6a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.osjmvib6z) {
+  d: path("M7 16a5 5 0 1 0 10 0 5 5 0 1 0 -10 0");
+}
+
+</style>

@@ -1,0 +1,68 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="pg7ctnbad"/><path class="vd154sbqz"/><path class="jvtw6bbtb"/><path class="rvbcncc6z"/><path class="ru9t36b4k"/><path class="w77507--d"/><path class="qux3mqb3d"/><path class="fht3habxh"/><path class="wr_ld5s1h"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:pipeline-ci-duotone-regular" {...props}></Icon>
+<style>
+:global(.fht3habxh) {
+  d: path("M19.5 10v4");
+}
+
+:global(.jvtw6bbtb) {
+  fill: currentColor;
+  d: path("M17 4.5A2.5 2.5 0 0 1 19.5 2 2.5 2.5 0 0 1 22 4.5 2.5 2.5 0 0 1 19.5 7 2.5 2.5 0 0 1 17 4.5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.pg7ctnbad) {
+  fill: currentColor;
+  d: path("M2 4.5A2.5 2.5 0 0 1 4.5 2 2.5 2.5 0 0 1 7 4.5 2.5 2.5 0 0 1 4.5 7 2.5 2.5 0 0 1 2 4.5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.qux3mqb3d) {
+  d: path("M17 4.5A2.5 2.5 0 0 1 19.5 2 2.5 2.5 0 0 1 22 4.5 2.5 2.5 0 0 1 19.5 7 2.5 2.5 0 0 1 17 4.5");
+}
+
+:global(.ru9t36b4k) {
+  d: path("M2 4.5A2.5 2.5 0 0 1 4.5 2 2.5 2.5 0 0 1 7 4.5 2.5 2.5 0 0 1 4.5 7 2.5 2.5 0 0 1 2 4.5");
+}
+
+:global(.rvbcncc6z) {
+  fill: currentColor;
+  d: path("M17 19.5a2.5 2.5 0 0 1 2.5 -2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1 -2.5 2.5 2.5 2.5 0 0 1 -2.5 -2.5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.vd154sbqz) {
+  fill: currentColor;
+  d: path("M9.5 4.5A2.5 2.5 0 0 1 12 2a2.5 2.5 0 0 1 2.5 2.5A2.5 2.5 0 0 1 12 7a2.5 2.5 0 0 1 -2.5 -2.5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.w77507--d) {
+  d: path("M9.5 4.5A2.5 2.5 0 0 1 12 2a2.5 2.5 0 0 1 2.5 2.5A2.5 2.5 0 0 1 12 7a2.5 2.5 0 0 1 -2.5 -2.5");
+}
+
+:global(.wr_ld5s1h) {
+  d: path("M17 19.5a2.5 2.5 0 0 1 2.5 -2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1 -2.5 2.5 2.5 2.5 0 0 1 -2.5 -2.5");
+}
+
+</style>

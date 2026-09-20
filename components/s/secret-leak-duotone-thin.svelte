@@ -1,0 +1,68 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="daotx-b_a"/><path class="pj1fh1brs"/><path class="vlhjfdbfm"/><path class="g8vjt7b7p"/><path class="b-fhdniix"/><path class="eoa7zubuy"/><path class="kut6h2oks"/><path class="mtc590bck"/><path class="ceatt7y_b"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:secret-leak-duotone-thin" {...props}></Icon>
+<style>
+:global(.b-fhdniix) {
+  d: path("M2 9a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+:global(.ceatt7y_b) {
+  d: path("M18 19a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.daotx-b_a) {
+  fill: currentColor;
+  d: path("M2 9a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.eoa7zubuy) {
+  d: path("M5 7a3 3 0 0 1 6 0");
+}
+
+:global(.g8vjt7b7p) {
+  fill: currentColor;
+  d: path("M18 19a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.kut6h2oks) {
+  d: path("M18 9a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.mtc590bck) {
+  d: path("M16 14a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.pj1fh1brs) {
+  fill: currentColor;
+  d: path("M18 9a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.vlhjfdbfm) {
+  fill: currentColor;
+  d: path("M16 14a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

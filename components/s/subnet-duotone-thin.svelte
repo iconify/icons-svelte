@@ -1,0 +1,53 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="hr6yi9b8a"/><path class="i9a2h1bww"/><path class="b0cbwhhju"/><path class="viv5gg8xx"/><path class="tip34zbqw"/><path class="ydnq3ggmq"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:subnet-duotone-thin" {...props}></Icon>
+<style>
+:global(.b0cbwhhju) {
+  fill: currentColor;
+  d: path("M10 12a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.hr6yi9b8a) {
+  fill: currentColor;
+  d: path("M2 4a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.i9a2h1bww) {
+  fill: currentColor;
+  d: path("M6 7a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.tip34zbqw) {
+  d: path("M6 7a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.viv5gg8xx) {
+  d: path("M2 4a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+:global(.ydnq3ggmq) {
+  d: path("M10 12a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z");
+}
+
+</style>

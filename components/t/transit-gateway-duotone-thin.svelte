@@ -1,0 +1,47 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="z-q1eh5iu"/><path class="b_5y93rik"/><path class="xucfzr8ng"/><path class="zy54a7bml"/><path class="i2-ny_bzf"/><path class="ffs26fbkv"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:transit-gateway-duotone-thin" {...props}></Icon>
+<style>
+:global(.b_5y93rik) {
+  d: path("m12 8.5 3.5 3.5 -3.5 3.5L8.5 12Z");
+}
+
+:global(.ffs26fbkv) {
+  d: path("M12 17v4");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.i2-ny_bzf) {
+  d: path("M12 3v4");
+}
+
+:global(.xucfzr8ng) {
+  d: path("M3 12h4");
+}
+
+:global(.z-q1eh5iu) {
+  fill: currentColor;
+  d: path("m12 8.5 3.5 3.5 -3.5 3.5L8.5 12Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.zy54a7bml) {
+  d: path("M17 12h4");
+}
+
+</style>

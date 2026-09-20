@@ -1,0 +1,39 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="vztq54byw"/><path class="kic8axbqv"/><path class="acx2mjbnt"/><path class="ikiprn9sq"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:blood-donation-duotone-thin" {...props}></Icon>
+<style>
+:global(.acx2mjbnt) {
+  d: path("M12 11v6");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.ikiprn9sq) {
+  d: path("M9 14h6");
+}
+
+:global(.kic8axbqv) {
+  d: path("m12 5 8 8a8 8 0 1 1 -16 0Z");
+}
+
+:global(.vztq54byw) {
+  fill: currentColor;
+  d: path("m12 5 8 8a8 8 0 1 1 -16 0Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

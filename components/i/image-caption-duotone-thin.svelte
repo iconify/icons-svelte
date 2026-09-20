@@ -1,0 +1,43 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="uhkv12boy"/><path class="lyyswacbl"/><path class="x6s5o0ble"/><path class="p0hi_9aen"/><path class="c2uc-tfxb"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:image-caption-duotone-thin" {...props}></Icon>
+<style>
+:global(.c2uc-tfxb) {
+  d: path("M5 20.5h9");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.lyyswacbl) {
+  d: path("M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z");
+}
+
+:global(.p0hi_9aen) {
+  d: path("M5 17h14");
+}
+
+:global(.uhkv12boy) {
+  fill: currentColor;
+  d: path("M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.x6s5o0ble) {
+  d: path("m6 11 4 -4 3 3 4 -4");
+}
+
+</style>

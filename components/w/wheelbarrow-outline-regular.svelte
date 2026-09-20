@@ -1,0 +1,36 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="r6xi4ylro"/><path class="lw912obya"/><path class="vm55gtbfg"/><path class="xslwtfbwz"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:wheelbarrow-outline-regular" {...props}></Icon>
+<style>
+:global(.lw912obya) {
+  d: path("m18 9 3 3");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.r6xi4ylro) {
+  d: path("M4 8h14l-3 3H7Z");
+}
+
+:global(.vm55gtbfg) {
+  d: path("M4 15a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+:global(.xslwtfbwz) {
+  d: path("M15 11v6");
+}
+
+</style>

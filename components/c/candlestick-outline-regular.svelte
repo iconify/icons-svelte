@@ -1,0 +1,44 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="upcwfhbgi"/><path class="xrrcnmb6x"/><path class="kfbowc6fy"/><path class="dj67tfbum"/><path class="i6ie1cbih"/><path class="vuw9fh7pu"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:candlestick-outline-regular" {...props}></Icon>
+<style>
+:global(.dj67tfbum) {
+  d: path("M16.5 2v3");
+}
+
+:global(.i6ie1cbih) {
+  d: path("M13 7a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2Z");
+}
+
+:global(.kfbowc6fy) {
+  d: path("M5.5 16v5");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.upcwfhbgi) {
+  d: path("M5.5 3v5");
+}
+
+:global(.vuw9fh7pu) {
+  d: path("M16.5 15v5");
+}
+
+:global(.xrrcnmb6x) {
+  d: path("M2 10a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+</style>

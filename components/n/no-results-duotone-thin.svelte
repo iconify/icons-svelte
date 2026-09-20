@@ -1,0 +1,43 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="hqafrt8gv"/><path class="aai5cvb0q"/><path class="g69nh1q2b"/><path class="x6kbyg_lb"/><path class="ury5s7a4p"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:no-results-duotone-thin" {...props}></Icon>
+<style>
+:global(.aai5cvb0q) {
+  d: path("M4 10a5 5 0 1 0 10 0 5 5 0 1 0 -10 0");
+}
+
+:global(.g69nh1q2b) {
+  d: path("m5.5 13.5 -3 3");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.hqafrt8gv) {
+  fill: currentColor;
+  d: path("M4 10a5 5 0 1 0 10 0 5 5 0 1 0 -10 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.ury5s7a4p) {
+  d: path("m22 12 -5 5");
+}
+
+:global(.x6kbyg_lb) {
+  d: path("m17 12 5 5");
+}
+
+</style>

@@ -1,0 +1,44 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="murw5tb-p"/><path class="gfdpeof0d"/><path class="y_uork5-p"/><path class="okg0-qwlz"/><path class="n3p0zmbop"/><path class="b15_tib7k"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:watercolour-outline-bold" {...props}></Icon>
+<style>
+:global(.b15_tib7k) {
+  d: path("M17.5 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.gfdpeof0d) {
+  d: path("M9 7v10");
+}
+
+:global(.murw5tb-p) {
+  d: path("M2 9a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+:global(.n3p0zmbop) {
+  d: path("M11 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.okg0-qwlz) {
+  d: path("M4.5 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.s0phu2bbs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+:global(.y_uork5-p) {
+  d: path("M15 7v10");
+}
+
+</style>

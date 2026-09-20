@@ -1,0 +1,50 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="qt9bodbdh"/><path class="gch2hkb1j"/><path class="px5-9pj7g"/><path class="khzxabbpm"/><path class="nwsr3kbjq"/><path class="orx4wjbhb"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:gloves-duotone-regular" {...props}></Icon>
+<style>
+:global(.gch2hkb1j) {
+  fill: currentColor;
+  d: path("M15 21v-8a2.5 2.5 0 0 1 5 0v8Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.khzxabbpm) {
+  d: path("M15 21v-8a2.5 2.5 0 0 1 5 0v8Z");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.nwsr3kbjq) {
+  d: path("M6 17h6");
+}
+
+:global(.orx4wjbhb) {
+  d: path("M15 18h5");
+}
+
+:global(.px5-9pj7g) {
+  d: path("M6 21V10a3 3 0 0 1 6 0v11Z");
+}
+
+:global(.qt9bodbdh) {
+  fill: currentColor;
+  d: path("M6 21V10a3 3 0 0 1 6 0v11Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

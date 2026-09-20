@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="rsejymb4c"/><path class="uom89l0gh"/><path class="d3t8z9b-e"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:bedtime-story-outline-regular" {...props}></Icon>
+<style>
+:global(.d3t8z9b-e) {
+  d: path("M14 2a5 5 0 1 0 0 10 4 4 0 0 1 0 -10");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.rsejymb4c) {
+  d: path("M12 13q-3 -3 -9 -3v10c4 0 7 1 9 2");
+}
+
+:global(.uom89l0gh) {
+  d: path("M12 13q3 -3 9 -3v10c-4 0 -7 1 -9 2");
+}
+
+</style>

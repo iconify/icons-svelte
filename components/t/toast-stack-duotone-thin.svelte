@@ -1,0 +1,42 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="dr1q0bzhj"/><path class="qjs6_4bst"/><path class="c-bzonblr"/><path class="kqaa63eeo"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:toast-stack-duotone-thin" {...props}></Icon>
+<style>
+:global(.c-bzonblr) {
+  d: path("M2 14.5A2.5 2.5 0 0 1 4.5 12h11a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1 -2.5 2.5h-11A2.5 2.5 0 0 1 2 14.5");
+}
+
+:global(.dr1q0bzhj) {
+  fill: currentColor;
+  d: path("M2 14.5A2.5 2.5 0 0 1 4.5 12h11a2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1 -2.5 2.5h-11A2.5 2.5 0 0 1 2 14.5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.kqaa63eeo) {
+  d: path("M6 6.5A2.5 2.5 0 0 1 8.5 4h11A2.5 2.5 0 0 1 22 6.5 2.5 2.5 0 0 1 19.5 9h-11A2.5 2.5 0 0 1 6 6.5");
+}
+
+:global(.qjs6_4bst) {
+  fill: currentColor;
+  d: path("M6 6.5A2.5 2.5 0 0 1 8.5 4h11A2.5 2.5 0 0 1 22 6.5 2.5 2.5 0 0 1 19.5 9h-11A2.5 2.5 0 0 1 6 6.5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

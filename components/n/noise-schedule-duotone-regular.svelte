@@ -1,0 +1,64 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="zc7-aybrt"/><path class="a4ntl3b-i"/><path class="oiuqz28dl"/><path class="tly31jb6g"/><path class="o5r_prbgx"/><path class="xrw775b-m"/><path class="el8_zutrb"/><path class="wc07w8blj"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:noise-schedule-duotone-regular" {...props}></Icon>
+<style>
+:global(.a4ntl3b-i) {
+  fill: currentColor;
+  d: path("M10 9.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.el8_zutrb) {
+  d: path("M16 13.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.o5r_prbgx) {
+  d: path("M2 5a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+:global(.oiuqz28dl) {
+  fill: currentColor;
+  d: path("M16 13.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.tly31jb6g) {
+  fill: currentColor;
+  d: path("M20 17.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.wc07w8blj) {
+  d: path("M20 17.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.xrw775b-m) {
+  d: path("M10 9.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.zc7-aybrt) {
+  fill: currentColor;
+  d: path("M2 5a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+</style>

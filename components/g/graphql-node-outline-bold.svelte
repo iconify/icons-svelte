@@ -1,0 +1,36 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="enrpg0aoq"/><path class="fnf6pdbdu"/><path class="oxc7qdbky"/><path class="g4q4atb2q"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:graphql-node-outline-bold" {...props}></Icon>
+<style>
+:global(.enrpg0aoq) {
+  d: path("M9 12a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+:global(.fnf6pdbdu) {
+  d: path("M12 3v6");
+}
+
+:global(.g4q4atb2q) {
+  d: path("M14.5 14.5 19 19");
+}
+
+:global(.oxc7qdbky) {
+  d: path("M9.5 14.5 5 19");
+}
+
+:global(.s0phu2bbs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+</style>

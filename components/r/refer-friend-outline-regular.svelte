@@ -1,0 +1,44 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="paopftbkn"/><path class="k-733g5om"/><path class="rau56wyhw"/><path class="xubklhs8n"/><path class="vylmt4x9b"/><path class="l59qyvblu"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:refer-friend-outline-regular" {...props}></Icon>
+<style>
+:global(.k-733g5om) {
+  d: path("M2 19.5a4 4 0 0 1 8 0");
+}
+
+:global(.l59qyvblu) {
+  d: path("m11.5 9.5 2 2 -2 2");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.paopftbkn) {
+  d: path("M3 5.5a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+:global(.rau56wyhw) {
+  d: path("M15 5.5a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+:global(.vylmt4x9b) {
+  d: path("M9.5 11.5h4");
+}
+
+:global(.xubklhs8n) {
+  d: path("M14 19.5a4 4 0 0 1 8 0");
+}
+
+</style>

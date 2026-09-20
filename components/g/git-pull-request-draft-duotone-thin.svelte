@@ -1,0 +1,83 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="qecovn3xi"/><path class="jz0b4rbqp"/><path class="st2iv5bfu"/><path class="acai3yb8w"/><path class="zqjox4bdd"/><path class="xp1r03_dy"/><path class="kn0tcm93r"/><path class="k5nz3bcao"/><path class="fg8libqda"/><path class="pw61xnbei"/><path class="jah0pzsgs"/><path class="a10g3vbao"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:git-pull-request-draft-duotone-thin" {...props}></Icon>
+<style>
+:global(.a10g3vbao) {
+  d: path("M18 7v3");
+}
+
+:global(.acai3yb8w) {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M6 7.5v9");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.fg8libqda) {
+  d: path("M4 19a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.jah0pzsgs) {
+  d: path("M18 12.5v4");
+}
+
+:global(.jz0b4rbqp) {
+  fill: currentColor;
+  d: path("M4 19a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.k5nz3bcao) {
+  d: path("M6 7.5v9");
+}
+
+:global(.kn0tcm93r) {
+  d: path("M4 5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.pw61xnbei) {
+  d: path("M16 19a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.qecovn3xi) {
+  fill: currentColor;
+  d: path("M4 5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.st2iv5bfu) {
+  fill: currentColor;
+  d: path("M16 19a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.xp1r03_dy) {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M18 7v3");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+:global(.zqjox4bdd) {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M18 12.5v4");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+</style>

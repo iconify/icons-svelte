@@ -1,0 +1,57 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="esolkqbpc"/><path class="ncgg_vb-i"/><path class="ov-43hi-z"/><path class="c-pcdbceg"/><path class="hn-9k3ndx"/><path class="hbb998bpi"/><path class="r7ao24n4h"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:freezing-rain-duotone-thin" {...props}></Icon>
+<style>
+:global(.c-pcdbceg) {
+  d: path("M4 14a4 4 0 0 1 2 -7.5A5 5 0 0 1 15.5 5a5.5 5.5 0 0 1 4.5 9Z");
+}
+
+:global(.esolkqbpc) {
+  fill: currentColor;
+  d: path("M4 14a4 4 0 0 1 2 -7.5A5 5 0 0 1 15.5 5a5.5 5.5 0 0 1 4.5 9Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.hbb998bpi) {
+  d: path("m14 16 2.5 2.5a2.5 2.5 0 0 1 -5 0Z");
+}
+
+:global(.hn-9k3ndx) {
+  d: path("m8 16 2.5 2.5a2.5 2.5 0 0 1 -5 0Z");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.ncgg_vb-i) {
+  fill: currentColor;
+  d: path("m8 16 2.5 2.5a2.5 2.5 0 0 1 -5 0Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.ov-43hi-z) {
+  fill: currentColor;
+  d: path("m14 16 2.5 2.5a2.5 2.5 0 0 1 -5 0Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.r7ao24n4h) {
+  d: path("M4 22h16");
+}
+
+</style>

@@ -1,0 +1,40 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="byg9qhb1x"/><path class="e-hz86dqn"/><path class="xlsprdnsf"/><path class="rrb5igeqn"/><path class="g9v3j3igs"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:benchmark-code-outline-regular" {...props}></Icon>
+<style>
+:global(.byg9qhb1x) {
+  d: path("M3 13a7 7 0 1 0 14 0 7 7 0 1 0 -14 0");
+}
+
+:global(.e-hz86dqn) {
+  d: path("m10 13 4 -4");
+}
+
+:global(.g9v3j3igs) {
+  d: path("M22 6v4");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.rrb5igeqn) {
+  d: path("M19 4v4");
+}
+
+:global(.xlsprdnsf) {
+  d: path("M9 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+</style>

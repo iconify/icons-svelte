@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="qvqi41cih"/><path class="j2aic6ujd"/><path class="c3xkdj8uw"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:agent-escalate-outline-thin" {...props}></Icon>
+<style>
+:global(.c3xkdj8uw) {
+  d: path("M14.5 5H19v4.5");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.j2aic6ujd) {
+  d: path("m12 12 7 -7");
+}
+
+:global(.qvqi41cih) {
+  d: path("M8.69 13.37a4 4 0 1 1 -3.38 0");
+}
+
+</style>

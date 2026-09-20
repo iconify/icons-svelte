@@ -1,0 +1,36 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="zkld0ib7h"/><path class="hgmedzbsm"/><path class="h2ryw2b8h"/><path class="szeqx6bdv"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:reading-list-outline-thin" {...props}></Icon>
+<style>
+:global(.h2ryw2b8h) {
+  d: path("M13 13h7");
+}
+
+:global(.hgmedzbsm) {
+  d: path("M13 9h7");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.szeqx6bdv) {
+  d: path("M13 17h5");
+}
+
+:global(.zkld0ib7h) {
+  d: path("M4 6h6v10l-3 -3 -3 3Z");
+}
+
+</style>

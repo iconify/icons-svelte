@@ -1,0 +1,36 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="g_eatebwd"/><path class="prj9u5frn"/><path class="neof5acyb"/><path class="jg5yyubai"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:swimming-race-outline-bold" {...props}></Icon>
+<style>
+:global(.g_eatebwd) {
+  d: path("M5 8a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+:global(.jg5yyubai) {
+  d: path("M3 16c3 -2 6 2 9 0s6 2 9 0");
+}
+
+:global(.neof5acyb) {
+  d: path("m14 10 4 -4");
+}
+
+:global(.prj9u5frn) {
+  d: path("M9 10h5");
+}
+
+:global(.s0phu2bbs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+</style>

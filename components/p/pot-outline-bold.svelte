@@ -1,0 +1,40 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="yipk7w_dp"/><path class="fh4vasbnq"/><path class="us2evabuy"/><path class="wzsyjh0wp"/><path class="prbp3oa5j"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:pot-outline-bold" {...props}></Icon>
+<style>
+:global(.fh4vasbnq) {
+  d: path("M8 12a4 4 0 0 1 8 0");
+}
+
+:global(.prbp3oa5j) {
+  d: path("M19 15h3");
+}
+
+:global(.s0phu2bbs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+:global(.us2evabuy) {
+  d: path("M12 5.5V8");
+}
+
+:global(.wzsyjh0wp) {
+  d: path("M2 15h3");
+}
+
+:global(.yipk7w_dp) {
+  d: path("M5 12v7h14v-7Z");
+}
+
+</style>

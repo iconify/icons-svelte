@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="iymet_cml"/><path class="uxtx6q9dp"/><path class="c4khiwgvb"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:prompt-injection-block-outline-regular" {...props}></Icon>
+<style>
+:global(.c4khiwgvb) {
+  d: path("M8 15h8");
+}
+
+:global(.iymet_cml) {
+  d: path("M15.5 4H19a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H5a3 3 0 0 1 -3 -3V8l4 -4h3.5");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.uxtx6q9dp) {
+  d: path("M13.5 8 11 10.5h2.5L11 13");
+}
+
+</style>

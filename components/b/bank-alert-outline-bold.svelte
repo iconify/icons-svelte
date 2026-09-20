@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="mcubrkb2y"/><path class="tqmlicc3x"/><path class="ivqg9reic"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:bank-alert-outline-bold" {...props}></Icon>
+<style>
+:global(.ivqg9reic) {
+  d: path("M11 17.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.mcubrkb2y) {
+  d: path("M2 21h20M5 21V9m14 12V9M2 9h20M5 9l5.5 -5.5h3L19 9");
+}
+
+:global(.s0phu2bbs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+:global(.tqmlicc3x) {
+  d: path("M12 11.5v3");
+}
+
+</style>

@@ -1,0 +1,44 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="bdvf6t_rz"/><path class="qyt_1qaov"/><path class="oq9ztqbxu"/><path class="mhqlqeb7x"/><path class="hgon-pbwq"/><path class="q7dxcnbil"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:pollen-high-outline-thin" {...props}></Icon>
+<style>
+:global(.bdvf6t_rz) {
+  d: path("M7.5 13a4.5 4.5 0 1 0 9 0 4.5 4.5 0 1 0 -9 0");
+}
+
+:global(.hgon-pbwq) {
+  d: path("M5 19a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.mhqlqeb7x) {
+  d: path("M18 8a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.oq9ztqbxu) {
+  d: path("M11 4a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.q7dxcnbil) {
+  d: path("M17 19a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+:global(.qyt_1qaov) {
+  d: path("M4 8a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+</style>

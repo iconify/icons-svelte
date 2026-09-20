@@ -1,0 +1,43 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s0phu2bbs"><path class="fb6xkzb1k"/><path class="g_k4bub3x"/><path class="guw4_4ovg"/><path class="f4pe6ubam"/><path class="gwf3f1bpc"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconmind:savings-goal-duotone-bold" {...props}></Icon>
+<style>
+:global(.f4pe6ubam) {
+  d: path("M9 12.5v6");
+}
+
+:global(.fb6xkzb1k) {
+  fill: currentColor;
+  d: path("M6 9h12v10a3 3 0 0 1 -3 3H9a3 3 0 0 1 -3 -3Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+:global(.g_k4bub3x) {
+  d: path("M6 9h12v10a3 3 0 0 1 -3 3H9a3 3 0 0 1 -3 -3Z");
+}
+
+:global(.guw4_4ovg) {
+  d: path("M8 9V4h8v5");
+}
+
+:global(.gwf3f1bpc) {
+  d: path("M9 13.5h5v4H9");
+}
+
+:global(.s0phu2bbs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+</style>
