@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/by6m3gbjv.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="by6m3gbjv"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mdi:cutlery-variant" {...props}></Icon>

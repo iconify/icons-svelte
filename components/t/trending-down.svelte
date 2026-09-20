@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/f9o9avmcy.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="f9o9avmcy"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mdi:trending-down" {...props}></Icon>

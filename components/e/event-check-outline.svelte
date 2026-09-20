@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/e/e3h0oiboe.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="e3h0oiboe"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mdi:event-check-outline" {...props}></Icon>

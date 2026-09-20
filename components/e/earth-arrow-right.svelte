@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/y/yoh2u4ggd.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="yoh2u4ggd"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mdi:earth-arrow-right" {...props}></Icon>

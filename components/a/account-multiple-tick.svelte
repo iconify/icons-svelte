@@ -1,0 +1,11 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/p/pt0oxtb-t.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pt0oxtb-t"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mdi:account-multiple-tick" {...props}></Icon>
