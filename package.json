@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/pinhead",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -1469,6 +1469,22 @@
     "./brick-trowel": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/brick-trowel.svelte"
+    },
+    "./brick-wall": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brick-wall.svelte"
+    },
+    "./brick-wall-with-battlement": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brick-wall-with-battlement.svelte"
+    },
+    "./brick-wall-with-battlement-and-sallyport": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brick-wall-with-battlement-and-sallyport.svelte"
+    },
+    "./brick-wall-with-bolt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brick-wall-with-bolt.svelte"
     },
     "./bridge": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3377,42 +3393,6 @@
     "./e": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/e.svelte"
-    },
-    "./e-wide": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide.svelte"
-    },
-    "./e-wide-and-arrow-down": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-and-arrow-down.svelte"
-    },
-    "./e-wide-in-parking-structure": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-in-parking-structure.svelte"
-    },
-    "./e-wide-on-parking-line": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-on-parking-line.svelte"
-    },
-    "./e-wide-under-roof": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-under-roof.svelte"
-    },
-    "./e-wide-with-arrow-bottom-right": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-with-arrow-bottom-right.svelte"
-    },
-    "./e-wide-with-arrow-right": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-with-arrow-right.svelte"
-    },
-    "./e-wide-with-bicycle": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-with-bicycle.svelte"
-    },
-    "./e-wide-with-parking-meter": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/e/e-wide-with-parking-meter.svelte"
     },
     "./ear": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6074,42 +6054,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/p.svelte"
     },
-    "./p-wide": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide.svelte"
-    },
-    "./p-wide-and-arrow-down": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-and-arrow-down.svelte"
-    },
-    "./p-wide-in-parking-structure": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-in-parking-structure.svelte"
-    },
-    "./p-wide-on-parking-line": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-on-parking-line.svelte"
-    },
-    "./p-wide-under-roof": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-under-roof.svelte"
-    },
-    "./p-wide-with-arrow-bottom-right": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-with-arrow-bottom-right.svelte"
-    },
-    "./p-wide-with-arrow-right": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-with-arrow-right.svelte"
-    },
-    "./p-wide-with-bicycle": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-with-bicycle.svelte"
-    },
-    "./p-wide-with-parking-meter": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/p-wide-with-parking-meter.svelte"
-    },
     "./paifang": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/paifang.svelte"
@@ -6166,17 +6110,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/parking-stall-markings.svelte"
     },
-    "./parking-stall-markings-with-e-wide": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/parking-stall-markings-with-e-wide.svelte"
-    },
-    "./parking-stall-markings-with-p-wide": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/parking-stall-markings-with-p-wide.svelte"
-    },
     "./parking-stall-markings-with-person-in-wheelchair": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/parking-stall-markings-with-person-in-wheelchair.svelte"
+    },
+    "./parking-stall-markings-with-wide-e": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parking-stall-markings-with-wide-e.svelte"
+    },
+    "./parking-stall-markings-with-wide-p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parking-stall-markings-with-wide-p.svelte"
     },
     "./parking-structure": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9146,6 +9090,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-outline.svelte"
     },
+    "./square-outline-with-bottom-right-half": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-outline-with-bottom-right-half.svelte"
+    },
     "./square-outline-with-dot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-outline-with-dot.svelte"
@@ -9153,6 +9101,10 @@
     "./square-outline-with-square-dot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-outline-with-square-dot.svelte"
+    },
+    "./square-outline-with-top-left-half": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-outline-with-top-left-half.svelte"
     },
     "./square-with-dot": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9337,6 +9289,10 @@
     "./stone-wall-with-battlement": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stone-wall-with-battlement.svelte"
+    },
+    "./stone-wall-with-battlement-and-sallyport": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stone-wall-with-battlement-and-sallyport.svelte"
     },
     "./storage-drum": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10666,6 +10622,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wall-with-battlement.svelte"
     },
+    "./wall-with-battlement-and-sallyport": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wall-with-battlement-and-sallyport.svelte"
+    },
     "./wallmounted-surveillance-camera": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wallmounted-surveillance-camera.svelte"
@@ -10853,6 +10813,78 @@
     "./whistle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/whistle.svelte"
+    },
+    "./wide-e": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e.svelte"
+    },
+    "./wide-e-and-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-and-arrow-down.svelte"
+    },
+    "./wide-e-in-parking-structure": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-in-parking-structure.svelte"
+    },
+    "./wide-e-on-parking-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-on-parking-line.svelte"
+    },
+    "./wide-e-under-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-under-roof.svelte"
+    },
+    "./wide-e-with-arrow-bottom-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-with-arrow-bottom-right.svelte"
+    },
+    "./wide-e-with-arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-with-arrow-right.svelte"
+    },
+    "./wide-e-with-bicycle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-with-bicycle.svelte"
+    },
+    "./wide-e-with-parking-meter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-e-with-parking-meter.svelte"
+    },
+    "./wide-p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p.svelte"
+    },
+    "./wide-p-and-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-and-arrow-down.svelte"
+    },
+    "./wide-p-in-parking-structure": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-in-parking-structure.svelte"
+    },
+    "./wide-p-on-parking-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-on-parking-line.svelte"
+    },
+    "./wide-p-under-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-under-roof.svelte"
+    },
+    "./wide-p-with-arrow-bottom-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-with-arrow-bottom-right.svelte"
+    },
+    "./wide-p-with-arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-with-arrow-right.svelte"
+    },
+    "./wide-p-with-bicycle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-with-bicycle.svelte"
+    },
+    "./wide-p-with-parking-meter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wide-p-with-parking-meter.svelte"
     },
     "./wide-plus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11222,6 +11254,42 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/droplet-beside-question-mark.svelte"
     },
+    "./e-wide": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide.svelte"
+    },
+    "./e-wide-and-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-and-arrow-down.svelte"
+    },
+    "./e-wide-in-parking-structure": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-in-parking-structure.svelte"
+    },
+    "./e-wide-on-parking-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-on-parking-line.svelte"
+    },
+    "./e-wide-under-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-under-roof.svelte"
+    },
+    "./e-wide-with-arrow-bottom-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-with-arrow-bottom-right.svelte"
+    },
+    "./e-wide-with-arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-with-arrow-right.svelte"
+    },
+    "./e-wide-with-bicycle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-with-bicycle.svelte"
+    },
+    "./e-wide-with-parking-meter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/e-wide-with-parking-meter.svelte"
+    },
     "./ear-atop-slash": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ear-atop-slash.svelte"
@@ -11578,6 +11646,42 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/overweight-person.svelte"
     },
+    "./p-wide": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide.svelte"
+    },
+    "./p-wide-and-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-and-arrow-down.svelte"
+    },
+    "./p-wide-in-parking-structure": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-in-parking-structure.svelte"
+    },
+    "./p-wide-on-parking-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-on-parking-line.svelte"
+    },
+    "./p-wide-under-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-under-roof.svelte"
+    },
+    "./p-wide-with-arrow-bottom-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-with-arrow-bottom-right.svelte"
+    },
+    "./p-wide-with-arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-with-arrow-right.svelte"
+    },
+    "./p-wide-with-bicycle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-with-bicycle.svelte"
+    },
+    "./p-wide-with-parking-meter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/p-wide-with-parking-meter.svelte"
+    },
     "./palette-with-music-note": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/palette-with-music-note.svelte"
@@ -11589,6 +11693,14 @@
     "./parallelogram-tall-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/parallelogram-tall-right.svelte"
+    },
+    "./parking-stall-markings-with-e-wide": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parking-stall-markings-with-e-wide.svelte"
+    },
+    "./parking-stall-markings-with-p-wide": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parking-stall-markings-with-p-wide.svelte"
     },
     "./people-above-car": {
       "types": "./types/gfwqskkx.d.ts",
