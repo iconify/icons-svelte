@@ -1,0 +1,39 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="i8n8cc_hw"/><circle class="odkqjcchh"/><circle class="uq5fhnb9e"/><circle class="cxfni2ljt"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pepicons-pop:calendar" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.cxfni2ljt) {
+  cx: 14.5px;
+  cy: 4.5px;
+  r: 1.5px;
+}
+
+:global(.i8n8cc_hw) {
+  fill-rule: evenodd;
+  d: path("M3 4h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m1 4v8h12V8z");
+}
+
+:global(.odkqjcchh) {
+  cx: 6.5px;
+  cy: 10.5px;
+  r: 1.5px;
+}
+
+:global(.uq5fhnb9e) {
+  cx: 5.5px;
+  cy: 4.5px;
+  r: 1.5px;
+}
+
+</style>
