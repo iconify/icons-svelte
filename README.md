@@ -1,5 +1,6 @@
 # @iconify-svelte/lucide
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/svelte/-/tree/lucide).
 **Lucide**
 
 Author: [Lucide Contributors](https://github.com/lucide-icons/lucide)
@@ -10,6 +11,11 @@ Browse all icons: [preview Lucide on Iconify](https://icon-sets.iconify.design/l
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/svelte#lucide
+```
+
+or
 ```bash
 npm install github:iconify/icons-svelte#lucide
 ```
