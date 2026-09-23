@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/rs2p5x73g.css';
+import '../../css/f/f_hp_0bsk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="rs2p5x73g"/>`;
+const content = `<path class="f_hp_0bsk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="meteor-icons:preact" {...props}></Icon>

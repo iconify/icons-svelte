@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/meteor-icons",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "https://icon-sets.iconify.design/meteor-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -205,6 +205,10 @@
     "./badge-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-check.svelte"
+    },
+    "./badge-percent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-percent.svelte"
     },
     "./barcode": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1301,6 +1305,10 @@
     "./refresh": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/refresh.svelte"
+    },
+    "./regex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex.svelte"
     },
     "./rhombus": {
       "types": "./types/gfwqskkx.d.ts",
