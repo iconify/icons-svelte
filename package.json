@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/wordpress",
   "type": "module",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "GPL-2.0-or-later",
@@ -510,6 +510,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fullscreen.svelte"
     },
+    "./fullscreen-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fullscreen-exit.svelte"
+    },
     "./funnel": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/funnel.svelte"
@@ -645,6 +649,10 @@
     "./justify-space-between-vertical": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/justify-space-between-vertical.svelte"
+    },
+    "./justify-space-evenly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/justify-space-evenly.svelte"
     },
     "./justify-stretch": {
       "types": "./types/gfwqskkx.d.ts",
@@ -993,6 +1001,10 @@
     "./quote": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quote.svelte"
+    },
+    "./reaction": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/reaction.svelte"
     },
     "./receipt": {
       "types": "./types/gfwqskkx.d.ts",
