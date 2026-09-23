@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -8826,6 +8826,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nodebb.svelte"
     },
+    "./nodebo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nodebo.svelte"
+    },
     "./nodedotjs": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nodedotjs.svelte"
@@ -9121,6 +9125,10 @@
     "./okta": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/okta.svelte"
+    },
+    "./okta-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/okta-legacy.svelte"
     },
     "./okx": {
       "types": "./types/gfwqskkx.d.ts",
