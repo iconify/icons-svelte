@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/selfhst",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC-BY-4.0",
@@ -425,6 +425,18 @@
     "./agregarr-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/agregarr-light.svelte"
+    },
+    "./aiometadata": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aiometadata.svelte"
+    },
+    "./aiometadata-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aiometadata-dark.svelte"
+    },
+    "./aiometadata-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aiometadata-light.svelte"
     },
     "./aiostreams": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3194,6 +3206,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/certimate-light.svelte"
     },
+    "./cetusguard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cetusguard.svelte"
+    },
+    "./cetusguard-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cetusguard-dark.svelte"
+    },
+    "./cetusguard-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cetusguard-light.svelte"
+    },
     "./changedetection": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/changedetection.svelte"
@@ -4373,6 +4397,18 @@
     "./crow-ci-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/crow-ci-light.svelte"
+    },
+    "./crowbarr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crowbarr.svelte"
+    },
+    "./crowbarr-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crowbarr-dark.svelte"
+    },
+    "./crowbarr-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crowbarr-light.svelte"
     },
     "./crowdsec": {
       "types": "./types/gfwqskkx.d.ts",
@@ -18638,6 +18674,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/patreon-light.svelte"
     },
+    "./patzer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patzer.svelte"
+    },
+    "./patzer-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patzer-dark.svelte"
+    },
+    "./patzer-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/patzer-light.svelte"
+    },
     "./payload": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/payload.svelte"
@@ -18945,6 +18993,18 @@
     "./pgadmin-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pgadmin-light.svelte"
+    },
+    "./pgsty-silo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pgsty-silo.svelte"
+    },
+    "./pgsty-silo-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pgsty-silo-dark.svelte"
+    },
+    "./pgsty-silo-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pgsty-silo-light.svelte"
     },
     "./phanpy": {
       "types": "./types/gfwqskkx.d.ts",
@@ -23225,6 +23285,18 @@
     "./silex-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/silex-light.svelte"
+    },
+    "./silo-media-server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/silo-media-server.svelte"
+    },
+    "./silo-media-server-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/silo-media-server-dark.svelte"
+    },
+    "./silo-media-server-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/silo-media-server-light.svelte"
     },
     "./simpledms": {
       "types": "./types/gfwqskkx.d.ts",
@@ -27741,6 +27813,10 @@
     "./windows-terminal-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/windows-terminal-light.svelte"
+    },
+    "./windshift": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windshift.svelte"
     },
     "./wiredoor": {
       "types": "./types/gfwqskkx.d.ts",
