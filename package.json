@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/tabler",
   "type": "module",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "homepage": "https://icon-sets.iconify.design/tabler/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -10466,6 +10466,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dumpling-filled.svelte"
     },
+    "./duplicate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/duplicate.svelte"
+    },
     "./e-passport": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/e-passport.svelte"
@@ -12034,6 +12038,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder.svelte"
     },
+    "./folder-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-ai.svelte"
+    },
     "./folder-bolt": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-bolt.svelte"
@@ -12117,6 +12125,10 @@
     "./folder-share": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-share.svelte"
+    },
+    "./folder-sparkle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-sparkle.svelte"
     },
     "./folder-star": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12434,9 +12446,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-branch.svelte"
     },
+    "./git-branch-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-check.svelte"
+    },
     "./git-branch-deleted": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-branch-deleted.svelte"
+    },
+    "./git-branch-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-x.svelte"
     },
     "./git-cherry-pick": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12458,6 +12478,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-merge.svelte"
     },
+    "./git-merge-queue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-merge-queue.svelte"
+    },
     "./git-pull-request": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-pull-request.svelte"
@@ -12473,6 +12497,14 @@
     "./git-pull-request-draft": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-pull-request-draft.svelte"
+    },
+    "./git-pull-request-locked": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-locked.svelte"
+    },
+    "./git-pull-request-unlisted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-unlisted.svelte"
     },
     "./gizmo": {
       "types": "./types/gfwqskkx.d.ts",
@@ -16094,6 +16126,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-2.svelte"
     },
+    "./message-2-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-2-ai.svelte"
+    },
     "./message-2-bolt": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-2-bolt.svelte"
@@ -16166,6 +16202,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-2-share.svelte"
     },
+    "./message-2-sparkle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-2-sparkle.svelte"
+    },
     "./message-2-star": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-2-star.svelte"
@@ -16177,6 +16217,10 @@
     "./message-2-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-2-x.svelte"
+    },
+    "./message-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-ai.svelte"
     },
     "./message-bolt": {
       "types": "./types/gfwqskkx.d.ts",
@@ -16382,6 +16426,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-share.svelte"
     },
+    "./message-sparkle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-sparkle.svelte"
+    },
     "./message-star": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-star.svelte"
@@ -16565,6 +16613,10 @@
     "./mobiledata-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mobiledata-off.svelte"
+    },
+    "./model-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/model-ai.svelte"
     },
     "./moneybag": {
       "types": "./types/gfwqskkx.d.ts",
@@ -18025,6 +18077,10 @@
     "./pencil": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pencil.svelte"
+    },
+    "./pencil-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-ai.svelte"
     },
     "./pencil-bolt": {
       "types": "./types/gfwqskkx.d.ts",
@@ -22450,6 +22506,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stack-backward.svelte"
     },
+    "./stack-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-check.svelte"
+    },
     "./stack-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stack-filled.svelte"
@@ -22466,6 +22526,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stack-middle.svelte"
     },
+    "./stack-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-minus.svelte"
+    },
+    "./stack-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-plus.svelte"
+    },
     "./stack-pop": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stack-pop.svelte"
@@ -22473,6 +22541,10 @@
     "./stack-push": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stack-push.svelte"
+    },
+    "./stack-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stack-x.svelte"
     },
     "./stairs": {
       "types": "./types/gfwqskkx.d.ts",
