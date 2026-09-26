@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/carbon",
   "type": "module",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "homepage": "https://icon-sets.iconify.design/carbon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "Apache-2.0",
@@ -626,6 +626,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/asset-digital-twin.svelte"
     },
+    "./asset-edit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/asset-edit.svelte"
+    },
     "./asset-movement": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/asset-movement.svelte"
@@ -781,6 +785,10 @@
     "./battery-warning": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-warning.svelte"
+    },
+    "./beacon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beacon.svelte"
     },
     "./bee": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2261,6 +2269,30 @@
     "./content-delivery-network": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/content-delivery-network.svelte"
+    },
+    "./content-navigator-edit-service-download": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-navigator-edit-service-download.svelte"
+    },
+    "./content-navigator-edit-service-upload": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-navigator-edit-service-upload.svelte"
+    },
+    "./content-navigator-sync-error": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-navigator-sync-error.svelte"
+    },
+    "./content-navigator-sync-loading": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-navigator-sync-loading.svelte"
+    },
+    "./content-navigator-sync-paused": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-navigator-sync-paused.svelte"
+    },
+    "./content-navigator-sync-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/content-navigator-sync-warning.svelte"
     },
     "./content-view": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6434,6 +6466,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/marine-warning.svelte"
     },
+    "./markdown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/markdown.svelte"
+    },
     "./material-request": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/material-request.svelte"
@@ -7990,6 +8026,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/recycle.svelte"
     },
+    "./red-hat-ai-inference-on-ibm-cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/red-hat-ai-inference-on-ibm-cloud.svelte"
+    },
     "./red-hat-ai-instructlab-on-ibm-cloud": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/red-hat-ai-instructlab-on-ibm-cloud.svelte"
@@ -9109,6 +9149,10 @@
     "./stem-leaf-plot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stem-leaf-plot.svelte"
+    },
+    "./stepzen-graph-server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stepzen-graph-server.svelte"
     },
     "./stethoscope": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10526,6 +10570,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/view-filled.svelte"
     },
+    "./view-matrix": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-matrix.svelte"
+    },
     "./view-mode-1": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/view-mode-1.svelte"
@@ -10545,6 +10593,10 @@
     "./view-off-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/view-off-filled.svelte"
+    },
+    "./view-table": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/view-table.svelte"
     },
     "./vintage-mac": {
       "types": "./types/gfwqskkx.d.ts",
