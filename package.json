@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.55",
+  "version": "1.0.56",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -501,6 +501,10 @@
     "./file-type-cheader": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-cheader.svelte"
+    },
+    "./file-type-checkov": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-checkov.svelte"
     },
     "./file-type-chef": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1962,6 +1966,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-cabal.svelte"
     },
+    "./file-type-light-checkov": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-checkov.svelte"
+    },
     "./file-type-light-circleci": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-circleci.svelte"
@@ -2274,6 +2282,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-purescript.svelte"
     },
+    "./file-type-light-pyrefly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-pyrefly.svelte"
+    },
     "./file-type-light-quarkdown": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-quarkdown.svelte"
@@ -2457,6 +2469,14 @@
     "./file-type-light-vitest": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-vitest.svelte"
+    },
+    "./file-type-light-vlt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-vlt.svelte"
+    },
+    "./file-type-light-vlt2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-vlt2.svelte"
     },
     "./file-type-light-vsix": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3610,6 +3630,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-pypi.svelte"
     },
+    "./file-type-pyrefly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-pyrefly.svelte"
+    },
     "./file-type-pyret": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-pyret.svelte"
@@ -3673,6 +3697,14 @@
     "./file-type-quarkdown": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-quarkdown.svelte"
+    },
+    "./file-type-quarto": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-quarto.svelte"
+    },
+    "./file-type-quartoconfig": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-quartoconfig.svelte"
     },
     "./file-type-quasar": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3970,6 +4002,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-shaderlab.svelte"
     },
+    "./file-type-shaderslang": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-shaderslang.svelte"
+    },
     "./file-type-shell": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-shell.svelte"
@@ -4013,6 +4049,10 @@
     "./file-type-slang": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-slang.svelte"
+    },
+    "./file-type-slangacademic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-slangacademic.svelte"
     },
     "./file-type-slashup": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4101,6 +4141,10 @@
     "./file-type-sqlite": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-sqlite.svelte"
+    },
+    "./file-type-sqlproj": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-sqlproj.svelte"
     },
     "./file-type-squirrel": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4569,6 +4613,14 @@
     "./file-type-vlang": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-vlang.svelte"
+    },
+    "./file-type-vlt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-vlt.svelte"
+    },
+    "./file-type-vlt2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-vlt2.svelte"
     },
     "./file-type-volt": {
       "types": "./types/gfwqskkx.d.ts",
