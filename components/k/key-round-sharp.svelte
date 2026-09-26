@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/juvi3mbzv.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="juvi3mbzv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:key-round-sharp" {...props}></Icon>
+<style>
+:global(.juvi3mbzv) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 14.5L2 18.5L2 22L5.5 22L7 20.5L9.5 20.5L9.5 18L12 18L12 15.5L13.8851 13.6149C14.5611 13.8695 15.2776 14 16 14C19.3137 14 22 11.3137 22 8C22 4.6863 19.3137 2 16 2C12.6863 2 10 4.6863 10 8C10 8.7224 10.1305 9.4389 10.3851 10.1149ZM14.7071 9.2929L17.2929 6.7071");
+}
+
+</style>

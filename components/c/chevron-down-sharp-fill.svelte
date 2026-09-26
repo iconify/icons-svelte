@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/z/z64_rrb0q.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="z64_rrb0q"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:chevron-down-sharp-fill" {...props}></Icon>
+<style>
+:global(.z64_rrb0q) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5.7071 8.7071L12 15L18.2929 8.7071");
+}
+
+</style>

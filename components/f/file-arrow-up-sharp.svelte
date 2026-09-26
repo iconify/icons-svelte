@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/u/u0ycukbtn.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="u0ycukbtn"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:file-arrow-up-sharp" {...props}></Icon>
+<style>
+:global(.u0ycukbtn) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M14 2L4 2L4 22L11 22M14 2L20 8L20 13M14 2L14 8L20 8M17 23L17 16M13.7071 19.2929L17 16L20.2929 19.2929");
+}
+
+</style>

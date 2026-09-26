@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/z/zs9tptpik.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="zs9tptpik"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:building-sharp" {...props}></Icon>
+<style>
+:global(.zs9tptpik) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 2L20 2L20 22L4 22L4 2ZM10 22L10 20C10 18.8954 10.8954 18 12 18C13.1046 18 14 18.8954 14 20L14 22M9 5L9 9M15 5L15 9M9 11L9 15M15 11L15 15");
+}
+
+</style>

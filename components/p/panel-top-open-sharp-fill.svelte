@@ -1,11 +1,29 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/u/ujfmx-bgg.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ujfmx-bgg"/>`;
+const content = `<g class="gp_8x1bzb"><path class="zyu_ccbvv"/><path class="li8u72b5m"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:panel-top-open-sharp-fill" {...props}></Icon>
+<style>
+:global(.gp_8x1bzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.li8u72b5m) {
+  d: path("M3 3L21 3L21 21L3 21L3 3ZM3 9L21 9M8.7071 12.7071L12 16L15.2929 12.7071");
+}
+
+:global(.zyu_ccbvv) {
+  fill: currentColor;
+  d: path("M3 3L21 3L21 9L3 9L3 3Z");
+  stroke: none;
+}
+
+</style>

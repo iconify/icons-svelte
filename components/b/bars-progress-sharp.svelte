@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/d/douw-p1xk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="douw-p1xk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:bars-progress-sharp" {...props}></Icon>
+<style>
+:global(.douw-p1xk) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 3L21 3L21 9L3 9L3 3ZM3 15L21 15L21 21L3 21L3 15ZM15 3L15 9M10 15L10 21");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/z/zl5ni9bgm.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="zl5ni9bgm"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:sparkle-sharp-duotone" {...props}></Icon>
+<style>
+:global(.zl5ni9bgm) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 3L14.7896 9.2104L21 12L14.7896 14.7896L12 21L9.2104 14.7896L3 12L9.2104 9.2104L12 3Z");
+}
+
+</style>

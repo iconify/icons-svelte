@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/u/u_vjevdkc.css';
-import '../../css/n/nrpqh328z.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="u_vjevdkc"/><path class="nrpqh328z"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:git-check-sharp-duotone" {...props}></Icon>
+<style>
+:global(.gp_8x1bzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.nrpqh328z) {
+  d: path("M6 22L6 9M18 14L18 6L12 6M15.7071 18.7071L18 21L21.1425 15.7625");
+}
+
+:global(.u_vjevdkc) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6 2C8.0711 2 10 3.9289 10 6C10 8.0711 8.0711 10 6 10C3.9289 10 2 8.0711 2 6C2 3.9289 3.9289 2 6 2Z");
+  stroke: none;
+}
+
+</style>

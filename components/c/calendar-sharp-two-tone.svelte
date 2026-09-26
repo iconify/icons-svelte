@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/t/t9is4eb6v.css';
-import '../../css/y/ynac2cb7k.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="t9is4eb6v"/><path class="ynac2cb7k"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:calendar-sharp-two-tone" {...props}></Icon>
+<style>
+:global(.gp_8x1bzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.t9is4eb6v) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M3 4L21 4C21.5523 4 22 4.4477 22 5L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 5C2 4.4477 2.4477 4 3 4Z");
+  stroke: none;
+}
+
+:global(.ynac2cb7k) {
+  d: path("M3 5L21 5L21 21L3 21L3 5ZM6 11L18 11M8 2L8 8M16 2L16 8");
+}
+
+</style>

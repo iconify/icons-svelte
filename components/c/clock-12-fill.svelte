@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/t/tzg4uzwts.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="tzg4uzwts"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:clock-12-fill" {...props}></Icon>
+<style>
+:global(.tzg4uzwts) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1C18.0751 1 23 5.9249 23 12C23 18.0751 18.0751 23 12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1ZM11 6C11 5.4477 11.4477 5 12 5C12.5523 5 13 5.4477 13 6L13 12C13 12.5523 12.5523 13 12 13C11.4477 13 11 12.5523 11 12Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ix1u1i3gc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ix1u1i3gc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:messages-square-sharp-fill" {...props}></Icon>
+<style>
+:global(.ix1u1i3gc) {
+  fill: currentColor;
+  d: path("M12 9L21 9C21.5523 9 22 9.4477 22 10L22 21C22 21.5523 21.5523 22 21 22C20.7348 22 20.4804 21.8946 20.2929 21.7071L17.5858 19L12 19C11.4477 19 11 18.5523 11 18L11 10C11 9.4477 11.4477 9 12 9ZM7 13.4142L3.7071 16.7071C3.5196 16.8946 3.2652 17 3 17C2.4477 17 2 16.5523 2 16L2 3C2 2.4477 2.4477 2 3 2L17 2L17 4L4 4L4 13.5858L5.5858 12L7 13.4142Z");
+}
+
+</style>

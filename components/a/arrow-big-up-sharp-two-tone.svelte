@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/p/prlfu8ppt.css';
-import '../../css/r/recy5eaam.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="prlfu8ppt"/><path class="recy5eaam"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:arrow-big-up-sharp-two-tone" {...props}></Icon>
+<style>
+:global(.gp_8x1bzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.prlfu8ppt) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12.7071 1.2929L20.7071 9.2929C20.9931 9.5789 21.0787 10.009 20.9239 10.3827C20.7691 10.7564 20.4045 11 20 11L17 11L17 22C17 22.5523 16.5523 23 16 23L8 23C7.4477 23 7 22.5523 7 22L7 11L4 11C3.5955 11 3.2309 10.7564 3.0761 10.3827C2.9213 10.009 3.0069 9.5789 3.2929 9.2929L11.2929 1.2929C11.6834 0.9024 12.3166 0.9024 12.7071 1.2929Z");
+  stroke: none;
+}
+
+:global(.recy5eaam) {
+  d: path("M12 2L20 10L16 10L16 22L8 22L8 10L4 10Z");
+}
+
+</style>

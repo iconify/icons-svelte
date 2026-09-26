@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cbfmuwa3q.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="cbfmuwa3q"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:square-arrow-up-left-fill" {...props}></Icon>
+<style>
+:global(.cbfmuwa3q) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M18 2C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6C2 3.79086 3.79086 2 6 2H18ZM9.5 8C8.67157 8 8 8.67157 8 9.5V15C8 15.5523 8.44772 16 9 16C9.55228 16 10 15.5523 10 15V11.4141L14.293 15.707C14.6835 16.0976 15.3165 16.0976 15.707 15.707C16.0976 15.3165 16.0976 14.6835 15.707 14.293L11.4141 10H15C15.5523 10 16 9.55228 16 9C16 8.44772 15.5523 8 15 8H9.5Z");
+}
+
+</style>

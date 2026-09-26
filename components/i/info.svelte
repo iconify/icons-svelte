@@ -1,9 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/t/tx_ah59as.css';
-import '../../css/c/cs9wpoppz.css';
-import '../../css/u/uv9ku2bhq.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -12,3 +8,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="tx_ah59as"/><path class="cs9wpoppz"/><path class="uv9ku2bhq"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:info" {...props}></Icon>
+<style>
+:global(.cs9wpoppz) {
+  d: path("M12 12V16");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.tx_ah59as) {
+  d: path("M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2Z");
+}
+
+:global(.uv9ku2bhq) {
+  fill: currentColor;
+  d: path("M13 8C13 8.5523 12.5523 9 12 9C11.4477 9 11 8.5523 11 8C11 7.4477 11.4477 7 12 7C12.5523 7 13 7.4477 13 8Z");
+  stroke: none;
+}
+
+</style>

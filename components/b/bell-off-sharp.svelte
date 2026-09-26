@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/t/te2583bwr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,13 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="te2583bwr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:bell-off-sharp" {...props}></Icon>
+<style>
+:global(.te2583bwr) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8.3678 4.3608L9.3908 3.7339C10.1504 3.2684 11.0438 3 12 3C14.7614 3 17 5.2386 17 8C17 9.7086 17.2336 10.9501 17.8536 12.8341M16 16L5 16L5 15C5 14 7 13 7 8C7 7.687 7.0288 7.3808 7.0838 7.0838M9.7679 19.134C10.6252 20.6188 11.2855 21 12 21C12.7145 21 13.3748 20.6188 14.2321 19.134M1.7071 1.7071L22.2929 22.2929");
+}
+
+</style>

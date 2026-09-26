@@ -1,9 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/n/njakh_50p.css';
-import '../../css/d/demecgb2t.css';
-import '../../css/d/dno4_nblm.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -12,3 +8,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="njakh_50p"/><path class="demecgb2t"/><path class="dno4_nblm"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:signal-low-two-tone" {...props}></Icon>
+<style>
+:global(.demecgb2t) {
+  stroke-opacity: 0.4;
+  d: path("M12 20V12M17 20V8M22 20V4");
+}
+
+:global(.dno4_nblm) {
+  fill: currentColor;
+  d: path("M3 20C3 20.5523 2.5523 21 2 21C1.4477 21 1 20.5523 1 20C1 19.4477 1.4477 19 2 19C2.5523 19 3 19.4477 3 20Z");
+  stroke: none;
+}
+
+:global(.njakh_50p) {
+  d: path("M7 20V16");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

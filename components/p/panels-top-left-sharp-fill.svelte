@@ -1,11 +1,29 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/g2m2lgoyy.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="g2m2lgoyy"/>`;
+const content = `<g class="gp_8x1bzb"><path class="zyu_ccbvv"/><path class="i-8ztv1kh"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:panels-top-left-sharp-fill" {...props}></Icon>
+<style>
+:global(.gp_8x1bzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.i-8ztv1kh) {
+  d: path("M3 3L21 3L21 21L3 21L3 3ZM3 9L21 9M9 9L9 21");
+}
+
+:global(.zyu_ccbvv) {
+  fill: currentColor;
+  d: path("M3 3L21 3L21 9L3 9L3 3Z");
+  stroke: none;
+}
+
+</style>

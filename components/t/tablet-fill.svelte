@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/omt-n94-f.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="omt-n94-f"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:tablet-fill" {...props}></Icon>
+<style>
+:global(.omt-n94-f) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M23 7V17C23 19.2091 21.2091 21 19 21H5C2.79086 21 1 19.2091 1 17V7C1 4.79086 2.79086 3 5 3H19C21.2091 3 23 4.79086 23 7ZM13.5 8.5C13.5 7.6716 12.8284 7 12 7C11.1716 7 10.5 7.6716 10.5 8.5C10.5 9.3284 11.1716 10 12 10C12.8284 10 13.5 9.3284 13.5 8.5Z");
+}
+
+</style>

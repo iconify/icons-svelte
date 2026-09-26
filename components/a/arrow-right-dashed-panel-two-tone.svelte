@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/j/j-34asx2t.css';
-import '../../css/g/gpeqa2als.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="j-34asx2t"/><path class="gpeqa2als"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:arrow-right-dashed-panel-two-tone" {...props}></Icon>
+<style>
+:global(.gpeqa2als) {
+  d: path("M10 15.5H20M15 10L20.5979 15.1314C20.8141 15.3296 20.8141 15.6704 20.5979 15.8686L15 21");
+}
+
+:global(.j-34asx2t) {
+  stroke-opacity: 0.4;
+  d: path("M3 6C3 4.34315 4.34315 3 6 3M10.5 3H13.5M21 7V6.00026C21 4.34341 19.6569 3 18 3M7 21H6C4.34315 21 3 19.6569 3 18M3 10.5V13.5");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

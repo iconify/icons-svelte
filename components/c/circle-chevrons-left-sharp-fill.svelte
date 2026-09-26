@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/v/vvp-v1b_e.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="vvp-v1b_e"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:circle-chevrons-left-sharp-fill" {...props}></Icon>
+<style>
+:global(.vvp-v1b_e) {
+  fill: currentColor;
+  d: path("M12 1C17.937 1 23 6.0629 23 12C23 17.937 17.937 23 12 23C6.0629 23 1 17.937 1 12C1 6.0629 6.0629 1 12 1ZM10.3358 7.5001L6.543 11.293C6.1524 11.6835 6.1524 12.3165 6.543 12.707L10.3359 16.4998L11.7499 15.0858L8.6641 12L11.7498 8.9141L10.3358 7.5001ZM16.3358 7.5001L12.543 11.293C12.1524 11.6835 12.1524 12.3165 12.543 12.707L16.3358 16.4998L17.7498 15.0858L14.6641 12L17.7498 8.9141L16.3358 7.5001Z");
+}
+
+</style>

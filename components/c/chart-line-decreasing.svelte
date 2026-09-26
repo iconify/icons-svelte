@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/oocw2onbx.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="oocw2onbx"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:chart-line-decreasing" {...props}></Icon>
+<style>
+:global(.oocw2onbx) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 3L3 19C3 20.1046 3.8954 21 5 21L21 21M7 7C8.09091 9.8125 12.0182 15.55 19 16");
+}
+
+</style>

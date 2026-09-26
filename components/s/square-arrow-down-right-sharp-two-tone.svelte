@@ -1,9 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/v/v8hgvi38z.css';
-import '../../css/x/x-_5ilohg.css';
-import '../../css/f/futx9_stg.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -12,3 +8,27 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="gp_8x1bzb"><path class="v8hgvi38z"/><path class="x-_5ilohg"/><path class="futx9_stg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:square-arrow-down-right-sharp-two-tone" {...props}></Icon>
+<style>
+:global(.futx9_stg) {
+  d: path("M8 15L15 15L15 8M8.7071 8.7071L14.8536 14.8536");
+}
+
+:global(.gp_8x1bzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.v8hgvi38z) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2Z");
+  stroke: none;
+}
+
+:global(.x-_5ilohg) {
+  d: path("M3 3L21 3L21 21L3 21L3 3Z");
+}
+
+</style>

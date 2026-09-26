@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/k/k-0n92z7z.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path clip-rule="evenodd" class="k-0n92z7z"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:square-arrow-up-left-sharp-fill" {...props}></Icon>
+<style>
+:global(.k-0n92z7z) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M3 2L21 2C21.5523 2 22 2.4477 22 3L22 21C22 21.5523 21.5523 22 21 22L3 22C2.4477 22 2 21.5523 2 21L2 3C2 2.4477 2.4477 2 3 2ZM8 9L8 16L10 16L10 11.4141L14.5859 15.9998L15.9999 14.5858L11.4141 10L16 10L16 8L9 8C8.4477 8 8 8.4477 8 9Z");
+}
+
+</style>

@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/n/nl56xfbkf.css';
-import '../../css/s/scb4y_uru.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="nl56xfbkf"/><path class="scb4y_uru"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:fullscreen-exit-2-duotone" {...props}></Icon>
+<style>
+:global(.nl56xfbkf) {
+  stroke-opacity: 0.4;
+  d: path("M21 10L14.5 10C14.2239 10 14 9.7761 14 9.5L14 3");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.scb4y_uru) {
+  d: path("M3 14L9.5 14C9.7761 14 10 14.2239 10 14.5L10 21");
+}
+
+</style>
