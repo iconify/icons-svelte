@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1617,6 +1617,14 @@
     "./hyprland-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hyprland-wordmark.svelte"
+    },
+    "./icinga": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/icinga.svelte"
+    },
+    "./icinga-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/icinga-wordmark.svelte"
     },
     "./ie10": {
       "types": "./types/gfwqskkx.d.ts",
