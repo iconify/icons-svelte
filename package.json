@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/wordpress",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "GPL-2.0-or-later",
@@ -641,6 +641,10 @@
     "./justify-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/justify-right.svelte"
+    },
+    "./justify-space-around": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/justify-space-around.svelte"
     },
     "./justify-space-between": {
       "types": "./types/gfwqskkx.d.ts",
