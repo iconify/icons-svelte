@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/logos",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -938,6 +938,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/batch.svelte"
     },
+    "./bazel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bazel.svelte"
+    },
+    "./bazel-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bazel-icon.svelte"
+    },
     "./beats": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/beats.svelte"
@@ -1334,6 +1342,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/centos-icon.svelte"
     },
+    "./cerebras": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cerebras.svelte"
+    },
+    "./cerebras-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cerebras-icon.svelte"
+    },
     "./certbot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/certbot.svelte"
@@ -1425,6 +1441,14 @@
     "./claude-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/claude-icon.svelte"
+    },
+    "./clerk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clerk.svelte"
+    },
+    "./clerk-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clerk-icon.svelte"
     },
     "./clickdeploy": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2170,6 +2194,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dialogflow.svelte"
     },
+    "./dify": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dify.svelte"
+    },
     "./digital-ocean": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/digital-ocean.svelte"
@@ -2321,6 +2349,14 @@
     "./drizzle-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drizzle-icon.svelte"
+    },
+    "./drizzle-orm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drizzle-orm.svelte"
+    },
+    "./drizzle-orm-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drizzle-orm-icon.svelte"
     },
     "./drone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2745,6 +2781,14 @@
     "./firebase-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/firebase-icon.svelte"
+    },
+    "./firecrawl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firecrawl.svelte"
+    },
+    "./firecrawl-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/firecrawl-icon.svelte"
     },
     "./firefox": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4066,6 +4110,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/jhipster-icon.svelte"
     },
+    "./jina": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jina.svelte"
+    },
     "./jira": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/jira.svelte"
@@ -4353,6 +4401,14 @@
     "./kustomer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kustomer.svelte"
+    },
+    "./langchain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/langchain.svelte"
+    },
+    "./langchain-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/langchain-icon.svelte"
     },
     "./languagetool": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4841,6 +4897,14 @@
     "./meilisearch": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/meilisearch.svelte"
+    },
+    "./mem0": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mem0.svelte"
+    },
+    "./mem0-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mem0-icon.svelte"
     },
     "./memcached": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5489,6 +5553,18 @@
     "./ocaml": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/ocaml.svelte"
+    },
+    "./octelium": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octelium.svelte"
+    },
+    "./octelium-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octelium-icon.svelte"
+    },
+    "./octelium-icon-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octelium-icon-dark.svelte"
     },
     "./octodns": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7602,6 +7678,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/telegram.svelte"
     },
+    "./temporal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/temporal.svelte"
+    },
+    "./temporal-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/temporal-icon.svelte"
+    },
     "./tensorflow": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tensorflow.svelte"
@@ -7701,6 +7785,14 @@
     "./todomvc": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/todomvc.svelte"
+    },
+    "./togetherai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/togetherai.svelte"
+    },
+    "./togetherai-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/togetherai-icon.svelte"
     },
     "./tomcat": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8041,6 +8133,14 @@
     "./valkey-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/valkey-icon.svelte"
+    },
+    "./vapi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vapi.svelte"
+    },
+    "./vapi-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vapi-icon.svelte"
     },
     "./vault": {
       "types": "./types/gfwqskkx.d.ts",
