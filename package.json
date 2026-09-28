@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -49,6 +49,10 @@
     "./file-type-advpl": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-advpl.svelte"
+    },
+    "./file-type-affectscript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-affectscript.svelte"
     },
     "./file-type-affinity": {
       "types": "./types/gfwqskkx.d.ts",
@@ -262,6 +266,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-azurepipelines.svelte"
     },
+    "./file-type-azureresourcemanager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-azureresourcemanager.svelte"
+    },
     "./file-type-azurestreamanalytics": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-azurestreamanalytics.svelte"
@@ -366,6 +374,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-bower2.svelte"
     },
+    "./file-type-brakeman": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-brakeman.svelte"
+    },
     "./file-type-brew": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-brew.svelte"
@@ -425,6 +437,10 @@
     "./file-type-caddy": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-caddy.svelte"
+    },
+    "./file-type-cadence": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-cadence.svelte"
     },
     "./file-type-cairo": {
       "types": "./types/gfwqskkx.d.ts",
@@ -493,6 +509,10 @@
     "./file-type-cfm2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-cfm2.svelte"
+    },
+    "./file-type-changelogen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-changelogen.svelte"
     },
     "./file-type-changie": {
       "types": "./types/gfwqskkx.d.ts",
@@ -722,6 +742,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-cssmap.svelte"
     },
+    "./file-type-csv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-csv.svelte"
+    },
     "./file-type-cucumber": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-cucumber.svelte"
@@ -837,6 +861,10 @@
     "./file-type-devenv": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-devenv.svelte"
+    },
+    "./file-type-devprune": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-devprune.svelte"
     },
     "./file-type-devvit": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1390,6 +1418,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-godot.svelte"
     },
+    "./file-type-golangci": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-golangci.svelte"
+    },
     "./file-type-gpg": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-gpg.svelte"
@@ -1501,6 +1533,10 @@
     "./file-type-helm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-helm.svelte"
+    },
+    "./file-type-heroku": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-heroku.svelte"
     },
     "./file-type-hip": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2106,6 +2142,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-hashicorp.svelte"
     },
+    "./file-type-light-heroku": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-heroku.svelte"
+    },
     "./file-type-light-hip": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-hip.svelte"
@@ -2205,6 +2245,10 @@
     "./file-type-light-mlang": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-mlang.svelte"
+    },
+    "./file-type-light-mongo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-mongo.svelte"
     },
     "./file-type-light-mustache": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2754,6 +2798,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-mongo.svelte"
     },
+    "./file-type-moniq": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-moniq.svelte"
+    },
     "./file-type-monotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-monotone.svelte"
@@ -3238,6 +3286,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-ogone.svelte"
     },
+    "./file-type-ohpm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-ohpm.svelte"
+    },
     "./file-type-onenote": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-onenote.svelte"
@@ -3278,6 +3330,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-outlook.svelte"
     },
+    "./file-type-overmind": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-overmind.svelte"
+    },
     "./file-type-ovpn": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-ovpn.svelte"
@@ -3289,6 +3345,10 @@
     "./file-type-package": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-package.svelte"
+    },
+    "./file-type-packer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-packer.svelte"
     },
     "./file-type-packship": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3333,6 +3393,10 @@
     "./file-type-pddl-plan": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-pddl-plan.svelte"
+    },
+    "./file-type-pdf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-pdf.svelte"
     },
     "./file-type-pdf2": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3585,6 +3649,10 @@
     "./file-type-prometheus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-prometheus.svelte"
+    },
+    "./file-type-proteus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-proteus.svelte"
     },
     "./file-type-protobuf": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4274,6 +4342,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-t4tt.svelte"
     },
+    "./file-type-tablegen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-tablegen.svelte"
+    },
     "./file-type-tailwind": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-tailwind.svelte"
@@ -4810,6 +4882,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-xorg.svelte"
     },
+    "./file-type-xposed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-xposed.svelte"
+    },
     "./file-type-xquery": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-xquery.svelte"
@@ -4874,6 +4950,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-zizmor.svelte"
     },
+    "./file-type-zsh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-zsh.svelte"
+    },
+    "./folder-type-alpine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-alpine.svelte"
+    },
+    "./folder-type-alpine-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-alpine-opened.svelte"
+    },
     "./folder-type-android": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-android.svelte"
@@ -4922,6 +5010,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-arangodb-opened.svelte"
     },
+    "./folder-type-arch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-arch.svelte"
+    },
+    "./folder-type-arch-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-arch-opened.svelte"
+    },
     "./folder-type-asset": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-asset.svelte"
@@ -4953,6 +5049,14 @@
     "./folder-type-aurelia-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-aurelia-opened.svelte"
+    },
+    "./folder-type-auth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-auth.svelte"
+    },
+    "./folder-type-auth-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-auth-opened.svelte"
     },
     "./folder-type-aws": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5346,6 +5450,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-favicon-opened.svelte"
     },
+    "./folder-type-fedora": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-fedora.svelte"
+    },
+    "./folder-type-fedora-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-fedora-opened.svelte"
+    },
     "./folder-type-flow": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-flow.svelte"
@@ -5393,6 +5505,14 @@
     "./folder-type-gemini-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-gemini-opened.svelte"
+    },
+    "./folder-type-gentoo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-gentoo.svelte"
+    },
+    "./folder-type-gentoo-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-gentoo-opened.svelte"
     },
     "./folder-type-git": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5618,6 +5738,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-library-opened.svelte"
     },
+    "./folder-type-light-alpine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-alpine.svelte"
+    },
+    "./folder-type-light-alpine-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-alpine-opened.svelte"
+    },
     "./folder-type-light-cursor": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-light-cursor.svelte"
@@ -5657,6 +5785,14 @@
     "./folder-type-light-expo-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-light-expo-opened.svelte"
+    },
+    "./folder-type-light-fedora": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-fedora.svelte"
+    },
+    "./folder-type-light-fedora-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-fedora-opened.svelte"
     },
     "./folder-type-light-fonts": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5705,6 +5841,14 @@
     "./folder-type-light-node-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-light-node-opened.svelte"
+    },
+    "./folder-type-light-ocx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-ocx.svelte"
+    },
+    "./folder-type-light-ocx-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-ocx-opened.svelte"
     },
     "./folder-type-light-redux": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5970,6 +6114,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-nuxt-opened.svelte"
     },
+    "./folder-type-ocx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-ocx.svelte"
+    },
+    "./folder-type-ocx-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-ocx-opened.svelte"
+    },
+    "./folder-type-ohpm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-ohpm.svelte"
+    },
+    "./folder-type-ohpm-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-ohpm-opened.svelte"
+    },
     "./folder-type-package": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-package.svelte"
@@ -6058,6 +6218,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-ravendb-opened.svelte"
     },
+    "./folder-type-redhat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-redhat.svelte"
+    },
+    "./folder-type-redhat-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-redhat-opened.svelte"
+    },
     "./folder-type-redis": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-redis.svelte"
@@ -6089,6 +6257,14 @@
     "./folder-type-sass-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-sass-opened.svelte"
+    },
+    "./folder-type-schema": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-schema.svelte"
+    },
+    "./folder-type-schema-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-schema-opened.svelte"
     },
     "./folder-type-script": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6129,6 +6305,14 @@
     "./folder-type-shared-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-shared-opened.svelte"
+    },
+    "./folder-type-slackware": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-slackware.svelte"
+    },
+    "./folder-type-slackware-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-slackware-opened.svelte"
     },
     "./folder-type-snaplet": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6185,6 +6369,14 @@
     "./folder-type-supabase-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-supabase-opened.svelte"
+    },
+    "./folder-type-suse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-suse.svelte"
+    },
+    "./folder-type-suse-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-suse-opened.svelte"
     },
     "./folder-type-svelte": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6345,6 +6537,14 @@
     "./folder-type-vitepress-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-vitepress-opened.svelte"
+    },
+    "./folder-type-void": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-void.svelte"
+    },
+    "./folder-type-void-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-void-opened.svelte"
     },
     "./folder-type-vs": {
       "types": "./types/gfwqskkx.d.ts",
