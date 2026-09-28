@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/o3qgr33im.css';
+import '../../css/w/wnbt39boq.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="o3qgr33im"/>`;
+const content = `<path class="wnbt39boq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="tabler:square-dashed" {...props}></Icon>
