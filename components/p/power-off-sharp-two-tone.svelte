@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="ky8hevb5b"/><path class="ahhqo1b4s"/><path class="icotk-bsx"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="ky8hevb5b"/><path class="ahhqo1b4s"/><path class="ambqkebxn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:power-off-sharp-two-tone" {...props}></Icon>
 <style>
@@ -13,16 +13,16 @@ const content = `<g class="gp_8x1bzb"><path class="ky8hevb5b"/><path class="ahhq
   d: path("M1.7071 1.7071L22.2929 22.2929");
 }
 
+:global(.ambqkebxn) {
+  stroke-opacity: 0.4;
+  d: path("M18.0886 4.0045L18.82 4.6865C20.8483 6.5779 22 9.2267 22 12C22 13.2499 21.7657 14.4887 21.3092 15.6523L20.944 16.5832M12 1L12 7.3431");
+}
+
 :global(.gp_8x1bzb) {
   fill: none;
   stroke: currentColor;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-:global(.icotk-bsx) {
-  stroke-opacity: 0.4;
-  d: path("M15.0835 2.4348L16 2.8348C19.6443 4.4253 22 8.0238 22 12C22 13.2499 21.7657 14.4887 21.3092 15.6523L20.944 16.5832M12 1L12 7.3431");
 }
 
 :global(.ky8hevb5b) {

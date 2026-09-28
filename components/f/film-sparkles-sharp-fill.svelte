@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="vzyo6xb_u"/><path class="arxdl3buc"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="ufegrjdqm"/><path class="arxdl3buc"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:film-sparkles-sharp-fill" {...props}></Icon>
 <style>
@@ -22,8 +22,8 @@ const content = `<g class="gp_8x1bzb"><path class="vzyo6xb_u"/><path class="arxd
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-:global(.vzyo6xb_u) {
-  d: path("M20 12L20 22L2 22L2 4L10 4M7 4L7 22M15 12L15 22M2 13L20 13M2 8.5L7 8.5M2 17.5L7 17.5M15 17.5L20 17.5");
+:global(.ufegrjdqm) {
+  d: path("M2 13L20 13L20 22L2 22L2 4L10 4M7 4L7 22M15 13L15 22M2 8.5L7 8.5M2 17.5L7 17.5M15 17.5L20 17.5");
 }
 
 </style>
