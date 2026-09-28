@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/pinhead",
   "type": "module",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -365,6 +365,10 @@
     "./ampersand": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/ampersand.svelte"
+    },
+    "./amphora": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/amphora.svelte"
     },
     "./analog-tv-with-rabbitears": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2046,6 +2050,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/car-battery.svelte"
     },
+    "./car-beside-bench-on-ground": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-beside-bench-on-ground.svelte"
+    },
     "./car-beside-car": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/car-beside-car.svelte"
@@ -2238,9 +2246,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cars-on-barge-on-water.svelte"
     },
+    "./cartoon-bomb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cartoon-bomb.svelte"
+    },
     "./cartoon-bomb-with-lit-fuse": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cartoon-bomb-with-lit-fuse.svelte"
+    },
+    "./cartoon-cannon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cartoon-cannon.svelte"
     },
     "./cartoon-cannon-with-lit-fuse": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3058,10 +3074,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/delicate-arch.svelte"
     },
-    "./desk-lamp": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/d/desk-lamp.svelte"
-    },
     "./detergent-bottle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/detergent-bottle.svelte"
@@ -3842,9 +3854,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fork-beside-fish.svelte"
     },
-    "./fork-beside-knife": {
+    "./fork-beside-plate-beside-table-knife": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/f/fork-beside-knife.svelte"
+      "svelte": "./components/f/fork-beside-plate-beside-table-knife.svelte"
     },
     "./fork-beside-sausage": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3854,9 +3866,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fork-beside-spoon.svelte"
     },
-    "./fork-crossing-knife": {
+    "./fork-beside-table-knife": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/f/fork-crossing-knife.svelte"
+      "svelte": "./components/f/fork-beside-table-knife.svelte"
+    },
+    "./fork-crossing-table-knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fork-crossing-table-knife.svelte"
     },
     "./fort": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4105,10 +4121,6 @@
     "./gravestone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gravestone.svelte"
-    },
-    "./grecian-vase": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/g/grecian-vase.svelte"
     },
     "./greek-cross": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4769,10 +4781,6 @@
     "./kitchen-sink": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kitchen-sink.svelte"
-    },
-    "./knife": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/k/knife.svelte"
     },
     "./l": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6190,6 +6198,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pencil-and-apple.svelte"
     },
+    "./pencil-beside-ruler": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-beside-ruler.svelte"
+    },
     "./pencil-bottom-left-to-square-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pencil-bottom-left-to-square-outline.svelte"
@@ -7066,6 +7078,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-bottom-right.svelte"
     },
+    "./phone-bottom-right-and-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-bottom-right-and-minus.svelte"
+    },
     "./phone-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-down.svelte"
@@ -7134,9 +7150,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-right.svelte"
     },
+    "./phone-right-beside-droplet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-right-beside-droplet.svelte"
+    },
     "./phone-right-beside-exclamation-point": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-right-beside-exclamation-point.svelte"
+    },
+    "./phone-right-beside-gas-flame": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-right-beside-gas-flame.svelte"
     },
     "./phone-right-beside-question-mark": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7153,6 +7177,26 @@
     "./phone-top-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-top-right.svelte"
+    },
+    "./phone-top-right-and-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-top-right-and-exclamation-point.svelte"
+    },
+    "./phone-top-right-and-greek-cross": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-top-right-and-greek-cross.svelte"
+    },
+    "./phone-top-right-and-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-top-right-and-minus.svelte"
+    },
+    "./phone-top-right-and-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-top-right-and-plus.svelte"
+    },
+    "./phone-top-right-and-question-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-top-right-and-question-mark.svelte"
     },
     "./phone-top-right-with-exclamation-point": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7494,9 +7538,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pixel-exclamation-point.svelte"
     },
-    "./pixel-fork-and-knife": {
+    "./pixel-fork-beside-table-knife": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/pixel-fork-and-knife.svelte"
+      "svelte": "./components/p/pixel-fork-beside-table-knife.svelte"
     },
     "./pixel-gasoline-pump": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9066,6 +9110,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spoon-beside-fork.svelte"
     },
+    "./spoon-beside-table-knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spoon-beside-table-knife.svelte"
+    },
+    "./spoon-beside-table-knife-in-gable-roofed-shelter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spoon-beside-table-knife-in-gable-roofed-shelter.svelte"
+    },
     "./spray-paint-can": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spray-paint-can.svelte"
@@ -9465,6 +9517,14 @@
     "./t": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/t.svelte"
+    },
+    "./table-knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-knife.svelte"
+    },
+    "./table-lamp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table-lamp.svelte"
     },
     "./table-soccer-players-with-ball": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11226,6 +11286,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/conifer-tree-and-oval-broadleaved-tree.svelte"
     },
+    "./desk-lamp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desk-lamp.svelte"
+    },
     "./diamond": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/diamond.svelte"
@@ -11394,6 +11458,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fork-and-spoon.svelte"
     },
+    "./fork-beside-knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fork-beside-knife.svelte"
+    },
+    "./fork-crossing-knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fork-crossing-knife.svelte"
+    },
     "./four": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/four.svelte"
@@ -11449,6 +11521,10 @@
     "./golf-green": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/golf-green.svelte"
+    },
+    "./grecian-vase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grecian-vase.svelte"
     },
     "./hammer-with-nail": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11525,6 +11601,10 @@
     "./kids-train-with-tires": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kids-train-with-tires.svelte"
+    },
+    "./knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/knife.svelte"
     },
     "./motorboat-and-key": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11949,6 +12029,10 @@
     "./pipe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pipe.svelte"
+    },
+    "./pixel-fork-and-knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixel-fork-and-knife.svelte"
     },
     "./pixel-head-and-shoulders": {
       "types": "./types/gfwqskkx.d.ts",
