@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.70",
+  "version": "1.0.71",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -5345,6 +5345,10 @@
     "./printer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/printer.svelte"
+    },
+    "./printer-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-3d.svelte"
     },
     "./printer-check": {
       "types": "./types/gfwqskkx.d.ts",
