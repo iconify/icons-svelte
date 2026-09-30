@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/ix",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://icon-sets.iconify.design/ix/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -201,6 +201,18 @@
     "./ai": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/ai.svelte"
+    },
+    "./ai-agent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-agent.svelte"
+    },
+    "./ai-skill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-skill.svelte"
+    },
+    "./ai-sub-agent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ai-sub-agent.svelte"
     },
     "./alarm": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2694,6 +2706,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/helmet-safety-filled.svelte"
     },
+    "./hexagon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hexagon.svelte"
+    },
+    "./hexagon-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hexagon-filled.svelte"
+    },
     "./hexagon-vertical-bars": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hexagon-vertical-bars.svelte"
@@ -3653,6 +3673,14 @@
     "./objects-tree": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/objects-tree.svelte"
+    },
+    "./octagon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octagon.svelte"
+    },
+    "./octagon-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octagon-filled.svelte"
     },
     "./ontology": {
       "types": "./types/gfwqskkx.d.ts",
