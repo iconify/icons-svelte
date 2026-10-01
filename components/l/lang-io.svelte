@@ -8,6 +8,6 @@ import '../../css/c/cnpyay95e.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<mask id="SVGuywqVbel"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGuywqVbel)"><path class="er099gbue"/><path class="cnpyay95e"/></g>`;
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="er099gbue"/><path class="cnpyay95e"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="circle-flags:lang-io" {...props}></Icon>
