@@ -1,5 +1,6 @@
 # @iconify-svelte/token
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/svelte/-/tree/token).
 **Web3 Icons**
 
 Author: [0xa3k5](https://github.com/0xa3k5/web3icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview Web3 Icons on Iconify](https://icon-sets.iconify.desi
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/svelte#token
+```
+
+or
 ```bash
 npm install github:iconify/icons-svelte#token
 ```
