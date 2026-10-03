@@ -4,21 +4,24 @@ import Icon from '@iconify/css-svelte';
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
-const viewBox = {"width":200,"height":200};
-const content = `<g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="lb6wvmbnn"/><circle class="w8vg4l1bj"/><circle class="t7-pd3bgv"/><circle class="tevut5b9j"/><circle class="oinv84qwv"/><circle class="iel2evbkp"/><circle class="mr_9nfzvb"/><circle class="t01wqlbxo"/><circle class="wh8lfodzq"/></g><path class="iuugt6bqf"/><g class="hg__9dbak"><path class="nc0tse90m"/><path class="lqy9clb5l"/></g><path class="ip_tt_4hf"/><g class="z04drlb1l"><path class="ta79fy_np"/><path class="gg-ozob9k"/><path class="xkrozkjri"/></g><circle class="kcczmj3ln"/><circle class="oraywwbcc"/><circle class="g-t07yx_r"/><path class="ko3p51bth"/><g class="t0g3xex8a"><circle class="hedkutbxd"/><circle class="f702aabxv"/><circle class="mt4w9qb-e"/><circle class="n-rvypbcy"/><circle class="emv5-lz1i"/><circle class="zp7qwxl7j"/><circle class="hw54sk7ch"/><circle class="svhsk7bzj"/><circle class="yczvmsbiu"/><circle class="sbbo9jbmj"/><circle class="goqqmm9_z"/><circle class="jy9ntebtu"/></g>`;
+const viewBox = {"width":32,"height":32};
+const content = `<g transform="translate(1.57 1.64)scale(.14359)"><g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="iel2evbkp"/><g class="c783vkbhp"><path class="m5b2owb8i"/><path class="cemk6gr7t"/></g></g><path class="iuugt6bqf"/><g class="hg__9dbak"><path class="nc0tse90m"/><path class="lqy9clb5l"/></g><path class="ip_tt_4hf"/><g class="z04drlb1l"><path class="vv45i42vq"/><path class="gg-ozob9k"/><path class="xkrozkjri"/></g><circle class="kcczmj3ln"/><circle class="oraywwbcc"/><circle class="g-t07yx_r"/><path class="ko3p51bth"/><g class="t0g3xex8a"><circle class="hedkutbxd"/><circle class="hw54sk7ch"/><g class="c783vkbhp"><path class="b99br8b_s"/><path class="pkp_ydbgw"/></g></g></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:file-type-docusaurus" {...props}></Icon>
 <style>
-:global(.emv5-lz1i) {
-  cx: 131.7px;
-  cy: 118px;
-  r: 2.4px;
+:global(.b99br8b_s) {
+  stroke-width: var(--svg-stroke-width--4-8px, 4.8px);
+  d: path("M128 104.3h0m3.7 3.7h0m1.3 5h0m-1.3 5h0m-3.7 3.7h0");
 }
 
-:global(.f702aabxv) {
-  cx: 128px;
-  cy: 104.3px;
-  r: 2.4px;
+:global(.c783vkbhp) {
+  stroke: var(--svg-color--44d860, #44d860);
+  stroke-linecap: round;
+}
+
+:global(.cemk6gr7t) {
+  stroke-width: var(--svg-stroke-width--10px, 10px);
+  d: path("M183 145.7h0m7.3 7.3h0m2.7 10h0");
 }
 
 :global(.g-t07yx_r) {
@@ -30,12 +33,6 @@ const content = `<g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="
 :global(.gg-ozob9k) {
   stroke-linecap: butt;
   d: path("M183 62.6c-5 0-5 10-10 10.7c-5 0-5-10-10-10s-5 9-10 9s-5-8.5-10-8.5s-5 8-10 8s-5-7.25-10-7.25s-5 6.5-10 6.5");
-}
-
-:global(.goqqmm9_z) {
-  cx: 140.3px;
-  cy: 153px;
-  r: 5px;
 }
 
 :global(.hedkutbxd) {
@@ -70,12 +67,6 @@ const content = `<g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="
   d: path("M99 52h84v34H99z");
 }
 
-:global(.jy9ntebtu) {
-  cx: 143px;
-  cy: 163px;
-  r: 5px;
-}
-
 :global(.kcczmj3ln) {
   cx: 143px;
   cy: 39.3px;
@@ -87,42 +78,17 @@ const content = `<g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="
   d: path("M83 123h40v-20H83zm0 60h40v-40H83z");
 }
 
-:global(.lb6wvmbnn) {
-  cx: 188px;
-  cy: 104.3px;
-  r: 2.4px;
-}
-
 :global(.lqy9clb5l) {
   d: path("m113 57.4l70-4.4V43c0-11-9-20-20-20H73c-4-8-6-8-10 0c-4-8-6-8-10 0c-4-8-6-8-10 0c-6-9-9-5-10.3 2.3c-8-3-11-3-7.3 7.3c-8 2-10 4-2.4 10.4c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c-8 4-8 6 0 10c0 11 9 20 20 20h120c11 0 20-9 20-20V83l-70-4.3A10.6 10.6 0 0 1 103 68c0-5.6 4.4-10.3 10-10.6");
 }
 
-:global(.mr_9nfzvb) {
-  cx: 183px;
-  cy: 145.7px;
-  r: 5px;
-}
-
-:global(.mt4w9qb-e) {
-  cx: 131.7px;
-  cy: 108px;
-  r: 2.4px;
-}
-
-:global(.n-rvypbcy) {
-  cx: 133px;
-  cy: 113px;
-  r: 2.4px;
+:global(.m5b2owb8i) {
+  stroke-width: var(--svg-stroke-width--4-8px, 4.8px);
+  d: path("M188 104.3h0m3.7 3.7h0m1.3 5h0m-1.3 5h0m-3.7 3.7h0");
 }
 
 :global(.nc0tse90m) {
   d: path("M23 163c-7.4 0-14-4-17.3-10A20 20 0 0 0 3 163c0 11 9 20 20 20h20v-20zm120 20h30v-40h-30z");
-}
-
-:global(.oinv84qwv) {
-  cx: 188px;
-  cy: 121.7px;
-  r: 2.4px;
 }
 
 :global(.oraywwbcc) {
@@ -131,43 +97,13 @@ const content = `<g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="
   r: 2.5px;
 }
 
-:global(.sbbo9jbmj) {
-  cx: 133px;
-  cy: 145.7px;
-  r: 5px;
-}
-
-:global(.svhsk7bzj) {
-  cx: 113px;
-  cy: 145.7px;
-  r: 5px;
-}
-
-:global(.t01wqlbxo) {
-  cx: 190.3px;
-  cy: 153px;
-  r: 5px;
+:global(.pkp_ydbgw) {
+  stroke-width: var(--svg-stroke-width--10px, 10px);
+  d: path("M113 145.7h0m10-2.7h0m10 2.7h0m7.3 7.3h0m2.7 10h0");
 }
 
 :global(.t0g3xex8a) {
   fill: var(--svg-color--44d860, #44d860);
-}
-
-:global(.t7-pd3bgv) {
-  cx: 193px;
-  cy: 113px;
-  r: 2.4px;
-}
-
-:global(.ta79fy_np) {
-  stroke-width: var(--svg-stroke-width--5px, 5px);
-  d: path("M63 53a1 1 0 1 0-20 0");
-}
-
-:global(.tevut5b9j) {
-  cx: 191.7px;
-  cy: 118px;
-  r: 2.4px;
 }
 
 :global(.v8qvfmbma) {
@@ -176,26 +112,13 @@ const content = `<g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="
   r: 10px;
 }
 
-:global(.w8vg4l1bj) {
-  cx: 191.7px;
-  cy: 108px;
-  r: 2.4px;
-}
-
-:global(.wh8lfodzq) {
-  cx: 193px;
-  cy: 163px;
-  r: 5px;
+:global(.vv45i42vq) {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M63 53a10 10 0 1 0-20 0");
 }
 
 :global(.xkrozkjri) {
   d: path("M168 113h-50m50 10h-50m50 10h-50m50 10h-50m50 10h-50m50 10h-50");
-}
-
-:global(.yczvmsbiu) {
-  cx: 123px;
-  cy: 143px;
-  r: 5px;
 }
 
 :global(.z04drlb1l) {
@@ -203,12 +126,6 @@ const content = `<g class="t0g3xex8a"><circle class="v8qvfmbma"/><circle class="
   stroke: var(--svg-color--000, #000);
   stroke-linecap: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-:global(.zp7qwxl7j) {
-  cx: 128px;
-  cy: 121.7px;
-  r: 2.4px;
 }
 
 </style>
