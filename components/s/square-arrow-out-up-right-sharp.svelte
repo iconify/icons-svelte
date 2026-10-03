@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="l60r0x32a"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:square-arrow-out-up-right-sharp" {...props}></Icon>
+<style>
+:global(.l60r0x32a) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10 7L3 7L3 21L17 21L17 14M12.7071 11.2929L20.8536 3.1464M12 3L21 3L21 12");
+}
+
+</style>
