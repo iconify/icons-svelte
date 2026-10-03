@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg-color",
   "type": "module",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -9338,6 +9338,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/letterboxd.svelte"
     },
+    "./levelrail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/levelrail.svelte"
+    },
     "./levelsdotfyi": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/levelsdotfyi.svelte"
@@ -10082,9 +10086,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mastodon.svelte"
     },
-    "./mastra": {
+    "./mastra-dark": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/mastra.svelte"
+      "svelte": "./components/m/mastra-dark.svelte"
+    },
+    "./mastra-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastra-legacy.svelte"
+    },
+    "./mastra-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastra-light.svelte"
     },
     "./material-design": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10741,6 +10753,14 @@
     "./mihoyo": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mihoyo.svelte"
+    },
+    "./mikemurphyai-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mikemurphyai-dark.svelte"
+    },
+    "./mikemurphyai-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mikemurphyai-light.svelte"
     },
     "./mikrotik": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17186,6 +17206,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tinkercad.svelte"
     },
+    "./tintas-vital": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tintas-vital.svelte"
+    },
     "./tinygrad": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tinygrad.svelte"
@@ -19605,6 +19629,10 @@
     "./circleci": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circleci.svelte"
+    },
+    "./mastra": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mastra.svelte"
     },
     "./*": "./*"
   },
