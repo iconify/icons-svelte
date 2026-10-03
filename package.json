@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.71",
+  "version": "1.0.72",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -245,6 +245,10 @@
     "./armchair": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/armchair.svelte"
+    },
+    "./armenian-dram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/armenian-dram.svelte"
     },
     "./arrow-big-down": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2394,6 +2398,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/door-closed.svelte"
     },
+    "./door-closed-cog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/door-closed-cog.svelte"
+    },
     "./door-closed-locked": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/door-closed-locked.svelte"
@@ -3806,6 +3814,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kayak.svelte"
     },
+    "./kazakh-tenge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kazakh-tenge.svelte"
+    },
     "./key": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/key.svelte"
@@ -3949,6 +3961,10 @@
     "./layout-grid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/layout-grid.svelte"
+    },
+    "./layout-grid-circles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layout-grid-circles.svelte"
     },
     "./layout-list": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5670,6 +5686,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rss.svelte"
     },
+    "./rugby-ball": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rugby-ball.svelte"
+    },
     "./ruler": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/ruler.svelte"
@@ -6874,6 +6894,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/text-align-justify.svelte"
     },
+    "./text-align-justify-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-align-justify-center.svelte"
+    },
+    "./text-align-justify-end": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-align-justify-end.svelte"
+    },
+    "./text-align-justify-start": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-align-justify-start.svelte"
+    },
     "./text-align-start": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/text-align-start.svelte"
@@ -7613,6 +7645,10 @@
     "./wind-arrow-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wind-arrow-down.svelte"
+    },
+    "./wind-arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wind-arrow-up.svelte"
     },
     "./wine": {
       "types": "./types/gfwqskkx.d.ts",
