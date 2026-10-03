@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/selfhst",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC-BY-4.0",
@@ -1473,6 +1473,18 @@
     "./aria2-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/aria2-light.svelte"
+    },
+    "./arlo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arlo.svelte"
+    },
+    "./arlo-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arlo-dark.svelte"
+    },
+    "./arlo-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arlo-light.svelte"
     },
     "./arr-dashboard": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9318,6 +9330,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/haproxy.svelte"
     },
+    "./haproxy-cluster-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haproxy-cluster-manager.svelte"
+    },
+    "./haproxy-cluster-manager-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haproxy-cluster-manager-dark.svelte"
+    },
+    "./haproxy-cluster-manager-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/haproxy-cluster-manager-light.svelte"
+    },
     "./haproxy-dark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/haproxy-dark.svelte"
@@ -9589,6 +9613,18 @@
     "./headlamp-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/headlamp-light.svelte"
+    },
+    "./headplane": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headplane.svelte"
+    },
+    "./headplane-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headplane-dark.svelte"
+    },
+    "./headplane-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headplane-light.svelte"
     },
     "./headscale": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9953,6 +9989,18 @@
     "./homedash-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/homedash-light.svelte"
+    },
+    "./homedex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/homedex.svelte"
+    },
+    "./homedex-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/homedex-dark.svelte"
+    },
+    "./homedex-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/homedex-light.svelte"
     },
     "./homedock-os": {
       "types": "./types/gfwqskkx.d.ts",
@@ -13526,6 +13574,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/makers-vault-light.svelte"
     },
+    "./malcolm-networking": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/malcolm-networking.svelte"
+    },
     "./maloja": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/maloja.svelte"
@@ -13929,6 +13981,18 @@
     "./medikeep-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/medikeep-light.svelte"
+    },
+    "./medinv": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medinv.svelte"
+    },
+    "./medinv-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medinv-dark.svelte"
+    },
+    "./medinv-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medinv-light.svelte"
     },
     "./mediux": {
       "types": "./types/gfwqskkx.d.ts",
@@ -20742,6 +20806,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pve-ups-light.svelte"
     },
+    "./pydantic-logfire": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pydantic-logfire.svelte"
+    },
+    "./pydantic-logfire-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pydantic-logfire-dark.svelte"
+    },
+    "./pydantic-logfire-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pydantic-logfire-light.svelte"
+    },
     "./pyload": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pyload.svelte"
@@ -20849,6 +20925,18 @@
     "./qnap-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/qnap-light.svelte"
+    },
+    "./questdb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/questdb.svelte"
+    },
+    "./questdb-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/questdb-dark.svelte"
+    },
+    "./questdb-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/questdb-light.svelte"
     },
     "./quetre": {
       "types": "./types/gfwqskkx.d.ts",
@@ -26874,6 +26962,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/viaplay-light.svelte"
     },
+    "./victorialogs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/victorialogs.svelte"
+    },
+    "./victorialogs-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/victorialogs-dark.svelte"
+    },
+    "./victorialogs-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/victorialogs-light.svelte"
+    },
     "./victoriametrics": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/victoriametrics.svelte"
@@ -27577,6 +27677,18 @@
     "./websocket-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/websocket-light.svelte"
+    },
+    "./webssh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webssh.svelte"
+    },
+    "./webssh-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webssh-dark.svelte"
+    },
+    "./webssh-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webssh-light.svelte"
     },
     "./webtrees": {
       "types": "./types/gfwqskkx.d.ts",
@@ -28613,6 +28725,18 @@
     "./zen-notes-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/z/zen-notes-light.svelte"
+    },
+    "./zenmux": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zenmux.svelte"
+    },
+    "./zenmux-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zenmux-dark.svelte"
+    },
+    "./zenmux-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zenmux-light.svelte"
     },
     "./zensical": {
       "types": "./types/gfwqskkx.d.ts",
