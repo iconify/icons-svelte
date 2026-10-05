@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -477,6 +477,10 @@
     "./file-type-cddl": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-cddl.svelte"
+    },
+    "./file-type-cdp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-cdp.svelte"
     },
     "./file-type-cert": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2554,6 +2558,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-yaml-official.svelte"
     },
+    "./file-type-light-zed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-zed.svelte"
+    },
     "./file-type-light-zeit": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-zeit.svelte"
@@ -4362,6 +4370,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-taskfile.svelte"
     },
+    "./file-type-tasks-json": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-tasks-json.svelte"
+    },
     "./file-type-tauri": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-tauri.svelte"
@@ -4925,6 +4937,10 @@
     "./file-type-yeoman": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-yeoman.svelte"
+    },
+    "./file-type-zed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-zed.svelte"
     },
     "./file-type-zeit": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5697,6 +5713,14 @@
     "./folder-type-junie-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-junie-opened.svelte"
+    },
+    "./folder-type-kadence": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-kadence.svelte"
+    },
+    "./folder-type-kadence-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-kadence-opened.svelte"
     },
     "./folder-type-kiro": {
       "types": "./types/gfwqskkx.d.ts",
