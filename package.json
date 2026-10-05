@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/pinhead",
   "type": "module",
-  "version": "1.0.34",
+  "version": "1.0.35",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -550,10 +550,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-down-from-banknote-in-slot.svelte"
     },
-    "./arrow-down-from-banknote-stack-in-slot": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/a/arrow-down-from-banknote-stack-in-slot.svelte"
-    },
     "./arrow-down-from-book-with-bookmark-in-slot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-down-from-book-with-bookmark-in-slot.svelte"
@@ -569,6 +565,10 @@
     "./arrow-down-from-rectangle-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-down-from-rectangle-outline.svelte"
+    },
+    "./arrow-down-from-three-stacked-banknotes-in-slot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-from-three-stacked-banknotes-in-slot.svelte"
     },
     "./arrow-down-from-ticket-in-slot": {
       "types": "./types/gfwqskkx.d.ts",
@@ -702,10 +702,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-up-to-banknote-in-slot.svelte"
     },
-    "./arrow-up-to-banknote-stack-in-slot": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/a/arrow-up-to-banknote-stack-in-slot.svelte"
-    },
     "./arrow-up-to-book-with-bookmark-in-slot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-up-to-book-with-bookmark-in-slot.svelte"
@@ -721,6 +717,10 @@
     "./arrow-up-to-rectangle-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-up-to-rectangle-outline.svelte"
+    },
+    "./arrow-up-to-three-stacked-banknotes-in-slot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-to-three-stacked-banknotes-in-slot.svelte"
     },
     "./arrow-up-to-ticket-in-slot": {
       "types": "./types/gfwqskkx.d.ts",
@@ -774,13 +774,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrows-up-down-left-right.svelte"
     },
-    "./art-text": {
+    "./art-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/a/art-text.svelte"
+      "svelte": "./components/a/art-uppercase.svelte"
     },
-    "./art-text-above-swash-line": {
+    "./art-uppercase-above-swash-line": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/a/art-text-above-swash-line.svelte"
+      "svelte": "./components/a/art-uppercase-above-swash-line.svelte"
     },
     "./astrologers-hat": {
       "types": "./types/gfwqskkx.d.ts",
@@ -790,13 +790,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/at-sign.svelte"
     },
-    "./atm-text": {
+    "./atm-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/a/atm-text.svelte"
+      "svelte": "./components/a/atm-uppercase.svelte"
     },
-    "./atm-text-above-banknote-in-slot": {
+    "./atm-uppercase-above-banknote-in-slot": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/a/atm-text-above-banknote-in-slot.svelte"
+      "svelte": "./components/a/atm-uppercase-above-banknote-in-slot.svelte"
     },
     "./atv": {
       "types": "./types/gfwqskkx.d.ts",
@@ -865,6 +865,10 @@
     "./badge-shield-with-star": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-shield-with-star.svelte"
+    },
+    "./badge-shield-with-wifi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-shield-with-wifi.svelte"
     },
     "./badminton-racket": {
       "types": "./types/gfwqskkx.d.ts",
@@ -938,14 +942,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/banknote-in-slot.svelte"
     },
-    "./banknote-stack": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/banknote-stack.svelte"
-    },
-    "./banknote-stack-in-slot": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/banknote-stack-in-slot.svelte"
-    },
     "./barbecue-grill-wheeled-with-steam": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/barbecue-grill-wheeled-with-steam.svelte"
@@ -1013,6 +1009,14 @@
     "./bear": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bear.svelte"
+    },
+    "./bear-and-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bear-and-exclamation-point.svelte"
+    },
+    "./bear-and-question-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bear-and-question-mark.svelte"
     },
     "./bear-spray-can": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1346,10 +1350,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book.svelte"
     },
-    "./book-stack": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/book-stack.svelte"
-    },
     "./book-with-arrows-recirculating": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-with-arrows-recirculating.svelte"
@@ -1589,6 +1589,10 @@
     "./briefcase-with-pawprint": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/briefcase-with-pawprint.svelte"
+    },
+    "./briefcase-with-phone-top-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/briefcase-with-phone-top-right.svelte"
     },
     "./briefcase-with-question-mark": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1838,6 +1842,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/campsite.svelte"
     },
+    "./campsite-above-canoe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/campsite-above-canoe.svelte"
+    },
     "./campsite-above-water": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/campsite-above-water.svelte"
@@ -1893,10 +1901,6 @@
     "./campsite-with-baht": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/campsite-with-baht.svelte"
-    },
-    "./campsite-with-canoe": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/campsite-with-canoe.svelte"
     },
     "./campsite-with-dollar": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1965,6 +1969,10 @@
     "./canoe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/canoe.svelte"
+    },
+    "./canoe-above-water": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/canoe-above-water.svelte"
     },
     "./canoe-and-arrow-right-above-arrow-left": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2326,17 +2334,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cave.svelte"
     },
-    "./cc-text": {
+    "./cc-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/cc-text.svelte"
+      "svelte": "./components/c/cc-uppercase.svelte"
     },
-    "./cc-text-above-caption": {
+    "./cc-uppercase-above-caption": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/cc-text-above-caption.svelte"
+      "svelte": "./components/c/cc-uppercase-above-caption.svelte"
     },
-    "./cc-text-in-tv-screen": {
+    "./cc-uppercase-in-tv-screen": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/cc-text-in-tv-screen.svelte"
+      "svelte": "./components/c/cc-uppercase-in-tv-screen.svelte"
     },
     "./cell-nuclei": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4526,13 +4534,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ice-skate.svelte"
     },
-    "./ice-text": {
+    "./ice-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/i/ice-text.svelte"
+      "svelte": "./components/i/ice-uppercase.svelte"
     },
-    "./ice-text-above-icicles": {
+    "./ice-uppercase-above-icicles": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/i/ice-text-above-icicles.svelte"
+      "svelte": "./components/i/ice-uppercase-above-icicles.svelte"
     },
     "./ichthys": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5902,17 +5910,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/observatory-dome.svelte"
     },
-    "./oc-text": {
+    "./oc-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/o/oc-text.svelte"
+      "svelte": "./components/o/oc-uppercase.svelte"
     },
-    "./oc-text-above-caption": {
+    "./oc-uppercase-above-caption": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/o/oc-text-above-caption.svelte"
+      "svelte": "./components/o/oc-uppercase-above-caption.svelte"
     },
-    "./oc-text-in-tv-screen": {
+    "./oc-uppercase-in-tv-screen": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/o/oc-text-in-tv-screen.svelte"
+      "svelte": "./components/o/oc-uppercase-in-tv-screen.svelte"
     },
     "./octagon": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7142,9 +7150,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-down-above-keyboard.svelte"
     },
-    "./phone-down-above-sos-text": {
+    "./phone-down-above-sos-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/phone-down-above-sos-text.svelte"
+      "svelte": "./components/p/phone-down-above-sos-uppercase.svelte"
     },
     "./phone-right": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7470,9 +7478,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pixel-canoe.svelte"
     },
-    "./pixel-canoe-on-water": {
+    "./pixel-canoe-above-water": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/pixel-canoe-on-water.svelte"
+      "svelte": "./components/p/pixel-canoe-above-water.svelte"
     },
     "./pixel-car": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8806,9 +8814,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sitting-tank-toilet-and-droplet.svelte"
     },
-    "./sitting-tank-toilet-and-wc-text": {
+    "./sitting-tank-toilet-and-wc-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/sitting-tank-toilet-and-wc-text.svelte"
+      "svelte": "./components/s/sitting-tank-toilet-and-wc-uppercase.svelte"
     },
     "./sitting-tank-toilet-with-droplet": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8974,9 +8982,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/soccer-ball.svelte"
     },
-    "./sos-text": {
+    "./sos-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/sos-text.svelte"
+      "svelte": "./components/s/sos-uppercase.svelte"
     },
     "./south-carolina": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9829,6 +9837,18 @@
     "./three-pips": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/three-pips.svelte"
+    },
+    "./three-stacked-banknotes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/three-stacked-banknotes.svelte"
+    },
+    "./three-stacked-banknotes-in-slot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/three-stacked-banknotes-in-slot.svelte"
+    },
+    "./three-stacked-books": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/three-stacked-books.svelte"
     },
     "./three-tall-rectangles-down": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10826,9 +10846,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/waters-meeting-shore.svelte"
     },
-    "./wc-text": {
+    "./wc-uppercase": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/w/wc-text.svelte"
+      "svelte": "./components/w/wc-uppercase.svelte"
     },
     "./webcam": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11150,9 +11170,41 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/airport-terminal-with-plane-takeoff.svelte"
     },
+    "./arrow-down-from-banknote-stack-in-slot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-from-banknote-stack-in-slot.svelte"
+    },
+    "./arrow-up-to-banknote-stack-in-slot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-to-banknote-stack-in-slot.svelte"
+    },
+    "./art-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/art-text.svelte"
+    },
+    "./art-text-above-swash-line": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/art-text-above-swash-line.svelte"
+    },
+    "./atm-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atm-text.svelte"
+    },
+    "./atm-text-above-banknote-in-slot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/atm-text-above-banknote-in-slot.svelte"
+    },
     "./bagel-seeded": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bagel-seeded.svelte"
+    },
+    "./banknote-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banknote-stack.svelte"
+    },
+    "./banknote-stack-in-slot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banknote-stack-in-slot.svelte"
     },
     "./bicycle-and-key": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11165,6 +11217,10 @@
     "./bicycle-and-wrench": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bicycle-and-wrench.svelte"
+    },
+    "./book-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-stack.svelte"
     },
     "./book-with-music-notes-eighth": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11222,6 +11278,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/campsite-over-waters.svelte"
     },
+    "./campsite-with-canoe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/campsite-with-canoe.svelte"
+    },
     "./canoe-and-key": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/canoe-and-key.svelte"
@@ -11265,6 +11325,18 @@
     "./cargobike-and-wrench": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cargobike-and-wrench.svelte"
+    },
+    "./cc-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cc-text.svelte"
+    },
+    "./cc-text-above-caption": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cc-text-above-caption.svelte"
+    },
+    "./cc-text-in-tv-screen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cc-text-in-tv-screen.svelte"
     },
     "./chevron-up-tall": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11546,6 +11618,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/head-and-shoulders.svelte"
     },
+    "./ice-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ice-text.svelte"
+    },
+    "./ice-text-above-icicles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ice-text-above-icicles.svelte"
+    },
     "./isosceles-trapezoid-tall-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/isosceles-trapezoid-tall-down.svelte"
@@ -11665,6 +11745,18 @@
     "./no-entry": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/no-entry.svelte"
+    },
+    "./oc-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oc-text.svelte"
+    },
+    "./oc-text-above-caption": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oc-text-above-caption.svelte"
+    },
+    "./oc-text-in-tv-screen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oc-text-in-tv-screen.svelte"
     },
     "./one": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12014,6 +12106,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-down-above-six-one-one.svelte"
     },
+    "./phone-down-above-sos-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-down-above-sos-text.svelte"
+    },
     "./phone-down-above-three-one-one": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-down-above-three-one-one.svelte"
@@ -12029,6 +12125,10 @@
     "./pipe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pipe.svelte"
+    },
+    "./pixel-canoe-on-water": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixel-canoe-on-water.svelte"
     },
     "./pixel-fork-and-knife": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12134,6 +12234,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shore.svelte"
     },
+    "./sitting-tank-toilet-and-wc-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sitting-tank-toilet-and-wc-text.svelte"
+    },
     "./sitting-tank-toilet-beside-wc-text": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sitting-tank-toilet-beside-wc-text.svelte"
@@ -12185,6 +12289,10 @@
     "./slot-vertical": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/slot-vertical.svelte"
+    },
+    "./sos-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sos-text.svelte"
     },
     "./spiky-fish-with-x": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12433,6 +12541,10 @@
     "./water-bottle-beside-droplet": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/water-bottle-beside-droplet.svelte"
+    },
+    "./wc-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wc-text.svelte"
     },
     "./winding-way-narrow": {
       "types": "./types/gfwqskkx.d.ts",
