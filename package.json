@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/tabler",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/tabler/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -562,9 +562,25 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/alphabet-bangla.svelte"
     },
+    "./alphabet-chinese": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alphabet-chinese.svelte"
+    },
     "./alphabet-cyrillic": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/alphabet-cyrillic.svelte"
+    },
+    "./alphabet-devanagari": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alphabet-devanagari.svelte"
+    },
+    "./alphabet-ethiopic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alphabet-ethiopic.svelte"
+    },
+    "./alphabet-georgian": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alphabet-georgian.svelte"
     },
     "./alphabet-greek": {
       "types": "./types/gfwqskkx.d.ts",
@@ -573,6 +589,10 @@
     "./alphabet-hebrew": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/alphabet-hebrew.svelte"
+    },
+    "./alphabet-japanese": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alphabet-japanese.svelte"
     },
     "./alphabet-korean": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2669,6 +2689,10 @@
     "./blob": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/blob.svelte"
+    },
+    "./blob-dashed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blob-dashed.svelte"
     },
     "./blob-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6930,6 +6954,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-half-vertical.svelte"
     },
+    "./circle-heart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-heart.svelte"
+    },
     "./circle-key": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-key.svelte"
@@ -7254,6 +7282,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-open-arrow-up.svelte"
     },
+    "./circle-pause": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-pause.svelte"
+    },
     "./circle-percentage": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-percentage.svelte"
@@ -7261,6 +7293,10 @@
     "./circle-percentage-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-percentage-filled.svelte"
+    },
+    "./circle-play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-play.svelte"
     },
     "./circle-plus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7293,6 +7329,10 @@
     "./circle-square": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-square.svelte"
+    },
+    "./circle-stop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-stop.svelte"
     },
     "./circle-triangle": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11202,6 +11242,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-like.svelte"
     },
+    "./file-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-lock.svelte"
+    },
     "./file-minus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-minus.svelte"
@@ -12081,6 +12125,10 @@
     "./folder-heart": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-heart.svelte"
+    },
+    "./folder-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lock.svelte"
     },
     "./folder-minus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14726,6 +14774,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lemon-2-filled.svelte"
     },
+    "./lens-concave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lens-concave.svelte"
+    },
+    "./lens-convex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lens-convex.svelte"
+    },
     "./letter-a": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/letter-a.svelte"
@@ -16081,6 +16137,10 @@
     "./melon-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/melon-filled.svelte"
+    },
+    "./memory": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory.svelte"
     },
     "./menorah": {
       "types": "./types/gfwqskkx.d.ts",
@@ -21554,6 +21614,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-dashed.svelte"
     },
+    "./square-dashed-top-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-dashed-top-solid.svelte"
+    },
+    "./square-dashed-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-dashed-x.svelte"
+    },
     "./square-dot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-dot.svelte"
@@ -23781,6 +23849,10 @@
     "./triangle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/triangle.svelte"
+    },
+    "./triangle-dashed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-dashed.svelte"
     },
     "./triangle-filled": {
       "types": "./types/gfwqskkx.d.ts",
