@@ -6,6 +6,6 @@ import '../../css/b/b9p2bebfa.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="b9p2bebfa"/>`;
+const content = `<path class="b9p2bebfa"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:keyboard-return" {...props}></Icon>

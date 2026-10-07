@@ -6,6 +6,6 @@ import '../../css/e/enh3ep69x.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="enh3ep69x"/>`;
+const content = `<path class="enh3ep69x"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:reusable-block" {...props}></Icon>

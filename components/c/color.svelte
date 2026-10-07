@@ -6,6 +6,6 @@ import '../../css/w/wqkn1sbqe.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="wqkn1sbqe"/>`;
+const content = `<path class="wqkn1sbqe"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:color" {...props}></Icon>

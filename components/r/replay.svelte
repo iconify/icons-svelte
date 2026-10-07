@@ -8,6 +8,6 @@ import '../../css/w/wt9ji_gcr.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="do_l0t4lb"/><path vector-effect="non-scaling-stroke" class="wt9ji_gcr"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="do_l0t4lb"/><path class="wt9ji_gcr"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:replay" {...props}></Icon>

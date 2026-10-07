@@ -6,6 +6,6 @@ import '../../css/z/zzbox8agt.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="zzbox8agt"/>`;
+const content = `<path class="zzbox8agt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:layout" {...props}></Icon>

@@ -6,6 +6,6 @@ import '../../css/o/o9vojfbym.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="o9vojfbym"/>`;
+const content = `<path class="o9vojfbym"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:shuffle" {...props}></Icon>

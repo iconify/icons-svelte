@@ -6,6 +6,6 @@ import '../../css/o/ol8rzibii.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="ol8rzibii"/>`;
+const content = `<path class="ol8rzibii"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:redo" {...props}></Icon>

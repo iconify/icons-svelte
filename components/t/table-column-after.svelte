@@ -6,6 +6,6 @@ import '../../css/s/s-zhgxbbp.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="s-zhgxbbp"/>`;
+const content = `<path class="s-zhgxbbp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:table-column-after" {...props}></Icon>

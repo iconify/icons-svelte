@@ -6,6 +6,6 @@ import '../../css/v/veez9zr5c.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="veez9zr5c"/>`;
+const content = `<path class="veez9zr5c"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:chevron-up-down" {...props}></Icon>

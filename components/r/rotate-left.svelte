@@ -8,6 +8,6 @@ import '../../css/h/hsr7erqrg.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="qm_8idbhr"/><path vector-effect="non-scaling-stroke" class="hsr7erqrg"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="qm_8idbhr"/><path class="hsr7erqrg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:rotate-left" {...props}></Icon>

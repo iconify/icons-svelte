@@ -8,6 +8,6 @@ import '../../css/c/cgl2m5s9b.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="rwon19h1w"/><path vector-effect="non-scaling-stroke" class="cgl2m5s9b"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="rwon19h1w"/><path class="cgl2m5s9b"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:justify-stretch-vertical" {...props}></Icon>

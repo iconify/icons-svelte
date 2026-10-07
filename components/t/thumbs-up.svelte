@@ -6,6 +6,6 @@ import '../../css/s/sfoc4ibca.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="sfoc4ibca"/>`;
+const content = `<path class="sfoc4ibca"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:thumbs-up" {...props}></Icon>

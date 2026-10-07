@@ -8,6 +8,6 @@ import '../../css/i/ijbu4ka0a.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="j0okf2bfb"/><circle vector-effect="non-scaling-stroke" class="ijbu4ka0a"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="j0okf2bfb"/><circle class="ijbu4ka0a"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:seen" {...props}></Icon>

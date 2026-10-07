@@ -6,6 +6,6 @@ import '../../css/b/b80801b1x.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="b80801b1x"/>`;
+const content = `<path class="b80801b1x"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:format-outdent" {...props}></Icon>

@@ -6,6 +6,6 @@ import '../../css/r/rkbkpbc4f.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="rkbkpbc4f"/>`;
+const content = `<path class="rkbkpbc4f"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:arrow-down" {...props}></Icon>

@@ -6,6 +6,6 @@ import '../../css/d/duccjbc7t.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="duccjbc7t"/>`;
+const content = `<path class="duccjbc7t"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:level-up" {...props}></Icon>

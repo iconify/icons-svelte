@@ -6,6 +6,6 @@ import '../../css/i/iq6bcbctw.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="iq6bcbctw"/>`;
+const content = `<path class="iq6bcbctw"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:menu" {...props}></Icon>

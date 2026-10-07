@@ -6,6 +6,6 @@ import '../../css/l/lzsl0mbvk.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="lzsl0mbvk"/>`;
+const content = `<path class="lzsl0mbvk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:keyboard" {...props}></Icon>

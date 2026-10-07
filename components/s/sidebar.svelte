@@ -8,6 +8,6 @@ import '../../css/y/yhrns5byl.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="ctfm4yb2w"/><path vector-effect="non-scaling-stroke" class="yhrns5byl"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="ctfm4yb2w"/><path class="yhrns5byl"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:sidebar" {...props}></Icon>

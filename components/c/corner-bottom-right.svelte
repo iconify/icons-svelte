@@ -8,6 +8,6 @@ import '../../css/m/mbqv50tkh.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="pk9gzk-lh"/><path vector-effect="non-scaling-stroke" class="mbqv50tkh"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="pk9gzk-lh"/><path class="mbqv50tkh"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:corner-bottom-right" {...props}></Icon>

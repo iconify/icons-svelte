@@ -6,6 +6,6 @@ import '../../css/k/kof_8-b8i.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="kof_8-b8i"/>`;
+const content = `<path class="kof_8-b8i"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:more" {...props}></Icon>

@@ -8,6 +8,6 @@ import '../../css/l/l-_am0b3h.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="lh8ihccyf"/><path vector-effect="non-scaling-stroke" class="l-_am0b3h"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="lh8ihccyf"/><path class="l-_am0b3h"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:skip-back" {...props}></Icon>

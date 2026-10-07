@@ -6,6 +6,6 @@ import '../../css/i/iju81lxdp.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="iju81lxdp"/>`;
+const content = `<path class="iju81lxdp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:custom-link" {...props}></Icon>

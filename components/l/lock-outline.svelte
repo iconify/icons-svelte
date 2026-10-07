@@ -6,6 +6,6 @@ import '../../css/i/iomvupuov.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="iomvupuov"/>`;
+const content = `<path class="iomvupuov"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:lock-outline" {...props}></Icon>

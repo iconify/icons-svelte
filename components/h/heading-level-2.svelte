@@ -6,6 +6,6 @@ import '../../css/f/f1nmlabip.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="f1nmlabip"/>`;
+const content = `<path class="f1nmlabip"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:heading-level-2" {...props}></Icon>

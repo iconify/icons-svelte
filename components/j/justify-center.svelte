@@ -8,6 +8,6 @@ import '../../css/t/tp983llrf.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="ebfe2acus"/><path class="tp983llrf"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="ebfe2acus"/><path class="tp983llrf"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:justify-center" {...props}></Icon>

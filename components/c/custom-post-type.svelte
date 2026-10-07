@@ -6,6 +6,6 @@ import '../../css/e/eagz4xafi.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="eagz4xafi"/>`;
+const content = `<path class="eagz4xafi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:custom-post-type" {...props}></Icon>

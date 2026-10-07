@@ -6,6 +6,6 @@ import '../../css/d/dzrnlbcey.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="dzrnlbcey"/>`;
+const content = `<path class="dzrnlbcey"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:tablet" {...props}></Icon>

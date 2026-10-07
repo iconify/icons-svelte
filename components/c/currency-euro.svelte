@@ -8,6 +8,6 @@ import '../../css/i/i7iqbpbxn.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path vector-effect="non-scaling-stroke" class="q6dgyrq9a"/><path vector-effect="non-scaling-stroke" class="i7iqbpbxn"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="q6dgyrq9a"/><path class="i7iqbpbxn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:currency-euro" {...props}></Icon>

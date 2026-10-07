@@ -8,6 +8,6 @@ import '../../css/g/gq61baboz.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="ue_n1y71q"/><path vector-effect="non-scaling-stroke" class="gq61baboz"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="ue_n1y71q"/><path class="gq61baboz"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:drag-handle" {...props}></Icon>

@@ -8,6 +8,6 @@ import '../../css/v/vm6rlmbny.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="t563peikw"/><path vector-effect="non-scaling-stroke" class="vm6rlmbny"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="t563peikw"/><path class="vm6rlmbny"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:format-rtl" {...props}></Icon>

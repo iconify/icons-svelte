@@ -8,6 +8,6 @@ import '../../css/j/jb730ab3d.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="bv9v4xlge"/><path vector-effect="non-scaling-stroke" class="jb730ab3d"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="bv9v4xlge"/><path class="jb730ab3d"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:heading-level-1" {...props}></Icon>

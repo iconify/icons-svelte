@@ -6,6 +6,6 @@ import '../../css/g/g9d-6sbrt.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="g9d-6sbrt"/>`;
+const content = `<path class="g9d-6sbrt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:brush" {...props}></Icon>

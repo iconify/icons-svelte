@@ -6,6 +6,6 @@ import '../../css/a/a06932bvf.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="a06932bvf"/>`;
+const content = `<path class="a06932bvf"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:chevron-right" {...props}></Icon>

@@ -8,6 +8,6 @@ import '../../css/l/l97qpbbsj.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="hjux57bau"/><path vector-effect="non-scaling-stroke" class="l97qpbbsj"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="hjux57bau"/><path class="l97qpbbsj"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:published" {...props}></Icon>

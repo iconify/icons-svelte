@@ -6,6 +6,6 @@ import '../../css/g/gwopkkbhg.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="gwopkkbhg"/>`;
+const content = `<path class="gwopkkbhg"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:arrow-left" {...props}></Icon>

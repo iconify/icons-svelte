@@ -6,6 +6,6 @@ import '../../css/i/ishzvubsr.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="ishzvubsr"/>`;
+const content = `<path class="ishzvubsr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:store" {...props}></Icon>

@@ -8,6 +8,6 @@ import '../../css/g/gr7fowzad.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="sxlwlmkmh"/><path class="gr7fowzad"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="sxlwlmkmh"/><path class="gr7fowzad"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:justify-space-between-vertical" {...props}></Icon>

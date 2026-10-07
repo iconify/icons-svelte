@@ -6,6 +6,6 @@ import '../../css/u/u250_-x4y.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="u250_-x4y"/>`;
+const content = `<path class="u250_-x4y"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:inline-image" {...props}></Icon>

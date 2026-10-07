@@ -8,6 +8,6 @@ import '../../css/w/w3ftdbw8y.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="v509occvb"/><path class="w3ftdbw8y"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="v509occvb"/><path class="w3ftdbw8y"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:stretch-full-width" {...props}></Icon>

@@ -8,6 +8,6 @@ import '../../css/i/ibnodixuu.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="uk7tz_b4w"/><path vector-effect="non-scaling-stroke" class="ibnodixuu"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="uk7tz_b4w"/><path class="ibnodixuu"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:sides-right" {...props}></Icon>

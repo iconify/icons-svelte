@@ -6,6 +6,6 @@ import '../../css/l/l88hrmbmc.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="l88hrmbmc"/>`;
+const content = `<path class="l88hrmbmc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:replace" {...props}></Icon>

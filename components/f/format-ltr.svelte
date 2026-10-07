@@ -8,6 +8,6 @@ import '../../css/v/vm6rlmbny.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="kjx9dmbbx"/><path vector-effect="non-scaling-stroke" class="vm6rlmbny"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="kjx9dmbbx"/><path class="vm6rlmbny"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:format-ltr" {...props}></Icon>

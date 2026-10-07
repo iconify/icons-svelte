@@ -6,6 +6,6 @@ import '../../css/j/jukv0ub1l.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="jukv0ub1l"/>`;
+const content = `<path class="jukv0ub1l"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:caution" {...props}></Icon>

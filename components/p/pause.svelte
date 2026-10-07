@@ -6,6 +6,6 @@ import '../../css/j/jb-slzbvt.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="jb-slzbvt"/>`;
+const content = `<path class="jb-slzbvt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:pause" {...props}></Icon>
