@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/v/vs5vj2cne.css';
+import '../../css/x/xt3no1brh.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="vs5vj2cne"/>`;
+const content = `<path class="xt3no1brh"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="cbi:ubiquiti-ap" {...props}></Icon>
