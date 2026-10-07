@@ -1,11 +1,75 @@
 {
   "name": "@iconify-svelte/keyline-icons",
   "type": "module",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "homepage": "https://icon-sets.iconify.design/keyline-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
   "exports": {
+    "./a-arrow-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down.svelte"
+    },
+    "./a-arrow-down-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down-duotone.svelte"
+    },
+    "./a-arrow-down-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down-fill.svelte"
+    },
+    "./a-arrow-down-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down-sharp.svelte"
+    },
+    "./a-arrow-down-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down-sharp-duotone.svelte"
+    },
+    "./a-arrow-down-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down-sharp-fill.svelte"
+    },
+    "./a-arrow-down-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down-sharp-two-tone.svelte"
+    },
+    "./a-arrow-down-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-down-two-tone.svelte"
+    },
+    "./a-arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up.svelte"
+    },
+    "./a-arrow-up-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up-duotone.svelte"
+    },
+    "./a-arrow-up-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up-fill.svelte"
+    },
+    "./a-arrow-up-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up-sharp.svelte"
+    },
+    "./a-arrow-up-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up-sharp-duotone.svelte"
+    },
+    "./a-arrow-up-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up-sharp-fill.svelte"
+    },
+    "./a-arrow-up-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up-sharp-two-tone.svelte"
+    },
+    "./a-arrow-up-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/a-arrow-up-two-tone.svelte"
+    },
     "./accessibility": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/accessibility.svelte"
@@ -3462,6 +3526,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/ban-two-tone.svelte"
     },
+    "./bandage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage.svelte"
+    },
+    "./bandage-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-duotone.svelte"
+    },
+    "./bandage-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-fill.svelte"
+    },
+    "./bandage-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-sharp.svelte"
+    },
+    "./bandage-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-sharp-duotone.svelte"
+    },
+    "./bandage-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-sharp-fill.svelte"
+    },
+    "./bandage-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-sharp-two-tone.svelte"
+    },
+    "./bandage-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-two-tone.svelte"
+    },
     "./banknote": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/banknote.svelte"
@@ -4137,6 +4233,38 @@
     "./battery": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery.svelte"
+    },
+    "./battery-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging.svelte"
+    },
+    "./battery-charging-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-duotone.svelte"
+    },
+    "./battery-charging-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-fill.svelte"
+    },
+    "./battery-charging-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-sharp.svelte"
+    },
+    "./battery-charging-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-sharp-duotone.svelte"
+    },
+    "./battery-charging-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-sharp-fill.svelte"
+    },
+    "./battery-charging-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-sharp-two-tone.svelte"
+    },
+    "./battery-charging-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-two-tone.svelte"
     },
     "./battery-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5670,6 +5798,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/boy-two-tone.svelte"
     },
+    "./braces": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces.svelte"
+    },
+    "./braces-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-duotone.svelte"
+    },
+    "./braces-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-fill.svelte"
+    },
+    "./braces-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-sharp.svelte"
+    },
+    "./braces-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-sharp-duotone.svelte"
+    },
+    "./braces-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-sharp-fill.svelte"
+    },
+    "./braces-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-sharp-two-tone.svelte"
+    },
+    "./braces-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-two-tone.svelte"
+    },
     "./bracket-arrow-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bracket-arrow-down.svelte"
@@ -5797,6 +5957,38 @@
     "./bracket-arrow-up-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bracket-arrow-up-two-tone.svelte"
+    },
+    "./brackets": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets.svelte"
+    },
+    "./brackets-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-duotone.svelte"
+    },
+    "./brackets-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-fill.svelte"
+    },
+    "./brackets-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-sharp.svelte"
+    },
+    "./brackets-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-sharp-duotone.svelte"
+    },
+    "./brackets-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-sharp-fill.svelte"
+    },
+    "./brackets-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-sharp-two-tone.svelte"
+    },
+    "./brackets-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brackets-two-tone.svelte"
     },
     "./brain": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10898,6 +11090,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-pound-sterling-two-tone.svelte"
     },
+    "./circle-progress-arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up.svelte"
+    },
+    "./circle-progress-arrow-up-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up-duotone.svelte"
+    },
+    "./circle-progress-arrow-up-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up-fill.svelte"
+    },
+    "./circle-progress-arrow-up-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up-sharp.svelte"
+    },
+    "./circle-progress-arrow-up-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up-sharp-duotone.svelte"
+    },
+    "./circle-progress-arrow-up-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up-sharp-fill.svelte"
+    },
+    "./circle-progress-arrow-up-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up-sharp-two-tone.svelte"
+    },
+    "./circle-progress-arrow-up-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-arrow-up-two-tone.svelte"
+    },
     "./circle-progress-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-progress-check.svelte"
@@ -11025,6 +11249,38 @@
     "./circle-progress-play-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-progress-play-two-tone.svelte"
+    },
+    "./circle-progress-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus.svelte"
+    },
+    "./circle-progress-plus-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus-duotone.svelte"
+    },
+    "./circle-progress-plus-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus-fill.svelte"
+    },
+    "./circle-progress-plus-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus-sharp.svelte"
+    },
+    "./circle-progress-plus-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus-sharp-duotone.svelte"
+    },
+    "./circle-progress-plus-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus-sharp-fill.svelte"
+    },
+    "./circle-progress-plus-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus-sharp-two-tone.svelte"
+    },
+    "./circle-progress-plus-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-progress-plus-two-tone.svelte"
     },
     "./circle-progress-quarter": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15590,6 +15846,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/door-two-tone.svelte"
     },
+    "./dot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot.svelte"
+    },
+    "./dot-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-duotone.svelte"
+    },
+    "./dot-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-fill.svelte"
+    },
+    "./dot-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-sharp.svelte"
+    },
+    "./dot-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-sharp-duotone.svelte"
+    },
+    "./dot-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-sharp-fill.svelte"
+    },
+    "./dot-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-sharp-two-tone.svelte"
+    },
+    "./dot-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dot-two-tone.svelte"
+    },
     "./double-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/double-check.svelte"
@@ -19142,6 +19430,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gauge-two-tone.svelte"
     },
+    "./gavel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel.svelte"
+    },
+    "./gavel-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-duotone.svelte"
+    },
+    "./gavel-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-fill.svelte"
+    },
+    "./gavel-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-sharp.svelte"
+    },
+    "./gavel-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-sharp-duotone.svelte"
+    },
+    "./gavel-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-sharp-fill.svelte"
+    },
+    "./gavel-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-sharp-two-tone.svelte"
+    },
+    "./gavel-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gavel-two-tone.svelte"
+    },
     "./gift": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gift.svelte"
@@ -20966,6 +21286,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hand-closed-two-tone.svelte"
     },
+    "./hand-coins": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins.svelte"
+    },
+    "./hand-coins-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins-duotone.svelte"
+    },
+    "./hand-coins-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins-fill.svelte"
+    },
+    "./hand-coins-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins-sharp.svelte"
+    },
+    "./hand-coins-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins-sharp-duotone.svelte"
+    },
+    "./hand-coins-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins-sharp-fill.svelte"
+    },
+    "./hand-coins-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins-sharp-two-tone.svelte"
+    },
+    "./hand-coins-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hand-coins-two-tone.svelte"
+    },
     "./hand-heart": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hand-heart.svelte"
@@ -21841,6 +22193,38 @@
     "./heart-plus-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heart-plus-two-tone.svelte"
+    },
+    "./heart-pulse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse.svelte"
+    },
+    "./heart-pulse-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-duotone.svelte"
+    },
+    "./heart-pulse-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-fill.svelte"
+    },
+    "./heart-pulse-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-sharp.svelte"
+    },
+    "./heart-pulse-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-sharp-duotone.svelte"
+    },
+    "./heart-pulse-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-sharp-fill.svelte"
+    },
+    "./heart-pulse-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-sharp-two-tone.svelte"
+    },
+    "./heart-pulse-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-two-tone.svelte"
     },
     "./heart-sharp": {
       "types": "./types/gfwqskkx.d.ts",
@@ -23122,6 +23506,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/image-minus-two-tone.svelte"
     },
+    "./image-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off.svelte"
+    },
+    "./image-off-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-duotone.svelte"
+    },
+    "./image-off-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-fill.svelte"
+    },
+    "./image-off-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-sharp.svelte"
+    },
+    "./image-off-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-sharp-duotone.svelte"
+    },
+    "./image-off-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-sharp-fill.svelte"
+    },
+    "./image-off-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-sharp-two-tone.svelte"
+    },
+    "./image-off-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-off-two-tone.svelte"
+    },
     "./image-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/image-plus.svelte"
@@ -24274,6 +24690,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-fill.svelte"
     },
+    "./list-filter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter.svelte"
+    },
+    "./list-filter-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter-duotone.svelte"
+    },
+    "./list-filter-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter-fill.svelte"
+    },
+    "./list-filter-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter-sharp.svelte"
+    },
+    "./list-filter-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter-sharp-duotone.svelte"
+    },
+    "./list-filter-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter-sharp-fill.svelte"
+    },
+    "./list-filter-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter-sharp-two-tone.svelte"
+    },
+    "./list-filter-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-filter-two-tone.svelte"
+    },
     "./list-minus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-minus.svelte"
@@ -24514,6 +24962,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-sparkles-two-tone.svelte"
     },
+    "./list-todo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo.svelte"
+    },
+    "./list-todo-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo-duotone.svelte"
+    },
+    "./list-todo-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo-fill.svelte"
+    },
+    "./list-todo-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo-sharp.svelte"
+    },
+    "./list-todo-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo-sharp-duotone.svelte"
+    },
+    "./list-todo-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo-sharp-fill.svelte"
+    },
+    "./list-todo-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo-sharp-two-tone.svelte"
+    },
+    "./list-todo-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-todo-two-tone.svelte"
+    },
     "./list-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-two-tone.svelte"
@@ -24646,6 +25126,70 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/loader-two-tone.svelte"
     },
+    "./locate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate.svelte"
+    },
+    "./locate-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-duotone.svelte"
+    },
+    "./locate-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fill.svelte"
+    },
+    "./locate-fixed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed.svelte"
+    },
+    "./locate-fixed-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed-duotone.svelte"
+    },
+    "./locate-fixed-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed-fill.svelte"
+    },
+    "./locate-fixed-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed-sharp.svelte"
+    },
+    "./locate-fixed-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed-sharp-duotone.svelte"
+    },
+    "./locate-fixed-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed-sharp-fill.svelte"
+    },
+    "./locate-fixed-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed-sharp-two-tone.svelte"
+    },
+    "./locate-fixed-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-fixed-two-tone.svelte"
+    },
+    "./locate-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-sharp.svelte"
+    },
+    "./locate-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-sharp-duotone.svelte"
+    },
+    "./locate-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-sharp-fill.svelte"
+    },
+    "./locate-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-sharp-two-tone.svelte"
+    },
+    "./locate-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate-two-tone.svelte"
+    },
     "./lock": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lock.svelte"
@@ -24677,6 +25221,70 @@
     "./lock-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lock-two-tone.svelte"
+    },
+    "./log-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in.svelte"
+    },
+    "./log-in-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-duotone.svelte"
+    },
+    "./log-in-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-fill.svelte"
+    },
+    "./log-in-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-sharp.svelte"
+    },
+    "./log-in-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-sharp-duotone.svelte"
+    },
+    "./log-in-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-sharp-fill.svelte"
+    },
+    "./log-in-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-sharp-two-tone.svelte"
+    },
+    "./log-in-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-two-tone.svelte"
+    },
+    "./log-out": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out.svelte"
+    },
+    "./log-out-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out-duotone.svelte"
+    },
+    "./log-out-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out-fill.svelte"
+    },
+    "./log-out-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out-sharp.svelte"
+    },
+    "./log-out-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out-sharp-duotone.svelte"
+    },
+    "./log-out-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out-sharp-fill.svelte"
+    },
+    "./log-out-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out-sharp-two-tone.svelte"
+    },
+    "./log-out-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-out-two-tone.svelte"
     },
     "./lungs": {
       "types": "./types/gfwqskkx.d.ts",
@@ -27014,6 +27622,70 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/newspaper-two-tone.svelte"
     },
+    "./notebook": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook.svelte"
+    },
+    "./notebook-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-duotone.svelte"
+    },
+    "./notebook-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-fill.svelte"
+    },
+    "./notebook-pen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen.svelte"
+    },
+    "./notebook-pen-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen-duotone.svelte"
+    },
+    "./notebook-pen-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen-fill.svelte"
+    },
+    "./notebook-pen-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen-sharp.svelte"
+    },
+    "./notebook-pen-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen-sharp-duotone.svelte"
+    },
+    "./notebook-pen-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen-sharp-fill.svelte"
+    },
+    "./notebook-pen-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen-sharp-two-tone.svelte"
+    },
+    "./notebook-pen-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-pen-two-tone.svelte"
+    },
+    "./notebook-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-sharp.svelte"
+    },
+    "./notebook-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-sharp-duotone.svelte"
+    },
+    "./notebook-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-sharp-fill.svelte"
+    },
+    "./notebook-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-sharp-two-tone.svelte"
+    },
+    "./notebook-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-two-tone.svelte"
+    },
     "./octagon-alert": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/octagon-alert.svelte"
@@ -29254,6 +29926,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/piggy-bank-two-tone.svelte"
     },
+    "./pill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill.svelte"
+    },
+    "./pill-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-duotone.svelte"
+    },
+    "./pill-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-fill.svelte"
+    },
+    "./pill-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-sharp.svelte"
+    },
+    "./pill-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-sharp-duotone.svelte"
+    },
+    "./pill-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-sharp-fill.svelte"
+    },
+    "./pill-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-sharp-two-tone.svelte"
+    },
+    "./pill-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-two-tone.svelte"
+    },
     "./pin": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pin.svelte"
@@ -30406,6 +31110,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/refresh-cw-two-tone.svelte"
     },
+    "./regex": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex.svelte"
+    },
+    "./regex-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-duotone.svelte"
+    },
+    "./regex-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-fill.svelte"
+    },
+    "./regex-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-sharp.svelte"
+    },
+    "./regex-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-sharp-duotone.svelte"
+    },
+    "./regex-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-sharp-fill.svelte"
+    },
+    "./regex-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-sharp-two-tone.svelte"
+    },
+    "./regex-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/regex-two-tone.svelte"
+    },
     "./repeat": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/repeat.svelte"
@@ -31045,6 +31781,102 @@
     "./save-x-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/save-x-two-tone.svelte"
+    },
+    "./scale": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale.svelte"
+    },
+    "./scale-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-duotone.svelte"
+    },
+    "./scale-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-fill.svelte"
+    },
+    "./scale-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-sharp.svelte"
+    },
+    "./scale-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-sharp-duotone.svelte"
+    },
+    "./scale-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-sharp-fill.svelte"
+    },
+    "./scale-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-sharp-two-tone.svelte"
+    },
+    "./scale-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-two-tone.svelte"
+    },
+    "./scale-unbalanced": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced.svelte"
+    },
+    "./scale-unbalanced-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-duotone.svelte"
+    },
+    "./scale-unbalanced-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-fill.svelte"
+    },
+    "./scale-unbalanced-flip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip.svelte"
+    },
+    "./scale-unbalanced-flip-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip-duotone.svelte"
+    },
+    "./scale-unbalanced-flip-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip-fill.svelte"
+    },
+    "./scale-unbalanced-flip-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip-sharp.svelte"
+    },
+    "./scale-unbalanced-flip-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip-sharp-duotone.svelte"
+    },
+    "./scale-unbalanced-flip-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip-sharp-fill.svelte"
+    },
+    "./scale-unbalanced-flip-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip-sharp-two-tone.svelte"
+    },
+    "./scale-unbalanced-flip-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-flip-two-tone.svelte"
+    },
+    "./scale-unbalanced-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-sharp.svelte"
+    },
+    "./scale-unbalanced-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-sharp-duotone.svelte"
+    },
+    "./scale-unbalanced-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-sharp-fill.svelte"
+    },
+    "./scale-unbalanced-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-sharp-two-tone.svelte"
+    },
+    "./scale-unbalanced-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-unbalanced-two-tone.svelte"
     },
     "./scan": {
       "types": "./types/gfwqskkx.d.ts",
@@ -33350,6 +34182,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/signal-two-tone.svelte"
     },
+    "./signature": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature.svelte"
+    },
+    "./signature-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature-duotone.svelte"
+    },
+    "./signature-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature-fill.svelte"
+    },
+    "./signature-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature-sharp.svelte"
+    },
+    "./signature-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature-sharp-duotone.svelte"
+    },
+    "./signature-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature-sharp-fill.svelte"
+    },
+    "./signature-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature-sharp-two-tone.svelte"
+    },
+    "./signature-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/signature-two-tone.svelte"
+    },
     "./siren": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/siren.svelte"
@@ -34469,6 +35333,38 @@
     "./sparkles-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sparkles-two-tone.svelte"
+    },
+    "./spell-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check.svelte"
+    },
+    "./spell-check-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check-duotone.svelte"
+    },
+    "./spell-check-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check-fill.svelte"
+    },
+    "./spell-check-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check-sharp.svelte"
+    },
+    "./spell-check-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check-sharp-duotone.svelte"
+    },
+    "./spell-check-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check-sharp-fill.svelte"
+    },
+    "./spell-check-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check-sharp-two-tone.svelte"
+    },
+    "./spell-check-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spell-check-two-tone.svelte"
     },
     "./square": {
       "types": "./types/gfwqskkx.d.ts",
@@ -37158,6 +38054,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/star-two-tone.svelte"
     },
+    "./stethoscope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope.svelte"
+    },
+    "./stethoscope-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-duotone.svelte"
+    },
+    "./stethoscope-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-fill.svelte"
+    },
+    "./stethoscope-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-sharp.svelte"
+    },
+    "./stethoscope-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-sharp-duotone.svelte"
+    },
+    "./stethoscope-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-sharp-fill.svelte"
+    },
+    "./stethoscope-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-sharp-two-tone.svelte"
+    },
+    "./stethoscope-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-two-tone.svelte"
+    },
     "./sticky-note": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sticky-note.svelte"
@@ -37861,6 +38789,38 @@
     "./swiss-franc-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/swiss-franc-two-tone.svelte"
+    },
+    "./syringe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe.svelte"
+    },
+    "./syringe-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-duotone.svelte"
+    },
+    "./syringe-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-fill.svelte"
+    },
+    "./syringe-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-sharp.svelte"
+    },
+    "./syringe-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-sharp-duotone.svelte"
+    },
+    "./syringe-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-sharp-fill.svelte"
+    },
+    "./syringe-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-sharp-two-tone.svelte"
+    },
+    "./syringe-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-two-tone.svelte"
     },
     "./table": {
       "types": "./types/gfwqskkx.d.ts",
@@ -39141,6 +40101,38 @@
     "./target-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/target-two-tone.svelte"
+    },
+    "./telescope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope.svelte"
+    },
+    "./telescope-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-duotone.svelte"
+    },
+    "./telescope-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-fill.svelte"
+    },
+    "./telescope-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-sharp.svelte"
+    },
+    "./telescope-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-sharp-duotone.svelte"
+    },
+    "./telescope-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-sharp-fill.svelte"
+    },
+    "./telescope-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-sharp-two-tone.svelte"
+    },
+    "./telescope-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telescope-two-tone.svelte"
     },
     "./temperature-empty": {
       "types": "./types/gfwqskkx.d.ts",
@@ -40710,6 +41702,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tv-two-tone.svelte"
     },
+    "./type": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type.svelte"
+    },
+    "./type-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type-duotone.svelte"
+    },
+    "./type-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type-fill.svelte"
+    },
     "./type-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/type-outline.svelte"
@@ -40741,6 +41745,26 @@
     "./type-outline-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/type-outline-two-tone.svelte"
+    },
+    "./type-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type-sharp.svelte"
+    },
+    "./type-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type-sharp-duotone.svelte"
+    },
+    "./type-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type-sharp-fill.svelte"
+    },
+    "./type-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type-sharp-two-tone.svelte"
+    },
+    "./type-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/type-two-tone.svelte"
     },
     "./umbrella": {
       "types": "./types/gfwqskkx.d.ts",
@@ -41766,6 +42790,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/vision-pro-two-tone.svelte"
     },
+    "./voicemail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail.svelte"
+    },
+    "./voicemail-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail-duotone.svelte"
+    },
+    "./voicemail-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail-fill.svelte"
+    },
+    "./voicemail-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail-sharp.svelte"
+    },
+    "./voicemail-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail-sharp-duotone.svelte"
+    },
+    "./voicemail-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail-sharp-fill.svelte"
+    },
+    "./voicemail-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail-sharp-two-tone.svelte"
+    },
+    "./voicemail-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/voicemail-two-tone.svelte"
+    },
     "./volume": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/volume.svelte"
@@ -42149,6 +43205,38 @@
     "./watch-two-tone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/watch-two-tone.svelte"
+    },
+    "./webcam": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam.svelte"
+    },
+    "./webcam-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam-duotone.svelte"
+    },
+    "./webcam-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam-fill.svelte"
+    },
+    "./webcam-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam-sharp.svelte"
+    },
+    "./webcam-sharp-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam-sharp-duotone.svelte"
+    },
+    "./webcam-sharp-fill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam-sharp-fill.svelte"
+    },
+    "./webcam-sharp-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam-sharp-two-tone.svelte"
+    },
+    "./webcam-two-tone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webcam-two-tone.svelte"
     },
     "./whole-word": {
       "types": "./types/gfwqskkx.d.ts",
