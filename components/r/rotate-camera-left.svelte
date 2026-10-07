@@ -1,7 +1,7 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/h/hntgybcog.css';
-import '../../css/w/wi774gbxj.css';
+import '../../css/w/wzmu56b-h.css';
 import '../../css/b/b64l0dbmf.css';
 import '../../css/j/jkon69jfq.css';
 
@@ -9,6 +9,6 @@ import '../../css/j/jkon69jfq.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="hntgybcog"><path class="wi774gbxj"/><path class="b64l0dbmf"/><path class="jkon69jfq"/></g>`;
+const content = `<g class="hntgybcog"><path class="wzmu56b-h"/><path class="b64l0dbmf"/><path class="jkon69jfq"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoir:rotate-camera-left" {...props}></Icon>

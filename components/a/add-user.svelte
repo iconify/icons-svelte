@@ -1,11 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/a/a3na2nb6p.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/t/t2cbi98hw.css';
+import '../../css/m/mpg0prmyt.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="a3na2nb6p"/>`;
+const content = `<g class="hntgybcog"><path class="t2cbi98hw"/><path class="mpg0prmyt"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoir:add-user" {...props}></Icon>
