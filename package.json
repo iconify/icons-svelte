@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -150,6 +150,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/antdesign-wordmark.svelte"
     },
+    "./antigravity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/antigravity.svelte"
+    },
     "./apache": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apache.svelte"
@@ -265,6 +269,10 @@
     "./artixlinux-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/artixlinux-wordmark.svelte"
+    },
+    "./aspire": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aspire.svelte"
     },
     "./astro": {
       "types": "./types/gfwqskkx.d.ts",
