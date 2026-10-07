@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.73",
+  "version": "1.0.74",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -3458,6 +3458,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grip-vertical.svelte"
     },
+    "./groceries": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/groceries.svelte"
+    },
     "./group": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/group.svelte"
@@ -3641,6 +3645,10 @@
     "./highlighter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/highlighter.svelte"
+    },
+    "./hiking-stick": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hiking-stick.svelte"
     },
     "./hop": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5825,6 +5833,10 @@
     "./scooter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scooter.svelte"
+    },
+    "./scratch-blocks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scratch-blocks.svelte"
     },
     "./screen-share": {
       "types": "./types/gfwqskkx.d.ts",
