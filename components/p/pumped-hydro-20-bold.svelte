@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/b/bx6btm5lw.css';
+import '../../css/v/vm-h8y56c.css';
+import '../../css/i/iaax7gb6o.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="bx6btm5lw"/><path class="vm-h8y56c"/><path class="iaax7gb6o"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="energy-icons:pumped-hydro-20-bold" {...props}></Icon>

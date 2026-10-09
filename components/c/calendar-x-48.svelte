@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/p/pycxs8orj.css';
+import '../../css/x/xjuhbqb1b.css';
+import '../../css/l/l3lpevbky.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="pycxs8orj"/><path class="xjuhbqb1b"/><path class="l3lpevbky"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="energy-icons:calendar-x-48" {...props}></Icon>

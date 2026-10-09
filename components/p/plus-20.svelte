@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/l/lfzmnvd-w.css';
+import '../../css/t/tyffe9boh.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="lfzmnvd-w"/><path class="tyffe9boh"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="energy-icons:plus-20" {...props}></Icon>

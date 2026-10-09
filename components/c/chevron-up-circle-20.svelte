@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/y/yw3xaacjo.css';
+import '../../css/d/d06eqzbnj.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="yw3xaacjo"/><path class="d06eqzbnj"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="energy-icons:chevron-up-circle-20" {...props}></Icon>
