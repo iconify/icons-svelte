@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -4097,6 +4097,10 @@
     "./webflow": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/webflow.svelte"
+    },
+    "./webgl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/webgl.svelte"
     },
     "./webgpu": {
       "types": "./types/gfwqskkx.d.ts",
