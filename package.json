@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.74",
+  "version": "1.0.75",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -4001,6 +4001,10 @@
     "./lectern": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lectern.svelte"
+    },
+    "./lens": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lens.svelte"
     },
     "./lens-concave": {
       "types": "./types/gfwqskkx.d.ts",
