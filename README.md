@@ -1,6 +1,5 @@
 # @iconify-svelte/garden
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/svelte/-/tree/garden).
 **Garden SVG Icons**
 
 Author: [Zendesk](https://github.com/zendeskgarden/svg-icons)
@@ -28,7 +27,7 @@ Few usage examples:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/garden/asterisk-stroke-12';
+import SampleIcon from '@iconify-svelte/garden/asterisk-20';
 </script>
 
 <SampleIcon />
@@ -38,7 +37,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/garden/bookmark-fill-12';
+import SampleIcon from '@iconify-svelte/garden/bookmark-fill-20';
 </script>
 
 <SampleIcon height="1em" />
@@ -48,7 +47,7 @@ To change icon color, use style:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/garden/moon-fill-12';
+import SampleIcon from '@iconify-svelte/garden/moon-fill-20';
 </script>
 
 <SampleIcon style="color: red;" />
