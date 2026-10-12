@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1633,6 +1633,10 @@
     "./icinga-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/icinga-wordmark.svelte"
+    },
+    "./idris": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/idris.svelte"
     },
     "./ie10": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3630,6 +3634,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/symfony-wordmark.svelte"
     },
+    "./systemverilog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/systemverilog.svelte"
+    },
     "./tailwindcss": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tailwindcss.svelte"
@@ -3969,6 +3977,10 @@
     "./vercel-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/vercel-wordmark.svelte"
+    },
+    "./verilog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/verilog.svelte"
     },
     "./vertx": {
       "types": "./types/gfwqskkx.d.ts",
