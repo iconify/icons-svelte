@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/z/zzbgp2w2m.css';
+import '../../css/j/j_hqyebln.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="zzbgp2w2m"/>`;
+const content = `<path class="j_hqyebln"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="sidekickicons:cookie" {...props}></Icon>
