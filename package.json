@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/energy-icons",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://icon-sets.iconify.design/energy-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -22,6 +22,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/a-frame-48-bold.svelte"
     },
+    "./abacus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/abacus-20.svelte"
+    },
+    "./abacus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/abacus-20-bold.svelte"
+    },
+    "./abacus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/abacus-48.svelte"
+    },
+    "./abacus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/abacus-48-bold.svelte"
+    },
     "./accessibility-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/accessibility-20.svelte"
@@ -37,6 +53,22 @@
     "./accessibility-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/accessibility-48-bold.svelte"
+    },
+    "./acorn-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acorn-20.svelte"
+    },
+    "./acorn-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acorn-20-bold.svelte"
+    },
+    "./acorn-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acorn-48.svelte"
+    },
+    "./acorn-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/acorn-48-bold.svelte"
     },
     "./activity-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -310,6 +342,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/alternating-current-48-bold.svelte"
     },
+    "./ambulance-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ambulance-20.svelte"
+    },
+    "./ambulance-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ambulance-20-bold.svelte"
+    },
+    "./ambulance-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ambulance-48.svelte"
+    },
+    "./ambulance-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ambulance-48-bold.svelte"
+    },
     "./ammeter-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/ammeter-20.svelte"
@@ -389,6 +437,22 @@
     "./anemometer-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/anemometer-48-bold.svelte"
+    },
+    "./angle-grinder-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angle-grinder-20.svelte"
+    },
+    "./angle-grinder-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angle-grinder-20-bold.svelte"
+    },
+    "./angle-grinder-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angle-grinder-48.svelte"
+    },
+    "./angle-grinder-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angle-grinder-48-bold.svelte"
     },
     "./anvil-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -581,6 +645,70 @@
     "./arrow-big-up-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-big-up-48-bold.svelte"
+    },
+    "./arrow-circle-down-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-down-20.svelte"
+    },
+    "./arrow-circle-down-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-down-20-bold.svelte"
+    },
+    "./arrow-circle-down-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-down-48.svelte"
+    },
+    "./arrow-circle-down-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-down-48-bold.svelte"
+    },
+    "./arrow-circle-left-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-left-20.svelte"
+    },
+    "./arrow-circle-left-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-left-20-bold.svelte"
+    },
+    "./arrow-circle-left-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-left-48.svelte"
+    },
+    "./arrow-circle-left-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-left-48-bold.svelte"
+    },
+    "./arrow-circle-right-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-right-20.svelte"
+    },
+    "./arrow-circle-right-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-right-20-bold.svelte"
+    },
+    "./arrow-circle-right-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-right-48.svelte"
+    },
+    "./arrow-circle-right-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-right-48-bold.svelte"
+    },
+    "./arrow-circle-up-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-up-20.svelte"
+    },
+    "./arrow-circle-up-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-up-20-bold.svelte"
+    },
+    "./arrow-circle-up-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-up-48.svelte"
+    },
+    "./arrow-circle-up-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-circle-up-48-bold.svelte"
     },
     "./arrow-down-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1046,6 +1174,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/baby-48-bold.svelte"
     },
+    "./backpack-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backpack-20.svelte"
+    },
+    "./backpack-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backpack-20-bold.svelte"
+    },
+    "./backpack-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backpack-48.svelte"
+    },
+    "./backpack-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backpack-48-bold.svelte"
+    },
     "./badge-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-20.svelte"
@@ -1126,6 +1270,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/ban-48-bold.svelte"
     },
+    "./bandage-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-20.svelte"
+    },
+    "./bandage-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-20-bold.svelte"
+    },
+    "./bandage-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-48.svelte"
+    },
+    "./bandage-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bandage-48-bold.svelte"
+    },
     "./bank-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bank-20.svelte"
@@ -1141,6 +1301,22 @@
     "./bank-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bank-48-bold.svelte"
+    },
+    "./banknote-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banknote-20.svelte"
+    },
+    "./banknote-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banknote-20-bold.svelte"
+    },
+    "./banknote-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banknote-48.svelte"
+    },
+    "./banknote-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banknote-48-bold.svelte"
     },
     "./barcode-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1542,6 +1718,54 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-storage-48-bold.svelte"
     },
+    "./battery-storage-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-alert-20.svelte"
+    },
+    "./battery-storage-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-alert-20-bold.svelte"
+    },
+    "./battery-storage-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-alert-48.svelte"
+    },
+    "./battery-storage-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-alert-48-bold.svelte"
+    },
+    "./battery-storage-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-check-20.svelte"
+    },
+    "./battery-storage-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-check-20-bold.svelte"
+    },
+    "./battery-storage-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-check-48.svelte"
+    },
+    "./battery-storage-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-check-48-bold.svelte"
+    },
+    "./battery-storage-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-x-20.svelte"
+    },
+    "./battery-storage-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-x-20-bold.svelte"
+    },
+    "./battery-storage-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-x-48.svelte"
+    },
+    "./battery-storage-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-storage-x-48-bold.svelte"
+    },
     "./battery-swap-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-swap-20.svelte"
@@ -1654,6 +1878,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/beach-hut-48-bold.svelte"
     },
+    "./bear-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bear-20.svelte"
+    },
+    "./bear-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bear-20-bold.svelte"
+    },
+    "./bear-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bear-48.svelte"
+    },
+    "./bear-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bear-48-bold.svelte"
+    },
     "./bearing-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bearing-20.svelte"
@@ -1750,6 +1990,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bell-48-bold.svelte"
     },
+    "./bell-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-check-20.svelte"
+    },
+    "./bell-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-check-20-bold.svelte"
+    },
+    "./bell-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-check-48.svelte"
+    },
+    "./bell-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-check-48-bold.svelte"
+    },
     "./bell-off-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bell-off-20.svelte"
@@ -1765,6 +2021,22 @@
     "./bell-off-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bell-off-48-bold.svelte"
+    },
+    "./bell-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-plus-20.svelte"
+    },
+    "./bell-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-plus-20-bold.svelte"
+    },
+    "./bell-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-plus-48.svelte"
+    },
+    "./bell-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-plus-48-bold.svelte"
     },
     "./bell-ring-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1845,6 +2117,22 @@
     "./bifacial-panel-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bifacial-panel-48-bold.svelte"
+    },
+    "./binder-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binder-20.svelte"
+    },
+    "./binder-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binder-20-bold.svelte"
+    },
+    "./binder-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binder-48.svelte"
+    },
+    "./binder-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binder-48-bold.svelte"
     },
     "./biodiversity-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2006,6 +2294,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/blade-transport-48-bold.svelte"
     },
+    "./blood-drop-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blood-drop-20.svelte"
+    },
+    "./blood-drop-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blood-drop-20-bold.svelte"
+    },
+    "./blood-drop-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blood-drop-48.svelte"
+    },
+    "./blood-drop-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blood-drop-48-bold.svelte"
+    },
     "./blueprint-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/blueprint-20.svelte"
@@ -2053,6 +2357,54 @@
     "./boiler-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/boiler-48-bold.svelte"
+    },
+    "./boiler-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-alert-20.svelte"
+    },
+    "./boiler-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-alert-20-bold.svelte"
+    },
+    "./boiler-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-alert-48.svelte"
+    },
+    "./boiler-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-alert-48-bold.svelte"
+    },
+    "./boiler-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-check-20.svelte"
+    },
+    "./boiler-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-check-20-bold.svelte"
+    },
+    "./boiler-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-check-48.svelte"
+    },
+    "./boiler-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-check-48-bold.svelte"
+    },
+    "./boiler-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-x-20.svelte"
+    },
+    "./boiler-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-x-20-bold.svelte"
+    },
+    "./boiler-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-x-48.svelte"
+    },
+    "./boiler-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boiler-x-48-bold.svelte"
     },
     "./bold-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2117,6 +2469,22 @@
     "./bolt-check-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bolt-check-48-bold.svelte"
+    },
+    "./bolt-off-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt-off-20.svelte"
+    },
+    "./bolt-off-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt-off-20-bold.svelte"
+    },
+    "./bolt-off-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt-off-48.svelte"
+    },
+    "./bolt-off-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bolt-off-48-bold.svelte"
     },
     "./bolt-plus-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2230,6 +2598,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bookmark-check-48-bold.svelte"
     },
+    "./bookmark-minus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-minus-20.svelte"
+    },
+    "./bookmark-minus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-minus-20-bold.svelte"
+    },
+    "./bookmark-minus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-minus-48.svelte"
+    },
+    "./bookmark-minus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-minus-48-bold.svelte"
+    },
     "./bookmark-plus-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bookmark-plus-20.svelte"
@@ -2245,6 +2629,22 @@
     "./bookmark-plus-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bookmark-plus-48-bold.svelte"
+    },
+    "./bookmark-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-x-20.svelte"
+    },
+    "./bookmark-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-x-20-bold.svelte"
+    },
+    "./bookmark-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-x-48.svelte"
+    },
+    "./bookmark-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-x-48-bold.svelte"
     },
     "./borehole-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2326,6 +2726,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/brackets-48-bold.svelte"
     },
+    "./brain-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brain-20.svelte"
+    },
+    "./brain-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brain-20-bold.svelte"
+    },
+    "./brain-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brain-48.svelte"
+    },
+    "./brain-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brain-48-bold.svelte"
+    },
     "./bread-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bread-20.svelte"
@@ -2373,6 +2789,22 @@
     "./briefcase-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/briefcase-48-bold.svelte"
+    },
+    "./broom-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broom-20.svelte"
+    },
+    "./broom-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broom-20-bold.svelte"
+    },
+    "./broom-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broom-48.svelte"
+    },
+    "./broom-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broom-48-bold.svelte"
     },
     "./brush-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2598,6 +3030,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cabin-48-bold.svelte"
     },
+    "./cable-car-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cable-car-20.svelte"
+    },
+    "./cable-car-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cable-car-20-bold.svelte"
+    },
+    "./cable-car-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cable-car-48.svelte"
+    },
+    "./cable-car-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cable-car-48-bold.svelte"
+    },
     "./cable-drum-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cable-drum-20.svelte"
@@ -2774,6 +3222,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/calendar-days-48-bold.svelte"
     },
+    "./calendar-minus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-minus-20.svelte"
+    },
+    "./calendar-minus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-minus-20-bold.svelte"
+    },
+    "./calendar-minus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-minus-48.svelte"
+    },
+    "./calendar-minus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-minus-48-bold.svelte"
+    },
     "./calendar-plus-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/calendar-plus-20.svelte"
@@ -2869,6 +3333,22 @@
     "./camera-off-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/camera-off-48-bold.svelte"
+    },
+    "./camera-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-plus-20.svelte"
+    },
+    "./camera-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-plus-20-bold.svelte"
+    },
+    "./camera-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-plus-48.svelte"
+    },
+    "./camera-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-plus-48-bold.svelte"
     },
     "./camper-van-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2982,6 +3462,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/car-48-bold.svelte"
     },
+    "./car-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-check-20.svelte"
+    },
+    "./car-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-check-20-bold.svelte"
+    },
+    "./car-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-check-48.svelte"
+    },
+    "./car-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-check-48-bold.svelte"
+    },
+    "./car-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-plus-20.svelte"
+    },
+    "./car-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-plus-20-bold.svelte"
+    },
+    "./car-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-plus-48.svelte"
+    },
+    "./car-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-plus-48-bold.svelte"
+    },
     "./car-share-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/car-share-20.svelte"
@@ -3013,6 +3525,22 @@
     "./carabiner-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/carabiner-48-bold.svelte"
+    },
+    "./caravan-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caravan-20.svelte"
+    },
+    "./caravan-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caravan-20-bold.svelte"
+    },
+    "./caravan-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caravan-48.svelte"
+    },
+    "./caravan-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/caravan-48-bold.svelte"
     },
     "./carbon-budget-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3222,6 +3750,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cargo-bike-48-bold.svelte"
     },
+    "./cargo-ship-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cargo-ship-20.svelte"
+    },
+    "./cargo-ship-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cargo-ship-20-bold.svelte"
+    },
+    "./cargo-ship-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cargo-ship-48.svelte"
+    },
+    "./cargo-ship-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cargo-ship-48-bold.svelte"
+    },
     "./carrot-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/carrot-20.svelte"
@@ -3237,6 +3781,22 @@
     "./carrot-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/carrot-48-bold.svelte"
+    },
+    "./cash-register-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cash-register-20.svelte"
+    },
+    "./cash-register-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cash-register-20-bold.svelte"
+    },
+    "./cash-register-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cash-register-48.svelte"
+    },
+    "./cash-register-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cash-register-48-bold.svelte"
     },
     "./cast-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3269,6 +3829,22 @@
     "./castle-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/castle-48-bold.svelte"
+    },
+    "./cat-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cat-20.svelte"
+    },
+    "./cat-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cat-20-bold.svelte"
+    },
+    "./cat-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cat-48.svelte"
+    },
+    "./cat-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cat-48-bold.svelte"
     },
     "./cave-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3333,6 +3909,22 @@
     "./chalet-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chalet-48-bold.svelte"
+    },
+    "./chalkboard-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chalkboard-20.svelte"
+    },
+    "./chalkboard-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chalkboard-20-bold.svelte"
+    },
+    "./chalkboard-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chalkboard-48.svelte"
+    },
+    "./chalkboard-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chalkboard-48-bold.svelte"
     },
     "./charge-card-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4070,6 +4662,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chicken-leg-48-bold.svelte"
     },
+    "./child-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/child-20.svelte"
+    },
+    "./child-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/child-20-bold.svelte"
+    },
+    "./child-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/child-48.svelte"
+    },
+    "./child-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/child-48-bold.svelte"
+    },
     "./chiller-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chiller-20.svelte"
@@ -4181,6 +4789,22 @@
     "./city-skyline-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/city-skyline-48-bold.svelte"
+    },
+    "./clapperboard-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clapperboard-20.svelte"
+    },
+    "./clapperboard-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clapperboard-20-bold.svelte"
+    },
+    "./clapperboard-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clapperboard-48.svelte"
+    },
+    "./clapperboard-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clapperboard-48-bold.svelte"
     },
     "./clipboard-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4454,6 +5078,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clock-9-48-bold.svelte"
     },
+    "./clock-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-plus-20.svelte"
+    },
+    "./clock-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-plus-20-bold.svelte"
+    },
+    "./clock-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-plus-48.svelte"
+    },
+    "./clock-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-plus-48-bold.svelte"
+    },
     "./close-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/close-20.svelte"
@@ -4581,6 +5221,22 @@
     "./cloud-lightning-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud-lightning-48-bold.svelte"
+    },
+    "./cloud-minus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-minus-20.svelte"
+    },
+    "./cloud-minus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-minus-20-bold.svelte"
+    },
+    "./cloud-minus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-minus-48.svelte"
+    },
+    "./cloud-minus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-minus-48-bold.svelte"
     },
     "./cloud-moon-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4757,6 +5413,22 @@
     "./clover-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clover-48-bold.svelte"
+    },
+    "./cnc-machine-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cnc-machine-20.svelte"
+    },
+    "./cnc-machine-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cnc-machine-20-bold.svelte"
+    },
+    "./cnc-machine-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cnc-machine-48.svelte"
+    },
+    "./cnc-machine-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cnc-machine-48-bold.svelte"
     },
     "./co2-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5286,6 +5958,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contrast-48-bold.svelte"
     },
+    "./control-panel-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-panel-20.svelte"
+    },
+    "./control-panel-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-panel-20-bold.svelte"
+    },
+    "./control-panel-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-panel-48.svelte"
+    },
+    "./control-panel-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/control-panel-48-bold.svelte"
+    },
     "./control-room-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/control-room-20.svelte"
@@ -5590,6 +6278,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/coupling-48-bold.svelte"
     },
+    "./cow-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cow-20.svelte"
+    },
+    "./cow-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cow-20-bold.svelte"
+    },
+    "./cow-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cow-48.svelte"
+    },
+    "./cow-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cow-48-bold.svelte"
+    },
     "./cpu-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cpu-20.svelte"
@@ -5765,6 +6469,22 @@
     "./crucible-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/crucible-48-bold.svelte"
+    },
+    "./crutch-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crutch-20.svelte"
+    },
+    "./crutch-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crutch-20-bold.svelte"
+    },
+    "./crutch-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crutch-48.svelte"
+    },
+    "./crutch-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crutch-48-bold.svelte"
     },
     "./crystal-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5974,6 +6694,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/database-48-bold.svelte"
     },
+    "./database-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-plus-20.svelte"
+    },
+    "./database-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-plus-20-bold.svelte"
+    },
+    "./database-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-plus-48.svelte"
+    },
+    "./database-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-plus-48-bold.svelte"
+    },
     "./deforestation-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/deforestation-20.svelte"
@@ -6053,6 +6789,22 @@
     "./desert-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/desert-48-bold.svelte"
+    },
+    "./desk-globe-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desk-globe-20.svelte"
+    },
+    "./desk-globe-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desk-globe-20-bold.svelte"
+    },
+    "./desk-globe-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desk-globe-48.svelte"
+    },
+    "./desk-globe-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/desk-globe-48-bold.svelte"
     },
     "./desk-lamp-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6262,6 +7014,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/direct-current-48-bold.svelte"
     },
+    "./directions-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directions-20.svelte"
+    },
+    "./directions-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directions-20-bold.svelte"
+    },
+    "./directions-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directions-48.svelte"
+    },
+    "./directions-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directions-48-bold.svelte"
+    },
+    "./discount-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discount-20.svelte"
+    },
+    "./discount-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discount-20-bold.svelte"
+    },
+    "./discount-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discount-48.svelte"
+    },
+    "./discount-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/discount-48-bold.svelte"
+    },
     "./dishwasher-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dishwasher-20.svelte"
@@ -6309,6 +7093,54 @@
     "./district-heating-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/district-heating-48-bold.svelte"
+    },
+    "./divide-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/divide-20.svelte"
+    },
+    "./divide-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/divide-20-bold.svelte"
+    },
+    "./divide-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/divide-48.svelte"
+    },
+    "./divide-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/divide-48-bold.svelte"
+    },
+    "./dna-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dna-20.svelte"
+    },
+    "./dna-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dna-20-bold.svelte"
+    },
+    "./dna-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dna-48.svelte"
+    },
+    "./dna-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dna-48-bold.svelte"
+    },
+    "./dog-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dog-20.svelte"
+    },
+    "./dog-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dog-20-bold.svelte"
+    },
+    "./dog-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dog-48.svelte"
+    },
+    "./dog-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dog-48-bold.svelte"
     },
     "./dollar-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6422,6 +7254,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/draught-proofing-48-bold.svelte"
     },
+    "./drawing-compass-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drawing-compass-20.svelte"
+    },
+    "./drawing-compass-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drawing-compass-20-bold.svelte"
+    },
+    "./drawing-compass-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drawing-compass-48.svelte"
+    },
+    "./drawing-compass-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drawing-compass-48-bold.svelte"
+    },
     "./drill-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drill-20.svelte"
@@ -6437,6 +7285,22 @@
     "./drill-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drill-48-bold.svelte"
+    },
+    "./drill-press-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drill-press-20.svelte"
+    },
+    "./drill-press-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drill-press-20-bold.svelte"
+    },
+    "./drill-press-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drill-press-48.svelte"
+    },
+    "./drill-press-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drill-press-48-bold.svelte"
     },
     "./drone-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6485,6 +7349,22 @@
     "./drought-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drought-48-bold.svelte"
+    },
+    "./drum-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drum-20.svelte"
+    },
+    "./drum-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drum-20-bold.svelte"
+    },
+    "./drum-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drum-48.svelte"
+    },
+    "./drum-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drum-48-bold.svelte"
     },
     "./dryer-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6613,6 +7493,22 @@
     "./e-scooter-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/e-scooter-48-bold.svelte"
+    },
+    "./ear-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ear-20.svelte"
+    },
+    "./ear-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ear-20-bold.svelte"
+    },
+    "./ear-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ear-48.svelte"
+    },
+    "./ear-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ear-48-bold.svelte"
     },
     "./edit-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7094,6 +7990,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/engineer-48-bold.svelte"
     },
+    "./envelope-open-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-open-20.svelte"
+    },
+    "./envelope-open-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-open-20-bold.svelte"
+    },
+    "./envelope-open-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-open-48.svelte"
+    },
+    "./envelope-open-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/envelope-open-48-bold.svelte"
+    },
     "./environmental-impact-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/environmental-impact-20.svelte"
@@ -7109,6 +8021,22 @@
     "./environmental-impact-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/environmental-impact-48-bold.svelte"
+    },
+    "./equal-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/equal-20.svelte"
+    },
+    "./equal-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/equal-20-bold.svelte"
+    },
+    "./equal-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/equal-48.svelte"
+    },
+    "./equal-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/equal-48-bold.svelte"
     },
     "./eraser-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7237,6 +8165,22 @@
     "./ev-charger-home-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ev-charger-home-48-bold.svelte"
+    },
+    "./ev-charger-off-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ev-charger-off-20.svelte"
+    },
+    "./ev-charger-off-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ev-charger-off-20-bold.svelte"
+    },
+    "./ev-charger-off-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ev-charger-off-48.svelte"
+    },
+    "./ev-charger-off-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ev-charger-off-48-bold.svelte"
     },
     "./ev-charger-plus-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7526,6 +8470,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/face-love-48-bold.svelte"
     },
+    "./face-mask-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-mask-20.svelte"
+    },
+    "./face-mask-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-mask-20-bold.svelte"
+    },
+    "./face-mask-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-mask-48.svelte"
+    },
+    "./face-mask-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-mask-48-bold.svelte"
+    },
     "./face-sleepy-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/face-sleepy-20.svelte"
@@ -7654,6 +8614,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fast-forward-48-bold.svelte"
     },
+    "./feather-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feather-20.svelte"
+    },
+    "./feather-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feather-20-bold.svelte"
+    },
+    "./feather-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feather-48.svelte"
+    },
+    "./feather-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feather-48-bold.svelte"
+    },
     "./feed-in-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/feed-in-20.svelte"
@@ -7701,6 +8677,22 @@
     "./file-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-48-bold.svelte"
+    },
+    "./file-audio-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-audio-20.svelte"
+    },
+    "./file-audio-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-audio-20-bold.svelte"
+    },
+    "./file-audio-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-audio-48.svelte"
+    },
+    "./file-audio-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-audio-48-bold.svelte"
     },
     "./file-chart-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7782,6 +8774,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-image-48-bold.svelte"
     },
+    "./file-lock-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-lock-20.svelte"
+    },
+    "./file-lock-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-lock-20-bold.svelte"
+    },
+    "./file-lock-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-lock-48.svelte"
+    },
+    "./file-lock-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-lock-48-bold.svelte"
+    },
     "./file-minus-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-minus-20.svelte"
@@ -7862,6 +8870,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-upload-48-bold.svelte"
     },
+    "./file-video-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-video-20.svelte"
+    },
+    "./file-video-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-video-20-bold.svelte"
+    },
+    "./file-video-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-video-48.svelte"
+    },
+    "./file-video-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-video-48-bold.svelte"
+    },
     "./file-x-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-x-20.svelte"
@@ -7877,6 +8901,22 @@
     "./file-x-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-x-48-bold.svelte"
+    },
+    "./file-zip-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-20.svelte"
+    },
+    "./file-zip-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-20-bold.svelte"
+    },
+    "./file-zip-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-48.svelte"
+    },
+    "./file-zip-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-zip-48-bold.svelte"
     },
     "./files-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7941,6 +8981,38 @@
     "./fingerprint-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fingerprint-48-bold.svelte"
+    },
+    "./fire-engine-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-engine-20.svelte"
+    },
+    "./fire-engine-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-engine-20-bold.svelte"
+    },
+    "./fire-engine-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-engine-48.svelte"
+    },
+    "./fire-engine-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-engine-48-bold.svelte"
+    },
+    "./fire-station-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-station-20.svelte"
+    },
+    "./fire-station-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-station-20-bold.svelte"
+    },
+    "./fire-station-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-station-48.svelte"
+    },
+    "./fire-station-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fire-station-48-bold.svelte"
     },
     "./fireplace-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8086,6 +9158,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/flange-48-bold.svelte"
     },
+    "./flashlight-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flashlight-20.svelte"
+    },
+    "./flashlight-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flashlight-20-bold.svelte"
+    },
+    "./flashlight-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flashlight-48.svelte"
+    },
+    "./flashlight-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flashlight-48-bold.svelte"
+    },
     "./floating-solar-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/floating-solar-20.svelte"
@@ -8230,6 +9318,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-48-bold.svelte"
     },
+    "./folder-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-check-20.svelte"
+    },
+    "./folder-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-check-20-bold.svelte"
+    },
+    "./folder-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-check-48.svelte"
+    },
+    "./folder-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-check-48-bold.svelte"
+    },
+    "./folder-lock-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lock-20.svelte"
+    },
+    "./folder-lock-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lock-20-bold.svelte"
+    },
+    "./folder-lock-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lock-48.svelte"
+    },
+    "./folder-lock-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-lock-48-bold.svelte"
+    },
     "./folder-minus-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-minus-20.svelte"
@@ -8293,6 +9413,22 @@
     "./folder-search-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-search-48-bold.svelte"
+    },
+    "./folder-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-20.svelte"
+    },
+    "./folder-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-20-bold.svelte"
+    },
+    "./folder-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-48.svelte"
+    },
+    "./folder-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-48-bold.svelte"
     },
     "./football-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8374,6 +9510,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/forward-48-bold.svelte"
     },
+    "./fox-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fox-20.svelte"
+    },
+    "./fox-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fox-20-bold.svelte"
+    },
+    "./fox-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fox-48.svelte"
+    },
+    "./fox-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fox-48-bold.svelte"
+    },
     "./frame-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/frame-20.svelte"
@@ -8437,6 +9589,22 @@
     "./fries-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fries-48-bold.svelte"
+    },
+    "./frog-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/frog-20.svelte"
+    },
+    "./frog-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/frog-20-bold.svelte"
+    },
+    "./frog-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/frog-48.svelte"
+    },
+    "./frog-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/frog-48-bold.svelte"
     },
     "./frost-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8533,6 +9701,22 @@
     "./fuel-rod-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fuel-rod-48-bold.svelte"
+    },
+    "./function-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/function-20.svelte"
+    },
+    "./function-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/function-20-bold.svelte"
+    },
+    "./function-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/function-48.svelte"
+    },
+    "./function-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/function-48-bold.svelte"
     },
     "./furnace-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8773,6 +9957,38 @@
     "./gear-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gear-48-bold.svelte"
+    },
+    "./gearbox-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gearbox-20.svelte"
+    },
+    "./gearbox-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gearbox-20-bold.svelte"
+    },
+    "./gearbox-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gearbox-48.svelte"
+    },
+    "./gearbox-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gearbox-48-bold.svelte"
+    },
+    "./gem-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gem-20.svelte"
+    },
+    "./gem-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gem-20-bold.svelte"
+    },
+    "./gem-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gem-48.svelte"
+    },
+    "./gem-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gem-48-bold.svelte"
     },
     "./generator-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9030,6 +10246,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/golf-48-bold.svelte"
     },
+    "./gps-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gps-20.svelte"
+    },
+    "./gps-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gps-20-bold.svelte"
+    },
+    "./gps-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gps-48.svelte"
+    },
+    "./gps-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gps-48-bold.svelte"
+    },
     "./graduation-cap-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/graduation-cap-20.svelte"
@@ -9286,6 +10518,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/h2-molecule-48-bold.svelte"
     },
+    "./hail-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hail-20.svelte"
+    },
+    "./hail-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hail-20-bold.svelte"
+    },
+    "./hail-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hail-48.svelte"
+    },
+    "./hail-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hail-48-bold.svelte"
+    },
     "./hair-dryer-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hair-dryer-20.svelte"
@@ -9494,6 +10742,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heart-off-48-bold.svelte"
     },
+    "./heart-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-plus-20.svelte"
+    },
+    "./heart-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-plus-20-bold.svelte"
+    },
+    "./heart-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-plus-48.svelte"
+    },
+    "./heart-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-plus-48-bold.svelte"
+    },
+    "./heart-pulse-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-20.svelte"
+    },
+    "./heart-pulse-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-20-bold.svelte"
+    },
+    "./heart-pulse-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-48.svelte"
+    },
+    "./heart-pulse-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-pulse-48-bold.svelte"
+    },
     "./heat-battery-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heat-battery-20.svelte"
@@ -9621,6 +10901,54 @@
     "./heat-pump-air-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heat-pump-air-48-bold.svelte"
+    },
+    "./heat-pump-air-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-alert-20.svelte"
+    },
+    "./heat-pump-air-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-alert-20-bold.svelte"
+    },
+    "./heat-pump-air-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-alert-48.svelte"
+    },
+    "./heat-pump-air-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-alert-48-bold.svelte"
+    },
+    "./heat-pump-air-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-check-20.svelte"
+    },
+    "./heat-pump-air-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-check-20-bold.svelte"
+    },
+    "./heat-pump-air-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-check-48.svelte"
+    },
+    "./heat-pump-air-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-check-48-bold.svelte"
+    },
+    "./heat-pump-air-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-x-20.svelte"
+    },
+    "./heat-pump-air-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-x-20-bold.svelte"
+    },
+    "./heat-pump-air-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-x-48.svelte"
+    },
+    "./heat-pump-air-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heat-pump-air-x-48-bold.svelte"
     },
     "./heat-pump-cylinder-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10102,6 +11430,54 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/house-battery-48-bold.svelte"
     },
+    "./house-battery-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-alert-20.svelte"
+    },
+    "./house-battery-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-alert-20-bold.svelte"
+    },
+    "./house-battery-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-alert-48.svelte"
+    },
+    "./house-battery-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-alert-48-bold.svelte"
+    },
+    "./house-battery-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-check-20.svelte"
+    },
+    "./house-battery-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-check-20-bold.svelte"
+    },
+    "./house-battery-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-check-48.svelte"
+    },
+    "./house-battery-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-check-48-bold.svelte"
+    },
+    "./house-battery-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-x-20.svelte"
+    },
+    "./house-battery-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-x-20-bold.svelte"
+    },
+    "./house-battery-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-x-48.svelte"
+    },
+    "./house-battery-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-battery-x-48-bold.svelte"
+    },
     "./house-bolt-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/house-bolt-20.svelte"
@@ -10261,6 +11637,22 @@
     "./house-meter-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/house-meter-48-bold.svelte"
+    },
+    "./house-minus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-minus-20.svelte"
+    },
+    "./house-minus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-minus-20-bold.svelte"
+    },
+    "./house-minus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-minus-48.svelte"
+    },
+    "./house-minus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/house-minus-48-bold.svelte"
     },
     "./house-plug-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10437,6 +11829,22 @@
     "./humidity-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/humidity-48-bold.svelte"
+    },
+    "./hurricane-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hurricane-20.svelte"
+    },
+    "./hurricane-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hurricane-20-bold.svelte"
+    },
+    "./hurricane-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hurricane-48.svelte"
+    },
+    "./hurricane-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hurricane-48-bold.svelte"
     },
     "./hvdc-converter-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10630,6 +12038,54 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hydrogen-tank-48-bold.svelte"
     },
+    "./hydrogen-tank-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-alert-20.svelte"
+    },
+    "./hydrogen-tank-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-alert-20-bold.svelte"
+    },
+    "./hydrogen-tank-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-alert-48.svelte"
+    },
+    "./hydrogen-tank-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-alert-48-bold.svelte"
+    },
+    "./hydrogen-tank-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-check-20.svelte"
+    },
+    "./hydrogen-tank-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-check-20-bold.svelte"
+    },
+    "./hydrogen-tank-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-check-48.svelte"
+    },
+    "./hydrogen-tank-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-check-48-bold.svelte"
+    },
+    "./hydrogen-tank-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-x-20.svelte"
+    },
+    "./hydrogen-tank-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-x-20-bold.svelte"
+    },
+    "./hydrogen-tank-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-x-48.svelte"
+    },
+    "./hydrogen-tank-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hydrogen-tank-x-48-bold.svelte"
+    },
     "./hydrogen-truck-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hydrogen-truck-20.svelte"
@@ -10758,6 +12214,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/image-48-bold.svelte"
     },
+    "./image-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-check-20.svelte"
+    },
+    "./image-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-check-20-bold.svelte"
+    },
+    "./image-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-check-48.svelte"
+    },
+    "./image-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-check-48-bold.svelte"
+    },
     "./image-plus-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/image-plus-20.svelte"
@@ -10773,6 +12245,38 @@
     "./image-plus-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/image-plus-48-bold.svelte"
+    },
+    "./image-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-x-20.svelte"
+    },
+    "./image-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-x-20-bold.svelte"
+    },
+    "./image-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-x-48.svelte"
+    },
+    "./image-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-x-48-bold.svelte"
+    },
+    "./images-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/images-20.svelte"
+    },
+    "./images-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/images-20-bold.svelte"
+    },
+    "./images-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/images-48.svelte"
+    },
+    "./images-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/images-48-bold.svelte"
     },
     "./import-export-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11174,6 +12678,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/key-handover-48-bold.svelte"
     },
+    "./key-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-plus-20.svelte"
+    },
+    "./key-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-plus-20-bold.svelte"
+    },
+    "./key-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-plus-48.svelte"
+    },
+    "./key-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/key-plus-48-bold.svelte"
+    },
     "./key-round-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/key-round-20.svelte"
@@ -11205,6 +12725,22 @@
     "./keyboard-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/keyboard-48-bold.svelte"
+    },
+    "./kick-scooter-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kick-scooter-20.svelte"
+    },
+    "./kick-scooter-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kick-scooter-20-bold.svelte"
+    },
+    "./kick-scooter-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kick-scooter-48.svelte"
+    },
+    "./kick-scooter-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kick-scooter-48-bold.svelte"
     },
     "./kiln-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11286,6 +12822,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/ladle-48-bold.svelte"
     },
+    "./ladybird-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/ladybird-20.svelte"
+    },
+    "./ladybird-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/ladybird-20-bold.svelte"
+    },
+    "./ladybird-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/ladybird-48.svelte"
+    },
+    "./ladybird-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/ladybird-48-bold.svelte"
+    },
     "./lakeside-cabin-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lakeside-cabin-20.svelte"
@@ -11349,6 +12901,22 @@
     "./laptop-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/laptop-48-bold.svelte"
+    },
+    "./lathe-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lathe-20.svelte"
+    },
+    "./lathe-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lathe-20-bold.svelte"
+    },
+    "./lathe-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lathe-48.svelte"
+    },
+    "./lathe-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lathe-48-bold.svelte"
     },
     "./laundry-basket-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11894,6 +13462,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lpg-tank-48-bold.svelte"
     },
+    "./luggage-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luggage-20.svelte"
+    },
+    "./luggage-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luggage-20-bold.svelte"
+    },
+    "./luggage-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luggage-48.svelte"
+    },
+    "./luggage-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luggage-48-bold.svelte"
+    },
     "./magnet-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/magnet-20.svelte"
@@ -11942,6 +13526,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-check-48-bold.svelte"
     },
+    "./mail-minus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-minus-20.svelte"
+    },
+    "./mail-minus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-minus-20-bold.svelte"
+    },
+    "./mail-minus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-minus-48.svelte"
+    },
+    "./mail-minus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-minus-48-bold.svelte"
+    },
     "./mail-open-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-open-20.svelte"
@@ -11973,6 +13573,22 @@
     "./mail-plus-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-plus-48-bold.svelte"
+    },
+    "./mail-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-x-20.svelte"
+    },
+    "./mail-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-x-20-bold.svelte"
+    },
+    "./mail-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-x-48.svelte"
+    },
+    "./mail-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-x-48-bold.svelte"
     },
     "./map-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12022,6 +13638,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-pin-48-bold.svelte"
     },
+    "./map-pin-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-check-20.svelte"
+    },
+    "./map-pin-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-check-20-bold.svelte"
+    },
+    "./map-pin-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-check-48.svelte"
+    },
+    "./map-pin-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-check-48-bold.svelte"
+    },
     "./map-pin-off-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-pin-off-20.svelte"
@@ -12037,6 +13669,38 @@
     "./map-pin-off-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-pin-off-48-bold.svelte"
+    },
+    "./map-pin-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-plus-20.svelte"
+    },
+    "./map-pin-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-plus-20-bold.svelte"
+    },
+    "./map-pin-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-plus-48.svelte"
+    },
+    "./map-pin-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-plus-48-bold.svelte"
+    },
+    "./map-pin-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-x-20.svelte"
+    },
+    "./map-pin-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-x-20-bold.svelte"
+    },
+    "./map-pin-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-x-48.svelte"
+    },
+    "./map-pin-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-x-48-bold.svelte"
     },
     "./map-route-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12085,6 +13749,22 @@
     "./medal-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/medal-48-bold.svelte"
+    },
+    "./medical-cross-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medical-cross-20.svelte"
+    },
+    "./medical-cross-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medical-cross-20-bold.svelte"
+    },
+    "./medical-cross-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medical-cross-48.svelte"
+    },
+    "./medical-cross-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/medical-cross-48-bold.svelte"
     },
     "./meeting-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12149,6 +13829,22 @@
     "./memory-card-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/memory-card-48-bold.svelte"
+    },
+    "./memory-chip-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-chip-20.svelte"
+    },
+    "./memory-chip-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-chip-20-bold.svelte"
+    },
+    "./memory-chip-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-chip-48.svelte"
+    },
+    "./memory-chip-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/memory-chip-48-bold.svelte"
     },
     "./menu-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12230,6 +13926,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-plus-48-bold.svelte"
     },
+    "./message-square-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-20.svelte"
+    },
+    "./message-square-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-20-bold.svelte"
+    },
+    "./message-square-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-48.svelte"
+    },
+    "./message-square-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-48-bold.svelte"
+    },
+    "./message-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-x-20.svelte"
+    },
+    "./message-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-x-20-bold.svelte"
+    },
+    "./message-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-x-48.svelte"
+    },
+    "./message-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-x-48-bold.svelte"
+    },
     "./messages-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/messages-20.svelte"
@@ -12277,6 +14005,22 @@
     "./methane-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/methane-48-bold.svelte"
+    },
+    "./metro-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/metro-20.svelte"
+    },
+    "./metro-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/metro-20-bold.svelte"
+    },
+    "./metro-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/metro-48.svelte"
+    },
+    "./metro-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/metro-48-bold.svelte"
     },
     "./mic-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12341,6 +14085,22 @@
     "./microgrid-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/microgrid-48-bold.svelte"
+    },
+    "./microscope-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microscope-20.svelte"
+    },
+    "./microscope-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microscope-20-bold.svelte"
+    },
+    "./microscope-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microscope-48.svelte"
+    },
+    "./microscope-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microscope-48-bold.svelte"
     },
     "./microwave-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12518,6 +14278,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/monitor-48-bold.svelte"
     },
+    "./monitor-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/monitor-x-20.svelte"
+    },
+    "./monitor-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/monitor-x-20-bold.svelte"
+    },
+    "./monitor-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/monitor-x-48.svelte"
+    },
+    "./monitor-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/monitor-x-48-bold.svelte"
+    },
     "./monopile-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/monopile-20.svelte"
@@ -12581,6 +14357,22 @@
     "./mooring-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mooring-48-bold.svelte"
+    },
+    "./mop-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mop-20.svelte"
+    },
+    "./mop-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mop-20-bold.svelte"
+    },
+    "./mop-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mop-48.svelte"
+    },
+    "./mop-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mop-48-bold.svelte"
     },
     "./more-horizontal-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12790,6 +14582,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/multimeter-48-bold.svelte"
     },
+    "./mushroom-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mushroom-20.svelte"
+    },
+    "./mushroom-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mushroom-20-bold.svelte"
+    },
+    "./mushroom-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mushroom-48.svelte"
+    },
+    "./mushroom-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mushroom-48-bold.svelte"
+    },
     "./music-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/music-20.svelte"
@@ -12966,6 +14774,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/note-48-bold.svelte"
     },
+    "./notebook-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-20.svelte"
+    },
+    "./notebook-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-20-bold.svelte"
+    },
+    "./notebook-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-48.svelte"
+    },
+    "./notebook-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-48-bold.svelte"
+    },
     "./nuclear-plant-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nuclear-plant-20.svelte"
@@ -13094,6 +14918,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/oil-48-bold.svelte"
     },
+    "./oil-can-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oil-can-20.svelte"
+    },
+    "./oil-can-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oil-can-20-bold.svelte"
+    },
+    "./oil-can-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oil-can-48.svelte"
+    },
+    "./oil-can-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oil-can-48-bold.svelte"
+    },
     "./oil-rig-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/oil-rig-20.svelte"
@@ -13173,6 +15013,22 @@
     "./oven-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/oven-48-bold.svelte"
+    },
+    "./owl-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/owl-20.svelte"
+    },
+    "./owl-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/owl-20-bold.svelte"
+    },
+    "./owl-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/owl-48.svelte"
+    },
+    "./owl-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/owl-48-bold.svelte"
     },
     "./ozone-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -13414,6 +15270,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/paperclip-48-bold.svelte"
     },
+    "./paragraph-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paragraph-20.svelte"
+    },
+    "./paragraph-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paragraph-20-bold.svelte"
+    },
+    "./paragraph-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paragraph-48.svelte"
+    },
+    "./paragraph-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paragraph-48-bold.svelte"
+    },
     "./parallelogram-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/parallelogram-20.svelte"
@@ -13445,6 +15317,38 @@
     "./parking-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/parking-48-bold.svelte"
+    },
+    "./password-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/password-20.svelte"
+    },
+    "./password-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/password-20-bold.svelte"
+    },
+    "./password-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/password-48.svelte"
+    },
+    "./password-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/password-48-bold.svelte"
+    },
+    "./paste-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-20.svelte"
+    },
+    "./paste-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-20-bold.svelte"
+    },
+    "./paste-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-48.svelte"
+    },
+    "./paste-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paste-48-bold.svelte"
     },
     "./pause-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -13573,6 +15477,22 @@
     "./pencil-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pencil-48-bold.svelte"
+    },
+    "./penguin-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/penguin-20.svelte"
+    },
+    "./penguin-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/penguin-20-bold.svelte"
+    },
+    "./penguin-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/penguin-48.svelte"
+    },
+    "./penguin-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/penguin-48-bold.svelte"
     },
     "./penstock-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -13718,6 +15638,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-off-48-bold.svelte"
     },
+    "./pi-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pi-20.svelte"
+    },
+    "./pi-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pi-20-bold.svelte"
+    },
+    "./pi-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pi-48.svelte"
+    },
+    "./pi-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pi-48-bold.svelte"
+    },
     "./pickaxe-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pickaxe-20.svelte"
@@ -13782,6 +15718,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pier-48-bold.svelte"
     },
+    "./pig-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pig-20.svelte"
+    },
+    "./pig-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pig-20-bold.svelte"
+    },
+    "./pig-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pig-48.svelte"
+    },
+    "./pig-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pig-48-bold.svelte"
+    },
     "./piggy-bank-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/piggy-bank-20.svelte"
@@ -13797,6 +15749,38 @@
     "./piggy-bank-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/piggy-bank-48-bold.svelte"
+    },
+    "./pill-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-20.svelte"
+    },
+    "./pill-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-20-bold.svelte"
+    },
+    "./pill-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-48.svelte"
+    },
+    "./pill-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-48-bold.svelte"
+    },
+    "./pill-bottle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-bottle-20.svelte"
+    },
+    "./pill-bottle-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-bottle-20-bold.svelte"
+    },
+    "./pill-bottle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-bottle-48.svelte"
+    },
+    "./pill-bottle-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-bottle-48-bold.svelte"
     },
     "./pin-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14006,6 +15990,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/play-circle-48-bold.svelte"
     },
+    "./playlist-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playlist-20.svelte"
+    },
+    "./playlist-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playlist-20-bold.svelte"
+    },
+    "./playlist-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playlist-48.svelte"
+    },
+    "./playlist-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/playlist-48-bold.svelte"
+    },
     "./pliers-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pliers-20.svelte"
@@ -14117,6 +16117,38 @@
     "./plug-x-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plug-x-48-bold.svelte"
+    },
+    "./plumb-bob-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plumb-bob-20.svelte"
+    },
+    "./plumb-bob-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plumb-bob-20-bold.svelte"
+    },
+    "./plumb-bob-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plumb-bob-48.svelte"
+    },
+    "./plumb-bob-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plumb-bob-48-bold.svelte"
+    },
+    "./plunger-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plunger-20.svelte"
+    },
+    "./plunger-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plunger-20-bold.svelte"
+    },
+    "./plunger-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plunger-48.svelte"
+    },
+    "./plunger-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plunger-48-bold.svelte"
     },
     "./plus-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14342,6 +16374,54 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/power-station-48-bold.svelte"
     },
+    "./power-station-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-alert-20.svelte"
+    },
+    "./power-station-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-alert-20-bold.svelte"
+    },
+    "./power-station-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-alert-48.svelte"
+    },
+    "./power-station-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-alert-48-bold.svelte"
+    },
+    "./power-station-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-check-20.svelte"
+    },
+    "./power-station-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-check-20-bold.svelte"
+    },
+    "./power-station-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-check-48.svelte"
+    },
+    "./power-station-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-check-48-bold.svelte"
+    },
+    "./power-station-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-x-20.svelte"
+    },
+    "./power-station-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-x-20-bold.svelte"
+    },
+    "./power-station-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-x-48.svelte"
+    },
+    "./power-station-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-station-x-48-bold.svelte"
+    },
     "./ppa-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/ppa-20.svelte"
@@ -14390,6 +16470,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pram-48-bold.svelte"
     },
+    "./prescription-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prescription-20.svelte"
+    },
+    "./prescription-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prescription-20-bold.svelte"
+    },
+    "./prescription-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prescription-48.svelte"
+    },
+    "./prescription-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prescription-48-bold.svelte"
+    },
     "./presentation-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/presentation-20.svelte"
@@ -14405,6 +16501,22 @@
     "./presentation-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/presentation-48-bold.svelte"
+    },
+    "./pressure-gauge-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-gauge-20.svelte"
+    },
+    "./pressure-gauge-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-gauge-20-bold.svelte"
+    },
+    "./pressure-gauge-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-gauge-48.svelte"
+    },
+    "./pressure-gauge-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pressure-gauge-48-bold.svelte"
     },
     "./price-down-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14446,6 +16558,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/printer-20-bold.svelte"
     },
+    "./printer-3d-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-3d-20.svelte"
+    },
+    "./printer-3d-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-3d-20-bold.svelte"
+    },
+    "./printer-3d-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-3d-48.svelte"
+    },
+    "./printer-3d-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer-3d-48-bold.svelte"
+    },
     "./printer-48": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/printer-48.svelte"
@@ -14486,6 +16614,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/procurement-48-bold.svelte"
     },
+    "./projector-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/projector-20.svelte"
+    },
+    "./projector-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/projector-20-bold.svelte"
+    },
+    "./projector-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/projector-48.svelte"
+    },
+    "./projector-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/projector-48-bold.svelte"
+    },
+    "./protractor-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protractor-20.svelte"
+    },
+    "./protractor-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protractor-20-bold.svelte"
+    },
+    "./protractor-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protractor-48.svelte"
+    },
+    "./protractor-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/protractor-48-bold.svelte"
+    },
     "./pulley-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pulley-20.svelte"
@@ -14518,6 +16678,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pumped-hydro-48-bold.svelte"
     },
+    "./pushpin-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pushpin-20.svelte"
+    },
+    "./pushpin-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pushpin-20-bold.svelte"
+    },
+    "./pushpin-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pushpin-48.svelte"
+    },
+    "./pushpin-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pushpin-48-bold.svelte"
+    },
     "./puzzle-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/puzzle-20.svelte"
@@ -14549,6 +16725,54 @@
     "./pylon-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pylon-48-bold.svelte"
+    },
+    "./pylon-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-alert-20.svelte"
+    },
+    "./pylon-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-alert-20-bold.svelte"
+    },
+    "./pylon-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-alert-48.svelte"
+    },
+    "./pylon-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-alert-48-bold.svelte"
+    },
+    "./pylon-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-check-20.svelte"
+    },
+    "./pylon-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-check-20-bold.svelte"
+    },
+    "./pylon-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-check-48.svelte"
+    },
+    "./pylon-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-check-48-bold.svelte"
+    },
+    "./pylon-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-x-20.svelte"
+    },
+    "./pylon-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-x-20-bold.svelte"
+    },
+    "./pylon-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-x-48.svelte"
+    },
+    "./pylon-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pylon-x-48-bold.svelte"
     },
     "./pyramid-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14613,6 +16837,22 @@
     "./quote-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quote-48-bold.svelte"
+    },
+    "./rabbit-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rabbit-20.svelte"
+    },
+    "./rabbit-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rabbit-20-bold.svelte"
+    },
+    "./rabbit-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rabbit-48.svelte"
+    },
+    "./rabbit-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rabbit-48-bold.svelte"
     },
     "./radar-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14950,6 +17190,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/repeat-48-bold.svelte"
     },
+    "./repeat-one-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat-one-20.svelte"
+    },
+    "./repeat-one-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat-one-20-bold.svelte"
+    },
+    "./repeat-one-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat-one-48.svelte"
+    },
+    "./repeat-one-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat-one-48-bold.svelte"
+    },
     "./reply-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/reply-20.svelte"
@@ -15222,6 +17478,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rotor-48-bold.svelte"
     },
+    "./roundabout-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roundabout-20.svelte"
+    },
+    "./roundabout-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roundabout-20-bold.svelte"
+    },
+    "./roundabout-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roundabout-48.svelte"
+    },
+    "./roundabout-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roundabout-48-bold.svelte"
+    },
     "./router-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/router-20.svelte"
@@ -15237,6 +17509,22 @@
     "./router-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/router-48-bold.svelte"
+    },
+    "./router-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-x-20.svelte"
+    },
+    "./router-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-x-20-bold.svelte"
+    },
+    "./router-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-x-48.svelte"
+    },
+    "./router-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/router-x-48-bold.svelte"
     },
     "./rov-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15269,6 +17557,22 @@
     "./rowing-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rowing-48-bold.svelte"
+    },
+    "./rows-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-20.svelte"
+    },
+    "./rows-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-20-bold.svelte"
+    },
+    "./rows-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-48.svelte"
+    },
+    "./rows-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-48-bold.svelte"
     },
     "./rss-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15590,6 +17894,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scan-face-48-bold.svelte"
     },
+    "./scanner-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scanner-20.svelte"
+    },
+    "./scanner-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scanner-20-bold.svelte"
+    },
+    "./scanner-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scanner-48.svelte"
+    },
+    "./scanner-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scanner-48-bold.svelte"
+    },
     "./school-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/school-20.svelte"
@@ -15846,6 +18166,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/server-48-bold.svelte"
     },
+    "./server-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-x-20.svelte"
+    },
+    "./server-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-x-20-bold.svelte"
+    },
+    "./server-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-x-48.svelte"
+    },
+    "./server-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-x-48-bold.svelte"
+    },
     "./service-vessel-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/service-vessel-20.svelte"
@@ -15861,6 +18197,22 @@
     "./service-vessel-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/service-vessel-48-bold.svelte"
+    },
+    "./set-square-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/set-square-20.svelte"
+    },
+    "./set-square-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/set-square-20-bold.svelte"
+    },
+    "./set-square-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/set-square-48.svelte"
+    },
+    "./set-square-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/set-square-48-bold.svelte"
     },
     "./settings-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15990,6 +18342,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-off-48-bold.svelte"
     },
+    "./shield-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-plus-20.svelte"
+    },
+    "./shield-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-plus-20-bold.svelte"
+    },
+    "./shield-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-plus-48.svelte"
+    },
+    "./shield-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-plus-48-bold.svelte"
+    },
     "./shield-x-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-x-20.svelte"
@@ -16069,6 +18437,54 @@
     "./shopping-cart-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shopping-cart-48-bold.svelte"
+    },
+    "./shopping-cart-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-check-20.svelte"
+    },
+    "./shopping-cart-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-check-20-bold.svelte"
+    },
+    "./shopping-cart-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-check-48.svelte"
+    },
+    "./shopping-cart-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-check-48-bold.svelte"
+    },
+    "./shopping-cart-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-plus-20.svelte"
+    },
+    "./shopping-cart-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-plus-20-bold.svelte"
+    },
+    "./shopping-cart-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-plus-48.svelte"
+    },
+    "./shopping-cart-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-plus-48-bold.svelte"
+    },
+    "./shopping-cart-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-x-20.svelte"
+    },
+    "./shopping-cart-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-x-20-bold.svelte"
+    },
+    "./shopping-cart-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-x-48.svelte"
+    },
+    "./shopping-cart-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shopping-cart-x-48-bold.svelte"
     },
     "./shower-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -16502,6 +18918,54 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smart-meter-48-bold.svelte"
     },
+    "./smart-meter-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-alert-20.svelte"
+    },
+    "./smart-meter-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-alert-20-bold.svelte"
+    },
+    "./smart-meter-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-alert-48.svelte"
+    },
+    "./smart-meter-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-alert-48-bold.svelte"
+    },
+    "./smart-meter-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-check-20.svelte"
+    },
+    "./smart-meter-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-check-20-bold.svelte"
+    },
+    "./smart-meter-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-check-48.svelte"
+    },
+    "./smart-meter-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-check-48-bold.svelte"
+    },
+    "./smart-meter-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-x-20.svelte"
+    },
+    "./smart-meter-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-x-20-bold.svelte"
+    },
+    "./smart-meter-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-x-48.svelte"
+    },
+    "./smart-meter-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smart-meter-x-48-bold.svelte"
+    },
     "./smart-plug-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smart-plug-20.svelte"
@@ -16550,6 +19014,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smartphone-48-bold.svelte"
     },
+    "./smartphone-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smartphone-check-20.svelte"
+    },
+    "./smartphone-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smartphone-check-20-bold.svelte"
+    },
+    "./smartphone-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smartphone-check-48.svelte"
+    },
+    "./smartphone-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smartphone-check-48-bold.svelte"
+    },
     "./smile-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smile-20.svelte"
@@ -16597,6 +19077,22 @@
     "./smr-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smr-48-bold.svelte"
+    },
+    "./snail-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snail-20.svelte"
+    },
+    "./snail-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snail-20-bold.svelte"
+    },
+    "./snail-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snail-48.svelte"
+    },
+    "./snail-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snail-48-bold.svelte"
     },
     "./snowboard-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -16821,6 +19317,54 @@
     "./solar-inverter-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/solar-inverter-48-bold.svelte"
+    },
+    "./solar-inverter-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-alert-20.svelte"
+    },
+    "./solar-inverter-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-alert-20-bold.svelte"
+    },
+    "./solar-inverter-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-alert-48.svelte"
+    },
+    "./solar-inverter-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-alert-48-bold.svelte"
+    },
+    "./solar-inverter-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-check-20.svelte"
+    },
+    "./solar-inverter-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-check-20-bold.svelte"
+    },
+    "./solar-inverter-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-check-48.svelte"
+    },
+    "./solar-inverter-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-check-48-bold.svelte"
+    },
+    "./solar-inverter-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-x-20.svelte"
+    },
+    "./solar-inverter-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-x-20-bold.svelte"
+    },
+    "./solar-inverter-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-x-48.svelte"
+    },
+    "./solar-inverter-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-inverter-x-48-bold.svelte"
     },
     "./solar-irradiance-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17078,6 +19622,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/solar-tracker-48-bold.svelte"
     },
+    "./soldering-iron-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soldering-iron-20.svelte"
+    },
+    "./soldering-iron-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soldering-iron-20-bold.svelte"
+    },
+    "./soldering-iron-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soldering-iron-48.svelte"
+    },
+    "./soldering-iron-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soldering-iron-48-bold.svelte"
+    },
+    "./sort-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-20.svelte"
+    },
+    "./sort-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-20-bold.svelte"
+    },
+    "./sort-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-48.svelte"
+    },
+    "./sort-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sort-48-bold.svelte"
+    },
     "./sort-alpha-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sort-alpha-20.svelte"
@@ -17238,6 +19814,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spirit-level-48-bold.svelte"
     },
+    "./split-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-20.svelte"
+    },
+    "./split-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-20-bold.svelte"
+    },
+    "./split-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-48.svelte"
+    },
+    "./split-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/split-48-bold.svelte"
+    },
     "./spring-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spring-20.svelte"
@@ -17318,6 +19910,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-dashed-48-bold.svelte"
     },
+    "./square-root-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-root-20.svelte"
+    },
+    "./square-root-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-root-20-bold.svelte"
+    },
+    "./square-root-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-root-48.svelte"
+    },
+    "./square-root-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-root-48-bold.svelte"
+    },
     "./stadium-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stadium-20.svelte"
@@ -17349,6 +19957,22 @@
     "./stamp-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stamp-48-bold.svelte"
+    },
+    "./stapler-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stapler-20.svelte"
+    },
+    "./stapler-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stapler-20-bold.svelte"
+    },
+    "./stapler-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stapler-48.svelte"
+    },
+    "./stapler-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stapler-48-bold.svelte"
     },
     "./star-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17382,6 +20006,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/star-half-48-bold.svelte"
     },
+    "./star-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-plus-20.svelte"
+    },
+    "./star-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-plus-20-bold.svelte"
+    },
+    "./star-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-plus-48.svelte"
+    },
+    "./star-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-plus-48-bold.svelte"
+    },
     "./stargazing-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stargazing-20.svelte"
@@ -17413,6 +20053,22 @@
     "./steel-mill-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/steel-mill-48-bold.svelte"
+    },
+    "./stethoscope-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-20.svelte"
+    },
+    "./stethoscope-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-20-bold.svelte"
+    },
+    "./stethoscope-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-48.svelte"
+    },
+    "./stethoscope-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-48-bold.svelte"
     },
     "./sticky-note-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17461,6 +20117,22 @@
     "./stop-circle-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stop-circle-48-bold.svelte"
+    },
+    "./stopwatch-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stopwatch-20.svelte"
+    },
+    "./stopwatch-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stopwatch-20-bold.svelte"
+    },
+    "./stopwatch-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stopwatch-48.svelte"
+    },
+    "./stopwatch-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stopwatch-48-bold.svelte"
     },
     "./store-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17557,6 +20229,54 @@
     "./substation-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/substation-48-bold.svelte"
+    },
+    "./substation-alert-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-alert-20.svelte"
+    },
+    "./substation-alert-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-alert-20-bold.svelte"
+    },
+    "./substation-alert-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-alert-48.svelte"
+    },
+    "./substation-alert-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-alert-48-bold.svelte"
+    },
+    "./substation-check-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-check-20.svelte"
+    },
+    "./substation-check-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-check-20-bold.svelte"
+    },
+    "./substation-check-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-check-48.svelte"
+    },
+    "./substation-check-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-check-48-bold.svelte"
+    },
+    "./substation-x-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-x-20.svelte"
+    },
+    "./substation-x-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-x-20-bold.svelte"
+    },
+    "./substation-x-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-x-48.svelte"
+    },
+    "./substation-x-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/substation-x-48-bold.svelte"
     },
     "./sun-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17894,6 +20614,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sync-48-bold.svelte"
     },
+    "./syringe-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-20.svelte"
+    },
+    "./syringe-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-20-bold.svelte"
+    },
+    "./syringe-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-48.svelte"
+    },
+    "./syringe-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/syringe-48-bold.svelte"
+    },
     "./table-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/table-20.svelte"
@@ -17974,6 +20710,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tag-48-bold.svelte"
     },
+    "./tag-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-plus-20.svelte"
+    },
+    "./tag-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-plus-20-bold.svelte"
+    },
+    "./tag-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-plus-48.svelte"
+    },
+    "./tag-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tag-plus-48-bold.svelte"
+    },
     "./tanker-truck-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tanker-truck-20.svelte"
@@ -18037,6 +20789,22 @@
     "./tariff-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tariff-48-bold.svelte"
+    },
+    "./taxi-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taxi-20.svelte"
+    },
+    "./taxi-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taxi-20-bold.svelte"
+    },
+    "./taxi-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taxi-48.svelte"
+    },
+    "./taxi-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taxi-48-bold.svelte"
     },
     "./tea-cup-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -18486,6 +21254,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/toolbox-48-bold.svelte"
     },
+    "./tooth-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tooth-20.svelte"
+    },
+    "./tooth-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tooth-20-bold.svelte"
+    },
+    "./tooth-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tooth-48.svelte"
+    },
+    "./tooth-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tooth-48-bold.svelte"
+    },
     "./torch-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/torch-20.svelte"
@@ -18518,6 +21302,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tornado-48-bold.svelte"
     },
+    "./torque-wrench-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/torque-wrench-20.svelte"
+    },
+    "./torque-wrench-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/torque-wrench-20-bold.svelte"
+    },
+    "./torque-wrench-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/torque-wrench-48.svelte"
+    },
+    "./torque-wrench-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/torque-wrench-48-bold.svelte"
+    },
     "./towels-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/towels-20.svelte"
@@ -18533,6 +21333,22 @@
     "./towels-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/towels-48-bold.svelte"
+    },
+    "./town-hall-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/town-hall-20.svelte"
+    },
+    "./town-hall-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/town-hall-20-bold.svelte"
+    },
+    "./town-hall-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/town-hall-48.svelte"
+    },
+    "./town-hall-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/town-hall-48-bold.svelte"
     },
     "./tractor-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -18789,6 +21605,22 @@
     "./turbine-maintenance-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/turbine-maintenance-48-bold.svelte"
+    },
+    "./turtle-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turtle-20.svelte"
+    },
+    "./turtle-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turtle-20-bold.svelte"
+    },
+    "./turtle-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turtle-48.svelte"
+    },
+    "./turtle-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turtle-48-bold.svelte"
     },
     "./tv-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -19158,6 +21990,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/users-48-bold.svelte"
     },
+    "./users-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-plus-20.svelte"
+    },
+    "./users-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-plus-20-bold.svelte"
+    },
+    "./users-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-plus-48.svelte"
+    },
+    "./users-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-plus-48-bold.svelte"
+    },
     "./uv-index-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/uv-index-20.svelte"
@@ -19189,6 +22037,22 @@
     "./vacuum-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/vacuum-48-bold.svelte"
+    },
+    "./valve-wheel-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/valve-wheel-20.svelte"
+    },
+    "./valve-wheel-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/valve-wheel-20-bold.svelte"
+    },
+    "./valve-wheel-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/valve-wheel-48.svelte"
+    },
+    "./valve-wheel-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/valve-wheel-48-bold.svelte"
     },
     "./van-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -19334,6 +22198,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/video-off-48-bold.svelte"
     },
+    "./video-plus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-plus-20.svelte"
+    },
+    "./video-plus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-plus-20-bold.svelte"
+    },
+    "./video-plus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-plus-48.svelte"
+    },
+    "./video-plus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/video-plus-48-bold.svelte"
+    },
     "./villa-20": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/villa-20.svelte"
@@ -19365,6 +22245,22 @@
     "./virtual-power-plant-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/virtual-power-plant-48-bold.svelte"
+    },
+    "./virus-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-20.svelte"
+    },
+    "./virus-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-20-bold.svelte"
+    },
+    "./virus-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-48.svelte"
+    },
+    "./virus-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/virus-48-bold.svelte"
     },
     "./voicemail-20": {
       "types": "./types/gfwqskkx.d.ts",
@@ -19877,6 +22773,22 @@
     "./whistle-48-bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/whistle-48-bold.svelte"
+    },
+    "./whiteboard-20": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whiteboard-20.svelte"
+    },
+    "./whiteboard-20-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whiteboard-20-bold.svelte"
+    },
+    "./whiteboard-48": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whiteboard-48.svelte"
+    },
+    "./whiteboard-48-bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/whiteboard-48-bold.svelte"
     },
     "./wifi-20": {
       "types": "./types/gfwqskkx.d.ts",
