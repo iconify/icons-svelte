@@ -1,0 +1,42 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><rect class="e0tvxkbxk"/><path class="z5vhowmcy"/><circle class="g11y-v37c"/><path class="ghx4t3bny"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:food-delivery-clock" {...props}></Icon>
+<style>
+:global(.e0tvxkbxk) {
+  width: 11.5px;
+  height: 12.5px;
+  x: 2.75px;
+  y: 8.75px;
+  rx: 1.25px;
+}
+
+:global(.g11y-v37c) {
+  cx: 16.75px;
+  cy: 7.25px;
+  r: 4.5px;
+}
+
+:global(.ghx4t3bny) {
+  d: path("M16.75 5.25v2l1.5 1");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.z5vhowmcy) {
+  d: path("M8.5 8.75v3.5");
+}
+
+</style>

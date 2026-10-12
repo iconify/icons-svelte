@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="x2cwu0gfd"><path class="bh4biibbp"/><path class="ng7-6glby"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:policy-document-sharp" {...props}></Icon>
+<style>
+:global(.bh4biibbp) {
+  d: path("M4.75 2.75h14.5v18.5H4.75z");
+}
+
+:global(.ng7-6glby) {
+  d: path("m12 5.5l3.25 1.2v2.55c0 2.1-1.4 3.6-3.25 4.65c-1.85-1.05-3.25-2.55-3.25-4.65V6.7Zm-3.75 11h7.5m-7.5 2.25h4.5");
+}
+
+:global(.x2cwu0gfd) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

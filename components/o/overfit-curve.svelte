@@ -1,0 +1,34 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="y9tr6bcfx"><path class="m927b1cms"/><path class="rlfoe5b5d"/><path class="r-x5n_oxz"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:overfit-curve" {...props}></Icon>
+<style>
+:global(.m927b1cms) {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.25 3.25v17.5h17.5");
+}
+
+:global(.r-x5n_oxz) {
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6.5 17.5h.01m3.74-10.25h.01m3.99 9.5h.01m4.24-11.5h.01");
+}
+
+:global(.rlfoe5b5d) {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6.5 15.75C7.5 11.5 8.5 9 10.25 9s2.25 6 4 6s2.25-8 4.25-8");
+}
+
+:global(.y9tr6bcfx) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+</style>

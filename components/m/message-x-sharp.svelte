@@ -1,0 +1,50 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="c7atyebze"><mask id="SVG0lseHh3I" width="24" height="24" x="0" y="0" maskUnits="userSpaceOnUse"><path class="py7ktqbvf"/><circle class="utmrllbfo"/></mask><g mask="url(#SVG0lseHh3I)" class="qepuaqbvx"><path class="jpcsitb_x"/><path class="maf5by7ww"/></g><path class="upeuobe7x"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:message-x-sharp" {...props}></Icon>
+<style>
+:global(.c7atyebze) {
+  fill: none;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+
+:global(.jpcsitb_x) {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 3.25c4.85 0 8.75 3.5 8.75 7.85s-3.9 7.85-8.75 7.85h-1.616l-1.484-.5L4.6 20l-1.57.523l.67-1.473l1.2-2.9c-1-1.4-1.65-3.15-1.65-5.05c0-4.35 3.9-7.85 8.75-7.85Z");
+}
+
+:global(.maf5by7ww) {
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 11.1h.01m3.99 0h.01m3.99 0h.01");
+}
+
+:global(.py7ktqbvf) {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h24v24H0z");
+}
+
+:global(.qepuaqbvx) {
+  stroke: currentColor;
+}
+
+:global(.upeuobe7x) {
+  stroke: currentColor;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m15.25 15.25l4.5 4.5m0-4.5l-4.5 4.5");
+}
+
+:global(.utmrllbfo) {
+  cx: 17.5px;
+  cy: 17.5px;
+  r: 6px;
+  fill: var(--svg-color--000, #000);
+}
+
+</style>

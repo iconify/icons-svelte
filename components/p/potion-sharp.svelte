@@ -1,0 +1,34 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ux2u0rbkq"><path class="ykb48e_hk"/><path class="t3tcq7b5a"/><path class="i2d_stbss"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:potion-sharp" {...props}></Icon>
+<style>
+:global(.i2d_stbss) {
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M13 11.25h.01");
+}
+
+:global(.t3tcq7b5a) {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M8.75 14.75h6.5a3.25 3.25 0 0 1-6.5 0Z");
+}
+
+:global(.ux2u0rbkq) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+
+:global(.ykb48e_hk) {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9.25 2.75h5.5v3h-5.5zm.75 3h4V8.5a6.25 6.25 0 1 1-4 0Z");
+}
+
+</style>

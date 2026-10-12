@@ -1,0 +1,40 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="g32fhtb-b"/><circle class="mvq-5215u"/><path class="kcqpalbpb"/><circle class="wbgsvczqr"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:temp-gauge-car" {...props}></Icon>
+<style>
+:global(.g32fhtb-b) {
+  d: path("M2.75 12.75a7 7 0 0 1 14 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.kcqpalbpb) {
+  d: path("m11.16 11.34l1.95-1.95m6.14 4.11v3.75");
+}
+
+:global(.mvq-5215u) {
+  cx: 9.75px;
+  cy: 12.75px;
+  r: 2px;
+}
+
+:global(.wbgsvczqr) {
+  cx: 19.25px;
+  cy: 19.25px;
+  r: 2px;
+}
+
+</style>

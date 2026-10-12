@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><rect class="fe4xh4bkm"/><path class="q_yefvroc"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:school-desk" {...props}></Icon>
+<style>
+:global(.fe4xh4bkm) {
+  width: 18.5px;
+  height: 4px;
+  x: 2.75px;
+  y: 6.75px;
+  rx: 1.5px;
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.q_yefvroc) {
+  d: path("M5.75 10.75v10.5m12.5-10.5v10.5m-12.5-5h12.5");
+}
+
+</style>

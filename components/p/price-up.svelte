@@ -1,0 +1,34 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="z1dep4bpm"/><circle class="wykxeebol"/><path class="th-xsznph"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:price-up" {...props}></Icon>
+<style>
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.th-xsznph) {
+  d: path("M5.75 12.75h3m-3 3.5h3m8.5 4V3.75m-3.5 3.5l3.5-3.5l3.5 3.5");
+}
+
+:global(.wykxeebol) {
+  cx: 7.25px;
+  cy: 7.75px;
+  r: 1.25px;
+}
+
+:global(.z1dep4bpm) {
+  d: path("m3.63 6.62l2.74-2.74q.88-.88 1.76 0l2.74 2.74q.88.88.88 2.13V20q0 1.25-1.25 1.25H4q-1.25 0-1.25-1.25V8.75q0-1.25.88-2.13");
+}
+
+</style>

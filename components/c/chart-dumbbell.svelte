@@ -1,0 +1,68 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><circle class="v-u8c7bqs"/><path class="cbl8z-2kh"/><circle class="mllx8p2ek"/><circle class="iz4a2nbcp"/><path class="kmhj5z3xv"/><circle class="q7oluabpb"/><circle class="uqhsgzn0r"/><path class="dbug20bfo"/><circle class="yrmd442fu"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:chart-dumbbell" {...props}></Icon>
+<style>
+:global(.cbl8z-2kh) {
+  d: path("M7 5.75h6");
+}
+
+:global(.dbug20bfo) {
+  d: path("M6.75 18.25h3.75");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.iz4a2nbcp) {
+  cx: 8.5px;
+  cy: 12px;
+  r: 2px;
+}
+
+:global(.kmhj5z3xv) {
+  d: path("M10.5 12h6.75");
+}
+
+:global(.mllx8p2ek) {
+  cx: 15px;
+  cy: 5.75px;
+  r: 2px;
+}
+
+:global(.q7oluabpb) {
+  cx: 19.25px;
+  cy: 12px;
+  r: 2px;
+}
+
+:global(.uqhsgzn0r) {
+  cx: 4.75px;
+  cy: 18.25px;
+  r: 2px;
+}
+
+:global(.v-u8c7bqs) {
+  cx: 5px;
+  cy: 5.75px;
+  r: 2px;
+}
+
+:global(.yrmd442fu) {
+  cx: 12.5px;
+  cy: 18.25px;
+  r: 2px;
+}
+
+</style>

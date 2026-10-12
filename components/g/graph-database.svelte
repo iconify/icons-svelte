@@ -1,0 +1,54 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="tmwlrjguv"/><circle class="t5psuggxp"/><circle class="bwkxpguke"/><circle class="k24pirb5y"/><circle class="tl2wwdbnu"/><circle class="bi4vwgbyd"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:graph-database" {...props}></Icon>
+<style>
+:global(.bi4vwgbyd) {
+  cx: 12px;
+  cy: 12.5px;
+  r: 2.75px;
+}
+
+:global(.bwkxpguke) {
+  cx: 18.25px;
+  cy: 5px;
+  r: 2px;
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.k24pirb5y) {
+  cx: 5.25px;
+  cy: 18.5px;
+  r: 2px;
+}
+
+:global(.t5psuggxp) {
+  cx: 5px;
+  cy: 5.5px;
+  r: 2px;
+}
+
+:global(.tl2wwdbnu) {
+  cx: 18.5px;
+  cy: 18.75px;
+  r: 2px;
+}
+
+:global(.tmwlrjguv) {
+  d: path("m6.41 6.91l3.65 3.65m6.91-4.02l-3.21 3.85m-7.02 6.78l3.2-2.84m7.12 3.03l-3.08-2.95M7 5.42l9.25-.34m-9 13.46l9.25.17");
+}
+
+</style>

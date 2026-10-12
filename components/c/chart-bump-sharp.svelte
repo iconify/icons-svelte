@@ -1,0 +1,40 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="x2cwu0gfd"><path class="mkbj89bok"/><circle class="nm_s7seyo"/><path class="xdl7njx2b"/><circle class="pftf-cbrq"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:chart-bump-sharp" {...props}></Icon>
+<style>
+:global(.mkbj89bok) {
+  d: path("M2.75 6.5c3.5 0 4 11 7.5 11m3.5 0c3.5 0 4-5.5 7.5-5.5");
+}
+
+:global(.nm_s7seyo) {
+  cx: 12px;
+  cy: 17.5px;
+  r: 1.75px;
+}
+
+:global(.pftf-cbrq) {
+  cx: 12px;
+  cy: 6.5px;
+  r: 1.75px;
+}
+
+:global(.x2cwu0gfd) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.xdl7njx2b) {
+  d: path("M2.75 17.5c3.5 0 4-11 7.5-11m3.5 0h7.5");
+}
+
+</style>

@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="x2cwu0gfd"><path class="guc4fjbhq"/><path class="o2x6yybsc"/><path class="oxw7akivi"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:prompt-chain-sharp" {...props}></Icon>
+<style>
+:global(.guc4fjbhq) {
+  d: path("M2.75 3.25h11v6.5h-11z");
+}
+
+:global(.o2x6yybsc) {
+  d: path("m5.75 5l1.5 1.5L5.75 8m2.5 1.75v7.5h2m0-3h11v6.5h-11z");
+}
+
+:global(.oxw7akivi) {
+  d: path("m13.25 16l1.5 1.5l-1.5 1.5");
+}
+
+:global(.x2cwu0gfd) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

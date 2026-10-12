@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uz7ehacvd"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:contact-lens-sharp" {...props}></Icon>
+<style>
+:global(.uz7ehacvd) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6.75 21.25V17.5a5.25 5.25 0 0 1 10.5 0v3.75ZM5.5 5.66a8 8 0 0 0 13 0a1.5 1.5 0 0 0-2.44-1.75a5 5 0 0 1-8.12 0A1.5 1.5 0 0 0 5.5 5.66Z");
+}
+
+</style>

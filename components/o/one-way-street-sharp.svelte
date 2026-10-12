@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pgqkif-ca"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:one-way-street-sharp" {...props}></Icon>
+<style>
+:global(.pgqkif-ca) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M4.75 2.75v18.5m14.5-18.5v18.5M12 19V5.5M8.75 8.75L12 5.5l3.25 3.25");
+}
+
+</style>

@@ -1,0 +1,30 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><circle class="xlnl3xize"/><path class="pthfvvbfo"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconoven:sun-snow" {...props}></Icon>
+<style>
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.pthfvvbfo) {
+  d: path("M9 3.75v-1M3.75 9h-1m2.54-3.71l-.71-.71M14.25 9h1m-2.54-3.71l.71-.71m-8.13 8.13l-.71.71M16.75 13v8m-3.46-6l6.92 4m-6.92 0l6.92-4");
+}
+
+:global(.xlnl3xize) {
+  cx: 9px;
+  cy: 9px;
+  r: 3.5px;
+}
+
+</style>
