@@ -1,6 +1,5 @@
 # @iconify-svelte/logos
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/svelte/-/tree/logos).
 **SVG Logos**
 
 Author: [Gil Barbara](https://github.com/gilbarbara/logos)

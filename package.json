@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/logos",
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -926,6 +926,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/baseline.svelte"
     },
+    "./baseten": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/baseten.svelte"
+    },
+    "./baseten-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/baseten-icon.svelte"
+    },
     "./bash": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bash.svelte"
@@ -1141,6 +1149,14 @@
     "./brotli": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/brotli.svelte"
+    },
+    "./browserbase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/browserbase.svelte"
+    },
+    "./browserbase-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/browserbase-icon.svelte"
     },
     "./browserify": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1814,6 +1830,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/coreos-icon.svelte"
     },
+    "./coreweave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coreweave.svelte"
+    },
+    "./coreweave-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coreweave-icon.svelte"
+    },
     "./couchbase": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/couchbase.svelte"
@@ -1865,6 +1889,10 @@
     "./createjs": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/createjs.svelte"
+    },
+    "./crewai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crewai.svelte"
     },
     "./crittercism": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2341,6 +2369,10 @@
     "./drip": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drip.svelte"
+    },
+    "./driverjs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/driverjs.svelte"
     },
     "./drizzle": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3294,6 +3326,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/google-fit.svelte"
     },
+    "./google-fonts": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-fonts.svelte"
+    },
+    "./google-fonts-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/google-fonts-icon.svelte"
+    },
     "./google-gemini": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/google-gemini.svelte"
@@ -3446,6 +3486,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grails.svelte"
     },
+    "./grain-lang": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grain-lang.svelte"
+    },
     "./grammarly": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grammarly.svelte"
@@ -3525,6 +3569,10 @@
     "./groovehq": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/groovehq.svelte"
+    },
+    "./groq": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/groq.svelte"
     },
     "./grove": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5506,6 +5554,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nuclide.svelte"
     },
+    "./nuget": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuget.svelte"
+    },
+    "./nuget-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nuget-icon.svelte"
+    },
     "./numpy": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/numpy.svelte"
@@ -5665,6 +5721,26 @@
     "./openlayers": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/openlayers.svelte"
+    },
+    "./openrouter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openrouter.svelte"
+    },
+    "./openrouter-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openrouter-dark.svelte"
+    },
+    "./openrouter-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openrouter-icon.svelte"
+    },
+    "./openrouter-icon-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openrouter-icon-dark.svelte"
+    },
+    "./openrouter-icon-mono": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openrouter-icon-mono.svelte"
     },
     "./opensearch": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6029,6 +6105,10 @@
     "./planless-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/planless-icon.svelte"
+    },
+    "./plantuml": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plantuml.svelte"
     },
     "./plasmic": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6497,6 +6577,10 @@
     "./recoil-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/recoil-icon.svelte"
+    },
+    "./red-lang": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/red-lang.svelte"
     },
     "./reddit": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7826,6 +7910,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/trace.svelte"
     },
+    "./traefik-proxy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/traefik-proxy.svelte"
+    },
+    "./traefik-proxy-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/traefik-proxy-icon.svelte"
+    },
     "./travis-ci": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/travis-ci.svelte"
@@ -8326,6 +8418,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/walkme.svelte"
     },
+    "./wandb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wandb.svelte"
+    },
+    "./wandb-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wandb-icon.svelte"
+    },
     "./watchman": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/watchman.svelte"
@@ -8353,6 +8453,18 @@
     "./weave": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/weave.svelte"
+    },
+    "./weaviate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weaviate.svelte"
+    },
+    "./weaviate-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weaviate-icon.svelte"
+    },
+    "./weaviate-icon-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/weaviate-icon-alt.svelte"
     },
     "./web-dev": {
       "types": "./types/gfwqskkx.d.ts",
