@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/p/p7tvpwjwp.css';
+import '../../css/x/x-bzt0blf.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p7tvpwjwp"/><path clip-rule="evenodd" class="x-bzt0blf"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:square-star-filled" {...props}></Icon>
