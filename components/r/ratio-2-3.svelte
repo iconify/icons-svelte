@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="v--hj-r-m"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:ratio-2-3" {...props}></Icon>
+<style>
+:global(.v--hj-r-m) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 5C5 3.3431 6.3431 2 8 2L16 2C17.6569 2 19 3.3431 19 5L19 19C19 20.6569 17.6569 22 16 22L8 22C6.3431 22 5 20.6569 5 19L5 5Z");
+}
+
+</style>

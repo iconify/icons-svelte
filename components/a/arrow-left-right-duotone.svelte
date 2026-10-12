@@ -5,13 +5,17 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="c2mtqwbnw"/><path class="ox397cb9x"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="kd-mli2zy"/><path class="m8mi84byg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:arrow-left-right-duotone" {...props}></Icon>
 <style>
-:global(.c2mtqwbnw) {
+:global(.kd-mli2zy) {
   stroke-opacity: 0.4;
-  d: path("M21 6L3 6M6 3L3 6L6 9");
+  d: path("M21 7L3 7M7 11L3 7L7 3");
+}
+
+:global(.m8mi84byg) {
+  d: path("M3 17L21 17M17 13L21 17L17 21");
 }
 
 :global(.nrj6p8qat) {
@@ -20,10 +24,6 @@ const content = `<g class="nrj6p8qat"><path class="c2mtqwbnw"/><path class="ox39
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-:global(.ox397cb9x) {
-  d: path("M3 18L21 18M18 15L21 18L18 21");
 }
 
 </style>
