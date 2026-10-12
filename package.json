@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.75",
+  "version": "1.0.76",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -3518,6 +3518,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/handbag.svelte"
     },
+    "./handle-bottom-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/handle-bottom-right.svelte"
+    },
     "./handshake": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/handshake.svelte"
@@ -4269,6 +4273,10 @@
     "./mail-clock": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-clock.svelte"
+    },
+    "./mail-dot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-dot.svelte"
     },
     "./mail-minus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5194,6 +5202,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-incoming.svelte"
     },
+    "./phone-log": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phone-log.svelte"
+    },
     "./phone-missed": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone-missed.svelte"
@@ -5850,6 +5862,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/screen-share-off.svelte"
     },
+    "./screw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screw.svelte"
+    },
     "./scroll": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scroll.svelte"
@@ -5993,6 +6009,10 @@
     "./shield-half": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-half.svelte"
+    },
+    "./shield-house": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-house.svelte"
     },
     "./shield-keyhole": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7378,6 +7398,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-round-search.svelte"
     },
+    "./user-round-star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-round-star.svelte"
+    },
     "./user-round-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-round-x.svelte"
@@ -7633,6 +7657,10 @@
     "./wifi-high": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wifi-high.svelte"
+    },
+    "./wifi-lock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wifi-lock.svelte"
     },
     "./wifi-low": {
       "types": "./types/gfwqskkx.d.ts",
