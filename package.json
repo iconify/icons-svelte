@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1750,6 +1750,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-jinja.svelte"
     },
+    "./file-type-jitpack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-jitpack.svelte"
+    },
     "./file-type-jpm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-jpm.svelte"
@@ -2185,6 +2189,10 @@
     "./file-type-light-io": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-io.svelte"
+    },
+    "./file-type-light-jitpack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-jitpack.svelte"
     },
     "./file-type-light-js": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3722,6 +3730,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-pyenv.svelte"
     },
+    "./file-type-pyinstaller": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-pyinstaller.svelte"
+    },
     "./file-type-pypi": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-pypi.svelte"
@@ -4862,6 +4874,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-windi.svelte"
     },
+    "./file-type-woke": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-woke.svelte"
+    },
     "./file-type-wolfram": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-wolfram.svelte"
@@ -5454,6 +5470,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-docs-opened.svelte"
     },
+    "./folder-type-domain": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-domain.svelte"
+    },
+    "./folder-type-domain-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-domain-opened.svelte"
+    },
+    "./folder-type-drizzle-orm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-drizzle-orm.svelte"
+    },
+    "./folder-type-drizzle-orm-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-drizzle-orm-opened.svelte"
+    },
     "./folder-type-e2e": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-e2e.svelte"
@@ -5830,6 +5862,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-light-devenv-opened.svelte"
     },
+    "./folder-type-light-drizzle-orm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-drizzle-orm.svelte"
+    },
+    "./folder-type-light-drizzle-orm-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-drizzle-orm-opened.svelte"
+    },
     "./folder-type-light-electron": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-light-electron.svelte"
@@ -5926,6 +5966,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-light-sass-opened.svelte"
     },
+    "./folder-type-light-skill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-skill.svelte"
+    },
+    "./folder-type-light-skill-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-light-skill-opened.svelte"
+    },
     "./folder-type-light-zed": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-light-zed.svelte"
@@ -5957,6 +6005,14 @@
     "./folder-type-log-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-log-opened.svelte"
+    },
+    "./folder-type-lua": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-lua.svelte"
+    },
+    "./folder-type-lua-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-lua-opened.svelte"
     },
     "./folder-type-macos": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6246,6 +6302,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-private-opened.svelte"
     },
+    "./folder-type-protobuf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-protobuf.svelte"
+    },
+    "./folder-type-protobuf-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-protobuf-opened.svelte"
+    },
     "./folder-type-public": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-public.svelte"
@@ -6365,6 +6429,14 @@
     "./folder-type-shared-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-shared-opened.svelte"
+    },
+    "./folder-type-skill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-skill.svelte"
+    },
+    "./folder-type-skill-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-skill-opened.svelte"
     },
     "./folder-type-slackware": {
       "types": "./types/gfwqskkx.d.ts",
