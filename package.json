@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg-color",
   "type": "module",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -4797,6 +4797,14 @@
     "./eagle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eagle.svelte"
+    },
+    "./earmark-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earmark-dark.svelte"
+    },
+    "./earmark-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earmark-light.svelte"
     },
     "./easyeda": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15529,6 +15537,10 @@
     "./sifive": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sifive.svelte"
+    },
+    "./sigma-computing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sigma-computing.svelte"
     },
     "./signal": {
       "types": "./types/gfwqskkx.d.ts",
