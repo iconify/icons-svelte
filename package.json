@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/matita",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://icon-sets.iconify.design/matita/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -46,6 +46,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-left.svelte"
     },
+    "./arrow-left-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-left-right.svelte"
+    },
     "./arrow-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-right.svelte"
@@ -53,6 +57,10 @@
     "./arrow-up": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-up.svelte"
+    },
+    "./arrow-up-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-down.svelte"
     },
     "./arrow-up-left": {
       "types": "./types/gfwqskkx.d.ts",
@@ -65,6 +73,10 @@
     "./at-sign": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/at-sign.svelte"
+    },
+    "./ban": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/ban.svelte"
     },
     "./battery": {
       "types": "./types/gfwqskkx.d.ts",
@@ -146,6 +158,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevron-up.svelte"
     },
+    "./chevrons-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevrons-down.svelte"
+    },
     "./chevrons-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-left.svelte"
@@ -153,6 +169,10 @@
     "./chevrons-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-right.svelte"
+    },
+    "./chevrons-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevrons-up.svelte"
     },
     "./circle": {
       "types": "./types/gfwqskkx.d.ts",
@@ -177,6 +197,10 @@
     "./circle-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-x.svelte"
+    },
+    "./clipboard": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clipboard.svelte"
     },
     "./clock": {
       "types": "./types/gfwqskkx.d.ts",
@@ -238,6 +262,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drafting-compass.svelte"
     },
+    "./droplet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/droplet.svelte"
+    },
     "./eraser": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eraser.svelte"
@@ -273,6 +301,14 @@
     "./flag": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/flag.svelte"
+    },
+    "./flame": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flame.svelte"
+    },
+    "./flask": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flask.svelte"
     },
     "./folder": {
       "types": "./types/gfwqskkx.d.ts",
@@ -314,6 +350,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grid-3x3.svelte"
     },
+    "./grip-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grip-vertical.svelte"
+    },
     "./hash": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hash.svelte"
@@ -326,9 +366,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heart.svelte"
     },
+    "./history": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/history.svelte"
+    },
     "./home": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/home.svelte"
+    },
+    "./hourglass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass.svelte"
     },
     "./image": {
       "types": "./types/gfwqskkx.d.ts",
@@ -357,6 +405,10 @@
     "./layers": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/layers.svelte"
+    },
+    "./layout-grid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layout-grid.svelte"
     },
     "./lightbulb": {
       "types": "./types/gfwqskkx.d.ts",
@@ -442,9 +494,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/more-vertical.svelte"
     },
+    "./mouse-pointer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mouse-pointer.svelte"
+    },
     "./move": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/move.svelte"
+    },
+    "./music": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/music.svelte"
     },
     "./navigation": {
       "types": "./types/gfwqskkx.d.ts",
@@ -478,6 +538,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phone.svelte"
     },
+    "./pin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin.svelte"
+    },
     "./play": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/play.svelte"
@@ -509,6 +573,10 @@
     "./refresh-cw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/refresh-cw.svelte"
+    },
+    "./rocket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rocket.svelte"
     },
     "./rotate-ccw": {
       "types": "./types/gfwqskkx.d.ts",
@@ -590,9 +658,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smile.svelte"
     },
+    "./sparkles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkles.svelte"
+    },
     "./square": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square.svelte"
+    },
+    "./square-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-check.svelte"
     },
     "./square-pen": {
       "types": "./types/gfwqskkx.d.ts",
@@ -610,6 +686,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/t-square.svelte"
     },
+    "./table": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/table.svelte"
+    },
     "./tag": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tag.svelte"
@@ -618,9 +698,21 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/terminal.svelte"
     },
+    "./thumbs-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-down.svelte"
+    },
     "./thumbs-up": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/thumbs-up.svelte"
+    },
+    "./toggle-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toggle-right.svelte"
+    },
+    "./trash": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash.svelte"
     },
     "./trash-2": {
       "types": "./types/gfwqskkx.d.ts",
@@ -633,6 +725,10 @@
     "./triangle-alert": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/triangle-alert.svelte"
+    },
+    "./truck": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/truck.svelte"
     },
     "./type": {
       "types": "./types/gfwqskkx.d.ts",
@@ -670,6 +766,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/video.svelte"
     },
+    "./volume": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume.svelte"
+    },
+    "./volume-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/volume-1.svelte"
+    },
     "./volume-2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/volume-2.svelte"
@@ -677,6 +781,10 @@
     "./volume-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/volume-x.svelte"
+    },
+    "./wallet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wallet.svelte"
     },
     "./wifi": {
       "types": "./types/gfwqskkx.d.ts",
