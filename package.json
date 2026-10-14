@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.76",
+  "version": "1.0.77",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -694,6 +694,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/beer-off.svelte"
     },
+    "./belarusian-ruble": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/belarusian-ruble.svelte"
+    },
     "./bell": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bell.svelte"
@@ -1149,6 +1153,10 @@
     "./calendar-check-2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/calendar-check-2.svelte"
+    },
+    "./calendar-chevrons-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-chevrons-left.svelte"
     },
     "./calendar-chevrons-right": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1658,6 +1666,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-fading-arrow-up.svelte"
     },
+    "./circle-fading-play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-fading-play.svelte"
+    },
     "./circle-fading-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-fading-plus.svelte"
@@ -2165,6 +2177,10 @@
     "./cpu": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cpu.svelte"
+    },
+    "./cpu-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cpu-ai.svelte"
     },
     "./creative-commons": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3166,6 +3182,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-up.svelte"
     },
+    "./folder-user": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-user.svelte"
+    },
+    "./folder-users": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-users.svelte"
+    },
     "./folder-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-x.svelte"
@@ -3422,6 +3446,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grape.svelte"
     },
+    "./graph-star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-star.svelte"
+    },
     "./grid-2x2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grid-2x2.svelte"
@@ -3469,6 +3497,10 @@
     "./guitar": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/guitar.svelte"
+    },
+    "./guitar-electric": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/guitar-electric.svelte"
     },
     "./ham": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4478,6 +4510,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-reply.svelte"
     },
+    "./message-circle-text": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-circle-text.svelte"
+    },
     "./message-circle-warning": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-warning.svelte"
@@ -5173,6 +5209,10 @@
     "./percent": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/percent.svelte"
+    },
+    "./perfume-bottle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/perfume-bottle.svelte"
     },
     "./person-standing": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5937,6 +5977,10 @@
     "./server-crash": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/server-crash.svelte"
+    },
+    "./server-nas": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server-nas.svelte"
     },
     "./server-off": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7426,9 +7470,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/users.svelte"
     },
+    "./users-collaboration": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-collaboration.svelte"
+    },
     "./users-round": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/users-round.svelte"
+    },
+    "./users-round-collaboration": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/users-round-collaboration.svelte"
     },
     "./utensils": {
       "types": "./types/gfwqskkx.d.ts",
