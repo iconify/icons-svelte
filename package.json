@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/ix",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://icon-sets.iconify.design/ix/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -253,6 +253,14 @@
     "./alarm-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/alarm-filled.svelte"
+    },
+    "./alarm-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-multiple.svelte"
+    },
+    "./alarm-multiple-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/alarm-multiple-filled.svelte"
     },
     "./align-center-horizontally": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5813,6 +5821,14 @@
     "./warning-octagon-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/warning-octagon-filled.svelte"
+    },
+    "./warning-octagon-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-octagon-multiple.svelte"
+    },
+    "./warning-octagon-multiple-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/warning-octagon-multiple-filled.svelte"
     },
     "./warning-rhomb": {
       "types": "./types/gfwqskkx.d.ts",
