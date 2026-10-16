@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.77",
+  "version": "1.0.78",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -1346,6 +1346,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cctv-off.svelte"
     },
+    "./certificate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/certificate.svelte"
+    },
     "./chart-area": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chart-area.svelte"
@@ -2518,6 +2522,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/egg-off.svelte"
     },
+    "./eighth-note": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eighth-note.svelte"
+    },
+    "./eighth-notes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/eighth-notes.svelte"
+    },
     "./eject": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eject.svelte"
@@ -3501,6 +3513,10 @@
     "./guitar-electric": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/guitar-electric.svelte"
+    },
+    "./half-note": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/half-note.svelte"
     },
     "./ham": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4870,10 +4886,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/music-2.svelte"
     },
-    "./music-3": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/music-3.svelte"
-    },
     "./music-4": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/music-4.svelte"
@@ -6197,6 +6209,10 @@
     "./siren": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/siren.svelte"
+    },
+    "./sixteenth-notes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sixteenth-notes.svelte"
     },
     "./skip-back": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8401,6 +8417,10 @@
     "./move-3-d": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/move-3-d.svelte"
+    },
+    "./music-3": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/music-3.svelte"
     },
     "./outdent": {
       "types": "./types/gfwqskkx.d.ts",
