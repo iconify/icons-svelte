@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/u/utf77lbef.css';
+import '../../css/y/y2skt30fq.css';
+import '../../css/v/v-kyi2bll.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="utf77lbef"/><path class="y2skt30fq"/><path class="v-kyi2bll"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="energy-icons:chart-area-stacked-48" {...props}></Icon>
