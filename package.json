@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -2318,6 +2318,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-openhab.svelte"
     },
+    "./file-type-light-overcommit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-overcommit.svelte"
+    },
     "./file-type-light-oxc": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-oxc.svelte"
@@ -3366,6 +3370,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-outlook.svelte"
     },
+    "./file-type-overcommit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-overcommit.svelte"
+    },
     "./file-type-overmind": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-overmind.svelte"
@@ -3877,6 +3885,10 @@
     "./file-type-reactts": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-reactts.svelte"
+    },
+    "./file-type-readme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-readme.svelte"
     },
     "./file-type-readthedocs": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5189,6 +5201,14 @@
     "./folder-type-bower-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-bower-opened.svelte"
+    },
+    "./folder-type-buck": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-buck.svelte"
+    },
+    "./folder-type-buck-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-buck-opened.svelte"
     },
     "./folder-type-buildkite": {
       "types": "./types/gfwqskkx.d.ts",
