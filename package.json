@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.64",
+  "version": "1.0.65",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1125,6 +1125,10 @@
     "./file-type-falcon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-falcon.svelte"
+    },
+    "./file-type-fallow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-fallow.svelte"
     },
     "./file-type-fantasticon": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2334,6 +2338,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-pcl.svelte"
     },
+    "./file-type-light-platformatic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-platformatic.svelte"
+    },
     "./file-type-light-pnpm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-pnpm.svelte"
@@ -3526,6 +3534,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-plantuml.svelte"
     },
+    "./file-type-platformatic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-platformatic.svelte"
+    },
     "./file-type-platformio": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-platformio.svelte"
@@ -4369,6 +4381,10 @@
     "./file-type-svg": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-svg.svelte"
+    },
+    "./file-type-svglint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-svglint.svelte"
     },
     "./file-type-svgo": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5465,6 +5481,14 @@
     "./folder-type-devenv-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-devenv-opened.svelte"
+    },
+    "./folder-type-discord": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-discord.svelte"
+    },
+    "./folder-type-discord-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-discord-opened.svelte"
     },
     "./folder-type-dist": {
       "types": "./types/gfwqskkx.d.ts",

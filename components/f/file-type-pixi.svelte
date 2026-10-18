@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="bi12bsetm"><path class="uhskiccvv"/><path class="sw7oyacsx"/><path class="t861eiqsd"/><path class="ey9w0glnv"/><path class="vbjj9p4lw"/><path class="tm6kajbtb"/><path class="nuq3oxbmb"/><path class="dan_6kwbs"/><path class="szdcogbdx"/><path class="yayhkpbkt"/><path class="f3p5wjhzp"/><path class="umguhy2ym"/><path class="nr05hr44p"/><path class="m12jbkbro"/><path class="ew3amxb1d"/></g>`;
+const content = `<g clip-rule="evenodd" class="bi12bsetm"><path class="uhskiccvv"/><path class="sw7oyacsx"/><path class="t861eiqsd"/><path class="ey9w0glnv"/><path class="vbjj9p4lw"/><path class="tm6kajbtb"/><path class="nuq3oxbmb"/><path class="dan_6kwbs"/><path class="szdcogbdx"/><path class="yayhkpbkt"/><path class="f3p5wjhzp"/><path class="umguhy2ym"/><path class="nr05hr44p"/><path class="m12jbkbro"/><path class="ew3amxb1d"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:file-type-pixi" {...props}></Icon>
 <style>

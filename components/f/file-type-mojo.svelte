@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":32,"height":32};
-const content = `<g class="kuf42lb8e"><path class="yas1bzbyb"/><path class="oa9k46bxw"/><path class="wzkfl6ngl"/><path class="bh0wyuxew"/><path class="hcnbz6b8u"/></g>`;
+const content = `<g clip-rule="evenodd" class="kuf42lb8e"><path class="yas1bzbyb"/><path class="oa9k46bxw"/><path class="wzkfl6ngl"/><path class="bh0wyuxew"/><path class="hcnbz6b8u"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:file-type-mojo" {...props}></Icon>
 <style>

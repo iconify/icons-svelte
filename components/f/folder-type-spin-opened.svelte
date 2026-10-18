@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":32,"height":32};
-const content = `<path class="w2i6iwrjp"/><path class="vty-gzbdq"/><path class="sa0rmn_cz"/>`;
+const content = `<path class="w2i6iwrjp"/><path class="vty-gzbdq"/><path class="a803kzt7q"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:folder-type-spin-opened" {...props}></Icon>
 <style>
-:global(.sa0rmn_cz) {
-  d: path("M23.813 15.81a6.738 6.774 0 0 0-6.739 6.775a6.738 6.774 0 0 0 6.739 6.774a6.738 6.774 0 0 0 6.738-6.774a6.738 6.774 0 0 0-6.738-6.775m.02 1.628a5.14 5.168 0 0 1 5.141 5.167a5.14 5.168 0 0 1-5.14 5.168a5.14 5.168 0 0 1-5.14-5.169a5.14 5.168 0 0 1 5.14-5.166");
+:global(.a803kzt7q) {
+  d: path("M23.813 15.81a6.738 6.774 0 0 0-6.739 6.775a6.738 6.774 0 0 0 6.739 6.774a6.738 6.774 0 0 0 6.738-6.774a6.738 6.774 0 0 0-6.738-6.775m.02 1.628a5.14 5.168 0 0 1 5.141 5.167a5.14 5.168 0 0 1-5.14 5.169a5.14 5.168 0 0 1-5.14-5.169a5.14 5.168 0 0 1 5.14-5.167");
 }
 
 :global(.vty-gzbdq) {
