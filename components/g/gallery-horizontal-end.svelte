@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/q/qat35xbas.css';
+import '../../css/f/f8zzqebrs.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qat35xbas"/>`;
+const content = `<path class="f8zzqebrs"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vadivam:gallery-horizontal-end" {...props}></Icon>

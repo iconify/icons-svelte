@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/niu_geqxg.css';
+import '../../css/j/j3dkaeb4q.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="niu_geqxg"/>`;
+const content = `<path class="j3dkaeb4q"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vadivam:badge-alert" {...props}></Icon>
