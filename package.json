@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/logos",
   "type": "module",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -325,6 +325,14 @@
     "./apidog-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apidog-icon.svelte"
+    },
+    "./apify": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apify.svelte"
+    },
+    "./apify-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apify-icon.svelte"
     },
     "./apigee": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1730,6 +1738,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/coffeescript.svelte"
     },
+    "./cohere": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cohere.svelte"
+    },
+    "./cohere-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cohere-icon.svelte"
+    },
     "./commitizen": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/commitizen.svelte"
@@ -1757,6 +1773,14 @@
     "./composer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/composer.svelte"
+    },
+    "./composio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/composio.svelte"
+    },
+    "./composio-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/composio-icon.svelte"
     },
     "./conan-io": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2117,6 +2141,14 @@
     "./deepgram-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/deepgram-icon.svelte"
+    },
+    "./deepinfra": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deepinfra.svelte"
+    },
+    "./deepinfra-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deepinfra-icon.svelte"
     },
     "./deepseek": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2745,6 +2777,14 @@
     "./falcor": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/falcor.svelte"
+    },
+    "./falkordb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/falkordb.svelte"
+    },
+    "./falkordb-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/falkordb-icon.svelte"
     },
     "./famous": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3902,6 +3942,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hugo.svelte"
     },
+    "./hume": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hume.svelte"
+    },
+    "./hume-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hume-icon.svelte"
+    },
     "./humongous": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/humongous.svelte"
@@ -4450,6 +4498,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kustomer.svelte"
     },
+    "./lancedb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lancedb.svelte"
+    },
+    "./lancedb-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lancedb-icon.svelte"
+    },
     "./langchain": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/langchain.svelte"
@@ -4457,6 +4513,14 @@
     "./langchain-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/langchain-icon.svelte"
+    },
+    "./langfuse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/langfuse.svelte"
+    },
+    "./langfuse-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/langfuse-icon.svelte"
     },
     "./languagetool": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4693,6 +4757,14 @@
     "./lucene-net": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lucene-net.svelte"
+    },
+    "./luma": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luma.svelte"
+    },
+    "./luma-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/luma-icon.svelte"
     },
     "./lumen": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5646,6 +5718,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/olark.svelte"
     },
+    "./ollama": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/ollama.svelte"
+    },
     "./onesignal": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/onesignal.svelte"
@@ -6374,6 +6450,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pycharm.svelte"
     },
+    "./pydantic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pydantic.svelte"
+    },
+    "./pydantic-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pydantic-icon.svelte"
+    },
     "./pypi": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pypi.svelte"
@@ -6481,6 +6565,10 @@
     "./rackspace-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rackspace-icon.svelte"
+    },
+    "./ragflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ragflow.svelte"
     },
     "./rails": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6705,6 +6793,14 @@
     "./rest-li": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rest-li.svelte"
+    },
+    "./retell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/retell.svelte"
+    },
+    "./retell-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/retell-icon.svelte"
     },
     "./rethinkdb": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7566,6 +7662,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sugarss.svelte"
     },
+    "./suno": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/suno.svelte"
+    },
     "./supabase": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/supabase.svelte"
@@ -7730,6 +7830,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tauri.svelte"
     },
+    "./tavily": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tavily.svelte"
+    },
     "./tealium": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tealium.svelte"
@@ -7841,6 +7945,14 @@
     "./tidal-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tidal-icon.svelte"
+    },
+    "./tigergraph": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tigergraph.svelte"
+    },
+    "./tigergraph-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tigergraph-icon.svelte"
     },
     "./tiktok": {
       "types": "./types/gfwqskkx.d.ts",
