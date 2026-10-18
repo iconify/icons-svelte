@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/s/s_ph-obyo.css';
+import '../../css/s/swz0mqbzv.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="s_ph-obyo"/>`;
+const content = `<path class="swz0mqbzv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="cbi:lampada-parete" {...props}></Icon>
