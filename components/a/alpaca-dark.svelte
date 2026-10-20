@@ -8,6 +8,6 @@ import '../../css/r/ref5yimac.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":1081,"height":309};
-const content = `<path class="qs7w7kbfr"/><path clip-rule="evenodd" class="wp17s5bha"/><path class="ref5yimac"/>`;
+const content = `<path class="qs7w7kbfr"/><path class="wp17s5bha"/><path class="ref5yimac"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="thesvg-color:alpaca-dark" {...props}></Icon>

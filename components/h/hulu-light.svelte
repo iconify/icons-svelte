@@ -6,6 +6,6 @@ import '../../css/t/trlfrfbaa.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":243.5,"height":80};
-const content = `<path clip-rule="evenodd" class="trlfrfbaa"/>`;
+const content = `<path class="trlfrfbaa"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="thesvg-color:hulu-light" {...props}></Icon>
