@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gd7lvq7fq.css';
+import '../../css/g/g7xdkkb9r.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="gd7lvq7fq"/>`;
+const content = `<path class="g7xdkkb9r"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:post-terms" {...props}></Icon>
