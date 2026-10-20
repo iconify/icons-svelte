@@ -1,8 +1,7 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/wj4kgr0on.css';
-import '../../css/q/q8zv1imgh.css';
-import '../../css/d/dd4j49bys.css';
+import '../../css/r/rdcnc9bhs.css';
+import '../../css/x/xi2u7tbob.css';
 import '../../css/f/fpm55-4af.css';
 import '../../css/p/pgjtztbuq.css';
 
@@ -10,6 +9,6 @@ import '../../css/p/pgjtztbuq.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":18.035,"height":17.5};
-const content = `<g class="wj4kgr0on"><path class="q8zv1imgh"/><path class="dd4j49bys"/></g><path class="fpm55-4af"/><path class="pgjtztbuq"/>`;
+const content = `<path class="rdcnc9bhs"/><path class="xi2u7tbob"/><path class="fpm55-4af"/><path class="pgjtztbuq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="k8s:rolebinding" {...props}></Icon>

@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/wj4kgr0on.css';
-import '../../css/q/q8zv1imgh.css';
-import '../../css/d/dd4j49bys.css';
-import '../../css/i/irv9_34ln.css';
+import '../../css/r/rdcnc9bhs.css';
+import '../../css/x/xi2u7tbob.css';
+import '../../css/c/cm34l7bhj.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":18.035,"height":17.5};
-const content = `<g class="wj4kgr0on"><path class="q8zv1imgh"/><path class="dd4j49bys"/></g><path class="irv9_34ln"/>`;
+const content = `<path class="rdcnc9bhs"/><path class="xi2u7tbob"/><path class="cm34l7bhj"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="k8s:networkpolicy" {...props}></Icon>
