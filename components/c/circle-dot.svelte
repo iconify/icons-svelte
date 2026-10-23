@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/n/nrj6p8qat.css';
-import '../../css/e/e6eatobym.css';
-import '../../css/h/hm5c2097h.css';
+import '../../css/u/u7ozr2vll.css';
+import '../../css/p/ppdzzsb6b.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="e6eatobym"/><path class="hm5c2097h"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="u7ozr2vll"/><path class="ppdzzsb6b"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vadivam:circle-dot" {...props}></Icon>

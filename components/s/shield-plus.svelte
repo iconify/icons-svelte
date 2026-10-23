@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/a/a41uf4b_n.css';
+import '../../css/u/u_w_xhb-e.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="a41uf4b_n"/>`;
+const content = `<path class="u_w_xhb-e"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vadivam:shield-plus" {...props}></Icon>
