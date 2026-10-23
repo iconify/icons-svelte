@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.66",
+  "version": "1.0.67",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -2306,6 +2306,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-nim.svelte"
     },
+    "./file-type-light-noir": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-noir.svelte"
+    },
     "./file-type-light-nx": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-nx.svelte"
@@ -2553,6 +2557,10 @@
     "./file-type-light-vite": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-vite.svelte"
+    },
+    "./file-type-light-viteplus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-viteplus.svelte"
     },
     "./file-type-light-vitest": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3261,6 +3269,10 @@
     "./file-type-nodemon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-nodemon.svelte"
+    },
+    "./file-type-noir": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-noir.svelte"
     },
     "./file-type-npm": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4770,6 +4782,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-vite.svelte"
     },
+    "./file-type-viteplus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-viteplus.svelte"
+    },
     "./file-type-vitest": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-vitest.svelte"
@@ -5621,6 +5637,14 @@
     "./folder-type-frontcommerce-opened": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-type-frontcommerce-opened.svelte"
+    },
+    "./folder-type-frontend": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-frontend.svelte"
+    },
+    "./folder-type-frontend-opened": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-type-frontend-opened.svelte"
     },
     "./folder-type-gcp": {
       "types": "./types/gfwqskkx.d.ts",
