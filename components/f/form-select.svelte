@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/y/yrmh38esi.css';
+import '../../css/t/tz5dcn39z.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="jx0p4fbya"><path class="yrmh38esi"/><path class="tz5dcn39z"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="wordpress:form-select" {...props}></Icon>

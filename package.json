@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/wordpress",
   "type": "module",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "GPL-2.0-or-later",
@@ -89,6 +89,10 @@
     "./aspect-ratio": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/aspect-ratio.svelte"
+    },
+    "./asterisk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/asterisk.svelte"
     },
     "./at-symbol": {
       "types": "./types/gfwqskkx.d.ts",
@@ -374,6 +378,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dashboard.svelte"
     },
+    "./database": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database.svelte"
+    },
     "./desktop": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/desktop.svelte"
@@ -433,6 +441,14 @@
     "./footer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/footer.svelte"
+    },
+    "./form-input": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/form-input.svelte"
+    },
+    "./form-select": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/form-select.svelte"
     },
     "./format-bold": {
       "types": "./types/gfwqskkx.d.ts",
