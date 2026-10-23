@@ -1,6 +1,5 @@
 # @iconify-svelte/carbon
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/svelte/-/tree/carbon).
 **Carbon**
 
 Author: [IBM](https://github.com/carbon-design-system/carbon/tree/main/packages/icons)

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/carbon",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "homepage": "https://icon-sets.iconify.design/carbon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "Apache-2.0",
@@ -5090,17 +5090,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ibm-process-mining.svelte"
     },
-    "./ibm-quantum-safe-advisor": {
+    "./ibm-quantum-safe-cryptography-manager": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/i/ibm-quantum-safe-advisor.svelte"
+      "svelte": "./components/i/ibm-quantum-safe-cryptography-manager.svelte"
     },
     "./ibm-quantum-safe-explorer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ibm-quantum-safe-explorer.svelte"
     },
-    "./ibm-quantum-safe-remediator": {
+    "./ibm-quantum-safe-proxy": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/i/ibm-quantum-safe-remediator.svelte"
+      "svelte": "./components/i/ibm-quantum-safe-proxy.svelte"
     },
     "./ibm-saas-console": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5145,6 +5145,14 @@
     "./ibm-software-watsonx-document-library": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ibm-software-watsonx-document-library.svelte"
+    },
+    "./ibm-sovereign-core": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ibm-sovereign-core.svelte"
+    },
+    "./ibm-sterling-b2b-integration-saas": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ibm-sterling-b2b-integration-saas.svelte"
     },
     "./ibm-streamsets": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7286,6 +7294,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/paragraph.svelte"
     },
+    "./parallelogram-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parallelogram-outline.svelte"
+    },
+    "./parallelogram-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parallelogram-solid.svelte"
+    },
     "./parameter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/parameter.svelte"
@@ -7901,6 +7917,14 @@
     "./quadrant-plot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quadrant-plot.svelte"
+    },
+    "./quantum-computer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quantum-computer.svelte"
+    },
+    "./quantum-qpu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quantum-qpu.svelte"
     },
     "./query": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9221,6 +9245,10 @@
     "./strawberry": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/strawberry.svelte"
+    },
+    "./streaming-embedded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streaming-embedded.svelte"
     },
     "./stress-breath-editor": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11149,6 +11177,14 @@
     "./ibm-content-services": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ibm-content-services.svelte"
+    },
+    "./ibm-quantum-safe-advisor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ibm-quantum-safe-advisor.svelte"
+    },
+    "./ibm-quantum-safe-remediator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ibm-quantum-safe-remediator.svelte"
     },
     "./ibm-tenet": {
       "types": "./types/gfwqskkx.d.ts",
