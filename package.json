@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/material-icon-theme",
   "type": "module",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "homepage": "https://icon-sets.iconify.design/material-icon-theme/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -3697,6 +3697,10 @@
     "./pdm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pdm.svelte"
+    },
+    "./peg": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/peg.svelte"
     },
     "./percy": {
       "types": "./types/gfwqskkx.d.ts",
