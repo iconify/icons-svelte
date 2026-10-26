@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg",
   "type": "module",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -850,6 +850,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apollo-graphql.svelte"
     },
+    "./apollodotio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apollodotio.svelte"
+    },
     "./apostrophe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apostrophe.svelte"
@@ -1550,6 +1554,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bitdefender.svelte"
     },
+    "./bitkit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bitkit.svelte"
+    },
     "./bitly": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bitly.svelte"
@@ -1850,6 +1858,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/buildkite.svelte"
     },
+    "./buildpacks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/buildpacks.svelte"
+    },
     "./builtbybit": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/builtbybit.svelte"
@@ -2090,6 +2102,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cerebras.svelte"
     },
+    "./cert-manager": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cert-manager.svelte"
+    },
     "./cesium": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cesium.svelte"
@@ -2121,6 +2137,10 @@
     "./channel-4": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/channel-4.svelte"
+    },
+    "./chaos-mesh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chaos-mesh.svelte"
     },
     "./charles": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2373,6 +2393,10 @@
     "./cloudera": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloudera.svelte"
+    },
+    "./cloudevents": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloudevents.svelte"
     },
     "./cloudflare": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2734,6 +2758,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/continente.svelte"
     },
+    "./contour": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contour.svelte"
+    },
     "./contributor-covenant": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contributor-covenant.svelte"
@@ -2881,6 +2909,10 @@
     "./crewai": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/crewai.svelte"
+    },
+    "./cri-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cri-o.svelte"
     },
     "./critical-role": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3470,6 +3502,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/docusaurus.svelte"
     },
+    "./docuseal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docuseal.svelte"
+    },
     "./dodo-payments": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dodo-payments.svelte"
@@ -3982,6 +4018,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ethereum.svelte"
     },
+    "./etherpad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/etherpad.svelte"
+    },
     "./ethers": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ethers.svelte"
@@ -4349,6 +4389,10 @@
     "./fizz": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fizz.svelte"
+    },
+    "./flame": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flame.svelte"
     },
     "./flashforge": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5037,6 +5081,10 @@
     "./godaddy": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/godaddy.svelte"
+    },
+    "./godonateme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/godonateme.svelte"
     },
     "./godot": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6126,6 +6174,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/improvmx.svelte"
     },
+    "./in-toto": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/in-toto.svelte"
+    },
     "./inception-labs": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/inception-labs.svelte"
@@ -6698,6 +6750,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/karma.svelte"
     },
+    "./karmada": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/karmada.svelte"
+    },
     "./kasa-smart": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kasa-smart.svelte"
@@ -6986,6 +7042,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/krita.svelte"
     },
+    "./kserve": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kserve.svelte"
+    },
     "./ktm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/ktm.svelte"
@@ -6998,6 +7058,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kuaishou.svelte"
     },
+    "./kubeedge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kubeedge.svelte"
+    },
     "./kubeflow": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kubeflow.svelte"
@@ -7006,9 +7070,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kubernetes.svelte"
     },
+    "./kubescape": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kubescape.svelte"
+    },
     "./kubespray": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kubespray.svelte"
+    },
+    "./kubevela": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kubevela.svelte"
     },
     "./kubuntu": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7674,6 +7746,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/magasins-u.svelte"
     },
+    "./mage-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mage-ai.svelte"
+    },
     "./magic": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/magic.svelte"
@@ -8082,6 +8158,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/metro-de-madrid.svelte"
     },
+    "./metube": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/metube.svelte"
+    },
     "./mewe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mewe.svelte"
@@ -8113,6 +8193,10 @@
     "./microsoft-bing": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/microsoft-bing.svelte"
+    },
+    "./microsoft-copilot-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-copilot-legacy.svelte"
     },
     "./microstation": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8322,6 +8406,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/monica.svelte"
     },
+    "./monitixx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/monitixx.svelte"
+    },
     "./monkey-tie": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/monkey-tie.svelte"
@@ -8497,6 +8585,10 @@
     "./n8n": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/n8n.svelte"
+    },
+    "./n8n-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/n8n-legacy.svelte"
     },
     "./namebase": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9106,6 +9198,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/oculus.svelte"
     },
+    "./oddinpay": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oddinpay.svelte"
+    },
     "./odido": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/odido.svelte"
@@ -9210,6 +9306,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/open-containers-initiative.svelte"
     },
+    "./open-policy-agent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/open-policy-agent.svelte"
+    },
     "./open-source-hardware": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/open-source-hardware.svelte"
@@ -9265,6 +9365,10 @@
     "./opencode": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/opencode.svelte"
+    },
+    "./opencost": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opencost.svelte"
     },
     "./opencritic": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9569,6 +9673,10 @@
     "./pagseguro": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pagseguro.svelte"
+    },
+    "./pairdrop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pairdrop.svelte"
     },
     "./palantir": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10210,6 +10318,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/posthog.svelte"
     },
+    "./posthog-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/posthog-legacy.svelte"
+    },
     "./postiz": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/postiz.svelte"
@@ -10437,6 +10549,10 @@
     "./pubg": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pubg.svelte"
+    },
+    "./pubky": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pubky.svelte"
     },
     "./publons": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10765,6 +10881,10 @@
     "./rakuten-kobo": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rakuten-kobo.svelte"
+    },
+    "./rallly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rallly.svelte"
     },
     "./ralph-lauren": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11405,6 +11525,10 @@
     "./ryanair": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/ryanair.svelte"
+    },
+    "./rybbit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rybbit.svelte"
     },
     "./rye": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12234,6 +12358,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spicedb.svelte"
     },
+    "./spiffe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spiffe.svelte"
+    },
     "./spigotmc": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spigotmc.svelte"
@@ -12538,6 +12666,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stremio.svelte"
     },
+    "./strimzi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/strimzi.svelte"
+    },
     "./stripe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stripe.svelte"
@@ -12750,6 +12882,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/synology.svelte"
     },
+    "./synonym": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/synonym.svelte"
+    },
     "./system76": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/system76.svelte"
@@ -12769,6 +12905,10 @@
     "./tado": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tado.svelte"
+    },
+    "./tahcia": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tahcia.svelte"
     },
     "./taichi-graphics": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12817,6 +12957,10 @@
     "./tampermonkey": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tampermonkey.svelte"
+    },
+    "./tandoor-recipes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tandoor-recipes.svelte"
     },
     "./tanstack": {
       "types": "./types/gfwqskkx.d.ts",
