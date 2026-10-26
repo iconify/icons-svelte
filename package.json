@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.67",
+  "version": "1.0.68",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -765,6 +765,10 @@
     "./file-type-cucumber": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-cucumber.svelte"
+    },
+    "./file-type-cucumberconfig": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-cucumberconfig.svelte"
     },
     "./file-type-cuda": {
       "types": "./types/gfwqskkx.d.ts",
