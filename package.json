@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/logos",
   "type": "module",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -25,6 +25,14 @@
     "./active-campaign-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/active-campaign-icon.svelte"
+    },
+    "./activeloop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/activeloop.svelte"
+    },
+    "./activeloop-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/activeloop-icon.svelte"
     },
     "./admob": {
       "types": "./types/gfwqskkx.d.ts",
@@ -125,6 +133,14 @@
     "./airbrake": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/airbrake.svelte"
+    },
+    "./airbyte": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/airbyte.svelte"
+    },
+    "./airbyte-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/airbyte-icon.svelte"
     },
     "./airflow": {
       "types": "./types/gfwqskkx.d.ts",
@@ -289,6 +305,10 @@
     "./apache-http": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apache-http.svelte"
+    },
+    "./apache-sedona": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apache-sedona.svelte"
     },
     "./apache-software-foundation": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2866,6 +2886,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/firefox.svelte"
     },
+    "./fireworks-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fireworks-ai.svelte"
+    },
     "./flannel": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/flannel.svelte"
@@ -3514,6 +3538,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gradio-icon.svelte"
     },
+    "./gradium": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gradium.svelte"
+    },
     "./gradle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gradle.svelte"
@@ -4014,6 +4042,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/importio-icon.svelte"
     },
+    "./inceptionlabs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inceptionlabs.svelte"
+    },
+    "./inceptionlabs-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inceptionlabs-icon.svelte"
+    },
     "./incident": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/incident.svelte"
@@ -4153,6 +4189,10 @@
     "./javascript": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/javascript.svelte"
+    },
+    "./jax": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jax.svelte"
     },
     "./jcb": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5510,6 +5550,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/new-relic-icon.svelte"
     },
+    "./nextflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nextflow.svelte"
+    },
+    "./nextflow-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nextflow-icon.svelte"
+    },
     "./nextjs": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nextjs.svelte"
@@ -5977,6 +6025,14 @@
     "./pandas-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pandas-icon.svelte"
+    },
+    "./pangolin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pangolin.svelte"
+    },
+    "./pangolin-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pangolin-icon.svelte"
     },
     "./parcel": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6826,6 +6882,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/riot.svelte"
     },
+    "./risc-v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/risc-v.svelte"
+    },
+    "./risc-v-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/risc-v-icon.svelte"
+    },
     "./risingwave": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/risingwave.svelte"
@@ -6921,6 +6985,14 @@
     "./rubymine": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rubymine.svelte"
+    },
+    "./rudderstack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rudderstack.svelte"
+    },
+    "./rudderstack-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rudderstack-icon.svelte"
     },
     "./rum": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7370,6 +7442,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/speakerdeck.svelte"
     },
+    "./speechmatics": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/speechmatics.svelte"
+    },
+    "./speechmatics-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/speechmatics-icon.svelte"
+    },
     "./speedcurve": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/speedcurve.svelte"
@@ -7794,6 +7874,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/taiga.svelte"
     },
+    "./tailscale": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tailscale.svelte"
+    },
     "./tailwindcss": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tailwindcss.svelte"
@@ -7865,6 +7949,10 @@
     "./telegram": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/telegram.svelte"
+    },
+    "./telnyx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/telnyx.svelte"
     },
     "./temporal": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8446,6 +8534,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/vitejs.svelte"
     },
+    "./viteplus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viteplus.svelte"
+    },
+    "./viteplus-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viteplus-dark.svelte"
+    },
+    "./viteplus-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viteplus-icon.svelte"
+    },
+    "./viteplus-icon-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/viteplus-icon-dark.svelte"
+    },
     "./vitess": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/vitess.svelte"
@@ -8921,6 +9025,10 @@
     "./yugabyte-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/y/yugabyte-icon.svelte"
+    },
+    "./z-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/z-ai.svelte"
     },
     "./zabbix": {
       "types": "./types/gfwqskkx.d.ts",
