@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg-color",
   "type": "module",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -3845,6 +3845,14 @@
     "./countingworks-pro": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/countingworks-pro.svelte"
+    },
+    "./countly-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/countly-dark.svelte"
+    },
+    "./countly-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/countly-light.svelte"
     },
     "./coupang": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11802,9 +11810,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/n26.svelte"
     },
-    "./n8n": {
+    "./n8n-dark": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/n/n8n.svelte"
+      "svelte": "./components/n/n8n-dark.svelte"
+    },
+    "./n8n-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/n8n-legacy.svelte"
+    },
+    "./n8n-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/n8n-light.svelte"
     },
     "./nab": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12622,6 +12638,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/oddinpay.svelte"
     },
+    "./oddinpay-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oddinpay-dark.svelte"
+    },
+    "./oddinpay-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oddinpay-light.svelte"
+    },
     "./odido": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/odido.svelte"
@@ -12929,6 +12953,14 @@
     "./openproject": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/openproject.svelte"
+    },
+    "./openreplay-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openreplay-dark.svelte"
+    },
+    "./openreplay-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openreplay-light.svelte"
     },
     "./openrouter-dark": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14177,6 +14209,10 @@
     "./posthog": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/posthog.svelte"
+    },
+    "./posthog-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/posthog-legacy.svelte"
     },
     "./postiz": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15729,6 +15765,14 @@
     "./ryanair": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/ryanair.svelte"
+    },
+    "./rybbit-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rybbit-dark.svelte"
+    },
+    "./rybbit-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rybbit-light.svelte"
     },
     "./rye": {
       "types": "./types/gfwqskkx.d.ts",
@@ -18902,6 +18946,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/usdc.svelte"
     },
+    "./userpilot-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/userpilot-dark.svelte"
+    },
+    "./userpilot-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/userpilot-light.svelte"
+    },
     "./uservoice": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/uservoice.svelte"
@@ -20605,6 +20657,10 @@
     "./mastra": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mastra.svelte"
+    },
+    "./n8n": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/n8n.svelte"
     },
     "./*": "./*"
   },
