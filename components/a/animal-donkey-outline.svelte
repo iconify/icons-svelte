@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/s/s_771mbpw.css';
+import '../../css/h/hh4nadbea.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<path clip-rule="evenodd" class="s_771mbpw"/>`;
+const content = `<path clip-rule="evenodd" class="hh4nadbea"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="healthicons:animal-donkey-outline" {...props}></Icon>

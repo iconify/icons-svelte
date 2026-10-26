@@ -1,11 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/go_uhwbvg.css';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/r/r_3-ssbaj.css';
+import '../../css/m/m8tmf0bly.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="go_uhwbvg"/>`;
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="r_3-ssbaj"/><path class="m8tmf0bly"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="healthicons:question-circle-24px" {...props}></Icon>
