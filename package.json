@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/material-icon-theme",
   "type": "module",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "homepage": "https://icon-sets.iconify.design/material-icon-theme/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -929,6 +929,10 @@
     "./folder-bloc-open": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-bloc-open.svelte"
+    },
+    "./folder-bluetooth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-bluetooth.svelte"
     },
     "./folder-bower": {
       "types": "./types/gfwqskkx.d.ts",
