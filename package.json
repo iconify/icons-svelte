@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1382,6 +1382,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/glitch.svelte"
     },
+    "./gnu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gnu.svelte"
+    },
     "./gnuradio": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gnuradio.svelte"
@@ -2341,6 +2345,14 @@
     "./neo4j-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/neo4j-wordmark.svelte"
+    },
+    "./neon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/neon.svelte"
+    },
+    "./neon-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/neon-wordmark.svelte"
     },
     "./neovim": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4193,6 +4205,10 @@
     "./wordpress": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wordpress.svelte"
+    },
+    "./xai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xai.svelte"
     },
     "./xamarin": {
       "types": "./types/gfwqskkx.d.ts",
