@@ -1,11 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/l/lx-4ybcmu.css';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/o/oucxqmllt.css';
+import '../../css/c/cemhlx37b.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="lx-4ybcmu"/>`;
+const content = `<g class="nrj6p8qat"><path class="oucxqmllt"/><path class="cemhlx37b"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="tabler:git-merge-queue" {...props}></Icon>

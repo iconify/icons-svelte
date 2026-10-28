@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/tabler",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/tabler/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -773,6 +773,10 @@
     "./archive-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/archive-off.svelte"
+    },
+    "./archive-restore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-restore.svelte"
     },
     "./armchair": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2418,6 +2422,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/beach.svelte"
     },
+    "./beach-bag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beach-bag.svelte"
+    },
     "./beach-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/beach-off.svelte"
@@ -2797,6 +2805,10 @@
     "./book-2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-2.svelte"
+    },
+    "./book-clone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-clone.svelte"
     },
     "./book-download": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4074,6 +4086,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/brand-miniprogram.svelte"
     },
+    "./brand-misskey": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brand-misskey.svelte"
+    },
     "./brand-mixpanel": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/brand-mixpanel.svelte"
@@ -4673,6 +4689,10 @@
     "./brand-vercel-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/brand-vercel-filled.svelte"
+    },
+    "./brand-viber": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brand-viber.svelte"
     },
     "./brand-vimeo": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9070,6 +9090,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/deaf.svelte"
     },
+    "./decagram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/decagram.svelte"
+    },
     "./decimal": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/decimal.svelte"
@@ -12526,6 +12550,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-merge.svelte"
     },
+    "./git-merge-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-merge-ai.svelte"
+    },
     "./git-merge-queue": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-merge-queue.svelte"
@@ -12538,6 +12566,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-pull-request-closed.svelte"
     },
+    "./git-pull-request-closed-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-closed-ai.svelte"
+    },
     "./git-pull-request-conflict": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-pull-request-conflict.svelte"
@@ -12546,9 +12578,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-pull-request-draft.svelte"
     },
+    "./git-pull-request-draft-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-draft-ai.svelte"
+    },
     "./git-pull-request-locked": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-pull-request-locked.svelte"
+    },
+    "./git-pull-request-locked-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-pull-request-locked-ai.svelte"
     },
     "./git-pull-request-unlisted": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15470,6 +15510,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lollipop-off.svelte"
     },
+    "./loop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loop.svelte"
+    },
     "./luggage": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/luggage.svelte"
@@ -15830,6 +15874,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-pins.svelte"
     },
+    "./map-pins-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pins-off.svelte"
+    },
     "./map-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-plus.svelte"
@@ -16085,6 +16133,10 @@
     "./maximize-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/maximize-off.svelte"
+    },
+    "./mcp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mcp.svelte"
     },
     "./meat": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17918,6 +17970,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/omega.svelte"
     },
+    "./opacity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opacity.svelte"
+    },
     "./option": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/option.svelte"
@@ -18209,6 +18265,10 @@
     "./pencil-question": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pencil-question.svelte"
+    },
+    "./pencil-ruler": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pencil-ruler.svelte"
     },
     "./pencil-search": {
       "types": "./types/gfwqskkx.d.ts",
@@ -21177,6 +21237,10 @@
     "./smoking-no": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smoking-no.svelte"
+    },
+    "./snail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snail.svelte"
     },
     "./snowboarding": {
       "types": "./types/gfwqskkx.d.ts",
@@ -24618,6 +24682,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wave-square.svelte"
     },
+    "./waveform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/waveform.svelte"
+    },
     "./waves-electricity": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/waves-electricity.svelte"
@@ -24809,6 +24877,10 @@
     "./world-map": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/world-map.svelte"
+    },
+    "./world-map-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/world-map-off.svelte"
     },
     "./world-minus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -25141,6 +25213,10 @@
     "./zoom-scan-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/z/zoom-scan-filled.svelte"
+    },
+    "./zsh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zsh.svelte"
     },
     "./zzz": {
       "types": "./types/gfwqskkx.d.ts",

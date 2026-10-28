@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/k/kav2cebon.css';
+import '../../css/g/gx761tbpd.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="kav2cebon"/>`;
+const content = `<path class="gx761tbpd"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="tabler:octagon-minus-filled" {...props}></Icon>
