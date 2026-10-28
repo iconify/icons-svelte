@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/material-symbols-light",
   "type": "module",
-  "version": "1.0.60",
+  "version": "1.0.61",
   "homepage": "https://icon-sets.iconify.design/material-symbols-light/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "Apache-2.0",
@@ -14018,6 +14018,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contrast.svelte"
     },
+    "./contrast-auto": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-auto.svelte"
+    },
+    "./contrast-auto-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-auto-rounded.svelte"
+    },
     "./contrast-circle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contrast-circle.svelte"
@@ -14025,6 +14033,18 @@
     "./contrast-circle-rounded": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contrast-circle-rounded.svelte"
+    },
+    "./contrast-inverse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse.svelte"
+    },
+    "./contrast-inverse-auto": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-auto.svelte"
+    },
+    "./contrast-inverse-auto-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-auto-rounded.svelte"
     },
     "./contrast-rtl-off": {
       "types": "./types/gfwqskkx.d.ts",
@@ -30154,6 +30174,30 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/input-rounded.svelte"
     },
+    "./input-search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/input-search.svelte"
+    },
+    "./input-search-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/input-search-outline.svelte"
+    },
+    "./input-search-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/input-search-outline-rounded.svelte"
+    },
+    "./input-search-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/input-search-outline-sharp.svelte"
+    },
+    "./input-search-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/input-search-rounded.svelte"
+    },
+    "./input-search-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/input-search-sharp.svelte"
+    },
     "./input-sharp": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/input-sharp.svelte"
@@ -34137,6 +34181,30 @@
     "./mail-outline-sharp": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-outline-sharp.svelte"
+    },
+    "./mail-person": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-person.svelte"
+    },
+    "./mail-person-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-person-outline.svelte"
+    },
+    "./mail-person-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-person-outline-rounded.svelte"
+    },
+    "./mail-person-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-person-outline-sharp.svelte"
+    },
+    "./mail-person-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-person-rounded.svelte"
+    },
+    "./mail-person-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-person-sharp.svelte"
     },
     "./mail-rounded": {
       "types": "./types/gfwqskkx.d.ts",
@@ -71302,6 +71370,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contract-sharp.svelte"
     },
+    "./contrast-auto-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-auto-outline.svelte"
+    },
+    "./contrast-auto-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-auto-outline-rounded.svelte"
+    },
+    "./contrast-auto-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-auto-outline-sharp.svelte"
+    },
+    "./contrast-auto-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-auto-sharp.svelte"
+    },
     "./contrast-circle-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contrast-circle-outline.svelte"
@@ -71317,6 +71401,42 @@
     "./contrast-circle-sharp": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/contrast-circle-sharp.svelte"
+    },
+    "./contrast-inverse-auto-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-auto-outline.svelte"
+    },
+    "./contrast-inverse-auto-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-auto-outline-rounded.svelte"
+    },
+    "./contrast-inverse-auto-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-auto-outline-sharp.svelte"
+    },
+    "./contrast-inverse-auto-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-auto-sharp.svelte"
+    },
+    "./contrast-inverse-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-outline.svelte"
+    },
+    "./contrast-inverse-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-outline-rounded.svelte"
+    },
+    "./contrast-inverse-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-outline-sharp.svelte"
+    },
+    "./contrast-inverse-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-rounded.svelte"
+    },
+    "./contrast-inverse-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/contrast-inverse-sharp.svelte"
     },
     "./contrast-outline": {
       "types": "./types/gfwqskkx.d.ts",
