@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/wordpress",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "GPL-2.0-or-later",
@@ -754,10 +754,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lock.svelte"
     },
-    "./lock-outline": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/l/lock-outline.svelte"
-    },
     "./lock-small": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lock-small.svelte"
@@ -1405,6 +1401,10 @@
     "./wordpress": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wordpress.svelte"
+    },
+    "./lock-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lock-outline.svelte"
     },
     "./resize-corner-n-e": {
       "types": "./types/gfwqskkx.d.ts",
