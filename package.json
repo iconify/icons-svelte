@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.80",
+  "version": "1.0.81",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -230,9 +230,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/archive.svelte"
     },
-    "./archive-restore": {
+    "./archive-arrow-down": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/a/archive-restore.svelte"
+      "svelte": "./components/a/archive-arrow-down.svelte"
+    },
+    "./archive-arrow-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-arrow-up.svelte"
     },
     "./archive-x": {
       "types": "./types/gfwqskkx.d.ts",
@@ -470,6 +474,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/axis-3d.svelte"
     },
+    "./azerbaijani-manat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azerbaijani-manat.svelte"
+    },
     "./baby": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/baby.svelte"
@@ -557,6 +565,10 @@
     "./baggage-claim": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/baggage-claim.svelte"
+    },
+    "./ball-wave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/ball-wave.svelte"
     },
     "./balloon": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1002,6 +1014,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/boxes.svelte"
     },
+    "./boxes-linked": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boxes-linked.svelte"
+    },
     "./braces": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/braces.svelte"
@@ -1153,6 +1169,14 @@
     "./calendar-arrow-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/calendar-arrow-down.svelte"
+    },
+    "./calendar-arrow-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-arrow-left.svelte"
+    },
+    "./calendar-arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-arrow-right.svelte"
     },
     "./calendar-arrow-up": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1445,6 +1469,14 @@
     "./chart-pie": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chart-pie.svelte"
+    },
+    "./chart-quadrant": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-quadrant.svelte"
+    },
+    "./chart-radar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-radar.svelte"
     },
     "./chart-scatter": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2306,6 +2338,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/database-check.svelte"
     },
+    "./database-cog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/database-cog.svelte"
+    },
     "./database-minus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/database-minus.svelte"
@@ -2526,6 +2562,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ear-off.svelte"
     },
+    "./earbuds": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earbuds.svelte"
+    },
+    "./earbuds-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earbuds-off.svelte"
+    },
     "./earth": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/earth.svelte"
@@ -2573,6 +2617,10 @@
     "./ellipsis-vertical": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ellipsis-vertical.svelte"
+    },
+    "./emirati-dirham": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/emirati-dirham.svelte"
     },
     "./engine": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3734,6 +3782,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hiking-stick.svelte"
     },
+    "./hockey-stick": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hockey-stick.svelte"
+    },
     "./hop": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hop.svelte"
@@ -3745,6 +3797,10 @@
     "./hospital": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hospital.svelte"
+    },
+    "./hot-air-balloon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hot-air-balloon.svelte"
     },
     "./hotel": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3985,6 +4041,10 @@
     "./laptop-minimal-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/laptop-minimal-check.svelte"
+    },
+    "./laser": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/laser.svelte"
     },
     "./lasso": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6250,6 +6310,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/siren.svelte"
     },
+    "./siren-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/siren-off.svelte"
+    },
     "./sixteenth-notes": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sixteenth-notes.svelte"
@@ -6509,6 +6573,22 @@
     "./square-chevron-up": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-chevron-up.svelte"
+    },
+    "./square-chevrons-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-chevrons-down.svelte"
+    },
+    "./square-chevrons-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-chevrons-left.svelte"
+    },
+    "./square-chevrons-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-chevrons-right.svelte"
+    },
+    "./square-chevrons-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-chevrons-up.svelte"
     },
     "./square-code": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7506,6 +7586,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-round-search.svelte"
     },
+    "./user-round-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-round-shield.svelte"
+    },
     "./user-round-star": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-round-star.svelte"
@@ -7957,6 +8041,10 @@
     "./align-horizonal-distribute-start": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/align-horizonal-distribute-start.svelte"
+    },
+    "./archive-restore": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-restore.svelte"
     },
     "./arrow-down-01": {
       "types": "./types/gfwqskkx.d.ts",
