@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/t_2lkqbxb.css';
+import '../../css/p/pkgr03atr.css';
+import '../../css/m/m1y1q9lxd.css';
+import '../../css/b/bqv9yvbep.css';
+import '../../css/l/ldspzos5v.css';
+import '../../css/o/oz9fb5biz.css';
+import '../../css/m/mukehqbda.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="t_2lkqbxb"><path class="pkgr03atr wm-shadow"/><path class="m1y1q9lxd"/><path class="bqv9yvbep"/><path class="ldspzos5v"/><path class="oz9fb5biz wm-shine"/><path class="mukehqbda wm-deco"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-sticker:x-circle" {...props}></Icon>
