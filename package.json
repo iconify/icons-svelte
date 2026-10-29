@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.81",
+  "version": "1.0.82",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -829,10 +829,6 @@
     "./bluetooth-searching": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bluetooth-searching.svelte"
-    },
-    "./bold": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/bold.svelte"
     },
     "./bolt": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1742,6 +1738,114 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-gauge.svelte"
     },
+    "./circle-letter-a": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-a.svelte"
+    },
+    "./circle-letter-b": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-b.svelte"
+    },
+    "./circle-letter-c": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-c.svelte"
+    },
+    "./circle-letter-d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-d.svelte"
+    },
+    "./circle-letter-e": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-e.svelte"
+    },
+    "./circle-letter-f": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-f.svelte"
+    },
+    "./circle-letter-g": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-g.svelte"
+    },
+    "./circle-letter-h": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-h.svelte"
+    },
+    "./circle-letter-i": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-i.svelte"
+    },
+    "./circle-letter-j": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-j.svelte"
+    },
+    "./circle-letter-k": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-k.svelte"
+    },
+    "./circle-letter-l": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-l.svelte"
+    },
+    "./circle-letter-m": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-m.svelte"
+    },
+    "./circle-letter-n": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-n.svelte"
+    },
+    "./circle-letter-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-o.svelte"
+    },
+    "./circle-letter-p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-p.svelte"
+    },
+    "./circle-letter-p-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-p-off.svelte"
+    },
+    "./circle-letter-q": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-q.svelte"
+    },
+    "./circle-letter-r": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-r.svelte"
+    },
+    "./circle-letter-s": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-s.svelte"
+    },
+    "./circle-letter-t": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-t.svelte"
+    },
+    "./circle-letter-u": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-u.svelte"
+    },
+    "./circle-letter-v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-v.svelte"
+    },
+    "./circle-letter-w": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-w.svelte"
+    },
+    "./circle-letter-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-x.svelte"
+    },
+    "./circle-letter-y": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-y.svelte"
+    },
+    "./circle-letter-z": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-letter-z.svelte"
+    },
     "./circle-minus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-minus.svelte"
@@ -1753,10 +1857,6 @@
     "./circle-parking": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-parking.svelte"
-    },
-    "./circle-parking-off": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-parking-off.svelte"
     },
     "./circle-pause": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4158,13 +4258,117 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lens-convex.svelte"
     },
+    "./letter-a": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-a.svelte"
+    },
+    "./letter-b": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-b.svelte"
+    },
+    "./letter-c": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-c.svelte"
+    },
+    "./letter-d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-d.svelte"
+    },
+    "./letter-e": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-e.svelte"
+    },
+    "./letter-f": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-f.svelte"
+    },
+    "./letter-g": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-g.svelte"
+    },
+    "./letter-h": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-h.svelte"
+    },
+    "./letter-i": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-i.svelte"
+    },
+    "./letter-j": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-j.svelte"
+    },
+    "./letter-k": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-k.svelte"
+    },
+    "./letter-l": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-l.svelte"
+    },
+    "./letter-m": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-m.svelte"
+    },
+    "./letter-n": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-n.svelte"
+    },
+    "./letter-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-o.svelte"
+    },
+    "./letter-p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-p.svelte"
+    },
+    "./letter-q": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-q.svelte"
+    },
+    "./letter-r": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-r.svelte"
+    },
+    "./letter-s": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-s.svelte"
+    },
     "./letter-spacing": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/letter-spacing.svelte"
     },
+    "./letter-t": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-t.svelte"
+    },
     "./letter-text": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/letter-text.svelte"
+    },
+    "./letter-u": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-u.svelte"
+    },
+    "./letter-v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-v.svelte"
+    },
+    "./letter-w": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-w.svelte"
+    },
+    "./letter-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-x.svelte"
+    },
+    "./letter-y": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-y.svelte"
+    },
+    "./letter-z": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/letter-z.svelte"
     },
     "./letters": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5053,6 +5257,10 @@
     "./notepad-text-dashed": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/notepad-text-dashed.svelte"
+    },
+    "./numbers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/numbers.svelte"
     },
     "./nut": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6662,6 +6870,118 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-kanban.svelte"
     },
+    "./square-kanban-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-kanban-plus.svelte"
+    },
+    "./square-letter-a": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-a.svelte"
+    },
+    "./square-letter-b": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-b.svelte"
+    },
+    "./square-letter-c": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-c.svelte"
+    },
+    "./square-letter-d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-d.svelte"
+    },
+    "./square-letter-e": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-e.svelte"
+    },
+    "./square-letter-f": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-f.svelte"
+    },
+    "./square-letter-g": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-g.svelte"
+    },
+    "./square-letter-h": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-h.svelte"
+    },
+    "./square-letter-i": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-i.svelte"
+    },
+    "./square-letter-j": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-j.svelte"
+    },
+    "./square-letter-k": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-k.svelte"
+    },
+    "./square-letter-l": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-l.svelte"
+    },
+    "./square-letter-m": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-m.svelte"
+    },
+    "./square-letter-n": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-n.svelte"
+    },
+    "./square-letter-o": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-o.svelte"
+    },
+    "./square-letter-p": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-p.svelte"
+    },
+    "./square-letter-p-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-p-off.svelte"
+    },
+    "./square-letter-q": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-q.svelte"
+    },
+    "./square-letter-r": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-r.svelte"
+    },
+    "./square-letter-s": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-s.svelte"
+    },
+    "./square-letter-t": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-t.svelte"
+    },
+    "./square-letter-u": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-u.svelte"
+    },
+    "./square-letter-v": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-v.svelte"
+    },
+    "./square-letter-w": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-w.svelte"
+    },
+    "./square-letter-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-x.svelte"
+    },
+    "./square-letter-y": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-y.svelte"
+    },
+    "./square-letter-z": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-letter-z.svelte"
+    },
     "./square-library": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-library.svelte"
@@ -6689,10 +7009,6 @@
     "./square-parking": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-parking.svelte"
-    },
-    "./square-parking-off": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/square-parking-off.svelte"
     },
     "./square-pause": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8186,6 +8502,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/between-horizonal-start.svelte"
     },
+    "./bold": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bold.svelte"
+    },
     "./book-template": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-template.svelte"
@@ -8249,6 +8569,10 @@
     "./circle-help": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-help.svelte"
+    },
+    "./circle-parking-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-parking-off.svelte"
     },
     "./circle-slashed": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8761,6 +9085,10 @@
     "./square-kanban-dashed": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-kanban-dashed.svelte"
+    },
+    "./square-parking-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-parking-off.svelte"
     },
     "./stars": {
       "types": "./types/gfwqskkx.d.ts",

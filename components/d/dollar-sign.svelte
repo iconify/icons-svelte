@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/g5xxn-bxk.css';
+import '../../css/a/aqto-hbxb.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="g5xxn-bxk"/>`;
+const content = `<path class="aqto-hbxb"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide:dollar-sign" {...props}></Icon>
