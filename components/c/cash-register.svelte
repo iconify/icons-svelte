@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/h/hdcaesm7u.css';
+import '../../css/g/gxte5cbbm.css';
+import '../../css/k/k99a9ybxg.css';
+import '../../css/k/kv56um1-x.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="d2kvgvbvc"><path class="hdcaesm7u wm-k"/><path class="gxte5cbbm wm-a"/><path class="k99a9ybxg"/><path class="kv56um1-x"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-bauhaus:cash-register" {...props}></Icon>

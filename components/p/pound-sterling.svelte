@@ -1,0 +1,12 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/e/eh_qq7i6m.css';
+import '../../css/s/sfehr1btw.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="eh_qq7i6m wm-k"/><path class="sfehr1btw wm-a"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-bauhaus:pound-sterling" {...props}></Icon>

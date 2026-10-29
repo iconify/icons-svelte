@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/b/bx5v3rb8j.css';
+import '../../css/t/t3b4xobiz.css';
+import '../../css/r/rp7hkwb-v.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="d2kvgvbvc"><path class="bx5v3rb8j wm-k"/><path class="t3b4xobiz wm-a"/><path class="rp7hkwb-v"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-bauhaus:stocking" {...props}></Icon>
