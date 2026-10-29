@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -926,6 +926,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dreamweaver.svelte"
     },
+    "./drizzle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drizzle.svelte"
+    },
     "./dropwizard": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dropwizard.svelte"
@@ -1269,6 +1273,14 @@
     "./gcc": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gcc.svelte"
+    },
+    "./gemini": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gemini.svelte"
+    },
+    "./gemini-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gemini-wordmark.svelte"
     },
     "./gentoo": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1670,6 +1682,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/influxdb-wordmark.svelte"
     },
+    "./informatica": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/informatica.svelte"
+    },
+    "./informatica-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/informatica-wordmark.svelte"
+    },
     "./inkscape": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/inkscape.svelte"
@@ -1809,6 +1829,14 @@
     "./json": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/json.svelte"
+    },
+    "./juce": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/juce.svelte"
+    },
+    "./juce-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/juce-wordmark.svelte"
     },
     "./jule": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2542,6 +2570,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nuxtjs-wordmark.svelte"
     },
+    "./nx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nx.svelte"
+    },
     "./oauth": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/oauth.svelte"
@@ -2758,6 +2790,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plotly-wordmark.svelte"
     },
+    "./plsql": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plsql.svelte"
+    },
     "./pm2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pm2.svelte"
@@ -2813,6 +2849,14 @@
     "./postcss-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/postcss-wordmark.svelte"
+    },
+    "./postgis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postgis.svelte"
+    },
+    "./postgis-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postgis-wordmark.svelte"
     },
     "./postgresql": {
       "types": "./types/gfwqskkx.d.ts",
