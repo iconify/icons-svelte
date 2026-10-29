@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -946,6 +946,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gcc.svelte"
     },
+    "./gemini": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gemini.svelte"
+    },
+    "./gemini-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gemini-wordmark.svelte"
+    },
     "./gentoo": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gentoo.svelte"
@@ -1274,6 +1282,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/inertiajs-wordmark.svelte"
     },
+    "./informatica": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/informatica.svelte"
+    },
+    "./informatica-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/informatica-wordmark.svelte"
+    },
     "./inkscape": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/inkscape.svelte"
@@ -1401,6 +1417,14 @@
     "./json": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/json.svelte"
+    },
+    "./juce": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/juce.svelte"
+    },
+    "./juce-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/juce-wordmark.svelte"
     },
     "./julia": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2146,6 +2170,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plotly-wordmark.svelte"
     },
+    "./plsql": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plsql.svelte"
+    },
     "./pm2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pm2.svelte"
@@ -2193,6 +2221,14 @@
     "./postcss-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/postcss-wordmark.svelte"
+    },
+    "./postgis": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postgis.svelte"
+    },
+    "./postgis-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/postgis-wordmark.svelte"
     },
     "./postgresql": {
       "types": "./types/gfwqskkx.d.ts",
