@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/t/tczw_hbsg.css';
+import '../../css/t/to-bzow0z.css';
+import '../../css/b/bwt7f1bmt.css';
+import '../../css/d/dp2cw1ouh.css';
+import '../../css/p/pncw32s0k.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="tczw_hbsg"><path class="to-bzow0z"/><path class="bwt7f1bmt wm-k"/><path class="dp2cw1ouh wm-k"/><path class="pncw32s0k wm-a"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons:ghost-sketch" {...props}></Icon>

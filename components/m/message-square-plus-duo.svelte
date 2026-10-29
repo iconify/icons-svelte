@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/p/pjocyqddu.css';
+import '../../css/f/fiarxjb9d.css';
+import '../../css/e/ee_t7pb7v.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="pjocyqddu"/><path class="fiarxjb9d wm-a"/><path class="ee_t7pb7v"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons:message-square-plus-duo" {...props}></Icon>

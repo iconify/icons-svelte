@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/l/lxqkkqmys.css';
+import '../../css/t/td49gbbjb.css';
+import '../../css/j/j314kuthn.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="lxqkkqmys"/><path class="td49gbbjb"/><path class="j314kuthn wm-a"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons:rose" {...props}></Icon>

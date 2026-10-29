@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/q/qttdqwb0h.css';
+import '../../css/y/yrgiqhxka.css';
+import '../../css/u/uq6pq445a.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="qttdqwb0h"/><path class="wm-a yrgiqhxka"/><path class="uq6pq445a"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons:workflow-duo" {...props}></Icon>
