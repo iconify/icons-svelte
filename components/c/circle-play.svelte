@@ -2,12 +2,12 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/n/nrj6p8qat.css';
 import '../../css/e/e6eatobym.css';
-import '../../css/i/i0kf2lblc.css';
+import '../../css/b/blorf4sde.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="e6eatobym"/><path class="i0kf2lblc"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="e6eatobym"/><path class="blorf4sde"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vadivam:circle-play" {...props}></Icon>
