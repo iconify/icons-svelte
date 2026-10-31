@@ -47,7 +47,7 @@ To change icon color, use style:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/healthicons/asthma-outline';
+import SampleIcon from '@iconify-svelte/healthicons/emergency-post';
 </script>
 
 <SampleIcon style="color: red;" />

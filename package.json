@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/healthicons",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://icon-sets.iconify.design/healthicons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -2526,6 +2526,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/confused-negative.svelte"
     },
+    "./constipation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/constipation.svelte"
+    },
+    "./constipation-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/constipation-outline.svelte"
+    },
     "./construction": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/construction.svelte"
@@ -3330,6 +3338,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drone-outline-24px.svelte"
     },
+    "./drop-medicine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drop-medicine.svelte"
+    },
+    "./drop-medicine-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drop-medicine-outline.svelte"
+    },
     "./dry-eyes": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dry-eyes.svelte"
@@ -3345,6 +3361,14 @@
     "./dry-mouth-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dry-mouth-outline.svelte"
+    },
+    "./duck": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/duck.svelte"
+    },
+    "./duck-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/duck-outline.svelte"
     },
     "./e": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3425,6 +3449,22 @@
     "./eco-care-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eco-care-outline.svelte"
+    },
+    "./egg-cell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egg-cell.svelte"
+    },
+    "./egg-cell-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egg-cell-24px.svelte"
+    },
+    "./egg-cell-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egg-cell-outline.svelte"
+    },
+    "./egg-cell-outline-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egg-cell-outline-24px.svelte"
     },
     "./elderly": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4046,21 +4086,21 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/face-tongue-outline-24px.svelte"
     },
-    "./face-vomitting": {
+    "./face-vomiting": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/f/face-vomitting.svelte"
+      "svelte": "./components/f/face-vomiting.svelte"
     },
-    "./face-vomitting-24px": {
+    "./face-vomiting-24px": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/f/face-vomitting-24px.svelte"
+      "svelte": "./components/f/face-vomiting-24px.svelte"
     },
-    "./face-vomitting-outline": {
+    "./face-vomiting-outline": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/f/face-vomitting-outline.svelte"
+      "svelte": "./components/f/face-vomiting-outline.svelte"
     },
-    "./face-vomitting-outline-24px": {
+    "./face-vomiting-outline-24px": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/f/face-vomitting-outline-24px.svelte"
+      "svelte": "./components/f/face-vomiting-outline-24px.svelte"
     },
     "./face-woozy": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4237,6 +4277,22 @@
     "./finance-dept-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/finance-dept-outline.svelte"
+    },
+    "./fingernail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fingernail.svelte"
+    },
+    "./fingernail-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fingernail-24px.svelte"
+    },
+    "./fingernail-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fingernail-outline.svelte"
+    },
+    "./fingernail-outline-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fingernail-outline-24px.svelte"
     },
     "./fingerprint": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4609,6 +4665,14 @@
     "./h-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/h-outline.svelte"
+    },
+    "./hair": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hair.svelte"
+    },
+    "./hair-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hair-outline.svelte"
     },
     "./hand-wipe-paper": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6398,6 +6462,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/malnutrition-outline.svelte"
     },
+    "./mammogram": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mammogram.svelte"
+    },
+    "./mammogram-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mammogram-24px.svelte"
+    },
+    "./mammogram-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mammogram-outline.svelte"
+    },
+    "./mammogram-outline-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mammogram-outline-24px.svelte"
+    },
     "./man": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/man.svelte"
@@ -8098,6 +8178,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/ppe-sanitizer-24px.svelte"
     },
+    "./ppe-sanitizer-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/ppe-sanitizer-alt.svelte"
+    },
+    "./ppe-sanitizer-alt-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/ppe-sanitizer-alt-outline.svelte"
+    },
     "./ppe-sanitizer-negative": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/ppe-sanitizer-negative.svelte"
@@ -8110,17 +8198,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/ppe-sanitizer-outline-24px.svelte"
     },
-    "./ppe-santizer-alt": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/ppe-santizer-alt.svelte"
-    },
     "./ppe-santizer-alt-negative": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/ppe-santizer-alt-negative.svelte"
-    },
-    "./ppe-santizer-alt-outline": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/ppe-santizer-alt-outline.svelte"
     },
     "./ppe-suit": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9365,6 +9445,14 @@
     "./spleen-outline-24px": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spleen-outline-24px.svelte"
+    },
+    "./spray": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spray.svelte"
+    },
+    "./spray-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spray-outline.svelte"
     },
     "./spraying": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12118,6 +12206,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/f2x-outline.svelte"
     },
+    "./face-vomitting": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-vomitting.svelte"
+    },
+    "./face-vomitting-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-vomitting-24px.svelte"
+    },
+    "./face-vomitting-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-vomitting-outline.svelte"
+    },
+    "./face-vomitting-outline-24px": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-vomitting-outline-24px.svelte"
+    },
     "./factory-worker2x-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/factory-worker2x-outline.svelte"
@@ -13305,6 +13409,14 @@
     "./ppe-sanitizer2x-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/ppe-sanitizer2x-outline.svelte"
+    },
+    "./ppe-santizer-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/ppe-santizer-alt.svelte"
+    },
+    "./ppe-santizer-alt-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/ppe-santizer-alt-outline.svelte"
     },
     "./ppe-santizer-alt2x-outline": {
       "types": "./types/gfwqskkx.d.ts",
