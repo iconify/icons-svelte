@@ -1,0 +1,19 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/f/fqk8mibcy.css';
+import '../../css/y/yfymn2bvd.css';
+import '../../css/q/qa87lokzn.css';
+import '../../css/a/al37v5upj.css';
+import '../../css/c/coak65b5w.css';
+import '../../css/n/nwjaylwiv.css';
+import '../../css/z/z1gm_lb5k.css';
+import '../../css/w/wufre1tzb.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGMEqEgdLs" x1="9" x2="15" y1="3" y2="21" gradientUnits="userSpaceOnUse"><stop offset="0" class="fqk8mibcy"/><stop offset="1" class="yfymn2bvd"/></linearGradient></defs><path fill="url(#SVGMEqEgdLs)" class="qa87lokzn"/><path class="al37v5upj wm-shine"/><path class="coak65b5w wm-shine"/><path class="nwjaylwiv wm-shine"/><path class="wm-shine z1gm_lb5k"/><path class="wm-shine wufre1tzb"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-utsav:ethernet-port" {...props}></Icon>
