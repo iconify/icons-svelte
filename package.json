@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.68",
+  "version": "1.0.69",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -113,6 +113,10 @@
     "./file-type-allure": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-allure.svelte"
+    },
+    "./file-type-android": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-android.svelte"
     },
     "./file-type-angular": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1338,6 +1342,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-geojson.svelte"
     },
+    "./file-type-ghidra": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-ghidra.svelte"
+    },
     "./file-type-gimp": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-gimp.svelte"
@@ -2397,6 +2405,10 @@
     "./file-type-light-razzle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-razzle.svelte"
+    },
+    "./file-type-light-reactjs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-reactjs.svelte"
     },
     "./file-type-light-reactrouter": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3906,6 +3918,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-reactjs.svelte"
     },
+    "./file-type-reactjs-official": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-reactjs-official.svelte"
+    },
     "./file-type-reactrouter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-reactrouter.svelte"
@@ -3917,6 +3933,10 @@
     "./file-type-reactts": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-reactts.svelte"
+    },
+    "./file-type-reactts-official": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-reactts-official.svelte"
     },
     "./file-type-readme": {
       "types": "./types/gfwqskkx.d.ts",
