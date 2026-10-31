@@ -11,6 +11,11 @@ Browse all icons: [preview Meteocons on Iconify](https://icon-sets.iconify.desig
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/svelte#meteocons
+```
+
+or
+```bash
 npm install github:iconify/icons-svelte#meteocons
 ```
 
@@ -22,7 +27,7 @@ Few usage examples:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/meteocons/hurricane-fill';
+import SampleIcon from '@iconify-svelte/meteocons/sunrise-fill';
 </script>
 
 <SampleIcon />
@@ -32,7 +37,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/meteocons/sunrise-fill';
+import SampleIcon from '@iconify-svelte/meteocons/windsock';
 </script>
 
 <SampleIcon height="1em" />
