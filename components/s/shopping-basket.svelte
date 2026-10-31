@@ -1,0 +1,18 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/m/m7b3m4blq.css';
+import '../../css/t/tpe61zbnm.css';
+import '../../css/i/i7jq6qbvv.css';
+import '../../css/b/b_7rsfbwe.css';
+import '../../css/u/uckio6bqa.css';
+import '../../css/m/mwjlovw-a.css';
+import '../../css/l/l09mlm8lc.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><defs><linearGradient id="SVGYTvBDeJN" x1="1.5" x2="22.49" y1="2.5" y2="22" gradientUnits="userSpaceOnUse"><stop offset="0" class="m7b3m4blq"/><stop offset=".28" class="tpe61zbnm"/><stop offset=".5" class="m7b3m4blq"/><stop offset=".78" class="i7jq6qbvv"/><stop offset="1" class="m7b3m4blq"/></linearGradient></defs><path fill="url(#SVGYTvBDeJN)" class="b_7rsfbwe wm-k"/><path class="uckio6bqa wm-a"/><path class="mwjlovw-a wm-shine"/><path class="l09mlm8lc wm-shine"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-lunar:shopping-basket" {...props}></Icon>
