@@ -1,0 +1,495 @@
+{
+  "name": "@iconify-svelte/iconito",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://icon-sets.iconify.design/iconito/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./almond": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/almond.svelte"
+    },
+    "./apple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apple.svelte"
+    },
+    "./bacon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bacon.svelte"
+    },
+    "./baguette": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/baguette.svelte"
+    },
+    "./banana": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banana.svelte"
+    },
+    "./banana-bread": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/banana-bread.svelte"
+    },
+    "./basil": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/basil.svelte"
+    },
+    "./bean": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bean.svelte"
+    },
+    "./beef": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beef.svelte"
+    },
+    "./beer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/beer.svelte"
+    },
+    "./bell-pepper": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-pepper.svelte"
+    },
+    "./blueberry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/blueberry.svelte"
+    },
+    "./bread": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bread.svelte"
+    },
+    "./broccoli": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broccoli.svelte"
+    },
+    "./brownie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/brownie.svelte"
+    },
+    "./burger": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/burger.svelte"
+    },
+    "./burrito": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/burrito.svelte"
+    },
+    "./butter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/butter.svelte"
+    },
+    "./cake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cake.svelte"
+    },
+    "./candy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/candy.svelte"
+    },
+    "./carrot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/carrot.svelte"
+    },
+    "./cheese": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cheese.svelte"
+    },
+    "./cheesecake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cheesecake.svelte"
+    },
+    "./chicken": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chicken.svelte"
+    },
+    "./chicken-wing": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chicken-wing.svelte"
+    },
+    "./chickpea": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chickpea.svelte"
+    },
+    "./chocolate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chocolate.svelte"
+    },
+    "./chocolate-cake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chocolate-cake.svelte"
+    },
+    "./cilantro": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cilantro.svelte"
+    },
+    "./cocktail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cocktail.svelte"
+    },
+    "./coffee": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coffee.svelte"
+    },
+    "./coleslaw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/coleslaw.svelte"
+    },
+    "./cookie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cookie.svelte"
+    },
+    "./corn": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/corn.svelte"
+    },
+    "./cream": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cream.svelte"
+    },
+    "./croissant": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/croissant.svelte"
+    },
+    "./croissant-sweet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/croissant-sweet.svelte"
+    },
+    "./cucumber": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cucumber.svelte"
+    },
+    "./cupcake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cupcake.svelte"
+    },
+    "./curry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/curry.svelte"
+    },
+    "./donut": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/donut.svelte"
+    },
+    "./dumpling": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dumpling.svelte"
+    },
+    "./egg": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/egg.svelte"
+    },
+    "./enchilada": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/enchilada.svelte"
+    },
+    "./fish": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fish.svelte"
+    },
+    "./flour": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flour.svelte"
+    },
+    "./french-toast": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/french-toast.svelte"
+    },
+    "./fried-egg-dish": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fried-egg-dish.svelte"
+    },
+    "./fries": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fries.svelte"
+    },
+    "./garlic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/garlic.svelte"
+    },
+    "./grape": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grape.svelte"
+    },
+    "./ham": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/ham.svelte"
+    },
+    "./honey": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/honey.svelte"
+    },
+    "./ice-cream": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ice-cream.svelte"
+    },
+    "./juice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/juice.svelte"
+    },
+    "./kale": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kale.svelte"
+    },
+    "./lamb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lamb.svelte"
+    },
+    "./lasagna": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lasagna.svelte"
+    },
+    "./lemon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lemon.svelte"
+    },
+    "./lentil": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lentil.svelte"
+    },
+    "./lettuce": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lettuce.svelte"
+    },
+    "./lime": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lime.svelte"
+    },
+    "./maple-syrup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/maple-syrup.svelte"
+    },
+    "./mayonnaise": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mayonnaise.svelte"
+    },
+    "./meatball": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meatball.svelte"
+    },
+    "./milk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/milk.svelte"
+    },
+    "./mint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mint.svelte"
+    },
+    "./mushroom": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mushroom.svelte"
+    },
+    "./noodles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/noodles.svelte"
+    },
+    "./oats": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oats.svelte"
+    },
+    "./olive": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/olive.svelte"
+    },
+    "./olive-oil": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/olive-oil.svelte"
+    },
+    "./onion": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/onion.svelte"
+    },
+    "./orange": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/orange.svelte"
+    },
+    "./oregano": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oregano.svelte"
+    },
+    "./pad-thai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pad-thai.svelte"
+    },
+    "./pancake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pancake.svelte"
+    },
+    "./parsley": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parsley.svelte"
+    },
+    "./pasta": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pasta.svelte"
+    },
+    "./pasta-dish": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pasta-dish.svelte"
+    },
+    "./peanut": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/peanut.svelte"
+    },
+    "./pie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pie.svelte"
+    },
+    "./pizza": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pizza.svelte"
+    },
+    "./pork": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pork.svelte"
+    },
+    "./potato": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/potato.svelte"
+    },
+    "./quinoa": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/quinoa.svelte"
+    },
+    "./ramen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/ramen.svelte"
+    },
+    "./rice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rice.svelte"
+    },
+    "./rice-bowl": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rice-bowl.svelte"
+    },
+    "./rosemary": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rosemary.svelte"
+    },
+    "./salad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/salad.svelte"
+    },
+    "./salmon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/salmon.svelte"
+    },
+    "./sandwich": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sandwich.svelte"
+    },
+    "./sausage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sausage.svelte"
+    },
+    "./shrimp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shrimp.svelte"
+    },
+    "./smoothie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smoothie.svelte"
+    },
+    "./soda": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soda.svelte"
+    },
+    "./soup": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/soup.svelte"
+    },
+    "./spinach": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spinach.svelte"
+    },
+    "./squid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/squid.svelte"
+    },
+    "./stew": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stew.svelte"
+    },
+    "./strawberry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/strawberry.svelte"
+    },
+    "./sugar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sugar.svelte"
+    },
+    "./sushi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sushi.svelte"
+    },
+    "./taco": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taco.svelte"
+    },
+    "./tea": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tea.svelte"
+    },
+    "./thyme": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thyme.svelte"
+    },
+    "./tofu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tofu.svelte"
+    },
+    "./tomato": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tomato.svelte"
+    },
+    "./tortilla": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tortilla.svelte"
+    },
+    "./tuna": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tuna.svelte"
+    },
+    "./turkey": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turkey.svelte"
+    },
+    "./vinegar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vinegar.svelte"
+    },
+    "./waffle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/waffle.svelte"
+    },
+    "./walnut": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/walnut.svelte"
+    },
+    "./water": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/water.svelte"
+    },
+    "./watermelon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/watermelon.svelte"
+    },
+    "./wine": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wine.svelte"
+    },
+    "./yogurt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/y/yogurt.svelte"
+    },
+    "./zucchini": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zucchini.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#iconito"
+}
