@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/cbi",
   "type": "module",
-  "version": "1.0.50",
+  "version": "1.0.51",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -2066,6 +2066,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fedex.svelte"
     },
+    "./feishin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/feishin.svelte"
+    },
     "./festavia": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/festavia.svelte"
@@ -2666,6 +2670,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/honeywell.svelte"
     },
+    "./honor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/honor.svelte"
+    },
     "./hood-extraction": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hood-extraction.svelte"
@@ -3205,6 +3213,10 @@
     "./lego": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lego.svelte"
+    },
+    "./lenovo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lenovo.svelte"
     },
     "./letsencrypt": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6634,6 +6646,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/virginmedia.svelte"
     },
+    "./vivo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/vivo.svelte"
+    },
     "./voc": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/voc.svelte"
@@ -6902,9 +6918,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/windows.svelte"
     },
-    "./windows-oficial": {
+    "./windows-official": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/w/windows-oficial.svelte"
+      "svelte": "./components/w/windows-official.svelte"
     },
     "./wink-tv": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6957,6 +6973,10 @@
     "./wps-wifi": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wps-wifi.svelte"
+    },
+    "./wrtag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wrtag.svelte"
     },
     "./wyzecam": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7521,6 +7541,10 @@
     "./webber-grill": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/webber-grill.svelte"
+    },
+    "./windows-oficial": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/windows-oficial.svelte"
     },
     "./*": "./*"
   },
