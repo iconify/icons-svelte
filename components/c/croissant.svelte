@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/j/jm1-edc3a.css';
+import '../../css/e/euf7i3bem.css';
+import '../../css/v/vobmysier.css';
+import '../../css/z/zaqyk1vqh.css';
+import '../../css/x/xr8nwyb-n.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="d2kvgvbvc"><path class="jm1-edc3a wm-shadow"/><path class="euf7i3bem"/><path class="vobmysier"/><path class="zaqyk1vqh"/><path class="xr8nwyb-n"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-retro:croissant" {...props}></Icon>
