@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/b/bw7ptevmm.css';
+import '../../css/n/n9jsisbkw.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="bw7ptevmm"/><path class="n9jsisbkw"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:swimming-duotone-round" {...props}></Icon>

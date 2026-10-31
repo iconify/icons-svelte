@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/a/abw49rb6f.css';
+import '../../css/u/uoh9-lbcz.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="abw49rb6f"/><path class="uoh9-lbcz"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:share-bulk-round" {...props}></Icon>
