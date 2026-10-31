@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/tdesign",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "homepage": "https://icon-sets.iconify.design/tdesign/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1765,6 +1765,10 @@
     "./check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/check.svelte"
+    },
+    "./check-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/check-1.svelte"
     },
     "./check-circle": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7053,6 +7057,10 @@
     "./remove": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/remove.svelte"
+    },
+    "./remove-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/remove-1.svelte"
     },
     "./rename": {
       "types": "./types/gfwqskkx.d.ts",
