@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/codicon",
   "type": "module",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC-BY-4.0",
@@ -1065,6 +1065,10 @@
     "./git-branch-changes": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/git-branch-changes.svelte"
+    },
+    "./git-branch-checkout": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-checkout.svelte"
     },
     "./git-branch-compact": {
       "types": "./types/gfwqskkx.d.ts",
