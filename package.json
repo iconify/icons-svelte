@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -2265,6 +2265,14 @@
     "./primeng": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/primeng.svelte"
+    },
+    "./prisma": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prisma.svelte"
+    },
+    "./prisma-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prisma-wordmark.svelte"
     },
     "./processing": {
       "types": "./types/gfwqskkx.d.ts",
