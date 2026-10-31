@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/u/ucdljpb9x.css';
+import '../../css/i/ibh0pxv3v.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ucdljpb9x"/>`;
+const content = `<path clip-rule="evenodd" class="ibh0pxv3v"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="sidekickicons:badge-solid" {...props}></Icon>

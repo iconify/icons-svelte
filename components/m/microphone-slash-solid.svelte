@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/ju4m_kbvp.css';
+import '../../css/t/tq2xwlmto.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ju4m_kbvp"/>`;
+const content = `<path clip-rule="evenodd" class="tq2xwlmto"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="sidekickicons:microphone-slash-solid" {...props}></Icon>
