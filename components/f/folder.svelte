@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dkv48acbf.css';
+import '../../css/i/i309x2b5e.css';
+import '../../css/l/l39lfuh0p.css';
+import '../../css/g/gc9ew1bqh.css';
+import '../../css/l/l2fpngjgy.css';
+import '../../css/c/ccg9pxipy.css';
+import '../../css/g/gd-2yzb1w.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dkv48acbf"><path class="i309x2b5e"/><path class="l39lfuh0p"/><path class="gc9ew1bqh wm-shine"/><path class="l2fpngjgy"/><path class="ccg9pxipy"/><path class="gd-2yzb1w"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-kawaii:folder" {...props}></Icon>

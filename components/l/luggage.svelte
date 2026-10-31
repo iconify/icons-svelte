@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dkv48acbf.css';
+import '../../css/p/pog0yuliw.css';
+import '../../css/j/jrdtkbbqb.css';
+import '../../css/p/pr4hfob0i.css';
+import '../../css/n/ndggxmqsd.css';
+import '../../css/b/b572__8fz.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dkv48acbf"><path class="pog0yuliw"/><path class="jrdtkbbqb wm-shine"/><path class="pr4hfob0i wm-k"/><path class="ndggxmqsd wm-a"/><path class="b572__8fz wm-deco"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="withicons-kawaii:luggage" {...props}></Icon>
