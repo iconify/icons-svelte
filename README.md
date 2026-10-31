@@ -11,6 +11,11 @@ Browse all icons: [preview OOUI on Iconify](https://icon-sets.iconify.design/oou
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/svelte#ooui
+```
+
+or
+```bash
 npm install github:iconify/icons-svelte#ooui
 ```
 
