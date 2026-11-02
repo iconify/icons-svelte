@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1674,6 +1674,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/luau.svelte"
     },
+    "./lwc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lwc.svelte"
+    },
     "./magento-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/magento-wordmark.svelte"
@@ -2189,6 +2193,10 @@
     "./pnpm-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pnpm-wordmark.svelte"
+    },
+    "./pocketbase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pocketbase.svelte"
     },
     "./podman": {
       "types": "./types/gfwqskkx.d.ts",
