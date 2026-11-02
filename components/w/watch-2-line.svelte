@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gig3dcc4x.css';
+import '../../css/w/wuljonb7h.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="gig3dcc4x"/>`;
+const content = `<path class="wuljonb7h"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:watch-2-line" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/h/h1cd53nrv.css';
+import '../../css/h/hihomp6hz.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="h1cd53nrv"/>`;
+const content = `<path class="hihomp6hz"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:mortarboard-fill" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/d/d-f2bfbaz.css';
+import '../../css/s/sz1tm5bdt.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="d-f2bfbaz"/>`;
+const content = `<path class="sz1tm5bdt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:battery-fill" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/c005r7bfq.css';
+import '../../css/r/r5xnt1big.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="c005r7bfq"/>`;
+const content = `<path class="r5xnt1big"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:trending-down-fill" {...props}></Icon>

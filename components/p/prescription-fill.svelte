@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/s/sdhkrgbat.css';
+import '../../css/w/wmd_l1_lf.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="sdhkrgbat"/>`;
+const content = `<path class="wmd_l1_lf"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:prescription-fill" {...props}></Icon>

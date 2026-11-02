@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/u/utmtt8oqs.css';
+import '../../css/p/pz88j1tie.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="utmtt8oqs"/>`;
+const content = `<path class="pz88j1tie"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:numbers-09-sort-ascending-line" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/ola4pci0b.css';
+import '../../css/k/kv0upry8h.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ola4pci0b"/>`;
+const content = `<path class="kv0upry8h"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:avalanche-avax-line" {...props}></Icon>

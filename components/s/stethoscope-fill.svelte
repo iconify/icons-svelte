@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/w_-lpjk0t.css';
+import '../../css/g/g6o_i0g4x.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="w_-lpjk0t"/>`;
+const content = `<path class="g6o_i0g4x"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:stethoscope-fill" {...props}></Icon>

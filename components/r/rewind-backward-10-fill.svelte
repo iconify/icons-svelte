@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ippaj31sh.css';
+import '../../css/x/xutzkd7bl.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ippaj31sh"/>`;
+const content = `<path class="xutzkd7bl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:rewind-backward-10-fill" {...props}></Icon>

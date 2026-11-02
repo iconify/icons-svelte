@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/t/t3t__ccaf.css';
+import '../../css/u/uo9kjdz5b.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="t3t__ccaf"/>`;
+const content = `<path class="uo9kjdz5b"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:bread-fill" {...props}></Icon>

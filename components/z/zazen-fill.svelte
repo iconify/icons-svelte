@@ -1,12 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/a/asspptbxz.css';
-import '../../css/b/bbvbykbhx.css';
+import '../../css/o/o52_otb2i.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="asspptbxz"/><path clip-rule="evenodd" class="bbvbykbhx"/>`;
+const content = `<path class="o52_otb2i"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:zazen-fill" {...props}></Icon>

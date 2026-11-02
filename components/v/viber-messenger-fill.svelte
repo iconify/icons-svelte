@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/j9--6g2ow.css';
+import '../../css/i/iv46si9ls.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="j9--6g2ow"/>`;
+const content = `<path class="iv46si9ls"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:viber-messenger-fill" {...props}></Icon>

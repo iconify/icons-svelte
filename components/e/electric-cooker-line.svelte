@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/jiw619uzi.css';
+import '../../css/j/jfj70_hgl.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jiw619uzi"/>`;
+const content = `<path class="jfj70_hgl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:electric-cooker-line" {...props}></Icon>

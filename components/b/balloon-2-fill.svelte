@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/x/xsa_hubve.css';
+import '../../css/p/pzd046bic.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="xsa_hubve"/>`;
+const content = `<path class="pzd046bic"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:balloon-2-fill" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/b/bt-bdj62o.css';
+import '../../css/o/or3-8bu1l.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="bt-bdj62o"/>`;
+const content = `<path class="or3-8bu1l"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:paster-fill" {...props}></Icon>

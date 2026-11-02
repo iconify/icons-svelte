@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cwoa4qbfw.css';
+import '../../css/s/s6uf64bhb.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="cwoa4qbfw"/>`;
+const content = `<path class="s6uf64bhb"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:airplay-fill" {...props}></Icon>

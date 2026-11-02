@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/v/vancbgaei.css';
+import '../../css/o/ot_90ghjg.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="vancbgaei"/>`;
+const content = `<path class="ot_90ghjg"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:cloud-lightning-fill" {...props}></Icon>

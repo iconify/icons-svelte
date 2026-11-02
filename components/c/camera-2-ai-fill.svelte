@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/ci7gq9rvm.css';
+import '../../css/p/po0ubwb1a.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ci7gq9rvm"/>`;
+const content = `<path class="po0ubwb1a"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:camera-2-ai-fill" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/wtxhzw-ir.css';
+import '../../css/x/xsok2thnr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="wtxhzw-ir"/>`;
+const content = `<path class="xsok2thnr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:bookmark-remove-fill" {...props}></Icon>

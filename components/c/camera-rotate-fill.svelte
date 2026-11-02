@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/z/zq65rrbjc.css';
+import '../../css/c/c5cmkyb8q.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="zq65rrbjc"/>`;
+const content = `<path class="c5cmkyb8q"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:camera-rotate-fill" {...props}></Icon>

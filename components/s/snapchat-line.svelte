@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/p/ptu9m_w_c.css';
+import '../../css/z/zgyeiwjuy.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ptu9m_w_c"/>`;
+const content = `<path class="zgyeiwjuy"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:snapchat-line" {...props}></Icon>

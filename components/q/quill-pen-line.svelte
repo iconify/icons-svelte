@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/t/tx8t_pbsi.css';
+import '../../css/m/mysezhb-j.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="tx8t_pbsi"/>`;
+const content = `<path class="mysezhb-j"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:quill-pen-line" {...props}></Icon>

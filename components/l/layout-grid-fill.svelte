@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/e/egx0h6b0p.css';
+import '../../css/k/kf8-d7ban.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="egx0h6b0p"/>`;
+const content = `<path class="kf8-d7ban"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="mingcute:layout-grid-fill" {...props}></Icon>
