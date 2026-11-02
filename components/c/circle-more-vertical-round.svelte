@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/z/zvy2xtale.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="zvy2xtale"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:circle-more-vertical-round" {...props}></Icon>
+<style>
+:global(.zvy2xtale) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0m9-4h.01M12 12h.01M12 16h.01");
+}
+
+</style>

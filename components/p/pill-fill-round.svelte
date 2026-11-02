@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/b/bozixybsr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="bozixybsr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:pill-fill-round" {...props}></Icon>
+<style>
+:global(.bozixybsr) {
+  fill: currentColor;
+  d: path("M12.293 4.293a5.243 5.243 0 0 1 7.414 7.414l-8 8a5.243 5.243 0 0 1-7.414-7.414ZM15 13.586l3.293-3.293a3.243 3.243 0 0 0-4.586-4.586L10.414 9Z");
+}
+
+</style>

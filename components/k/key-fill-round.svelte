@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/f/fodpth3qq.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="fodpth3qq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:key-fill-round" {...props}></Icon>
+<style>
+:global(.fodpth3qq) {
+  fill: currentColor;
+  d: path("m11.477 11.109l6.816-6.816v-.001l2-1.999a.999.999 0 1 1 1.414 1.414L20.414 5l1.293 1.293a.999.999 0 1 1-1.414 1.414L19 6.414L17.414 8l1.293 1.293a.999.999 0 1 1-1.414 1.414L16 9.414l-3.109 3.109a6 6 0 1 1-1.414-1.414");
+}
+
+</style>

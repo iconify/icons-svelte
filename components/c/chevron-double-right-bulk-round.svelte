@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/k/kf2eypbqc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="kf2eypbqc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:chevron-double-right-bulk-round" {...props}></Icon>
+<style>
+:global(.kf2eypbqc) {
+  fill: currentColor;
+  d: path("M9.586 12L6.293 8.707a.999.999 0 1 1 1.414-1.414l4 4a1 1 0 0 1 0 1.414l-4 4a.999.999 0 1 1-1.414-1.414Zm6 0l-3.293-3.293a.999.999 0 1 1 1.414-1.414l4 4a1 1 0 0 1 0 1.414l-4 4a.999.999 0 1 1-1.414-1.414Z");
+}
+
+</style>

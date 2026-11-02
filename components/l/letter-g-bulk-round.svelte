@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/b/bc_ljou1u.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="bc_ljou1u"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:letter-g-bulk-round" {...props}></Icon>
+<style>
+:global(.bc_ljou1u) {
+  fill: currentColor;
+  d: path("M7 9v6a5 5 0 0 0 10 0v-1h-3a1 1 0 0 1 0-2h4a1 1 0 0 1 1 1v2a7 7 0 1 1-14 0V9a7 7 0 1 1 14 0a1 1 0 0 1-2 0A5 5 0 1 0 7 9");
+}
+
+</style>

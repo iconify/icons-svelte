@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/a/aemn-9ejj.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="aemn-9ejj"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:fast-forward-fill-round" {...props}></Icon>
+<style>
+:global(.aemn-9ejj) {
+  fill: currentColor;
+  d: path("M11 9.101V9a3 3 0 0 1 4.543-2.572l5 3a2.998 2.998 0 0 1 0 5.144l-5 3A2.998 2.998 0 0 1 11 15v-.101l-4.457 2.673A2.998 2.998 0 0 1 2 15V9a3 3 0 0 1 4.543-2.572Z");
+}
+
+</style>

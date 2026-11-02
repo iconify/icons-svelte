@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/m/m81vs0cnc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="m81vs0cnc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:trash-full-fill-round" {...props}></Icon>
+<style>
+:global(.m81vs0cnc) {
+  fill: currentColor;
+  d: path("M16.874 5H20a1 1 0 0 1 0 2h-1v10a5 5 0 0 1-1.464 3.536A5 5 0 0 1 14 22h-4a5 5 0 0 1-5-5V7H4a1 1 0 0 1 0-2h3.126A4.01 4.01 0 0 1 11 2h2a4.006 4.006 0 0 1 3.874 3M13 4h-2a2.01 2.01 0 0 0-1.733 1h5.466A2 2 0 0 0 13 4m-4 6v7a1 1 0 0 0 2 0v-7a1 1 0 0 0-2 0m4 0v7a1 1 0 0 0 2 0v-7a1 1 0 0 0-2 0");
+}
+
+</style>

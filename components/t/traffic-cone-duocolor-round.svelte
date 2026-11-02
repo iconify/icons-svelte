@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/a/a517a_nqs.css';
-import '../../css/a/as6fsnbrg.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="a517a_nqs"/><path class="as6fsnbrg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:traffic-cone-duocolor-round" {...props}></Icon>
+<style>
+:global(.a517a_nqs) {
+  stroke-opacity: 0.4;
+  d: path("M9 10h6m-8 5h10");
+}
+
+:global(.as6fsnbrg) {
+  d: path("m5 20l6-15h2l6 15M3 20h18");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

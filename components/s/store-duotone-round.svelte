@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/f/ft5dv1b6b.css';
-import '../../css/q/qqc7wbbuf.css';
-import '../../css/o/oj66n_imi.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ft5dv1b6b"><path class="qqc7wbbuf"/><path class="oj66n_imi"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:store-duotone-round" {...props}></Icon>
+<style>
+:global(.ft5dv1b6b) {
+  fill: none;
+}
+
+:global(.oj66n_imi) {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 0 6H6a3 3 0 0 1-3-3m2 3v8a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V9m-9 12v-4a2 2 0 1 1 4 0v4M9 3v6m6-6v6");
+}
+
+:global(.qqc7wbbuf) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M6 3h12a3 3 0 1 1 0 6H6a3 3 0 1 1 0-6");
+}
+
+</style>

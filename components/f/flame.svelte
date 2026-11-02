@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="tst8xobur"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:flame" {...props}></Icon>
+<style>
+:global(.tst8xobur) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 3c.5 2.5 2 4.5 4 6c1.5 1.5 2 3.5 2 6a6 6 0 1 1-12 0c0-1.5.5-2.5 1-3m0 0a2 2 0 1 0 4 0c0-1.5-.5-2-1-3c-1-2-.5-4 2-6");
+}
+
+</style>

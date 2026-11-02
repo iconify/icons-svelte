@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/s/s6my62buq.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="s6my62buq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:hard-drive-round" {...props}></Icon>
+<style>
+:global(.s6my62buq) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 19H6a3 3 0 0 1-3-3v-3l3-6c.613-1.226 1.774-2 3-2h6c1.226 0 2.387.774 3 2l3 6v3a3 3 0 0 1-3 3zm-9-6h18M7 16h.01M11 16h.01");
+}
+
+</style>

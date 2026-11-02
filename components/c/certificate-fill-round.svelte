@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/oraqi0b4j.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="oraqi0b4j"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:certificate-fill-round" {...props}></Icon>
+<style>
+:global(.oraqi0b4j) {
+  fill: currentColor;
+  d: path("M7 18a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h10a5 5 0 0 1 5 5v10a1 1 0 0 1-2 0V7a3 3 0 0 0-3-3H7a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h2a1 1 0 0 1 0 2ZM17 6a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2Zm1 15a1.002 1.002 0 0 1-1.707.707L15 20.414l-1.293 1.293A1 1 0 0 1 12 21v-5.62a3.828 3.828 0 0 1 5.601-5.189A3.83 3.83 0 0 1 18 15.38ZM9 10a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2Z");
+}
+
+</style>

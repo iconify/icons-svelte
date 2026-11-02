@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jv1v5sbjf"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:fuel-fill" {...props}></Icon>
+<style>
+:global(.jv1v5sbjf) {
+  fill: currentColor;
+  d: path("M14 8H2V5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3Zm0 5v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9h12v1h1a3 3 0 0 1 3 3v1a1 1 0 0 0 2 0V8c0-.468-.395-.98-.707-1.293l-2-2a.999.999 0 1 1 1.414-1.414l2 2C21.422 6.008 22 6.961 22 8v7a3 3 0 1 1-6 0v-1a.997.997 0 0 0-1-1Z");
+}
+
+</style>

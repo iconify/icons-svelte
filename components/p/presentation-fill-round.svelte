@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/s/sy39sjb5y.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="sy39sjb5y"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:presentation-fill-round" {...props}></Icon>
+<style>
+:global(.sy39sjb5y) {
+  fill: currentColor;
+  d: path("M3 2h18a1 1 0 0 1 0 2h-1v8a5 5 0 0 1-5 5h-.586l3.293 3.293a.999.999 0 1 1-1.414 1.414L12 17.414l-4.293 4.293a.999.999 0 1 1-1.414-1.414L9.586 17H9a5 5 0 0 1-5-5V4H3a1 1 0 0 1 0-2m6.728 15h.654a1 1 0 0 0-.654 0m3.89 0h.654a1 1 0 0 0-.654 0");
+}
+
+</style>

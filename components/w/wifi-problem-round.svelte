@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/rahubnbki.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="rahubnbki"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:wifi-problem-round" {...props}></Icon>
+<style>
+:global(.rahubnbki) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 16c1.427-2.14 4.573-2.14 6 0m-9-3c1.484-1.78 3.682-3 6-3m-9 0c2.285-2.57 5.56-4 9-4m0 13h.01M17 5l4 4m0-4l-4 4");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/k/ku_6aac1m.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ku_6aac1m"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:film-fill-round" {...props}></Icon>
+<style>
+:global(.ku_6aac1m) {
+  fill: currentColor;
+  d: path("M2 7a5 5 0 0 1 5-5h10a5 5 0 0 1 5 5v10a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 22H7a5 5 0 0 1-5-5Zm16-2.83V7h2c0-1.27-.804-2.405-2-2.83M6 7V4.17A3.01 3.01 0 0 0 4 7Zm0 4V9H4v2Zm12 0h2V9h-2Zm-3 0H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2m-9 2H4v2h2Zm12 0v2h2v-2ZM6 19.83V17H4c0 1.27.804 2.405 2 2.83M18 17v2.83A3.01 3.01 0 0 0 20 17Z");
+}
+
+</style>

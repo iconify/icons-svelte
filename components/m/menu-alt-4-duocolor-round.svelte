@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/rmoe46bpq.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="rmoe46bpq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:menu-alt-4-duocolor-round" {...props}></Icon>
+<style>
+:global(.rmoe46bpq) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 7h8m-8 5h14M5 17h14");
+}
+
+</style>

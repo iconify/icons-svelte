@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/e/eo19743sn.css';
-import '../../css/l/ly44l6qmn.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="eo19743sn"/><path class="ly44l6qmn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:scan-face-duocolor-round" {...props}></Icon>
+<style>
+:global(.eo19743sn) {
+  stroke-opacity: 0.4;
+  d: path("M9 9h.01M15 9h.01M8 14a5.657 5.657 0 0 0 8 0");
+}
+
+:global(.ly44l6qmn) {
+  d: path("M3 7a4 4 0 0 1 4-4m10 0a4 4 0 0 1 4 4m0 10a4 4 0 0 1-4 4M7 21a4 4 0 0 1-4-4");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

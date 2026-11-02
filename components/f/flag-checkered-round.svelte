@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ia8h-s6qs.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="ia8h-s6qs"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:flag-checkered-round" {...props}></Icon>
+<style>
+:global(.ia8h-s6qs) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 15c6-3 10 3 16 0V4C14 7 10 1 4 4Zm0 0v6m0-11c6-3 10 3 16 0M9 4v10m6-9v10");
+}
+
+</style>

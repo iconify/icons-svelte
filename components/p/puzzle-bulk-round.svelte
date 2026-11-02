@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/x/xf0au4b2c.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="xf0au4b2c"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:puzzle-bulk-round" {...props}></Icon>
+<style>
+:global(.xf0au4b2c) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M17.237 6.005A5 5 0 0 1 22 11v1a1 1 0 0 1-1.447.894A1.237 1.237 0 0 0 18.764 14a1.232 1.232 0 0 0 1.789 1.106A1 1 0 0 1 22 16v1a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 22h-6a5 5 0 0 1-4.995-4.763a3.237 3.237 0 1 1 0-6.474a5 5 0 0 1 4.758-4.758a3.237 3.237 0 1 1 6.474 0");
+}
+
+</style>

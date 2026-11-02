@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/f/fl-g2gbwr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="fl-g2gbwr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:fullscreen-duocolor-round" {...props}></Icon>
+<style>
+:global(.fl-g2gbwr) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 8V7a4 4 0 0 1 4-4h1m8 0h1a4 4 0 0 1 4 4v1m0 8v1a4 4 0 0 1-4 4h-1m-8 0H7a4 4 0 0 1-4-4v-1");
+}
+
+</style>

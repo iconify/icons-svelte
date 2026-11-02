@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/m/mur--tena.css';
-import '../../css/e/etv1o2b_d.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,18 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="cuyn6tgcc"><path class="mur--tena"/><path class="etv1o2b_d"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:joystick-bulk-round" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.etv1o2b_d) {
+  d: path("M13 9.874V15a1 1 0 0 1-2 0V9.874a4 4 0 1 1 2 0M6 13a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0Z");
+}
+
+:global(.mur--tena) {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6 14h12a4 4 0 0 1 0 8H6a4 4 0 0 1 0-8");
+}
+
+</style>

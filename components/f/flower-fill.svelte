@@ -1,0 +1,17 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="gqgebmbjw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:flower-fill" {...props}></Icon>
+<style>
+:global(.gqgebmbjw) {
+  fill: currentColor;
+  d: path("M8.101 5.101a4 4 0 0 1 7.798 0a4 4 0 0 1 0 7.798A4.02 4.02 0 0 1 13 15.874V21a1 1 0 0 1-2 0v-5.126a4.02 4.02 0 0 1-2.899-2.975a4 4 0 0 1 0-7.798M12 8a1 1 0 0 0 0 2h.01a1 1 0 0 0 0-2Z");
+}
+
+</style>

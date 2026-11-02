@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/wnq1seb5e.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="wnq1seb5e"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:neural-network-fill-round" {...props}></Icon>
+<style>
+:global(.wnq1seb5e) {
+  fill: currentColor;
+  d: path("M8.829 5h6.342a3.002 3.002 0 0 1 5.601-.148a3 3 0 0 1-4.065 3.856L13.414 12l3.293 3.292A3 3 0 1 1 15.171 19H8.829a3.002 3.002 0 0 1-5.601.148a3 3 0 0 1 4.065-3.856L10.586 12L7.293 8.708A3 3 0 1 1 8.829 5m0 2q-.053.15-.121.293L12 10.586l3.292-3.293A3 3 0 0 1 15.171 7ZM12 13.414l-3.292 3.293q.068.143.121.293h6.342q.053-.15.121-.293Z");
+}
+
+</style>

@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/q/q5n2a1blr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="q5n2a1blr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:split-bulk-round" {...props}></Icon>
+<style>
+:global(.q5n2a1blr) {
+  fill: currentColor;
+  d: path("m11 12.414l-5-5V9a1 1 0 0 1-2 0V5a1 1 0 0 1 1-1h4a1 1 0 0 1 0 2H7.414L12 10.586L16.586 6H15a1 1 0 0 1 0-2h4a1 1 0 0 1 1 1v4a1 1 0 0 1-2 0V7.414l-5 5V19a1 1 0 0 1-2 0Z");
+}
+
+</style>

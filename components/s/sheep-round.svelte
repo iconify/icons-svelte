@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/f/flk5pbbwz.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="flk5pbbwz"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:sheep-round" {...props}></Icon>
+<style>
+:global(.flk5pbbwz) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 11c-2.667 1.333-4.667-2.667-2-4c-1.333-2.667 2.667-4.667 4-2c1.111-2.667 4.889-2.667 6 0c1.333-2.667 5.333-.667 4 2c2.667 1.333.667 5.333-2 4v6c0 3-2 4-5 4s-5-1-5-4Zm0 3l-3 1m13-1l3 1m-10-2h.01M14 13h.01M12 18h.01");
+}
+
+</style>

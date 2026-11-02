@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/z/zyqlyotss.css';
-import '../../css/a/a7agso4ey.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="nrj6p8qat"><path class="zyqlyotss"/><path class="a7agso4ey"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:chart-waterfall-duocolor-round" {...props}></Icon>
+<style>
+:global(.a7agso4ey) {
+  d: path("M7 9v7m4-10v3m4 0v3m4 0v4");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.zyqlyotss) {
+  stroke-opacity: 0.4;
+  d: path("M3 4v12a4 4 0 0 0 4 4h14");
+}
+
+</style>

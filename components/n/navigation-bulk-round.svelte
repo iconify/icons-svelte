@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/l/lr47oovvk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,11 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="lr47oovvk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:navigation-bulk-round" {...props}></Icon>
+<style>
+:global(.lr47oovvk) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("m12.316 5.051l6 2c.56.187.986.612 1.159 1.178c.145.476.098.981-.058 1.449a3.7 3.7 0 0 1-.728 1.25a4 4 0 0 1-1.242.966l-2 1a5.72 5.72 0 0 0-2.553 2.553l-1 2a4 4 0 0 1-.966 1.242a3.7 3.7 0 0 1-1.25.728c-.468.156-.973.203-1.449.058a1.78 1.78 0 0 1-1.178-1.159l-4-12a2.582 2.582 0 0 1 3.265-3.265Z");
+}
+
+</style>

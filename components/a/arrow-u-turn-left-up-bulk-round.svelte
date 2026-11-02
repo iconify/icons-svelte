@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/a/anh4j2bjk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,10 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="anh4j2bjk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:arrow-u-turn-left-up-bulk-round" {...props}></Icon>
+<style>
+:global(.anh4j2bjk) {
+  fill: currentColor;
+  d: path("M10 5.414V17a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-6a1 1 0 0 1 2 0v6a5 5 0 0 1-1.464 3.536A5 5 0 0 1 15 22h-2a5 5 0 0 1-5-5V5.414L5.707 7.707a.999.999 0 1 1-1.414-1.414l4-4a1 1 0 0 1 1.414 0l4 4a.999.999 0 1 1-1.414 1.414Z");
+}
+
+</style>

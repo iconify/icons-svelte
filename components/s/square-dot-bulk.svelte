@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="qebz58hxe"/><path class="f_eptvffm"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:square-dot-bulk" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.f_eptvffm) {
+  d: path("M10.158 11.221a2 2 0 1 1 3.684 1.558a2 2 0 0 1-3.684-1.558");
+}
+
+:global(.qebz58hxe) {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 5a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3Z");
+}
+
+</style>

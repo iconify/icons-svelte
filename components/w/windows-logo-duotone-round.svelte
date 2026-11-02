@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/f/ft5dv1b6b.css';
-import '../../css/a/avu59xt4u.css';
-import '../../css/k/kb2fxybse.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,23 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ft5dv1b6b"><path class="avu59xt4u"/><path class="kb2fxybse"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:windows-logo-duotone-round" {...props}></Icon>
+<style>
+:global(.avu59xt4u) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M20.89 4.006A1 1 0 0 1 22 5v14a1 1 0 0 1-1.11.994l-18-2A1 1 0 0 1 2 17V7a1 1 0 0 1 .89-.994Z");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
+}
+
+:global(.kb2fxybse) {
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 6v12m-9-6h18M3 7l18-2v14L3 17Z");
+}
+
+</style>
