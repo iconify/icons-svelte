@@ -2,14 +2,12 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/x/xn5eo9bqs.css';
 import '../../css/l/louyuugcp.css';
-import '../../css/i/i3l0rvbjp.css';
-import '../../css/e/e0pys6b2e.css';
-import '../../css/a/a876wccoe.css';
+import '../../css/m/mnj9wxbwy.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="xn5eo9bqs"><path class="louyuugcp"/><path class="i3l0rvbjp"/><path class="e0pys6b2e"/><path class="a876wccoe"/></g>`;
+const content = `<g class="xn5eo9bqs"><path class="louyuugcp"/><path class="mnj9wxbwy"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="matita:at-sign" {...props}></Icon>
