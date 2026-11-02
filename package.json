@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -998,6 +998,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/electron-wordmark.svelte"
     },
+    "./elementplus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elementplus.svelte"
+    },
+    "./elementplus-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elementplus-wordmark.svelte"
+    },
     "./eleventy": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eleventy.svelte"
@@ -1778,6 +1786,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/jekyll.svelte"
     },
+    "./jekyll-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jekyll-wordmark.svelte"
+    },
     "./jenkins": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/jenkins.svelte"
@@ -2145,6 +2157,10 @@
     "./lumen": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lumen.svelte"
+    },
+    "./lwc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lwc.svelte"
     },
     "./magento": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2810,6 +2826,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pnpm-wordmark.svelte"
     },
+    "./pocketbase": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pocketbase.svelte"
+    },
+    "./pocketbase-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pocketbase-wordmark.svelte"
+    },
     "./podman": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/podman.svelte"
@@ -3221,6 +3245,14 @@
     "./remix-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/remix-wordmark.svelte"
+    },
+    "./render": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/render.svelte"
+    },
+    "./render-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/render-wordmark.svelte"
     },
     "./renpy": {
       "types": "./types/gfwqskkx.d.ts",
