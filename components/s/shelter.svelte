@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gpu8jptvj.css';
+import '../../css/l/lffn35k3c.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":15,"height":15};
-const content = `<path class="gpu8jptvj"/>`;
+const content = `<path class="lffn35k3c"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="pinhead:shelter" {...props}></Icon>

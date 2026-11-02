@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/pinhead",
   "type": "module",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "homepage": "https://icon-sets.iconify.design/pinhead/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -3274,6 +3274,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dog-wearing-collar-on-leash.svelte"
     },
+    "./dog-wearing-collar-under-gabled-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dog-wearing-collar-under-gabled-roof.svelte"
+    },
     "./dog-wearing-harness": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dog-wearing-harness.svelte"
@@ -4158,6 +4162,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gabled-building-with-window.svelte"
     },
+    "./gabled-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gabled-roof.svelte"
+    },
     "./gabled-roof-with-fireplace-and-chimney": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gabled-roof-with-fireplace-and-chimney.svelte"
@@ -4666,6 +4674,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/horse-spring-rider.svelte"
     },
+    "./horse-under-gabled-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/horse-under-gabled-roof.svelte"
+    },
     "./horseshoe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/horseshoe.svelte"
@@ -4782,9 +4794,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/info-i.svelte"
     },
-    "./information-board-with-hipped-roof": {
+    "./information-board-with-eaved-hipped-roof": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/i/information-board-with-hipped-roof.svelte"
+      "svelte": "./components/i/information-board-with-eaved-hipped-roof.svelte"
     },
     "./inline-skate": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6462,9 +6474,29 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/people-sleeping-in-bunkbeds.svelte"
     },
+    "./people-sleeping-in-bunkbeds-in-eaved-gabled-building": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sleeping-in-bunkbeds-in-eaved-gabled-building.svelte"
+    },
+    "./people-sleeping-in-bunkbeds-in-eaved-gabled-building-with-chimney": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sleeping-in-bunkbeds-in-eaved-gabled-building-with-chimney.svelte"
+    },
+    "./people-sleeping-in-bunkbeds-in-eaved-gabled-shelter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sleeping-in-bunkbeds-in-eaved-gabled-shelter.svelte"
+    },
+    "./people-sleeping-in-bunkbeds-in-eaved-leanto-shelter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sleeping-in-bunkbeds-in-eaved-leanto-shelter.svelte"
+    },
     "./people-sleeping-in-bunkbeds-in-eaved-open-gabled-building": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/people-sleeping-in-bunkbeds-in-eaved-open-gabled-building.svelte"
+    },
+    "./people-sleeping-in-bunkbeds-under-gabled-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-sleeping-in-bunkbeds-under-gabled-roof.svelte"
     },
     "./people-sleeping-in-opposing-bunkbeds": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7234,6 +7266,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/person-wearing-cheese-wedge-hat.svelte"
     },
+    "./person-wearing-greek-cross": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-wearing-greek-cross.svelte"
+    },
     "./person-wearing-helmet-paddling-kayak-on-water": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/person-wearing-helmet-paddling-kayak-on-water.svelte"
@@ -7285,6 +7321,10 @@
     "./person-with-ponytail-riding-zip-line": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/person-with-ponytail-riding-zip-line.svelte"
+    },
+    "./person-with-stethoscope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-with-stethoscope.svelte"
     },
     "./peso": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7826,6 +7866,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pixel-invader.svelte"
     },
+    "./pixel-jack-o-lantern": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pixel-jack-o-lantern.svelte"
+    },
     "./pixel-map-pin": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pixel-map-pin.svelte"
@@ -8029,6 +8073,10 @@
     "./poo-pile": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/poo-pile.svelte"
+    },
+    "./poo-pile-with-smiling-face": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/poo-pile-with-smiling-face.svelte"
     },
     "./portable-fence": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11973,6 +12021,10 @@
     "./ice-text-above-icicles": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ice-text-above-icicles.svelte"
+    },
+    "./information-board-with-hipped-roof": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/information-board-with-hipped-roof.svelte"
     },
     "./isosceles-trapezoid-tall-down": {
       "types": "./types/gfwqskkx.d.ts",
