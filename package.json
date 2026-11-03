@@ -1,11 +1,27 @@
 {
   "name": "@iconify-svelte/sidekickicons",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://icon-sets.iconify.design/sidekickicons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
   "exports": {
+    "./anchor": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anchor.svelte"
+    },
+    "./anchor-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anchor-16-solid.svelte"
+    },
+    "./anchor-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anchor-20-solid.svelte"
+    },
+    "./anchor-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/anchor-solid.svelte"
+    },
     "./arc-third": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arc-third.svelte"
@@ -278,6 +294,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrows-crossing-solid.svelte"
     },
+    "./backward-bar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backward-bar.svelte"
+    },
+    "./backward-bar-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backward-bar-16-solid.svelte"
+    },
+    "./backward-bar-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backward-bar-20-solid.svelte"
+    },
+    "./backward-bar-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/backward-bar-solid.svelte"
+    },
     "./badge": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge.svelte"
@@ -357,6 +389,22 @@
     "./blockquote-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/blockquote-solid.svelte"
+    },
+    "./bluetooth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth.svelte"
+    },
+    "./bluetooth-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth-16-solid.svelte"
+    },
+    "./bluetooth-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth-20-solid.svelte"
+    },
+    "./bluetooth-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bluetooth-solid.svelte"
     },
     "./camera-rotate": {
       "types": "./types/gfwqskkx.d.ts",
@@ -822,6 +870,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/floppy-disk-solid.svelte"
     },
+    "./forward-bar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forward-bar.svelte"
+    },
+    "./forward-bar-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forward-bar-16-solid.svelte"
+    },
+    "./forward-bar-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forward-bar-20-solid.svelte"
+    },
+    "./forward-bar-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/forward-bar-solid.svelte"
+    },
     "./gamepad": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gamepad.svelte"
@@ -837,6 +901,22 @@
     "./gamepad-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gamepad-solid.svelte"
+    },
+    "./gauge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gauge.svelte"
+    },
+    "./gauge-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gauge-16-solid.svelte"
+    },
+    "./gauge-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gauge-20-solid.svelte"
+    },
+    "./gauge-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gauge-solid.svelte"
     },
     "./gender-ambiguous": {
       "types": "./types/gfwqskkx.d.ts",
@@ -901,6 +981,22 @@
     "./gender-trans-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gender-trans-solid.svelte"
+    },
+    "./git-branch": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch.svelte"
+    },
+    "./git-branch-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-16-solid.svelte"
+    },
+    "./git-branch-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-20-solid.svelte"
+    },
+    "./git-branch-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/git-branch-solid.svelte"
     },
     "./h4": {
       "types": "./types/gfwqskkx.d.ts",
@@ -998,6 +1094,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/headphones-solid.svelte"
     },
+    "./headset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset.svelte"
+    },
+    "./headset-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-16-solid.svelte"
+    },
+    "./headset-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-20-solid.svelte"
+    },
+    "./headset-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headset-solid.svelte"
+    },
     "./hourglass": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hourglass.svelte"
@@ -1093,6 +1205,22 @@
     "./keyboard-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/keyboard-solid.svelte"
+    },
+    "./leaf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/leaf.svelte"
+    },
+    "./leaf-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/leaf-16-solid.svelte"
+    },
+    "./leaf-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/leaf-20-solid.svelte"
+    },
+    "./leaf-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/leaf-solid.svelte"
     },
     "./lettered-list": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1269,6 +1397,22 @@
     "./pilcrow-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pilcrow-solid.svelte"
+    },
+    "./pill": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill.svelte"
+    },
+    "./pill-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-16-solid.svelte"
+    },
+    "./pill-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-20-solid.svelte"
+    },
+    "./pill-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pill-solid.svelte"
     },
     "./pin": {
       "types": "./types/gfwqskkx.d.ts",
