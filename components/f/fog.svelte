@@ -9,12 +9,12 @@ import '../../css/s/su6xcnrgr.css';
 import '../../css/o/o877x-bvr.css';
 import '../../css/t/tf2rp27ih.css';
 import '../../css/g/gg8-pf67s.css';
-import '../../css/c/cv8qxlq8e.css';
+import '../../css/k/kea9bqbmp.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="xbzo0vbim"/><path class="h1pcedcps"/><path class="e5qr8fb6r"/><path class="cbu9lvpfu"/><path class="d-o7uqb_k"/><path class="su6xcnrgr"/><path class="o877x-bvr"/><path class="tf2rp27ih"/><path class="gg8-pf67s"/><path class="cv8qxlq8e"/>`;
+const content = `<path class="xbzo0vbim"/><path class="h1pcedcps"/><path class="e5qr8fb6r"/><path class="cbu9lvpfu"/><path class="d-o7uqb_k"/><path class="su6xcnrgr"/><path class="o877x-bvr"/><path class="tf2rp27ih"/><path class="gg8-pf67s"/><path class="kea9bqbmp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:fog" {...props}></Icon>

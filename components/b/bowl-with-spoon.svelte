@@ -5,12 +5,12 @@ import '../../css/x/x34dybc5a.css';
 import '../../css/j/jihb52b5a.css';
 import '../../css/j/jn8qy4bru.css';
 import '../../css/v/vmpwdzb_y.css';
-import '../../css/t/tjhblrbih.css';
+import '../../css/b/boh3ko58j.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="wmzn24bfh"/><path class="x34dybc5a"/><path class="jihb52b5a"/><g class="jn8qy4bru"><path class="vmpwdzb_y"/><path class="tjhblrbih"/></g>`;
+const content = `<path class="wmzn24bfh"/><path class="x34dybc5a"/><path class="jihb52b5a"/><g class="jn8qy4bru"><path class="vmpwdzb_y"/><path class="boh3ko58j"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:bowl-with-spoon" {...props}></Icon>

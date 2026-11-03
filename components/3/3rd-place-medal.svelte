@@ -7,12 +7,12 @@ import '../../css/w/w0nvg6bfx.css';
 import '../../css/x/x8poo_bjf.css';
 import '../../css/t/t9mvgybsl.css';
 import '../../css/t/tpfdcfgic.css';
-import '../../css/m/mxze8ab6q.css';
+import '../../css/y/yuvt7ubfl.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="ya8u5iv6o"/><circle class="a6p41zijm"/><path class="jhn3jobnr"/><path class="w0nvg6bfx"/><g class="x8poo_bjf"><circle class="t9mvgybsl"/><circle class="tpfdcfgic"/><path class="mxze8ab6q"/></g>`;
+const content = `<path class="ya8u5iv6o"/><circle class="a6p41zijm"/><path class="jhn3jobnr"/><path class="w0nvg6bfx"/><g class="x8poo_bjf"><circle class="t9mvgybsl"/><circle class="tpfdcfgic"/><path class="yuvt7ubfl"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:3rd-place-medal" {...props}></Icon>

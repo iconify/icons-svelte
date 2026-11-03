@@ -8,7 +8,7 @@ import '../../css/h/h9kedex4w.css';
 import '../../css/s/s1v0t4bir.css';
 import '../../css/w/w481hfuha.css';
 import '../../css/d/d9nwabczy.css';
-import '../../css/w/ws4iorbcs.css';
+import '../../css/b/bay221_wg.css';
 import '../../css/j/jkrsxpbwo.css';
 import '../../css/s/sexv9tbnw.css';
 
@@ -16,6 +16,6 @@ import '../../css/s/sexv9tbnw.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="f7ff75vgj"/><path class="nf6trzb_f"/><circle class="q62gaqbxq"/><path class="mvxi60b3r"/><path class="h9kedex4w"/><path class="s1v0t4bir"/><path class="w481hfuha"/><circle class="d9nwabczy"/><path class="ws4iorbcs"/><circle class="jkrsxpbwo"/><circle class="sexv9tbnw"/>`;
+const content = `<path class="f7ff75vgj"/><path class="nf6trzb_f"/><circle class="q62gaqbxq"/><path class="mvxi60b3r"/><path class="h9kedex4w"/><path class="s1v0t4bir"/><path class="w481hfuha"/><circle class="d9nwabczy"/><path class="bay221_wg"/><circle class="jkrsxpbwo"/><circle class="sexv9tbnw"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:nesting-dolls" {...props}></Icon>

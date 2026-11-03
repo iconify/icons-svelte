@@ -9,12 +9,12 @@ import '../../css/m/myikuibol.css';
 import '../../css/j/jn8qy4bru.css';
 import '../../css/s/sh_ekablt.css';
 import '../../css/d/d4dhm5bgd.css';
-import '../../css/o/od22g4m9k.css';
+import '../../css/q/qbbya4wav.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="z89--t6ie"/><path class="k_h61kbdf"/><g class="x4u8pbwjc"><path class="naff6fbjq"/><circle class="e5_66ue5d"/></g><path class="myikuibol"/><g class="jn8qy4bru"><path class="sh_ekablt"/><path class="d4dhm5bgd"/><path class="od22g4m9k"/></g>`;
+const content = `<path class="z89--t6ie"/><path class="k_h61kbdf"/><g class="x4u8pbwjc"><path class="naff6fbjq"/><circle class="e5_66ue5d"/></g><path class="myikuibol"/><g class="jn8qy4bru"><path class="sh_ekablt"/><path class="d4dhm5bgd"/><path class="qbbya4wav"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:drop-cover-hold" {...props}></Icon>

@@ -14,13 +14,13 @@ import '../../css/j/j4d9jqbmk.css';
 import '../../css/h/hfek8pj2i.css';
 import '../../css/b/brzn_0bpr.css';
 import '../../css/t/tjanj4b_c.css';
-import '../../css/g/gb_2yacrt.css';
+import '../../css/i/iphvihbdm.css';
 import '../../css/u/u49cy0b6n.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="rcvmeoo1o"/><path class="w_kybvwxi"/><path class="ui1dlzbxt"/><path class="gldw-nbpu"/><path class="c6ov1hccn"/><path class="wd8nj9j4g"/><path class="b56a2dlye"/><path class="p1zfave8n"/><path class="a0tzjkbix"/><path class="jgabosw4q"/><path class="j4d9jqbmk"/><path class="hfek8pj2i"/><g class="brzn_0bpr"><path class="tjanj4b_c"/><path class="gb_2yacrt"/><path class="u49cy0b6n"/></g>`;
+const content = `<path class="rcvmeoo1o"/><path class="w_kybvwxi"/><path class="ui1dlzbxt"/><path class="gldw-nbpu"/><path class="c6ov1hccn"/><path class="wd8nj9j4g"/><path class="b56a2dlye"/><path class="p1zfave8n"/><path class="a0tzjkbix"/><path class="jgabosw4q"/><path class="j4d9jqbmk"/><path class="hfek8pj2i"/><g class="brzn_0bpr"><path class="tjanj4b_c"/><path class="iphvihbdm"/><path class="u49cy0b6n"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:bottle-with-popping-cork" {...props}></Icon>

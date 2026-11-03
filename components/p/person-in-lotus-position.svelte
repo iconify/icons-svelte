@@ -5,12 +5,12 @@ import '../../css/h/hz1zk_bsj.css';
 import '../../css/a/awpu8mb-l.css';
 import '../../css/x/x8poo_bjf.css';
 import '../../css/n/n5bhdb4ld.css';
-import '../../css/m/mzz-ioa3t.css';
+import '../../css/x/xzq96meoh.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<g class="x4u8pbwjc"><circle class="hz1zk_bsj"/><path class="awpu8mb-l"/></g><g class="x8poo_bjf"><circle class="hz1zk_bsj"/><path class="n5bhdb4ld"/><path class="mzz-ioa3t"/></g>`;
+const content = `<g class="x4u8pbwjc"><circle class="hz1zk_bsj"/><path class="awpu8mb-l"/></g><g class="x8poo_bjf"><circle class="hz1zk_bsj"/><path class="n5bhdb4ld"/><path class="xzq96meoh"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:person-in-lotus-position" {...props}></Icon>

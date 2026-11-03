@@ -6,14 +6,14 @@ import '../../css/d/dfzm3rbxk.css';
 import '../../css/v/v2asc2b4v.css';
 import '../../css/p/pkenwmbcf.css';
 import '../../css/j/jn8qy4bru.css';
-import '../../css/f/fzsas0bek.css';
-import '../../css/c/c708mabwa.css';
-import '../../css/k/kfoa7bclx.css';
+import '../../css/i/ipdudmm4y.css';
+import '../../css/q/qq9o_n4sk.css';
+import '../../css/j/jc8qrgjsd.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="cg9lfnydf"/><path class="rhgwvr7wa"/><path class="dfzm3rbxk"/><path class="v2asc2b4v"/><path class="pkenwmbcf"/><g class="jn8qy4bru"><path class="fzsas0bek"/><path class="c708mabwa"/><path class="kfoa7bclx"/></g>`;
+const content = `<path class="cg9lfnydf"/><path class="rhgwvr7wa"/><path class="dfzm3rbxk"/><path class="v2asc2b4v"/><path class="pkenwmbcf"/><g class="jn8qy4bru"><path class="ipdudmm4y"/><path class="qq9o_n4sk"/><path class="jc8qrgjsd"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:palm-tree" {...props}></Icon>

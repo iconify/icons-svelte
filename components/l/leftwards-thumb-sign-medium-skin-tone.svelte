@@ -8,12 +8,12 @@ import '../../css/f/fiie_vglg.css';
 import '../../css/q/q5-xrobsz.css';
 import '../../css/l/lskwbacvk.css';
 import '../../css/e/e304-lbda.css';
-import '../../css/w/wbnztsbmq.css';
+import '../../css/n/nbvjbnbwa.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<g class="k9pq-abme"><path class="rd896ac7r"/><path class="pc3ce8fme"/><path class="igx-n8b-r"/></g><g class="fiie_vglg"><path class="q5-xrobsz"/><path class="lskwbacvk"/><path class="e304-lbda"/><path class="wbnztsbmq"/></g>`;
+const content = `<g class="k9pq-abme"><path class="rd896ac7r"/><path class="pc3ce8fme"/><path class="igx-n8b-r"/></g><g class="fiie_vglg"><path class="q5-xrobsz"/><path class="lskwbacvk"/><path class="e304-lbda"/><path class="nbvjbnbwa"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:leftwards-thumb-sign-medium-skin-tone" {...props}></Icon>

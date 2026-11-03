@@ -7,13 +7,13 @@ import '../../css/v/v73jdib8l.css';
 import '../../css/b/brzn_0bpr.css';
 import '../../css/a/amm3co44a.css';
 import '../../css/c/cw3d66bob.css';
-import '../../css/t/tukvnlbmo.css';
+import '../../css/i/i8mo0ccjn.css';
 import '../../css/o/ocs2e82mg.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<g class="eztqw9biy"><circle class="q133b_p0v"/><path class="nlmdxkqjd"/><path class="v73jdib8l"/></g><g class="brzn_0bpr"><circle class="amm3co44a"/><path class="cw3d66bob"/><path class="tukvnlbmo"/><path class="ocs2e82mg"/></g>`;
+const content = `<g class="eztqw9biy"><circle class="q133b_p0v"/><path class="nlmdxkqjd"/><path class="v73jdib8l"/></g><g class="brzn_0bpr"><circle class="amm3co44a"/><path class="cw3d66bob"/><path class="i8mo0ccjn"/><path class="ocs2e82mg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:person-running-medium-dark-skin-tone" {...props}></Icon>

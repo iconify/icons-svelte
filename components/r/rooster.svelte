@@ -1,6 +1,6 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/ox8x25enn.css';
+import '../../css/g/gbywigb2j.css';
 import '../../css/h/hxjrp7bsm.css';
 import '../../css/u/uifpxk46j.css';
 import '../../css/i/ij2x_72vy.css';
@@ -11,6 +11,6 @@ import '../../css/u/u655hlwru.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="ox8x25enn"/><path class="hxjrp7bsm"/><path class="uifpxk46j"/><g class="ij2x_72vy"><path class="tiw4sgagi"/><path class="u655hlwru"/></g>`;
+const content = `<path class="gbywigb2j"/><path class="hxjrp7bsm"/><path class="uifpxk46j"/><g class="ij2x_72vy"><path class="tiw4sgagi"/><path class="u655hlwru"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:rooster" {...props}></Icon>

@@ -5,12 +5,12 @@ import '../../css/k/kz72wdb0i.css';
 import '../../css/z/zsn_dkb-f.css';
 import '../../css/j/jn8qy4bru.css';
 import '../../css/f/frmc66bsi.css';
-import '../../css/p/pjuqq5t1u.css';
+import '../../css/a/az59yebpe.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="z6wh3497s"/><path class="kz72wdb0i"/><path class="zsn_dkb-f"/><g class="jn8qy4bru"><path class="frmc66bsi"/><path class="pjuqq5t1u"/></g>`;
+const content = `<path class="z6wh3497s"/><path class="kz72wdb0i"/><path class="zsn_dkb-f"/><g class="jn8qy4bru"><path class="frmc66bsi"/><path class="az59yebpe"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:pound-banknote" {...props}></Icon>

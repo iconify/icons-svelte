@@ -7,13 +7,13 @@ import '../../css/x/xd16brb4h.css';
 import '../../css/l/ll7_lt12o.css';
 import '../../css/o/oucbsib1x.css';
 import '../../css/i/ij2x_72vy.css';
-import '../../css/e/eewmx1von.css';
+import '../../css/q/qmvrz2w1l.css';
 import '../../css/r/r3f6vicrr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="p8nnczb_e"/><path class="n85ns1fsh"/><path class="vpek6ei8z"/><path class="xd16brb4h"/><path class="ll7_lt12o"/><path class="oucbsib1x"/><g class="ij2x_72vy"><path class="eewmx1von"/><path class="r3f6vicrr"/></g>`;
+const content = `<path class="p8nnczb_e"/><path class="n85ns1fsh"/><path class="vpek6ei8z"/><path class="xd16brb4h"/><path class="ll7_lt12o"/><path class="oucbsib1x"/><g class="ij2x_72vy"><path class="qmvrz2w1l"/><path class="r3f6vicrr"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="openmoji:flag-in-hole" {...props}></Icon>
