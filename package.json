@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -9,6 +9,10 @@
     "./aarch64": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/aarch64.svelte"
+    },
+    "./adminer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adminer.svelte"
     },
     "./aframe": {
       "types": "./types/gfwqskkx.d.ts",
@@ -101,6 +105,10 @@
     "./antigravity": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/antigravity.svelte"
+    },
+    "./antlr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/antlr.svelte"
     },
     "./apache": {
       "types": "./types/gfwqskkx.d.ts",
@@ -606,6 +614,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dbeaver.svelte"
     },
+    "./dbvisualizer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dbvisualizer.svelte"
+    },
     "./debian": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/debian.svelte"
@@ -625,6 +637,10 @@
     "./devicon-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/devicon-wordmark.svelte"
+    },
+    "./dialogflow": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dialogflow.svelte"
     },
     "./digitalocean": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1214,6 +1230,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hibernate-wordmark.svelte"
     },
+    "./homeassistant": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/homeassistant.svelte"
+    },
+    "./homeassistant-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/homeassistant-wordmark.svelte"
+    },
     "./homebrew": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/homebrew.svelte"
@@ -1746,6 +1770,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/meteor-wordmark.svelte"
     },
+    "./microsoftgraph": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoftgraph.svelte"
+    },
     "./microsoftsqlserver": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/microsoftsqlserver.svelte"
@@ -1813,6 +1841,10 @@
     "./mysql-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mysql-wordmark.svelte"
+    },
+    "./mysqlworkbench": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mysqlworkbench.svelte"
     },
     "./n8n-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2146,6 +2178,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/php.svelte"
     },
+    "./phpmyadmin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phpmyadmin.svelte"
+    },
+    "./phpmyadmin-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/phpmyadmin-wordmark.svelte"
+    },
     "./phpstorm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phpstorm.svelte"
@@ -2253,6 +2293,10 @@
     "./postman-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/postman-wordmark.svelte"
+    },
+    "./powerbi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/powerbi.svelte"
     },
     "./powershell": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2622,6 +2666,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/seaborn-wordmark.svelte"
     },
+    "./semanticui": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/semanticui.svelte"
+    },
     "./sequelize": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sequelize.svelte"
@@ -2629,6 +2677,10 @@
     "./sequelize-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sequelize-wordmark.svelte"
+    },
+    "./servicenow-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/servicenow-wordmark.svelte"
     },
     "./sfml": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3205,6 +3257,10 @@
     "./wordpress-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wordpress-wordmark.svelte"
+    },
+    "./xampp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/xampp.svelte"
     },
     "./xcode": {
       "types": "./types/gfwqskkx.d.ts",
