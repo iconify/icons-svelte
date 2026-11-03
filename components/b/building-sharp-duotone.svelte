@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="z_zygfbdd"/><path class="elgskmn3y"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="z_zygfbdd"/><path class="fezcbig4m"/><path clip-rule="evenodd" class="o8hskk81b"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:building-sharp-duotone" {...props}></Icon>
 <style>
-:global(.elgskmn3y) {
-  d: path("M10 23L10 20C10 18.8954 10.8954 18 12 18C13.1046 18 14 18.8954 14 20L14 23M9 5L9 9M15 5L15 9M9 11L9 15M15 11L15 15");
+:global(.fezcbig4m) {
+  d: path("M9 5L9 9M15 5L15 9M9 11L9 15M15 11L15 15");
 }
 
 :global(.gp_8x1bzb) {
@@ -18,6 +18,13 @@ const content = `<g class="gp_8x1bzb"><path class="z_zygfbdd"/><path class="elgs
   stroke: currentColor;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.o8hskk81b) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M10 21L10 20C10 18.8954 10.8954 18 12 18C13.1046 18 14 18.8954 14 20L14 21L10 21Z");
+  stroke: none;
 }
 
 :global(.z_zygfbdd) {

@@ -5,10 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="uyv7u4yiz"/><path class="ixa3g4gsj"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="uyv7u4yiz"/><path class="kd924u26p"/><path class="fce_00bqa"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:rocket-vertical-sharp-duotone" {...props}></Icon>
 <style>
+:global(.fce_00bqa) {
+  d: path("M9.3652 20.8056L14.6348 20.8056L15.8292 22L19 16.1684L15.9523 13.1206C16.0677 12.4475 16.1257 11.7657 16.1257 11.0828C16.1257 7.6016 14.6216 4.2903 12 1.9999C9.3784 4.2903 7.8743 7.6016 7.8743 11.0828C7.8743 11.7657 7.9323 12.4475 8.0477 13.1206L5 16.1684L8.1708 22L9.3652 20.8056ZM14.6348 20.8056L15.9523 13.1206M9.3652 20.8056L8.0477 13.1206");
+}
+
 :global(.gp_8x1bzb) {
   fill: none;
   stroke: currentColor;
@@ -16,8 +20,10 @@ const content = `<g class="gp_8x1bzb"><path class="uyv7u4yiz"/><path class="ixa3
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-:global(.ixa3g4gsj) {
-  d: path("M14.6348 20.8056L15.9523 13.1206M9.3652 20.8056L8.0477 13.1206");
+:global(.kd924u26p) {
+  fill: currentColor;
+  d: path("M9.3652 20.8056L14.6348 20.8056L15.9523 13.1206C16.0677 12.4475 16.1257 11.7657 16.1257 11.0828C16.1257 7.6016 14.6216 4.2903 12 1.9999C9.3784 4.2903 7.8743 7.6016 7.8743 11.0828C7.8743 11.7657 7.9323 12.4475 8.0477 13.1206L9.3652 20.8056Z");
+  stroke: none;
 }
 
 :global(.uyv7u4yiz) {

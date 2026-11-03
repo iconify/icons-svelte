@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="b84h-bczg"/><path class="nyxz4-pih"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="b84h-bczg"/><path class="sw8904bsm"/><path clip-rule="evenodd" class="o8hskk81b"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:building-duotone" {...props}></Icon>
 <style>
@@ -24,8 +24,15 @@ const content = `<g class="nrj6p8qat"><path class="b84h-bczg"/><path class="nyxz
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-:global(.nyxz4-pih) {
-  d: path("M10 22L10 20C10 18.8954 10.8954 18 12 18C13.1046 18 14 18.8954 14 20L14 22M9 6L9 8M15 6L15 8M9 12L9 14M15 12L15 14");
+:global(.o8hskk81b) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M10 21L10 20C10 18.8954 10.8954 18 12 18C13.1046 18 14 18.8954 14 20L14 21L10 21Z");
+  stroke: none;
+}
+
+:global(.sw8904bsm) {
+  d: path("M9 6L9 8M15 6L15 8M9 12L9 14M15 12L15 14");
 }
 
 </style>
