@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/logos",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -2478,6 +2478,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drupal-icon.svelte"
     },
+    "./dspy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dspy.svelte"
+    },
     "./duckduckgo": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/duckduckgo.svelte"
@@ -3830,6 +3834,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hermes.svelte"
     },
+    "./hermes-agent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hermes-agent.svelte"
+    },
     "./heroku": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heroku.svelte"
@@ -3857,6 +3865,14 @@
     "./hibernate": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hibernate.svelte"
+    },
+    "./higgsfield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/higgsfield.svelte"
+    },
+    "./higgsfield-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/higgsfield-icon.svelte"
     },
     "./highcharts": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4430,6 +4446,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kilo-dark.svelte"
     },
+    "./kimi": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kimi.svelte"
+    },
+    "./kimi-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kimi-icon.svelte"
+    },
+    "./kimi-icon-clean": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/kimi-icon-clean.svelte"
+    },
     "./kinto": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/kinto.svelte"
@@ -4713,6 +4741,14 @@
     "./livekit-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/livekit-icon.svelte"
+    },
+    "./llama-index": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/llama-index.svelte"
+    },
+    "./llama-index-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/llama-index-icon.svelte"
     },
     "./loader": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5114,9 +5150,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/meta.svelte"
     },
+    "./meta-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meta-ai.svelte"
+    },
     "./meta-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/meta-icon.svelte"
+    },
+    "./meta-muse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/meta-muse.svelte"
     },
     "./metabase": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5642,6 +5686,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nomad-icon.svelte"
     },
+    "./notebook-lm": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-lm.svelte"
+    },
+    "./notebook-lm-mono": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/notebook-lm-mono.svelte"
+    },
     "./notion": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/notion.svelte"
@@ -5810,6 +5862,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/opencart.svelte"
     },
+    "./openclaw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openclaw.svelte"
+    },
+    "./openclaw-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/openclaw-icon.svelte"
+    },
     "./opencode": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/opencode.svelte"
@@ -5953,6 +6013,10 @@
     "./osquery": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/osquery.svelte"
+    },
+    "./otter-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/otter-ai.svelte"
     },
     "./otto": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6157,6 +6221,10 @@
     "./phpstorm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/phpstorm.svelte"
+    },
+    "./pi-code": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pi-code.svelte"
     },
     "./picasa": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7014,6 +7082,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/runscope.svelte"
     },
+    "./runway": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/runway.svelte"
+    },
+    "./runway-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/runway-icon.svelte"
+    },
     "./rush": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rush.svelte"
@@ -7081,6 +7157,14 @@
     "./scala": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scala.svelte"
+    },
+    "./scale-ai": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-ai.svelte"
+    },
+    "./scale-ai-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-ai-icon.svelte"
     },
     "./scaledrone": {
       "types": "./types/gfwqskkx.d.ts",
