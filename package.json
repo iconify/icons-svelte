@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vadivam",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/vadivam/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -470,10 +470,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge.svelte"
     },
-    "./badge-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/badge-alert.svelte"
-    },
     "./badge-cent": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-cent.svelte"
@@ -489,6 +485,10 @@
     "./badge-euro": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-euro.svelte"
+    },
+    "./badge-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-exclamation-point.svelte"
     },
     "./badge-indian-rupee": {
       "types": "./types/gfwqskkx.d.ts",
@@ -610,6 +610,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-charging.svelte"
     },
+    "./battery-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-exclamation-point.svelte"
+    },
     "./battery-full": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-full.svelte"
@@ -625,10 +629,6 @@
     "./battery-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-plus.svelte"
-    },
-    "./battery-warning": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/battery-warning.svelte"
     },
     "./beaker": {
       "types": "./types/gfwqskkx.d.ts",
@@ -810,10 +810,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-a.svelte"
     },
-    "./book-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/book-alert.svelte"
-    },
     "./book-audio": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-audio.svelte"
@@ -837,6 +833,10 @@
     "./book-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-down.svelte"
+    },
+    "./book-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-exclamation-point.svelte"
     },
     "./book-headphones": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1358,6 +1358,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chart-bar-stacked.svelte"
     },
+    "./chart-bell-curve": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-bell-curve.svelte"
+    },
     "./chart-candlestick": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chart-candlestick.svelte"
@@ -1554,10 +1558,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle.svelte"
     },
-    "./circle-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-alert.svelte"
-    },
     "./circle-arrow-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-arrow-down.svelte"
@@ -1665,6 +1665,10 @@
     "./circle-euro": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-euro.svelte"
+    },
+    "./circle-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-exclamation-point.svelte"
     },
     "./circle-fading-arrow-up": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1994,10 +1998,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clock-9.svelte"
     },
-    "./clock-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/clock-alert.svelte"
-    },
     "./clock-arrow-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clock-arrow-down.svelte"
@@ -2018,6 +2018,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clock-check.svelte"
     },
+    "./clock-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-exclamation-point.svelte"
+    },
     "./clock-fading": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clock-fading.svelte"
@@ -2033,10 +2037,6 @@
     "./cloud": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud.svelte"
-    },
-    "./cloud-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/cloud-alert.svelte"
     },
     "./cloud-backup": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2057,6 +2057,10 @@
     "./cloud-drizzle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud-drizzle.svelte"
+    },
+    "./cloud-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-exclamation-point.svelte"
     },
     "./cloud-fog": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2417,6 +2421,14 @@
     "./dessert": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dessert.svelte"
+    },
+    "./diagram-flow-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diagram-flow-horizontal.svelte"
+    },
+    "./diagram-flow-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diagram-flow-vertical.svelte"
     },
     "./diameter": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2841,6 +2853,10 @@
     "./file-cog": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-cog.svelte"
+    },
+    "./file-database": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-database.svelte"
     },
     "./file-diff": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3426,6 +3442,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe.svelte"
     },
+    "./globe-ban": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-ban.svelte"
+    },
     "./globe-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe-check.svelte"
@@ -3441,6 +3461,10 @@
     "./globe-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe-off.svelte"
+    },
+    "./globe-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-plus.svelte"
     },
     "./globe-x": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4422,6 +4446,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-dot.svelte"
     },
+    "./mail-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-exclamation-point.svelte"
+    },
     "./mail-minus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-minus.svelte"
@@ -4446,10 +4474,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-search.svelte"
     },
-    "./mail-warning": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/mail-warning.svelte"
-    },
     "./mail-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-x.svelte"
@@ -4461,6 +4485,10 @@
     "./mails": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mails.svelte"
+    },
+    "./mango": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mango.svelte"
     },
     "./map": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4530,6 +4558,34 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/map-plus.svelte"
     },
+    "./margin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/margin.svelte"
+    },
+    "./margin-bottom": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/margin-bottom.svelte"
+    },
+    "./margin-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/margin-horizontal.svelte"
+    },
+    "./margin-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/margin-left.svelte"
+    },
+    "./margin-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/margin-right.svelte"
+    },
+    "./margin-top": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/margin-top.svelte"
+    },
+    "./margin-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/margin-vertical.svelte"
+    },
     "./mars": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mars.svelte"
@@ -4594,6 +4650,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-dashed-check.svelte"
     },
+    "./message-circle-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-circle-exclamation-point.svelte"
+    },
     "./message-circle-heart": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-heart.svelte"
@@ -4622,10 +4682,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-text.svelte"
     },
-    "./message-circle-warning": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/message-circle-warning.svelte"
-    },
     "./message-circle-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-x.svelte"
@@ -4653,6 +4709,10 @@
     "./message-square-dot": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-square-dot.svelte"
+    },
+    "./message-square-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-exclamation-point.svelte"
     },
     "./message-square-heart": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4689,10 +4749,6 @@
     "./message-square-text": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-square-text.svelte"
-    },
-    "./message-square-warning": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/message-square-warning.svelte"
     },
     "./message-square-x": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4781,6 +4837,10 @@
     "./monitor": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/monitor.svelte"
+    },
+    "./monitor-activity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/monitor-activity.svelte"
     },
     "./monitor-check": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5050,9 +5110,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/octagon.svelte"
     },
-    "./octagon-alert": {
+    "./octagon-exclamation-point": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/o/octagon-alert.svelte"
+      "svelte": "./components/o/octagon-exclamation-point.svelte"
     },
     "./octagon-minus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5994,10 +6054,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/search.svelte"
     },
-    "./search-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/search-alert.svelte"
-    },
     "./search-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/search-check.svelte"
@@ -6005,6 +6061,10 @@
     "./search-code": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/search-code.svelte"
+    },
+    "./search-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-exclamation-point.svelte"
     },
     "./search-slash": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6098,10 +6158,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield.svelte"
     },
-    "./shield-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/shield-alert.svelte"
-    },
     "./shield-ban": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-ban.svelte"
@@ -6121,6 +6177,10 @@
     "./shield-ellipsis": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-ellipsis.svelte"
+    },
+    "./shield-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-exclamation-point.svelte"
     },
     "./shield-half": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6741,6 +6801,34 @@
     "./square-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-off.svelte"
+    },
+    "./square-padding": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-padding.svelte"
+    },
+    "./square-padding-bottom": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-padding-bottom.svelte"
+    },
+    "./square-padding-horizontal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-padding-horizontal.svelte"
+    },
+    "./square-padding-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-padding-left.svelte"
+    },
+    "./square-padding-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-padding-right.svelte"
+    },
+    "./square-padding-top": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-padding-top.svelte"
+    },
+    "./square-padding-vertical": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-padding-vertical.svelte"
     },
     "./square-pause": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7410,13 +7498,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/triangle.svelte"
     },
-    "./triangle-alert": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/t/triangle-alert.svelte"
-    },
     "./triangle-dashed": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/triangle-dashed.svelte"
+    },
+    "./triangle-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-exclamation-point.svelte"
     },
     "./triangle-right": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8022,17 +8110,65 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/z/zoom-out.svelte"
     },
+    "./badge-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-alert.svelte"
+    },
+    "./battery-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-warning.svelte"
+    },
     "./bold": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bold.svelte"
+    },
+    "./book-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-alert.svelte"
+    },
+    "./circle-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-alert.svelte"
+    },
+    "./clock-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-alert.svelte"
+    },
+    "./cloud-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-alert.svelte"
     },
     "./heading": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heading.svelte"
     },
+    "./mail-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-warning.svelte"
+    },
+    "./message-circle-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-circle-warning.svelte"
+    },
+    "./message-square-warning": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-warning.svelte"
+    },
     "./music": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/music.svelte"
+    },
+    "./octagon-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octagon-alert.svelte"
+    },
+    "./search-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-alert.svelte"
+    },
+    "./shield-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-alert.svelte"
     },
     "./square-m": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8049,6 +8185,10 @@
     "./trash-2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/trash-2.svelte"
+    },
+    "./triangle-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-alert.svelte"
     },
     "./*": "./*"
   },
