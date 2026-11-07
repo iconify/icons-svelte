@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/u/udo-qjbdc.css';
+import '../../css/g/g2togz17h.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="udo-qjbdc"/>`;
+const content = `<path class="g2togz17h"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:planet-3-broken" {...props}></Icon>

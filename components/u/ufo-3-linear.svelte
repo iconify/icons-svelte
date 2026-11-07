@@ -1,19 +1,19 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/a/ah4q--boj.css';
-import '../../css/j/j5sh7tbio.css';
-import '../../css/i/i15ndub6h.css';
-import '../../css/c/c5hvleook.css';
+import '../../css/m/m6t9d7bky.css';
+import '../../css/e/ei3g7d_fk.css';
+import '../../css/v/v8fzrboci.css';
+import '../../css/a/ar9hbxyso.css';
 import '../../css/l/lpm2e23zo.css';
 import '../../css/k/km0rz_boi.css';
-import '../../css/p/p58puebco.css';
-import '../../css/t/tiodugp1m.css';
+import '../../css/e/e_4yofwch.css';
+import '../../css/j/jak-_uijv.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="ah4q--boj"/><path class="j5sh7tbio"/><path class="i15ndub6h"/><path class="c5hvleook"/><path class="lpm2e23zo"/><path class="km0rz_boi"/><path class="p58puebco"/><path class="tiodugp1m"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="m6t9d7bky"/><path class="ei3g7d_fk"/><path class="v8fzrboci"/><path class="ar9hbxyso"/><path class="lpm2e23zo"/><path class="km0rz_boi"/><path class="e_4yofwch"/><path class="jak-_uijv"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:ufo-3-linear" {...props}></Icon>

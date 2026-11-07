@@ -2,13 +2,13 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/n/nl9qzn-xd.css';
-import '../../css/y/yzw658yku.css';
-import '../../css/w/w2iuc4byh.css';
+import '../../css/k/ktz4j74-r.css';
+import '../../css/w/w0kh5pr9u.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="nl9qzn-xd"/><path class="yzw658yku"/><path class="w2iuc4byh"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="nl9qzn-xd"/><path class="ktz4j74-r"/><path class="w0kh5pr9u"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:temperature-broken" {...props}></Icon>

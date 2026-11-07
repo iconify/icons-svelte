@@ -1,7 +1,7 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/o/oypn1ubbc.css';
+import '../../css/s/shxkxxv-h.css';
 import '../../css/t/tyaij6rok.css';
 import '../../css/v/vy5waob-q.css';
 import '../../css/u/u3xw_g32v.css';
@@ -10,6 +10,6 @@ import '../../css/u/u3xw_g32v.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="oypn1ubbc"/><path class="tyaij6rok"/><path class="vy5waob-q"/><path class="u3xw_g32v"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="shxkxxv-h"/><path class="tyaij6rok"/><path class="vy5waob-q"/><path class="u3xw_g32v"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:remote-controller-minimalistic-line-duotone" {...props}></Icon>

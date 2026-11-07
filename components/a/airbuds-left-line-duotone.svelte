@@ -5,12 +5,12 @@ import '../../css/u/ubwfpy16r.css';
 import '../../css/e/e-jucopue.css';
 import '../../css/g/gydr5xzud.css';
 import '../../css/a/a_mtj062n.css';
-import '../../css/s/sllw21b5i.css';
+import '../../css/u/uwb6dhb5x.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="ubwfpy16r"/><path class="e-jucopue"/><circle transform="matrix(-1 0 0 1 21 11)" class="gydr5xzud"/><path class="a_mtj062n"/><path class="sllw21b5i"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="ubwfpy16r"/><path class="e-jucopue"/><circle transform="matrix(-1 0 0 1 21 11)" class="gydr5xzud"/><path class="a_mtj062n"/><path class="uwb6dhb5x"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:airbuds-left-line-duotone" {...props}></Icon>

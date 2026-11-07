@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/i18y50gyv.css';
+import '../../css/w/w06k5-7cl.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="i18y50gyv"/>`;
+const content = `<path class="w06k5-7cl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:toolbox-bold" {...props}></Icon>

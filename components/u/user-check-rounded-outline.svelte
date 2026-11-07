@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/n/n1p3t8x8f.css';
-import '../../css/l/l-g6_fbox.css';
-import '../../css/i/i3khix54k.css';
+import '../../css/j/j6d250bwp.css';
+import '../../css/c/cf8jt1bey.css';
+import '../../css/j/jt-vrxbga.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="n1p3t8x8f"/><path class="l-g6_fbox"/><path clip-rule="evenodd" class="i3khix54k"/></g>`;
+const content = `<path clip-rule="evenodd" class="j6d250bwp"/><path class="cf8jt1bey"/><path clip-rule="evenodd" class="jt-vrxbga"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:user-check-rounded-outline" {...props}></Icon>

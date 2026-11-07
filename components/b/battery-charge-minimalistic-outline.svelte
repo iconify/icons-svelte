@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/o/oixm9mbkq.css';
-import '../../css/f/f-n3xro7a.css';
-import '../../css/p/pxo13_1dv.css';
+import '../../css/m/mp600_i4z.css';
+import '../../css/o/osemxebgc.css';
+import '../../css/j/jy0yf6bpc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="oixm9mbkq"/><path clip-rule="evenodd" class="f-n3xro7a"/><path class="pxo13_1dv"/></g>`;
+const content = `<path class="mp600_i4z"/><path clip-rule="evenodd" class="osemxebgc"/><path class="jy0yf6bpc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:battery-charge-minimalistic-outline" {...props}></Icon>

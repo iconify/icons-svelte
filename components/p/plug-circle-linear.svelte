@@ -1,7 +1,7 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/e/eigqorbgt.css';
+import '../../css/z/zxf8dltmg.css';
 import '../../css/h/h0rtdjbeb.css';
 import '../../css/n/ndcdy4d6d.css';
 import '../../css/z/zvfketbhl.css';
@@ -10,6 +10,6 @@ import '../../css/z/zvfketbhl.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="eigqorbgt"/><path class="h0rtdjbeb"/><path class="ndcdy4d6d"/><path class="zvfketbhl"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="zxf8dltmg"/><path class="h0rtdjbeb"/><path class="ndcdy4d6d"/><path class="zvfketbhl"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:plug-circle-linear" {...props}></Icon>

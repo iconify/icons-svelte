@@ -1,15 +1,14 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/y/y7o_jqxqr.css';
-import '../../css/g/gapqp1bwb.css';
-import '../../css/h/hs8q6tbjn.css';
-import '../../css/v/vheqg2b0h.css';
+import '../../css/i/ia1u17bin.css';
+import '../../css/c/cg7x8js6g.css';
+import '../../css/e/em-82ubin.css';
+import '../../css/s/sno1kmbxw.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="y7o_jqxqr"/><path clip-rule="evenodd" class="gapqp1bwb"/><path class="hs8q6tbjn"/><path clip-rule="evenodd" class="vheqg2b0h"/></g>`;
+const content = `<path clip-rule="evenodd" class="ia1u17bin"/><path clip-rule="evenodd" class="cg7x8js6g"/><path class="em-82ubin"/><path clip-rule="evenodd" class="sno1kmbxw"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:airbuds-charge-bold" {...props}></Icon>

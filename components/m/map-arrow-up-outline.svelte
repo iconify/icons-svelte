@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/e/epyhpacii.css';
+import '../../css/k/kiragfjue.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="epyhpacii"/>`;
+const content = `<path clip-rule="evenodd" class="kiragfjue"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:map-arrow-up-outline" {...props}></Icon>

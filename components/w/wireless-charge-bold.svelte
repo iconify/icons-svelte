@@ -1,13 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/y/y35wp_bax.css';
-import '../../css/g/glqy23b9h.css';
+import '../../css/f/fmr5y1isy.css';
+import '../../css/i/i_u1m3bih.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="y35wp_bax"/><path class="glqy23b9h"/></g>`;
+const content = `<path clip-rule="evenodd" class="fmr5y1isy"/><path class="i_u1m3bih"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:wireless-charge-bold" {...props}></Icon>

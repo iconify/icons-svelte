@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/onwk3j-1y.css';
+import '../../css/a/at9nt_-im.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="onwk3j-1y"/>`;
+const content = `<path class="at9nt_-im"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:flame-linear" {...props}></Icon>

@@ -1,8 +1,7 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/h/hna7n1bsd.css';
-import '../../css/m/mc2zb0bvp.css';
+import '../../css/j/j645jhbza.css';
+import '../../css/x/xtpeb-edw.css';
 import '../../css/g/gjdm3pbxq.css';
 import '../../css/w/wryprvbkm.css';
 
@@ -10,6 +9,6 @@ import '../../css/w/wryprvbkm.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="hna7n1bsd"/><g class="mc2zb0bvp"><path class="gjdm3pbxq"/><path class="wryprvbkm"/></g></g>`;
+const content = `<path clip-rule="evenodd" class="j645jhbza"/><g class="xtpeb-edw"><path class="gjdm3pbxq"/><path class="wryprvbkm"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:quit-full-screen-bold-duotone" {...props}></Icon>

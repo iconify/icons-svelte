@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/v/v2dq6fbgh.css';
+import '../../css/e/ezvnicbqv.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="v2dq6fbgh"/>`;
+const content = `<path class="ezvnicbqv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:cart-large-4-bold" {...props}></Icon>

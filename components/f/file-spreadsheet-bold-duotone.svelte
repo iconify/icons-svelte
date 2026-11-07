@@ -1,17 +1,16 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/y/ya_55rppu.css';
-import '../../css/o/op0p246rb.css';
-import '../../css/f/f3j_kib7w.css';
-import '../../css/c/cigu36b9l.css';
-import '../../css/s/s6ysxzb1g.css';
-import '../../css/s/s8qju0q_z.css';
+import '../../css/o/oj6gwrmjs.css';
+import '../../css/i/ixw1cy8fb.css';
+import '../../css/g/g502-xb2c.css';
+import '../../css/m/mdomo9bqv.css';
+import '../../css/a/a04zgy3zm.css';
+import '../../css/x/x4f46-b2l.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="ya_55rppu"/><path class="op0p246rb"/><path class="f3j_kib7w"/><path class="cigu36b9l"/><path class="s6ysxzb1g"/><path class="s8qju0q_z"/></g>`;
+const content = `<path clip-rule="evenodd" class="oj6gwrmjs"/><path class="ixw1cy8fb"/><path class="g502-xb2c"/><path class="mdomo9bqv"/><path class="a04zgy3zm"/><path class="x4f46-b2l"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:file-spreadsheet-bold-duotone" {...props}></Icon>

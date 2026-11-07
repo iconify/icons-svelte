@@ -2,7 +2,7 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/v/vgdrhu2qc.css';
-import '../../css/b/buo1kubox.css';
+import '../../css/v/v77ej-64o.css';
 import '../../css/z/zwiw2-bkv.css';
 import '../../css/g/g3w7qrfpr.css';
 
@@ -10,6 +10,6 @@ import '../../css/g/g3w7qrfpr.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="vgdrhu2qc"/><path class="buo1kubox"/><path class="zwiw2-bkv"/><path class="g3w7qrfpr"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="vgdrhu2qc"/><path class="v77ej-64o"/><path class="zwiw2-bkv"/><path class="g3w7qrfpr"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:bag-4-broken" {...props}></Icon>

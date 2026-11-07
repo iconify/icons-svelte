@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/m/mp31mgdgq.css';
+import '../../css/g/g0udpcchx.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="mp31mgdgq"/>`;
+const content = `<path clip-rule="evenodd" class="g0udpcchx"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:black-hole-2-outline" {...props}></Icon>

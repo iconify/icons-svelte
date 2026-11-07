@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/t/txk6dwbhy.css';
-import '../../css/r/rucygrbbc.css';
+import '../../css/y/yx7codbhz.css';
+import '../../css/n/n3w6d7hoa.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="txk6dwbhy"/><path class="rucygrbbc"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="yx7codbhz"/><path class="n3w6d7hoa"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:snowflake-line-duotone" {...props}></Icon>

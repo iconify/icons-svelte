@@ -2,7 +2,7 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/d/d-3h37-ms.css';
-import '../../css/r/ruv56nblh.css';
+import '../../css/z/zjfd1kaum.css';
 import '../../css/b/byonj9b2c.css';
 import '../../css/h/h4m9tpedx.css';
 
@@ -10,6 +10,6 @@ import '../../css/h/h4m9tpedx.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="d-3h37-ms"/><path class="ruv56nblh"/><path class="byonj9b2c"/><path class="h4m9tpedx"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="d-3h37-ms"/><path class="zjfd1kaum"/><path class="byonj9b2c"/><path class="h4m9tpedx"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:document-medicine-broken" {...props}></Icon>

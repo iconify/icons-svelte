@@ -1,13 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/i/ilfmgbc3c.css';
-import '../../css/z/zl063ub9s.css';
+import '../../css/w/wygv-re1g.css';
+import '../../css/t/t6-wmjb2y.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="ilfmgbc3c"/><path class="zl063ub9s"/></g>`;
+const content = `<path clip-rule="evenodd" class="wygv-re1g"/><path class="t6-wmjb2y"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:crop-bold" {...props}></Icon>

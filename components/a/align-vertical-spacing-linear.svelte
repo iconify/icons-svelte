@@ -3,12 +3,12 @@ import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/y/yszjebc_r.css';
 import '../../css/j/jlzv4qbob.css';
-import '../../css/q/qv_d-ebdy.css';
+import '../../css/j/jqjum4bpa.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="yszjebc_r"/><path class="jlzv4qbob"/><path class="qv_d-ebdy"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="yszjebc_r"/><path class="jlzv4qbob"/><path class="jqjum4bpa"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:align-vertical-spacing-linear" {...props}></Icon>

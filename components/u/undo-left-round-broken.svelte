@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/m/mw0zmzb3c.css';
+import '../../css/l/lkkez7bnt.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="mw0zmzb3c"/>`;
+const content = `<path class="lkkez7bnt"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:undo-left-round-broken" {...props}></Icon>

@@ -1,16 +1,15 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/e/ezl73fbik.css';
-import '../../css/u/uzsfyvbpo.css';
-import '../../css/v/vq-hpzb2x.css';
-import '../../css/o/oaxy24_qm.css';
-import '../../css/u/u5bqo67kp.css';
+import '../../css/c/cdva5qsyp.css';
+import '../../css/j/jwcaxlbam.css';
+import '../../css/k/kll7rqb_y.css';
+import '../../css/z/zpih-bbov.css';
+import '../../css/t/t5k-_f5ou.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="ezl73fbik"/><path class="uzsfyvbpo"/><path class="vq-hpzb2x"/><path class="oaxy24_qm"/><path clip-rule="evenodd" class="u5bqo67kp"/></g>`;
+const content = `<path class="cdva5qsyp"/><path class="jwcaxlbam"/><path class="kll7rqb_y"/><path class="zpih-bbov"/><path clip-rule="evenodd" class="t5k-_f5ou"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:maximize-square-2-outline" {...props}></Icon>

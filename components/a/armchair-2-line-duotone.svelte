@@ -1,7 +1,7 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/z/zpurlkajd.css';
+import '../../css/d/d5qib_b7x.css';
 import '../../css/z/z-47jyb-q.css';
 import '../../css/p/ppy_pacey.css';
 
@@ -9,6 +9,6 @@ import '../../css/p/ppy_pacey.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="zpurlkajd"/><path class="z-47jyb-q"/><path class="ppy_pacey"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="d5qib_b7x"/><path class="z-47jyb-q"/><path class="ppy_pacey"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:armchair-2-line-duotone" {...props}></Icon>

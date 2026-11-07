@@ -2,7 +2,7 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/z/zkn3xyt6c.css';
-import '../../css/m/m390b8qby.css';
+import '../../css/m/my5268blj.css';
 import '../../css/p/phi7aibzw.css';
 import '../../css/a/aui1_r5dv.css';
 
@@ -10,6 +10,6 @@ import '../../css/a/aui1_r5dv.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="zkn3xyt6c"/><path class="m390b8qby"/><path class="phi7aibzw"/><path class="aui1_r5dv"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="zkn3xyt6c"/><path class="my5268blj"/><path class="phi7aibzw"/><path class="aui1_r5dv"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:clipboard-heart-line-duotone" {...props}></Icon>

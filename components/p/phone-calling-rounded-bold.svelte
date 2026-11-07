@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/z/zz9d3cczj.css';
-import '../../css/p/pr0u_cb3y.css';
-import '../../css/b/b04dfdbto.css';
+import '../../css/c/cquf3bccv.css';
+import '../../css/q/qv0degibz.css';
+import '../../css/j/jcweppbdj.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="zz9d3cczj"/><path class="pr0u_cb3y"/><path class="b04dfdbto"/></g>`;
+const content = `<path class="cquf3bccv"/><path class="qv0degibz"/><path class="jcweppbdj"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:phone-calling-rounded-bold" {...props}></Icon>

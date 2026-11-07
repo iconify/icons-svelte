@@ -1,7 +1,7 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/i/ipq1z-bjh.css';
-import '../../css/y/ye7qo4bza.css';
+import '../../css/r/r-tv-oxcw.css';
 import '../../css/e/ezkmwabnq.css';
 import '../../css/j/janxgzbgp.css';
 
@@ -9,6 +9,6 @@ import '../../css/j/janxgzbgp.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="ye7qo4bza"/><path class="ezkmwabnq"/><path class="janxgzbgp"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="r-tv-oxcw"/><path class="ezkmwabnq"/><path class="janxgzbgp"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:posts-carousel-vertical-linear" {...props}></Icon>
