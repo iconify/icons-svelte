@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -830,6 +830,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dbeaver.svelte"
     },
+    "./dbt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dbt.svelte"
+    },
     "./dbvisualizer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dbvisualizer.svelte"
@@ -1590,6 +1594,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/helm.svelte"
     },
+    "./hermes": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hermes.svelte"
+    },
     "./heroku": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heroku.svelte"
@@ -1837,6 +1845,10 @@
     "./jhipster-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/jhipster-wordmark.svelte"
+    },
+    "./jinja": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jinja.svelte"
     },
     "./jira": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2297,6 +2309,14 @@
     "./minitab": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/minitab.svelte"
+    },
+    "./mise": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mise.svelte"
+    },
+    "./mise-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mise-wordmark.svelte"
     },
     "./mithril": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4117,6 +4137,14 @@
     "./veevalidate": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/veevalidate.svelte"
+    },
+    "./velite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/velite.svelte"
+    },
+    "./velite-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/v/velite-wordmark.svelte"
     },
     "./vercel": {
       "types": "./types/gfwqskkx.d.ts",
