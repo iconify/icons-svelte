@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/carbon",
   "type": "module",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "homepage": "https://icon-sets.iconify.design/carbon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "Apache-2.0",
@@ -854,6 +854,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bluetooth-off.svelte"
     },
+    "./bobcoin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bobcoin.svelte"
+    },
+    "./bobcoin-consumption": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bobcoin-consumption.svelte"
+    },
     "./book": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book.svelte"
@@ -1137,6 +1145,10 @@
     "./cafe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cafe.svelte"
+    },
+    "./cafe-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cafe-alt.svelte"
     },
     "./calculation": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5002,6 +5014,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ibm-i.svelte"
     },
+    "./ibm-i-alt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ibm-i-alt.svelte"
+    },
     "./ibm-ibv": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ibm-ibv.svelte"
@@ -5349,6 +5365,10 @@
     "./ibm-z-processor-capacity-reference": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ibm-z-processor-capacity-reference.svelte"
+    },
+    "./ibm-z17": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/ibm-z17.svelte"
     },
     "./ica-2d": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8761,6 +8781,10 @@
     "./shield-alert": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-alert.svelte"
+    },
+    "./shield-infinity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-infinity.svelte"
     },
     "./shipment-delivery": {
       "types": "./types/gfwqskkx.d.ts",
