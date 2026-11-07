@@ -1,11 +1,27 @@
 {
   "name": "@iconify-svelte/sidekickicons",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/sidekickicons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
   "exports": {
+    "./ad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ad.svelte"
+    },
+    "./ad-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ad-16-solid.svelte"
+    },
+    "./ad-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ad-20-solid.svelte"
+    },
+    "./ad-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/ad-solid.svelte"
+    },
     "./anchor": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/anchor.svelte"
@@ -262,6 +278,38 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-uturn-down-right-solid.svelte"
     },
+    "./arrow-uturn-left-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-left-down.svelte"
+    },
+    "./arrow-uturn-left-down-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-left-down-16-solid.svelte"
+    },
+    "./arrow-uturn-left-down-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-left-down-20-solid.svelte"
+    },
+    "./arrow-uturn-left-down-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-left-down-solid.svelte"
+    },
+    "./arrow-uturn-right-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-right-down.svelte"
+    },
+    "./arrow-uturn-right-down-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-right-down-16-solid.svelte"
+    },
+    "./arrow-uturn-right-down-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-right-down-20-solid.svelte"
+    },
+    "./arrow-uturn-right-down-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-uturn-right-down-solid.svelte"
+    },
     "./arrow-uturn-up-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-uturn-up-left.svelte"
@@ -326,6 +374,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-solid.svelte"
     },
+    "./barrier": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/barrier.svelte"
+    },
+    "./barrier-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/barrier-16-solid.svelte"
+    },
+    "./barrier-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/barrier-20-solid.svelte"
+    },
+    "./barrier-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/barrier-solid.svelte"
+    },
     "./bars-3-bottom-center": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bars-3-bottom-center.svelte"
@@ -374,6 +438,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-75-solid.svelte"
     },
+    "./battery-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging.svelte"
+    },
+    "./battery-charging-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-16-solid.svelte"
+    },
+    "./battery-charging-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-20-solid.svelte"
+    },
+    "./battery-charging-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging-solid.svelte"
+    },
     "./blockquote": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/blockquote.svelte"
@@ -421,6 +501,70 @@
     "./camera-rotate-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/camera-rotate-solid.svelte"
+    },
+    "./car": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car.svelte"
+    },
+    "./car-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-16-solid.svelte"
+    },
+    "./car-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-20-solid.svelte"
+    },
+    "./car-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-solid.svelte"
+    },
+    "./cc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cc.svelte"
+    },
+    "./cc-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cc-16-solid.svelte"
+    },
+    "./cc-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cc-20-solid.svelte"
+    },
+    "./cc-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cc-solid.svelte"
+    },
+    "./chart-line-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-down.svelte"
+    },
+    "./chart-line-down-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-down-16-solid.svelte"
+    },
+    "./chart-line-down-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-down-20-solid.svelte"
+    },
+    "./chart-line-down-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-down-solid.svelte"
+    },
+    "./chart-line-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-up.svelte"
+    },
+    "./chart-line-up-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-up-16-solid.svelte"
+    },
+    "./chart-line-up-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-up-20-solid.svelte"
+    },
+    "./chart-line-up-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-line-up-solid.svelte"
     },
     "./check-double": {
       "types": "./types/gfwqskkx.d.ts",
@@ -806,6 +950,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dots-3x3-solid.svelte"
     },
+    "./dumbbell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dumbbell.svelte"
+    },
+    "./dumbbell-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dumbbell-16-solid.svelte"
+    },
+    "./dumbbell-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dumbbell-20-solid.svelte"
+    },
+    "./dumbbell-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dumbbell-solid.svelte"
+    },
     "./eraser": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eraser.svelte"
@@ -821,6 +981,22 @@
     "./eraser-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eraser-solid.svelte"
+    },
+    "./face-id": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-id.svelte"
+    },
+    "./face-id-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-id-16-solid.svelte"
+    },
+    "./face-id-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-id-20-solid.svelte"
+    },
+    "./face-id-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/face-id-solid.svelte"
     },
     "./face-meh": {
       "types": "./types/gfwqskkx.d.ts",
@@ -869,6 +1045,38 @@
     "./floppy-disk-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/floppy-disk-solid.svelte"
+    },
+    "./folder-x-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-mark.svelte"
+    },
+    "./folder-x-mark-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-mark-16-solid.svelte"
+    },
+    "./folder-x-mark-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-mark-20-solid.svelte"
+    },
+    "./folder-x-mark-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-x-mark-solid.svelte"
+    },
+    "./fork-knife": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fork-knife.svelte"
+    },
+    "./fork-knife-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fork-knife-16-solid.svelte"
+    },
+    "./fork-knife-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fork-knife-20-solid.svelte"
+    },
+    "./fork-knife-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fork-knife-solid.svelte"
     },
     "./forward-bar": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1045,6 +1253,22 @@
     "./h6-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/h6-solid.svelte"
+    },
+    "./hammer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hammer.svelte"
+    },
+    "./hammer-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hammer-16-solid.svelte"
+    },
+    "./hammer-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hammer-20-solid.svelte"
+    },
+    "./hammer-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hammer-solid.svelte"
     },
     "./heading": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1446,6 +1670,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pin-solid.svelte"
     },
+    "./plug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug.svelte"
+    },
+    "./plug-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-16-solid.svelte"
+    },
+    "./plug-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-20-solid.svelte"
+    },
+    "./plug-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-solid.svelte"
+    },
     "./quotation-mark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quotation-mark.svelte"
@@ -1606,6 +1846,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/star-half-solid.svelte"
     },
+    "./stethoscope": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope.svelte"
+    },
+    "./stethoscope-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-16-solid.svelte"
+    },
+    "./stethoscope-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-20-solid.svelte"
+    },
+    "./stethoscope-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stethoscope-solid.svelte"
+    },
     "./table-cells-merge": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/table-cells-merge.svelte"
@@ -1669,6 +1925,22 @@
     "./triangle-solid": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/triangle-solid.svelte"
+    },
+    "./usb": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usb.svelte"
+    },
+    "./usb-16-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usb-16-solid.svelte"
+    },
+    "./usb-20-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usb-20-solid.svelte"
+    },
+    "./usb-solid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/usb-solid.svelte"
     },
     "./video-camera-arrow-down-left": {
       "types": "./types/gfwqskkx.d.ts",
