@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.84",
+  "version": "1.0.85",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -1729,6 +1729,10 @@
     "./circle-fading-arrow-up": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-fading-arrow-up.svelte"
+    },
+    "./circle-fading-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-fading-check.svelte"
     },
     "./circle-fading-play": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3690,6 +3694,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grid-3x3.svelte"
     },
+    "./grid-3x3-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-3x3-off.svelte"
+    },
     "./grip": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grip.svelte"
@@ -5126,6 +5134,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mop-sparkles.svelte"
     },
+    "./moped": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moped.svelte"
+    },
     "./mosque": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mosque.svelte"
@@ -5354,6 +5366,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/omega.svelte"
     },
+    "./opacity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opacity.svelte"
+    },
     "./option": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/option.svelte"
@@ -5386,9 +5402,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-open.svelte"
     },
+    "./package-pen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-pen.svelte"
+    },
     "./package-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-plus.svelte"
+    },
+    "./package-question-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-question-mark.svelte"
     },
     "./package-search": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6886,6 +6910,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-dashed-plus.svelte"
     },
+    "./square-dashed-search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-dashed-search.svelte"
+    },
     "./square-dashed-text": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-dashed-text.svelte"
@@ -7926,6 +7954,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-cog.svelte"
     },
+    "./user-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-exclamation-point.svelte"
+    },
     "./user-group": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-group.svelte"
@@ -7965,6 +7997,10 @@
     "./user-round-cog": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-round-cog.svelte"
+    },
+    "./user-round-exclamation-point": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-round-exclamation-point.svelte"
     },
     "./user-round-group": {
       "types": "./types/gfwqskkx.d.ts",
