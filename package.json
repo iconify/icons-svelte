@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/material-symbols",
   "type": "module",
-  "version": "1.0.56",
+  "version": "1.0.57",
   "homepage": "https://icon-sets.iconify.design/material-symbols/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "Apache-2.0",
@@ -17201,6 +17201,30 @@
     "./devices": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/devices.svelte"
+    },
+    "./devices-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-2.svelte"
+    },
+    "./devices-2-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-2-outline.svelte"
+    },
+    "./devices-2-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-2-outline-rounded.svelte"
+    },
+    "./devices-2-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-2-outline-sharp.svelte"
+    },
+    "./devices-2-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-2-rounded.svelte"
+    },
+    "./devices-2-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/devices-2-sharp.svelte"
     },
     "./devices-fold": {
       "types": "./types/gfwqskkx.d.ts",
@@ -36570,6 +36594,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mintmark-sharp.svelte"
     },
+    "./mirror-stack": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-stack.svelte"
+    },
+    "./mirror-stack-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-stack-outline.svelte"
+    },
+    "./mirror-stack-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-stack-outline-sharp.svelte"
+    },
+    "./mirror-stack-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-stack-sharp.svelte"
+    },
     "./missed-video-call": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/missed-video-call.svelte"
@@ -43114,6 +43154,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/payment-card-outline-sharp.svelte"
     },
+    "./payment-card-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/payment-card-rounded.svelte"
+    },
+    "./payment-card-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/payment-card-sharp.svelte"
+    },
     "./payments": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/payments.svelte"
@@ -46673,6 +46721,22 @@
     "./published-with-changes-rounded": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/published-with-changes-rounded.svelte"
+    },
+    "./pull-request": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pull-request.svelte"
+    },
+    "./pull-request-outline": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pull-request-outline.svelte"
+    },
+    "./pull-request-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pull-request-outline-rounded.svelte"
+    },
+    "./pull-request-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pull-request-rounded.svelte"
     },
     "./pulmonology": {
       "types": "./types/gfwqskkx.d.ts",
@@ -83618,6 +83682,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mintmark-outline-sharp.svelte"
     },
+    "./mirror-stack-outline-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-stack-outline-rounded.svelte"
+    },
+    "./mirror-stack-rounded": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mirror-stack-rounded.svelte"
+    },
     "./missing-controller-outline": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/missing-controller-outline.svelte"
@@ -86778,14 +86850,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pause-sharp.svelte"
     },
-    "./payment-card-rounded": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/payment-card-rounded.svelte"
-    },
-    "./payment-card-sharp": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/p/payment-card-sharp.svelte"
-    },
     "./pediatrics-outline-rounded": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pediatrics-outline-rounded.svelte"
@@ -88333,6 +88397,14 @@
     "./published-with-changes-sharp": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/published-with-changes-sharp.svelte"
+    },
+    "./pull-request-outline-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pull-request-outline-sharp.svelte"
+    },
+    "./pull-request-sharp": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pull-request-sharp.svelte"
     },
     "./punch-clock-sharp": {
       "types": "./types/gfwqskkx.d.ts",
