@@ -5,26 +5,26 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="yktsg0b5t"/><path class="v-q3t9ivr"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="o42c4u5zt"/><path class="e71wle9zp"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:monitor-play-duotone-sharp" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.v-q3t9ivr) {
+:global(.e71wle9zp) {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M4 4h16v13H4Zm5 16h6M10 7v6l4-3Z");
+  d: path("M4 4h16v13H4Zm5 16h6M10 7l5 3.5l-5 3.5Z");
 }
 
-:global(.yktsg0b5t) {
+:global(.ft5dv1b6b) {
+  fill: none;
+}
+
+:global(.o42c4u5zt) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M20 4v13H4V4Zm-6 6l-4-3v6Z");
+  d: path("M20 4v13H4V4Z");
 }
 
 </style>
