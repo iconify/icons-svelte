@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1146,6 +1146,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/groovy.svelte"
     },
+    "./groq": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/groq.svelte"
+    },
     "./grpc": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grpc.svelte"
@@ -1941,6 +1945,14 @@
     "./nextjs": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nextjs.svelte"
+    },
+    "./nginx": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nginx.svelte"
+    },
+    "./nginx-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nginx-wordmark.svelte"
     },
     "./ngrx": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2785,6 +2797,10 @@
     "./stackblitz-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stackblitz-wordmark.svelte"
+    },
+    "./stackit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackit.svelte"
     },
     "./stackoverflow": {
       "types": "./types/gfwqskkx.d.ts",
