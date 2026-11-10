@@ -91,20 +91,20 @@ There are 260 branches in this repository, one for each icon set.
 ### UI 24px
 
 - [#solar](https://github.com/iconify/icons-svelte/tree/solar): **Solar** (8706 icons, CC BY 4.0)
-- [#tabler](https://github.com/iconify/icons-svelte/tree/tabler): **Tabler Icons** (6257 icons, MIT)
+- [#tabler](https://github.com/iconify/icons-svelte/tree/tabler): **Tabler Icons** (6287 icons, MIT)
 - [#iconoven](https://github.com/iconify/icons-svelte/tree/iconoven): **IconOven** (18236 icons, MIT)
 - [#coolicons](https://github.com/iconify/icons-svelte/tree/coolicons): **coolicons** (19860 icons, MIT)
 - [#boxicons](https://github.com/iconify/icons-svelte/tree/boxicons): **Boxicons** (3768 icons, MIT)
 - [#mingcute](https://github.com/iconify/icons-svelte/tree/mingcute): **MingCute Icon** (4526 icons, Apache 2.0)
-- [#keyline-icons](https://github.com/iconify/icons-svelte/tree/keyline-icons): **Keyline Icons** (13536 icons, MIT)
+- [#keyline-icons](https://github.com/iconify/icons-svelte/tree/keyline-icons): **Keyline Icons** (14664 icons, MIT)
 - [#ri](https://github.com/iconify/icons-svelte/tree/ri): **Remix Icon** (3188 icons, Apache 2.0)
 - [#mynaui](https://github.com/iconify/icons-svelte/tree/mynaui): **Myna UI Icons** (2620 icons, MIT)
-- [#andrsrxn](https://github.com/iconify/icons-svelte/tree/andrsrxn): **andrsrxn/icons** (2773 icons, MIT)
+- [#andrsrxn](https://github.com/iconify/icons-svelte/tree/andrsrxn): **andrsrxn/icons** (2772 icons, MIT)
 - [#griddy-icons](https://github.com/iconify/icons-svelte/tree/griddy-icons): **Griddy Icons** (2010 icons, MIT)
 - [#iconamoon](https://github.com/iconify/icons-svelte/tree/iconamoon): **IconaMoon** (1781 icons, CC BY 4.0)
 - [#iconoir](https://github.com/iconify/icons-svelte/tree/iconoir): **Iconoir** (1671 icons, MIT)
-- [#lucide](https://github.com/iconify/icons-svelte/tree/lucide): **Lucide** (2029 icons, ISC)
-- [#lucide-extended](https://github.com/iconify/icons-svelte/tree/lucide-extended): **Lucide Extended** (2879 icons, ISC)
+- [#lucide](https://github.com/iconify/icons-svelte/tree/lucide): **Lucide** (2046 icons, ISC)
+- [#lucide-extended](https://github.com/iconify/icons-svelte/tree/lucide-extended): **Lucide Extended** (2900 icons, ISC)
 - [#lucide-lab](https://github.com/iconify/icons-svelte/tree/lucide-lab): **Lucide Lab** (373 icons, ISC)
 - [#uil](https://github.com/iconify/icons-svelte/tree/uil): **Unicons** (1215 icons, Apache 2.0)
 - [#tdesign](https://github.com/iconify/icons-svelte/tree/tdesign): **TDesign Icons** (2358 icons, MIT)
@@ -149,7 +149,7 @@ There are 260 branches in this repository, one for each icon set.
 - [#lineicons](https://github.com/iconify/icons-svelte/tree/lineicons): **Lineicons** (606 icons, MIT)
 - [#wordpress](https://github.com/iconify/icons-svelte/tree/wordpress): **WordPress Icons** (344 icons, GPL)
 - [#struq](https://github.com/iconify/icons-svelte/tree/struq): **Struq Icons** (300 icons, MIT)
-- [#matita](https://github.com/iconify/icons-svelte/tree/matita): **Matita** (302 icons, MIT)
+- [#matita](https://github.com/iconify/icons-svelte/tree/matita): **Matita** (383 icons, MIT)
 - [#icon-park-outline](https://github.com/iconify/icons-svelte/tree/icon-park-outline): **IconPark Outline** (2658 icons, Apache 2.0)
 - [#icon-park-solid](https://github.com/iconify/icons-svelte/tree/icon-park-solid): **IconPark Solid** (1947 icons, Apache 2.0)
 - [#icon-park-twotone](https://github.com/iconify/icons-svelte/tree/icon-park-twotone): **IconPark TwoTone** (1944 icons, Apache 2.0)
@@ -168,7 +168,7 @@ There are 260 branches in this repository, one for each icon set.
 - [#lsicon](https://github.com/iconify/icons-svelte/tree/lsicon): **Lsicon** (716 icons, MIT)
 - [#gravity-ui](https://github.com/iconify/icons-svelte/tree/gravity-ui): **Gravity UI Icons** (809 icons, MIT)
 - [#cil](https://github.com/iconify/icons-svelte/tree/cil): **CoreUI Free** (554 icons, CC BY 4.0)
-- [#at-icons](https://github.com/iconify/icons-svelte/tree/at-icons): **@icons** (642 icons, MIT)
+- [#at-icons](https://github.com/iconify/icons-svelte/tree/at-icons): **@icons** (705 icons, MIT)
 - [#ep](https://github.com/iconify/icons-svelte/tree/ep): **Element Plus** (293 icons, MIT)
 - [#charm](https://github.com/iconify/icons-svelte/tree/charm): **Charm Icons** (261 icons, MIT)
 - [#quill](https://github.com/iconify/icons-svelte/tree/quill): **Quill Icons** (140 icons, MIT)
@@ -200,7 +200,7 @@ There are 260 branches in this repository, one for each icon set.
 - [#codex](https://github.com/iconify/icons-svelte/tree/codex): **CodeX Icons** (156 icons, MIT)
 - [#ei](https://github.com/iconify/icons-svelte/tree/ei): **Evil Icons** (70 icons, MIT)
 - [#heroicons](https://github.com/iconify/icons-svelte/tree/heroicons): **HeroIcons** (1288 icons, MIT)
-- [#sidekickicons](https://github.com/iconify/icons-svelte/tree/sidekickicons): **SidekickIcons** (500 icons, MIT)
+- [#sidekickicons](https://github.com/iconify/icons-svelte/tree/sidekickicons): **SidekickIcons** (644 icons, MIT)
 - [#garden](https://github.com/iconify/icons-svelte/tree/garden): **Garden SVG Icons** (1491 icons, Apache 2.0)
 - [#pepicons-pop](https://github.com/iconify/icons-svelte/tree/pepicons-pop): **Pepicons Pop!** (1275 icons, CC BY 4.0)
 - [#pepicons-print](https://github.com/iconify/icons-svelte/tree/pepicons-print): **Pepicons Print** (1275 icons, CC BY 4.0)
@@ -253,12 +253,12 @@ There are 260 branches in this repository, one for each icon set.
 
 ### Programming
 
-- [#vscode-icons](https://github.com/iconify/icons-svelte/tree/vscode-icons): **VSCode Icons** (1719 icons, MIT)
+- [#vscode-icons](https://github.com/iconify/icons-svelte/tree/vscode-icons): **VSCode Icons** (1720 icons, MIT)
 - [#codicon](https://github.com/iconify/icons-svelte/tree/codicon): **Codicons** (657 icons, CC BY 4.0)
 - [#material-icon-theme](https://github.com/iconify/icons-svelte/tree/material-icon-theme): **Material Icon Theme** (910 icons, MIT)
 - [#file-icons](https://github.com/iconify/icons-svelte/tree/file-icons): **File Icons** (930 icons, ISC)
-- [#devicon](https://github.com/iconify/icons-svelte/tree/devicon): **Devicon** (1111 icons, MIT)
-- [#devicon-plain](https://github.com/iconify/icons-svelte/tree/devicon-plain): **Devicon Plain** (805 icons, MIT)
+- [#devicon](https://github.com/iconify/icons-svelte/tree/devicon): **Devicon** (1121 icons, MIT)
+- [#devicon-plain](https://github.com/iconify/icons-svelte/tree/devicon-plain): **Devicon Plain** (809 icons, MIT)
 - [#catppuccin](https://github.com/iconify/icons-svelte/tree/catppuccin): **Catppuccin Icons** (656 icons, MIT)
 - [#skill-icons](https://github.com/iconify/icons-svelte/tree/skill-icons): **Skill Icons** (400 icons, MIT)
 - [#gcp](https://github.com/iconify/icons-svelte/tree/gcp): **Google Cloud Icons** (214 icons, Apache 2.0)
@@ -267,7 +267,7 @@ There are 260 branches in this repository, one for each icon set.
 
 ### Logos
 
-- [#simple-icons](https://github.com/iconify/icons-svelte/tree/simple-icons): **Simple Icons** (3467 icons, CC0 1.0)
+- [#simple-icons](https://github.com/iconify/icons-svelte/tree/simple-icons): **Simple Icons** (3470 icons, CC0 1.0)
 - [#logos](https://github.com/iconify/icons-svelte/tree/logos): **SVG Logos** (2064 icons, CC0)
 - [#streamline-logos](https://github.com/iconify/icons-svelte/tree/streamline-logos): **Logos free icons** (1362 icons, CC BY 4.0)
 - [#cib](https://github.com/iconify/icons-svelte/tree/cib): **CoreUI Brands** (830 icons, CC0 1.0)
@@ -277,7 +277,7 @@ There are 260 branches in this repository, one for each icon set.
 - [#thesvg](https://github.com/iconify/icons-svelte/tree/thesvg): **theSVG** (3805 icons, MIT)
 - [#thesvg-color](https://github.com/iconify/icons-svelte/tree/thesvg-color): **theSVG Color** (5204 icons, MIT)
 - [#selfhst](https://github.com/iconify/icons-svelte/tree/selfhst): **selfh.st/icons** (7332 icons, CC BY 4.0)
-- [#cbi](https://github.com/iconify/icons-svelte/tree/cbi): **Custom Brand Icons** (1790 icons, CC BY-NC-SA 4.0)
+- [#cbi](https://github.com/iconify/icons-svelte/tree/cbi): **Custom Brand Icons** (1792 icons, CC BY-NC-SA 4.0)
 - [#brandico](https://github.com/iconify/icons-svelte/tree/brandico): **Brandico** (45 icons, CC BY SA)
 - [#entypo-social](https://github.com/iconify/icons-svelte/tree/entypo-social): **Entypo+ Social** (76 icons, CC BY-SA 4.0)
 - [#token](https://github.com/iconify/icons-svelte/tree/token): **Web3 Icons** (1788 icons, MIT)
@@ -301,7 +301,7 @@ There are 260 branches in this repository, one for each icon set.
 
 ### Location
 
-- [#pinhead](https://github.com/iconify/icons-svelte/tree/pinhead): **Pinhead Map Icons** (2832 icons, CC0)
+- [#pinhead](https://github.com/iconify/icons-svelte/tree/pinhead): **Pinhead Map Icons** (2845 icons, CC0)
 - [#roentgen](https://github.com/iconify/icons-svelte/tree/roentgen): **Röntgen** (574 icons, CC BY 4.0)
 - [#maki](https://github.com/iconify/icons-svelte/tree/maki): **Maki** (215 icons, CC0)
 - [#temaki](https://github.com/iconify/icons-svelte/tree/temaki): **Temaki** (557 icons, CC0)
@@ -343,7 +343,7 @@ There are 260 branches in this repository, one for each icon set.
 
 ### High Detail
 
-- [#arcticons](https://github.com/iconify/icons-svelte/tree/arcticons): **Arcticons** (15322 icons, CC BY-SA 4.0)
+- [#arcticons](https://github.com/iconify/icons-svelte/tree/arcticons): **Arcticons** (15474 icons, CC BY-SA 4.0)
 - [#healthicons](https://github.com/iconify/icons-svelte/tree/healthicons): **Health Icons** (2128 icons, MIT)
 - [#streamline-memes](https://github.com/iconify/icons-svelte/tree/streamline-memes): **Memes** (84 icons, CC BY 4.0)
 
@@ -387,4 +387,4 @@ There are 260 branches in this repository, one for each icon set.
 - [#vaadin](https://github.com/iconify/icons-svelte/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-svelte/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
 
-Total: 260 icon sets, 465618 icons.
+Total: 260 icon sets, 467286 icons.
