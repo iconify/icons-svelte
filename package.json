@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/at-icons",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://icon-sets.iconify.design/at-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -402,6 +402,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bell.svelte"
     },
+    "./bevel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bevel.svelte"
+    },
     "./bike": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bike.svelte"
@@ -457,6 +461,22 @@
     "./boolean": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/boolean.svelte"
+    },
+    "./boolean-exclude": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-exclude.svelte"
+    },
+    "./boolean-intersect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-intersect.svelte"
+    },
+    "./boolean-subtract": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-subtract.svelte"
+    },
+    "./boolean-union": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boolean-union.svelte"
     },
     "./boots": {
       "types": "./types/gfwqskkx.d.ts",
@@ -538,6 +558,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/buoy.svelte"
     },
+    "./butterfly": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/butterfly.svelte"
+    },
     "./cage": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cage.svelte"
@@ -569,6 +593,10 @@
     "./cauldron": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cauldron.svelte"
+    },
+    "./center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/center.svelte"
     },
     "./chair": {
       "types": "./types/gfwqskkx.d.ts",
@@ -734,6 +762,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cross.svelte"
     },
+    "./cross-in-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cross-in-circle.svelte"
+    },
     "./cross-in-square": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cross-in-square.svelte"
@@ -798,6 +830,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/desktop.svelte"
     },
+    "./dialogue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dialogue.svelte"
+    },
     "./diamond": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/diamond.svelte"
@@ -814,6 +850,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/die.svelte"
     },
+    "./dinosaur": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dinosaur.svelte"
+    },
+    "./directions": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directions.svelte"
+    },
     "./distance": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/distance.svelte"
@@ -821,6 +865,10 @@
     "./division-sign-in-square": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/division-sign-in-square.svelte"
+    },
+    "./dna": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dna.svelte"
     },
     "./dog": {
       "types": "./types/gfwqskkx.d.ts",
@@ -861,6 +909,10 @@
     "./drawing-compass": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drawing-compass.svelte"
+    },
+    "./drive-belt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/drive-belt.svelte"
     },
     "./dropdown": {
       "types": "./types/gfwqskkx.d.ts",
@@ -921,6 +973,10 @@
     "./exposure": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/exposure.svelte"
+    },
+    "./extrude": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/extrude.svelte"
     },
     "./eye": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1106,6 +1162,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/flintlock.svelte"
     },
+    "./flock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flock.svelte"
+    },
     "./floor-plane": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/floor-plane.svelte"
@@ -1170,6 +1230,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/forest.svelte"
     },
+    "./frog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/frog.svelte"
+    },
     "./frowning-face": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/frowning-face.svelte"
@@ -1189,6 +1253,10 @@
     "./gauge": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gauge.svelte"
+    },
+    "./gears": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gears.svelte"
     },
     "./gem": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1302,6 +1370,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gun.svelte"
     },
+    "./hair": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hair.svelte"
+    },
     "./hammer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hammer.svelte"
@@ -1394,6 +1466,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/ingots.svelte"
     },
+    "./inset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/inset.svelte"
+    },
     "./institutional-building": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/institutional-building.svelte"
@@ -1405,6 +1481,10 @@
     "./itinerary": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/itinerary.svelte"
+    },
+    "./jellyfish": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jellyfish.svelte"
     },
     "./jigsaw-piece": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1437,6 +1517,10 @@
     "./knife": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/k/knife.svelte"
+    },
+    "./knife-cut": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/k/knife-cut.svelte"
     },
     "./knot": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1482,6 +1566,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lightbulb.svelte"
     },
+    "./lighthouse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/lighthouse.svelte"
+    },
     "./lightning-bolt": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lightning-bolt.svelte"
@@ -1514,6 +1602,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-unordered.svelte"
     },
+    "./locate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/locate.svelte"
+    },
     "./location": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/location.svelte"
@@ -1521,6 +1613,10 @@
     "./lock": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lock.svelte"
+    },
+    "./loop-cut": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loop-cut.svelte"
     },
     "./magic-staff": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1586,6 +1682,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/megaphone.svelte"
     },
+    "./mesh-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mesh-circle.svelte"
+    },
+    "./mesh-ngon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mesh-ngon.svelte"
+    },
     "./mesh-plane": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mesh-plane.svelte"
@@ -1609,6 +1713,14 @@
     "./microphone-mute": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/microphone-mute.svelte"
+    },
+    "./minus-in-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus-in-circle.svelte"
+    },
+    "./minus-in-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/minus-in-square.svelte"
     },
     "./mirror-horizontally": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1690,6 +1802,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/node-graph-target.svelte"
     },
+    "./noise-wave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/noise-wave.svelte"
+    },
     "./note": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/note.svelte"
@@ -1746,6 +1862,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/palette.svelte"
     },
+    "./panda": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/panda.svelte"
+    },
     "./pants": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pants.svelte"
@@ -1786,9 +1906,53 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pendant.svelte"
     },
+    "./people": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people.svelte"
+    },
+    "./people-cross": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-cross.svelte"
+    },
+    "./people-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/people-plus.svelte"
+    },
+    "./person": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person.svelte"
+    },
     "./person-body": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/person-body.svelte"
+    },
+    "./person-cross": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-cross.svelte"
+    },
+    "./person-fall": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-fall.svelte"
+    },
+    "./person-jump": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-jump.svelte"
+    },
+    "./person-land": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-land.svelte"
+    },
+    "./person-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-plus.svelte"
+    },
+    "./person-run": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-run.svelte"
+    },
+    "./person-walk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/person-walk.svelte"
     },
     "./photo-camera": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1822,6 +1986,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pipette.svelte"
     },
+    "./pivot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pivot.svelte"
+    },
     "./planet": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/planet.svelte"
@@ -1846,6 +2014,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plus.svelte"
     },
+    "./plus-in-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plus-in-circle.svelte"
+    },
     "./plus-sign-in-square": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plus-sign-in-square.svelte"
@@ -1869,6 +2041,10 @@
     "./potion": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/potion.svelte"
+    },
+    "./pottery-loop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pottery-loop.svelte"
     },
     "./pouch": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1913,6 +2089,10 @@
     "./quotation-marks": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quotation-marks.svelte"
+    },
+    "./rabbit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rabbit.svelte"
     },
     "./racing-circuit": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2010,6 +2190,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/ruler.svelte"
     },
+    "./rumble": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rumble.svelte"
+    },
+    "./rumble-joypad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rumble-joypad.svelte"
+    },
+    "./rumble-phone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rumble-phone.svelte"
+    },
     "./sailboat": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sailboat.svelte"
@@ -2022,6 +2214,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/satellite.svelte"
     },
+    "./sauropod": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sauropod.svelte"
+    },
+    "./saw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/saw.svelte"
+    },
+    "./sawtooth-wave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sawtooth-wave.svelte"
+    },
     "./scales": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scales.svelte"
@@ -2033,6 +2237,10 @@
     "./scoreboard": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scoreboard.svelte"
+    },
+    "./screen-shake": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-shake.svelte"
     },
     "./screw": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2122,6 +2330,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/signal-wave.svelte"
     },
+    "./sine-wave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sine-wave.svelte"
+    },
     "./siren": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/siren.svelte"
@@ -2150,6 +2362,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sledgehammer.svelte"
     },
+    "./slice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/slice.svelte"
+    },
     "./slide-switch": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/slide-switch.svelte"
@@ -2165,6 +2381,10 @@
     "./smiley-face": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/smiley-face.svelte"
+    },
+    "./snail": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/snail.svelte"
     },
     "./snow": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2222,6 +2442,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sponge.svelte"
     },
+    "./spool": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/spool.svelte"
+    },
     "./spray": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spray.svelte"
@@ -2246,6 +2470,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-root.svelte"
     },
+    "./square-wave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-wave.svelte"
+    },
     "./staircase": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/staircase.svelte"
@@ -2269,6 +2497,10 @@
     "./stars": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stars.svelte"
+    },
+    "./stats": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stats.svelte"
     },
     "./steering-wheel": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2426,9 +2658,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tileset.svelte"
     },
+    "./toilet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/toilet.svelte"
+    },
     "./torch": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/torch.svelte"
+    },
+    "./tortoise": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tortoise.svelte"
     },
     "./torus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2474,6 +2714,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/triangle.svelte"
     },
+    "./triangle-wave": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-wave.svelte"
+    },
     "./troll": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/troll.svelte"
@@ -2485,6 +2729,10 @@
     "./tungsten-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tungsten-light.svelte"
+    },
+    "./ufo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/ufo.svelte"
     },
     "./umbrella": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2537,6 +2785,10 @@
     "./wave": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/wave.svelte"
+    },
+    "./waveform": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/waveform.svelte"
     },
     "./weight": {
       "types": "./types/gfwqskkx.d.ts",
