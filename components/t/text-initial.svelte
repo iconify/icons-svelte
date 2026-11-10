@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/t/toabibr5d.css';
+import '../../css/y/yxjxjk4sb.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="toabibr5d"/>`;
+const content = `<path class="yxjxjk4sb"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:text-initial" {...props}></Icon>

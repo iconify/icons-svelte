@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/r/r9zav691u.css';
-import '../../css/q/q3riwtcss.css';
+import '../../css/r/rl95-cc6l.css';
+import '../../css/d/d87l1693f.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="r9zav691u"/><path class="q3riwtcss"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="rl95-cc6l"/><path class="d87l1693f"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:filter" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/f/fhp7abu6w.css';
+import '../../css/l/ljsq74bje.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="fhp7abu6w"/>`;
+const content = `<path class="ljsq74bje"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:list-ordered-rtl" {...props}></Icon>

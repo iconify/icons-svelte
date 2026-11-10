@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/p/pu4im6bjt.css';
-import '../../css/k/k8jrf-bba.css';
-import '../../css/t/tyug84bqy.css';
+import '../../css/g/gf6-x9klf.css';
+import '../../css/y/y1n2k09ov.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="pu4im6bjt"/><rect transform="rotate(90 0 21.24)scale(-1 1)" class="k8jrf-bba"/><path class="tyug84bqy"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="gf6-x9klf"/><path class="y1n2k09ov"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:x-square" {...props}></Icon>

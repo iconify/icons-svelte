@@ -2,12 +2,12 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/f/ft5dv1b6b.css';
 import '../../css/c/c__irb41u.css';
-import '../../css/t/t6ct5bb2f.css';
+import '../../css/i/inl8pxgjl.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="c__irb41u"/><path class="t6ct5bb2f"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="c__irb41u"/><path class="inl8pxgjl"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:folder" {...props}></Icon>
