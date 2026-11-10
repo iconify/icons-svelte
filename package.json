@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide-extended",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://icon-sets.iconify.design/lucide-extended/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -458,14 +458,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bacon-filled.svelte"
     },
-    "./badge-alert-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/badge-alert-duotone.svelte"
-    },
-    "./badge-alert-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/badge-alert-filled.svelte"
-    },
     "./badge-cent-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-cent-duotone.svelte"
@@ -501,6 +493,14 @@
     "./badge-euro-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/badge-euro-filled.svelte"
+    },
+    "./badge-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-exclamation-point-duotone.svelte"
+    },
+    "./badge-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-exclamation-point-filled.svelte"
     },
     "./badge-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -690,6 +690,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-duotone.svelte"
     },
+    "./battery-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-exclamation-point-filled.svelte"
+    },
     "./battery-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-filled.svelte"
@@ -721,10 +725,6 @@
     "./battery-plus-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-plus-filled.svelte"
-    },
-    "./battery-warning-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/battery-warning-filled.svelte"
     },
     "./beaker-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -990,14 +990,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-a-filled.svelte"
     },
-    "./book-alert-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/book-alert-duotone.svelte"
-    },
-    "./book-alert-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/b/book-alert-filled.svelte"
-    },
     "./book-audio-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-audio-duotone.svelte"
@@ -1041,6 +1033,14 @@
     "./book-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/book-duotone.svelte"
+    },
+    "./book-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-exclamation-point-duotone.svelte"
+    },
+    "./book-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-exclamation-point-filled.svelte"
     },
     "./book-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2054,14 +2054,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cigarette-off-filled.svelte"
     },
-    "./circle-alert-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-alert-duotone.svelte"
-    },
-    "./circle-alert-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-alert-filled.svelte"
-    },
     "./circle-arrow-down-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-arrow-down-duotone.svelte"
@@ -2217,6 +2209,14 @@
     "./circle-euro-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-euro-filled.svelte"
+    },
+    "./circle-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-exclamation-point-duotone.svelte"
+    },
+    "./circle-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-exclamation-point-filled.svelte"
     },
     "./circle-fading-play-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3341,6 +3341,22 @@
     "./dessert-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dessert-filled.svelte"
+    },
+    "./diagram-flow-horizontal-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diagram-flow-horizontal-duotone.svelte"
+    },
+    "./diagram-flow-horizontal-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diagram-flow-horizontal-filled.svelte"
+    },
+    "./diagram-flow-vertical-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diagram-flow-vertical-duotone.svelte"
+    },
+    "./diagram-flow-vertical-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diagram-flow-vertical-filled.svelte"
     },
     "./diameter-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5046,6 +5062,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/glasses-filled.svelte"
     },
+    "./globe-ban-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-ban-duotone.svelte"
+    },
+    "./globe-ban-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-ban-filled.svelte"
+    },
     "./globe-check-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe-check-duotone.svelte"
@@ -5073,6 +5097,14 @@
     "./globe-off-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe-off-filled.svelte"
+    },
+    "./globe-plus-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-plus-duotone.svelte"
+    },
+    "./globe-plus-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-plus-filled.svelte"
     },
     "./globe-x-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5173,6 +5205,10 @@
     "./grid-3x3-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/grid-3x3-filled.svelte"
+    },
+    "./grid-3x3-off-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grid-3x3-off-filled.svelte"
     },
     "./groceries-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6234,6 +6270,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-duotone.svelte"
     },
+    "./mail-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-exclamation-point-duotone.svelte"
+    },
+    "./mail-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-exclamation-point-filled.svelte"
+    },
     "./mail-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-filled.svelte"
@@ -6286,14 +6330,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-search-filled.svelte"
     },
-    "./mail-warning-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/mail-warning-duotone.svelte"
-    },
-    "./mail-warning-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/mail-warning-filled.svelte"
-    },
     "./mail-x-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-x-duotone.svelte"
@@ -6317,6 +6353,14 @@
     "./mails-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mails-filled.svelte"
+    },
+    "./mango-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mango-duotone.svelte"
+    },
+    "./mango-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mango-filled.svelte"
     },
     "./map-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6534,6 +6578,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-duotone.svelte"
     },
+    "./message-circle-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-circle-exclamation-point-duotone.svelte"
+    },
+    "./message-circle-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-circle-exclamation-point-filled.svelte"
+    },
     "./message-circle-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-filled.svelte"
@@ -6590,14 +6642,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-text-filled.svelte"
     },
-    "./message-circle-warning-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/message-circle-warning-duotone.svelte"
-    },
-    "./message-circle-warning-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/message-circle-warning-filled.svelte"
-    },
     "./message-circle-x-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-circle-x-duotone.svelte"
@@ -6641,6 +6685,14 @@
     "./message-square-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-square-duotone.svelte"
+    },
+    "./message-square-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-exclamation-point-duotone.svelte"
+    },
+    "./message-square-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-exclamation-point-filled.svelte"
     },
     "./message-square-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6709,14 +6761,6 @@
     "./message-square-text-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/message-square-text-filled.svelte"
-    },
-    "./message-square-warning-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/message-square-warning-duotone.svelte"
-    },
-    "./message-square-warning-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/m/message-square-warning-filled.svelte"
     },
     "./message-square-x-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7006,6 +7050,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mop-sparkles-filled.svelte"
     },
+    "./moped-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moped-duotone.svelte"
+    },
+    "./moped-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/moped-filled.svelte"
+    },
     "./mosque-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mosque-duotone.svelte"
@@ -7214,17 +7266,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nut-off-filled.svelte"
     },
-    "./octagon-alert-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/o/octagon-alert-duotone.svelte"
-    },
-    "./octagon-alert-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/o/octagon-alert-filled.svelte"
-    },
     "./octagon-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/octagon-duotone.svelte"
+    },
+    "./octagon-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octagon-exclamation-point-duotone.svelte"
+    },
+    "./octagon-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octagon-exclamation-point-filled.svelte"
     },
     "./octagon-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7310,6 +7362,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-open-filled.svelte"
     },
+    "./package-pen-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-pen-duotone.svelte"
+    },
+    "./package-pen-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-pen-filled.svelte"
+    },
     "./package-plus-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-plus-duotone.svelte"
@@ -7317,6 +7377,14 @@
     "./package-plus-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-plus-filled.svelte"
+    },
+    "./package-question-mark-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-question-mark-duotone.svelte"
+    },
+    "./package-question-mark-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-question-mark-filled.svelte"
     },
     "./package-search-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8590,14 +8658,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scroll-text-filled.svelte"
     },
-    "./search-alert-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/search-alert-duotone.svelte"
-    },
-    "./search-alert-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/search-alert-filled.svelte"
-    },
     "./search-check-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/search-check-duotone.svelte"
@@ -8617,6 +8677,14 @@
     "./search-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/search-duotone.svelte"
+    },
+    "./search-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-exclamation-point-duotone.svelte"
+    },
+    "./search-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-exclamation-point-filled.svelte"
     },
     "./search-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8746,14 +8814,6 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shelving-unit-filled.svelte"
     },
-    "./shield-alert-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/shield-alert-duotone.svelte"
-    },
-    "./shield-alert-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/shield-alert-filled.svelte"
-    },
     "./shield-ban-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-ban-duotone.svelte"
@@ -8793,6 +8853,14 @@
     "./shield-ellipsis-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield-ellipsis-filled.svelte"
+    },
+    "./shield-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-exclamation-point-duotone.svelte"
+    },
+    "./shield-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-exclamation-point-filled.svelte"
     },
     "./shield-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10750,17 +10818,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/trees-filled.svelte"
     },
-    "./triangle-alert-duotone": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/t/triangle-alert-duotone.svelte"
-    },
-    "./triangle-alert-filled": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/t/triangle-alert-filled.svelte"
-    },
     "./triangle-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/triangle-duotone.svelte"
+    },
+    "./triangle-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-exclamation-point-duotone.svelte"
+    },
+    "./triangle-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-exclamation-point-filled.svelte"
     },
     "./triangle-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10934,6 +11002,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-duotone.svelte"
     },
+    "./user-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-exclamation-point-duotone.svelte"
+    },
+    "./user-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-exclamation-point-filled.svelte"
+    },
     "./user-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-filled.svelte"
@@ -11013,6 +11089,14 @@
     "./user-round-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-round-duotone.svelte"
+    },
+    "./user-round-exclamation-point-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-round-exclamation-point-duotone.svelte"
+    },
+    "./user-round-exclamation-point-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-round-exclamation-point-filled.svelte"
     },
     "./user-round-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11530,6 +11614,34 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/archive-restore-filled.svelte"
     },
+    "./badge-alert-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-alert-duotone.svelte"
+    },
+    "./badge-alert-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/badge-alert-filled.svelte"
+    },
+    "./battery-warning-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-warning-filled.svelte"
+    },
+    "./book-alert-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-alert-duotone.svelte"
+    },
+    "./book-alert-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/book-alert-filled.svelte"
+    },
+    "./circle-alert-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-alert-duotone.svelte"
+    },
+    "./circle-alert-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-alert-filled.svelte"
+    },
     "./circle-parking-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-parking-duotone.svelte"
@@ -11549,6 +11661,30 @@
     "./copyright-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/copyright-filled.svelte"
+    },
+    "./mail-warning-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-warning-duotone.svelte"
+    },
+    "./mail-warning-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-warning-filled.svelte"
+    },
+    "./message-circle-warning-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-circle-warning-duotone.svelte"
+    },
+    "./message-circle-warning-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-circle-warning-filled.svelte"
+    },
+    "./message-square-warning-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-warning-duotone.svelte"
+    },
+    "./message-square-warning-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/message-square-warning-filled.svelte"
     },
     "./music-2-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -11582,6 +11718,30 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/music-filled.svelte"
     },
+    "./octagon-alert-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octagon-alert-duotone.svelte"
+    },
+    "./octagon-alert-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/octagon-alert-filled.svelte"
+    },
+    "./search-alert-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-alert-duotone.svelte"
+    },
+    "./search-alert-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/search-alert-filled.svelte"
+    },
+    "./shield-alert-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-alert-duotone.svelte"
+    },
+    "./shield-alert-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shield-alert-filled.svelte"
+    },
     "./square-m-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-m-duotone.svelte"
@@ -11601,6 +11761,14 @@
     "./square-parking-off-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-parking-off-filled.svelte"
+    },
+    "./triangle-alert-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-alert-duotone.svelte"
+    },
+    "./triangle-alert-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/triangle-alert-filled.svelte"
     },
     "./*": "./*"
   },
