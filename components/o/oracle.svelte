@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/v/vxt7nkbyq.css';
+import '../../css/d/d74jwwb3o.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":128,"height":128};
-const content = `<path class="vxt7nkbyq"/>`;
+const content = `<path class="d74jwwb3o"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="devicon:oracle" {...props}></Icon>

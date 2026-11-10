@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.36",
+  "version": "1.0.37",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -557,6 +557,14 @@
     "./chartjs-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chartjs-wordmark.svelte"
+    },
+    "./checkmk": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkmk.svelte"
+    },
+    "./checkmk-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/checkmk-wordmark.svelte"
     },
     "./chrome": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1422,6 +1430,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/glitch.svelte"
     },
+    "./gnome": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gnome.svelte"
+    },
+    "./gnome-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gnome-wordmark.svelte"
+    },
     "./gnu": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gnu.svelte"
@@ -1513,6 +1529,14 @@
     "./groovy": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/groovy.svelte"
+    },
+    "./groq": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/groq.svelte"
+    },
+    "./groq-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/groq-wordmark.svelte"
     },
     "./grpc": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2514,6 +2538,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nginx.svelte"
     },
+    "./nginx-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nginx-wordmark.svelte"
+    },
     "./ngrok": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/ngrok.svelte"
@@ -2749,6 +2777,10 @@
     "./oracle": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/oracle.svelte"
+    },
+    "./oracle-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/oracle-wordmark.svelte"
     },
     "./ory": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3657,6 +3689,14 @@
     "./stackblitz-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stackblitz-wordmark.svelte"
+    },
+    "./stackit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackit.svelte"
+    },
+    "./stackit-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stackit-wordmark.svelte"
     },
     "./stackoverflow": {
       "types": "./types/gfwqskkx.d.ts",
