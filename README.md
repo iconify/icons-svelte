@@ -11,6 +11,11 @@ Browse all icons: [preview Arcticons on Iconify](https://icon-sets.iconify.desig
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/svelte#arcticons
+```
+
+or
+```bash
 npm install github:iconify/icons-svelte#arcticons
 ```
 
@@ -22,7 +27,7 @@ Few usage examples:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/arcticons/paperlaunch';
+import SampleIcon from '@iconify-svelte/arcticons/instagram';
 </script>
 
 <SampleIcon />
@@ -32,7 +37,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/arcticons/gravadordevoz';
+import SampleIcon from '@iconify-svelte/arcticons/color-capture';
 </script>
 
 <SampleIcon height="1em" />
@@ -42,7 +47,7 @@ To change icon color, use style:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/arcticons/appstract';
+import SampleIcon from '@iconify-svelte/arcticons/color-capture';
 </script>
 
 <SampleIcon style="color: red;" />
