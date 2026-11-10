@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.85",
+  "version": "1.0.86",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -1498,6 +1498,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/check-line.svelte"
     },
+    "./cheese": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cheese.svelte"
+    },
     "./chef-hat": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chef-hat.svelte"
@@ -1618,25 +1622,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-arrow-down.svelte"
     },
+    "./circle-arrow-down-left-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-down-left-exit.svelte"
+    },
+    "./circle-arrow-down-right-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-down-right-exit.svelte"
+    },
     "./circle-arrow-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-arrow-left.svelte"
-    },
-    "./circle-arrow-out-down-left": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-arrow-out-down-left.svelte"
-    },
-    "./circle-arrow-out-down-right": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-arrow-out-down-right.svelte"
-    },
-    "./circle-arrow-out-up-left": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-arrow-out-up-left.svelte"
-    },
-    "./circle-arrow-out-up-right": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/circle-arrow-out-up-right.svelte"
     },
     "./circle-arrow-right": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1645,6 +1641,14 @@
     "./circle-arrow-up": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-arrow-up.svelte"
+    },
+    "./circle-arrow-up-left-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-up-left-exit.svelte"
+    },
+    "./circle-arrow-up-right-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-up-right-exit.svelte"
     },
     "./circle-check": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6766,33 +6770,49 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-down.svelte"
     },
+    "./square-arrow-down-enter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-down-enter.svelte"
+    },
+    "./square-arrow-down-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-down-exit.svelte"
+    },
     "./square-arrow-down-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-down-left.svelte"
+    },
+    "./square-arrow-down-left-enter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-down-left-enter.svelte"
+    },
+    "./square-arrow-down-left-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-down-left-exit.svelte"
     },
     "./square-arrow-down-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-down-right.svelte"
     },
+    "./square-arrow-down-right-enter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-down-right-enter.svelte"
+    },
+    "./square-arrow-down-right-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-down-right-exit.svelte"
+    },
     "./square-arrow-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-left.svelte"
     },
-    "./square-arrow-out-down-left": {
+    "./square-arrow-left-enter": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/square-arrow-out-down-left.svelte"
+      "svelte": "./components/s/square-arrow-left-enter.svelte"
     },
-    "./square-arrow-out-down-right": {
+    "./square-arrow-left-exit": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/square-arrow-out-down-right.svelte"
-    },
-    "./square-arrow-out-up-left": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/square-arrow-out-up-left.svelte"
-    },
-    "./square-arrow-out-up-right": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/s/square-arrow-out-up-right.svelte"
+      "svelte": "./components/s/square-arrow-left-exit.svelte"
     },
     "./square-arrow-right": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6810,13 +6830,37 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-up.svelte"
     },
+    "./square-arrow-up-enter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-up-enter.svelte"
+    },
+    "./square-arrow-up-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-up-exit.svelte"
+    },
     "./square-arrow-up-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-up-left.svelte"
     },
+    "./square-arrow-up-left-enter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-up-left-enter.svelte"
+    },
+    "./square-arrow-up-left-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-up-left-exit.svelte"
+    },
     "./square-arrow-up-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-up-right.svelte"
+    },
+    "./square-arrow-up-right-enter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-up-right-enter.svelte"
+    },
+    "./square-arrow-up-right-exit": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-up-right-exit.svelte"
     },
     "./square-asterisk": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7349,6 +7393,30 @@
     "./strikethrough": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/strikethrough.svelte"
+    },
+    "./stroke-line-cap-butt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stroke-line-cap-butt.svelte"
+    },
+    "./stroke-line-cap-round": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stroke-line-cap-round.svelte"
+    },
+    "./stroke-line-cap-square": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stroke-line-cap-square.svelte"
+    },
+    "./stroke-line-join-bevel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stroke-line-join-bevel.svelte"
+    },
+    "./stroke-line-join-miter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stroke-line-join-miter.svelte"
+    },
+    "./stroke-line-join-round": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stroke-line-join-round.svelte"
     },
     "./subscript": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8706,6 +8774,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-alert.svelte"
     },
+    "./circle-arrow-out-down-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-out-down-left.svelte"
+    },
+    "./circle-arrow-out-down-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-out-down-right.svelte"
+    },
+    "./circle-arrow-out-up-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-out-up-left.svelte"
+    },
+    "./circle-arrow-out-up-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-arrow-out-up-right.svelte"
+    },
     "./circle-help": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-help.svelte"
@@ -9245,6 +9329,22 @@
     "./split-square-vertical": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/split-square-vertical.svelte"
+    },
+    "./square-arrow-out-down-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-out-down-left.svelte"
+    },
+    "./square-arrow-out-down-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-out-down-right.svelte"
+    },
+    "./square-arrow-out-up-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-out-up-left.svelte"
+    },
+    "./square-arrow-out-up-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-out-up-right.svelte"
     },
     "./square-gantt": {
       "types": "./types/gfwqskkx.d.ts",
