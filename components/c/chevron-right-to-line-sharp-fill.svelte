@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kvl7zrbxr"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:chevron-right-to-line-sharp-fill" {...props}></Icon>
+<style>
+:global(.kvl7zrbxr) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M17 4V20M6.707 5.71L13 12L6.707 18.29");
+}
+
+</style>

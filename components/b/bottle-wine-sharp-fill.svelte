@@ -1,0 +1,24 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="j6j2qcc9j"/><path class="c-hkocbsy"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:bottle-wine-sharp-fill" {...props}></Icon>
+<style>
+:global(.c-hkocbsy) {
+  d: path("M9 1C9.552 1 10 1.448 10 2V6.697L11.832 9.445C11.942 9.61 12 9.803 12 10V13H2V10C2 9.803 2.058 9.61 2.168 9.445L4 6.697V2C4 1.448 4.448 1 5 1H9Z");
+}
+
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.j6j2qcc9j) {
+  d: path("M12 15V22C12 22.552 11.552 23 11 23H3C2.448 23 2 22.552 2 22V15H12ZM21 9C21.552 9 22 9.448 22 10V13C22 14.832 20.68 16.398 19 16.872V21H22V23H14V21H17V16.872C15.32 16.398 14 14.832 14 13V10C14 9.448 14.448 9 15 9H21Z");
+}
+
+</style>

@@ -1,0 +1,25 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="gmkoqr2-h"/><path class="utkdon4mj"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:fuel-sharp-duotone" {...props}></Icon>
+<style>
+:global(.cuyn6tgcc) {
+  fill: currentColor;
+}
+
+:global(.gmkoqr2-h) {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M14 2C14.552 2 15 2.45 15 3V10H18C18.552 10 19 10.45 19 11V16.06C19.055 16.56 19.485 17 20 17C20.515 17 20.945 16.55 21 16.05V8.5L16.999 5.5L18.2 3.9L22.6 7.2C22.851 7.39 23 7.69 23 8V16.01L22.984 16.31C22.827 17.81 21.551 19 20 19C18.449 19 17.172 17.81 17.015 16.3L17 16.01V12H15V20H16V22H1V20H2V3C2 2.45 2.448 2 3 2H14Z");
+}
+
+:global(.utkdon4mj) {
+  d: path("M11 8V10H6V8H11Z");
+}
+
+</style>
