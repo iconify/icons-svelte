@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.37",
+  "version": "1.0.38",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -21,6 +21,10 @@
     "./adonisjs-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/adonisjs-wordmark.svelte"
+    },
+    "./aerospace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aerospace.svelte"
     },
     "./aerospike": {
       "types": "./types/gfwqskkx.d.ts",
@@ -321,6 +325,10 @@
     "./azuredevops": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/azuredevops.svelte"
+    },
+    "./azurelogicapps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azurelogicapps.svelte"
     },
     "./azuresqldatabase": {
       "types": "./types/gfwqskkx.d.ts",
@@ -806,6 +814,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dart-wordmark.svelte"
     },
+    "./databricks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/databricks.svelte"
+    },
+    "./databricks-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/databricks-wordmark.svelte"
+    },
     "./datadog": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/datadog.svelte"
@@ -854,6 +870,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/debian-wordmark.svelte"
     },
+    "./deepseek": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deepseek.svelte"
+    },
+    "./deepseek-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deepseek-wordmark.svelte"
+    },
     "./delphi": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/delphi.svelte"
@@ -865,6 +889,14 @@
     "./denojs-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/denojs-wordmark.svelte"
+    },
+    "./dependabot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dependabot.svelte"
+    },
+    "./dependabot-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dependabot-wordmark.svelte"
     },
     "./detaspace": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1217,6 +1249,14 @@
     "./flutter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/flutter.svelte"
+    },
+    "./fluxcd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fluxcd.svelte"
+    },
+    "./fluxcd-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fluxcd-wordmark.svelte"
     },
     "./flyway": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2758,6 +2798,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/opentelemetry-wordmark.svelte"
     },
+    "./opentofu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opentofu.svelte"
+    },
+    "./opentofu-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opentofu-wordmark.svelte"
+    },
     "./opera": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/opera.svelte"
@@ -3642,6 +3690,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spring-wordmark.svelte"
     },
+    "./springboot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/springboot.svelte"
+    },
     "./spss": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/spss.svelte"
@@ -3758,9 +3810,21 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/styledcomponents-wordmark.svelte"
     },
+    "./stylelint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stylelint.svelte"
+    },
+    "./stylelint-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stylelint-wordmark.svelte"
+    },
     "./stylus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stylus.svelte"
+    },
+    "./sublimetext": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sublimetext.svelte"
     },
     "./subversion": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3838,6 +3902,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/symfony-wordmark.svelte"
     },
+    "./systemd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/systemd.svelte"
+    },
+    "./systemd-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/systemd-wordmark.svelte"
+    },
     "./systemverilog": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/systemverilog.svelte"
@@ -3853,6 +3925,14 @@
     "./talos": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/talos.svelte"
+    },
+    "./taskade": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taskade.svelte"
+    },
+    "./taskade-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taskade-wordmark.svelte"
     },
     "./tauri": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3877,6 +3957,14 @@
     "./teleport-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/teleport-wordmark.svelte"
+    },
+    "./temporal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/temporal.svelte"
+    },
+    "./temporal-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/temporal-wordmark.svelte"
     },
     "./tensorflow": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4046,6 +4134,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/turbo-wordmark.svelte"
     },
+    "./turborepo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turborepo.svelte"
+    },
+    "./turborepo-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turborepo-wordmark.svelte"
+    },
     "./twilio": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/twilio.svelte"
@@ -4086,6 +4182,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/typo3-wordmark.svelte"
     },
+    "./typst": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/typst.svelte"
+    },
     "./ubuntu": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/ubuntu.svelte"
@@ -4113,6 +4213,10 @@
     "./unix": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/unix.svelte"
+    },
+    "./unraid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unraid.svelte"
     },
     "./unrealengine": {
       "types": "./types/gfwqskkx.d.ts",
