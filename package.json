@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.86",
+  "version": "1.0.87",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -429,6 +429,10 @@
     "./asterisk": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/asterisk.svelte"
+    },
+    "./asterism": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/asterism.svelte"
     },
     "./astroid": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2777,6 +2781,10 @@
     "./ev-charger": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ev-charger.svelte"
+    },
+    "./exclamation-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/exclamation-mark.svelte"
     },
     "./expand": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5150,6 +5158,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/motorbike.svelte"
     },
+    "./mound-shovel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mound-shovel.svelte"
+    },
     "./mountain": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mountain.svelte"
@@ -5866,6 +5878,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/qr-code.svelte"
     },
+    "./question-mark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/question-mark.svelte"
+    },
     "./quote": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quote.svelte"
@@ -6133,6 +6149,10 @@
     "./route": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/route.svelte"
+    },
+    "./route-arrow-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/route-arrow-right.svelte"
     },
     "./route-off": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7641,6 +7661,10 @@
     "./text-initial": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/text-initial.svelte"
+    },
+    "./text-pen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/text-pen.svelte"
     },
     "./text-quote": {
       "types": "./types/gfwqskkx.d.ts",
