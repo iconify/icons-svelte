@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -13,6 +13,10 @@
     "./adminer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/adminer.svelte"
+    },
+    "./aerospace": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/aerospace.svelte"
     },
     "./aframe": {
       "types": "./types/gfwqskkx.d.ts",
@@ -229,6 +233,10 @@
     "./azuredevops": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/azuredevops.svelte"
+    },
+    "./azurelogicapps": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/azurelogicapps.svelte"
     },
     "./azuresqldatabase": {
       "types": "./types/gfwqskkx.d.ts",
@@ -594,6 +602,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/dart-wordmark.svelte"
     },
+    "./databricks-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/databricks-wordmark.svelte"
+    },
     "./datagrip": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/datagrip.svelte"
@@ -629,6 +641,14 @@
     "./delphi": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/delphi.svelte"
+    },
+    "./dependabot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dependabot.svelte"
+    },
+    "./dependabot-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dependabot-wordmark.svelte"
     },
     "./devicon": {
       "types": "./types/gfwqskkx.d.ts",
@@ -897,6 +917,14 @@
     "./flutter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/flutter.svelte"
+    },
+    "./fluxcd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fluxcd.svelte"
+    },
+    "./fluxcd-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fluxcd-wordmark.svelte"
     },
     "./forgejo": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2138,6 +2166,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/opentelemetry-wordmark.svelte"
     },
+    "./opentofu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opentofu.svelte"
+    },
+    "./opentofu-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/o/opentofu-wordmark.svelte"
+    },
     "./opera": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/opera.svelte"
@@ -2854,6 +2890,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/styledcomponents-wordmark.svelte"
     },
+    "./sublimetext": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sublimetext.svelte"
+    },
     "./subversion-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/subversion-wordmark.svelte"
@@ -2906,6 +2946,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/swift-wordmark.svelte"
     },
+    "./systemd": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/systemd.svelte"
+    },
+    "./systemd-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/systemd-wordmark.svelte"
+    },
     "./tailwindcss-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tailwindcss-wordmark.svelte"
@@ -2913,6 +2961,14 @@
     "./talos": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/talos.svelte"
+    },
+    "./taskade": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taskade.svelte"
+    },
+    "./taskade-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/taskade-wordmark.svelte"
     },
     "./tauri": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3022,6 +3078,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/turbo-wordmark.svelte"
     },
+    "./turborepo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/turborepo.svelte"
+    },
     "./typeorm": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/typeorm.svelte"
@@ -3073,6 +3133,14 @@
     "./unity-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/unity-wordmark.svelte"
+    },
+    "./unraid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unraid.svelte"
+    },
+    "./unraid-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/unraid-wordmark.svelte"
     },
     "./uwsgi": {
       "types": "./types/gfwqskkx.d.ts",
