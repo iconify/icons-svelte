@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="uzeshpbso"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:window-lock-corner-sharp" {...props}></Icon>
+<style>
+:global(.uzeshpbso) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 8V4h18v4M8 20H3V8m0 0h18m-8 8h8v5h-8Zm2 0v-1a2 2 0 1 1 4 0v1");
+}
+
+</style>

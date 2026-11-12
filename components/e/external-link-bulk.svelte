@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="mbe9zlbmu"/><path class="vypjh52qh"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="mda-2_b-w"/><path class="vypjh52qh"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:external-link-bulk" {...props}></Icon>
 <style>
@@ -13,9 +13,9 @@ const content = `<g class="cuyn6tgcc"><path class="mbe9zlbmu"/><path class="vypj
   fill: currentColor;
 }
 
-:global(.mbe9zlbmu) {
+:global(.mda-2_b-w) {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M5 7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2Z");
+  d: path("M19 5v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z");
 }
 
 :global(.vypjh52qh) {

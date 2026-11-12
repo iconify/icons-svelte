@@ -5,10 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="x3sp62bgi"/><path class="w2_q1nbaw"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="c__mxzcyr"/><path class="w2_q1nbaw"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:calendar-close-duotone-sharp" {...props}></Icon>
 <style>
+:global(.c__mxzcyr) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M4 9h16v12H4Z");
+}
+
 :global(.ft5dv1b6b) {
   fill: none;
 }
@@ -19,12 +25,6 @@ const content = `<g class="ft5dv1b6b"><path class="x3sp62bgi"/><path class="w2_q
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M4 5h16v16H4Zm4-2v2m8-2v2M4 9h16m-10 4l4 4m0-4l-4 4");
-}
-
-:global(.x3sp62bgi) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M3 9V5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1");
 }
 
 </style>
