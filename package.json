@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/token",
   "type": "module",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "homepage": "https://icon-sets.iconify.design/token/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1157,6 +1157,10 @@
     "./catheon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/catheon.svelte"
+    },
+    "./cbbtc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cbbtc.svelte"
     },
     "./cbeth": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6037,6 +6041,10 @@
     "./steem": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/steem.svelte"
+    },
+    "./stella": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stella.svelte"
     },
     "./stellar": {
       "types": "./types/gfwqskkx.d.ts",
