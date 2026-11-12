@@ -1,10 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/i/iauzcee-u.css';
-import '../../css/c/c6gs9jbec.css';
-import '../../css/g/grmzm4bjt.css';
-import '../../css/l/lq_ib790c.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -13,3 +8,30 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="iauzcee-u"/><path class="c6gs9jbec"/><path class="grmzm4bjt"/><path class="lq_ib790c"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:frame-broken" {...props}></Icon>
+<style>
+:global(.c6gs9jbec) {
+  stroke-linejoin: round;
+  d: path("M19 22L19 2");
+}
+
+:global(.grmzm4bjt) {
+  d: path("M14 19L2 19M22 19L18 19");
+}
+
+:global(.iauzcee-u) {
+  stroke-linejoin: round;
+  d: path("M22 5H2");
+}
+
+:global(.ipq1z-bjh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.lq_ib790c) {
+  d: path("M5 10L5 22M5 2L5 6");
+}
+
+</style>

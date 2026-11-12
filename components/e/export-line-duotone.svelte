@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/m/myq4vybmx.css';
-import '../../css/x/x_hpbztkk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,22 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="myq4vybmx"/><path class="x_hpbztkk"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:export-line-duotone" {...props}></Icon>
+<style>
+:global(.ipq1z-bjh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.myq4vybmx) {
+  d: path("M4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+:global(.x_hpbztkk) {
+  stroke-linejoin: round;
+  d: path("M12 14L12 4M9 7L12 4L15 7");
+}
+
+</style>

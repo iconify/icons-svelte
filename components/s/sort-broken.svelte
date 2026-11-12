@@ -1,9 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/e/eq1qy8wwa.css';
-import '../../css/f/f3o8v2b6s.css';
-import '../../css/f/fml2qzxuh.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -12,3 +8,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="eq1qy8wwa"/><path class="f3o8v2b6s"/><path class="fml2qzxuh"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:sort-broken" {...props}></Icon>
+<style>
+:global(.eq1qy8wwa) {
+  d: path("M5 7L2 7M22 7L9 7");
+}
+
+:global(.f3o8v2b6s) {
+  d: path("M19 12H16M12 12L5 12");
+}
+
+:global(.fml2qzxuh) {
+  d: path("M16 17H8");
+}
+
+:global(.ipq1z-bjh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

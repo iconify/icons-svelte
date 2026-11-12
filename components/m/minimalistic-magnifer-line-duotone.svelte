@@ -1,9 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/k/k2u665ban.css';
-import '../../css/b/b4dyhhbeb.css';
-import '../../css/d/dqpmzuzoq.css';
-import '../../css/w/w49j0rbvv.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -12,3 +8,28 @@ const viewBox = {"width":24,"height":24};
 const content = `<defs><mask id="SVG5qFtHdgM"><g class="k2u665ban"><circle class="b4dyhhbeb"/><path class="dqpmzuzoq"/></g></mask></defs><path mask="url(#SVG5qFtHdgM)" class="w49j0rbvv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:minimalistic-magnifer-line-duotone" {...props}></Icon>
+<style>
+:global(.b4dyhhbeb) {
+  cx: 11.5px;
+  cy: 11.5px;
+  r: 9.5px;
+  stroke: var(--svg-color--gray, gray);
+}
+
+:global(.dqpmzuzoq) {
+  stroke: var(--svg-color--fff, #fff);
+  stroke-linecap: round;
+  d: path("m20 20l2 2");
+}
+
+:global(.k2u665ban) {
+  fill: none;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.w49j0rbvv) {
+  fill: currentColor;
+  d: path("M0 0h24v24H0z");
+}
+
+</style>

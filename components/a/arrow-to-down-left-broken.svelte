@@ -1,6 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/k/knoj3nbcc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -9,3 +8,14 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="knoj3nbcc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:arrow-to-down-left-broken" {...props}></Icon>
+<style>
+:global(.knoj3nbcc) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7 14.5L12 19.5L17 14.5M12 19.5L12 13M12 9.5C12 7.83333 11 4.5 7 4.5");
+}
+
+</style>

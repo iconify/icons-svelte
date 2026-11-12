@@ -1,17 +1,45 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/q/qjva00luf.css';
-import '../../css/y/ytwl2ebtc.css';
-import '../../css/r/rmwzjebkv.css';
-import '../../css/e/ez1x61b2a.css';
-import '../../css/p/po0yeu5hs.css';
-import '../../css/o/ou-u7bcws.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="qjva00luf"/><path class="ytwl2ebtc"/><path class="rmwzjebkv"/><circle class="ez1x61b2a"/><path class="po0yeu5hs"/><path class="ou-u7bcws"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="dzhqz82xf"/><circle class="jx3h49bol"/><path class="d9v3nkbry"/><path class="w6tva8xka"/><path class="wvolq0b1y"/><path class="sev8m68qn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:calendar-search-linear" {...props}></Icon>
+<style>
+:global(.d9v3nkbry) {
+  d: path("M20.1213 19.8713L21.9999 21.75");
+}
+
+:global(.dzhqz82xf) {
+  d: path("M22 13.75V11.75C22 7.97876 22 6.09315 20.8284 4.92157C19.6569 3.75 17.7712 3.75 14 3.75H10C6.22876 3.75 4.34315 3.75 3.17157 4.92157C2 6.09315 2 7.97876 2 11.75V13.75C2 17.5212 2 19.4069 3.17157 20.5784C4.34315 21.75 6.22876 21.75 10 21.75H14");
+}
+
+:global(.ipq1z-bjh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.jx3h49bol) {
+  cx: 18px;
+  cy: 17.75px;
+  r: 3px;
+}
+
+:global(.sev8m68qn) {
+  d: path("M17 3.78496V2.25");
+}
+
+:global(.w6tva8xka) {
+  d: path("M2.03516 8.75H21.965");
+}
+
+:global(.wvolq0b1y) {
+  d: path("M7 3.78496V2.25");
+}
+
+</style>

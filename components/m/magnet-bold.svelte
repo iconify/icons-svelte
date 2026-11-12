@@ -1,8 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/crd2je-4i.css';
-import '../../css/f/fxwwtlavh.css';
-import '../../css/q/qkrmpnbsi.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -11,3 +8,20 @@ const viewBox = {"width":24,"height":24};
 const content = `<path class="crd2je-4i"/><path class="fxwwtlavh"/><path class="qkrmpnbsi"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:magnet-bold" {...props}></Icon>
+<style>
+:global(.crd2je-4i) {
+  fill: currentColor;
+  d: path("M16.25 2H13C7.47715 2 3 6.47715 3 12C3 17.5228 7.47715 22 13 22H16.25V17H13C10.2386 17 8 14.7614 8 12C8 9.23858 10.2386 7 13 7H16.25V2Z");
+}
+
+:global(.fxwwtlavh) {
+  fill: currentColor;
+  d: path("M17.75 7H19.5C20.3284 7 21 6.32843 21 5.5V3.5C21 2.67157 20.3284 2 19.5 2H17.75V7Z");
+}
+
+:global(.qkrmpnbsi) {
+  fill: currentColor;
+  d: path("M17.75 17V22H19.5C20.3284 22 21 21.3284 21 20.5V18.5C21 17.6716 20.3284 17 19.5 17H17.75Z");
+}
+
+</style>

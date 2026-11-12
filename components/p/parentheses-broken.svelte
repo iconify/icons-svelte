@@ -1,9 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/n/n6daalb-j.css';
-import '../../css/j/jl_buvd_r.css';
-import '../../css/v/vkba6k5jk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -12,3 +8,24 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="n6daalb-j"/><path class="jl_buvd_r"/><path class="vkba6k5jk"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:parentheses-broken" {...props}></Icon>
+<style>
+:global(.ipq1z-bjh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.jl_buvd_r) {
+  d: path("M4.22266 7C5.37351 4.76691 7.1866 3.04679 8.9997 2");
+}
+
+:global(.n6daalb-j) {
+  d: path("M9 22C6 20.268 3 16.6925 3 12");
+}
+
+:global(.vkba6k5jk) {
+  d: path("M15 22C18 20.268 21 16.6925 21 12C21 7.30754 18 3.73205 15 2");
+}
+
+</style>

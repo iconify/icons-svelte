@@ -1,11 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/j/jv514ss1m.css';
-import '../../css/r/rbjrgob2r.css';
-import '../../css/q/qesyv5buv.css';
-import '../../css/d/djbi_ub-i.css';
-import '../../css/k/k2s9xcb6i.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -14,3 +8,32 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><path class="jv514ss1m"/><path class="rbjrgob2r"/><path class="qesyv5buv"/><path class="djbi_ub-i"/><path class="k2s9xcb6i"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:list-minus-linear" {...props}></Icon>
+<style>
+:global(.djbi_ub-i) {
+  d: path("M11 18H3");
+}
+
+:global(.ipq1z-bjh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.jv514ss1m) {
+  d: path("M21 6L3 6");
+}
+
+:global(.k2s9xcb6i) {
+  d: path("M21 16.5H14");
+}
+
+:global(.qesyv5buv) {
+  d: path("M11 14L3 14");
+}
+
+:global(.rbjrgob2r) {
+  d: path("M21 10L3 10");
+}
+
+</style>

@@ -1,15 +1,5 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/v90gbqbox.css';
-import '../../css/l/lq7a-_8su.css';
-import '../../css/p/pq5xj2bli.css';
-import '../../css/q/qi4ad9bta.css';
-import '../../css/i/i0kw3he6n.css';
-import '../../css/n/n_ucwybmv.css';
-import '../../css/t/t9jxz8b5u.css';
-import '../../css/t/tljtj2ber.css';
-import '../../css/u/uq9j8rbvn.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
@@ -18,3 +8,54 @@ const viewBox = {"width":24,"height":24};
 const content = `<g class="ipq1z-bjh"><circle class="v90gbqbox"/><path class="lq7a-_8su"/><path class="pq5xj2bli"/><path class="qi4ad9bta"/><path class="i0kw3he6n"/><path class="n_ucwybmv"/><path class="t9jxz8b5u"/><path class="tljtj2ber"/><path class="uq9j8rbvn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="solar:sun-line-duotone" {...props}></Icon>
+<style>
+:global(.i0kw3he6n) {
+  d: path("M3 12L2 12");
+}
+
+:global(.ipq1z-bjh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.lq7a-_8su) {
+  d: path("M12 2V3");
+}
+
+:global(.n_ucwybmv) {
+  d: path("M19.0703 4.9292L18.6775 5.32204");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+:global(.pq5xj2bli) {
+  d: path("M12 21V22");
+}
+
+:global(.qi4ad9bta) {
+  d: path("M22 12L21 12");
+}
+
+:global(.t9jxz8b5u) {
+  d: path("M5.32227 18.6782L4.92943 19.0711");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+:global(.tljtj2ber) {
+  d: path("M19.0703 19.0708L18.6775 18.678");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+:global(.uq9j8rbvn) {
+  d: path("M5.32227 5.32178L4.92943 4.92894");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+:global(.v90gbqbox) {
+  cx: 12px;
+  cy: 12px;
+  r: 6px;
+}
+
+</style>
