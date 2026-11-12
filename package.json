@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg",
   "type": "module",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -2722,9 +2722,9 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/conekta.svelte"
     },
-    "./confluence": {
+    "./confluence-legacy": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/confluence.svelte"
+      "svelte": "./components/c/confluence-legacy.svelte"
     },
     "./construct-3": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15225,6 +15225,10 @@
     "./zyte": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/z/zyte.svelte"
+    },
+    "./confluence": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/confluence.svelte"
     },
     "./*": "./*"
   },

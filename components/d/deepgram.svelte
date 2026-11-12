@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ic6i11b1t.css';
+import '../../css/s/s6jyhdbck.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ic6i11b1t"/>`;
+const content = `<path class="s6jyhdbck"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="thesvg:deepgram" {...props}></Icon>
