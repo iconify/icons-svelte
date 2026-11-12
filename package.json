@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/logos",
   "type": "module",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "homepage": "https://icon-sets.iconify.design/logos/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC0-1.0",
@@ -2161,6 +2161,10 @@
     "./deepgram-icon": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/deepgram-icon.svelte"
+    },
+    "./deepgram-icon-mono": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/deepgram-icon-mono.svelte"
     },
     "./deepinfra": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4853,6 +4857,10 @@
     "./macos": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/macos.svelte"
+    },
+    "./macos-icon": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/macos-icon.svelte"
     },
     "./macosx": {
       "types": "./types/gfwqskkx.d.ts",
