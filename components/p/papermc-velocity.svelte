@@ -1,12 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/n/n73j_hptb.css';
-import '../../css/p/pkgwtlppi.css';
+import '../../css/i/i3zqipbxv.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="n73j_hptb"/><path class="pkgwtlppi"/>`;
+const content = `<path class="n73j_hptb"/><path class="i3zqipbxv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:papermc-velocity" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/m/mvq4twb7l.css';
+import '../../css/a/a_2v1ybsg.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="mvq4twb7l"/>`;
+const content = `<path class="a_2v1ybsg"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:streamlink-dark" {...props}></Icon>

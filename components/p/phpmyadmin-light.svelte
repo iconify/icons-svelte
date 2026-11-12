@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/ncc_k81kj.css';
+import '../../css/f/fwl8mey3g.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="ncc_k81kj"/>`;
+const content = `<path class="fwl8mey3g"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:phpmyadmin-light" {...props}></Icon>

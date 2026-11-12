@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/e/efxus0nfo.css';
+import '../../css/f/f5cbidche.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="efxus0nfo"/>`;
+const content = `<path class="f5cbidche"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:mathesar-dark" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/y/yfhjdabbo.css';
+import '../../css/f/futyw_qpm.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="yfhjdabbo"/>`;
+const content = `<path class="futyw_qpm"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:google-calendar-light" {...props}></Icon>

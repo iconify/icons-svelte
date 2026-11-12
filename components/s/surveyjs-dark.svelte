@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/e/ez66c3eel.css';
+import '../../css/n/ng5reibrf.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="ez66c3eel"/>`;
+const content = `<path class="ng5reibrf"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:surveyjs-dark" {...props}></Icon>

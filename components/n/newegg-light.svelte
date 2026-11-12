@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/q/q6g9odcyz.css';
+import '../../css/t/tqle04bwc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="q6g9odcyz"/>`;
+const content = `<path class="tqle04bwc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:newegg-light" {...props}></Icon>

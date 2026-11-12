@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/g-odxj2go.css';
+import '../../css/h/hjz-obqrr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
-const viewBox = {"width":640,"height":640};
-const content = `<path class="g-odxj2go"/>`;
+const viewBox = {"width":512,"height":512};
+const content = `<path class="hjz-obqrr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:dockge-dark" {...props}></Icon>

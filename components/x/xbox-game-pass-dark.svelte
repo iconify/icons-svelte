@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/rmkivvb3t.css';
+import '../../css/q/qbz0sif1c.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="rmkivvb3t"/>`;
+const content = `<path class="qbz0sif1c"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:xbox-game-pass-dark" {...props}></Icon>

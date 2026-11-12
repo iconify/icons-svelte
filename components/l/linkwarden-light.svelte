@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/wsmnm9b9o.css';
+import '../../css/i/i--9t9r5m.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="wsmnm9b9o"/>`;
+const content = `<path class="i--9t9r5m"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:linkwarden-light" {...props}></Icon>

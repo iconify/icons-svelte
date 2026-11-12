@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/m/mf6l_pbah.css';
+import '../../css/x/x1ksnct3v.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="mf6l_pbah"/>`;
+const content = `<path class="x1ksnct3v"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:pgadmin-light" {...props}></Icon>

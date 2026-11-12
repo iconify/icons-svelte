@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/e/e9o002biw.css';
+import '../../css/x/xxz55uslf.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="e9o002biw"/>`;
+const content = `<path class="xxz55uslf"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:qbittorrent-light" {...props}></Icon>

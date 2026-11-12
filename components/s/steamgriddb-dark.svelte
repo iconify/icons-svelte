@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/l/lbqqh1vfg.css';
-import '../../css/h/hu-59pbvb.css';
-import '../../css/b/bt_2dwbxx.css';
-import '../../css/d/dzpo8zb_v.css';
+import '../../css/h/hgt426vre.css';
+import '../../css/n/n9h5yebjh.css';
+import '../../css/k/k_lrs8b-y.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="lbqqh1vfg"/><path class="hu-59pbvb"/><path class="bt_2dwbxx"/><path class="dzpo8zb_v"/>`;
+const content = `<path class="hgt426vre"/><path class="n9h5yebjh"/><path class="k_lrs8b-y"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:steamgriddb-dark" {...props}></Icon>

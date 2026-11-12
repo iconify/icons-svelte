@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/h/hixc0gbky.css';
+import '../../css/m/m6xenkabn.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="hixc0gbky"/>`;
+const content = `<path class="m6xenkabn"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:nyt-crossword-light" {...props}></Icon>

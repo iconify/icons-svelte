@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/o9ds4ubva.css';
+import '../../css/s/s5g6v5bkl.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="o9ds4ubva"/>`;
+const content = `<path class="s5g6v5bkl"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:gl-inet-dark" {...props}></Icon>

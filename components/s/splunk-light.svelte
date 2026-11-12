@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/s/sx601lt2a.css';
+import '../../css/t/tby322bkd.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="sx601lt2a"/>`;
+const content = `<path class="tby322bkd"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:splunk-light" {...props}></Icon>

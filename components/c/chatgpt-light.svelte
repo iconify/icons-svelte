@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/r41-qcb-p.css';
+import '../../css/c/c9q0aubhk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="r41-qcb-p"/>`;
+const content = `<path class="c9q0aubhk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:chatgpt-light" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/h/h-0oyrb7l.css';
+import '../../css/s/sdhj22bof.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="h-0oyrb7l"/>`;
+const content = `<path class="sdhj22bof"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:firebase-light" {...props}></Icon>

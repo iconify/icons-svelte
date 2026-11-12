@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/s/sildfsqje.css';
+import '../../css/j/jj1rpu33a.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="sildfsqje"/>`;
+const content = `<path class="jj1rpu33a"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:typemill-light" {...props}></Icon>

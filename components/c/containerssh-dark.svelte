@@ -1,12 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/wb5bgx25v.css';
-import '../../css/a/az6xitzef.css';
+import '../../css/f/fhjv5acyx.css';
+import '../../css/v/vu03pvbnj.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="wb5bgx25v"/><path class="az6xitzef"/>`;
+const content = `<path class="fhjv5acyx"/><path class="vu03pvbnj"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:containerssh-dark" {...props}></Icon>

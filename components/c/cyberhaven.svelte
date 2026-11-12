@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/q/qi-hyiv2s.css';
+import '../../css/i/in33yub4e.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="qi-hyiv2s"/>`;
+const content = `<path class="in33yub4e"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:cyberhaven" {...props}></Icon>

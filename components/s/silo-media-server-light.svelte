@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/c/cym2lacyw.css';
-import '../../css/g/gemcfhb7v.css';
-import '../../css/q/qjf38o8dr.css';
+import '../../css/z/z-ykbvj8h.css';
+import '../../css/u/u9t9_-bsv.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="cym2lacyw"/><path class="gemcfhb7v"/><path class="qjf38o8dr"/>`;
+const content = `<path class="cym2lacyw"/><path class="z-ykbvj8h"/><path class="u9t9_-bsv"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:silo-media-server-light" {...props}></Icon>

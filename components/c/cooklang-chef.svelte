@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/j99-dtc4i.css';
+import '../../css/l/l3136bbzf.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="j99-dtc4i"/>`;
+const content = `<path class="l3136bbzf"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:cooklang-chef" {...props}></Icon>

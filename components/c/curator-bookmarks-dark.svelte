@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/u/uytirkbmx.css';
+import '../../css/q/qjdk-tbmr.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="uytirkbmx"/>`;
+const content = `<path class="qjdk-tbmr"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:curator-bookmarks-dark" {...props}></Icon>

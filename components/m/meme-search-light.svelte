@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/g/gtuukp9fe.css';
+import '../../css/r/ru669i_fx.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="gtuukp9fe"/>`;
+const content = `<path class="ru669i_fx"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:meme-search-light" {...props}></Icon>

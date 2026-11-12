@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/p/pmi_zrsne.css';
+import '../../css/t/teihgzbdq.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="pmi_zrsne"/>`;
+const content = `<path class="teihgzbdq"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:plikshare-light" {...props}></Icon>

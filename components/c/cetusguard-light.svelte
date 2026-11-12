@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/t/tibe2sbhc.css';
+import '../../css/q/qruf-zb4g.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="tibe2sbhc"/>`;
+const content = `<path class="qruf-zb4g"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:cetusguard-light" {...props}></Icon>

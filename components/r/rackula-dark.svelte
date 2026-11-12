@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/chbs9jbxe.css';
+import '../../css/u/umdmixbmo.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="chbs9jbxe"/>`;
+const content = `<path class="umdmixbmo"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:rackula-dark" {...props}></Icon>

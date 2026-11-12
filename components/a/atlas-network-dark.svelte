@@ -1,12 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/e/ev1riup_j.css';
+import '../../css/s/s2s7s9b6z.css';
 import '../../css/h/hufvzydwy.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<circle class="ev1riup_j"/><path class="hufvzydwy"/>`;
+const content = `<circle class="s2s7s9b6z"/><path class="hufvzydwy"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:atlas-network-dark" {...props}></Icon>

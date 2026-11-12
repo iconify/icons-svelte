@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/q/q4pkyxbyo.css';
-import '../../css/j/j34xgl0mc.css';
-import '../../css/h/hti6_g1vm.css';
+import '../../css/x/x0iipgbww.css';
+import '../../css/h/hn4t-7ikp.css';
+import '../../css/v/v72q7eb3k.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<circle class="q4pkyxbyo"/><circle class="j34xgl0mc"/><circle class="hti6_g1vm"/>`;
+const content = `<circle class="x0iipgbww"/><circle class="hn4t-7ikp"/><circle class="v72q7eb3k"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:smlight-dark" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/u/u2asp0b9w.css';
+import '../../css/l/lmc3tccua.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
-const viewBox = {"width":24,"height":24};
-const content = `<path class="u2asp0b9w"/>`;
+const viewBox = {"width":512,"height":512};
+const content = `<path class="lmc3tccua"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:composetoolbox-light" {...props}></Icon>

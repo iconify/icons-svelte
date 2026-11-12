@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/h/htrmvrbjf.css';
+import '../../css/w/w0d_hgaop.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="htrmvrbjf"/>`;
+const content = `<path class="w0d_hgaop"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:clovalink-dark" {...props}></Icon>
