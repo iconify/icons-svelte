@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="ao1pd8bew"/><path class="e7xy8ib5q"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:data-stream" {...props}></Icon>
+<style>
+:global(.ao1pd8bew) {
+  d: path("M2.5 6q3-3 6 0t6 0t6 0m-18 6q3-3 6 0t6 0t6 0m-18 6q3-3 6 0t6 0t6 0");
+}
+
+:global(.e7xy8ib5q) {
+  d: path("m19.75 3.75l1 2.25l-2.25 1m1.25 2.75l1 2.25l-2.25 1m1.25 2.75l1 2.25l-2.25 1");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

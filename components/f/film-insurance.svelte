@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="vjappnlzm"/><path class="x7mrh_k-j"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:film-insurance" {...props}></Icon>
+<style>
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.vjappnlzm) {
+  d: path("M12.2 19H3V3.5h17v8.6M3 8.5h17m-11-5l-2 5m8-5l-2 5");
+}
+
+:global(.x7mrh_k-j) {
+  d: path("m18.5 14.5l3.5 1.25v2.5c0 2-1.5 3.25-3.5 3.75c-2-.5-3.5-1.75-3.5-3.75v-2.5Z");
+}
+
+</style>

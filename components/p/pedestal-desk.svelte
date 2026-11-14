@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s0icz0b3j"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:pedestal-desk" {...props}></Icon>
+<style>
+:global(.s0icz0b3j) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.5 5.5h19v3h-19Zm1 3h6V19h-6Zm11 0h6V19h-6Zm-11 5h6m5 0h6");
+}
+
+</style>

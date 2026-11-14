@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="p03gmbb3q"/><path class="znc2kx7qr"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:drainage-ditch" {...props}></Icon>
+<style>
+:global(.p03gmbb3q) {
+  d: path("M2 6.5h3l2.75 12h8.5L19 6.5h3");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.znc2kx7qr) {
+  d: path("M8.75 10.25q1.625-1.5 3.25 0t3.25 0m-5.5 4.5q1.125-1.5 2.25 0t2.25 0");
+}
+
+</style>

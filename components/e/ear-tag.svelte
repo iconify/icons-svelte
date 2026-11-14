@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="wepgi1zbp"/><path class="ki7khyb9p"/><path class="pw9vjab7j"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:ear-tag" {...props}></Icon>
+<style>
+:global(.ki7khyb9p) {
+  d: path("M10 11a2 2 0 1 0 4 0a2 2 0 1 0-4 0Z");
+}
+
+:global(.pw9vjab7j) {
+  d: path("M12 9V4.5a2 2 0 0 1 4 0v4");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.wepgi1zbp) {
+  d: path("M6 13a6 6 0 0 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 6 19Z");
+}
+
+</style>

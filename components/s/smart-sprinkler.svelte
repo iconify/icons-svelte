@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="g6jnqcxeg"/><path class="bt7bxfb3f"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:smart-sprinkler" {...props}></Icon>
+<style>
+:global(.bt7bxfb3f) {
+  d: path("M5 9q4.5-4.5 9.5 2m-.5 6a5.66 5.66 0 0 1 8 0m-6 2a2.83 2.83 0 0 1 4 0m-2 2h.01");
+}
+
+:global(.g6jnqcxeg) {
+  d: path("M5 21.5v-9m-2 0h4V9H3ZM5 9q5-8.5 15.5-.5");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

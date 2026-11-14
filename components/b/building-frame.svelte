@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kleq5sulr"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:building-frame" {...props}></Icon>
+<style>
+:global(.kleq5sulr) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M4.5 3.5v18m7.5-18v18m7.5-18v18m-17-18h19m-19 6h19m-19 6h19m-17 6l7.5-6");
+}
+
+</style>

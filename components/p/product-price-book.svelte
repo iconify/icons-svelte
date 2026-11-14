@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="hv9kgw6dy"/><path class="z6m01vbxe"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:product-price-book" {...props}></Icon>
+<style>
+:global(.hv9kgw6dy) {
+  d: path("M21 12.567V4.5q-6-.75-9 1.5q-3-2.25-9-1.5v14q5.497-.687 8.475 1.144M12 6v5.4");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.z6m01vbxe) {
+  d: path("M14.25 14.25h4.5L22 17.5L17.5 22l-3.25-3.25Z");
+}
+
+</style>

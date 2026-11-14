@@ -1,0 +1,29 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="jxs_2zb1y"/><path class="bipjcgbra"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:video-record" {...props}></Icon>
+<style>
+:global(.bipjcgbra) {
+  fill: currentColor;
+  d: path("M7 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0Z");
+}
+
+:global(.jxs_2zb1y) {
+  d: path("M2.5 6h13v12h-13Zm13 4l6-3v10l-6-3");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qt90m2nki"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:group-member-list" {...props}></Icon>
+<style>
+:global(.qt90m2nki) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.5 20c0-2.5 2.1-4.25 4.75-4.25S12 17.5 12 20c0 .6-.4 1-1 1H3.5c-.6 0-1-.4-1-1ZM4 9.75a3.25 3.25 0 1 0 6.5 0a3.25 3.25 0 1 0-6.5 0ZM13 6a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0Zm.25 6.5c.65-.75 1.45-1.25 2.25-1.25c1.75 0 3.25.5 4.25 1.25m-4.75 3h6m-6 2.75h6M15 21h4");
+}
+
+</style>

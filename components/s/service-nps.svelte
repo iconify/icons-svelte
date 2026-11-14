@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bodfdguue"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:service-nps" {...props}></Icon>
+<style>
+:global(.bodfdguue) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.5 13.5h19m-15.25 0v2m3.75-2v2m3.75-2v2m3.75-2v2m-2.25-10h4.5L17.5 9.75ZM2.5 19.5a1 1.75 0 1 0 2 0a1 1.75 0 1 0-2 0Zm15-1.75v3.5m2-1.75a1 1.75 0 1 0 2 0a1 1.75 0 1 0-2 0Z");
+}
+
+</style>

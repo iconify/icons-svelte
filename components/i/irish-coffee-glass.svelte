@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wf-zsqdaj"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:irish-coffee-glass" {...props}></Icon>
+<style>
+:global(.wf-zsqdaj) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6 3.5h8.5V11a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4Zm8.5 2H16a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1.5M10.25 15v5.5M7 20.5h6.5M6 7h8.5");
+}
+
+</style>

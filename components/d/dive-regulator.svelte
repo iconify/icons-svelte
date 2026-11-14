@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="jthwjgx-z"/><path class="pngb9gbgc"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:dive-regulator" {...props}></Icon>
+<style>
+:global(.jthwjgx-z) {
+  d: path("M3 9.5a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0-13 0Z");
+}
+
+:global(.pngb9gbgc) {
+  d: path("M14.5 13.75c3 1.75 4.75.75 4.75 3.5m-2.5 0h5v4h-5ZM7 9.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0Z");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="c0ksb7_jx"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:kids-chair" {...props}></Icon>
+<style>
+:global(.c0ksb7_jx) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6 13.5V9a6 6 0 0 1 12 0v4.5m-14.5 0h17V17h-17Zm3 3.5v4m11-4v4");
+}
+
+</style>

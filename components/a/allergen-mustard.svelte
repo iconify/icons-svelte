@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kg9jqzbuv"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:allergen-mustard" {...props}></Icon>
+<style>
+:global(.kg9jqzbuv) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.5 21V10.5l2.5-3h6l2.5 3V21Zm4-13.5l1-4h1l1 4m2.5-3h.01m4.99 10V18m0 3h.01");
+}
+
+</style>

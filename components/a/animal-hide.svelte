@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="d5t8bxb2x"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:animal-hide" {...props}></Icon>
+<style>
+:global(.d5t8bxb2x) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m2.5 9.5l19-4.75M4.5 9v10.5m15-14.25V19.5m-17 0h19m-14-8h9v3h-9Z");
+}
+
+</style>

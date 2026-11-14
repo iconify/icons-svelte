@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="dr10-2app"/><path class="rt4tjubwt"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:fire-chief" {...props}></Icon>
+<style>
+:global(.dr10-2app) {
+  d: path("M4 18v-4.5a8 8 0 0 1 16 0V18M2.5 19.5L4 18h16l1.5 1.5");
+}
+
+:global(.rt4tjubwt) {
+  d: path("M9.25 8.75h5.5v2.75c0 1.75-1.25 2.75-2.75 3.5c-1.5-.75-2.75-1.75-2.75-3.5Z");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ulnmmdpxh"><path class="p8u760b4u"/><path class="t7c5gqb6r"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:bell-curve-grades" {...props}></Icon>
+<style>
+:global(.p8u760b4u) {
+  d: path("M3.5 3v17.5H21");
+}
+
+:global(.t7c5gqb6r) {
+  d: path("M6 19.5C9 19.5 9.5 6 12.5 6S16 19.5 19 19.5");
+}
+
+:global(.ulnmmdpxh) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

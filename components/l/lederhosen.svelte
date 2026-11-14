@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pw1ahrbwb"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-sharp:lederhosen" {...props}></Icon>
+<style>
+:global(.pw1ahrbwb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M6 11.5h12l1.25 9H13.5l-1.5-5l-1.5 5H4.75Zm2.5 0v-8m7 8v-8M8.5 7h7");
+}
+
+</style>
