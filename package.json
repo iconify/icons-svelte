@@ -1,0 +1,351 @@
+{
+  "name": "@iconify-svelte/evicons",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://icon-sets.iconify.design/evicons/",
+  "bugs": "https://github.com/iconify/icons-svelte/issues",
+  "license": "MIT",
+  "exports": {
+    "./accessible-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/accessible-charging.svelte"
+    },
+    "./app-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-charging.svelte"
+    },
+    "./battery-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-charging.svelte"
+    },
+    "./bidirectional-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bidirectional-charging.svelte"
+    },
+    "./bike-electric": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bike-electric.svelte"
+    },
+    "./bus-electric": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bus-electric.svelte"
+    },
+    "./calibrated-meter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calibrated-meter.svelte"
+    },
+    "./car-electric": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-electric.svelte"
+    },
+    "./car-plugged": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-plugged.svelte"
+    },
+    "./card-terminal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/card-terminal.svelte"
+    },
+    "./charging-availability": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-availability.svelte"
+    },
+    "./charging-bolt": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-bolt.svelte"
+    },
+    "./charging-cable": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-cable.svelte"
+    },
+    "./charging-card": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-card.svelte"
+    },
+    "./charging-hub": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-hub.svelte"
+    },
+    "./charging-log": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-log.svelte"
+    },
+    "./charging-operator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-operator.svelte"
+    },
+    "./charging-plug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-plug.svelte"
+    },
+    "./charging-power-level": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-power-level.svelte"
+    },
+    "./charging-session": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-session.svelte"
+    },
+    "./charging-socket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-socket.svelte"
+    },
+    "./charging-station": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-station.svelte"
+    },
+    "./charging-tariff": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-tariff.svelte"
+    },
+    "./charging-time": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/charging-time.svelte"
+    },
+    "./community-verified": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/community-verified.svelte"
+    },
+    "./current-ac": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/current-ac.svelte"
+    },
+    "./current-dc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/current-dc.svelte"
+    },
+    "./dealer-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/dealer-charging.svelte"
+    },
+    "./destination-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/destination-charging.svelte"
+    },
+    "./driving-range": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/driving-range.svelte"
+    },
+    "./fast-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fast-charging.svelte"
+    },
+    "./free-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/free-charging.svelte"
+    },
+    "./fuel-station-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fuel-station-charging.svelte"
+    },
+    "./green-power": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/green-power.svelte"
+    },
+    "./highway-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/highway-charging.svelte"
+    },
+    "./home-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/home-charging.svelte"
+    },
+    "./idle-fee": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/idle-fee.svelte"
+    },
+    "./marker-ac": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-ac.svelte"
+    },
+    "./marker-available": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-available.svelte"
+    },
+    "./marker-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-charging.svelte"
+    },
+    "./marker-cluster": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-cluster.svelte"
+    },
+    "./marker-dc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-dc.svelte"
+    },
+    "./marker-faulted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-faulted.svelte"
+    },
+    "./marker-occupied": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-occupied.svelte"
+    },
+    "./marker-out-of-service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-out-of-service.svelte"
+    },
+    "./marker-queue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-queue.svelte"
+    },
+    "./marker-reserved": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-reserved.svelte"
+    },
+    "./marker-unknown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-unknown.svelte"
+    },
+    "./motorcycle-electric": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/motorcycle-electric.svelte"
+    },
+    "./parking-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/parking-charging.svelte"
+    },
+    "./plug-and-charge": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-and-charge.svelte"
+    },
+    "./plug-ccs1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-ccs1.svelte"
+    },
+    "./plug-ccs2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-ccs2.svelte"
+    },
+    "./plug-cee-blue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-cee-blue.svelte"
+    },
+    "./plug-cee-red": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-cee-red.svelte"
+    },
+    "./plug-chademo": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-chademo.svelte"
+    },
+    "./plug-gbt-dc": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-gbt-dc.svelte"
+    },
+    "./plug-in-hybrid": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-in-hybrid.svelte"
+    },
+    "./plug-mcs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-mcs.svelte"
+    },
+    "./plug-nacs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-nacs.svelte"
+    },
+    "./plug-schuko": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-schuko.svelte"
+    },
+    "./plug-type-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-type-1.svelte"
+    },
+    "./plug-type-2": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-type-2.svelte"
+    },
+    "./power-kw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-kw.svelte"
+    },
+    "./power-outage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power-outage.svelte"
+    },
+    "./qr-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qr-charging.svelte"
+    },
+    "./register-verified": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/register-verified.svelte"
+    },
+    "./report-fault": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/report-fault.svelte"
+    },
+    "./restricted-access": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/restricted-access.svelte"
+    },
+    "./roaming": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/roaming.svelte"
+    },
+    "./route-to-charger": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/route-to-charger.svelte"
+    },
+    "./shop-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shop-charging.svelte"
+    },
+    "./solar-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/solar-charging.svelte"
+    },
+    "./station-uptime": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/station-uptime.svelte"
+    },
+    "./status-available": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-available.svelte"
+    },
+    "./status-faulted": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-faulted.svelte"
+    },
+    "./status-occupied": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-occupied.svelte"
+    },
+    "./status-out-of-service": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-out-of-service.svelte"
+    },
+    "./status-queue": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-queue.svelte"
+    },
+    "./status-reserved": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-reserved.svelte"
+    },
+    "./status-unknown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-unknown.svelte"
+    },
+    "./streetlight-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/streetlight-charging.svelte"
+    },
+    "./truck-electric": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/truck-electric.svelte"
+    },
+    "./wallbox": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wallbox.svelte"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-svelte": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-svelte#evicons"
+}
