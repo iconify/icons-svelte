@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/vscode-icons",
   "type": "module",
-  "version": "1.0.72",
+  "version": "1.0.73",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -489,6 +489,10 @@
     "./file-type-casc": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-casc.svelte"
+    },
+    "./file-type-cassandra": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-cassandra.svelte"
     },
     "./file-type-cddl": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2046,6 +2050,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-cabal.svelte"
     },
+    "./file-type-light-cassandra": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-cassandra.svelte"
+    },
     "./file-type-light-checkov": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-checkov.svelte"
@@ -2481,6 +2489,10 @@
     "./file-type-light-shaderlab": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-light-shaderlab.svelte"
+    },
+    "./file-type-light-simple-icons": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-light-simple-icons.svelte"
     },
     "./file-type-light-skill": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4209,6 +4221,10 @@
     "./file-type-silverstripe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-type-silverstripe.svelte"
+    },
+    "./file-type-simple-icons": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-type-simple-icons.svelte"
     },
     "./file-type-sino": {
       "types": "./types/gfwqskkx.d.ts",
