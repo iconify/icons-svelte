@@ -1,0 +1,18 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="w3qz0gm7y"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix-solid:circle-filled" {...props}></Icon>
+<style>
+:global(.w3qz0gm7y) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2.25 12q-.001-4.039 2.855-6.896T12 2.247t6.895 2.857T21.75 12q.001 4.039-2.855 6.896T12 21.753q-4.04 0-6.895-2.857Q2.249 16.039 2.25 12");
+}
+
+</style>
