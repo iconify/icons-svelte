@@ -2,12 +2,12 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/h/hntgybcog.css';
 import '../../css/v/vewp37bih.css';
-import '../../css/s/sjwyhhial.css';
+import '../../css/d/dgn65lb1h.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="hntgybcog"><path class="vewp37bih"/><path class="sjwyhhial"/></g>`;
+const content = `<g class="hntgybcog"><path class="vewp37bih"/><path class="dgn65lb1h"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:banknote" {...props}></Icon>

@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/m/mq0gxh6nr.css';
+import '../../css/s/s_8s9-f3x.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="mq0gxh6nr"/>`;
+const content = `<path class="s_8s9-f3x"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:megaphone-01" {...props}></Icon>

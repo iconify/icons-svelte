@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/l/l40035c0i.css';
+import '../../css/y/y6ttxdkqm.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="l40035c0i"/>`;
+const content = `<path class="y6ttxdkqm"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:sliders-vertical" {...props}></Icon>

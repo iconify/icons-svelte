@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/ob0g1dvlc.css';
+import '../../css/y/y55cpqcln.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ob0g1dvlc"/>`;
+const content = `<path class="y55cpqcln"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:diamond-minus" {...props}></Icon>

@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/p/pvpjlb97s.css';
-import '../../css/y/y9-kljbny.css';
-import '../../css/j/j7k2ckmjp.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/l/lz_qbtbon.css';
+import '../../css/m/mf929jm4r.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="pvpjlb97s"/><path class="y9-kljbny"/><path class="j7k2ckmjp"/></g>`;
+const content = `<g class="hntgybcog"><path class="lz_qbtbon"/><path class="mf929jm4r"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:save-money-dollar" {...props}></Icon>

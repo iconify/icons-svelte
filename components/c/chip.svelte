@@ -1,14 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/d/ddvgu8bvv.css';
-import '../../css/n/nme9ebbkd.css';
-import '../../css/h/hqasmfb3p.css';
-import '../../css/h/hrtyawjns.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/y/y8ob31epl.css';
+import '../../css/r/r_44_2-ul.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ddvgu8bvv"><path class="nme9ebbkd"/><path class="hqasmfb3p"/><path class="hrtyawjns"/></g>`;
+const content = `<g class="hntgybcog"><path class="y8ob31epl"/><path class="r_44_2-ul"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:chip" {...props}></Icon>

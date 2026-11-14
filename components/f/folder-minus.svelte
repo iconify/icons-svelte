@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/q/qkc7o_b9d.css';
+import '../../css/i/ivlssacxk.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qkc7o_b9d"/>`;
+const content = `<path class="ivlssacxk"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:folder-minus" {...props}></Icon>

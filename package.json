@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/hugeicons",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "homepage": "https://icon-sets.iconify.design/hugeicons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -38,6 +38,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/3/3-d-view.svelte"
     },
+    "./3-g-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/3/3-g-signal.svelte"
+    },
     "./3d-move": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/3/3d-move.svelte"
@@ -66,9 +70,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/3/3rd-bracket-square.svelte"
     },
+    "./4-g-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/4/4-g-signal.svelte"
+    },
     "./4k": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/4/4k.svelte"
+    },
+    "./5-g-signal": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/5/5-g-signal.svelte"
     },
     "./7z-01": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1286,6 +1298,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/archive-arrow-up.svelte"
     },
+    "./archive-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/archive-off.svelte"
+    },
     "./archive-off-03": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/archive-off-03.svelte"
@@ -1374,6 +1390,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-diagonal.svelte"
     },
+    "./arrow-down-0-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-0-1.svelte"
+    },
     "./arrow-down-01": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-down-01.svelte"
@@ -1393,6 +1413,10 @@
     "./arrow-down-05": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-down-05.svelte"
+    },
+    "./arrow-down-1-0": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-down-1-0.svelte"
     },
     "./arrow-down-a-z": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1618,6 +1642,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-turn-up.svelte"
     },
+    "./arrow-up-0-1": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-0-1.svelte"
+    },
     "./arrow-up-01": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-up-01.svelte"
@@ -1637,6 +1665,10 @@
     "./arrow-up-05": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-up-05.svelte"
+    },
+    "./arrow-up-1-0": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/arrow-up-1-0.svelte"
     },
     "./arrow-up-az": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1838,6 +1870,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/attachment-circle.svelte"
     },
+    "./attachment-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/attachment-off.svelte"
+    },
     "./attachment-square": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/attachment-square.svelte"
@@ -1941,6 +1977,10 @@
     "./axe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/axe.svelte"
+    },
+    "./axis-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/axis-3d.svelte"
     },
     "./axis3d": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4294,6 +4334,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/car-time.svelte"
     },
+    "./car-transmission": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/car-transmission.svelte"
+    },
     "./caravan": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/caravan.svelte"
@@ -4613,6 +4657,10 @@
     "./chart-column-decreasing": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chart-column-decreasing.svelte"
+    },
+    "./chart-column-dots": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chart-column-dots.svelte"
     },
     "./chart-column-increasing": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6086,6 +6134,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/column-insert.svelte"
     },
+    "./columns-3-cog": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/columns-3-cog.svelte"
+    },
     "./combine": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/combine.svelte"
@@ -6621,6 +6673,10 @@
     "./credit-card-freeze": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/credit-card-freeze.svelte"
+    },
+    "./credit-card-link": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card-link.svelte"
     },
     "./credit-card-not-accept": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8014,6 +8070,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/edit-04.svelte"
     },
+    "./edit-multiple": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-multiple.svelte"
+    },
+    "./edit-multiple-01": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/edit-multiple-01.svelte"
+    },
     "./edit-off": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/edit-off.svelte"
@@ -8238,6 +8302,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ethereum-rectangle.svelte"
     },
+    "./ethernet-port": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/ethernet-port.svelte"
+    },
     "./euro": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/euro.svelte"
@@ -8269,6 +8337,10 @@
     "./evil": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/evil.svelte"
+    },
+    "./excavator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/excavator.svelte"
     },
     "./exchange-01": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8461,6 +8533,10 @@
     "./file-audio": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-audio.svelte"
+    },
+    "./file-axis-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-axis-3d.svelte"
     },
     "./file-axis3d": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8809,6 +8885,10 @@
     "./file-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-x.svelte"
+    },
+    "./file-x-corner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-x-corner.svelte"
     },
     "./file-yen": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9266,6 +9346,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-details-reference.svelte"
     },
+    "./folder-dot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-dot.svelte"
+    },
     "./folder-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-down.svelte"
@@ -9397,6 +9481,10 @@
     "./folder-search": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-search.svelte"
+    },
+    "./folder-search-01": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-search-01.svelte"
     },
     "./folder-search-2": {
       "types": "./types/gfwqskkx.d.ts",
@@ -10273,6 +10361,10 @@
     "./hammer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hammer.svelte"
+    },
+    "./hammer-01": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hammer-01.svelte"
     },
     "./hand": {
       "types": "./types/gfwqskkx.d.ts",
@@ -12474,6 +12566,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-ordered.svelte"
     },
+    "./list-ordered-az": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-ordered-az.svelte"
+    },
     "./list-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-plus.svelte"
@@ -13930,6 +14026,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/microsoft-admin.svelte"
     },
+    "./microsoft-teams": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microsoft-teams.svelte"
+    },
     "./microwave": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/microwave.svelte"
@@ -14149,6 +14249,10 @@
     "./money-bag-02": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/money-bag-02.svelte"
+    },
+    "./money-bag-time": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/money-bag-time.svelte"
     },
     "./money-exchange-01": {
       "types": "./types/gfwqskkx.d.ts",
@@ -14730,6 +14834,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/move-02.svelte"
     },
+    "./move-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/move-3d.svelte"
+    },
     "./move-bottom": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/move-bottom.svelte"
@@ -14965,6 +15073,10 @@
     "./navigation-2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/navigation-2.svelte"
+    },
+    "./navigation-2-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/navigation-2-off.svelte"
     },
     "./navigation-off": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15454,6 +15566,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-add.svelte"
     },
+    "./package-add-01": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-add-01.svelte"
+    },
     "./package-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-check.svelte"
@@ -15517,6 +15633,10 @@
     "./package-remove": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-remove.svelte"
+    },
+    "./package-remove-01": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-remove-01.svelte"
     },
     "./package-search": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17770,6 +17890,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rotate-360.svelte"
     },
+    "./rotate-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rotate-3d.svelte"
+    },
     "./rotate-bottom-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rotate-bottom-left.svelte"
@@ -18173,6 +18297,10 @@
     "./scale": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scale.svelte"
+    },
+    "./scale-3d": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scale-3d.svelte"
     },
     "./scale3d": {
       "types": "./types/gfwqskkx.d.ts",
@@ -20834,6 +20962,66 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sunset.svelte"
     },
+    "./super-intelligence": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence.svelte"
+    },
+    "./super-intelligence-01": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-01.svelte"
+    },
+    "./super-intelligence-02": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-02.svelte"
+    },
+    "./super-intelligence-03": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-03.svelte"
+    },
+    "./super-intelligence-chat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-chat.svelte"
+    },
+    "./super-intelligence-cloud": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-cloud.svelte"
+    },
+    "./super-intelligence-file": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-file.svelte"
+    },
+    "./super-intelligence-folder": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-folder.svelte"
+    },
+    "./super-intelligence-robot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-robot.svelte"
+    },
+    "./super-intelligence-search": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-search.svelte"
+    },
+    "./super-intelligence-setting": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-setting.svelte"
+    },
+    "./super-intelligence-shield": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-shield.svelte"
+    },
+    "./super-intelligence-speech": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-speech.svelte"
+    },
+    "./super-intelligence-video": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-video.svelte"
+    },
+    "./super-intelligence-voice": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/super-intelligence-voice.svelte"
+    },
     "./super-mario": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/super-mario.svelte"
@@ -22721,6 +22909,14 @@
     "./unhappy": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/unhappy.svelte"
+    },
+    "./union-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/union-circle.svelte"
+    },
+    "./union-horizontal-circle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/union-horizontal-circle.svelte"
     },
     "./universal-access": {
       "types": "./types/gfwqskkx.d.ts",

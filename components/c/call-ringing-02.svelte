@@ -1,11 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/rh1xwcb2e.css';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/d/da4g6hbex.css';
+import '../../css/t/tw0fkzprg.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="rh1xwcb2e"/>`;
+const content = `<g class="jx0p4fbya"><path class="da4g6hbex"/><path class="tw0fkzprg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:call-ringing-02" {...props}></Icon>

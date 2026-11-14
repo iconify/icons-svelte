@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/v/va98u3skl.css';
-import '../../css/l/l6tifibiq.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/c/ch-c-mbci.css';
+import '../../css/j/jboz0obdn.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="va98u3skl"/><path class="l6tifibiq"/></g>`;
+const content = `<g class="hntgybcog"><path class="ch-c-mbci"/><path class="jboz0obdn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:ai-security-02" {...props}></Icon>

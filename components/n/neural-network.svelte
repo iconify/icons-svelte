@@ -1,13 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/i/ippgambnh.css';
-import '../../css/w/wpeb5qn-n.css';
+import '../../css/g/gjtrnul4q.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="ippgambnh"/><path class="wpeb5qn-n"/></g>`;
+const content = `<path class="gjtrnul4q"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:neural-network" {...props}></Icon>

@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/d/ddvgu8bvv.css';
-import '../../css/g/gdpq22bzn.css';
-import '../../css/n/ny81u6b2y.css';
+import '../../css/h/hntgybcog.css';
+import '../../css/w/wo2mc-qtj.css';
+import '../../css/q/qg0dh0bef.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ddvgu8bvv"><path class="gdpq22bzn"/><path class="ny81u6b2y"/></g>`;
+const content = `<g class="hntgybcog"><path class="wo2mc-qtj"/><path class="qg0dh0bef"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:mail-edit-01" {...props}></Icon>

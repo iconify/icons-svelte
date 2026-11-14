@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/o/oxuvarb9f.css';
+import '../../css/y/yyizrib-z.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="oxuvarb9f"/>`;
+const content = `<path class="yyizrib-z"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:scan-search" {...props}></Icon>

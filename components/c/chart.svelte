@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/c/ct8qdso9q.css';
+import '../../css/p/p1w__abiy.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ct8qdso9q"/>`;
+const content = `<path class="p1w__abiy"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:chart" {...props}></Icon>

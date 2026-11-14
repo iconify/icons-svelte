@@ -1,13 +1,13 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/q/q_bd01dir.css';
+import '../../css/h/hntgybcog.css';
 import '../../css/s/shu3xdl9q.css';
+import '../../css/l/lzxhivtsi.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="q_bd01dir"/><circle class="shu3xdl9q"/></g>`;
+const content = `<g class="hntgybcog"><circle class="shu3xdl9q"/><path class="lzxhivtsi"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="hugeicons:attachment-circle" {...props}></Icon>
