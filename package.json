@@ -1,11 +1,15 @@
 {
   "name": "@iconify-svelte/codex",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://icon-sets.iconify.design/codex/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
   "exports": {
+    "./activity": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/activity.svelte"
+    },
     "./add-background": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/add-background.svelte"
@@ -54,9 +58,25 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/arrow-up.svelte"
     },
+    "./at-sign": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/at-sign.svelte"
+    },
+    "./audio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/audio.svelte"
+    },
+    "./bar-chart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bar-chart.svelte"
+    },
     "./bell": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bell.svelte"
+    },
+    "./bell-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-off.svelte"
     },
     "./bold": {
       "types": "./types/gfwqskkx.d.ts",
@@ -78,6 +98,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/border.svelte"
     },
+    "./bot": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bot.svelte"
+    },
     "./box": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/box.svelte"
@@ -97,6 +121,14 @@
     "./briefcase": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/briefcase.svelte"
+    },
+    "./broadcast": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/broadcast.svelte"
+    },
+    "./bug": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bug.svelte"
     },
     "./calendar": {
       "types": "./types/gfwqskkx.d.ts",
@@ -134,6 +166,26 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevron-up.svelte"
     },
+    "./circle-alert": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-alert.svelte"
+    },
+    "./circle-check": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-check.svelte"
+    },
+    "./circle-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-minus.svelte"
+    },
+    "./circle-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-plus.svelte"
+    },
+    "./circle-x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-x.svelte"
+    },
     "./clipboard": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clipboard.svelte"
@@ -162,6 +214,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/color.svelte"
     },
+    "./command": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/command.svelte"
+    },
+    "./compass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/compass.svelte"
+    },
     "./copy": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/copy.svelte"
@@ -174,9 +234,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/credit-card.svelte"
     },
+    "./crop": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crop.svelte"
+    },
     "./cross": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cross.svelte"
+    },
+    "./crown": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/crown.svelte"
     },
     "./curly-brackets": {
       "types": "./types/gfwqskkx.d.ts",
@@ -213,10 +281,6 @@
     "./direction-up-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/direction-up-right.svelte"
-    },
-    "./document": {
-      "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/d/document.svelte"
     },
     "./dot-circle": {
       "types": "./types/gfwqskkx.d.ts",
@@ -261,6 +325,14 @@
     "./filter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/filter.svelte"
+    },
+    "./fingerprint": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/fingerprint.svelte"
+    },
+    "./flag": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flag.svelte"
     },
     "./folder": {
       "types": "./types/gfwqskkx.d.ts",
@@ -318,6 +390,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heading.svelte"
     },
+    "./headphones": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/headphones.svelte"
+    },
     "./heart": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/heart.svelte"
@@ -329,6 +405,10 @@
     "./home": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/home.svelte"
+    },
+    "./hourglass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hourglass.svelte"
     },
     "./html": {
       "types": "./types/gfwqskkx.d.ts",
@@ -357,6 +437,10 @@
     "./laptop": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/laptop.svelte"
+    },
+    "./layers": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers.svelte"
     },
     "./lightbulb": {
       "types": "./types/gfwqskkx.d.ts",
@@ -422,6 +506,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/microphone.svelte"
     },
+    "./microphone-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/microphone-off.svelte"
+    },
     "./minimize": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/minimize.svelte"
@@ -438,13 +526,29 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/moon.svelte"
     },
+    "./mouse": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mouse.svelte"
+    },
+    "./music": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/music.svelte"
+    },
     "./mute": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mute.svelte"
     },
+    "./paperclip": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paperclip.svelte"
+    },
     "./pause": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/pause.svelte"
+    },
+    "./percent": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/percent.svelte"
     },
     "./phone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -453,6 +557,10 @@
     "./picture": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/picture.svelte"
+    },
+    "./pin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pin.svelte"
     },
     "./play": {
       "types": "./types/gfwqskkx.d.ts",
@@ -465,6 +573,14 @@
     "./plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plus.svelte"
+    },
+    "./power": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/power.svelte"
+    },
+    "./printer": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/printer.svelte"
     },
     "./question": {
       "types": "./types/gfwqskkx.d.ts",
@@ -486,6 +602,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/remove-background.svelte"
     },
+    "./repeat": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/repeat.svelte"
+    },
     "./replace": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/replace.svelte"
@@ -498,6 +618,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/save.svelte"
     },
+    "./scissors": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scissors.svelte"
+    },
     "./search": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/search.svelte"
@@ -505,6 +629,10 @@
     "./send": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/send.svelte"
+    },
+    "./server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/server.svelte"
     },
     "./settings": {
       "types": "./types/gfwqskkx.d.ts",
@@ -518,9 +646,33 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shield.svelte"
     },
+    "./shuffle": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/shuffle.svelte"
+    },
     "./sidebar": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sidebar.svelte"
+    },
+    "./skip-back": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skip-back.svelte"
+    },
+    "./skip-forward": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/skip-forward.svelte"
+    },
+    "./sliders": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sliders.svelte"
+    },
+    "./smartphone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smartphone.svelte"
+    },
+    "./smile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/smile.svelte"
     },
     "./sort": {
       "types": "./types/gfwqskkx.d.ts",
@@ -578,6 +730,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/text.svelte"
     },
+    "./thumbs-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-down.svelte"
+    },
+    "./thumbs-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-up.svelte"
+    },
     "./translate": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/translate.svelte"
@@ -585,6 +745,18 @@
     "./trash": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/trash.svelte"
+    },
+    "./trending-down": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trending-down.svelte"
+    },
+    "./trending-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trending-up.svelte"
+    },
+    "./trophy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trophy.svelte"
     },
     "./twitter": {
       "types": "./types/gfwqskkx.d.ts",
@@ -626,9 +798,29 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/v/volume.svelte"
     },
+    "./wallet": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/w/wallet.svelte"
+    },
     "./warning": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/warning.svelte"
+    },
+    "./x": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/x/x.svelte"
+    },
+    "./zoom-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-in.svelte"
+    },
+    "./zoom-out": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zoom-out.svelte"
+    },
+    "./document": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/document.svelte"
     },
     "./*": "./*"
   },
