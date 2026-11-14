@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/struq",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://icon-sets.iconify.design/struq/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -106,9 +106,25 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/audience-draw.svelte"
     },
+    "./bell": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell.svelte"
+    },
+    "./bell-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bell-draw.svelte"
+    },
     "./blocked": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/blocked.svelte"
+    },
+    "./bookmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark.svelte"
+    },
+    "./bookmark-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bookmark-draw.svelte"
     },
     "./branch": {
       "types": "./types/gfwqskkx.d.ts",
@@ -130,6 +146,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bug-draw.svelte"
     },
+    "./calculator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calculator.svelte"
+    },
+    "./calculator-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calculator-draw.svelte"
+    },
+    "./calendar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar.svelte"
+    },
+    "./calendar-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/calendar-draw.svelte"
+    },
     "./call": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/call.svelte"
@@ -138,6 +170,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/call-draw.svelte"
     },
+    "./camera": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera.svelte"
+    },
+    "./camera-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/camera-draw.svelte"
+    },
     "./campaign": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/campaign.svelte"
@@ -145,6 +185,14 @@
     "./campaign-draw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/campaign-draw.svelte"
+    },
+    "./cart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cart.svelte"
+    },
+    "./cart-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cart-draw.svelte"
     },
     "./case": {
       "types": "./types/gfwqskkx.d.ts",
@@ -206,6 +254,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/clipboard-draw.svelte"
     },
+    "./clock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock.svelte"
+    },
+    "./clock-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/clock-draw.svelte"
+    },
     "./close": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/close.svelte"
@@ -249,6 +305,14 @@
     "./copy-draw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/copy-draw.svelte"
+    },
+    "./credit-card": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card.svelte"
+    },
+    "./credit-card-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/credit-card-draw.svelte"
     },
     "./customer": {
       "types": "./types/gfwqskkx.d.ts",
@@ -325,6 +389,10 @@
     "./error": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/error.svelte"
+    },
+    "./euro": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/euro.svelte"
     },
     "./expand": {
       "types": "./types/gfwqskkx.d.ts",
@@ -474,6 +542,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-word-draw.svelte"
     },
+    "./filter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter.svelte"
+    },
+    "./filter-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/filter-draw.svelte"
+    },
     "./folder": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder.svelte"
@@ -538,6 +614,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gauge-draw.svelte"
     },
+    "./globe": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe.svelte"
+    },
+    "./globe-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-draw.svelte"
+    },
     "./goal": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/goal.svelte"
@@ -565,6 +649,14 @@
     "./headset-draw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/headset-draw.svelte"
+    },
+    "./heart": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart.svelte"
+    },
+    "./heart-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/heart-draw.svelte"
     },
     "./help": {
       "types": "./types/gfwqskkx.d.ts",
@@ -678,6 +770,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-ordered.svelte"
     },
+    "./loader": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loader.svelte"
+    },
+    "./loader-spin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/loader-spin.svelte"
+    },
     "./lock": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lock.svelte"
@@ -686,6 +786,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lock-draw.svelte"
     },
+    "./log-in": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in.svelte"
+    },
+    "./log-in-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/log-in-draw.svelte"
+    },
     "./mail": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail.svelte"
@@ -693,6 +801,26 @@
     "./mail-draw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-draw.svelte"
+    },
+    "./map-pin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin.svelte"
+    },
+    "./map-pin-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/map-pin-draw.svelte"
+    },
+    "./menu": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/menu.svelte"
+    },
+    "./mic": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic.svelte"
+    },
+    "./mic-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mic-draw.svelte"
     },
     "./minus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -734,6 +862,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/o/offline.svelte"
     },
+    "./package": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package.svelte"
+    },
+    "./package-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-draw.svelte"
+    },
     "./palette": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/palette.svelte"
@@ -753,6 +889,10 @@
     "./paste-draw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/paste-draw.svelte"
+    },
+    "./pause": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/pause.svelte"
     },
     "./pin": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1018,6 +1158,22 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/sound-draw.svelte"
     },
+    "./sparkles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkles.svelte"
+    },
+    "./sparkles-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sparkles-draw.svelte"
+    },
+    "./star": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star.svelte"
+    },
+    "./star-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/star-draw.svelte"
+    },
     "./step-current": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/step-current.svelte"
@@ -1098,6 +1254,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/theme-light-draw.svelte"
     },
+    "./thumbs-up": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-up.svelte"
+    },
+    "./thumbs-up-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thumbs-up-draw.svelte"
+    },
     "./timer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/timer.svelte"
@@ -1125,6 +1289,14 @@
     "./translate-draw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/translate-draw.svelte"
+    },
+    "./trend": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trend.svelte"
+    },
+    "./trend-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trend-draw.svelte"
     },
     "./type": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1157,6 +1329,14 @@
     "./user": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user.svelte"
+    },
+    "./user-add": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-add.svelte"
+    },
+    "./user-add-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-add-draw.svelte"
     },
     "./user-draw": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1205,6 +1385,14 @@
     "./window-draw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/w/window-draw.svelte"
+    },
+    "./zap": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zap.svelte"
+    },
+    "./zap-draw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/z/zap-draw.svelte"
     },
     "./*": "./*"
   },
