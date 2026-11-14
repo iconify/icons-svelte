@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ynl70wxsf"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:squash-ball" {...props}></Icon>
+<style>
+:global(.ynl70wxsf) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.5 12a8.5 8.5 0 1 0 17 0a8.5 8.5 0 1 0-17 0m10-4.5h.01m2.99 3h.01");
+}
+
+</style>

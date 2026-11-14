@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="oy9aotbsd"/><path class="gwasdrbtx"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:emoji-laugh" {...props}></Icon>
+<style>
+:global(.gwasdrbtx) {
+  d: path("M7.5 10L9 8.5l1.5 1.5m3 0L15 8.5l1.5 1.5m-9 3.5h9c0 2.5-2 4.25-4.5 4.25S7.5 16 7.5 13.5");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.oy9aotbsd) {
+  d: path("M2.5 12a9.5 9.5 0 1 0 19 0a9.5 9.5 0 1 0-19 0");
+}
+
+</style>

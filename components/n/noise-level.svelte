@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qc172rjtn"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:noise-level" {...props}></Icon>
+<style>
+:global(.qc172rjtn) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.5 10h4L13 5.5v13L7.5 14h-4ZM16 9.5c1.5 1.5 1.5 3.5 0 5M18.5 7c2.5 2.5 2.5 7.5 0 10");
+}
+
+</style>

@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="a95ub6bhf"/><path class="qluponpmq"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:banknote" {...props}></Icon>
+<style>
+:global(.a95ub6bhf) {
+  d: path("M6 4.5h12A3.5 3.5 0 0 1 21.5 8v8a3.5 3.5 0 0 1-3.5 3.5H6A3.5 3.5 0 0 1 2.5 16V8A3.5 3.5 0 0 1 6 4.5");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.qluponpmq) {
+  d: path("M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0m-2.75 0h.01m11.49 0h.01");
+}
+
+</style>

@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="zmd0gnfrv"/><path class="v9qiwoomi"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:health-centre" {...props}></Icon>
+<style>
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.v9qiwoomi) {
+  d: path("M9 8h1.25L11 6.5l1.25 3L13 8h2m-5 13.5v-6h4v6m-9-9h.01m-.01 4h.01m13.99-4h.01m-.01 4h.01");
+}
+
+:global(.zmd0gnfrv) {
+  d: path("M2.5 21.5V9h5V4.5h9V9h5v12.5Z");
+}
+
+</style>

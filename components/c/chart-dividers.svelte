@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="iydqa7b3w"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:chart-dividers" {...props}></Icon>
+<style>
+:global(.iydqa7b3w) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M10 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0m1.25 1.75L6 21.5m6.75-14.75L18 21.5");
+}
+
+</style>

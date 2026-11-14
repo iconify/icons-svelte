@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="he3s4_kjg"/><path class="oy8n70bsr"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:tree-trunk-carved" {...props}></Icon>
+<style>
+:global(.he3s4_kjg) {
+  d: path("m6 3.5l3-1L12 4l3-1.5l3 1V17c0 2.5 1 3.75 2.5 4.5h-17C5 20.75 6 19.5 6 17Z");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.oy8n70bsr) {
+  d: path("m12 15l-2.25-2.25A1.75 1.75 0 0 1 12 10.5a1.75 1.75 0 0 1 2.25 2.25Z");
+}
+
+</style>

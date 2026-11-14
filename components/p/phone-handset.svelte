@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pi0ttlimn"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:phone-handset" {...props}></Icon>
+<style>
+:global(.pi0ttlimn) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3 13.5c0-3 4-5 9-5s9 2 9 5V15a1 1 0 0 1-1 1h-3.5a1 1 0 0 1-1-1v-1.5a11.17 11.17 0 0 0-7 0V15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z");
+}
+
+</style>

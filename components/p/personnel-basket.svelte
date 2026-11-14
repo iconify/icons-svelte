@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="y6449y4_w"/><path class="cwofschpx"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:personnel-basket" {...props}></Icon>
+<style>
+:global(.cwofschpx) {
+  d: path("m4.5 14l7.5-4l7.5 4M6.665 14h10.67a1.75 1.75 0 0 1 1.711 2.117l-.75 3.5A1.75 1.75 0 0 1 16.585 21h-9.17a1.75 1.75 0 0 1-1.711-1.383l-.75-3.5A1.75 1.75 0 0 1 6.665 14");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.y6449y4_w) {
+  d: path("M14.5 2.5v5a2.5 2.5 0 0 1-5 0");
+}
+
+</style>

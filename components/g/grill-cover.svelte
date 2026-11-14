@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="p7tc_nbhy"/><path class="ekqb5lrvh"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:grill-cover" {...props}></Icon>
+<style>
+:global(.ekqb5lrvh) {
+  d: path("M10.5 4.75v-2h3v2M6 14c0 3 2.5 4.5 6 4.5s6-1.5 6-4.5m-9 4l-2 3.5m8-3.5l2 3.5");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.p7tc_nbhy) {
+  d: path("M3.5 14q1-1 1-2a7.5 7.5 0 0 1 15 0q0 1 1 2Z");
+}
+
+</style>

@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="ih1lrlw7a"/><path class="oqervpm8v"/><path class="xwbhlkbed"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:postman-collection" {...props}></Icon>
+<style>
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.ih1lrlw7a) {
+  d: path("M3 11a2 2 0 0 1 2-2h3.5l2 2H19a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z");
+}
+
+:global(.oqervpm8v) {
+  d: path("M11.5 11V7.5A1.5 1.5 0 0 1 13 6h2a1.5 1.5 0 0 1 1.5 1.5V11");
+}
+
+:global(.xwbhlkbed) {
+  d: path("M19.5 11V4.5A1.5 1.5 0 0 0 18 3h-3a1.5 1.5 0 0 0-1.5 1.5V6");
+}
+
+</style>

@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="rks02mbyg"/><path class="s97trabxn"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:skate-laces" {...props}></Icon>
+<style>
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.rks02mbyg) {
+  d: path("M4 3h7l1.5 7l6 2a2 2 0 0 1 1.5 2v2.5H4Zm3 13.5v3m10-3v3m-14 0h18M6.5 5.5l3 3.25m-3 0l3-3.25");
+}
+
+:global(.s97trabxn) {
+  d: path("M11.25 4.5c2.75 0 4 1.5 3.5 4");
+}
+
+</style>

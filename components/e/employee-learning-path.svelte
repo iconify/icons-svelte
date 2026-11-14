@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="w6avi7bwg"/><path class="kkjb_lbjk"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:employee-learning-path" {...props}></Icon>
+<style>
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.kkjb_lbjk) {
+  d: path("M18 21.5c-1.75-1.75-3-3.25-3-4.75a3 3 0 0 1 6 0c0 1.5-1.25 3-3 4.75");
+}
+
+:global(.w6avi7bwg) {
+  d: path("M21.5 12.153V4.5C17 4 14 4.5 12 6c-2-1.5-5-2-9.5-1.5v14C7 18 10 18.5 12 20a7 7 0 0 1 .887-.564M12 6v14");
+}
+
+</style>

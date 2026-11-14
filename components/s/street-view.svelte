@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="qfy0_x4-t"/><path class="e0erkbbcq"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:street-view" {...props}></Icon>
+<style>
+:global(.e0erkbbcq) {
+  d: path("M7.5 15.5C4.5 16 3 16.9 3 18c0 1.75 4 3 9 3s9-1.25 9-3c0-1.1-1.5-2-4.5-2.5");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.qfy0_x4-t) {
+  d: path("M10 4a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-.75 12.5v-5a2.75 2.75 0 0 1 5.5 0v5");
+}
+
+</style>

@@ -1,0 +1,33 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="l42630oed"/><path class="xe8slm__f"/><path class="i840415qb"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:cricket-net-practice" {...props}></Icon>
+<style>
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.i840415qb) {
+  fill: currentColor;
+  d: path("M14.75 19.25a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0-3 0");
+}
+
+:global(.l42630oed) {
+  d: path("M3 21V4h18v17");
+}
+
+:global(.xe8slm__f) {
+  d: path("m3 9l4.5-5L12 9l4.5-5L21 9zm10.975 4.025za1.75 1.75 0 0 1 0 2.475L11.5 17.975a1.75 1.75 0 0 1-2.475 0a1.75 1.75 0 0 1 0-2.475l2.475-2.475a1.75 1.75 0 0 1 2.475 0M9 18l-3 3");
+}
+
+</style>

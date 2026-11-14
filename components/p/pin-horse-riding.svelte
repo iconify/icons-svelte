@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pkmrge02o"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:pin-horse-riding" {...props}></Icon>
+<style>
+:global(.pkmrge02o) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M17.5 21c0-5 1.5-8.5 1.5-12s-2.5-5.5-5-5.5l-1-1L12 4c-2.5 1-5 4-7.5 8.5c-1 1.5 0 3.5 2 3l3.5-1c1 2 .5 4.5-.5 6.5Zm-5-13h.01");
+}
+
+</style>

@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="fni79ccee"/><path class="dlpk0pdin"/><path class="gbf6dccar"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:envelope-open-letter" {...props}></Icon>
+<style>
+:global(.dlpk0pdin) {
+  d: path("m3.5 10.5l8.5 5l8.5-5");
+}
+
+:global(.fni79ccee) {
+  d: path("M6.5 7.75L3 10v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8l-3.5-2.25");
+}
+
+:global(.gbf6dccar) {
+  d: path("M6.5 12.25V4.5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v7.75M9.5 7h5");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+</style>

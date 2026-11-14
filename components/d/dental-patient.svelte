@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="a7p8khbgi"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:dental-patient" {...props}></Icon>
+<style>
+:global(.a7p8khbgi) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M4.5 6L8 15h8l4.5 4M12 15v6m-4 0h8M7.5 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0");
+}
+
+</style>

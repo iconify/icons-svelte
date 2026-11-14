@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="vljkkricq"/><path class="aybbn9bmt"/><path class="uwf9jcb2y"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:clock-mantel" {...props}></Icon>
+<style>
+:global(.aybbn9bmt) {
+  d: path("M8 11a4 4 0 1 0 8 0a4 4 0 1 0-8 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.uwf9jcb2y) {
+  d: path("M12 8.75V11l1.75 1");
+}
+
+:global(.vljkkricq) {
+  d: path("M5 18v-8a7 7 0 0 1 14 0v8Zm-1.5 3h17m-13-3v3m9-3v3");
+}
+
+</style>

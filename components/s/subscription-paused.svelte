@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="ctq0t5yes"/><path class="vhrqxgm1n"/><path class="s3bopeb2m"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:subscription-paused" {...props}></Icon>
+<style>
+:global(.ctq0t5yes) {
+  d: path("M5.938 8.5A7 7 0 0 1 19 12");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.s3bopeb2m) {
+  d: path("M7.5 14.5L5 12l-2.5 2.5m8-5v5m3-5v5");
+}
+
+:global(.vhrqxgm1n) {
+  d: path("M16.5 9.5L19 12l2.5-2.5m-3.438 6A7 7 0 0 1 5 12");
+}
+
+</style>

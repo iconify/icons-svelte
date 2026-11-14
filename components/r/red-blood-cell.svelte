@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="gorrxnp8o"/><path class="y_c3f5biq"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:red-blood-cell" {...props}></Icon>
+<style>
+:global(.gorrxnp8o) {
+  d: path("M2.5 12a9.5 6.75 0 1 0 19 0a9.5 6.75 0 1 0-19 0");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.y_c3f5biq) {
+  d: path("M7.5 11a4.5 2 0 1 0 9 0a4.5 2 0 1 0-9 0M5 15.5c2 1.75 4.5 2.5 7 2.5");
+}
+
+</style>

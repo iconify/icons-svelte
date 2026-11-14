@@ -1,0 +1,32 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="he403gbvd"/><path class="kk5vh3qit"/><path class="nqj-5nbcg"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:bank-hours" {...props}></Icon>
+<style>
+:global(.he403gbvd) {
+  d: path("M6.5 7.5h11A3.5 3.5 0 0 1 21 11v7a3.5 3.5 0 0 1-3.5 3.5h-11A3.5 3.5 0 0 1 3 18v-7a3.5 3.5 0 0 1 3.5-3.5m1 0L12 3l4.5 4.5M12 3h.01");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.kk5vh3qit) {
+  d: path("M7.75 14.5a4.25 4.25 0 1 0 8.5 0a4.25 4.25 0 1 0-8.5 0");
+}
+
+:global(.nqj-5nbcg) {
+  d: path("M12 12v2.5l2 1");
+}
+
+</style>

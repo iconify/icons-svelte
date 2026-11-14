@@ -1,0 +1,28 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="xxtnnnblw"/><path class="gjnnl7s9m"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:hand-holding-cup" {...props}></Icon>
+<style>
+:global(.gjnnl7s9m) {
+  d: path("M2.5 21.5H13l6.75-4.25a1.5 1.5 0 0 0-1.5-2.5l-1.75 1M7 3.5h8v5a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3Zm8 1.75h1a2 2 0 0 1 0 4h-1");
+}
+
+:global(.hntgybcog) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+:global(.xxtnnnblw) {
+  d: path("M2.5 14.5h4.25l3 2H13a1 1 0 0 1 0 2H9.25");
+}
+
+</style>

@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="t3kam3b7r"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:chart-axis-y" {...props}></Icon>
+<style>
+:global(.t3kam3b7r) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M14 21.5V3m-2.75 2.75L14 3l2.75 2.75M14 19h-4m4-5h-4m4-5h-4");
+}
+
+</style>

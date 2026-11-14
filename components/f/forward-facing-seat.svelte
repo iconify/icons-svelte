@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="qrn35j92l"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:forward-facing-seat" {...props}></Icon>
+<style>
+:global(.qrn35j92l) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5 10.5L7.25 17H19m-6.5 0v4.5m-3.5 0h7M5 5h13.5M16 2.5L18.5 5L16 7.5");
+}
+
+</style>

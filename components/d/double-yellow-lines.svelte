@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="naqw94c8k"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:double-yellow-lines" {...props}></Icon>
+<style>
+:global(.naqw94c8k) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3 2.5V6m0 4.25v3.5M3 18v3.5m18-19V6m0 4.25v3.5M21 18v3.5m-10.5-19v19m3-19v19");
+}
+
+</style>

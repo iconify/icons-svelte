@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m0aww-xsw"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="uix:tenant-credit-check" {...props}></Icon>
+<style>
+:global(.m0aww-xsw) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.5 13.5a9.5 9.5 0 0 1 4.188-7.876m1.147-.663a9.5 9.5 0 0 1 8.33 0m1.147.663q.462.311.884.675q.422.363.799.773t.703.862q.327.451.598.938q.272.486.484 1.001q.213.515.364 1.051t.238 1.086t.11 1.107M12 13.5L16.5 8m-6 5.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0-3 0m5.75 2.5a1.75 1.75 0 1 0 3.5 0a1.75 1.75 0 1 0-3.5 0m-1.75 5.75a3.5 3 0 0 1 7 0");
+}
+
+</style>
