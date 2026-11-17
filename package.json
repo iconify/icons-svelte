@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/codex",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://icon-sets.iconify.design/codex/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -33,6 +33,10 @@
     "./align-right": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/align-right.svelte"
+    },
+    "./angry": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/angry.svelte"
     },
     "./application": {
       "types": "./types/gfwqskkx.d.ts",
@@ -294,6 +298,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/drag.svelte"
     },
+    "./earth": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/earth.svelte"
+    },
     "./error": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/error.svelte"
@@ -334,6 +342,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/flag.svelte"
     },
+    "./flask": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/flask.svelte"
+    },
     "./folder": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder.svelte"
@@ -353,6 +365,10 @@
     "./globe": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe.svelte"
+    },
+    "./grab": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/grab.svelte"
     },
     "./grid-view": {
       "types": "./types/gfwqskkx.d.ts",
@@ -381,6 +397,10 @@
     "./h6": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/h6.svelte"
+    },
+    "./happy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/happy.svelte"
     },
     "./hash": {
       "types": "./types/gfwqskkx.d.ts",
@@ -538,6 +558,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mute.svelte"
     },
+    "./neutral": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/neutral.svelte"
+    },
     "./paperclip": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/paperclip.svelte"
@@ -582,6 +606,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/printer.svelte"
     },
+    "./qr-code": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qr-code.svelte"
+    },
     "./question": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/question.svelte"
@@ -602,6 +630,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/remove-background.svelte"
     },
+    "./rename": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rename.svelte"
+    },
     "./repeat": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/repeat.svelte"
@@ -613,6 +645,10 @@
     "./rocket": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rocket.svelte"
+    },
+    "./sad": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/sad.svelte"
     },
     "./save": {
       "types": "./types/gfwqskkx.d.ts",
