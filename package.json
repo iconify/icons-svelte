@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg",
   "type": "module",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -841,6 +841,10 @@
     "./apifox": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apifox.svelte"
+    },
+    "./apiko": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apiko.svelte"
     },
     "./apl": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5022,9 +5026,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/glif.svelte"
     },
-    "./glincker": {
+    "./glincker-legacy": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/g/glincker.svelte"
+      "svelte": "./components/g/glincker-legacy.svelte"
+    },
+    "./glinr": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glinr.svelte"
     },
     "./glitch": {
       "types": "./types/gfwqskkx.d.ts",
@@ -15229,6 +15237,10 @@
     "./confluence": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/confluence.svelte"
+    },
+    "./glincker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glincker.svelte"
     },
     "./*": "./*"
   },
