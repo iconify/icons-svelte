@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="tjmi06bqq"/><path class="a2f-6zbpz"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="u6-difbky"/><path class="a2f-6zbpz"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:cloud-sync-corner-duotone-round" {...props}></Icon>
 <style>
@@ -21,10 +21,10 @@ const content = `<g class="ft5dv1b6b"><path class="tjmi06bqq"/><path class="a2f-
   fill: none;
 }
 
-:global(.tjmi06bqq) {
+:global(.u6-difbky) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M12 10a3 3 0 0 0-3 3v6a1 1 0 0 1-1 1H7a6 6 0 0 1-.739-11.956c.754-2.033 2.254-3.712 4.346-4.404c2.878-.951 5.911.244 7.461 2.828c.426.718.732 1.499.908 2.315A1 1 0 0 1 18 10Z");
+  d: path("M7 19A5 5 0 0 1 7 9c1.819-6.366 9.638-6.116 11 0h-6a4 4 0 0 0-4 4v6Z");
 }
 
 </style>

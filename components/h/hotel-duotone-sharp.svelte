@@ -5,10 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="oj70tvpuz"/><path class="jnh5_l2ry"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ckjqj_b3x"/><path class="jnh5_l2ry"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:hotel-duotone-sharp" {...props}></Icon>
 <style>
+:global(.ckjqj_b3x) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M5 3h14v18H5Z");
+}
+
 :global(.ft5dv1b6b) {
   fill: none;
 }
@@ -19,12 +25,6 @@ const content = `<g class="ft5dv1b6b"><path class="oj70tvpuz"/><path class="jnh5
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M3 21h18M5 21V3h14v18M8 7h.01M8 11h.01M12 7h.01M12 11h.01M16 7h.01M16 11h.01M9 16h6m-5 5v-5m4 5v-5");
-}
-
-:global(.oj70tvpuz) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 21V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1");
 }
 
 </style>

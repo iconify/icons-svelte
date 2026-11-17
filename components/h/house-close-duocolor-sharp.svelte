@@ -5,10 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="pane80bkq"/><path class="z_356sbxy"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="pane80bkq"/><path class="is_4m5cif"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:house-close-duocolor-sharp" {...props}></Icon>
 <style>
+:global(.is_4m5cif) {
+  d: path("m12 3l8 7v11H4V10z");
+}
+
 :global(.nrj6p8qat) {
   fill: none;
   stroke: currentColor;
@@ -20,10 +24,6 @@ const content = `<g class="nrj6p8qat"><path class="pane80bkq"/><path class="z_35
 :global(.pane80bkq) {
   stroke-opacity: 0.4;
   d: path("m10 12l4 4m0-4l-4 4");
-}
-
-:global(.z_356sbxy) {
-  d: path("m16 7l4 4v10H4V11l8-8z");
 }
 
 </style>

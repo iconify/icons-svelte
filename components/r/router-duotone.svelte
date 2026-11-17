@@ -5,12 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="zde7dtbms"/><path class="t0v78lb6k"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ln-iedcdd"/><path class="t0v78lb6k"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:router-duotone" {...props}></Icon>
 <style>
 :global(.ft5dv1b6b) {
   fill: none;
+}
+
+:global(.ln-iedcdd) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M5 15h14a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2");
 }
 
 :global(.t0v78lb6k) {
@@ -19,12 +25,6 @@ const content = `<g class="ft5dv1b6b"><path class="zde7dtbms"/><path class="t0v7
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M3 17a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm4 1h.01M11 18h.01M16 12v3m-2-6a2.83 2.83 0 0 1 4 0m-7-3a7.07 7.07 0 0 1 10 0");
-}
-
-:global(.zde7dtbms) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M5 14h14a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-2a3 3 0 0 1 3-3");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="xt7mnqd8i"/><path class="p_e0gh73o"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="p8r0ctb9p"/><path class="p_e0gh73o"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:chart-pyramid-duotone-sharp" {...props}></Icon>
 <style>
@@ -21,10 +21,10 @@ const content = `<g class="ft5dv1b6b"><path class="xt7mnqd8i"/><path class="p_e0
   d: path("m16 11l5 10H3l9-18zM9 9h6m-9 6h12");
 }
 
-:global(.xt7mnqd8i) {
+:global(.p8r0ctb9p) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M21.894 20.553A1 1 0 0 1 21 22H3a1 1 0 0 1-.894-1.447l9-18a.998.998 0 0 1 1.788 0Z");
+  d: path("M21 21H3l9-18Z");
 }
 
 </style>

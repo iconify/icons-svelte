@@ -5,18 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="mms4_pbmy"/><path class="mxyt-qc_z"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="xde234b2a"/><path class="mxyt-qc_z"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:x-duotone-round" {...props}></Icon>
 <style>
 :global(.ft5dv1b6b) {
   fill: none;
-}
-
-:global(.mms4_pbmy) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M8 3a1 1 0 0 1 .8.4l12 16A.999.999 0 0 1 20 21h-4a1 1 0 0 1-.8-.4l-12-16A.999.999 0 0 1 4 3Z");
 }
 
 :global(.mxyt-qc_z) {
@@ -25,6 +19,12 @@ const content = `<g class="ft5dv1b6b"><path class="mms4_pbmy"/><path class="mxyt
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("m4 20l6-8m4 0l6-8M4 4h4l12 16h-4Z");
+}
+
+:global(.xde234b2a) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("m8 4l12 16h-4L4 4Z");
 }
 
 </style>

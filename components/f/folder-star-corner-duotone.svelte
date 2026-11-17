@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="otmdcnbqr"/><path class="rrwbe22zj"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="gfi1dhd7n"/><path class="rrwbe22zj"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:folder-star-corner-duotone" {...props}></Icon>
 <style>
@@ -13,10 +13,10 @@ const content = `<g class="ft5dv1b6b"><path class="otmdcnbqr"/><path class="rrwb
   fill: none;
 }
 
-:global(.otmdcnbqr) {
+:global(.gfi1dhd7n) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M10.707 3.293L12.414 5H19a3 3 0 0 1 3 3a1 1 0 0 1-1 1H10a.997.997 0 0 0-1 1v10a1 1 0 0 1-1 1H5a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h5c.265 0 .52.105.707.293M17 13.4l1.2 2.4l2.8.4l-2 2l.4 2.4l-2.4-1.2l-2.4 1.2l.4-2.4l-2-2l2.8-.4Z");
+  d: path("M12 6h7a2 2 0 0 1 2 2H10a2 2 0 0 0-2 2v10H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5Zm5 7.4l1.2 2.4l2.8.4l-2 2l.4 2.4l-2.4-1.2l-2.4 1.2l.4-2.4l-2-2l2.8-.4Z");
 }
 
 :global(.rrwbe22zj) {

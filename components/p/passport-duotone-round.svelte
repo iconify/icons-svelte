@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="pbjb7xbdp"/><path class="ziy2_ca4k"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="qfw5xbb0d"/><path class="ziy2_ca4k"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:passport-duotone-round" {...props}></Icon>
 <style>
@@ -13,10 +13,10 @@ const content = `<g class="ft5dv1b6b"><path class="pbjb7xbdp"/><path class="ziy2
   fill: none;
 }
 
-:global(.pbjb7xbdp) {
+:global(.qfw5xbb0d) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M9 2h6a5 5 0 0 1 5 5v10a5 5 0 0 1-1.464 3.536A5 5 0 0 1 15 22H9a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5");
+  d: path("M9 3h6a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4");
 }
 
 :global(.ziy2_ca4k) {

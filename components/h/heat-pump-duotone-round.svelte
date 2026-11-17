@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="u46o5jbrc"/><path class="wq-shinkk"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ahnbeku-g"/><path class="wq-shinkk"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:heat-pump-duotone-round" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.u46o5jbrc) {
+:global(.ahnbeku-g) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M7 2h10a5 5 0 0 1 5 5v8a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 20H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5");
+  d: path("M7 3h10a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
 }
 
 :global(.wq-shinkk) {

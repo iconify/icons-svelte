@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="x2yhbdglo"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:devices-code-corner-sharp" {...props}></Icon>
+<style>
+:global(.x2yhbdglo) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M15 3h6v10h-6Zm-4 1H3v12h7m5 1l-2 2l2 2m4-4l2 2l-2 2");
+}
+
+</style>

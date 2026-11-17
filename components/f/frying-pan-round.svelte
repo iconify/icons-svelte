@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="bqle3ebvi"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:frying-pan-round" {...props}></Icon>
+<style>
+:global(.bqle3ebvi) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 11h12v1a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4zm12 0l6-3");
+}
+
+</style>

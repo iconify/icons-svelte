@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="afkqz-l1p"/><path class="rz1w-eb1w"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="n59kl09ow"/><path class="rz1w-eb1w"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:table-transpose-duotone-sharp" {...props}></Icon>
 <style>
-:global(.afkqz-l1p) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M21 2a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H11a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1ZM7 10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1Z");
-}
-
 :global(.ft5dv1b6b) {
   fill: none;
+}
+
+:global(.n59kl09ow) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M11 3h10v4H11Zm-8 8h4v10H3Z");
 }
 
 :global(.rz1w-eb1w) {

@@ -5,14 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="b6nu0hlfz"/><path class="q91idrbem"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="bf43cda-k"/><path class="q91idrbem"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:virus-duotone-sharp" {...props}></Icon>
 <style>
-:global(.b6nu0hlfz) {
+:global(.bf43cda-k) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M18.169 9.496a6.658 6.658 0 1 1-12.338 5.008a6.658 6.658 0 0 1 12.338-5.008");
+  d: path("M16 8a5.657 5.657 0 1 1-8.001 8.001A5.657 5.657 0 1 1 16 8");
 }
 
 :global(.ft5dv1b6b) {

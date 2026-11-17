@@ -5,18 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ibkrzui2a"/><path class="unj_mj7tb"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ypjqj2blq"/><path class="unj_mj7tb"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:scan-search-duotone-round" {...props}></Icon>
 <style>
 :global(.ft5dv1b6b) {
   fill: none;
-}
-
-:global(.ibkrzui2a) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M9.028 6.141a5.244 5.244 0 1 1 3.943 9.718A5.244 5.244 0 0 1 9.028 6.14");
 }
 
 :global(.unj_mj7tb) {
@@ -25,6 +19,12 @@ const content = `<g class="ft5dv1b6b"><path class="ibkrzui2a"/><path class="unj_
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M3 7a4 4 0 0 1 4-4m10 0a4 4 0 0 1 4 4m0 10a4 4 0 0 1-4 4M7 21a4 4 0 0 1-4-4m5-9a4.243 4.243 0 1 1 6 6a4.243 4.243 0 0 1-6-6m6 6l3 3");
+}
+
+:global(.ypjqj2blq) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M14 8a4.244 4.244 0 1 1-6 6.002A4.244 4.244 0 0 1 14 8");
 }
 
 </style>

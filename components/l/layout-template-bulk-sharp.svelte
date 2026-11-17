@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="mxwfhiokn"/><path class="y-y52scco"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="k94qpmkea"/><path class="y-y52scco"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:layout-template-bulk-sharp" {...props}></Icon>
 <style>
@@ -13,9 +13,9 @@ const content = `<g class="cuyn6tgcc"><path class="mxwfhiokn"/><path class="y-y5
   fill: currentColor;
 }
 
-:global(.mxwfhiokn) {
+:global(.k94qpmkea) {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M4 12h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1m12 0h4a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1");
+  d: path("M4 3h16a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1m0 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1m12 0h4a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1");
 }
 
 :global(.y-y52scco) {

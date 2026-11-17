@@ -5,16 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="bkit9ltow"/><path class="ge5m_ub4c"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="s1j7zrb7e"/><path class="ge5m_ub4c"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:note-duotone-sharp" {...props}></Icon>
 <style>
-:global(.bkit9ltow) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M20 3a1 1 0 0 1 1 1v9c0 .265-.105.52-.293.707l-7 7A1 1 0 0 1 13 21H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm-7 10v6l6-6Z");
-}
-
 :global(.ft5dv1b6b) {
   fill: none;
 }
@@ -25,6 +19,12 @@ const content = `<g class="ft5dv1b6b"><path class="bkit9ltow"/><path class="ge5m
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M13 20H4V4h16v9m0 0l-7 7m0 0v-7h7");
+}
+
+:global(.s1j7zrb7e) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M4 4h16v9l-.034.034q.01-.01.004-.022a.02.02 0 0 0-.018-.012H13v6.952a.02.02 0 0 0 .012.018q.013.006.022-.004L13 20H4Z");
 }
 
 </style>

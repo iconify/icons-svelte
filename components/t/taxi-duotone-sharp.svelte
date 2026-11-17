@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="juxszpb4t"/><path class="thr8fzanm"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="lx09kxp-v"/><path class="thr8fzanm"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:taxi-duotone-sharp" {...props}></Icon>
 <style>
@@ -13,10 +13,10 @@ const content = `<g class="ft5dv1b6b"><path class="juxszpb4t"/><path class="thr8
   fill: none;
 }
 
-:global(.juxszpb4t) {
+:global(.lx09kxp-v) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M3 12c0-.155.036-.308.106-.447l2-4A1 1 0 0 1 6 7h12c.379 0 .725.214.894.553l2 4c.07.139.106.292.106.447v6a1 1 0 0 1-1 1h-1v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H9v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1H4a1 1 0 0 1-1-1Z");
+  d: path("M4 18v-6l2-4h12l2 4v6h-2v2h-2v-2H8v2H6v-2Z");
 }
 
 :global(.thr8fzanm) {

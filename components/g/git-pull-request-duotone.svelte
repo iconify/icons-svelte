@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="p_-fa49ll"/><path class="jwqkeibqg"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="yf0l7obnm"/><path class="jwqkeibqg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:git-pull-request-duotone" {...props}></Icon>
 <style>
@@ -21,10 +21,10 @@ const content = `<g class="ft5dv1b6b"><path class="p_-fa49ll"/><path class="jwqk
   d: path("M3 6a2 2 0 1 0 4 0a2 2 0 0 0-4 0m0 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0m14 0a2 2 0 1 0 4 0a2 2 0 0 0-4 0M5 8v8m14 0V8a2 2 0 0 0-2-2h-6m3-3l-3 3l3 3");
 }
 
-:global(.p_-fa49ll) {
+:global(.yf0l7obnm) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M2.236 4.832A3 3 0 1 1 7.763 7.17a3 3 0 0 1-5.527-2.338m0 12a3 3 0 1 1 5.527 2.338a3 3 0 0 1-5.527-2.338m14 0a3 3 0 1 1 5.527 2.338a3 3 0 0 1-5.527-2.338");
+  d: path("M3 6a2 2 0 1 1 3.999-.001A2 2 0 0 1 3 6m0 12a2 2 0 1 1 3.999-.001A2 2 0 0 1 3 18m14 0a2 2 0 1 1 3.999-.001A2 2 0 0 1 17 18");
 }
 
 </style>

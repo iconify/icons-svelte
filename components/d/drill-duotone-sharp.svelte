@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ld8so_bin"/><path class="yqdi8rbix"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="fny-rrktg"/><path class="yqdi8rbix"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:drill-duotone-sharp" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.ld8so_bin) {
+:global(.fny-rrktg) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M15 3a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1 1h-3v4h1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h1v-4H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z");
+  d: path("M3 4h12v1h3v4h-3v1h-4v6h2v4H5v-4h2v-6H3Z");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
 }
 
 :global(.yqdi8rbix) {

@@ -5,10 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ozmqjggeo"/><path class="edww9-bza"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ba7lx04ke"/><path class="edww9-bza"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:test-tube-duotone-sharp" {...props}></Icon>
 <style>
+:global(.ba7lx04ke) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M15 12v6a3 3 0 1 1-6 0v-6Z");
+}
+
 :global(.edww9-bza) {
   stroke: currentColor;
   stroke-linecap: round;
@@ -19,12 +25,6 @@ const content = `<g class="ft5dv1b6b"><path class="ozmqjggeo"/><path class="edww
 
 :global(.ft5dv1b6b) {
   fill: none;
-}
-
-:global(.ozmqjggeo) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M15 11a1 1 0 0 1 1 1v6a4 4 0 0 1-8 0v-6a1 1 0 0 1 1-1Z");
 }
 
 </style>

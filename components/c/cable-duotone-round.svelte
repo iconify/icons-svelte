@@ -5,10 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="lk1166vkd"/><path class="dzq5r_fhp"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="calybleva"/><path class="dzq5r_fhp"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:cable-duotone-round" {...props}></Icon>
 <style>
+:global(.calybleva) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M5 5h4a2 2 0 1 1 0 4H5a2 2 0 1 1 0-4m10 10h4a2 2 0 1 1 0 4h-4a2 2 0 1 1 0-4");
+}
+
 :global(.dzq5r_fhp) {
   stroke: currentColor;
   stroke-linecap: round;
@@ -19,12 +25,6 @@ const content = `<g class="ft5dv1b6b"><path class="lk1166vkd"/><path class="dzq5
 
 :global(.ft5dv1b6b) {
   fill: none;
-}
-
-:global(.lk1166vkd) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M5 4h4a3 3 0 1 1 0 6H5a3 3 0 1 1 0-6m10 10h4a3 3 0 1 1 0 6h-4a3 3 0 1 1 0-6");
 }
 
 </style>

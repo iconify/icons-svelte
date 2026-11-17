@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="fs7dp88vp"/><path class="hoi9c7gee"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="fs7dp88vp"/><path class="x5jni7yrk"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:piggy-bank-bulk-round" {...props}></Icon>
 <style>
@@ -18,8 +18,8 @@ const content = `<g class="cuyn6tgcc"><path class="fs7dp88vp"/><path class="hoi9
   d: path("M6 5a3 3 0 1 1 6 0a3 3 0 0 1-6 0m9 15H8a5 5 0 0 1 0-10h4.586l2.707-2.707A1 1 0 0 1 17 8v2.535A4 4 0 0 1 18.465 12H19a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-.535A4 4 0 0 1 15 20");
 }
 
-:global(.hoi9c7gee) {
-  d: path("M6 5a3 3 0 1 1 6 0a3 3 0 0 1-6 0m2 0a1 1 0 1 0 2 0a1 1 0 0 0-2 0m7.01 8a1 1 0 0 1 0 2H15a1 1 0 0 1 0-2ZM9 21a1 1 0 0 1-2 0v-2a1 1 0 0 1 2 0Zm6 0a1 1 0 0 1-2 0v-2a1 1 0 0 1 2 0Z");
+:global(.x5jni7yrk) {
+  d: path("M6 5a3 3 0 1 1 6 0a3 3 0 0 1-6 0m9.01 8a1 1 0 0 1 0 2H15a1 1 0 0 1 0-2ZM7 19a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0Zm6 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0Z");
 }
 
 </style>

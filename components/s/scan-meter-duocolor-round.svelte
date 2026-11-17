@@ -1,0 +1,29 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="x_f84nr0m"/><path class="ly44l6qmn"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:scan-meter-duocolor-round" {...props}></Icon>
+<style>
+:global(.ly44l6qmn) {
+  d: path("M3 7a4 4 0 0 1 4-4m10 0a4 4 0 0 1 4 4m0 10a4 4 0 0 1-4 4M7 21a4 4 0 0 1-4-4");
+}
+
+:global(.nrj6p8qat) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.x_f84nr0m) {
+  stroke-opacity: 0.4;
+  d: path("M6 11a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1Zm4-1v4m4-4v4");
+}
+
+</style>

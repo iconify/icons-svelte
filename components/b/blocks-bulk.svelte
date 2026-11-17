@@ -5,16 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="p39fm4zsa"/><path class="ex-yu8bml"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="p39fm4zsa"/><path class="boksxwbmk"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:blocks-bulk" {...props}></Icon>
 <style>
-:global(.cuyn6tgcc) {
-  fill: currentColor;
+:global(.boksxwbmk) {
+  d: path("M16 2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2m0 6h4V4h-4Z");
 }
 
-:global(.ex-yu8bml) {
-  d: path("M14 4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2Z");
+:global(.cuyn6tgcc) {
+  fill: currentColor;
 }
 
 :global(.p39fm4zsa) {

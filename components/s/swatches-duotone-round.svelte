@@ -5,18 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="kwm82p41q"/><path class="sbtvxobot"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="z1tk4jbqn"/><path class="sbtvxobot"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:swatches-duotone-round" {...props}></Icon>
 <style>
 :global(.ft5dv1b6b) {
   fill: none;
-}
-
-:global(.kwm82p41q) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M2 7a5 5 0 0 1 10 0v10a5 5 0 0 1-10 0Z");
 }
 
 :global(.sbtvxobot) {
@@ -25,6 +19,12 @@ const content = `<g class="ft5dv1b6b"><path class="kwm82p41q"/><path class="sbtv
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M3 17V7a4 4 0 1 1 8 0v10a4 4 0 1 1-8 0m4 0h.01M11 9l2-2a2.83 2.83 0 0 1 4 0l1 1a2.83 2.83 0 0 1 0 4l-9 9m7-7h2a3 3 0 0 1 3 3v1a3 3 0 0 1-3 3H7");
+}
+
+:global(.z1tk4jbqn) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M3 7a4 4 0 0 1 8 0v10a4 4 0 0 1-8 0Z");
 }
 
 </style>

@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="gtldxvb2y"/><path class="zexb8sb2v"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ygbf3ub5p"/><path class="zexb8sb2v"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:credit-card-check-corner-duotone-sharp" {...props}></Icon>
 <style>
@@ -13,10 +13,10 @@ const content = `<g class="ft5dv1b6b"><path class="gtldxvb2y"/><path class="zexb
   fill: none;
 }
 
-:global(.gtldxvb2y) {
+:global(.ygbf3ub5p) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M22 9H10v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1Z");
+  d: path("M21 5v4H9v10H3V5Z");
 }
 
 :global(.zexb8sb2v) {

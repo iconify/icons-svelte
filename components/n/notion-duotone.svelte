@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="yk1-n-esz"/><path class="kj7y5ub8v"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="oxtgpb4zl"/><path class="kj7y5ub8v"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:notion-duotone" {...props}></Icon>
 <style>
@@ -21,10 +21,10 @@ const content = `<g class="ft5dv1b6b"><path class="yk1-n-esz"/><path class="kj7y
   d: path("M11 17v-7l5 7v-7M3 3h15l3 3v15H6l-3-3Zm18 3H6v15M3 3l3 3");
 }
 
-:global(.yk1-n-esz) {
+:global(.oxtgpb4zl) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M3 2h15c.265 0 .52.105.707.293l3 3A1 1 0 0 1 22 6v15a1 1 0 0 1-1 1H6a1 1 0 0 1-.707-.293l-3-3A1 1 0 0 1 2 18V3a1 1 0 0 1 1-1");
+  d: path("m18 3l3 3v15H6l-3-3V3Z");
 }
 
 </style>

@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="jm2r7fi7o"/><path class="vqzdfdbxo"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="bukwy3b3h"/><path class="vqzdfdbxo"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:boolean-intersect-duotone" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.jm2r7fi7o) {
+:global(.bukwy3b3h) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M8 10a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2Z");
+  d: path("M10 9h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
 }
 
 :global(.vqzdfdbxo) {

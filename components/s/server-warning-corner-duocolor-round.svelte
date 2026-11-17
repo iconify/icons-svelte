@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="e906b4bdd"/><path class="z7y7a6b7p"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="e906b4bdd"/><path class="hx04j0k6h"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:server-warning-corner-duocolor-round" {...props}></Icon>
 <style>
@@ -14,16 +14,16 @@ const content = `<g class="nrj6p8qat"><path class="e906b4bdd"/><path class="z7y7
   d: path("M17 14v4m0 3h.01");
 }
 
+:global(.hx04j0k6h) {
+  d: path("M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 0 6H6a3 3 0 0 1-3-3m6 13H6a3 3 0 0 1 0-6h3M7 7h.01M7 17h.01");
+}
+
 :global(.nrj6p8qat) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-}
-
-:global(.z7y7a6b7p) {
-  d: path("M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 0 6H6a3 3 0 0 1-3-3m0 7h6m0 6H6a3 3 0 0 1-3-3v-3m4-7h.01M7 17h.01");
 }
 
 </style>

@@ -5,14 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="bso8habpx"/><path class="he7um4bhs"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ehcvq8gos"/><path class="he7um4bhs"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:synagogue-duotone-sharp" {...props}></Icon>
 <style>
-:global(.bso8habpx) {
+:global(.ehcvq8gos) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M3 8c0-.379.214-.725.553-.894l8-4a1 1 0 0 1 .894 0l8 4A1 1 0 0 1 21 8v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z");
+  d: path("m4 8l8-4l8 4v13H4Z");
 }
 
 :global(.ft5dv1b6b) {

@@ -5,10 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="mu7h5qd_z"/><path class="e7_jnabwg"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="agbiupgjg"/><path class="e7_jnabwg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:mushroom-duotone" {...props}></Icon>
 <style>
+:global(.agbiupgjg) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M4 11a8 8 0 0 1 16 0h-6v8a2 2 0 1 1-4 0v-8Z");
+}
+
 :global(.e7_jnabwg) {
   stroke: currentColor;
   stroke-linecap: round;
@@ -19,12 +25,6 @@ const content = `<g class="ft5dv1b6b"><path class="mu7h5qd_z"/><path class="e7_j
 
 :global(.ft5dv1b6b) {
   fill: none;
-}
-
-:global(.mu7h5qd_z) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M20 12h-5v7a3 3 0 1 1-6 0v-7H4a1 1 0 0 1-1-1a9 9 0 0 1 9-9a9 9 0 0 1 9 9a1 1 0 0 1-1 1");
 }
 
 </style>

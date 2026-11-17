@@ -5,10 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="nfnl2e3nl"/><path class="fiqgz4b1c"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="evufb17zb"/><path class="fiqgz4b1c"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:shopping-basket-duotone" {...props}></Icon>
 <style>
+:global(.evufb17zb) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M4 10h16l-2 8c-.294 1.175-1.118 2-2 2H8c-.882 0-1.706-.825-2-2Z");
+}
+
 :global(.fiqgz4b1c) {
   stroke: currentColor;
   stroke-linecap: round;
@@ -19,12 +25,6 @@ const content = `<g class="ft5dv1b6b"><path class="nfnl2e3nl"/><path class="fiqg
 
 :global(.ft5dv1b6b) {
   fill: none;
-}
-
-:global(.nfnl2e3nl) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 9h16a.998.998 0 0 1 .97 1.243l-2 8c-.178.713-.52 1.382-1.043 1.905c-.511.511-1.195.852-1.927.852H8c-.732 0-1.416-.341-1.927-.852c-.523-.523-.865-1.192-1.043-1.905l-2-8A.998.998 0 0 1 4 9");
 }
 
 </style>

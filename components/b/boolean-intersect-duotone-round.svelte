@@ -5,14 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="aps-dxb9z"/><path class="wx4azsbzv"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ap6w5_bne"/><path class="wx4azsbzv"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:boolean-intersect-duotone-round" {...props}></Icon>
 <style>
-:global(.aps-dxb9z) {
+:global(.ap6w5_bne) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M8 11a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3Z");
+  d: path("M11 9h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2");
 }
 
 :global(.ft5dv1b6b) {

@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="dhgerfbuh"/><path class="y0cq7_bhl"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="jrzh9obvx"/><path class="y0cq7_bhl"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:router-duotone-round" {...props}></Icon>
 <style>
-:global(.dhgerfbuh) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M6 14h12a4 4 0 0 1 0 8H6a4 4 0 0 1 0-8");
-}
-
 :global(.ft5dv1b6b) {
   fill: none;
+}
+
+:global(.jrzh9obvx) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M6 15h12a3 3 0 1 1 0 6H6a3 3 0 1 1 0-6");
 }
 
 :global(.y0cq7_bhl) {

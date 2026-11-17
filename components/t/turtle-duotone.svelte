@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="o2irrtb8u"/><path class="o59eu7_zd"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="e9fzd_9ea"/><path class="o59eu7_zd"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:turtle-duotone" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.o2irrtb8u) {
+:global(.e9fzd_9ea) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M16.247 9H19a3 3 0 1 1 0 6h-1v2a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-2H7v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-3a8 8 0 0 1 14.247-5");
+  d: path("M3 14a7 7 0 0 1 12.745-4H19a2 2 0 1 1 0 4h-2v3a.997.997 0 0 1-1 1h-1a.997.997 0 0 1-1-1v-3H6v3a.997.997 0 0 1-1 1H4a.997.997 0 0 1-1-1Z");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
 }
 
 :global(.o59eu7_zd) {

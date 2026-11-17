@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="w8nl6lbrc"/><path class="c6o31lvgq"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="r47bbmrww"/><path class="c6o31lvgq"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:microwave-duotone-round" {...props}></Icon>
 <style>
@@ -21,10 +21,10 @@ const content = `<g class="ft5dv1b6b"><path class="w8nl6lbrc"/><path class="c6o3
   fill: none;
 }
 
-:global(.w8nl6lbrc) {
+:global(.r47bbmrww) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M7 3h10a5 5 0 0 1 5 5v6a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 19H7a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5");
+  d: path("M7 4h10a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4");
 }
 
 </style>

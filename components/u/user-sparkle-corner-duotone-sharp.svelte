@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="nsxmd8b4m"/><path class="p7ar5hbnl"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="evyodwb-q"/><path class="p7ar5hbnl"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:user-sparkle-corner-duotone-sharp" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.nsxmd8b4m) {
+:global(.evyodwb-q) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M4 7a5 5 0 1 1 10.001.001A5 5 0 0 1 4 7m13 6c.002 2.005 1.995 3.998 4 4c-2.005.002-3.998 1.995-4 4c-.002-2.005-1.995-3.998-4-4c2.005-.002 3.998-1.995 4-4m-7 2v6a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1c0-1.862.731-3.636 2.05-4.95a6.9 6.9 0 0 1 2.225-1.499A6.9 6.9 0 0 1 9 14a1 1 0 0 1 1 1");
+  d: path("M9 11a4 4 0 1 1 0-8a4 4 0 0 1 0 8m8 2c.002 2.005 1.995 3.998 4 4c-2.005.002-3.998 1.995-4 4c-.002-2.005-1.995-3.998-4-4c2.005-.002 3.998-1.995 4-4m-8 2v6H3a6 6 0 0 1 6-6");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
 }
 
 :global(.p7ar5hbnl) {

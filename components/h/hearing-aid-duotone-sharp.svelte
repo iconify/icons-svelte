@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="iuul0bc3r"/><path class="qe75f1bak"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="esbe8wbgv"/><path class="qe75f1bak"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:hearing-aid-duotone-sharp" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.iuul0bc3r) {
+:global(.esbe8wbgv) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M9.236 7.832a3 3 0 1 1 5.527 2.338a3 3 0 0 1-5.527-2.338");
+  d: path("M12 11a2 2 0 1 1-.001-3.999A2 2 0 0 1 12 11");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
 }
 
 :global(.qe75f1bak) {

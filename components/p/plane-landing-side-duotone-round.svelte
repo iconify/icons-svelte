@@ -5,16 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="bq0pqg4nx"/><path class="dubabk8wl"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="zofldydkl"/><path class="dubabk8wl"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:plane-landing-side-duotone-round" {...props}></Icon>
 <style>
-:global(.bq0pqg4nx) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M8.553 5.658L9.882 3a1.794 1.794 0 0 1 2.586-.71c.289.188.514.458.648.776l2.659 6.203l4.567 2.284A3 3 0 0 1 22 14.236V15a2.235 2.235 0 0 1-3.236 2L4.843 10.04a3 3 0 0 1-.78-.562l-.98-.98a2.55 2.55 0 0 1-.477-2.945L2.882 5c.306-.613.933-1 1.618-1h.028c.466-.001.925.107 1.342.317Z");
-}
-
 :global(.dubabk8wl) {
   stroke: currentColor;
   stroke-linecap: round;
@@ -25,6 +19,12 @@ const content = `<g class="ft5dv1b6b"><path class="bq0pqg4nx"/><path class="duba
 
 :global(.ft5dv1b6b) {
   fill: none;
+}
+
+:global(.zofldydkl) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("m7 6l2 1l1.776-3.553c.292-.582 1.156-.605 1.421.013L15 10l4.894 2.447A2 2 0 0 1 21 14.236V15a1.236 1.236 0 0 1-1.789 1.106L5.29 9.145a2 2 0 0 1-.519-.374l-.98-.98A1.55 1.55 0 0 1 3.5 6l.276-.553A.81.81 0 0 1 4.5 5h.028c.31 0 .617.072.894.211Z");
 }
 
 </style>

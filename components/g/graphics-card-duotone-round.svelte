@@ -5,14 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="b4ql3fbzm"/><path class="mnjdjjcri"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="bevjlub9y"/><path class="mnjdjjcri"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:graphics-card-duotone-round" {...props}></Icon>
 <style>
-:global(.b4ql3fbzm) {
+:global(.bevjlub9y) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M6 4h12a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4");
+  d: path("M6 5h12a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3");
 }
 
 :global(.ft5dv1b6b) {

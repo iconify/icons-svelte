@@ -5,18 +5,18 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="pk9vkxkrw"/><path class="q3kx24bsc"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="bsrvo5b0s"/><path class="q3kx24bsc"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:credit-card-close-corner-duotone-round" {...props}></Icon>
 <style>
-:global(.ft5dv1b6b) {
-  fill: none;
-}
-
-:global(.pk9vkxkrw) {
+:global(.bsrvo5b0s) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M22 9H10v10a1 1 0 0 1-1 1H7a5 5 0 0 1-5-5V9a5 5 0 0 1 5-5h10a5 5 0 0 1 5 5");
+  d: path("M17 5a4 4 0 0 1 4 4H9v10H7a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4Z");
+}
+
+:global(.ft5dv1b6b) {
+  fill: none;
 }
 
 :global(.q3kx24bsc) {

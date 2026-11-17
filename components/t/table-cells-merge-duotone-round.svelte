@@ -5,14 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="f0od-e5fx"/><path class="wwx1tlxlj"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="aefeqk24e"/><path class="wwx1tlxlj"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:table-cells-merge-duotone-round" {...props}></Icon>
 <style>
-:global(.f0od-e5fx) {
+:global(.aefeqk24e) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M8 3h8a5 5 0 0 1 5 5v8a5 5 0 0 1-1.464 3.536A5 5 0 0 1 16 21H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5");
+  d: path("M8 4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4");
 }
 
 :global(.ft5dv1b6b) {

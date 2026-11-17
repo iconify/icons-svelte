@@ -1,0 +1,21 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="pcfggxbwf"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:house-garage-round" {...props}></Icon>
+<style>
+:global(.pcfggxbwf) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 21H8a4 4 0 0 1-4-4v-5.185a4 4 0 0 1 1.366-3.01l4-3.5a4 4 0 0 1 5.268 0l4 3.5A4 4 0 0 1 20 11.815V17a4 4 0 0 1-4 4zm-4 0v-6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v6m-8-4h8");
+}
+
+</style>

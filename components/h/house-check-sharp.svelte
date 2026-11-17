@@ -5,17 +5,17 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ek_1hubzy"/>`;
+const content = `<path class="cgchaujvc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:house-check-sharp" {...props}></Icon>
 <style>
-:global(.ek_1hubzy) {
+:global(.cgchaujvc) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("m16 7l4 4v10H4V11l8-8zm-7 7l2 2l4-4");
+  d: path("m12 3l8 7v11H4V10zM9 14l2 2l4-4");
 }
 
 </style>

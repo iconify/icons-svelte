@@ -5,14 +5,14 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="czbef8bul"/><path class="ydajjgzjr"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="f83d538gf"/><path class="ydajjgzjr"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:microscope-duotone-sharp" {...props}></Icon>
 <style>
-:global(.czbef8bul) {
+:global(.f83d538gf) {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M12 2a1 1 0 0 1 1 1v2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1V3a1 1 0 0 1 1-1Z");
+  d: path("M8 3h4v3h1v7H7V6h1Z");
 }
 
 :global(.ft5dv1b6b) {

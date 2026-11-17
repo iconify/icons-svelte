@@ -5,17 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="h5i3gtcmr"/><path class="h-x39pbqw"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="qzfq6dbor"/><path class="npsy_-bll"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:building-3-duocolor-sharp" {...props}></Icon>
 <style>
-:global(.h-x39pbqw) {
-  d: path("M3 20h18M5 20v-6l5-5l5 5v6");
-}
-
-:global(.h5i3gtcmr) {
-  stroke-opacity: 0.4;
-  d: path("M7 12V4h12v16");
+:global(.npsy_-bll) {
+  d: path("M3 20h18M5 20v-7l5-4l5 4v7");
 }
 
 :global(.nrj6p8qat) {
@@ -24,6 +19,11 @@ const content = `<g class="nrj6p8qat"><path class="h5i3gtcmr"/><path class="h-x3
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+:global(.qzfq6dbor) {
+  stroke-opacity: 0.4;
+  d: path("M7 11.4V4h12v16");
 }
 
 </style>

@@ -5,16 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="b_8a2qb8l"/><path class="d2mmrqbls"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ifur0kimn"/><path class="d2mmrqbls"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:note-star-corner-duotone" {...props}></Icon>
 <style>
-:global(.b_8a2qb8l) {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M20 9H10a.997.997 0 0 0-1 1v10a1 1 0 0 1-1 1H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v2a1 1 0 0 1-1 1m-3 4.4l1.2 2.4l2.8.4l-2 2l.4 2.4l-2.4-1.2l-2.4 1.2l.4-2.4l-2-2l2.8-.4Z");
-}
-
 :global(.d2mmrqbls) {
   stroke: currentColor;
   stroke-linecap: round;
@@ -25,6 +19,12 @@ const content = `<g class="ft5dv1b6b"><path class="b_8a2qb8l"/><path class="d2mm
 
 :global(.ft5dv1b6b) {
   fill: none;
+}
+
+:global(.ifur0kimn) {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M10 8a2 2 0 0 0-2 2v10H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2Zm7 5.4l1.2 2.4l2.8.4l-2 2l.4 2.4l-2.4-1.2l-2.4 1.2l.4-2.4l-2-2l2.8-.4Z");
 }
 
 </style>

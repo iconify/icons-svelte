@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="ygr-3532s"/><path class="ic32ko01d"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="wg4if2bmf"/><path class="eoblojbgg"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:warehouse-duocolor-sharp" {...props}></Icon>
 <style>
-:global(.ic32ko01d) {
-  d: path("M3 21h18M5 21V10l6-3h2l6 3v11");
+:global(.eoblojbgg) {
+  d: path("M4 21V8l6-3h4l6 3v13z");
 }
 
 :global(.nrj6p8qat) {
@@ -21,9 +21,9 @@ const content = `<g class="nrj6p8qat"><path class="ygr-3532s"/><path class="ic32
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-:global(.ygr-3532s) {
+:global(.wg4if2bmf) {
   stroke-opacity: 0.4;
-  d: path("M9 21v-8h6v8m-6-4h6");
+  d: path("M8 21v-9h8v9m-8-5h8");
 }
 
 </style>
