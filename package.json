@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg-color",
   "type": "module",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1109,6 +1109,10 @@
     "./apifox": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apifox.svelte"
+    },
+    "./apiko": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apiko.svelte"
     },
     "./apl": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6782,13 +6786,21 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/glif.svelte"
     },
-    "./glincker-dark": {
+    "./glincker-legacy-dark": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/g/glincker-dark.svelte"
+      "svelte": "./components/g/glincker-legacy-dark.svelte"
     },
-    "./glincker-light": {
+    "./glincker-legacy-light": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/g/glincker-light.svelte"
+      "svelte": "./components/g/glincker-legacy-light.svelte"
+    },
+    "./glinr-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glinr-dark.svelte"
+    },
+    "./glinr-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glinr-light.svelte"
     },
     "./glitch": {
       "types": "./types/gfwqskkx.d.ts",
@@ -20881,6 +20893,14 @@
     "./fans": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/fans.svelte"
+    },
+    "./glincker-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glincker-dark.svelte"
+    },
+    "./glincker-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/glincker-light.svelte"
     },
     "./mastra": {
       "types": "./types/gfwqskkx.d.ts",
