@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/evicons",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://icon-sets.iconify.design/evicons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -17,6 +17,10 @@
     "./battery-charging": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/battery-charging.svelte"
+    },
+    "./battery-level": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/battery-level.svelte"
     },
     "./bidirectional-charging": {
       "types": "./types/gfwqskkx.d.ts",
@@ -125,6 +129,10 @@
     "./driving-range": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/driving-range.svelte"
+    },
+    "./energy-kwh": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/energy-kwh.svelte"
     },
     "./fast-charging": {
       "types": "./types/gfwqskkx.d.ts",
@@ -258,6 +266,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plug-type-2.svelte"
     },
+    "./plug-type-e": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plug-type-e.svelte"
+    },
     "./power-kw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/power-kw.svelte"
@@ -290,6 +302,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/route-to-charger.svelte"
     },
+    "./scheduled-charging": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/scheduled-charging.svelte"
+    },
     "./shop-charging": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/shop-charging.svelte"
@@ -306,6 +322,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/status-available.svelte"
     },
+    "./status-blocked": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-blocked.svelte"
+    },
     "./status-faulted": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/status-faulted.svelte"
@@ -317,6 +337,10 @@
     "./status-out-of-service": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/status-out-of-service.svelte"
+    },
+    "./status-planned": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/status-planned.svelte"
     },
     "./status-queue": {
       "types": "./types/gfwqskkx.d.ts",
