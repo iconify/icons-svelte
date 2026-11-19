@@ -2,8 +2,8 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/f/ft5dv1b6b.css';
 import '../../css/b/bl_l48dcr.css';
-import '../../css/g/g0mgoikwu.css';
-import '../../css/q/qm-410auq.css';
+import '../../css/i/i74_vybpn.css';
+import '../../css/s/s4wnabblk.css';
 import '../../css/m/m_ral-b9y.css';
 import '../../css/l/lqd97id1k.css';
 
@@ -11,6 +11,6 @@ import '../../css/l/lqd97id1k.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><g clip-rule="evenodd" class="bl_l48dcr"><path class="g0mgoikwu"/><path class="qm-410auq"/></g><circle transform="rotate(90 8.95 14.93)" class="m_ral-b9y"/><circle transform="rotate(90 15.06 9.06)" class="lqd97id1k"/></g>`;
+const content = `<g class="ft5dv1b6b"><g clip-rule="evenodd" class="bl_l48dcr"><path class="i74_vybpn"/><path class="s4wnabblk"/></g><circle class="m_ral-b9y"/><circle class="lqd97id1k"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:blend" {...props}></Icon>

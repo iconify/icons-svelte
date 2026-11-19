@@ -10,6 +10,6 @@ import '../../css/t/tliq8nftf.css';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path clip-rule="evenodd" class="pmrbhqbhd"/><path class="mqrhrvbgq"/><path class="demkscbxt"/><circle transform="rotate(90 12 11.98)" class="tliq8nftf"/></g>`;
+const content = `<g class="ft5dv1b6b"><path clip-rule="evenodd" class="pmrbhqbhd"/><path class="mqrhrvbgq"/><path class="demkscbxt"/><circle class="tliq8nftf"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:currency-sol-circle" {...props}></Icon>

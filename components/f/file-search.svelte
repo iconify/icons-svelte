@@ -1,14 +1,14 @@
 <script>
 import Icon from '@iconify/css-svelte';
 import '../../css/f/ft5dv1b6b.css';
-import '../../css/b/bnbjef5ys.css';
-import '../../css/s/sae_6acyt.css';
-import '../../css/q/qc0lnbpwi.css';
+import '../../css/z/zi3yp8i0r.css';
+import '../../css/w/wjbqcl4jb.css';
+import '../../css/g/gpa4p37oc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="bnbjef5ys"/><path class="sae_6acyt"/><path class="qc0lnbpwi"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="zi3yp8i0r"/><path class="wjbqcl4jb"/><path class="gpa4p37oc"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:file-search" {...props}></Icon>

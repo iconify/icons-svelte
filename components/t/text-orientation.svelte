@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/y/yfpjjmbcc.css';
+import '../../css/u/u18zzhu_e.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="yfpjjmbcc"/>`;
+const content = `<path class="u18zzhu_e"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:text-orientation" {...props}></Icon>

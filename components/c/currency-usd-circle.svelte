@@ -2,13 +2,13 @@
 import Icon from '@iconify/css-svelte';
 import '../../css/f/ft5dv1b6b.css';
 import '../../css/i/ii79gpbho.css';
-import '../../css/p/ptfvxob6t.css';
-import '../../css/k/khdkximwp.css';
+import '../../css/h/hb5l3lbox.css';
+import '../../css/p/p4pn9mm9j.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path class="ii79gpbho"/><path class="ptfvxob6t"/><path class="khdkximwp"/></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ii79gpbho"/><path class="hb5l3lbox"/><path class="p4pn9mm9j"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:currency-usd-circle" {...props}></Icon>
