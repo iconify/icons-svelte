@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -129,6 +129,14 @@
     "./apacheairflow-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apacheairflow-wordmark.svelte"
+    },
+    "./apacheflink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apacheflink.svelte"
+    },
+    "./apacheflink-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apacheflink-wordmark.svelte"
     },
     "./apacheignite-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
@@ -961,6 +969,10 @@
     "./gardener": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gardener.svelte"
+    },
+    "./gate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gate.svelte"
     },
     "./gatling": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2521,6 +2533,14 @@
     "./quasar-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quasar-wordmark.svelte"
+    },
+    "./qwen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qwen.svelte"
+    },
+    "./qwen-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qwen-wordmark.svelte"
     },
     "./qwik": {
       "types": "./types/gfwqskkx.d.ts",
