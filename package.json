@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -181,6 +181,14 @@
     "./apacheairflow-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/apacheairflow-wordmark.svelte"
+    },
+    "./apacheflink": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apacheflink.svelte"
+    },
+    "./apacheflink-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/apacheflink-wordmark.svelte"
     },
     "./apacheignite": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1142,6 +1150,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eslint-wordmark.svelte"
     },
+    "./excalidraw": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/excalidraw.svelte"
+    },
     "./expo": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/expo.svelte"
@@ -1321,6 +1333,10 @@
     "./gardener": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/gardener.svelte"
+    },
+    "./gate": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/gate.svelte"
     },
     "./gatling": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3253,6 +3269,14 @@
     "./quasar-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/q/quasar-wordmark.svelte"
+    },
+    "./qwen": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qwen.svelte"
+    },
+    "./qwen-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/q/qwen-wordmark.svelte"
     },
     "./qwik": {
       "types": "./types/gfwqskkx.d.ts",
