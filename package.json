@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.89",
+  "version": "1.0.90",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -2630,6 +2630,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/diagram-flow-vertical.svelte"
     },
+    "./diagram-sankey": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/diagram-sankey.svelte"
+    },
     "./diameter": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/diameter.svelte"
@@ -4238,6 +4242,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/iv-bag.svelte"
     },
+    "./jacket": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/j/jacket.svelte"
+    },
     "./japanese-yen": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/j/japanese-yen.svelte"
@@ -5597,6 +5605,10 @@
     "./paint-bucket": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/paint-bucket.svelte"
+    },
+    "./paint-gun": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/paint-gun.svelte"
     },
     "./paint-roller": {
       "types": "./types/gfwqskkx.d.ts",
