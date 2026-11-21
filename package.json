@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide-extended",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://icon-sets.iconify.design/lucide-extended/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -625,6 +625,10 @@
     "./balloon-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/balloon-filled.svelte"
+    },
+    "./ban-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/ban-duotone.svelte"
     },
     "./banana-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2102,6 +2106,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-arrow-up-filled.svelte"
     },
+    "./circle-check-big-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-check-big-filled.svelte"
+    },
     "./circle-check-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-check-duotone.svelte"
@@ -2830,6 +2838,26 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/closed-caption-filled.svelte"
     },
+    "./cloud-backup-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-backup-filled.svelte"
+    },
+    "./cloud-check-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-check-filled.svelte"
+    },
+    "./cloud-cog-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-cog-filled.svelte"
+    },
+    "./cloud-download-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-download-filled.svelte"
+    },
+    "./cloud-drizzle-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-drizzle-filled.svelte"
+    },
     "./cloud-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud-duotone.svelte"
@@ -2837,6 +2865,18 @@
     "./cloud-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud-filled.svelte"
+    },
+    "./cloud-fog-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-fog-filled.svelte"
+    },
+    "./cloud-hail-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-hail-filled.svelte"
+    },
+    "./cloud-lightning-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-lightning-filled.svelte"
     },
     "./cloud-moon-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2850,6 +2890,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud-off-filled.svelte"
     },
+    "./cloud-rain-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-rain-filled.svelte"
+    },
+    "./cloud-rain-wind-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-rain-wind-filled.svelte"
+    },
+    "./cloud-snow-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-snow-filled.svelte"
+    },
     "./cloud-sun-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud-sun-duotone.svelte"
@@ -2857,6 +2909,10 @@
     "./cloud-sun-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/cloud-sun-filled.svelte"
+    },
+    "./cloud-sync-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cloud-sync-filled.svelte"
     },
     "./cloud-upload-filled": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3781,6 +3837,10 @@
     "./ev-charger-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ev-charger-filled.svelte"
+    },
+    "./external-link-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/external-link-filled.svelte"
     },
     "./eye-dashed-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4798,6 +4858,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/funnel-filled.svelte"
     },
+    "./funnel-plus-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/funnel-plus-filled.svelte"
+    },
+    "./funnel-x-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/funnel-x-filled.svelte"
+    },
     "./galaxy-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/galaxy-duotone.svelte"
@@ -5093,6 +5161,14 @@
     "./globe-check-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe-check-filled.svelte"
+    },
+    "./globe-code-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-code-duotone.svelte"
+    },
+    "./globe-code-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-code-filled.svelte"
     },
     "./globe-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5930,6 +6006,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lasso-select-filled.svelte"
     },
+    "./layer-arrow-down-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-arrow-down-filled.svelte"
+    },
+    "./layer-arrow-up-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layer-arrow-up-filled.svelte"
+    },
     "./layers-2-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/layers-2-duotone.svelte"
@@ -5937,6 +6021,14 @@
     "./layers-2-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/layers-2-filled.svelte"
+    },
+    "./layers-arrow-down-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers-arrow-down-filled.svelte"
+    },
+    "./layers-arrow-up-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/layers-arrow-up-filled.svelte"
     },
     "./layers-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6129,6 +6221,14 @@
     "./lighthouse-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/lighthouse-filled.svelte"
+    },
+    "./line-dot-bottom-vertical-duotone": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-dot-bottom-vertical-duotone.svelte"
+    },
+    "./line-dot-bottom-vertical-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/line-dot-bottom-vertical-filled.svelte"
     },
     "./line-dot-left-horizontal-duotone": {
       "types": "./types/gfwqskkx.d.ts",
@@ -8682,6 +8782,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/scratch-blocks-filled.svelte"
     },
+    "./screen-share-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-share-filled.svelte"
+    },
+    "./screen-share-off-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screen-share-off-filled.svelte"
+    },
     "./screw-duotone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/screw-duotone.svelte"
@@ -9402,6 +9510,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-right-enter-filled.svelte"
     },
+    "./square-arrow-right-exit-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-arrow-right-exit-filled.svelte"
+    },
     "./square-arrow-right-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-arrow-right-filled.svelte"
@@ -9477,6 +9589,10 @@
     "./square-chart-gantt-filled": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-chart-gantt-filled.svelte"
+    },
+    "./square-check-big-filled": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-check-big-filled.svelte"
     },
     "./square-check-duotone": {
       "types": "./types/gfwqskkx.d.ts",
