@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -2337,6 +2337,10 @@
     "./claude-code": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/claude-code.svelte"
+    },
+    "./claude-of-tanks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/claude-of-tanks.svelte"
     },
     "./clerk": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4853,6 +4857,10 @@
     "./general-motors": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/general-motors.svelte"
+    },
+    "./general-translation": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/general-translation.svelte"
     },
     "./genius": {
       "types": "./types/gfwqskkx.d.ts",
