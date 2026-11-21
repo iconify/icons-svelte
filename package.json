@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.90",
+  "version": "1.0.91",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -1058,6 +1058,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/box.svelte"
     },
+    "./box-dashed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/box-dashed.svelte"
+    },
     "./boxes": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/boxes.svelte"
@@ -1713,6 +1717,10 @@
     "./chevrons-up-down": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-up-down.svelte"
+    },
+    "./chocolate-bar": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chocolate-bar.svelte"
     },
     "./chrome": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3490,6 +3498,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-minus.svelte"
     },
+    "./folder-network": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-network.svelte"
+    },
     "./folder-open": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-open.svelte"
@@ -3509,6 +3521,10 @@
     "./folder-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/folder-plus.svelte"
+    },
+    "./folder-plus-corner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/folder-plus-corner.svelte"
     },
     "./folder-root": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6162,6 +6178,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rectangle-horizontal.svelte"
     },
+    "./rectangle-landscape-play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle-landscape-play.svelte"
+    },
     "./rectangle-vertical": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rectangle-vertical.svelte"
@@ -8265,6 +8285,10 @@
     "./user-round-check": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/u/user-round-check.svelte"
+    },
+    "./user-round-clock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/u/user-round-clock.svelte"
     },
     "./user-round-cog": {
       "types": "./types/gfwqskkx.d.ts",
