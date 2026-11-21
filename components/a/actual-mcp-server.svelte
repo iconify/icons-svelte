@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dpdbmfbhr.css';
+import '../../css/i/i6oim-fty.css';
+import '../../css/n/n30ul-b9z.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":512,"height":512};
+const content = `<rect class="dpdbmfbhr"/><path class="i6oim-fty"/><path class="n30ul-b9z"/>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="selfhst:actual-mcp-server" {...props}></Icon>

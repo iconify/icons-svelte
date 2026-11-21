@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/selfhst",
   "type": "module",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC-BY-4.0",
@@ -170,6 +170,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/actual-budget-light.svelte"
     },
+    "./actual-mcp-server": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/actual-mcp-server.svelte"
+    },
+    "./actual-mcp-server-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/actual-mcp-server-dark.svelte"
+    },
+    "./actual-mcp-server-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/actual-mcp-server-light.svelte"
+    },
     "./adguard-home": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/adguard-home.svelte"
@@ -258,9 +270,33 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/adobe-acrobat-light.svelte"
     },
+    "./adobe-after-effects": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-after-effects.svelte"
+    },
+    "./adobe-after-effects-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-after-effects-dark.svelte"
+    },
+    "./adobe-after-effects-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-after-effects-light.svelte"
+    },
     "./adobe-dark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/adobe-dark.svelte"
+    },
+    "./adobe-dreamweaver": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-dreamweaver.svelte"
+    },
+    "./adobe-dreamweaver-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-dreamweaver-dark.svelte"
+    },
+    "./adobe-dreamweaver-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/adobe-dreamweaver-light.svelte"
     },
     "./adobe-firefly": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3862,6 +3898,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/coder-light.svelte"
     },
+    "./codetta": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codetta.svelte"
+    },
+    "./codetta-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codetta-dark.svelte"
+    },
+    "./codetta-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codetta-light.svelte"
+    },
     "./coffer": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/coffer.svelte"
@@ -5365,6 +5413,18 @@
     "./docker": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/docker.svelte"
+    },
+    "./docker-2017": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-2017.svelte"
+    },
+    "./docker-2017-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-2017-dark.svelte"
+    },
+    "./docker-2017-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/docker-2017-light.svelte"
     },
     "./docker-dark": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17006,6 +17066,30 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/noodle-gallery-light.svelte"
     },
+    "./nordlocker": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nordlocker.svelte"
+    },
+    "./nordlocker-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nordlocker-dark.svelte"
+    },
+    "./nordlocker-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nordlocker-light.svelte"
+    },
+    "./nordpass": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nordpass.svelte"
+    },
+    "./nordpass-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nordpass-dark.svelte"
+    },
+    "./nordpass-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/n/nordpass-light.svelte"
+    },
     "./nordvpn": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/n/nordvpn.svelte"
@@ -21974,6 +22058,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/raneto-light.svelte"
     },
+    "./rarbg": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rarbg.svelte"
+    },
+    "./rarbg-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rarbg-dark.svelte"
+    },
+    "./rarbg-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rarbg-light.svelte"
+    },
     "./raspberry-pi": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/raspberry-pi.svelte"
@@ -25977,6 +26073,18 @@
     "./the-new-york-times-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/the-new-york-times-light.svelte"
+    },
+    "./the-pirate-bay": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/the-pirate-bay.svelte"
+    },
+    "./the-pirate-bay-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/the-pirate-bay-dark.svelte"
+    },
+    "./the-pirate-bay-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/the-pirate-bay-light.svelte"
     },
     "./the-verge": {
       "types": "./types/gfwqskkx.d.ts",
