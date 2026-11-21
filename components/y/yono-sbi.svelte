@@ -5,36 +5,16 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":48,"height":48};
-const content = `<circle class="cpk0fnbgt"/><circle class="smh8hwt4g"/><path class="wxovb9bvm"/>`;
+const content = `<path class="hfjub6bdx"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="arcticons:yono-sbi" {...props}></Icon>
 <style>
-:global(.cpk0fnbgt) {
-  cx: 24px;
-  cy: 24px;
-  r: 21.5px;
+:global(.hfjub6bdx) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-:global(.smh8hwt4g) {
-  cx: 24px;
-  cy: 24px;
-  r: 5px;
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-:global(.wxovb9bvm) {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24 29v16.5");
+  d: path("M25.22 46a22 22.02 0 1 0-2.44 0V27.65a3.67 3.67 0 1 1 2.44 0z");
 }
 
 </style>
