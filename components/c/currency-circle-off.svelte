@@ -3,13 +3,12 @@ import Icon from '@iconify/css-svelte';
 import '../../css/f/ft5dv1b6b.css';
 import '../../css/i/ii79gpbho.css';
 import '../../css/v/vk1jl3bzj.css';
-import '../../css/m/mfdpnmhni.css';
-import '../../css/p/py7ktqbvf.css';
+import '../../css/r/ridg04h6w.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGHcSWxdhd)"><path class="ii79gpbho"/><path class="vk1jl3bzj"/><path class="mfdpnmhni"/></g><defs><clipPath id="SVGHcSWxdhd"><path class="py7ktqbvf"/></clipPath></defs></g>`;
+const content = `<g class="ft5dv1b6b"><path class="ii79gpbho"/><path class="vk1jl3bzj"/><path class="ridg04h6w"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="andrsrxn:currency-circle-off" {...props}></Icon>
