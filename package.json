@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.91",
+  "version": "1.0.92",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -221,6 +221,10 @@
     "./app-window-mac": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/app-window-mac.svelte"
+    },
+    "./app-window-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-window-plus.svelte"
     },
     "./apple": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2054,6 +2058,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-small.svelte"
     },
+    "./circle-speed-lines": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/circle-speed-lines.svelte"
+    },
     "./circle-star": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circle-star.svelte"
@@ -3830,6 +3838,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/graph-hub.svelte"
     },
+    "./graph-path": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/graph-path.svelte"
+    },
     "./graph-ring": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/graph-ring.svelte"
@@ -4089,6 +4101,10 @@
     "./hockey-stick": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/hockey-stick.svelte"
+    },
+    "./hole": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/h/hole.svelte"
     },
     "./hop": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5585,6 +5601,10 @@
     "./package-2": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/package-2.svelte"
+    },
+    "./package-arrow-bend-up-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/package-arrow-bend-up-left.svelte"
     },
     "./package-check": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7421,6 +7441,10 @@
     "./square-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-plus.svelte"
+    },
+    "./square-plus-corner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-plus-corner.svelte"
     },
     "./square-power": {
       "types": "./types/gfwqskkx.d.ts",
