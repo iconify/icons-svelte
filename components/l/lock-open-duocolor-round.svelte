@@ -5,14 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="zlelvokby"/><path class="kl2nym86g"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="smd2290dp"/><path class="o8oe9qx1s"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:lock-open-duocolor-round" {...props}></Icon>
 <style>
-:global(.kl2nym86g) {
-  d: path("M4 14a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4Z");
-}
-
 :global(.nrj6p8qat) {
   fill: none;
   stroke: currentColor;
@@ -21,9 +17,13 @@ const content = `<g class="nrj6p8qat"><path class="zlelvokby"/><path class="kl2n
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-:global(.zlelvokby) {
+:global(.o8oe9qx1s) {
+  d: path("M4 13a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4Zm7 2a1 1 0 1 0 2 0a1 1 0 0 0-2 0");
+}
+
+:global(.smd2290dp) {
   stroke-opacity: 0.4;
-  d: path("M9 10V6a3 3 0 0 1 6 0");
+  d: path("M8 9V7a4 4 0 0 1 7.464-2");
 }
 
 </style>

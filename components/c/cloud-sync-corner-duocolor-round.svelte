@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="tynrrxtsf"/><path class="dlyl6xb5p"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="tynrrxtsf"/><path class="cjcrnhgsj"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:cloud-sync-corner-duocolor-round" {...props}></Icon>
 <style>
-:global(.dlyl6xb5p) {
-  d: path("M7 19A5 5 0 0 1 7 9c1.819-6.366 9.638-6.116 11 0");
+:global(.cjcrnhgsj) {
+  d: path("M7 19A5 5 0 0 1 7 9c1.819-6.366 9.428-6.115 10.79 0");
 }
 
 :global(.nrj6p8qat) {

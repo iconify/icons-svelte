@@ -5,17 +5,17 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="xdgolqq2r"/>`;
+const content = `<path class="unfleztyf"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:image-edit" {...props}></Icon>
 <style>
-:global(.xdgolqq2r) {
+:global(.unfleztyf) {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
-  d: path("M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm0 12l1-1a1.414 1.414 0 0 1 2 0l5 5m-1-7v-3l5-5l3 3l-5 5Z");
+  d: path("M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm0 12l3-3a1.414 1.414 0 0 1 2 0l7 7m-4-9v-2l4-4l2 2l-4 4Z");
 }
 
 </style>

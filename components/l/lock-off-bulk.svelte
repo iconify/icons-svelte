@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="mcj8-1bcc"/><path class="pj220gbcd"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="qd97vzbyw"/><path class="hj0t4uosh"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:lock-off-bulk" {...props}></Icon>
 <style>
@@ -13,13 +13,13 @@ const content = `<g class="cuyn6tgcc"><path class="mcj8-1bcc"/><path class="pj22
   fill: currentColor;
 }
 
-:global(.mcj8-1bcc) {
-  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M18.872 21.872A3 3 0 0 1 18 22H6a3 3 0 0 1-3-3v-7a3 3 0 0 1 3-3Zm2.051-2.192L10.243 9H18a3 3 0 0 1 3 3v7q0 .345-.077.68");
+:global(.hj0t4uosh) {
+  d: path("m2.707 2.293l19 19a.999.999 0 1 1-1.414 1.414l-19-19a.999.999 0 1 1 1.414-1.414m5.757 2.585a1 1 0 0 1 0-1.414a5.003 5.003 0 0 1 7.072 0A4.98 4.98 0 0 1 17 7v2a1 1 0 0 1-2 0V7a3 3 0 0 0-5.12-2.121a1 1 0 0 1-1.415.001Z");
 }
 
-:global(.pj220gbcd) {
-  d: path("M16 6v4a1 1 0 0 1-2 0V6a2 2 0 1 0-4 0a1 1 0 0 1-2 0a4 4 0 0 1 8 0M2.707 4.293l17 17a.999.999 0 1 1-1.414 1.414l-17-17a.999.999 0 1 1 1.414-1.414");
+:global(.qd97vzbyw) {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("m18.707 19.707l1.414 1.414A3 3 0 0 1 18 22H6a3 3 0 0 1-3-3v-8a3 3 0 0 1 3-3h1ZM21 17.757L11.243 8H18a3 3 0 0 1 3 3Z");
 }
 
 </style>

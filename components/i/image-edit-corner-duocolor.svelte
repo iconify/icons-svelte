@@ -5,14 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="nx4e6--5o"/><path class="el2-dfzza"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="nx4e6--5o"/><path class="t6ttdnxkn"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:image-edit-corner-duocolor" {...props}></Icon>
 <style>
-:global(.el2-dfzza) {
-  d: path("M11 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 17l5-5a1.414 1.414 0 0 1 2 0l1 1m3-5a1 1 0 1 0 2 0a1 1 0 0 0-2 0");
-}
-
 :global(.nrj6p8qat) {
   fill: none;
   stroke: currentColor;
@@ -24,6 +20,10 @@ const content = `<g class="nrj6p8qat"><path class="nx4e6--5o"/><path class="el2-
 :global(.nx4e6--5o) {
   stroke-opacity: 0.4;
   d: path("M14 21v-3l4-4l3 3l-4 4Z");
+}
+
+:global(.t6ttdnxkn) {
+  d: path("M10 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 17l5-5a1.414 1.414 0 0 1 2 0l1 1m3-5a1 1 0 1 0 2 0a1 1 0 0 0-2 0");
 }
 
 </style>

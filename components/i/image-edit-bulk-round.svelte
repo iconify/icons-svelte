@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="wr_1xqtvh"/><path class="msqof81ac"/></g>`;
+const content = `<g class="cuyn6tgcc"><path class="wr_1xqtvh"/><path class="qjulybbaa"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="coolicons:image-edit-bulk-round" {...props}></Icon>
 <style>
@@ -13,8 +13,8 @@ const content = `<g class="cuyn6tgcc"><path class="wr_1xqtvh"/><path class="msqo
   fill: currentColor;
 }
 
-:global(.msqof81ac) {
-  d: path("M10 10c0-.265.105-.52.293-.707l5-5a1 1 0 0 1 1.414 0l3 3a1 1 0 0 1 0 1.414l-5 5A1 1 0 0 1 14 14h-3a1 1 0 0 1-1-1Zm-6.707 5.293a2.415 2.415 0 0 1 3.414 0l5 5a.999.999 0 1 1-1.414 1.414l-5-5a.415.415 0 0 0-.586 0l-1 1a.999.999 0 1 1-1.414-1.414Z");
+:global(.qjulybbaa) {
+  d: path("M11 9c0-.265.105-.52.293-.707l4-4a1 1 0 0 1 1.414 0l2 2a1 1 0 0 1 0 1.414l-4 4A1 1 0 0 1 14 12h-2a1 1 0 0 1-1-1Zm-7.707 6.293a5.243 5.243 0 0 1 7.414 0l5 5a.999.999 0 1 1-1.414 1.414l-5-5a3.24 3.24 0 0 0-4.586 0l-1 1a.999.999 0 1 1-1.414-1.414Z");
 }
 
 :global(.wr_1xqtvh) {
