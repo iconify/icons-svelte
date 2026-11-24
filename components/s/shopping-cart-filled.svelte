@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/nk1-9y_pf.css';
+import '../../css/t/t2hrev5_h.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="nk1-9y_pf"/>`;
+const content = `<path class="t2hrev5_h"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:shopping-cart-filled" {...props}></Icon>

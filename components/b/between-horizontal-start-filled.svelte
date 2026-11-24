@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/j/jb8rxjbjp.css';
+import '../../css/e/epmpu1b1r.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jb8rxjbjp"/>`;
+const content = `<path class="epmpu1b1r"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:between-horizontal-start-filled" {...props}></Icon>

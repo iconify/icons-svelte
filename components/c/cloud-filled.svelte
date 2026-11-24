@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/i/iddtxybyv.css';
+import '../../css/a/a-w1q-0ub.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="iddtxybyv"/>`;
+const content = `<path class="a-w1q-0ub"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:cloud-filled" {...props}></Icon>

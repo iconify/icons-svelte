@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/a/a_gkf5rlf.css';
+import '../../css/w/whk1n9bbd.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="a_gkf5rlf"/>`;
+const content = `<path clip-rule="evenodd" class="whk1n9bbd"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:badge-question-mark-filled" {...props}></Icon>

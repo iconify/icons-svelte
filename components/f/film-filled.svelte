@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/t/tx1iz5rcc.css';
+import '../../css/x/xekgr4udp.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="tx1iz5rcc"/>`;
+const content = `<path clip-rule="evenodd" class="xekgr4udp"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:film-filled" {...props}></Icon>

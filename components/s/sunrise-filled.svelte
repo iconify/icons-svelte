@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/r_p6mvbzq.css';
+import '../../css/p/phhuvpbpc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="r_p6mvbzq"/>`;
+const content = `<path class="phhuvpbpc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:sunrise-filled" {...props}></Icon>

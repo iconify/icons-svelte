@@ -1,12 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/r/r5-qb4ycp.css';
-import '../../css/l/l4r5fel4i.css';
+import '../../css/f/fv_363bea.css';
+import '../../css/t/t6xotcc8u.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="r5-qb4ycp"/><path class="l4r5fel4i"/>`;
+const content = `<path clip-rule="evenodd" class="fv_363bea"/><path class="t6xotcc8u"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:webcam-off-filled" {...props}></Icon>

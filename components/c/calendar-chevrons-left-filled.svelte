@@ -1,12 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/np4301h5k.css';
-import '../../css/j/j8ev3vexx.css';
+import '../../css/j/j6a5x9bff.css';
+import '../../css/c/cwtdbgb_d.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="np4301h5k"/><path class="j8ev3vexx"/>`;
+const content = `<path class="j6a5x9bff"/><path class="cwtdbgb_d"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:calendar-chevrons-left-filled" {...props}></Icon>

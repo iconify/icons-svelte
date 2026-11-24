@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/k/khu98rbzb.css';
+import '../../css/s/saldzrb1n.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="khu98rbzb"/>`;
+const content = `<path clip-rule="evenodd" class="saldzrb1n"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:circle-user-round-filled" {...props}></Icon>

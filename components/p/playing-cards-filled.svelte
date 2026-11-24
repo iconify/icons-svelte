@@ -1,12 +1,12 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/n/n-i7xbe_m.css';
-import '../../css/g/g7fuoqbeu.css';
+import '../../css/k/kr5qu_bcy.css';
+import '../../css/d/dnb3cibqn.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="n-i7xbe_m"/><path clip-rule="evenodd" class="g7fuoqbeu"/>`;
+const content = `<path class="kr5qu_bcy"/><path clip-rule="evenodd" class="dnb3cibqn"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="lucide-extended:playing-cards-filled" {...props}></Icon>
