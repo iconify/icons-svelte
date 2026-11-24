@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/gravity-ui",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/gravity-ui/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -654,6 +654,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-collapse-vertical.svelte"
     },
+    "./chevrons-collapse-vertical-from-lines": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevrons-collapse-vertical-from-lines.svelte"
+    },
     "./chevrons-collapse-vertical-to-line": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-collapse-vertical-to-line.svelte"
@@ -689,6 +693,10 @@
     "./chevrons-expand-vertical-from-line": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-expand-vertical-from-line.svelte"
+    },
+    "./chevrons-expand-vertical-to-lines": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevrons-expand-vertical-to-lines.svelte"
     },
     "./chevrons-left": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1229,6 +1237,10 @@
     "./compass": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/compass.svelte"
+    },
+    "./cookie": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/cookie.svelte"
     },
     "./copy": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1950,6 +1962,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/h/house-fill.svelte"
     },
+    "./incognito": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/incognito.svelte"
+    },
     "./italic": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/italic.svelte"
@@ -2274,9 +2290,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/logo-yandex.svelte"
     },
+    "./logo-yandex-ai-studio": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-yandex-ai-studio.svelte"
+    },
     "./logo-yandex-cloud": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/logo-yandex-cloud.svelte"
+    },
+    "./logo-yandex-id": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/logo-yandex-id.svelte"
     },
     "./logo-yandex-messenger": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2941,6 +2965,10 @@
     "./strikethrough": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/strikethrough.svelte"
+    },
+    "./subscript": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/subscript.svelte"
     },
     "./suitcase": {
       "types": "./types/gfwqskkx.d.ts",
