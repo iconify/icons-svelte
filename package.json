@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon-plain",
   "type": "module",
-  "version": "1.0.37",
+  "version": "1.0.38",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -302,6 +302,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bevyengine-wordmark.svelte"
     },
+    "./binijs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binijs.svelte"
+    },
     "./biome-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/biome-wordmark.svelte"
@@ -517,6 +521,10 @@
     "./codepen": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/codepen.svelte"
+    },
+    "./codewars-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codewars-wordmark.svelte"
     },
     "./codex": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2678,6 +2686,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rollup-wordmark.svelte"
     },
+    "./rqlite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rqlite.svelte"
+    },
     "./rspec": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rspec.svelte"
@@ -2685,6 +2697,10 @@
     "./rspec-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rspec-wordmark.svelte"
+    },
+    "./rstan": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rstan.svelte"
     },
     "./rstudio": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2897,6 +2913,14 @@
     "./starship-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/starship-wordmark.svelte"
+    },
+    "./statuspage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/statuspage.svelte"
+    },
+    "./statuspage-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/statuspage-wordmark.svelte"
     },
     "./stenciljs": {
       "types": "./types/gfwqskkx.d.ts",
