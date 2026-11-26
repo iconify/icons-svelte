@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.92",
+  "version": "1.0.93",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -221,6 +221,18 @@
     "./app-window-mac": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/app-window-mac.svelte"
+    },
+    "./app-window-mac-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-window-mac-minus.svelte"
+    },
+    "./app-window-mac-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-window-mac-plus.svelte"
+    },
+    "./app-window-minus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/app-window-minus.svelte"
     },
     "./app-window-plus": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1057,6 +1069,10 @@
     "./bow-arrow": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bow-arrow.svelte"
+    },
+    "./bowl-chopsticks": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/bowl-chopsticks.svelte"
     },
     "./box": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2366,6 +2382,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/columns-2.svelte"
     },
+    "./columns-2-plus-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/columns-2-plus-left.svelte"
+    },
+    "./columns-2-plus-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/columns-2-plus-right.svelte"
+    },
     "./columns-3": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/columns-3.svelte"
@@ -2882,6 +2906,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/eject.svelte"
     },
+    "./elevator": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/e/elevator.svelte"
+    },
     "./ellipse": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/e/ellipse.svelte"
@@ -3269,6 +3297,10 @@
     "./file-text": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/f/file-text.svelte"
+    },
+    "./file-text-sparkles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/f/file-text-sparkles.svelte"
     },
     "./file-type": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3798,6 +3830,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe-check.svelte"
     },
+    "./globe-clock": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/g/globe-clock.svelte"
+    },
     "./globe-code": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/g/globe-code.svelte"
@@ -4209,6 +4245,10 @@
     "./image-plus": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/i/image-plus.svelte"
+    },
+    "./image-sparkles": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/i/image-sparkles.svelte"
     },
     "./image-up": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4781,6 +4821,10 @@
     "./list-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/l/list-x.svelte"
+    },
+    "./list-x-corner": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/l/list-x-corner.svelte"
     },
     "./loader": {
       "types": "./types/gfwqskkx.d.ts",
@@ -5954,6 +5998,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plane-landing.svelte"
     },
+    "./plane-off": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/plane-off.svelte"
+    },
     "./plane-takeoff": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/plane-takeoff.svelte"
@@ -6198,9 +6246,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rectangle-horizontal.svelte"
     },
-    "./rectangle-landscape-play": {
+    "./rectangle-horizontal-play": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/r/rectangle-landscape-play.svelte"
+      "svelte": "./components/r/rectangle-horizontal-play.svelte"
+    },
+    "./rectangle-horizontal-plus": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle-horizontal-plus.svelte"
     },
     "./rectangle-vertical": {
       "types": "./types/gfwqskkx.d.ts",
@@ -6374,6 +6426,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rows-2.svelte"
     },
+    "./rows-2-plus-bottom": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-2-plus-bottom.svelte"
+    },
+    "./rows-2-plus-top": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rows-2-plus-top.svelte"
+    },
     "./rows-3": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rows-3.svelte"
@@ -6541,6 +6601,10 @@
     "./screw": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/screw.svelte"
+    },
+    "./screwdriver": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/screwdriver.svelte"
     },
     "./scroll": {
       "types": "./types/gfwqskkx.d.ts",
@@ -7578,6 +7642,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/star-x.svelte"
     },
+    "./steering-wheel": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/steering-wheel.svelte"
+    },
     "./step-back": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/step-back.svelte"
@@ -8070,6 +8138,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/train-front-tunnel.svelte"
     },
+    "./train-high-speed": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/train-high-speed.svelte"
+    },
     "./train-track": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/train-track.svelte"
@@ -8085,6 +8157,10 @@
     "./trash": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/trash.svelte"
+    },
+    "./trash-leaf": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/trash-leaf.svelte"
     },
     "./trash-off": {
       "types": "./types/gfwqskkx.d.ts",
@@ -9501,6 +9577,10 @@
     "./power-square": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/power-square.svelte"
+    },
+    "./rectangle-landscape-play": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rectangle-landscape-play.svelte"
     },
     "./rotate-3-d": {
       "types": "./types/gfwqskkx.d.ts",
