@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/evicons",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://icon-sets.iconify.design/evicons/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -170,6 +170,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/marker-available.svelte"
     },
+    "./marker-blocked": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-blocked.svelte"
+    },
     "./marker-charging": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/marker-charging.svelte"
@@ -193,6 +197,10 @@
     "./marker-out-of-service": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/marker-out-of-service.svelte"
+    },
+    "./marker-planned": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/marker-planned.svelte"
     },
     "./marker-queue": {
       "types": "./types/gfwqskkx.d.ts",
