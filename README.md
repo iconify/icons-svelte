@@ -37,7 +37,7 @@ To resize icon, set `width` and/or `height` parameters:
 
 ```svelte
 <script lang="ts">
-import SampleIcon from '@iconify-svelte/flag/de-1x1';
+import SampleIcon from '@iconify-svelte/flag/bg-1x1';
 </script>
 
 <SampleIcon height="1em" />
