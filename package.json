@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/devicon",
   "type": "module",
-  "version": "1.0.42",
+  "version": "1.0.43",
   "homepage": "https://icon-sets.iconify.design/devicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -410,6 +410,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bevyengine-wordmark.svelte"
     },
+    "./binijs": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binijs.svelte"
+    },
+    "./binijs-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/binijs-wordmark.svelte"
+    },
     "./biome": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/biome.svelte"
@@ -678,6 +686,14 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/codepen-wordmark.svelte"
     },
+    "./codewars": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codewars.svelte"
+    },
+    "./codewars-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/codewars-wordmark.svelte"
+    },
     "./codex": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/codex.svelte"
@@ -933,6 +949,10 @@
     "./digitalocean-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/d/digitalocean-wordmark.svelte"
+    },
+    "./directx-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/d/directx-wordmark.svelte"
     },
     "./discloud": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3502,6 +3522,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/ros-wordmark.svelte"
     },
+    "./rqlite": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rqlite.svelte"
+    },
     "./rspec": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rspec.svelte"
@@ -3509,6 +3533,10 @@
     "./rspec-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/rspec-wordmark.svelte"
+    },
+    "./rstan": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/rstan.svelte"
     },
     "./rstudio": {
       "types": "./types/gfwqskkx.d.ts",
@@ -3817,6 +3845,14 @@
     "./stata-wordmark": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/stata-wordmark.svelte"
+    },
+    "./statuspage": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/statuspage.svelte"
+    },
+    "./statuspage-wordmark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/statuspage-wordmark.svelte"
     },
     "./stenciljs": {
       "types": "./types/gfwqskkx.d.ts",
