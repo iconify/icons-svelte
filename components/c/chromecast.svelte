@@ -1,11 +1,11 @@
 <script>
 import Icon from '@iconify/css-svelte';
-import '../../css/w/wo7q6vbsc.css';
+import '../../css/e/ecl2_sbxc.css';
 
 /** @type {{width?: string; height?: string;}} */
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="wo7q6vbsc"/>`;
+const content = `<path class="ecl2_sbxc"/>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="cbi:chromecast" {...props}></Icon>
