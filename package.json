@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg",
   "type": "module",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "homepage": "https://icon-sets.iconify.design/thesvg/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -3017,6 +3017,10 @@
     "./custom-ink": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/custom-ink.svelte"
+    },
+    "./customtkinter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/customtkinter.svelte"
     },
     "./cybercut": {
       "types": "./types/gfwqskkx.d.ts",
