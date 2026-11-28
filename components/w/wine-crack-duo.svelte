@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/a/a6hntubbs.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/q/q6fepbcme.css';
+import '../../css/s/sy986tb5k.css';
+import '../../css/w/wrum7db2o.css';
+import '../../css/d/de8utmbtb.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="a6hntubbs secondary"/><g class="dt0cm9dhy primary"><path class="q6fepbcme"/><path class="sy986tb5k"/><path class="wrum7db2o"/><path class="de8utmbtb"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:wine-crack-duo" {...props}></Icon>

@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/r/rr4slu2yq.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/j/j-t_sircu.css';
+import '../../css/o/opary8-sc.css';
+import '../../css/v/vh32usnkl.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="rr4slu2yq secondary"/><g class="dt0cm9dhy primary"><path class="j-t_sircu"/><path class="opary8-sc"/><path class="vh32usnkl"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:headphones-duo" {...props}></Icon>

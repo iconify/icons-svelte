@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/j/jrgpz7bvh.css';
+import '../../css/g/gcbea1zjt.css';
+import '../../css/j/j7k7ottks.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="jrgpz7bvh"/><path class="gcbea1zjt"/><path class="j7k7ottks"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:message-square-dashed-check" {...props}></Icon>

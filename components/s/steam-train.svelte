@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/x/xhu828bgh.css';
+import '../../css/m/mz1560bnj.css';
+import '../../css/i/ixbwkv4mz.css';
+import '../../css/w/wk9de4znk.css';
+import '../../css/u/ur3_tunjd.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="xhu828bgh"/><path class="mz1560bnj"/><path class="ixbwkv4mz"/><path class="wk9de4znk"/><path class="ur3_tunjd"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:steam-train" {...props}></Icon>

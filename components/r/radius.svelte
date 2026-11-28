@@ -1,0 +1,15 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/d/d6-xq1bxx.css';
+import '../../css/d/d1ej-tbru.css';
+import '../../css/f/flaug2yxl.css';
+import '../../css/i/injexccye.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="d6-xq1bxx"/><path class="d1ej-tbru"/><path class="flaug2yxl"/><path class="injexccye"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:radius" {...props}></Icon>

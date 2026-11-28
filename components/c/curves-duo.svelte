@@ -1,0 +1,14 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/i/ifjhrvbty.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/l/lk2gmgbqk.css';
+import '../../css/v/v522r9v8t.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ifjhrvbty secondary"/><g class="dt0cm9dhy primary"><path class="lk2gmgbqk"/><path class="v522r9v8t"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:curves-duo" {...props}></Icon>

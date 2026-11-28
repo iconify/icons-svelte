@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/x/x670tjb1e.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/r/rmv9bobon.css';
+import '../../css/d/dab5zv50c.css';
+import '../../css/u/up2_48b4c.css';
+import '../../css/f/fy27n3vtu.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="secondary x670tjb1e"/><g class="dt0cm9dhy primary"><path class="rmv9bobon"/><path class="dab5zv50c"/><path class="up2_48b4c"/><path class="fy27n3vtu"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:before-and-after-duo" {...props}></Icon>

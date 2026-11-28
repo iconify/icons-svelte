@@ -1,0 +1,20 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/s/s6zlh5b9j.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/u/udu9855sl.css';
+import '../../css/m/mikyttjst.css';
+import '../../css/r/r1-6_-btk.css';
+import '../../css/x/xrww2gblo.css';
+import '../../css/r/rfg28mbfz.css';
+import '../../css/v/vh09fwb1p.css';
+import '../../css/v/vgsbcbc6l.css';
+import '../../css/w/wc1cagptr.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="s6zlh5b9j secondary"/><g class="dt0cm9dhy primary"><path class="udu9855sl"/><path class="mikyttjst"/><path class="r1-6_-btk"/><path class="xrww2gblo"/><path class="rfg28mbfz"/><path class="vh09fwb1p"/><path class="vgsbcbc6l"/><path class="wc1cagptr"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:laurel-wreath-duo" {...props}></Icon>

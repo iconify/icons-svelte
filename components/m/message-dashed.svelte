@@ -1,0 +1,13 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/n/n_m1ugbqz.css';
+import '../../css/a/ay-uj6bxa.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="n_m1ugbqz"/><path class="ay-uj6bxa"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:message-dashed" {...props}></Icon>

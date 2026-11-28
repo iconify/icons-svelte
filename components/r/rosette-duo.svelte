@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/x/x6m8e3bqb.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/e/ey2zvwwdt.css';
+import '../../css/o/of57k3czr.css';
+import '../../css/k/kxcnz1a6x.css';
+import '../../css/p/pueyysbpv.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="secondary x6m8e3bqb"/><g class="dt0cm9dhy primary"><path class="ey2zvwwdt"/><path class="of57k3czr"/><path class="kxcnz1a6x"/><path class="pueyysbpv"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:rosette-duo" {...props}></Icon>

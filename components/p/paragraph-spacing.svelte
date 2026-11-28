@@ -1,0 +1,16 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/s/s_ftu2boq.css';
+import '../../css/c/cn4sghbee.css';
+import '../../css/d/dyygccboq.css';
+import '../../css/q/qvxw8oxvd.css';
+import '../../css/l/lzbfpc81r.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="s_ftu2boq"/><path class="cn4sghbee"/><path class="dyygccboq"/><path class="qvxw8oxvd"/><path class="lzbfpc81r"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:paragraph-spacing" {...props}></Icon>

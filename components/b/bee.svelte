@@ -1,0 +1,18 @@
+<script>
+import Icon from '@iconify/css-svelte';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/i/ijlwwvu6g.css';
+import '../../css/e/esbvucbsh.css';
+import '../../css/g/gg2ejpbby.css';
+import '../../css/t/to9lo4bhx.css';
+import '../../css/w/wqvxj0bnz.css';
+import '../../css/m/msgc2qb0z.css';
+import '../../css/j/jlia77but.css';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="ijlwwvu6g"/><path class="esbvucbsh"/><path class="gg2ejpbby"/><path class="to9lo4bhx"/><path class="wqvxj0bnz"/><path class="msgc2qb0z"/><path class="jlia77but"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="iconaut:bee" {...props}></Icon>
