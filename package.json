@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/thesvg-color",
   "type": "module",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "homepage": "https://icon-sets.iconify.design/thesvg-color/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "MIT",
@@ -1897,6 +1897,10 @@
     "./bata": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/bata.svelte"
+    },
+    "./batchfile": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/batchfile.svelte"
     },
     "./battledotnet": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4122,9 +4126,13 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/custom-ink.svelte"
     },
-    "./customtkinter": {
+    "./customtkinter-dark": {
       "types": "./types/gfwqskkx.d.ts",
-      "svelte": "./components/c/customtkinter.svelte"
+      "svelte": "./components/c/customtkinter-dark.svelte"
+    },
+    "./customtkinter-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/customtkinter-light.svelte"
     },
     "./cvs": {
       "types": "./types/gfwqskkx.d.ts",
@@ -17922,6 +17930,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tata-consultancy-services.svelte"
     },
+    "./tata-consultancy-services-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tata-consultancy-services-dark.svelte"
+    },
+    "./tata-consultancy-services-legacy": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tata-consultancy-services-legacy.svelte"
+    },
+    "./tata-consultancy-services-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tata-consultancy-services-light.svelte"
+    },
     "./tauri": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tauri.svelte"
@@ -20977,6 +20997,10 @@
     "./circleci": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/circleci.svelte"
+    },
+    "./customtkinter": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/customtkinter.svelte"
     },
     "./fans": {
       "types": "./types/gfwqskkx.d.ts",
