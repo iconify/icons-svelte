@@ -5,12 +5,17 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":32,"height":32};
-const content = `<defs><linearGradient id="SVGItQiulID" x1="-209.59" x2="-223.36" y1="167.02" y2="153.25" gradientTransform="matrix(1 0 0 -1 234 178)" gradientUnits="userSpaceOnUse"><stop offset="0" class="y5fb0lpcu"/><stop offset="1" class="ojj18acah"/></linearGradient></defs><path class="fpp5o-b9w"/><path fill="url(#SVGItQiulID)" class="zd-jwkbgk"/>`;
+const content = `<g transform="translate(.02 .47)scale(.97041)"><defs><linearGradient id="SVGItQiulID" x1="-209.59" x2="-223.36" y1="167.02" y2="153.25" gradientTransform="matrix(1 0 0 -1 234 178)" gradientUnits="userSpaceOnUse"><stop offset="0" class="y5fb0lpcu"/><stop offset="1" class="ojj18acah"/></linearGradient></defs><path class="c31tblkve"/><path fill="url(#SVGItQiulID)" class="dlgb3qbsi"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:file-type-light-turbo" {...props}></Icon>
 <style>
-:global(.fpp5o-b9w) {
-  d: path("M16.1 6.9a9.1 9.1 0 1 0 9.1 9.1a9.11 9.11 0 0 0-9.1-9.1m0 13.81A4.71 4.71 0 1 1 20.81 16a4.71 4.71 0 0 1-4.71 4.71");
+:global(.c31tblkve) {
+  d: path("M16.1 6.9a9.1 9.1 0 1 0 9.1 9.1a9.1 9.1 0 0 0-9.1-9.1m0 13.81A4.71 4.71 0 1 1 20.81 16a4.7 4.7 0 0 1-4.71 4.71");
+}
+
+:global(.dlgb3qbsi) {
+  fill-rule: evenodd;
+  d: path("M16.86 5.41V2a14 14 0 0 1 0 28v-3.4a10.62 10.62 0 0 0 0-21.18ZM8.08 23a10.6 10.6 0 0 1-2.57-6.19h-3.4a14 14 0 0 0 3.56 8.59zm7.26 7v-3.4A10.6 10.6 0 0 1 9.15 24l-2.4 2.4a14 14 0 0 0 8.59 3.6");
 }
 
 :global(.ojj18acah) {
@@ -19,11 +24,6 @@ const content = `<defs><linearGradient id="SVGItQiulID" x1="-209.59" x2="-223.36
 
 :global(.y5fb0lpcu) {
   stop-color: var(--svg-color--0096ff, #0096ff);
-}
-
-:global(.zd-jwkbgk) {
-  fill-rule: evenodd;
-  d: path("M16.86 5.41V2a14 14 0 0 1 0 28v-3.4a10.62 10.62 0 0 0 0-21.18ZM8.08 23a10.6 10.6 0 0 1-2.57-6.19h-3.4a13.93 13.93 0 0 0 3.56 8.59l2.4-2.4Zm7.26 7v-3.4A10.6 10.6 0 0 1 9.15 24l-2.4 2.4a13.93 13.93 0 0 0 8.59 3.6");
 }
 
 </style>

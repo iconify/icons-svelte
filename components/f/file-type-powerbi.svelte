@@ -5,39 +5,57 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":32,"height":32};
-const content = `<g transform="translate(2 2)"><rect fill="url(#SVGSyDbCdIo)" class="b5w5j364n"/><rect filter="url(#SVGG9tgabpE)" class="zp3i9bz2p"/><rect filter="url(#SVGbbpBpe0w)" class="zddnpr4ja"/><rect fill="url(#SVGQnDRJe3j)" class="bsrlwexql"/><rect fill="url(#SVGL3rxySqX)" class="jde8rjmwe"/></g><defs><linearGradient id="SVGSyDbCdIo" x1="13.575" x2="25.892" y1="0" y2="26.088" gradientUnits="userSpaceOnUse"><stop class="o19ptqc3p"/><stop offset="1" class="cequoob6b"/></linearGradient><linearGradient id="SVGQnDRJe3j" x1="9.296" x2="19.648" y1="7" y2="27.075" gradientUnits="userSpaceOnUse"><stop class="hn2esfblp"/><stop offset="1" class="o19ptqc3p"/></linearGradient><linearGradient id="SVGL3rxySqX" x1="3.462" x2="9.184" y1="14" y2="27.556" gradientUnits="userSpaceOnUse"><stop class="lgwa88bup"/><stop offset="1" class="hn2esfblp"/></linearGradient><filter id="SVGG9tgabpE" width="9.801" height="21.468" x="9.063" y="6.881" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation=".117"/></filter><filter id="SVGbbpBpe0w" width="14.001" height="25.667" x="6.963" y="5.25" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="1.167"/></filter></defs>`;
+const content = `<g transform="translate(1.09 .16)scale(.932)"><defs><clipPath id="SVGseksXbjI"><path class="yheihnbxw"/></clipPath></defs><g clip-path="url(#SVGseksXbjI)"><g transform="translate(2 2)"><rect fill="url(#SVGdgVwsblS)" class="iwecndb-j"/><rect filter="url(#SVGIgrzkcFw)" class="err34w4bf"/><rect filter="url(#SVGcWQYvekC)" class="la1t-8qad"/><rect fill="url(#SVG4UiP5nmy)" class="evgi_uonx"/><rect fill="url(#SVGZzxN0v1p)" class="kiti5abqw"/></g><defs><linearGradient id="SVGdgVwsblS" x1="13.57" x2="25.89" y1="0" y2="26.09" gradientUnits="userSpaceOnUse"><stop class="o19ptqc3p"/><stop offset="1" class="cequoob6b"/></linearGradient><linearGradient id="SVG4UiP5nmy" x1="9.3" x2="19.65" y1="7" y2="27.07" gradientUnits="userSpaceOnUse"><stop class="hn2esfblp"/><stop offset="1" class="o19ptqc3p"/></linearGradient><linearGradient id="SVGZzxN0v1p" x1="3.46" x2="9.18" y1="14" y2="27.56" gradientUnits="userSpaceOnUse"><stop class="lgwa88bup"/><stop offset="1" class="hn2esfblp"/></linearGradient><filter id="SVGIgrzkcFw" width="9.8" height="21.47" x="9.06" y="6.88" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation=".12"/></filter><filter id="SVGcWQYvekC" width="14" height="25.67" x="6.96" y="5.25" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur stdDeviation="1.17"/></filter></defs></g></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:file-type-powerbi" {...props}></Icon>
 <style>
-:global(.b5w5j364n) {
-  width: 9.333px;
-  height: 28px;
-  x: 15.13px;
-  rx: 1.167px;
-}
-
-:global(.bsrlwexql) {
-  width: 9.334px;
-  height: 21px;
-  x: 9.296px;
-  y: 7px;
-  rx: 1.167px;
-}
-
 :global(.cequoob6b) {
   stop-color: var(--svg-color--c87e0e, #c87e0e);
+}
+
+:global(.err34w4bf) {
+  width: 9.33px;
+  height: 21px;
+  x: 9.3px;
+  y: 7px;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  rx: 1.17px;
+}
+
+:global(.evgi_uonx) {
+  width: 9.33px;
+  height: 21px;
+  x: 9.3px;
+  y: 7px;
+  rx: 1.17px;
 }
 
 :global(.hn2esfblp) {
   stop-color: var(--svg-color--f6d751, #f6d751);
 }
 
-:global(.jde8rjmwe) {
-  width: 9.333px;
+:global(.iwecndb-j) {
+  width: 9.33px;
+  height: 28px;
+  x: 15.13px;
+  rx: 1.17px;
+}
+
+:global(.kiti5abqw) {
+  width: 9.33px;
   height: 14px;
-  x: 3.463px;
+  x: 3.46px;
   y: 14px;
-  rx: 1.167px;
+  rx: 1.17px;
+}
+
+:global(.la1t-8qad) {
+  width: 9.33px;
+  height: 21px;
+  x: 9.3px;
+  y: 7px;
+  fill-opacity: var(--svg-fill-opacity--0-18, 0.18);
+  rx: 1.17px;
 }
 
 :global(.lgwa88bup) {
@@ -48,22 +66,8 @@ const content = `<g transform="translate(2 2)"><rect fill="url(#SVGSyDbCdIo)" cl
   stop-color: var(--svg-color--e6ad10, #e6ad10);
 }
 
-:global(.zddnpr4ja) {
-  width: 9.334px;
-  height: 21px;
-  x: 9.296px;
-  y: 7px;
-  fill-opacity: var(--svg-fill-opacity--0-18, 0.18);
-  rx: 1.167px;
-}
-
-:global(.zp3i9bz2p) {
-  width: 9.334px;
-  height: 21px;
-  x: 9.296px;
-  y: 7px;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  rx: 1.167px;
+:global(.yheihnbxw) {
+  d: path("M0 0h32v32H0z");
 }
 
 </style>

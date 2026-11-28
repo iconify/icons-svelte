@@ -5,7 +5,7 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":32,"height":32};
-const content = `<circle class="d4gjmmazr"/><path class="lol9h8w8o"/><path class="inwc3bcsc"/><path class="uowwz187x"/><path class="kdkbzs8zw"/><path class="ifo_2abup"/><path class="ssi48u96j"/>`;
+const content = `<g transform="translate(1.45 1.45)scale(.90926)"><circle class="d4gjmmazr"/><path class="lol9h8w8o"/><path class="inwc3bcsc"/><path class="uowwz187x"/><path class="kdkbzs8zw"/><path class="ifo_2abup"/><path class="ssi48u96j"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="vscode-icons:file-type-dbt-bouncer" {...props}></Icon>
 <style>
