@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/codicon",
   "type": "module",
-  "version": "1.0.49",
+  "version": "1.0.50",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC-BY-4.0",
@@ -1546,6 +1546,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mcp.svelte"
     },
+    "./mcp-compact": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mcp-compact.svelte"
+    },
     "./megaphone": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/megaphone.svelte"
@@ -2386,6 +2390,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/terminal-secure.svelte"
     },
+    "./terminal-secure-compact": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/terminal-secure-compact.svelte"
+    },
     "./terminal-tmux": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/terminal-tmux.svelte"
@@ -2401,6 +2409,10 @@
     "./thinking": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/thinking.svelte"
+    },
+    "./thinking-compact": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/thinking-compact.svelte"
     },
     "./three-bars": {
       "types": "./types/gfwqskkx.d.ts",
@@ -2425,6 +2437,10 @@
     "./tools": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/t/tools.svelte"
+    },
+    "./tools-compact": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/t/tools-compact.svelte"
     },
     "./trash": {
       "types": "./types/gfwqskkx.d.ts",
