@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/lucide",
   "type": "module",
-  "version": "1.0.93",
+  "version": "1.0.94",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "ISC",
@@ -618,6 +618,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/baggage-claim.svelte"
     },
+    "./balcony": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/balcony.svelte"
+    },
     "./ball-wave": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/ball-wave.svelte"
@@ -1090,9 +1094,17 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/boxes-linked.svelte"
     },
+    "./boxing-glove": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/boxing-glove.svelte"
+    },
     "./braces": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/b/braces.svelte"
+    },
+    "./braces-sigma": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/b/braces-sigma.svelte"
     },
     "./brackets": {
       "types": "./types/gfwqskkx.d.ts",
@@ -1678,6 +1690,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-down-up.svelte"
     },
+    "./chevrons-down-up-offset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevrons-down-up-offset.svelte"
+    },
     "./chevrons-from-axis-dashed-horizontal": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-from-axis-dashed-horizontal.svelte"
@@ -1713,6 +1729,10 @@
     "./chevrons-right-left": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/c/chevrons-right-left.svelte"
+    },
+    "./chevrons-right-left-offset": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/c/chevrons-right-left-offset.svelte"
     },
     "./chevrons-to-axis-dashed-horizontal": {
       "types": "./types/gfwqskkx.d.ts",
@@ -4938,6 +4958,10 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-search.svelte"
     },
+    "./mail-send": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/m/mail-send.svelte"
+    },
     "./mail-x": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/m/mail-x.svelte"
@@ -7570,6 +7594,42 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-text.svelte"
     },
+    "./square-text-align-bottom-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-bottom-center.svelte"
+    },
+    "./square-text-align-bottom-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-bottom-left.svelte"
+    },
+    "./square-text-align-bottom-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-bottom-right.svelte"
+    },
+    "./square-text-align-middle-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-middle-center.svelte"
+    },
+    "./square-text-align-middle-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-middle-left.svelte"
+    },
+    "./square-text-align-middle-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-middle-right.svelte"
+    },
+    "./square-text-align-top-center": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-top-center.svelte"
+    },
+    "./square-text-align-top-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-top-left.svelte"
+    },
+    "./square-text-align-top-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/square-text-align-top-right.svelte"
+    },
     "./square-user": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/square-user.svelte"
@@ -7609,6 +7669,14 @@
     "./squirrel": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/s/squirrel.svelte"
+    },
+    "./stairs-arrow-down-left": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stairs-arrow-down-left.svelte"
+    },
+    "./stairs-arrow-up-right": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/s/stairs-arrow-up-right.svelte"
     },
     "./stamp": {
       "types": "./types/gfwqskkx.d.ts",
