@@ -1,0 +1,31 @@
+<script>
+import Icon from '@iconify/css-svelte';
+
+/** @type {{width?: string; height?: string;}} */
+let {width, height, ...props} = $props();
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gp_8x1bzb"><path class="eju8g5b7t"/><path clip-rule="evenodd" class="d-guv_bnr"/></g>`;
+</script>
+<Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:shapes-blend-sharp-duotone" {...props}></Icon>
+<style>
+:global(.d-guv_bnr) {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M20.243 11.757C21.327 12.842 22 14.343 22 16C22 19.314 19.314 22 16 22C12.686 22 10 19.314 10 16C10 12.686 12.686 10 16 10C17.657 10 19.158 10.673 20.243 11.757Z");
+  stroke: none;
+}
+
+:global(.eju8g5b7t) {
+  stroke-opacity: 0.4;
+  d: path("M3 13V3H13M7 17V10C7 8.343 8.343 7 10 7H17");
+}
+
+:global(.gp_8x1bzb) {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+</style>

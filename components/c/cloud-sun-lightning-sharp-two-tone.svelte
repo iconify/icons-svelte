@@ -5,14 +5,10 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="l1s7kvbwq"/><path class="u8ae7_bmm"/><path class="flu61ufrh"/></g>`;
+const content = `<g class="gp_8x1bzb"><path class="l1s7kvbwq"/><path class="u8ae7_bmm"/><path class="u4u_vh0qe"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:cloud-sun-lightning-sharp-two-tone" {...props}></Icon>
 <style>
-:global(.flu61ufrh) {
-  d: path("M6.766 10.373L6.467 9.955C6.163 9.531 6 9.022 6 8.5C6 7.119 7.119 6 8.5 6C8.817 6 9.132 6.06 9.426 6.178L10.056 6.429M15.798 17.169L13.25 20H16.25L13.716 22.253");
-}
-
 :global(.gp_8x1bzb) {
   fill: none;
   stroke: currentColor;
@@ -23,6 +19,10 @@ const content = `<g class="gp_8x1bzb"><path class="l1s7kvbwq"/><path class="u8ae
 :global(.l1s7kvbwq) {
   stroke-opacity: 0.4;
   d: path("M9 18.887L8.5 18.598C7.572 18.062 7 17.072 7 16C7 14.343 8.343 13 10 13C10 10.515 12.015 8.5 14.5 8.5C16.985 8.5 19 10.515 19 13C20.657 13 22 14.343 22 16C22 17.072 21.428 18.062 20.5 18.598L20 18.887");
+}
+
+:global(.u4u_vh0qe) {
+  d: path("M6.766 10.373L6.467 9.955C6.163 9.531 6 9.022 6 8.5C6 7.119 7.119 6 8.5 6C8.817 6 9.132 6.06 9.426 6.178L10.056 6.429M15.7929 15.7071L12.5 19H16.5L13.2071 22.2929");
 }
 
 :global(.u8ae7_bmm) {

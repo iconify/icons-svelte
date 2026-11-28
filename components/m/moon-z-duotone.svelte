@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="q_juv0bfw"/><path class="j6lwybb_v"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="q_juv0bfw"/><path class="ja5ucrb-k"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:moon-z-duotone" {...props}></Icon>
 <style>
-:global(.j6lwybb_v) {
-  d: path("M22 9H17.1466C16.71 9 16.4831 8.4797 16.7802 8.15977L21.7198 2.84023C22.0169 2.5203 21.79 2 21.3534 2H16.5");
+:global(.ja5ucrb-k) {
+  d: path("M16 2H22L16 8H22");
 }
 
 :global(.nrj6p8qat) {

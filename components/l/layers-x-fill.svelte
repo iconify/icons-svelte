@@ -5,12 +5,12 @@ import Icon from '@iconify/css-svelte';
 let {width, height, ...props} = $props();
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="iw7zvwbvy"/><path class="gebltrbha"/></g>`;
+const content = `<g class="nrj6p8qat"><path clip-rule="evenodd" class="iw7zvwbvy"/><path class="acwg6ob0g"/></g>`;
 </script>
 <Icon width={width} height={height} viewBox={viewBox} content={content} fallback="keyline-icons:layers-x-fill" {...props}></Icon>
 <style>
-:global(.gebltrbha) {
-  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M17 17L22 22M22 17L17 22");
+:global(.acwg6ob0g) {
+  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M16 16L22 22M22 16L16 22");
 }
 
 :global(.iw7zvwbvy) {
