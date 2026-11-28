@@ -1,7 +1,7 @@
 {
   "name": "@iconify-svelte/selfhst",
   "type": "module",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-svelte/issues",
   "license": "CC-BY-4.0",
@@ -1989,6 +1989,10 @@
     "./aviato-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/a/aviato-light.svelte"
+    },
+    "./awin": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/a/awin.svelte"
     },
     "./azirevpn": {
       "types": "./types/gfwqskkx.d.ts",
@@ -21302,6 +21306,18 @@
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/prunemate-light.svelte"
     },
+    "./prusa-connect": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prusa-connect.svelte"
+    },
+    "./prusa-connect-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prusa-connect-dark.svelte"
+    },
+    "./prusa-connect-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/p/prusa-connect-light.svelte"
+    },
     "./ps5-mqtt": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/p/ps5-mqtt.svelte"
@@ -22561,6 +22577,18 @@
     "./relaytv-light": {
       "types": "./types/gfwqskkx.d.ts",
       "svelte": "./components/r/relaytv-light.svelte"
+    },
+    "./releasewatcher": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/releasewatcher.svelte"
+    },
+    "./releasewatcher-dark": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/releasewatcher-dark.svelte"
+    },
+    "./releasewatcher-light": {
+      "types": "./types/gfwqskkx.d.ts",
+      "svelte": "./components/r/releasewatcher-light.svelte"
     },
     "./relic-storage": {
       "types": "./types/gfwqskkx.d.ts",
